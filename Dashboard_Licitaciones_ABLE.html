@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard Licitaciones — ABLE S.A.</title>
+<script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#eef1f6;min-height:100vh;color:#1a1a1a}
+
+/* TOP BAR */
+.topbar{background:#1a3a5c;color:#fff;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.topbar-left h1{font-size:16px;font-weight:bold}
+.topbar-left p{font-size:11px;opacity:.65;margin-top:2px}
+.topbar-right{display:flex;gap:7px;flex-wrap:wrap}
+
+/* LAYOUT */
+.main{max-width:1400px;margin:0 auto;padding:20px 16px}
+
+/* STAT CARDS */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:20px}
+.stat{background:#fff;border-radius:10px;padding:14px 16px;border-top:3px solid #ccc}
+.stat.blue{border-color:#2471a3}.stat.green{border-color:#27ae60}
+.stat.orange{border-color:#e67e22}.stat.red{border-color:#c0392b}.stat.purple{border-color:#8e44ad}
+.stat-label{font-size:11.5px;color:#888;margin-bottom:5px}
+.stat-value{font-size:24px;font-weight:bold;color:#1a1a1a}
+.stat-sub{font-size:10.5px;color:#bbb;margin-top:2px}
+
+/* TOOLBAR */
+.toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;align-items:center}
+.toolbar input,.toolbar select{padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:12.5px;background:#fff;outline:none}
+.toolbar input:focus,.toolbar select:focus{border-color:#1a3a5c}
+.spacer{flex:1}
+.count-lbl{font-size:12px;color:#999}
+
+/* BUTTONS */
+.btn{padding:8px 14px;border:none;border-radius:6px;font-size:12.5px;font-weight:bold;cursor:pointer;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:#1a3a5c;color:#fff}.btn-primary:hover{background:#234d7a}
+.btn-success{background:#27ae60;color:#fff}.btn-success:hover{background:#229954}
+.btn-teal{background:#148f77;color:#fff}.btn-teal:hover{background:#117a65}
+.btn-outline{background:#fff;color:#1a3a5c;border:1.5px solid #1a3a5c}.btn-outline:hover{background:#eaf0f8}
+.btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-danger{background:#e74c3c;color:#fff}.btn-danger:hover{background:#c0392b}
+.btn-sm{padding:4px 9px;font-size:11.5px}
+.btn-icon{padding:5px 8px;font-size:13px}
+
+/* TABLE */
+.table-wrap{background:#fff;border-radius:10px;overflow:auto;box-shadow:0 1px 6px rgba(0,0,0,.08)}
+table{width:100%;border-collapse:collapse;font-size:12px}
+thead tr{background:#1a3a5c;color:#fff}
+th{padding:10px 10px;text-align:left;font-weight:bold;white-space:nowrap;font-size:11.5px}
+th.c{text-align:center}
+tbody tr{border-bottom:1px solid #f2f2f2;transition:background .12s}
+tbody tr:hover{background:#f5faff}
+td{padding:8px 10px;vertical-align:middle}
+td.c{text-align:center}
+td.r{text-align:right}
+
+/* FLOW STEPPER (per row) */
+.flow{display:flex;align-items:center;gap:2px}
+.step{font-size:10px;padding:3px 7px;border-radius:10px;white-space:nowrap;font-weight:bold}
+.step-done{background:#d4efdf;color:#1e8449}
+.step-active{background:#1a3a5c;color:#fff}
+.step-pending{background:#f0f0f0;color:#bbb}
+.step-alert{background:#fde8d8;color:#c0542a}
+.step-arrow{color:#ccc;font-size:10px}
+
+/* BADGES */
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10.5px;font-weight:bold}
+.b-si{background:#d4efdf;color:#1e8449}
+.b-no{background:#f0f0f0;color:#aaa}
+.b-norte{background:#d6eaf8;color:#1a6fc4}
+.b-sur{background:#e8daef;color:#7d3c98}
+.b-oeste{background:#d5f5e3;color:#1e8449}
+.b-pendiente{background:#fef5e7;color:#c87f0a}
+.b-recibida{background:#d6eaf8;color:#1a6fc4}
+.b-correcta{background:#d4efdf;color:#1e8449}
+.b-diferencias{background:#fdedec;color:#c0392b}
+.b-alerta{background:#fdedec;color:#c0392b}
+.b-mayor{background:#e8daef;color:#6c3483}
+.b-warn{background:#fef5e7;color:#c87f0a}
+
+/* DETAIL MODAL */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:200;padding:16px}
+.modal{background:#fff;border-radius:12px;width:100%;max-width:760px;max-height:92vh;overflow-y:auto;box-shadow:0 10px 40px rgba(0,0,0,.25)}
+.modal-hdr{background:#1a3a5c;color:#fff;padding:15px 20px;border-radius:12px 12px 0 0;display:flex;justify-content:space-between;align-items:center}
+.modal-hdr h2{font-size:14px;font-weight:bold}
+.modal-close{background:none;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1}
+.modal-body{padding:20px}
+.modal-ftr{padding:12px 20px;border-top:1px solid #eee;display:flex;justify-content:flex-end;gap:8px;background:#fafafa;border-radius:0 0 12px 12px}
+
+/* SECTIONS INSIDE MODAL */
+.section{margin-bottom:20px}
+.section-title{font-size:12px;font-weight:bold;color:#1a3a5c;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;padding-bottom:5px;border-bottom:2px solid #eaf0f8}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fg{display:flex;flex-direction:column;gap:4px}
+.fg.full{grid-column:1/-1}
+label{font-size:11.5px;font-weight:bold;color:#666}
+input[type=text],input[type=date],input[type=number],select,textarea{padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:12.5px;width:100%;font-family:Arial,sans-serif;outline:none}
+input:focus,select:focus,textarea:focus{border-color:#1a3a5c;box-shadow:0 0 0 2px rgba(26,58,92,.1)}
+textarea{resize:vertical;min-height:60px}
+.auto-fld{background:#f5f5f5;color:#999;cursor:not-allowed}
+.field-hint{font-size:10.5px;color:#aaa;margin-top:2px}
+
+/* WORKFLOW VISUAL */
+.workflow-bar{display:flex;margin-bottom:20px;border-radius:8px;overflow:hidden;border:1px solid #e0e0e0}
+.wf-step{flex:1;padding:10px 8px;text-align:center;font-size:11px;font-weight:bold;position:relative}
+.wf-step .wf-label{font-size:10px;margin-top:3px;opacity:.8}
+.wf-done{background:#d4efdf;color:#1e8449}
+.wf-active{background:#1a3a5c;color:#fff}
+.wf-pending{background:#f5f5f5;color:#ccc}
+.wf-alert{background:#fde8d8;color:#c0542a}
+
+/* IMPORT PANEL */
+.import-panel{background:#f0f7ff;border:1.5px dashed #2471a3;border-radius:8px;padding:16px;margin-bottom:20px}
+.import-panel h3{font-size:13px;color:#1a3a5c;margin-bottom:8px}
+.import-panel p{font-size:12px;color:#555;margin-bottom:10px}
+.import-panel textarea{font-family:monospace;font-size:11.5px;height:100px;background:#fff;border-color:#b0cfe8}
+
+/* CONFIRM */
+.confirm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:500}
+.confirm-card{background:#fff;border-radius:10px;padding:24px;max-width:340px;text-align:center;box-shadow:0 6px 24px rgba(0,0,0,.2)}
+.confirm-card p{font-size:13.5px;line-height:1.5;margin-bottom:18px}
+.confirm-btns{display:flex;gap:10px;justify-content:center}
+
+/* TOAST */
+.toast{position:fixed;bottom:22px;right:22px;background:#1a3a5c;color:#fff;padding:11px 18px;border-radius:8px;font-size:13px;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:all .3s;pointer-events:none;transform:translateY(6px)}
+.toast.show{opacity:1;transform:translateY(0)}
+.toast.ok{background:#27ae60}
+.toast.err{background:#e74c3c}
+.toast.warn{background:#e67e22}
+
+/* EMPTY */
+.empty-row td{text-align:center;padding:40px;color:#bbb;font-size:13px}
+
+/* COMPARATIVA EMBEDDED */
+.comp-hdr{background:#1a3a5c;color:#fff;padding:8px 10px;text-align:center;white-space:nowrap;font-size:11px;font-weight:bold;border:1px solid #0d2540}
+.comp-price{padding:6px 10px;text-align:right;font-weight:bold;font-size:12px;border-bottom:1px solid #f0f0f0}
+.comp-marca{font-size:10px;font-style:italic;padding:3px 10px 6px;color:#777}
+.comp-td{vertical-align:top;border-left:1px solid #ececec}
+.bg-verde{background:#d4efdf !important;color:#1e8449 !important}
+.bg-amarillo{background:#fef9e7 !important;color:#9a7c00 !important}
+.bg-naranja{background:#fde8d8 !important;color:#c0542a !important}
+.bg-rosado{background:#fde8d8 !important;color:#c0392b !important}
+.sep-row td{background:#f8f8f8;height:5px;padding:0}
+.comp-note{margin-top:14px;padding:11px 14px;background:#fff8e1;border-left:4px solid #f39c12;font-size:12px;line-height:1.6;border-radius:0 4px 4px 0}
+
+@media(max-width:700px){
+  .form-grid{grid-template-columns:1fr}
+  .fg.full{grid-column:1}
+  .topbar-right .btn span{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-left">
+    <h1>&#128203; Dashboard Licitaciones — ABLE S.A.</h1>
+    <p id="lastSave">Cargando datos...</p>
+  </div>
+  <div class="topbar-right">
+    <span id="unpublishedBadge" style="display:none;background:#e67e22;color:#fff;font-size:11px;font-weight:bold;padding:4px 10px;border-radius:10px;white-space:nowrap">⚠ Cambios sin publicar</span>
+    <input type="file" id="xlsxInput" accept=".xlsx,.xls" style="display:none" onchange="loadFromExcel(event)">
+    <button class="btn btn-ghost" onclick="document.getElementById('xlsxInput').click()">&#128194; Cargar Excel</button>
+    <button class="btn btn-ghost" onclick="showImport()">&#8595; Importar de Claude</button>
+    <button class="btn btn-ghost" onclick="exportExcel()">&#128190; Exportar Excel</button>
+    <button class="btn btn-teal" onclick="publishJSON()" title="Descargá este archivo y subilo a GitHub para que todos vean los cambios">&#128228; Publicar datos.json</button>
+    <button class="btn btn-success" onclick="openNew()">+ Nueva licitación</button>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- STATS -->
+  <div class="stats" id="statsBar">
+    <div class="stat blue"><div class="stat-label">Total licitaciones</div><div class="stat-value" id="sTotal">0</div></div>
+    <div class="stat green"><div class="stat-label">Empate técnico</div><div class="stat-value" id="sEmpate">0</div></div>
+    <div class="stat green"><div class="stat-label">Pref. nacional</div><div class="stat-value" id="sPref">0</div></div>
+    <div class="stat orange"><div class="stat-label">OC pendiente</div><div class="stat-value" id="sOCPend">0</div></div>
+    <div class="stat red"><div class="stat-label">OC con diferencias</div><div class="stat-value" id="sOCDif">0</div></div>
+    <div class="stat purple"><div class="stat-label">Monto total cotizado</div><div class="stat-value" id="sMonto" style="font-size:16px">$0</div></div>
+  </div>
+
+  <!-- TOOLBAR -->
+  <div class="toolbar">
+    <input type="text" id="search" placeholder="&#128269; Buscar entidad o licitación..." oninput="render()" style="min-width:210px">
+    <select id="fZona" onchange="render()">
+      <option value="">Todas las zonas</option>
+      <option>Zona Norte</option><option>Zona Sur</option><option>Zona Oeste</option>
+    </select>
+    <select id="fEtapa" onchange="render()">
+      <option value="">Todas las etapas</option>
+      <option>Comparativa</option><option>Pre-adjudicación</option>
+      <option>Adjudicación</option><option>OC</option>
+    </select>
+    <select id="fMayor" onchange="render()">
+      <option value="">Monto (todos)</option>
+      <option value="si">Solo MAYOR (≥ $6.000.000)</option>
+      <option value="no">Solo menores</option>
+    </select>
+    <select id="fOC" onchange="render()">
+      <option value="">Estado OC (todos)</option>
+      <option>Pendiente</option><option>Recibida</option><option>Correcta</option><option>Con diferencias</option>
+    </select>
+    <select id="fAlerta" onchange="render()">
+      <option value="">Sin filtro de alertas</option>
+      <option value="empate">Con empate técnico</option>
+      <option value="pref">Con pref. nacional</option>
+      <option value="adj_alerta">Con alertas de adjudicación</option>
+    </select>
+    <div class="spacer"></div>
+    <span class="count-lbl" id="countLbl"></span>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="min-width:190px">Entidad</th>
+          <th style="min-width:100px">N° Licit.</th>
+          <th class="c" style="min-width:80px">Apertura</th>
+          <th class="c" style="min-width:105px">Monto cotizado</th>
+          <th class="c" style="min-width:65px">Zona</th>
+          <th class="c" style="min-width:55px">Agente</th>
+          <th style="min-width:260px">Flujo de trabajo</th>
+          <th class="c" style="min-width:65px">Emp. tec.</th>
+          <th class="c" style="min-width:65px">Pref. nac.</th>
+          <th class="c" style="min-width:95px">F. Pre-adj.</th>
+          <th class="c" style="min-width:100px">F. Adjudicación</th>
+          <th class="c" style="min-width:90px">Estado OC</th>
+          <th class="c" style="min-width:75px">Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- ======= DETAIL / EDIT MODAL ======= -->
+<div class="overlay" id="detailOverlay" style="display:none" onclick="if(event.target===this)closeDetail()">
+<div class="modal">
+  <div class="modal-hdr">
+    <h2 id="detailTitle">Licitación</h2>
+    <button class="modal-close" onclick="closeDetail()">&#215;</button>
+  </div>
+  <div class="modal-body" id="detailBody"></div>
+  <div class="modal-ftr">
+    <button class="btn btn-danger btn-sm" id="detailDeleteBtn">Eliminar</button>
+    <div style="flex:1"></div>
+    <button class="btn btn-outline" onclick="closeDetail()">Cancelar</button>
+    <button class="btn btn-primary" onclick="saveDetail()">&#10003; Guardar cambios</button>
+  </div>
+</div>
+</div>
+
+<!-- ======= IMPORT OVERLAY ======= -->
+<div class="overlay" id="importOverlay" style="display:none" onclick="if(event.target===this)closeImport()">
+<div class="modal" style="max-width:560px">
+  <div class="modal-hdr">
+    <h2>&#8595; Importar actualización de Claude</h2>
+    <button class="modal-close" onclick="closeImport()">&#215;</button>
+  </div>
+  <div class="modal-body">
+    <div class="import-panel">
+      <h3>¿Cómo funciona?</h3>
+      <p>Cada vez que Claude analice una comparativa, adjudicación u OC, te va a dar un bloque de código JSON al final del análisis. Copialo y pegalo acá — el dashboard se actualiza automáticamente.</p>
+      <textarea id="importJson" placeholder='Pegá aquí el JSON que te dio Claude. Ejemplo:
+{
+  "accion": "nueva_comparativa",
+  "nro": "PA 126/2026",
+  "entidad": "H.Z.G.A. ...",
+  ...
+}'></textarea>
+    </div>
+    <div id="importPreview" style="display:none;background:#f9f9f9;border-radius:6px;padding:12px;font-size:12px;border:1px solid #e0e0e0">
+      <strong>Vista previa:</strong>
+      <pre id="importPreviewText" style="margin-top:6px;white-space:pre-wrap;word-break:break-all;font-size:11px"></pre>
+    </div>
+  </div>
+  <div class="modal-ftr">
+    <button class="btn btn-outline" onclick="closeImport()">Cancelar</button>
+    <button class="btn btn-teal" onclick="previewImport()">&#128269; Validar</button>
+    <button class="btn btn-success" id="btnDoImport" onclick="doImport()" disabled>&#10003; Importar</button>
+  </div>
+</div>
+</div>
+
+<!-- ======= MIGRATION OVERLAY ======= -->
+<div class="overlay" id="migrateOverlay" style="display:none" onclick="if(event.target===this)closeMigrate()">
+<div class="modal" style="max-width:620px">
+  <div class="modal-hdr">
+    <h2>&#128194; Cargar datos desde Excel</h2>
+    <button class="modal-close" onclick="closeMigrate()">&#215;</button>
+  </div>
+  <div class="modal-body">
+    <div id="migrateStatus" style="font-size:13px;color:#555;margin-bottom:14px;line-height:1.6">
+      Leyendo archivo...
+    </div>
+    <div id="migratePreviewWrap" style="display:none">
+      <div style="background:#f0fff4;border:1px solid #a9dfbf;border-radius:8px;padding:12px 16px;margin-bottom:14px;font-size:13px">
+        <strong id="migrateCount"></strong><br>
+        <span style="color:#555" id="migrateDetail"></span>
+      </div>
+      <div style="max-height:260px;overflow-y:auto;border:1px solid #e0e0e0;border-radius:8px">
+        <table style="width:100%;border-collapse:collapse;font-size:11.5px">
+          <thead>
+            <tr style="background:#1a3a5c;color:#fff;position:sticky;top:0">
+              <th style="padding:7px 10px;text-align:left">Entidad</th>
+              <th style="padding:7px 10px;text-align:left">N° Licitación</th>
+              <th style="padding:7px 10px;text-align:left">Tipo</th>
+              <th style="padding:7px 10px;text-align:center">Apertura</th>
+              <th style="padding:7px 10px;text-align:right">Monto</th>
+              <th style="padding:7px 10px;text-align:center">Zona</th>
+              <th style="padding:7px 10px;text-align:center">OC</th>
+              <th style="padding:7px 10px;text-align:center">F. Adjudicación</th>
+            </tr>
+          </thead>
+          <tbody id="migratePreviewRows"></tbody>
+        </table>
+      </div>
+      <p style="font-size:11.5px;color:#e67e22;margin-top:10px">&#9888; Esto <strong>reemplaza</strong> todos los datos actuales del dashboard. Si querés conservarlos, exportá a Excel primero.</p>
+    </div>
+  </div>
+  <div class="modal-ftr">
+    <button class="btn btn-outline" onclick="closeMigrate()">Cancelar</button>
+    <button class="btn btn-success" id="btnDoMigrate" onclick="doMigrate()" style="display:none">&#10003; Cargar todos los datos</button>
+  </div>
+</div>
+</div>
+
+<!-- ======= COMPARATIVA OVERLAY ======= -->
+<div class="overlay" id="compOverlay" style="display:none" onclick="if(event.target===this)closeComp()">
+<div class="modal" style="max-width:1000px">
+  <div class="modal-hdr">
+    <h2 id="compTitle">Comparativa</h2>
+    <button class="modal-close" onclick="closeComp()">&#215;</button>
+  </div>
+  <div class="modal-body" id="compBody" style="padding:16px;overflow-x:auto"></div>
+  <div class="modal-ftr">
+    <button class="btn btn-outline" onclick="closeComp()">Cerrar</button>
+  </div>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ─── STORAGE ───────────────────────────────────────────────────────────────
+const KEY = 'ableDashV2';
+const AGENTES = {'Zona Norte':'Diego','Zona Sur':'Noé','Zona Oeste':'Gonzalo'};
+let data = [];
+let nextId = 1;
+let detailId = null;
+let importParsed = null;
+let dataSource = 'local'; // 'json' | 'local'
+let hasUnpublished = false;
+
+const ETAPAS = ['Comparativa','Pre-adjudicación','Adjudicación','OC'];
+const ETAPA_SHORT = ['Comp.','Pre-adj.','Adj.','OC'];
+
+function normalizeRows(rows){
+  return rows.map(r=>({
+    preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+    gestion_pre:'', gestion_pre_resultado:'',
+    gestion_post:'', gestion_post_resultado:'',
+    adj_recibida:false, adj_fecha:'', adj_monto_able:0,
+    adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
+    oc:'Pendiente', oc_fecha:'', oc_alertas:'',
+    tabla: null,
+    ...r,
+    monto: Math.round(Number(String(r.monto||0).replace(/[$ .]/g,'').replace(',','.'))||0)
+  }));
+}
+
+async function load(){
+  // 1. Try to fetch datos.json (works on GitHub Pages or any web server)
+  try{
+    const res = await fetch('./datos.json?_='+Date.now());
+    if(res.ok){
+      const p = await res.json();
+      data = normalizeRows(p.rows||[]);
+      nextId = p.nextId || data.length + 1;
+      dataSource = 'json';
+      // Cache locally so edits survive a page reload before publishing
+      localStorage.setItem(KEY, JSON.stringify({rows:data, nextId, _src:'json', _ts:Date.now()}));
+      markPublished();
+      document.getElementById('lastSave').textContent = 'Datos cargados desde datos.json — '+new Date().toLocaleTimeString('es-AR');
+      return;
+    }
+  }catch(e){ /* file:// protocol or network error — fall through to localStorage */ }
+
+  // 2. Fallback: localStorage (when running locally as file://)
+  try{
+    const s = localStorage.getItem(KEY);
+    if(s){
+      const p = JSON.parse(s);
+      data = normalizeRows(p.rows||[]);
+      nextId = p.nextId || data.length + 1;
+      dataSource = 'local';
+      // If localStorage has unpublished changes, show the badge
+      if(p._unpublished) markUnsaved();
+      document.getElementById('lastSave').textContent = 'Datos locales (navegador) — '+new Date().toLocaleTimeString('es-AR');
+    } else {
+      data=[defaultRow()]; nextId=2; save();
+      dataSource = 'local';
+    }
+  }catch(e){ data=[defaultRow()]; nextId=2; }
+}
+
+function save(){
+  hasUnpublished = true;
+  localStorage.setItem(KEY, JSON.stringify({rows:data, nextId, _unpublished:true}));
+  document.getElementById('lastSave').textContent = 'Modificado: '+new Date().toLocaleTimeString('es-AR')+' (pendiente publicar)';
+  markUnsaved();
+}
+
+function markUnsaved(){
+  hasUnpublished = true;
+  document.getElementById('unpublishedBadge').style.display = 'inline-block';
+}
+function markPublished(){
+  hasUnpublished = false;
+  document.getElementById('unpublishedBadge').style.display = 'none';
+}
+
+function publishJSON(){
+  const payload = JSON.stringify({rows:data, nextId}, null, 2);
+  const blob = new Blob([payload], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'datos.json';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+  // Update localStorage to mark as published
+  localStorage.setItem(KEY, JSON.stringify({rows:data, nextId, _unpublished:false}));
+  markPublished();
+  document.getElementById('lastSave').textContent = 'datos.json descargado — subilo a GitHub para que todos vean los cambios';
+  toast('datos.json descargado ✓ — subilo a GitHub','ok');
+}
+
+function defaultRow(){
+  return {
+    id:1, entidad:'H.Z.G.A. MAGDALENA V. DE MARTINEZ', nro:'PA 126/2026',
+    tipo:'Procedimiento Abreviado', fecha:'2026-05-22', monto:869616, mayor:'No',
+    zona:'Zona Norte', agente:'Diego', etapa:'Comparativa',
+    empate:'Sí', pref:'Sí',
+    obs:'Reng. 1 y 4: ABLE gana. Reng. 2: Martorani (1 aguja, obj) y CirArg (aguja/hebra, obj). Reng. 3: CirArg importado Perú, dif. 9,72% (pref.nac.); si desestimada Martorani 0,67% → empate técnico. Gestión recomendada reng. 3.',
+    tabla:{
+      oferentes:['ABLE S.A.','Martorani','CirArg'],
+      renglones:[
+        {reng:1,cant:500,desc:'Hilo sutura sint. absorbible Poliglactina 910 2/0 — aguja 1/2 circ. cort. 26mm',es_alt:false,celdas:[
+          {oferente:'ABLE S.A.',precio:869.62,marca:'DEXON 2/0 CT-1',bg_precio:'verde',bg_marca:'',obj:false},
+          {oferente:'Martorani',precio:null,marca:null,bg_precio:'',bg_marca:'',obj:false},
+          {oferente:'CirArg',precio:null,marca:null,bg_precio:'',bg_marca:'',obj:false}
+        ]},
+        {reng:2,cant:200,desc:'Hilo sutura sint. absorbible Poliglactina 910 0 — aguja 1/2 circ. cort. 40mm',es_alt:false,celdas:[
+          {oferente:'ABLE S.A.',precio:1089.53,marca:'DEXON 0 CT-2',bg_precio:'verde',bg_marca:'',obj:false},
+          {oferente:'Martorani',precio:980.00,marca:'Martorani 0 — 1 aguja',bg_precio:'verde',bg_marca:'rosado',obj:true,obj_nota:'1 sola aguja, pliego pide 2'},
+          {oferente:'CirArg',precio:950.00,marca:'CirArg 0 — aguja/hebra',bg_precio:'verde',bg_marca:'rosado',obj:true,obj_nota:'aguja y hebra por separado'}
+        ]},
+        {reng:3,cant:150,desc:'Hilo sutura sint. absorbible Poliglactina 910 1 — aguja 1/2 circ. cort. 40mm',es_alt:false,celdas:[
+          {oferente:'ABLE S.A.',precio:1250.00,marca:'DEXON 1 CT-2',bg_precio:'naranja',bg_marca:'',obj:false},
+          {oferente:'Martorani',precio:1241.62,marca:'Martorani 1',bg_precio:'amarillo',bg_marca:'',obj:false},
+          {oferente:'CirArg',precio:1138.00,marca:'CirArg 1 — importado Perú',bg_precio:'verde',bg_marca:'rosado',obj:false,obj_nota:'Importado Perú — pref. nacional aplica (dif. 9,72%)'}
+        ]},
+        {reng:4,cant:300,desc:'Hilo sutura sint. no absorbible Polipropileno 3/0 — aguja 3/8 circ. rev. 16mm',es_alt:false,celdas:[
+          {oferente:'ABLE S.A.',precio:540.00,marca:'PROLENE 3/0',bg_precio:'verde',bg_marca:'',obj:false},
+          {oferente:'Martorani',precio:null,marca:null,bg_precio:'',bg_marca:'',obj:false},
+          {oferente:'CirArg',precio:null,marca:null,bg_precio:'',bg_marca:'',obj:false}
+        ]}
+      ],
+      notas:'<b>Reng. 1 y 4:</b> ABLE gana sin competencia. <b>Reng. 2:</b> Martorani y CirArg cotizan con (obj) — podrían ser desestimados; si ambos se desestiman ABLE gana. <b>Reng. 3:</b> CirArg importado Perú, diferencia 9,72% → preferencia nacional; si desestimado, Martorani queda a solo 0,67% de ABLE → empate técnico. <b>Gestión recomendada reng. 3.</b>'
+    },
+    // Pre-adjudicación
+    preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+    gestion_pre:'', gestion_pre_resultado:'',
+    // Adjudicación
+    adj_recibida:false, adj_fecha:'', adj_monto_able:0,
+    adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
+    // Gestión post-adj
+    gestion_post:'', gestion_post_resultado:'',
+    // OC
+    oc:'Pendiente', oc_fecha:'', oc_alertas:'',
+    creado: new Date().toISOString()
+  };
+}
+
+// ─── RENDER ────────────────────────────────────────────────────────────────
+function filtered(){
+  const q=(document.getElementById('search').value||'').toLowerCase();
+  const zona=document.getElementById('fZona').value;
+  const etapa=document.getElementById('fEtapa').value;
+  const mayor=document.getElementById('fMayor').value;
+  const oc=document.getElementById('fOC').value;
+  const alerta=document.getElementById('fAlerta').value;
+  return data.filter(r=>{
+    if(q && !r.entidad.toLowerCase().includes(q) && !r.nro.toLowerCase().includes(q)) return false;
+    if(zona && r.zona!==zona) return false;
+    if(etapa && r.etapa!==etapa) return false;
+    if(mayor==='si' && r.mayor!=='Sí') return false;
+    if(mayor==='no' && r.mayor==='Sí') return false;
+    if(oc && r.oc!==oc) return false;
+    if(alerta==='empate' && r.empate!=='Sí') return false;
+    if(alerta==='pref' && r.pref!=='Sí') return false;
+    if(alerta==='adj_alerta' && !r.adj_tiene_alerta) return false;
+    return true;
+  });
+}
+
+function flowHTML(r){
+  const cur = ETAPAS.indexOf(r.etapa);
+  return '<div class="flow">' + ETAPAS.map((e,i)=>{
+    let cls='step-pending';
+    if(i<cur) cls='step-done';
+    else if(i===cur) cls = (e==='Adjudicación'&&r.adj_tiene_alerta)?'step-alert':'step-active';
+    const arrow = i<ETAPAS.length-1?'<span class="step-arrow">›</span>':'';
+    return `<span class="step ${cls}">${ETAPA_SHORT[i]}</span>${arrow}`;
+  }).join('') + '</div>';
+}
+
+function badgeZona(z){
+  if(!z) return '—';
+  const c={'Zona Norte':'norte','Zona Sur':'sur','Zona Oeste':'oeste'};
+  const l={'Zona Norte':'Norte','Zona Sur':'Sur','Zona Oeste':'Oeste'};
+  return `<span class="badge b-${c[z]||'norte'}">${l[z]||z}</span>`;
+}
+function badgeOC(v){
+  const m={'Pendiente':'pendiente','Recibida':'recibida','Correcta':'correcta','Con diferencias':'diferencias'};
+  return `<span class="badge b-${m[v]||'pendiente'}">${v||'Pendiente'}</span>`;
+}
+function badgeSN(v){
+  if(!v||v==='No aplica') return '<span style="color:#ddd">—</span>';
+  return `<span class="badge b-${v==='Sí'?'si':'no'}">${v}</span>`;
+}
+function fmtMoney(n){ const v=Number(n)||0; return '$'+v.toLocaleString('es-AR',{maximumFractionDigits:0}); }
+function fmtDate(d){ if(!d)return'—'; const[y,m,dd]=d.split('-'); return`${dd}/${m}/${y}`; }
+
+function render(){
+  const rows=filtered();
+  document.getElementById('countLbl').textContent=rows.length+' de '+data.length;
+  // stats
+  document.getElementById('sTotal').textContent=data.length;
+  document.getElementById('sEmpate').textContent=data.filter(r=>r.empate==='Sí').length;
+  document.getElementById('sPref').textContent=data.filter(r=>r.pref==='Sí').length;
+  document.getElementById('sOCPend').textContent=data.filter(r=>r.oc==='Pendiente').length;
+  document.getElementById('sOCDif').textContent=data.filter(r=>r.oc==='Con diferencias').length;
+  document.getElementById('sMonto').textContent=fmtMoney(data.reduce((s,r)=>s+(+r.monto||0),0));
+
+  const tbody=document.getElementById('tbody');
+  if(!rows.length){
+    tbody.innerHTML='<tr class="empty-row"><td colspan="13">No hay licitaciones que coincidan con los filtros.</td></tr>';
+    return;
+  }
+  tbody.innerHTML=rows.map(r=>`
+    <tr>
+      <td><strong style="font-size:12px">${r.entidad}</strong></td>
+      <td><span style="font-weight:bold;color:#1a3a5c">${r.nro}</span><br><span style="font-size:10px;color:#aaa">${r.tipo||''}</span></td>
+      <td class="c" style="font-size:11.5px">${fmtDate(r.fecha)}</td>
+      <td class="r" style="font-size:12px"><strong>${fmtMoney(r.monto)}</strong>${r.mayor==='Sí'?'<br><span class="badge b-mayor" style="font-size:9px">MAYOR</span>':''}</td>
+      <td class="c">${badgeZona(r.zona)}</td>
+      <td class="c" style="font-size:12px">${r.agente||'—'}</td>
+      <td style="padding:6px 8px">${flowHTML(r)}${r.adj_tiene_alerta?'<div style="font-size:10px;color:#c0392b;margin-top:3px">⚠ alertas de adjudicación</div>':''}</td>
+      <td class="c">${badgeSN(r.empate)}</td>
+      <td class="c">${badgeSN(r.pref)}</td>
+      <td class="c" style="font-size:11.5px">${r.preadj_fecha ? '<span style="color:#2471a3;font-weight:bold">'+fmtDate(r.preadj_fecha)+'</span>' : '<span style="color:#ccc">—</span>'}</td>
+      <td class="c" style="font-size:11.5px">${r.adj_fecha ? '<span style="color:#1e8449;font-weight:bold">'+fmtDate(r.adj_fecha)+'</span>' : '<span style="color:#ccc">—</span>'}</td>
+      <td class="c">${badgeOC(r.oc)}</td>
+      <td class="c" style="white-space:nowrap">
+        ${r.tabla?`<button class="btn btn-outline btn-icon" onclick="openComp(${r.id})" title="Ver comparativa" style="margin-right:3px">&#128202;</button>`:''}
+        <button class="btn btn-outline btn-icon" onclick="openDetail(${r.id})" title="Ver / Editar">&#128065;</button>
+      </td>
+    </tr>
+  `).join('');
+}
+
+// ─── DETAIL MODAL ──────────────────────────────────────────────────────────
+function openDetail(id){
+  detailId=id;
+  const r=data.find(x=>x.id===id);
+  document.getElementById('detailTitle').textContent=r.nro+' — '+r.entidad;
+  document.getElementById('detailDeleteBtn').onclick=()=>confirmDelete(id);
+  document.getElementById('detailBody').innerHTML=buildDetailForm(r);
+  document.getElementById('detailOverlay').style.display='flex';
+}
+function closeDetail(){ document.getElementById('detailOverlay').style.display='none'; detailId=null; }
+
+function buildDetailForm(r){
+  const etapaIdx=ETAPAS.indexOf(r.etapa);
+  return `
+  <!-- WORKFLOW BAR -->
+  <div class="workflow-bar">
+    ${ETAPAS.map((e,i)=>{
+      let cls='wf-pending';
+      if(i<etapaIdx) cls='wf-done';
+      else if(i===etapaIdx) cls=(e==='Adjudicación'&&r.adj_tiene_alerta)?'wf-alert':'wf-active';
+      const icons=['📋','⚖️','📋','📦'];
+      return `<div class="wf-step ${cls}"><div>${icons[i]}</div><div class="wf-label">${e}</div></div>`;
+    }).join('')}
+  </div>
+
+  <!-- ETAPA ACTUAL -->
+  <div class="section">
+    <div class="section-title">Etapa actual del flujo</div>
+    <div class="form-grid">
+      <div class="fg">
+        <label>Etapa</label>
+        <select id="d_etapa" onchange="updateEtapaSelect()">
+          ${ETAPAS.map(e=>`<option${r.etapa===e?' selected':''}>${e}</option>`).join('')}
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- DATOS BÁSICOS -->
+  <div class="section">
+    <div class="section-title">📋 Comparativa</div>
+    <div class="form-grid">
+      <div class="fg full"><label>Entidad *</label><input type="text" id="d_entidad" value="${esc(r.entidad)}"></div>
+      <div class="fg"><label>N° Licitación *</label><input type="text" id="d_nro" value="${esc(r.nro)}"></div>
+      <div class="fg"><label>Tipo</label>
+        <select id="d_tipo">${['Procedimiento Abreviado','Pública','Privada','Directa','Urgente'].map(t=>`<option${r.tipo===t?' selected':''}>${t}</option>`).join('')}</select>
+      </div>
+      <div class="fg"><label>Fecha de Apertura</label><input type="date" id="d_fecha" value="${r.fecha||''}"></div>
+      <div class="fg"><label>Monto ABLE Cotizado ($)</label><input type="number" id="d_monto" value="${r.monto||''}" oninput="calcMayorD()"></div>
+      <div class="fg"><label>MAYOR (≥ $6.000.000)</label><input type="text" id="d_mayor" class="auto-fld" readonly value="${r.mayor||'No'}"></div>
+      <div class="fg"><label>Zona</label>
+        <select id="d_zona" onchange="setAgenteD()">${['','Zona Norte','Zona Sur','Zona Oeste'].map(z=>`<option value="${z}"${r.zona===z?' selected':''}>${z||'Seleccionar...'}</option>`).join('')}</select>
+      </div>
+      <div class="fg"><label>Agente</label><input type="text" id="d_agente" class="auto-fld" readonly value="${r.agente||''}"></div>
+      <div class="fg"><label>Empate Técnico (≤ 2%)</label>
+        <select id="d_empate">${['','Sí','No'].map(v=>`<option${r.empate===v?' selected':''}>${v}</option>`).join('')}</select>
+      </div>
+      <div class="fg"><label>Preferencia Nacional (2–10%)</label>
+        <select id="d_pref">${['','Sí','No'].map(v=>`<option${r.pref===v?' selected':''}>${v}</option>`).join('')}</select>
+      </div>
+      <div class="fg full"><label>Observaciones de la comparativa</label><textarea id="d_obs">${esc(r.obs||'')}</textarea></div>
+    </div>
+  </div>
+
+  <!-- PRE-ADJUDICACIÓN -->
+  <div class="section">
+    <div class="section-title">⚖️ Pre-adjudicación</div>
+    <div class="form-grid">
+      <div class="fg"><label>Fecha pre-adjudicación</label><input type="date" id="d_preadjfecha" value="${r.preadj_fecha||''}"></div>
+      <div class="fg"><label>¿Se respetó empate técnico?</label>
+        <select id="d_preadj_empate">${['','Sí','No','N/A'].map(v=>`<option${r.preadj_empate_ok===v?' selected':''}>${v}</option>`).join('')}</select>
+      </div>
+      <div class="fg"><label>¿Se aplicó preferencia nacional?</label>
+        <select id="d_preadj_pref">${['','Sí','No','N/A'].map(v=>`<option${r.preadj_pref_ok===v?' selected':''}>${v}</option>`).join('')}</select>
+      </div>
+      <div class="fg"><label>Resultado gestión</label>
+        <select id="d_gpre_res">${['','Ganado','Parcial','Sin resultado','Pendiente'].map(v=>`<option${r.gestion_pre_resultado===v?' selected':''}>${v}</option>`).join('')}</select>
+      </div>
+      <div class="fg full"><label>Notas y gestiones realizadas</label><textarea id="d_gpre" placeholder="Llamadas, visitas, notas enviadas, qué se buscaba lograr...">${esc(r.gestion_pre||'')}</textarea></div>
+    </div>
+  </div>
+
+  <!-- ADJUDICACIÓN -->
+  <div class="section">
+    <div class="section-title">📋 Adjudicación</div>
+    <div class="form-grid">
+      <div class="fg"><label>Fecha adjudicación</label><input type="date" id="d_adjfecha" value="${r.adj_fecha||''}"></div>
+      <div class="fg"><label>Monto adjudicado a ABLE ($)</label><input type="number" id="d_adjmonto" value="${r.adj_monto_able||''}"></div>
+      <div class="fg full"><label>Resumen adjudicación</label><textarea id="d_adjresumen" placeholder="Ítems ganados, perdidos, etc.">${esc(r.adj_resumen||'')}</textarea></div>
+      <div class="fg full"><label>Alertas detectadas ⚠</label><textarea id="d_adjalerta" placeholder="Empate técnico no respetado, preferencia nacional no aplicada, precio diferente...">${esc(r.adj_alertas||'')}</textarea></div>
+      <div class="fg"><label>¿Tiene alertas?</label>
+        <select id="d_adj_tiene_alerta"><option value="false"${!r.adj_tiene_alerta?' selected':''}>No</option><option value="true"${r.adj_tiene_alerta?' selected':''}>Sí</option></select>
+      </div>
+    </div>
+  </div>
+
+  <!-- OC -->
+  <div class="section">
+    <div class="section-title">📦 Orden de Compra</div>
+    <div class="form-grid">
+      <div class="fg"><label>Estado OC</label>
+        <select id="d_oc">${['Pendiente','Recibida','Correcta','Con diferencias'].map(v=>`<option${r.oc===v?' selected':''}>${v}</option>`).join('')}</select>
+      </div>
+      <div class="fg"><label>Fecha recepción OC</label><input type="date" id="d_ocfecha" value="${r.oc_fecha||''}"></div>
+      <div class="fg full"><label>Diferencias detectadas en OC</label><textarea id="d_ocalertas" placeholder="Ítems, cantidades o precios que difieren de la adjudicación...">${esc(r.oc_alertas||'')}</textarea></div>
+    </div>
+  </div>
+  `;
+}
+
+function esc(s){ return (s||'').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+
+function calcMayorD(){
+  const m=Number(document.getElementById('d_monto').value)||0;
+  document.getElementById('d_mayor').value=m>=6000000?'Sí':'No';
+}
+function setAgenteD(){
+  const z=document.getElementById('d_zona').value;
+  document.getElementById('d_agente').value=AGENTES[z]||'';
+}
+function updateEtapaSelect(){}
+
+function saveDetail(){
+  if(!detailId) return;
+  const idx=data.findIndex(x=>x.id===detailId);
+  if(idx<0) return;
+  const r=data[idx];
+  const monto=Number(document.getElementById('d_monto').value)||0;
+  data[idx]={
+    ...r,
+    entidad:document.getElementById('d_entidad').value.trim(),
+    nro:document.getElementById('d_nro').value.trim(),
+    tipo:document.getElementById('d_tipo').value,
+    fecha:document.getElementById('d_fecha').value,
+    monto, mayor:monto>=6000000?'Sí':'No',
+    zona:document.getElementById('d_zona').value,
+    agente:document.getElementById('d_agente').value,
+    etapa:document.getElementById('d_etapa').value,
+    empate:document.getElementById('d_empate').value,
+    pref:document.getElementById('d_pref').value,
+    obs:document.getElementById('d_obs').value,
+    preadj_fecha:document.getElementById('d_preadjfecha').value,
+    preadj_empate_ok:document.getElementById('d_preadj_empate').value,
+    preadj_pref_ok:document.getElementById('d_preadj_pref').value,
+    gestion_pre:document.getElementById('d_gpre').value,
+    gestion_pre_resultado:document.getElementById('d_gpre_res').value,
+    adj_fecha:document.getElementById('d_adjfecha').value,
+    adj_monto_able:Number(document.getElementById('d_adjmonto').value)||0,
+    adj_resumen:document.getElementById('d_adjresumen').value,
+    adj_alertas:document.getElementById('d_adjalerta').value,
+    adj_tiene_alerta:document.getElementById('d_adj_tiene_alerta').value==='true',
+    oc:document.getElementById('d_oc').value,
+    oc_fecha:document.getElementById('d_ocfecha').value,
+    oc_alertas:document.getElementById('d_ocalertas').value,
+  };
+  save(); render(); closeDetail();
+  toast('Guardado ✓','ok');
+}
+
+function confirmDelete(id){
+  const r=data.find(x=>x.id===id);
+  const box=document.createElement('div');
+  box.className='confirm-overlay';
+  box.innerHTML=`<div class="confirm-card"><p>¿Eliminar <strong>${r.nro}</strong>?<br><small>${r.entidad}</small></p><div class="confirm-btns"><button class="btn btn-outline" onclick="this.closest('.confirm-overlay').remove()">Cancelar</button><button class="btn btn-danger" onclick="doDelete(${id});this.closest('.confirm-overlay').remove()">Eliminar</button></div></div>`;
+  document.body.appendChild(box);
+}
+function doDelete(id){ data=data.filter(x=>x.id!==id); save(); render(); closeDetail(); toast('Eliminado','warn'); }
+
+function openNew(){
+  const blank={
+    id:nextId++, entidad:'', nro:'', tipo:'', fecha:'', monto:0, mayor:'No',
+    zona:'', agente:'', etapa:'Comparativa', empate:'', pref:'',
+    obs:'',
+    preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+    gestion_pre:'', gestion_pre_resultado:'',
+    adj_recibida:false, adj_fecha:'', adj_monto_able:0, adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
+    gestion_post:'', gestion_post_resultado:'',
+    oc:'Pendiente', oc_fecha:'', oc_alertas:'', creado:new Date().toISOString()
+  };
+  data.push(blank);
+  save();
+  openDetail(blank.id);
+  toast('Nueva licitación — completá los datos y guardá','warn');
+}
+
+// ─── IMPORT ────────────────────────────────────────────────────────────────
+function showImport(){ document.getElementById('importOverlay').style.display='flex'; importParsed=null; document.getElementById('importJson').value=''; document.getElementById('importPreview').style.display='none'; document.getElementById('btnDoImport').disabled=true; }
+function closeImport(){ document.getElementById('importOverlay').style.display='none'; }
+
+function previewImport(){
+  const txt=document.getElementById('importJson').value.trim();
+  if(!txt){ toast('Pegá el JSON antes de validar','warn'); return; }
+  try{
+    importParsed=JSON.parse(txt);
+    document.getElementById('importPreviewText').textContent=JSON.stringify(importParsed,null,2);
+    document.getElementById('importPreview').style.display='block';
+    document.getElementById('btnDoImport').disabled=false;
+    toast('JSON válido ✓','ok');
+  }catch(e){
+    toast('JSON inválido: '+e.message,'err');
+    document.getElementById('btnDoImport').disabled=true;
+  }
+}
+
+function doImport(){
+  if(!importParsed){ toast('Validá el JSON primero','warn'); return; }
+  const p=importParsed;
+  const accion=p.accion||'';
+
+  // Find existing row by nro
+  let idx=data.findIndex(r=>r.nro===p.nro);
+
+  if(accion==='nueva_comparativa'){
+    const monto=Number(p.monto)||0;
+    const newRow={
+      id: idx>=0 ? data[idx].id : nextId++,
+      entidad:p.entidad||'', nro:p.nro||'', tipo:p.tipo||'',
+      fecha:p.fecha||'', monto, mayor:monto>=6000000?'Sí':'No',
+      zona:p.zona||'', agente:p.agente||AGENTES[p.zona]||'',
+      etapa:'Comparativa', empate:p.empate||'', pref:p.pref||'',
+      obs:p.obs||'', tabla:p.tabla||null,
+      preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+      gestion_pre:'', gestion_pre_resultado:'',
+      adj_recibida:false, adj_fecha:'', adj_monto_able:0, adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
+      gestion_post:'', gestion_post_resultado:'',
+      oc:'Pendiente', oc_fecha:'', oc_alertas:'',
+      creado: idx>=0 ? data[idx].creado : new Date().toISOString()
+    };
+    if(idx>=0) data[idx]=newRow; else data.push(newRow);
+    toast('Comparativa importada: '+p.nro,'ok');
+
+  } else if(accion==='adjudicacion'){
+    if(idx<0){ toast('No se encontró la licitación: '+p.nro,'err'); return; }
+    data[idx]={
+      ...data[idx],
+      etapa:'Adjudicación',
+      adj_fecha:p.adj_fecha||'',
+      adj_monto_able:Number(p.adj_monto_able)||0,
+      adj_resumen:p.adj_resumen||'',
+      adj_alertas:p.adj_alertas||'',
+      adj_tiene_alerta:!!p.adj_tiene_alerta,
+    };
+    toast('Adjudicación importada: '+p.nro+(p.adj_tiene_alerta?' ⚠ con alertas':''),'ok');
+
+  } else if(accion==='oc'){
+    if(idx<0){ toast('No se encontró la licitación: '+p.nro,'err'); return; }
+    data[idx]={
+      ...data[idx],
+      etapa:'OC',
+      oc:p.oc_estado||'Recibida',
+      oc_fecha:p.oc_fecha||'',
+      oc_alertas:p.oc_alertas||'',
+    };
+    toast('OC importada: '+p.nro+' — '+p.oc_estado,'ok');
+
+  } else if(accion==='preadjudicacion'){
+    if(idx<0){ toast('No se encontró la licitación: '+p.nro,'err'); return; }
+    data[idx]={
+      ...data[idx],
+      etapa:'Pre-adjudicación',
+      preadj_fecha:p.preadj_fecha||'',
+      preadj_empate_ok:p.preadj_empate_ok||'',
+      preadj_pref_ok:p.preadj_pref_ok||'',
+      gestion_pre:p.notas||'',
+      gestion_pre_resultado:p.resultado||'',
+    };
+    toast('Pre-adjudicación importada: '+p.nro,'ok');
+
+  } else if(accion==='gestion'){
+    if(idx<0){ toast('No se encontró la licitación: '+p.nro,'err'); return; }
+    data[idx]={...data[idx], etapa:'Pre-adjudicación', gestion_pre:p.detalle||'', gestion_pre_resultado:p.resultado||''};
+    toast('Gestión importada: '+p.nro,'ok');
+
+  } else {
+    toast('Acción desconocida: '+accion,'err'); return;
+  }
+
+  save(); render(); closeImport();
+}
+
+// ─── EXPORT ────────────────────────────────────────────────────────────────
+async function exportExcel(){
+  if(typeof ExcelJS==='undefined'){ toast('ExcelJS cargando, reintente en segundos','warn'); return; }
+  const wb=new ExcelJS.Workbook();
+  const ws=wb.addWorksheet('Dashboard');
+  const HDR={type:'pattern',pattern:'solid',fgColor:{argb:'FF1A3A5C'}};
+  const FW={name:'Arial',size:10,bold:true,color:{argb:'FFFFFFFF'}};
+  const FN={name:'Arial',size:10};
+  const B={top:{style:'thin'},left:{style:'thin'},bottom:{style:'thin'},right:{style:'thin'}};
+  ws.columns=[
+    {header:'Entidad',width:36},{header:'N° Licitación',width:16},{header:'Tipo',width:22},
+    {header:'Fecha Apertura',width:14},{header:'Monto Cotizado',width:18},{header:'MAYOR',width:8},
+    {header:'Zona',width:14},{header:'Agente',width:10},{header:'Etapa',width:18},
+    {header:'Empate Técnico',width:14},{header:'Pref. Nacional',width:14},
+    {header:'Fecha de Adjudicación',width:18},{header:'Estado OC',width:14},
+    {header:'Monto Adjudicado',width:18},{header:'Alertas Adjudicación',width:40},{header:'Alertas OC',width:30},
+    {header:'Observaciones',width:60}
+  ];
+  const hr=ws.getRow(1); hr.height=22;
+  hr.eachCell(c=>{c.fill=HDR;c.font=FW;c.alignment={horizontal:'center',vertical:'middle',wrapText:true};c.border=B;});
+  data.forEach(r=>{
+    const row=ws.addRow([r.entidad,r.nro,r.tipo,r.fecha?new Date(r.fecha+'T00:00:00'):null,r.monto,r.mayor,r.zona,r.agente,r.etapa,r.empate,r.pref,r.adj_fecha?new Date(r.adj_fecha+'T00:00:00'):null,r.oc,r.adj_monto_able||0,r.adj_alertas||'',r.oc_alertas||'',r.obs||'']);
+    row.height=36; row.getCell(4).numFmt='dd/mm/yyyy'; row.getCell(5).numFmt='"$"#,##0'; row.getCell(12).numFmt='dd/mm/yyyy'; row.getCell(14).numFmt='"$"#,##0';
+    row.eachCell(c=>{c.border=B;c.font=FN;c.alignment={vertical:'middle',wrapText:true};});
+  });
+  const buf=await wb.xlsx.writeBuffer();
+  const blob=new Blob([buf],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download='Dashboard_Licitaciones_ABLE.xlsx';
+  document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+  toast('Excel exportado ✓','ok');
+}
+
+// ─── COMPARATIVA VIEWER ───────────────────────────────────────────────────
+function openComp(id){
+  const r=data.find(x=>x.id===id);
+  if(!r||!r.tabla) return;
+  const t=typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla;
+  document.getElementById('compTitle').textContent=r.nro+' — '+r.entidad;
+  document.getElementById('compBody').innerHTML=buildCompHTML(t);
+  document.getElementById('compOverlay').style.display='flex';
+}
+function closeComp(){ document.getElementById('compOverlay').style.display='none'; }
+
+function buildCompHTML(t){
+  const ofs=t.oferentes||[];
+  if(!ofs.length||!t.renglones||!t.renglones.length)
+    return '<p style="color:#999;text-align:center;padding:20px">Sin datos de comparativa</p>';
+
+  const fmtP=p=>p!=null?'$'+Number(p).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}):'—';
+
+  let html=`<table style="width:100%;border-collapse:collapse;font-size:12px">
+    <thead><tr>
+      <th class="comp-hdr" style="min-width:50px">Reng.</th>
+      <th class="comp-hdr" style="min-width:55px">Cant.</th>
+      <th class="comp-hdr" style="min-width:200px;text-align:left;padding-left:10px">Descripción</th>
+      ${ofs.map(o=>`<th class="comp-hdr" style="min-width:130px">${o}</th>`).join('')}
+    </tr></thead><tbody>`;
+
+  t.renglones.forEach((row,idx)=>{
+    if(idx>0&&!row.es_alt) html+=`<tr class="sep-row"><td colspan="${3+ofs.length}"></td></tr>`;
+    const cm={};
+    (row.celdas||[]).forEach(c=>{cm[c.oferente]=c;});
+    html+=`<tr>
+      <td style="padding:8px 10px;text-align:center;vertical-align:top;font-weight:bold;color:#1a3a5c;border-bottom:1px solid #f0f0f0">${row.reng||''}${row.es_alt?'<br><em style="font-size:9px;font-weight:normal;color:#999">(alt)</em>':''}</td>
+      <td style="padding:8px 10px;text-align:center;vertical-align:top;color:#555;border-bottom:1px solid #f0f0f0">${row.cant||''}</td>
+      <td style="padding:8px 10px;vertical-align:top;font-size:11.5px;line-height:1.5;border-bottom:1px solid #f0f0f0">${row.desc||''}</td>
+      ${ofs.map(o=>{
+        const c=cm[o]||{};
+        const bgP=c.bg_precio?`bg-${c.bg_precio}`:'';
+        const bgM=c.bg_marca==='rosado'?'bg-rosado':'';
+        return `<td class="comp-td" style="border-bottom:1px solid #f0f0f0">
+          <div class="comp-price ${bgP}">${fmtP(c.precio)}</div>
+          <div class="comp-marca ${bgM}">${c.marca||''}${c.obj?` <b style="color:#c0392b">(obj)</b>`:''}</div>
+        </td>`;
+      }).join('')}
+    </tr>`;
+  });
+
+  html+=`</tbody></table>`;
+  if(t.notas) html+=`<div class="comp-note">${t.notas}</div>`;
+  return html;
+}
+
+// ─── TOAST ────────────────────────────────────────────────────────────────
+function toast(msg,type='ok'){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.className='toast '+type;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer=setTimeout(()=>t.classList.remove('show'),3000);
+}
+
+// ─── EXCEL MIGRATION ──────────────────────────────────────────────────────
+let migrateRows = [];
+
+function normalizeKey(h){
+  const s = String(h||'').toLowerCase().normalize('NFD');
+  // Remove combining diacritical marks (Unicode range 0300-036F) char by char
+  let clean = '';
+  for(let i=0;i<s.length;i++){
+    const code = s.charCodeAt(i);
+    if(code >= 0x0300 && code <= 0x036F) continue;
+    clean += s[i];
+  }
+  return clean.replace(/[°#º\.\-\/\(\)]/g,' ').replace(/\s+/g,' ').trim();
+}
+
+const COL_MAP = {
+  'entidad': 'entidad',
+  'n licitacion': 'nro', 'nro licitacion': 'nro', 'numero licitacion': 'nro',
+  'n  licitacion': 'nro', 'nro': 'nro', 'licitacion': 'nro',
+  'tipo': 'tipo',
+  'fecha apertura': 'fecha', 'fecha de apertura': 'fecha', 'apertura': 'fecha',
+  'monto able cotizado': 'monto', 'monto able': 'monto', 'monto cotizado': 'monto', 'monto': 'monto',
+  'mayor': 'mayor',
+  'zona': 'zona',
+  'agente': 'agente',
+  'empate tecnico': 'empate', 'empate': 'empate',
+  'preferencia nacional': 'pref', 'pref nacional': 'pref', 'pref  nacional': 'pref', 'preferencia': 'pref',
+  'estado oc': 'oc', 'oc': 'oc', 'estado orden de compra': 'oc',
+  'observaciones': 'obs', 'obs': 'obs', 'observacion': 'obs',
+  'fecha adjudicacion': 'adj_fecha', 'fecha de adjudicacion': 'adj_fecha',
+  'adj fecha': 'adj_fecha', 'adjudicacion fecha': 'adj_fecha', 'fecha adj': 'adj_fecha',
+  'f adjudicacion': 'adj_fecha', 'adjudicacion': 'adj_fecha',
+  'fecha adjud': 'adj_fecha', 'f  adjudicacion': 'adj_fecha',
+  'fecha preadjudicacion': 'preadj_fecha', 'fecha pre adjudicacion': 'preadj_fecha',
+  'preadjudicacion': 'preadj_fecha', 'pre adjudicacion': 'preadj_fecha',
+  'f preadjudicacion': 'preadj_fecha', 'f pre adj': 'preadj_fecha',
+};
+
+function excelDateToISO(v){
+  if(!v && v !== 0) return '';
+  // JS Date object (from cellDates:true)
+  if(v instanceof Date){
+    if(isNaN(v.getTime())) return '';
+    const y = v.getFullYear(), m = String(v.getMonth()+1).padStart(2,'0'), d = String(v.getDate()).padStart(2,'0');
+    return `${y}-${m}-${d}`;
+  }
+  // Excel serial number
+  if(typeof v === 'number' && v > 1){
+    const d = new Date(Math.round((v - 25569) * 86400 * 1000));
+    const y = d.getUTCFullYear(), mo = String(d.getUTCMonth()+1).padStart(2,'0'), dy = String(d.getUTCDate()).padStart(2,'0');
+    return `${y}-${mo}-${dy}`;
+  }
+  if(typeof v === 'string'){
+    const s = v.trim();
+    // dd/mm/yyyy or dd-mm-yyyy
+    const m1 = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+    if(m1){ const y = m1[3].length===2?'20'+m1[3]:m1[3]; return `${y}-${m1[2].padStart(2,'0')}-${m1[1].padStart(2,'0')}`; }
+    // yyyy-mm-dd
+    if(/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0,10);
+  }
+  return '';
+}
+
+function parseMonto(v){
+  if(v === null || v === undefined || v === '') return 0;
+  // Already a number
+  if(typeof v === 'number') return Math.round(v);
+  // String — strip currency symbols, spaces, dots (AR thousands), replace comma with dot
+  const s = String(v).trim()
+    .replace(/[$ ]/g,'')        // remove $ and spaces
+    .replace(/\./g,'')          // remove dots (AR thousands separator)
+    .replace(',','.');           // comma → decimal point
+  return Math.round(Number(s)) || 0;
+}
+
+function loadFromExcel(event){
+  const file = event.target.files[0];
+  if(!file) return;
+  event.target.value = ''; // reset so same file can be re-selected
+
+  document.getElementById('migrateOverlay').style.display = 'flex';
+  document.getElementById('migrateStatus').textContent = 'Leyendo archivo "'+file.name+'"...';
+  document.getElementById('migratePreviewWrap').style.display = 'none';
+  document.getElementById('btnDoMigrate').style.display = 'none';
+  migrateRows = [];
+
+  const reader = new FileReader();
+  reader.onload = function(e){
+    try{
+      const ab = e.target.result;
+      const wb = XLSX.read(ab, {type:'array', cellDates:true, cellNF:true});
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      // raw:true → numbers as JS numbers, dates as Date objects
+      const raw = XLSX.utils.sheet_to_json(ws, {header:1, raw:true, defval:null});
+
+      if(raw.length < 2){ document.getElementById('migrateStatus').textContent = 'El archivo parece estar vacío o sin datos.'; return; }
+
+      // Find the header row — scan first 10 rows, pick the one with most recognized columns
+      let headerRowIdx = 0;
+      let bestScore = 0;
+      for(let r=0; r<Math.min(10, raw.length); r++){
+        const score = (raw[r]||[]).filter(c => COL_MAP[normalizeKey(c)]).length;
+        if(score > bestScore){ bestScore = score; headerRowIdx = r; }
+      }
+
+      if(bestScore === 0){
+        const sample = raw.slice(0,6).map((r,i)=>`Fila ${i+1}: `+(r||[]).filter(c=>c).join(' | ')).filter(Boolean).join('\n');
+        document.getElementById('migrateStatus').innerHTML =
+          '<span style="color:#c0392b">&#10008; No se reconocieron las columnas.<br><small><pre style="font-size:10px;margin-top:6px;white-space:pre-wrap;background:#fff;padding:8px;border-radius:4px;border:1px solid #eee">'+sample+'</pre>Compartí este texto para que pueda agregar el mapeo correcto.</small></span>';
+        return;
+      }
+
+      // Map headers
+      const headers = (raw[headerRowIdx]||[]).map(normalizeKey);
+      const fieldMap = {}; // colIndex → fieldName
+      headers.forEach((h,i)=>{ if(COL_MAP[h]) fieldMap[i]=COL_MAP[h]; });
+
+      const unknownHeaders = headers.filter((h,i)=>h && !COL_MAP[h]);
+      const mappedFields = Object.values(fieldMap);
+
+      // Parse rows — start after header row, skip blank rows
+      let parsed = [];
+      for(let i=headerRowIdx+1;i<raw.length;i++){
+        const row = raw[i];
+        const hasData = row.some(c=>c!==null&&c!==undefined&&String(c).trim()!=='');
+        if(!hasData) continue;
+
+        const obj = {
+          id: nextId++,
+          entidad:'', nro:'', tipo:'', fecha:'', monto:0, mayor:'No',
+          zona:'', agente:'', etapa:'Comparativa',
+          empate:'', pref:'', obs:'',
+          preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+          gestion_pre:'', gestion_pre_resultado:'',
+          adj_recibida:false, adj_fecha:'', adj_monto_able:0,
+          adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
+          gestion_post:'', gestion_post_resultado:'',
+          oc:'Pendiente', oc_fecha:'', oc_alertas:'',
+          creado: new Date().toISOString()
+        };
+
+        Object.entries(fieldMap).forEach(([ci, field])=>{
+          let val = row[ci];
+          if(val === null || val === undefined) return;
+          val = String(val).trim();
+
+          if(field === 'fecha' || field === 'adj_fecha' || field === 'preadj_fecha'){
+            obj[field] = excelDateToISO(row[ci]);
+          } else if(field === 'monto'){
+            obj.monto = parseMonto(row[ci]);
+          } else {
+            obj[field] = val ? String(val).trim() : '';
+          }
+        });
+
+        // Auto-fill derived fields
+        if(!obj.mayor) obj.mayor = obj.monto >= 6000000 ? 'Sí' : 'No';
+        if(!obj.agente && obj.zona) obj.agente = AGENTES[obj.zona] || '';
+        if(!obj.oc) obj.oc = 'Pendiente';
+        // Infer etapa from available data
+        if(obj.oc && obj.oc !== 'Pendiente') obj.etapa = 'OC';
+        else if(obj.adj_fecha) obj.etapa = 'Adjudicación';
+        else if(obj.preadj_fecha) obj.etapa = 'Pre-adjudicación';
+
+        if(obj.entidad || obj.nro) parsed.push(obj);
+      }
+
+      migrateRows = parsed;
+
+      // Preview
+      const previewHTML = parsed.map(r=>`
+        <tr style="border-bottom:1px solid #f0f0f0">
+          <td style="padding:6px 10px;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${r.entidad||'—'}</td>
+          <td style="padding:6px 10px;font-weight:bold;color:#1a3a5c">${r.nro||'—'}</td>
+          <td style="padding:6px 10px;font-size:11px;color:#777">${r.tipo||'—'}</td>
+          <td style="padding:6px 10px;text-align:center;font-size:11px">${fmtDate(r.fecha)||'—'}</td>
+          <td style="padding:6px 10px;text-align:right;font-size:11px">${fmtMoney(r.monto)}</td>
+          <td style="padding:6px 10px;text-align:center;font-size:11px">${r.zona?r.zona.replace('Zona ',''):'—'}</td>
+          <td style="padding:6px 10px;text-align:center;font-size:11px">${r.oc||'—'}</td>
+          <td style="padding:6px 10px;text-align:center;font-size:11px;color:${r.adj_fecha?'#1e8449':'#ccc'}">${fmtDate(r.adj_fecha)||'—'}</td>
+        </tr>
+      `).join('');
+
+      const allHeaders = (raw[headerRowIdx]||[]).filter(h=>h!=null&&String(h).trim()!=='');
+      const notMapped = allHeaders.filter(h=> !COL_MAP[normalizeKey(h)]);
+      const yesMapped = allHeaders.filter(h=>  COL_MAP[normalizeKey(h)]);
+
+      document.getElementById('migrateCount').textContent = '✓ Se encontraron '+parsed.length+' licitaciones listas para cargar.';
+      document.getElementById('migrateDetail').innerHTML =
+        '<b style="color:#1e8449">✓ Reconocidas ('+yesMapped.length+'):</b> '+yesMapped.map(h=>'<span style="background:#d4efdf;padding:1px 6px;border-radius:4px;font-size:11px">'+h+'</span>').join(' ')+
+        (notMapped.length
+          ? '<br><b style="color:#c0392b">✗ Sin reconocer ('+notMapped.length+') — copiá estos nombres a Claude:</b><br>'+
+            notMapped.map(h=>'<span style="background:#fdedec;padding:1px 6px;border-radius:4px;font-size:11px;margin:2px;display:inline-block">'+h+'</span>').join(' ')
+          : '<br><span style="color:#27ae60;font-size:11px">Todas las columnas reconocidas ✓</span>');
+      document.getElementById('migratePreviewRows').innerHTML = previewHTML;
+      document.getElementById('migratePreviewWrap').style.display = 'block';
+      document.getElementById('migrateStatus').textContent = '';
+      document.getElementById('btnDoMigrate').style.display = 'inline-flex';
+
+    }catch(err){
+      document.getElementById('migrateStatus').innerHTML =
+        '<span style="color:#c0392b">Error al leer el archivo: '+err.message+'</span>';
+      console.error(err);
+    }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function doMigrate(){
+  if(!migrateRows.length){ toast('No hay datos para cargar','warn'); return; }
+  data = migrateRows;
+  // recalculate nextId
+  nextId = Math.max(...data.map(r=>r.id)) + 1;
+  save(); render(); closeMigrate();
+  toast('✓ '+data.length+' licitaciones cargadas correctamente','ok');
+}
+
+function closeMigrate(){
+  document.getElementById('migrateOverlay').style.display = 'none';
+  migrateRows = [];
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────
+load().then(render);
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); } });
+</script>
+</body>
+</html>
