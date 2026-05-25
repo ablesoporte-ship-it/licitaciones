@@ -136,6 +136,9 @@ textarea{resize:vertical;min-height:60px}
 /* EMPTY */
 .empty-row td{text-align:center;padding:40px;color:#bbb;font-size:13px}
 
+/* MODO LECTURA — oculta botones de edición en GitHub Pages */
+body.modo-lectura .solo-edicion{display:none !important}
+
 /* COMPARATIVA EMBEDDED */
 .comp-hdr{background:#1a3a5c;color:#fff;padding:8px 10px;text-align:center;white-space:nowrap;font-size:11px;font-weight:bold;border:1px solid #0d2540}
 .comp-price{padding:6px 10px;text-align:right;font-weight:bold;font-size:12px;border-bottom:1px solid #f0f0f0}
@@ -163,13 +166,13 @@ textarea{resize:vertical;min-height:60px}
     <p id="lastSave">Cargando datos...</p>
   </div>
   <div class="topbar-right">
-    <span id="unpublishedBadge" style="display:none;background:#e67e22;color:#fff;font-size:11px;font-weight:bold;padding:4px 10px;border-radius:10px;white-space:nowrap">⚠ Cambios sin publicar</span>
+    <span id="unpublishedBadge" class="solo-edicion" style="display:none;background:#e67e22;color:#fff;font-size:11px;font-weight:bold;padding:4px 10px;border-radius:10px;white-space:nowrap">⚠ Cambios sin publicar</span>
     <input type="file" id="xlsxInput" accept=".xlsx,.xls" style="display:none" onchange="loadFromExcel(event)">
-    <button class="btn btn-ghost" onclick="document.getElementById('xlsxInput').click()">&#128194; Cargar Excel</button>
-    <button class="btn btn-ghost" onclick="showImport()">&#8595; Importar de Claude</button>
-    <button class="btn btn-ghost" onclick="exportExcel()">&#128190; Exportar Excel</button>
-    <button class="btn btn-teal" onclick="publishJSON()" title="Descargá este archivo y subilo a GitHub para que todos vean los cambios">&#128228; Publicar datos.json</button>
-    <button class="btn btn-success" onclick="openNew()">+ Nueva licitación</button>
+    <button class="btn btn-ghost solo-edicion" onclick="document.getElementById('xlsxInput').click()">&#128194; Cargar Excel</button>
+    <button class="btn btn-ghost solo-edicion" onclick="showImport()">&#8595; Importar de Claude</button>
+    <button class="btn btn-ghost solo-edicion" onclick="exportExcel()">&#128190; Exportar Excel</button>
+    <button class="btn btn-teal solo-edicion" onclick="publishJSON()">&#128228; Publicar datos.json</button>
+    <button class="btn btn-success solo-edicion" onclick="openNew()">+ Nueva licitación</button>
   </div>
 </div>
 
@@ -251,10 +254,10 @@ textarea{resize:vertical;min-height:60px}
   </div>
   <div class="modal-body" id="detailBody"></div>
   <div class="modal-ftr">
-    <button class="btn btn-danger btn-sm" id="detailDeleteBtn">Eliminar</button>
+    <button class="btn btn-danger btn-sm solo-edicion" id="detailDeleteBtn">Eliminar</button>
     <div style="flex:1"></div>
-    <button class="btn btn-outline" onclick="closeDetail()">Cancelar</button>
-    <button class="btn btn-primary" onclick="saveDetail()">&#10003; Guardar cambios</button>
+    <button class="btn btn-outline" onclick="closeDetail()">Cerrar</button>
+    <button class="btn btn-primary solo-edicion" onclick="saveDetail()">&#10003; Guardar cambios</button>
   </div>
 </div>
 </div>
@@ -540,9 +543,12 @@ function badgeSN(v){
 }
 function fmtMoney(n){ const v=Number(n)||0; return '$'+v.toLocaleString('es-AR',{maximumFractionDigits:0}); }
 function fmtDate(d){ if(!d)return'—'; const[y,m,dd]=d.split('-'); return`${dd}/${m}/${y}`; }
-
 function render(){
-  const rows=filtered();
+  const rows=filtered().sort((a,b)=>{
+    const da=(a.fecha||'9999-99-99');
+    const db=(b.fecha||'9999-99-99');
+    return da.localeCompare(db);
+  });
   document.getElementById('countLbl').textContent=rows.length+' de '+data.length;
   // stats
   document.getElementById('sTotal').textContent=data.length;
@@ -1176,6 +1182,11 @@ function closeMigrate(){
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────
+// Modo lectura automático cuando se abre desde GitHub Pages (no desde archivo local)
+if(window.location.protocol !== 'file:'){
+  document.body.classList.add('modo-lectura');
+  document.getElementById('lastSave').textContent = '👁 Modo lectura — solo ABLE puede editar';
+}
 load().then(render);
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); } });
 </script>
