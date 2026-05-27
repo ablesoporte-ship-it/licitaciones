@@ -62,7 +62,7 @@ td.r{text-align:right}
 /* FLOW STEPPER (per row) */
 .flow{display:flex;align-items:center;gap:2px}
 .step{font-size:10px;padding:3px 7px;border-radius:10px;white-space:nowrap;font-weight:bold}
-.step-done{background:#d4efdf;color:#1e8449}
+.step-done{background:#eaf2ec;color:#7aaa85}
 .step-active{background:#1a3a5c;color:#fff}
 .step-pending{background:#f0f0f0;color:#bbb}
 .step-alert{background:#fde8d8;color:#c0542a}
@@ -72,9 +72,13 @@ td.r{text-align:right}
 .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10.5px;font-weight:bold}
 .b-si{background:#d4efdf;color:#1e8449}
 .b-no{background:#f0f0f0;color:#aaa}
-.b-norte{background:#d6eaf8;color:#1a6fc4}
-.b-sur{background:#e8daef;color:#7d3c98}
-.b-oeste{background:#d5f5e3;color:#1e8449}
+.b-norte{background:#fde8d8;color:#a04000}
+.b-sur{background:#fef9e7;color:#9a7d0a}
+.b-oeste{background:#e8daef;color:#7d3c98}
+.b-caba{background:#d6eaf8;color:#1a6fc4}
+.b-able{background:#d5d8dc;color:#2c3e50}
+.b-bac{background:#d1f2eb;color:#0e6655}
+.b-lilian{background:#fde2f3;color:#a0127a}
 .b-pendiente{background:#fef5e7;color:#c87f0a}
 .b-recibida{background:#d6eaf8;color:#1a6fc4}
 .b-correcta{background:#d4efdf;color:#1e8449}
@@ -194,10 +198,11 @@ body.modo-lectura .solo-edicion{display:none !important}
     <select id="fZona" onchange="render()">
       <option value="">Todas las zonas</option>
       <option>Zona Norte</option><option>Zona Sur</option><option>Zona Oeste</option>
+      <option>CABA</option><option>ABLE</option><option>BAC</option><option>Lilian</option>
     </select>
     <select id="fEtapa" onchange="render()">
       <option value="">Todas las etapas</option>
-      <option>Comparativa</option><option>Pre-adjudicación</option>
+      <option>Pendiente</option><option>Comparativa</option><option>Pre-adjudicación</option>
       <option>Adjudicación</option><option>OC</option>
     </select>
     <select id="fMayor" onchange="render()">
@@ -356,7 +361,7 @@ body.modo-lectura .solo-edicion{display:none !important}
 <script>
 // ─── STORAGE ───────────────────────────────────────────────────────────────
 const KEY = 'ableDashV2';
-const AGENTES = {'Zona Norte':'Diego','Zona Sur':'Noé','Zona Oeste':'Gonzalo'};
+const AGENTES = {'Zona Norte':'Diego','Zona Sur':'Noé','Zona Oeste':'Gonzalo','CABA':'Diego','ABLE':'ABLE','BAC':'BAC','Lilian':'Lilian'};
 let data = [];
 let nextId = 1;
 let detailId = null;
@@ -364,8 +369,8 @@ let importParsed = null;
 let dataSource = 'local'; // 'json' | 'local'
 let hasUnpublished = false;
 
-const ETAPAS = ['Comparativa','Pre-adjudicación','Adjudicación','OC'];
-const ETAPA_SHORT = ['Comp.','Pre-adj.','Adj.','OC'];
+const ETAPAS = ['Pendiente','Comparativa','Pre-adjudicación','Adjudicación','OC'];
+const ETAPA_SHORT = ['Pend.','Comp.','Pre-adj.','Adj.','OC'];
 
 function normalizeRows(rows){
   return rows.map(r=>({
@@ -529,8 +534,8 @@ function flowHTML(r){
 
 function badgeZona(z){
   if(!z) return '—';
-  const c={'Zona Norte':'norte','Zona Sur':'sur','Zona Oeste':'oeste'};
-  const l={'Zona Norte':'Norte','Zona Sur':'Sur','Zona Oeste':'Oeste'};
+  const c={'Zona Norte':'norte','Zona Sur':'sur','Zona Oeste':'oeste','CABA':'caba','ABLE':'able','BAC':'bac','Lilian':'lilian'};
+  const l={'Zona Norte':'Norte','Zona Sur':'Sur','Zona Oeste':'Oeste','CABA':'CABA','ABLE':'ABLE','BAC':'BAC','Lilian':'Lilian'};
   return `<span class="badge b-${c[z]||'norte'}">${l[z]||z}</span>`;
 }
 function badgeOC(v){
@@ -605,7 +610,7 @@ function buildDetailForm(r){
       let cls='wf-pending';
       if(i<etapaIdx) cls='wf-done';
       else if(i===etapaIdx) cls=(e==='Adjudicación'&&r.adj_tiene_alerta)?'wf-alert':'wf-active';
-      const icons=['📋','⚖️','📋','📦'];
+      const icons=['⏳','📋','⚖️','📋','📦'];
       return `<div class="wf-step ${cls}"><div>${icons[i]}</div><div class="wf-label">${e}</div></div>`;
     }).join('')}
   </div>
@@ -630,15 +635,15 @@ function buildDetailForm(r){
       <div class="fg full"><label>Entidad *</label><input type="text" id="d_entidad" value="${esc(r.entidad)}"></div>
       <div class="fg"><label>N° Licitación *</label><input type="text" id="d_nro" value="${esc(r.nro)}"></div>
       <div class="fg"><label>Tipo</label>
-        <select id="d_tipo">${['Procedimiento Abreviado','Pública','Privada','Directa','Urgente'].map(t=>`<option${r.tipo===t?' selected':''}>${t}</option>`).join('')}</select>
+        <select id="d_tipo">${['Procedimiento Abreviado','Pública','Privada','Directa','Urgente','Contratación Menor'].map(t=>`<option${r.tipo===t?' selected':''}>${t}</option>`).join('')}</select>
       </div>
       <div class="fg"><label>Fecha de Apertura</label><input type="date" id="d_fecha" value="${r.fecha||''}"></div>
       <div class="fg"><label>Monto ABLE Cotizado ($)</label><input type="number" id="d_monto" value="${r.monto||''}" oninput="calcMayorD()"></div>
       <div class="fg"><label>MAYOR (≥ $6.000.000)</label><input type="text" id="d_mayor" class="auto-fld" readonly value="${r.mayor||'No'}"></div>
       <div class="fg"><label>Zona</label>
-        <select id="d_zona" onchange="setAgenteD()">${['','Zona Norte','Zona Sur','Zona Oeste'].map(z=>`<option value="${z}"${r.zona===z?' selected':''}>${z||'Seleccionar...'}</option>`).join('')}</select>
+        <select id="d_zona" onchange="setAgenteD()">${['','Zona Norte','Zona Sur','Zona Oeste','CABA','ABLE','BAC','Lilian'].map(z=>`<option value="${z}"${r.zona===z?' selected':''}>${z||'Seleccionar...'}</option>`).join('')}</select>
       </div>
-      <div class="fg"><label>Agente</label><input type="text" id="d_agente" class="auto-fld" readonly value="${r.agente||''}"></div>
+      <div class="fg"><label>Agente</label><input type="text" id="d_agente" value="${r.agente||''}"></div>
       <div class="fg"><label>Empate Técnico (≤ 2%)</label>
         <select id="d_empate">${['','Sí','No'].map(v=>`<option${r.empate===v?' selected':''}>${v}</option>`).join('')}</select>
       </div>
@@ -756,7 +761,7 @@ function doDelete(id){ data=data.filter(x=>x.id!==id); save(); render(); closeDe
 function openNew(){
   const blank={
     id:nextId++, entidad:'', nro:'', tipo:'', fecha:'', monto:0, mayor:'No',
-    zona:'', agente:'', etapa:'Comparativa', empate:'', pref:'',
+    zona:'', agente:'', etapa:'Pendiente', empate:'', pref:'',
     obs:'',
     preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
     gestion_pre:'', gestion_pre_resultado:'',
@@ -804,7 +809,7 @@ function doImport(){
       entidad:p.entidad||'', nro:p.nro||'', tipo:p.tipo||'',
       fecha:p.fecha||'', monto, mayor:monto>=6000000?'Sí':'No',
       zona:p.zona||'', agente:p.agente||AGENTES[p.zona]||'',
-      etapa:'Comparativa', empate:p.empate||'', pref:p.pref||'',
+      etapa: p.tabla ? 'Comparativa' : 'Pendiente', empate:p.empate||'', pref:p.pref||'',
       obs:p.obs||'', tabla:p.tabla||null,
       preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
       gestion_pre:'', gestion_pre_resultado:'',
