@@ -142,10 +142,14 @@ textarea{resize:vertical;min-height:60px}
 
 /* MODO LECTURA — oculta botones de edición en GitHub Pages */
 body.modo-lectura .solo-edicion{display:none !important}
-/* Campos deshabilitados en modo lectura: se ven como texto, no como inputs */
-body.modo-lectura .modal-body input:disabled,
-body.modo-lectura .modal-body select:disabled,
-body.modo-lectura .modal-body textarea:disabled{
+/* Campos en modo lectura: se ven como texto, no como inputs */
+body.modo-lectura .modal-body input[readonly],
+body.modo-lectura .modal-body textarea[readonly]{
+  background:#f8f9fa;color:#444;cursor:default;
+  border-color:#e8e8e8;opacity:1;
+  /* SIN pointer-events:none → permite hacer scroll en textareas */
+}
+body.modo-lectura .modal-body select:disabled{
   background:#f8f9fa;color:#444;cursor:default;
   border-color:#e8e8e8;opacity:1;pointer-events:none;
 }
@@ -562,13 +566,13 @@ function render(){
     return da.localeCompare(db);
   });
   document.getElementById('countLbl').textContent=rows.length+' de '+data.length;
-  // stats
-  document.getElementById('sTotal').textContent=data.length;
-  document.getElementById('sEmpate').textContent=data.filter(r=>r.empate==='Sí').length;
-  document.getElementById('sPref').textContent=data.filter(r=>r.pref==='Sí').length;
-  document.getElementById('sOCPend').textContent=data.filter(r=>r.oc==='Pendiente').length;
-  document.getElementById('sOCDif').textContent=data.filter(r=>r.oc==='Con diferencias').length;
-  document.getElementById('sMonto').textContent=fmtMoney(data.reduce((s,r)=>s+(+r.monto||0),0));
+  // stats — reflejan el filtro activo (igual que la tabla)
+  document.getElementById('sTotal').textContent=rows.length;
+  document.getElementById('sEmpate').textContent=rows.filter(r=>r.empate==='Sí').length;
+  document.getElementById('sPref').textContent=rows.filter(r=>r.pref==='Sí').length;
+  document.getElementById('sOCPend').textContent=rows.filter(r=>r.oc==='Pendiente').length;
+  document.getElementById('sOCDif').textContent=rows.filter(r=>r.oc==='Con diferencias').length;
+  document.getElementById('sMonto').textContent=fmtMoney(rows.reduce((s,r)=>s+(+r.monto||0),0));
 
   const tbody=document.getElementById('tbody');
   if(!rows.length){
@@ -604,11 +608,12 @@ function openDetail(id){
   document.getElementById('detailTitle').textContent=r.nro+' — '+r.entidad;
   document.getElementById('detailDeleteBtn').onclick=()=>confirmDelete(id);
   document.getElementById('detailBody').innerHTML=buildDetailForm(r);
-  // Modo lectura (GitHub Pages): deshabilitar todos los campos del formulario
+  // Modo lectura (GitHub Pages): solo lectura — readonly en inputs/textareas (permite scroll),
+  // disabled en selects (no acepta readonly).
   if(document.body.classList.contains('modo-lectura')){
-    document.getElementById('detailBody')
-      .querySelectorAll('input,select,textarea')
-      .forEach(el=>{ el.disabled=true; });
+    const body = document.getElementById('detailBody');
+    body.querySelectorAll('input,textarea').forEach(el=>{ el.readOnly=true; });
+    body.querySelectorAll('select').forEach(el=>{ el.disabled=true; });
   }
   document.getElementById('detailOverlay').style.display='flex';
 }
