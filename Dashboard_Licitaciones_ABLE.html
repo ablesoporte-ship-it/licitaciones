@@ -1195,4 +1195,18 @@ function doMigrate(){
 }
 
 function closeMigrate(){
-  document.getEleme
+  document.getElementById('migrateOverlay').style.display = 'none';
+  migrateRows = [];
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────
+// Modo lectura automático cuando se abre desde GitHub Pages (no desde archivo local)
+if(window.location.protocol !== 'file:'){
+  document.body.classList.add('modo-lectura');
+  document.getElementById('lastSave').textContent = '👁 Modo lectura — solo ABLE puede editar';
+}
+load().then(render);
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); } });
+</script>
+</body>
+</html>
