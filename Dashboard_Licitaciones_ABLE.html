@@ -142,6 +142,13 @@ textarea{resize:vertical;min-height:60px}
 
 /* MODO LECTURA — oculta botones de edición en GitHub Pages */
 body.modo-lectura .solo-edicion{display:none !important}
+/* Campos deshabilitados en modo lectura: se ven como texto, no como inputs */
+body.modo-lectura .modal-body input:disabled,
+body.modo-lectura .modal-body select:disabled,
+body.modo-lectura .modal-body textarea:disabled{
+  background:#f8f9fa;color:#444;cursor:default;
+  border-color:#e8e8e8;opacity:1;pointer-events:none;
+}
 
 /* COMPARATIVA EMBEDDED */
 .comp-hdr{background:#1a3a5c;color:#fff;padding:8px 10px;text-align:center;white-space:nowrap;font-size:11px;font-weight:bold;border:1px solid #0d2540}
@@ -597,6 +604,12 @@ function openDetail(id){
   document.getElementById('detailTitle').textContent=r.nro+' — '+r.entidad;
   document.getElementById('detailDeleteBtn').onclick=()=>confirmDelete(id);
   document.getElementById('detailBody').innerHTML=buildDetailForm(r);
+  // Modo lectura (GitHub Pages): deshabilitar todos los campos del formulario
+  if(document.body.classList.contains('modo-lectura')){
+    document.getElementById('detailBody')
+      .querySelectorAll('input,select,textarea')
+      .forEach(el=>{ el.disabled=true; });
+  }
   document.getElementById('detailOverlay').style.display='flex';
 }
 function closeDetail(){ document.getElementById('detailOverlay').style.display='none'; detailId=null; }
@@ -1182,18 +1195,4 @@ function doMigrate(){
 }
 
 function closeMigrate(){
-  document.getElementById('migrateOverlay').style.display = 'none';
-  migrateRows = [];
-}
-
-// ─── INIT ─────────────────────────────────────────────────────────────────
-// Modo lectura automático cuando se abre desde GitHub Pages (no desde archivo local)
-if(window.location.protocol !== 'file:'){
-  document.body.classList.add('modo-lectura');
-  document.getElementById('lastSave').textContent = '👁 Modo lectura — solo ABLE puede editar';
-}
-load().then(render);
-document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); } });
-</script>
-</body>
-</html>
+  document.getEleme
