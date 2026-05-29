@@ -1509,138 +1509,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 19,
-      "entidad": "HTAL SARDA",
-      "nro": "435-0797-LPU26",
-      "tipo": "Pública",
-      "fecha": "2026-05-22",
-      "monto": 15873120,
-      "mayor": "Sí",
-      "zona": "BAC",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-27T14:45:58.731Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 20,
-      "entidad": "HTAL FERRE",
-      "nro": "419-0849LPU26",
-      "tipo": "Pública",
-      "fecha": "2026-05-26",
-      "monto": 6515388,
-      "mayor": "Sí",
-      "zona": "BAC",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-27T15:19:29.091Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 21,
-      "entidad": "HTAL FERNANDEZ",
-      "nro": "418-1693CME26",
-      "tipo": "Contratación Menor",
-      "fecha": "2026-05-28",
-      "monto": 4108032,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-27T16:12:55.841Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 22,
-      "entidad": "HTAL GUTIERREZ",
-      "nro": "420-0765-LPU26",
-      "tipo": "Pública",
-      "fecha": "2026-05-27",
-      "monto": 826848,
-      "mayor": "No",
-      "zona": "BAC",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-27T16:13:23.601Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 23,
       "entidad": "HTAL SANITARIA 1",
       "nro": "PA 71",
@@ -2004,7 +1872,2806 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 34,
+      "id": 35,
+      "entidad": "HTAL ARGERICH",
+      "nro": "412-1799-CME26",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-01",
+      "monto": 2283200,
+      "mayor": "No",
+      "zona": "BAC",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-05-28T18:53:07.342Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "DISPROMED",
+          "CARDIOMEDIC",
+          "CARDIOPACK",
+          "CIR. ARGENTINA",
+          "COVIDIEN",
+          "BHAURAC",
+          "SUIZO ARG.",
+          "SEDESA",
+          "DROGMED"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 144,
+            "desc": "Sutura nylon monofil. 2/0 — ag. recta cortante 60mm, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 667.7,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 998,
+                "marca": "SUTUMED NN 628 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 1847.67,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 567.49,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1044,
+                "marca": "TAGUM NN1119 (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 1424.17,
+                "marca": "Monosof/Surgilon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 937.75,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": 1943.23,
+                "marca": "DAFILON — BBRAUN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 2135.53,
+                "marca": "ETHILON — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 108,
+            "desc": "Sutura APG/Poliglactina + triclosan 3/0 — ag. ½circ. 25-27mm punta red. (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1325.5,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2650,
+                "marca": "SUTUMED PA 316 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2371.6,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1185.8,
+                "marca": "SURGIKAL (obj) aguja 20mm ≠ pliego 25-27mm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2735,
+                "marca": "TAGUM Plus Alt.1 (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2329.25,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1331,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": 3675.98,
+                "marca": "NOVOSYN — BBRAUN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3674.65,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 108,
+            "desc": "Sutura APG/Poliglactina triclosan 3/0 — ag. ½circ. 25-27mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1768,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 72,
+            "desc": "Sutura APG/Poliglactina + triclosan 2/0 — ag. ½circ. 25-27mm punta red. (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1325.5,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2650,
+                "marca": "SUTUMED PA 317 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2420,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1185.8,
+                "marca": "SURGIKAL (obj) hebra 45cm ≠ pliego 70cm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2735,
+                "marca": "TAGUM Plus (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2329.25,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1331,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": 3675.98,
+                "marca": "NOVOSYN — BBRAUN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3674.65,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 796.05,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 72,
+            "desc": "Sutura APG/Poliglactina triclosan 2/0 — ag. ½circ. 25-27mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1768,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 108,
+            "desc": "Sutura APG/Poliglactina + triclosan cal.1 — ag. ½circ. 35-37mm punta cil. (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1375,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2700,
+                "marca": "SUTUMED PA 347 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2456.3,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1185.8,
+                "marca": "SURGIKAL (obj) punta reforzada ≠ punta cilíndrica",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2945,
+                "marca": "TAGUM Plus Alt.1 (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2009.81,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1512.5,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": 3675.98,
+                "marca": "NOVOSYN — BBRAUN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 4394.19,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 2647.77,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 108,
+            "desc": "Sutura APG/Poliglactina triclosan cal.1 — ag. ½circ. 35-37mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1910,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 36,
+            "desc": "Sutura APG/Poliglactina cal.0 — ag. ½circ. 39-41mm punta red. (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1375,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 1780,
+                "marca": "SUTUMED AG 340 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2445.42,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1288.65,
+                "marca": "SURGIKAL (obj) punta reforzada ≠ punta redonda",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2840,
+                "marca": "TAGUM Plus Alt. (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2009.81,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1488.3,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": 3675.98,
+                "marca": "NOVOSYN — BBRAUN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3757.38,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 36,
+            "desc": "Sutura APG/Poliglactina cal.0 — ag. ½circ. 39-41mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1835,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 36,
+            "desc": "Sutura polipropileno 4/0 — doble ag. ½circ. 21-23mm punta red., hebra 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 3300,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 3700,
+                "marca": "SUTUMED PP 9521 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 5684.58,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 2405.48,
+                "marca": "SURGIKAL (obj) aguja 20mm ≠ pliego 21-23mm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2595,
+                "marca": "TAGUM PP0914 (Origen: Perú)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 5656.75,
+                "marca": "Surgipro (Origen: EE.UU./Rep. Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SUIZO ARG.",
+                "precio": 7620.25,
+                "marca": "OPTILENE — BBRAUN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 10789.23,
+                "marca": "PROLENE — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "① CARDIOPACK rengs.6-10: spec incorrecta (aguja/hebra/punta fuera de pliego). ② DROGMED reng.7: verificar precio $796,05. ③ ABLE vía Suturas Argentinas SRL."
+      },
+      "id": 38,
+      "entidad": "HTAL. MARÍA FERRER",
+      "nro": "LPU 847/2026",
+      "tipo": "Licitación Pública",
+      "fecha": "2026-05-26",
+      "monto": 651539,
+      "mayor": "No",
+      "zona": "CABA",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE (Suturas Arg. SRL) gana rengs. 6, 8 y 9 (condicional - CARDIOPACK obj). Pierde reng.1 vs CARDIOPACK (+17.7%), reng.7 vs DROGMED (+66.5%), reng.10 vs CIR.ARGENTINA (+27.2%). CARDIOPACK objetado en rengs.6-10 por especificaciones incorrectas.",
+      "creado": "2026-05-29T17:07:10.854Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "CIR. ARGENTINA",
+          "SEDESA",
+          "COVIDIEN",
+          "Rosenblat",
+          "CARDIOMEDIC",
+          "DISPROMED",
+          "MARTORANI",
+          "BHAURAC",
+          "DROGMED",
+          "CARDIOPACK",
+          "PROPATO"
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 4320,
+            "desc": "Sutura APG/Poliglactina triclosan cal.1 — ag. ½circ. 48-50mm, punta cil., hebra 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2945,
+                "marca": "TAGUM Plus/clorh. Alt. (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 4628.25,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2515.59,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2662,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2500,
+                "marca": "SUTUMED PA 371 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "MERIL (obj) SE COTIZA SIN TRICLOSAN",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1502.8,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 2373.1,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 4320,
+            "desc": "Sutura APG/Poliglactina triclosan cal.1 — ag. ½circ. 48-50mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1910,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 360,
+            "desc": "Sutura APG/Poliglactina triclosan 2/0 — ag. ½circ. 39-41mm, punta cil., hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2735,
+                "marca": "TAGUM Plus/clorh. Alt.1 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3595.51,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2009.81,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2480,
+                "marca": "SUTUMED PA 351 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "MERIL (obj) SE COTIZA SIN TRICLOSAN",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 2171.7,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1180.96,
+                "marca": "SURGIKAL (obj) aguja 36mm ≠ pliego 39-41mm, punta reforzada ≠ cil.",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 360,
+            "desc": "Sutura APG/Poliglactina triclosan 2/0 — ag. ½circ. 39-41mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1768,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 360,
+            "desc": "Sutura APG/Poliglactina triclosan 3/0 — ag. ½circ. 25-27mm, punta cil., hebra 70cm (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1190,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2735,
+                "marca": "TAGUM Plus/clorh. Alt.1 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3466.65,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2329.25,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2378.86,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2480,
+                "marca": "SUTUMED PA 316 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "MERIL (obj) SE COTIZA SIN TRICLOSAN",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1331,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 2171.7,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1164.02,
+                "marca": "SURGIKAL (obj) aguja 20mm ≠ pliego 25-27mm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 360,
+            "desc": "Sutura APG/Poliglactina triclosan 3/0 — ag. ½circ. 25-27mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1768,
+                "marca": "TAGUM Glicosorb Alt.2 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 180,
+            "desc": "Sutura APG/Poliglactina 4/0 — ag. ½circ. 15-17mm, punta red., hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1190,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1768,
+                "marca": "TAGUM Glicosorb (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3466.65,
+                "marca": "VICRYL PLUS — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2009.81,
+                "marca": "Dexon (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": 2525,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2478.08,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 1695,
+                "marca": "SUTUMED AG 304 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1691.58,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 2171.7,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 1478.16,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 1800,
+            "desc": "Sutura nylon monofil. 2/0 — ag. recta cortante 60mm, hebra 75cm (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 580,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1044,
+                "marca": "TAGUM NN1119 (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 2014.65,
+                "marca": "ETHILON — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 1424.17,
+                "marca": "Monosof/Surgilon (Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": 1550,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 998,
+                "marca": "SUTUMED NN 628 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 1172.2,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 878.46,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 683.19,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 565.07,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 767.28,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 1800,
+            "desc": "Sutura nylon monofil. 2/0 — ag. recta 60mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 580,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 1080,
+            "desc": "Sutura APG/Poliglactina cal.2 — ag. ½circ. 44-46mm, punta red., hebra 70cm (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1295,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 1994,
+                "marca": "TAGUM Glicosorb (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 5187.27,
+                "marca": "VICRYL — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 2515.59,
+                "marca": "Dexon (obj) aguja 48mm ≠ pliego 44-46mm, hebra 90cm ≠ 70cm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": 2525,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2774.53,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 1850,
+                "marca": "SUTUMED AG 9246 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 2373.1,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 1615.25,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 1080,
+            "desc": "Sutura APG/Poliglactina cal.2 — ag. ½circ. 44-46mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1824,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 360,
+            "desc": "Sutura polipropileno monofil. cal.1 — ag. ½circ. 35-37mm, punta red., hebra 75cm (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1550,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2310,
+                "marca": "TAGUM PP1417 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 5258.06,
+                "marca": "PROLENE — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 4951.32,
+                "marca": "Surgipro (EE.UU./Rep. Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": 2525,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 2259.07,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 2200,
+                "marca": "SUTUMED PP 8425 (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2371.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1173.7,
+                "marca": "Unisur",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 360,
+            "desc": "Sutura polipropileno monofil. cal.1 — ag. ½circ. 35-37mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1600,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 360,
+            "desc": "Sutura polipropileno monofil. cal.1 — ag. ½circ. 64-66mm, punta red., hebra 150cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 2160,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 7425,
+                "marca": "TAGUM PP1489 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 10011.54,
+                "marca": "PROLENE — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 12577.95,
+                "marca": "Surgipro (EE.UU./Rep. Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1603.25,
+                "marca": "Unisur",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": 959.37,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 742.9,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 360,
+            "desc": "Sutura polipropileno monofil. 2/0 — doble ag. ½circ. 25-27mm, punta red., hebra 90cm (op.1)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1550,
+                "marca": "SURGIMAX (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 2595,
+                "marca": "TAGUM PP1115 (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 7633.89,
+                "marca": "PROLENE — J&J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 5896.33,
+                "marca": "Surgipro (EE.UU./Rep. Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": 3330,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2371.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1164.02,
+                "marca": "SURGIKAL (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 979.49,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 360,
+            "desc": "Sutura polipropileno monofil. 2/0 — doble ag. ½circ. 25-27mm (ALT)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1600,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Rosenblat",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROGMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "① MARTORANI rengs.2-4: sin triclosan → obj. ② CARDIOPACK reng.3: aguja 36mm + punta reforzada → obj. ③ CARDIOPACK reng.4: aguja 20mm → obj. ④ COVIDIEN reng.9: aguja 48mm + hebra 90cm → obj. ⑤ ABLE vía Suturas Argentinas SRL. ⑥ Reng.7 pref.nac.: CARDIOPACK India +2,6%."
+      },
+      "id": 39,
+      "entidad": "HTAL. RAMÓN SARDÁ",
+      "nro": "LPU 797/2026",
+      "tipo": "Licitación Pública",
+      "fecha": "2026-05-22",
+      "monto": 11226600,
+      "mayor": "Sí",
+      "zona": "CABA",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "Sí",
+      "obs": "ABLE (Suturas Arg. SRL) gana rengs. 2, 3 (cond.), 4 (cond.) y 5. Reng. 7: CARDIOPACK India $565,07 vs ABLE $580,00 (+2,6%) → preferencia nacional. Rengs. 10, 11, 12: ABLE pierde. MARTORANI obj rengs.2-4 (sin triclosan), CARDIOPACK obj rengs.3-4 (aguja/punta), COVIDIEN obj reng.9.",
+      "creado": "2026-05-29T17:09:58.084Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 40,
+      "entidad": "HTAL LUDOVICA",
+      "nro": "PA 214/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-04",
+      "monto": 2805000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-05-29T19:05:01.785Z"
+    },
+    {
+      "id": 41,
+      "entidad": "HTAL RICARDO GUTIERREZ",
+      "nro": "LPU 420-0765/2026",
+      "tipo": "Pública",
+      "fecha": "2026-05-27",
+      "monto": 360558,
+      "mayor": "No",
+      "zona": "CABA",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE (Suturas Arg. SRL) gana reng. 34 con Surgimax (Ind. Argentina) $667,70/u. Renglones 1-33 y 35-57: ABLE no cotiza.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "DISPROMED",
+          "DRG. MARTORANI"
+        ],
+        "renglones": [
+          {
+            "reng": "34",
+            "cant": 540,
+            "desc": "Sutura nylon monofil. 3/0 — ag. recta cortante 60mm, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 667.7,
+                "marca": "Surgimax (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": 998,
+                "marca": "SUTUMED NN627",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DRG. MARTORANI",
+                "precio": 1052.6,
+                "marca": "MERIL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "34",
+            "cant": 540,
+            "desc": "Sutura nylon monofil. 3/0 — ag. recta 60mm (alternativa)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 863.5,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DISPROMED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DRG. MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "① ABLE vía Suturas Argentinas SRL (Surgimax/ABLE, Ind. Argentina). ② Solo cotiza reng. 34. ③ Alt. reng.34: $863,50 marca ABLE Ind. Argentina."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-05-29T19:19:12.262Z"
+    },
+    {
+      "id": 42,
       "entidad": "",
       "nro": "",
       "tipo": "",
@@ -2017,8 +4684,575 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-05-28T12:07:25.935Z"
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-05-29T19:58:53.080Z"
+    },
+    {
+      "id": 43,
+      "entidad": "HTAL. JUAN A. FERNÁNDEZ",
+      "nro": "CME 1693/2026",
+      "tipo": "Contratación Menor",
+      "fecha": "2026-05-28",
+      "monto": 4108032,
+      "mayor": "No",
+      "zona": "CABA",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana reng.2 (PP 8/0). Pierde rengs. 1, 4, 5 y 6 por diferencias >10%. Verificar punta espatulada reng.2 vs pliego punta redonda.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "CIR. ARGENTINA",
+          "CARDIOMEDIC",
+          "CARDIOPACK",
+          "SEDESA",
+          "COVIDIEN",
+          "IGALTEX",
+          "PROPATO HNOS."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 216,
+            "desc": "Sutura polipropileno monofil. 7/0 — 2 ag. 3/8 circ. redonda 9-10mm, hebra 60cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 5980,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 7190,
+                "marca": "TAGUM® (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 8503.88,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 3443.66,
+                "marca": "SURGIKAL (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 14643.4,
+                "marca": "PROLENE — J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 7200.71,
+                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 5294.1,
+                "marca": "MEDONE (Origen: —)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 144,
+            "desc": "Sutura polipropileno monofil. 8/0 — 2 ag. 3/8 circ. 6-7mm, hebra 60cm ①",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 6578,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 15340,
+                "marca": "TAGUM® (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 9915.95,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 32975.22,
+                "marca": "PROLENE — J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 23478.84,
+                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 192,
+            "desc": "Sutura polipropileno monofil. 4/0 — 2 ag. 1/2 circ. redonda 21-23mm, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 3000,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 3125,
+                "marca": "TAGUM® (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 5568.42,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1557.27,
+                "marca": "SURGIKAL (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 7862.9,
+                "marca": "PROLENE — J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 5656.75,
+                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 1705.95,
+                "marca": "MEDONE (Origen: —)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 192,
+            "desc": "Sutura polipropileno 4/0 — alternativa",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 1044.79,
+                "marca": "CLYSTER (Origen: —)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 144,
+            "desc": "Sutura polipropileno monofil. 6/0 — 2 ag. 3/8 circ. redonda 12-14mm, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 5980,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 6520,
+                "marca": "TAGUM® (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 6711.87,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 2855.6,
+                "marca": "SURGIKAL (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 10846.54,
+                "marca": "PROLENE — J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 6615.07,
+                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 2494.62,
+                "marca": "MEDONE (Origen: —)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 144,
+            "desc": "Sutura polipropileno monofil. 5/0 — 2 ag. 3/8 circ. redonda 12-14mm, hebra 60-65cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 3000,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 5020,
+                "marca": "TAGUM® (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": 7002.27,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 2612.39,
+                "marca": "SURGIKAL (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 10846.54,
+                "marca": "PROLENE — J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": 6601.76,
+                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 1705.95,
+                "marca": "MEDONE (Origen: —)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 144,
+            "desc": "Sutura polipropileno 5/0 — alternativa",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOMEDIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COVIDIEN",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 1044.79,
+                "marca": "CLYSTER (Origen: —)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "① Reng.2: ABLE punta espatulada, pliego pide redonda — verificar. ② Rengs. 3 y 7 excluidos (ABLE no cotiza). ③ Alternativas Propato rengs. 4 y 6 sin color (precio único)."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-05-29T19:59:43.631Z"
     }
   ],
-  "nextId": 35
+  "nextId": 44
 }
