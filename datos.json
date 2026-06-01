@@ -1302,179 +1302,6 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": {
-        "oferentes": [
-          "ABLE S.A.",
-          "Martorani",
-          "CirArg"
-        ],
-        "renglones": [
-          {
-            "reng": 1,
-            "cant": 500,
-            "desc": "Hilo sutura sint. absorbible Poliglactina 910 2/0 — aguja 1/2 circ. cort. 26mm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 869.62,
-                "marca": "DEXON 2/0 CT-1",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Martorani",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CirArg",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": 2,
-            "cant": 200,
-            "desc": "Hilo sutura sint. absorbible Poliglactina 910 0 — aguja 1/2 circ. cort. 40mm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1089.53,
-                "marca": "DEXON 0 CT-2",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Martorani",
-                "precio": 980,
-                "marca": "Martorani 0 — 1 aguja",
-                "bg_precio": "verde",
-                "bg_marca": "rosado",
-                "obj": true,
-                "obj_nota": "1 sola aguja, pliego pide 2"
-              },
-              {
-                "oferente": "CirArg",
-                "precio": 950,
-                "marca": "CirArg 0 — aguja/hebra",
-                "bg_precio": "verde",
-                "bg_marca": "rosado",
-                "obj": true,
-                "obj_nota": "aguja y hebra por separado"
-              }
-            ]
-          },
-          {
-            "reng": 3,
-            "cant": 150,
-            "desc": "Hilo sutura sint. absorbible Poliglactina 910 1 — aguja 1/2 circ. cort. 40mm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1250,
-                "marca": "DEXON 1 CT-2",
-                "bg_precio": "naranja",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Martorani",
-                "precio": 1241.62,
-                "marca": "Martorani 1",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CirArg",
-                "precio": 1138,
-                "marca": "CirArg 1 — importado Perú",
-                "bg_precio": "verde",
-                "bg_marca": "rosado",
-                "obj": false,
-                "obj_nota": "Importado Perú — pref. nacional aplica (dif. 9,72%)"
-              }
-            ]
-          },
-          {
-            "reng": 4,
-            "cant": 300,
-            "desc": "Hilo sutura sint. no absorbible Polipropileno 3/0 — aguja 3/8 circ. rev. 16mm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 540,
-                "marca": "PROLENE 3/0",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Martorani",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CirArg",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          }
-        ],
-        "notas": "<b>Reng. 1 y 4:</b> ABLE gana sin competencia. <b>Reng. 2:</b> Martorani y CirArg cotizan con (obj) — podrían ser desestimados; si ambos se desestiman ABLE gana. <b>Reng. 3:</b> CirArg importado Perú, diferencia 9,72% → preferencia nacional; si desestimado, Martorani queda a solo 0,67% de ABLE → empate técnico. <b>Gestión recomendada reng. 3.</b>"
-      },
-      "id": 17,
-      "entidad": "H.Z.G.A. MAGDALENA V. DE MARTINEZ",
-      "nro": "PA 126/2026",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-05-22",
-      "monto": 869616,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "Sí",
-      "pref": "Sí",
-      "obs": "Reng. 1 y 4: ABLE gana. Reng. 2: Martorani (1 aguja, obj) y CirArg (aguja/hebra, obj) → ABLE podría ganar si desestimados. Reng. 3: CirArg importado Perú, dif. 9,72% (naranja/pref.nac.); si desestimada, Martorani dif. 0,67% con ABLE → empate técnico. Gestión recomendada reng. 3.",
-      "creado": "2026-05-22T18:56:55.187Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "tabla": null,
       "id": 18,
       "entidad": "HTAL LARRAIN",
@@ -1589,39 +1416,6 @@
       "pref": "",
       "obs": "",
       "creado": "2026-05-27T17:32:28.203Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 27,
-      "entidad": "HTAL OÑATIVIA",
-      "nro": "PA 126/2026",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-05-29",
-      "monto": 55504450,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-27T17:38:09.224Z"
     },
     {
       "preadj_fecha": "",
@@ -5425,6 +5219,23 @@
       "creado": "2026-05-29T22:39:19.545Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 45,
       "entidad": "SUBSECRETARÍA DE POLÍTICAS DE CUIDADO EN SALUD",
       "nro": "633-0306-LPU26",
@@ -5438,6 +5249,288 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-06-01T11:38:44.226Z"
+    },
+    {
+      "id": 46,
+      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
+      "nro": "PA 126/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-05-29",
+      "monto": 14470450,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana Renglón 1 ($22.195, equipo Ebano). Renglón 2: ABLE ganador condicional ($678,50) — IGALTEX objetado por error numeración ítem (presentó ítem 1 en lugar de ítem 2); su precio $486,58 < ABLE, sujeto a resolución.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "HEALTHY LAB",
+          "IGALTEX S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 10,
+            "desc": "Equipo de cirugía descartable hemorrepelente estéril: 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos unidad",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 22195,
+                "marca": "Ebano (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": 25844.54,
+                "marca": "HEALTHY LAB (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 21000,
+            "desc": "Camisolín no estéril, no hemorrepelente, 30 G/M², tela TNT SMS, manga larga, puño ajustado, descartable",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 678.5,
+                "marca": "ArgentCare (Ind. Argentina)",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": 708.72,
+                "marca": "HEALTHY LAB (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 486.58,
+                "marca": "GLOBAL PROTECTIVE (obj) presentado como ítem 1 en lugar de ítem 2",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 21000,
+            "desc": "Camisolín no estéril, no hemorrepelente 25 grs, manga larga, puños de elástico ajustables en muñeca (ArgentCare)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 592.25,
+                "marca": "ArgentCare (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 2",
+            "cant": 21000,
+            "desc": "Camisolín no estéril, no hemorrepelente 20 grs, manga larga, puños de elástico ajustables en muñeca (ArgentCare)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 511.75,
+                "marca": "ArgentCare (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 3",
+            "cant": 21000,
+            "desc": "Camisolín no estéril, <strong>HEMORREPELENTE</strong>, tela SMS 30 grs, manga larga, puños de algodón ajustables en muñeca (ArgentCare)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 850,
+                "marca": "ArgentCare (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 21000,
+            "desc": "Camisolín puño elástico — MCA. GLOBAL PROTECTIVE PM 414-36 — ALT 1 (IGALTEX)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 2",
+            "cant": 21000,
+            "desc": "Camisolín puño elástico — MCA. GLOBAL PROTECTIVE PM 414-36 — ALT 2 (IGALTEX)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT",
+            "cant": 21000,
+            "desc": "Camisolín <strong>NO hemorrepelente</strong>, 30 G/M² tela TNT SMS, manga larga, puños elastizados — Alternativa (HEALTHY LAB) — <em>Distinta spec que ALT 3 de ABLE: no hemorrepelente, puños elastizados vs. puños de algodón</em>",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": 563.04,
+                "marca": "HEALTHY LAB (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "① ABLE gana Reng.1 y Reng.2. ② IGALTEX solo cotizó renglón 1, no renglón 2. ③ ALT 1/2/3: único oferente ABLE (ArgentCare). ④ ABLE ALT 3 hemorrepelente ≠ HEALTHY LAB alt no hemorrepelente."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
@@ -5454,8 +5547,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-06-01T11:38:44.226Z"
+      "creado": "2026-06-01T14:43:33.169Z"
     }
   ],
-  "nextId": 46
+  "nextId": 47
 }
