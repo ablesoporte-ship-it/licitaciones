@@ -5529,7 +5529,7 @@
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
-      "obs": "ABLE gana rengs. 1-5 (Surgimax). Reng.9: ABLE naranja pref.nac. vs CIR.ARG +6.3%. CARDIOPACK gana rengs. 6-8 ($501). Rengs.10-11: ABLE único oferente, ganador. Múltiples obj: CARDIOPACK rengs.1,2,4,5; ",
+      "obs": "CARDIOPACK (SURGIKAL India) gana rengs.1,2,4,5,6,7,8 — el pliego no especifica tipo de punta ni hebra para rengs.1,2,4,5 ni tipo de aguja/hebra para rengs.6,7,8. ABLE gana: Reng.3 (único donde pliego especifica aguja 1/2 círculo 45mm), Reng.9 condicional (MERIL obj. 1 aguja ≠ doble aguja), Rengs.10-11 único oferente. Gestión prioritaria: rengs.1,2,4,5 — argumentar evaluación de muestras.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -5550,8 +5550,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1250,
                 "marca": "Surgimax",
-                "bg_precio": "rosado",
-                "bg_marca": "rosado",
+                "bg_precio": "",
+                "bg_marca": "",
                 "obj": false
               },
               {
@@ -5565,10 +5565,10 @@
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
                 "precio": 1001,
-                "marca": "SURGIKAL (obj) punta reforzada ≠ punta redonda",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
+                "marca": "SURGIKAL (Origen: India) obs. punta reforzada",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
               },
               {
                 "oferente": "MARTORANI S.A.",
@@ -5662,8 +5662,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1250,
                 "marca": "Surgimax",
-                "bg_precio": "rosado",
-                "bg_marca": "rosado",
+                "bg_precio": "",
+                "bg_marca": "",
                 "obj": false
               },
               {
@@ -5677,10 +5677,10 @@
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
                 "precio": 987,
-                "marca": "SURGIKAL (obj) punta reforzada ≠ punta redonda",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
+                "marca": "SURGIKAL (Origen: India) obs. punta reforzada",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
               },
               {
                 "oferente": "MARTORANI S.A.",
@@ -5886,8 +5886,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1205,
                 "marca": "Surgimax",
-                "bg_precio": "rosado",
-                "bg_marca": "rosado",
+                "bg_precio": "",
+                "bg_marca": "",
                 "obj": false
               },
               {
@@ -5901,10 +5901,10 @@
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
                 "precio": 987,
-                "marca": "SURGIKAL (obj) hebra 45cm ≠ pliego 70cm",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
+                "marca": "SURGIKAL (Origen: India) obs. hebra 45cm",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
               },
               {
                 "oferente": "MARTORANI S.A.",
@@ -5998,8 +5998,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1205,
                 "marca": "Surgimax",
-                "bg_precio": "rosado",
-                "bg_marca": "rosado",
+                "bg_precio": "",
+                "bg_marca": "",
                 "obj": false
               },
               {
@@ -6013,10 +6013,10 @@
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
                 "precio": 1001,
-                "marca": "SURGIKAL (obj) 3/8 circ. rev.cort. ≠ 1/2 circ. punta redonda",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
+                "marca": "SURGIKAL (Origen: India) obs. 3/8 circ. rev.cort.",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
               },
               {
                 "oferente": "MARTORANI S.A.",
@@ -6117,10 +6117,10 @@
               {
                 "oferente": "CIR. ARGENTINA S.A.",
                 "precio": 1026,
-                "marca": "TAGUM (obj) hebra 45cm ≠ pliego 75cm",
+                "marca": "TAGUM (Origen: Perú) hebra 45cm",
                 "bg_precio": "",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
@@ -6141,10 +6141,10 @@
               {
                 "oferente": "SEDESA S.A.",
                 "precio": 2363.18,
-                "marca": "J&J ETHILON (obj) aguja recta 60mm ≠ 3/8 circ.",
+                "marca": "J&J ETHILON aguja recta 60mm",
                 "bg_precio": "",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
                 "oferente": "MAX CONTINENTAL S.A.",
@@ -6229,10 +6229,10 @@
               {
                 "oferente": "CIR. ARGENTINA S.A.",
                 "precio": 1026,
-                "marca": "TAGUM (obj) hebra 45cm ≠ pliego 75cm",
+                "marca": "TAGUM (Origen: Perú) hebra 45cm",
                 "bg_precio": "",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
@@ -6253,10 +6253,10 @@
               {
                 "oferente": "SEDESA S.A.",
                 "precio": 2417.04,
-                "marca": "J&J ETHILON (obj) hebra 45cm ≠ pliego 75cm",
+                "marca": "J&J ETHILON hebra 45cm",
                 "bg_precio": "",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
                 "oferente": "MAX CONTINENTAL S.A.",
@@ -6365,10 +6365,10 @@
               {
                 "oferente": "SEDESA S.A.",
                 "precio": 2363.18,
-                "marca": "J&J ETHILON (obj) aguja recta ≠ 3/8 circ., hebra 75cm ≠ 45cm",
+                "marca": "J&J ETHILON aguja recta, hebra 75cm",
                 "bg_precio": "",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
                 "oferente": "MAX CONTINENTAL S.A.",
@@ -6477,10 +6477,10 @@
               {
                 "oferente": "SEDESA S.A.",
                 "precio": 8954.55,
-                "marca": "J&J PROLENE (obj) hebra 75cm ≠ pliego 90cm",
+                "marca": "J&J PROLENE hebra 75cm",
                 "bg_precio": "",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
                 "oferente": "MAX CONTINENTAL S.A.",
@@ -6661,7 +6661,7 @@
             ]
           }
         ],
-        "notas": "\n  ① <strong>CARDIOPACK objetado:</strong> Reng. 1 y 2 (punta reforzada ≠ punta redonda pliego), Reng. 4 (hebra 45cm ≠ pliego 70cm), Reng. 5 (3/8 circ. reverso cortante ≠ 1/2 circ. punta redonda). CARDIOPACK <strong>sí</strong> cotiza correctamente Reng. 6, 7 y 8 y gana los tres.<br>\n  ② <strong>CIR. ARGENTINA objetada en Reng. 6 y 7:</strong> hebra 45cm ≠ pliego 75cm. Válida en Reng. 8 (hebra 45cm ✓).<br>\n  ③ <strong>SEDESA objetada:</strong> Reng. 6 (aguja recta 60mm ≠ 3/8 circ.), Reng. 7 (hebra 45cm ≠ 75cm), Reng. 8 (aguja recta + hebra 75cm ≠ 45cm), Reng. 9 (hebra 75cm ≠ pliego 90cm).<br>\n  ④ <strong>MARTORANI objetada en Reng. 9:</strong> 1 aguja ≠ doble aguja requerida por pliego.<br>\n  ⑤ <strong>Reng. 9:</strong> ABLE gana con preferencia nacional (+6,3%) sobre CIR. ARGENTINA (doble aguja válida, $2.540). MAX CONTINENTAL válido a $3.450.<br>\n  ⑥ <strong>Reng. 10 y 11</strong> (Catgut Simple): ABLE único oferente — ganador (verde).<br>\n  ⑦ <strong>Reng. 3 — hebra:</strong> CIR. ARGENTINA ($2.064) y SEDESA ($5.965) ofrecen hebra 75cm vs pliego 70cm — diferencia menor, a criterio de la comisión si corresponde objetar.<br>\n  ⑧ <strong>MAX CONTINENTAL</strong> consigna observaciones de tamaño de aguja; la comisión deberá evaluar si los mm declarados corresponden al pliego."
+        "notas": "\n  ① <strong>Renglones 1, 2, 4 y 5 — CARDIOPACK (SURGIKAL) gana:</strong> El pliego oficial (Anexo III) no especifica tipo de punta ni longitud de hebra para estos renglones — solo \"con agujas\". Las diferencias de especificación (punta reforzada, hebra, tipo de aguja) no tienen base escrita en el pliego y no pueden sostenerse formalmente como objeción. SURGIKAL cotiza por debajo de ABLE: Reng.1 y 2 a $1.001/$987, Reng.4 y 5 a $987/$1.001. La comisión podrá evaluar las muestras (exigidas en todos los renglones) para desestimar ofertas que no se ajusten a la necesidad clínica.<br>\n  ② <strong>Reng. 3 — ABLE gana ($1.295):</strong> Único renglón donde el pliego especifica forma y tamaño de aguja (1/2 círculo, 45mm). CIR. ARGENTINA y SEDESA ofrecen hebra 75cm (pliego no especifica hebra) — válidos aunque más caros. MAX CONTINENTAL obs. aguja 48mm (pliego pide 45mm) — a criterio de la comisión.<br>\n  ③ <strong>Renglones 6, 7 y 8 — CARDIOPACK (SURGIKAL) gana a $501:</strong> El pliego solo dice \"sutura atraumática nylon monofilamento con aguja\", sin especificar hebra ni forma de aguja. CIR. ARGENTINA y SEDESA se consideran válidos aunque cotizaron con características distintas. ABLE a $607 (+21,2%) queda fuera de color.<br>\n  ④ <strong>Reng. 9 — ABLE ganador condicional (rosado):</strong> MARTORANI objetado: 1 aguja ≠ doble aguja (pliego dice explícitamente \"CON DOBLE AGUJA\"). MERIL a $2.371,60 es más barato que ABLE ($2.390) pero objetado — si la comisión sostiene la objeción, ABLE gana. CIR. ARGENTINA válido a $2.540 (origen Perú declarado). SEDESA y MAX válidos pero mucho más caros.<br>\n  ⑤ <strong>Renglones 10 y 11</strong> (Catgut Simple): ABLE único oferente — ganador (verde).<br>\n  ⑥ <strong>Resumen de resultados según pliego:</strong> CARDIOPACK gana Reng. 1, 2, 4, 5, 6, 7 y 8. ABLE gana Reng. 3, 9 (condicional), 10 y 11."
       },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
