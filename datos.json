@@ -1435,39 +1435,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 29,
-      "entidad": "HTAL BELGRANO",
-      "nro": "PA 79/2029",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-02",
-      "monto": 424050,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-27T17:48:07.035Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 30,
       "entidad": "HTAL WILDE",
       "nro": "PA 110/2026",
@@ -5526,10 +5493,10 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "CARDIOPACK (SURGIKAL India) gana rengs.1,2,4,5,6,7,8 — el pliego no especifica tipo de punta ni hebra para rengs.1,2,4,5 ni tipo de aguja/hebra para rengs.6,7,8. ABLE gana: Reng.3 (único donde pliego especifica aguja 1/2 círculo 45mm), Reng.9 condicional (MERIL obj. 1 aguja ≠ doble aguja), Rengs.10-11 único oferente. Gestión prioritaria: rengs.1,2,4,5 — argumentar evaluación de muestras.",
+      "etapa": "Pre-adjudicación",
+      "empate": "Sí",
+      "pref": "Sí",
+      "obs": "COMPARATIVA CON PRECIOS CARDIOPACK CORREGIDOS A CON IVA (21%). Rengs.1,2: ABLE naranja pref.nac. vs CARDIOPACK (+3,2% y +4,7%). Rengs.4,6,7,8: EMPATE TÉCNICO ABLE vs CARDIOPACK (dif. <1%) — ABLE gana por origen nacional. Reng.5: ABLE gana por precio ($1.205 < $1.211,21 con IVA). Reng.3: ABLE gana único. Reng.9: condicional (MERIL obj. doble aguja). Rengs.10-11: ABLE gana vs TAGUM. ABLE potencialmente gana todos los renglones.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -5550,8 +5517,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1250,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
                 "obj": false
               },
               {
@@ -5564,10 +5531,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 1001,
+                "precio": 1211.21,
                 "marca": "SURGIKAL (Origen: India) obs. punta reforzada",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
                 "obj": false
               },
               {
@@ -5662,8 +5629,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1250,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
                 "obj": false
               },
               {
@@ -5676,10 +5643,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 987,
+                "precio": 1194.27,
                 "marca": "SURGIKAL (Origen: India) obs. punta reforzada",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
                 "obj": false
               },
               {
@@ -5886,8 +5853,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1205,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -5900,10 +5867,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 987,
+                "precio": 1194.27,
                 "marca": "SURGIKAL (Origen: India) obs. hebra 45cm",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -5998,8 +5965,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 1205,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
                 "obj": false
               },
               {
@@ -6012,10 +5979,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 1001,
+                "precio": 1211.21,
                 "marca": "SURGIKAL (Origen: India) obs. 3/8 circ. rev.cort.",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "",
+                "bg_marca": "",
                 "obj": false
               },
               {
@@ -6110,8 +6077,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 607,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -6124,10 +6091,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 501,
+                "precio": 606.21,
                 "marca": "SURGIKAL (Origen: India)",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -6222,8 +6189,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 607,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -6236,10 +6203,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 501,
+                "precio": 606.21,
                 "marca": "SURGIKAL (Origen: India)",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -6334,8 +6301,8 @@
                 "oferente": "ABLE S.A. 🇦🇷",
                 "precio": 607,
                 "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -6348,10 +6315,10 @@
               },
               {
                 "oferente": "CARDIOPACK ARG. S.A.",
-                "precio": 501,
+                "precio": 606.21,
                 "marca": "SURGIKAL (Origen: India)",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
                 "obj": false
               },
               {
@@ -6564,8 +6531,8 @@
               },
               {
                 "oferente": "CIR. ARGENTINA S.A.",
-                "precio": null,
-                "marca": "",
+                "precio": 2670,
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -6620,8 +6587,8 @@
               },
               {
                 "oferente": "CIR. ARGENTINA S.A.",
-                "precio": null,
-                "marca": "",
+                "precio": 2440,
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -6661,7 +6628,373 @@
             ]
           }
         ],
-        "notas": "\n  ① <strong>Renglones 1, 2, 4 y 5 — CARDIOPACK (SURGIKAL) gana:</strong> El pliego oficial (Anexo III) no especifica tipo de punta ni longitud de hebra para estos renglones — solo \"con agujas\". Las diferencias de especificación (punta reforzada, hebra, tipo de aguja) no tienen base escrita en el pliego y no pueden sostenerse formalmente como objeción. SURGIKAL cotiza por debajo de ABLE: Reng.1 y 2 a $1.001/$987, Reng.4 y 5 a $987/$1.001. La comisión podrá evaluar las muestras (exigidas en todos los renglones) para desestimar ofertas que no se ajusten a la necesidad clínica.<br>\n  ② <strong>Reng. 3 — ABLE gana ($1.295):</strong> Único renglón donde el pliego especifica forma y tamaño de aguja (1/2 círculo, 45mm). CIR. ARGENTINA y SEDESA ofrecen hebra 75cm (pliego no especifica hebra) — válidos aunque más caros. MAX CONTINENTAL obs. aguja 48mm (pliego pide 45mm) — a criterio de la comisión.<br>\n  ③ <strong>Renglones 6, 7 y 8 — CARDIOPACK (SURGIKAL) gana a $501:</strong> El pliego solo dice \"sutura atraumática nylon monofilamento con aguja\", sin especificar hebra ni forma de aguja. CIR. ARGENTINA y SEDESA se consideran válidos aunque cotizaron con características distintas. ABLE a $607 (+21,2%) queda fuera de color.<br>\n  ④ <strong>Reng. 9 — ABLE ganador condicional (rosado):</strong> MARTORANI objetado: 1 aguja ≠ doble aguja (pliego dice explícitamente \"CON DOBLE AGUJA\"). MERIL a $2.371,60 es más barato que ABLE ($2.390) pero objetado — si la comisión sostiene la objeción, ABLE gana. CIR. ARGENTINA válido a $2.540 (origen Perú declarado). SEDESA y MAX válidos pero mucho más caros.<br>\n  ⑤ <strong>Renglones 10 y 11</strong> (Catgut Simple): ABLE único oferente — ganador (verde).<br>\n  ⑥ <strong>Resumen de resultados según pliego:</strong> CARDIOPACK gana Reng. 1, 2, 4, 5, 6, 7 y 8. ABLE gana Reng. 3, 9 (condicional), 10 y 11."
+        "notas": "\n  ① <strong>Precios CARDIOPACK corregidos a CON IVA (21%):</strong> CARDIOPACK discriminó IVA en su oferta. Se usa el precio con IVA para comparación igualitaria con el resto de los oferentes: Reng.1 y 5: $1.211,21 (era $1.001). Reng.2 y 4: $1.194,27 (era $987). Reng.6, 7 y 8: $606,21 (era $501).<br>\n  ② <strong>Reng. 1 — ABLE naranja (preferencia nacional +3,2%):</strong> CARDIOPACK $1.211,21 con IVA gana, ABLE $1.250 a +3,2% — dentro del rango de preferencia nacional (2-10%). ABLE es industria nacional, CARDIOPACK origen India. Si la comisión aplica pref. nacional, adjudica a ABLE.<br>\n  ③ <strong>Reng. 2 — ABLE naranja (preferencia nacional +4,7%):</strong> CARDIOPACK $1.194,27, ABLE $1.250 (+4,67%). Igual que reng.1: pref. nacional aplica.<br>\n  ④ <strong>Reng. 3 — ABLE gana ($1.295):</strong> Sin competencia más barata. Siguiente: MAX CONTINENTAL $1.960,65.<br>\n  ⑤ <strong>Reng. 4 — EMPATE TÉCNICO (+0,9%):</strong> CARDIOPACK $1.194,27, ABLE $1.205,00. Diferencia 0,9% ≤ 2% → empate técnico. ABLE industria nacional gana el desempate.<br>\n  ⑥ <strong>Reng. 5 — ABLE gana por precio ($1.205 &lt; $1.211,21):</strong> Con IVA, ABLE es más barato que CARDIOPACK. ABLE verde directo.<br>\n  ⑦ <strong>Renglones 6, 7 y 8 — EMPATE TÉCNICO (+0,13%):</strong> CARDIOPACK $606,21, ABLE $607,00. Diferencia 0,13% ≤ 2% → empate técnico en los tres renglones. ABLE industria nacional gana el desempate.<br>\n  ⑧ <strong>Reng. 9 — ABLE ganador condicional (rosado):</strong> MARTORANI objetado (1 aguja ≠ doble aguja — respaldado por pliego). MERIL $2.371,60 más barato que ABLE $2.390 pero objetado — si la comisión sostiene, ABLE gana. CIR. ARGENTINA válido a $2.540 (Origen: Perú, +6,3%).<br>\n  ⑨ <strong>Renglones 10 y 11 — ABLE gana:</strong> CIR. ARGENTINA cotizó Catgut a $2.670 (reng.10) y $2.440 (reng.11) — más caro que ABLE $2.200. ABLE gana ambos renglones.<br>\n  ⑩ <strong>Resumen con IVA corregido:</strong> ABLE gana o tiene preferencia/empate en TODOS los renglones. Renglones verdes: 3, 5, 10, 11. Empate técnico (ABLE gana): 4, 6, 7, 8. Preferencia nacional (ABLE aplicable): 1, 2. Condicional: 9."
+      },
+      "preadj_fecha": "2026-06-02",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "ABLE adjudicada rengs. 3 ($1.824 ALT), 10 y 11. CARDIOPACK adjudicada rengs. 1, 2, 4, 5, 6, 8. MARTORANI adjudicada reng. 9. Reng. 7 desestimado (duplicado reng. 6). IMPUGNAR ANTES DEL 06/06/2026: Reng.5 — ABLE $1.205 es más barato que CARDIOPACK $1.211,21, adjudicaron mal. Rengs.1 y 2 — preferencia nacional no aplicada (dif. 3,2% y 4,7%, Art.22 Ley 13.981). Rengs.4, 6 y 8 — empate técnico no reconocido (dif. 0,9% y 0,13%, Art.13.3 pliego), ABLE industria nacional gana desempate vs CARDIOPACK India. Reng.9 — MARTORANI adjudicado pese a cotizar 1 aguja, pliego exige doble aguja; si se sostiene objeción ABLE gana por empate técnico (0,78%). Reng.3 — verificar si se acepta precio ALT $1.824 o se reclama precio base Surgimax $1.295.",
+      "gestion_pre_resultado": "Parcial",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-01T21:26:13.792Z"
+    },
+    {
+      "id": 51,
+      "entidad": "HTAL MANUEL BELGRANO",
+      "nro": "PA 79/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-02",
+      "monto": 424050,
+      "mayor": "No",
+      "zona": "",
+      "agente": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana reng. 2 (bolsa colostomía $1.490,50 vs Farmatec $2.462,00 — +65,2%) y reng. 3 (cofia elastizada $27,50 vs Igaltex $31,71 — +15,3%). Storing objetado reng. 2 base (bolsa drenable ≠ colostomía recortable); ALT-1 $22.440,18 y ALT-2 $10.562,10 también drenables, no comparables. Storing reng. 3 solo ofreció ALT cofia plato redonda no plisada $144,68 (producto diferente). Monto total ABLE: $424.050,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Farmatec",
+          "Propato",
+          "Martoriani",
+          "Storing",
+          "Euroswiss",
+          "Igaltex"
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 100,
+            "desc": "Bolsa de colostomía cerrada transparente 1 pieza c/aro recortable 15-70mm c/filtro — BCO.CT.1P.70",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1490.5,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Farmatec",
+                "precio": 2462,
+                "marca": "EURO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martoriani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing",
+                "precio": 28774.35,
+                "marca": "Coloplast — (obj) bolsa drenable ≠ colostomía recortable",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 90,
+            "desc": "ALT — Bolsa drenable opaca Sensura Coloplast cod.15550 recortable 10–66mm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Farmatec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martoriani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing",
+                "precio": 22440.18,
+                "marca": "Coloplast",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 90,
+            "desc": "ALT — Bolsa drenable opaca alterna Coloplast cod.5885 recortable 10–70mm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Farmatec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martoriani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing",
+                "precio": 10562.1,
+                "marca": "Coloplast",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 10000,
+            "desc": "Cofia descartable elastizada",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 27.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Farmatec",
+                "precio": 33,
+                "marca": "BLUEMED/NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato",
+                "precio": 72.88,
+                "marca": "PADEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martoriani",
+                "precio": 36.2,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": 41,
+                "marca": "EUROMIX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 31.71,
+                "marca": "GLOBAL PROTECTIVE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 10000,
+            "desc": "ALT — Cofia plato redonda 20gr no plisada",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Farmatec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martoriani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing",
+                "precio": 144.68,
+                "marca": "Clothier",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n① <strong>Storing (Reng. 2 base — objetado):</strong> Cotizó bolsa drenable Gris Sensura Mio Coloplast (90 u., $28.774,35 u.) en lugar de la bolsa de colostomía adhesiva recortable del pliego. Producto diferente → objetado. Se incluyen las dos alternativas ofrecidas como filas ALT (reng. 2 ALT-1 y ALT-2); ambas son también bolsas drenables, no comparables con el producto base.<br>\n② <strong>Storing (Reng. 3 ALT):</strong> No cotizó cofia elastizada (reng. 3 base). Solo ofreció como alternativa cofia plato redonda no plisada (Clothier, $144,68 u.), producto de características diferentes → incluida como fila ALT independiente, sin color.<br>\n③ <strong>Renglones 1, 4, 5, 6, 7, 9, 10, 11, 12, 13:</strong> ABLE S.A. no cotizó estos ítems; no se incluyen en la presente comparativa.\n"
       },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
@@ -6679,8 +7012,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-06-01T21:26:13.792Z"
+      "creado": "2026-06-02T16:47:36.434Z"
     }
   ],
-  "nextId": 51
+  "nextId": 52
 }
