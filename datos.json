@@ -1484,25 +1484,8 @@
       "creado": "2026-05-27T18:36:25.438Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 32,
-      "entidad": "HTAL BELGRANO",
+      "entidad": "HTAL MANUEL BELGRANO",
       "nro": "PA 80/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-02",
@@ -1510,10 +1493,113 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 1 — Max Continental gana a $133,60 (SINOCARE, obs. VTO 26/01/2027 — verificar pliego). ABLE $269,50 (+101,7% sobre ganador, sin color). EXSA segundo a $180,00; Martoriani $203,30 (cond. Accu-Check); Storing $308 c/IVA. Monto total ABLE: $1.617.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Storing",
+          "Medi Sistem",
+          "EXSA",
+          "Max Continental",
+          "Raul Poggi",
+          "DNM Farma",
+          "Martoriani"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 6000,
+            "desc": "Tiras reactivas para determinación de glucosa en sangre c/equipos bonificados — TIRAS.REACT",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 269.5,
+                "marca": "On Call Plus",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing",
+                "precio": 308,
+                "marca": "NIPRO-Gochek 2 (precio c/IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medi Sistem",
+                "precio": 401,
+                "marca": "ROCHE Accu-Chek Guide — 15 eq. s/cargo",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EXSA",
+                "precio": 180,
+                "marca": "MEDLINE EvenCare G2 — eq. comodato",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 133.6,
+                "marca": "SINOCARE — obs. VTO 26/01/2027",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Poggi",
+                "precio": 557,
+                "marca": "ROCHE Accu-Chek Guide — 15 eq. comodato",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DNM Farma",
+                "precio": 339.59,
+                "marca": "BETTERLIFE On Call Plus Mod 1-2",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martoriani",
+                "precio": 203.3,
+                "marca": "MICROLIFE — cond. excl. Accu-Check + 15 eq.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n① <strong>Max Continental (Reng. 1):</strong> Indica \"OBSERVACION VTO 26/01/2027\". Verificar en pliego si se exige shelf life mínimo desde la entrega; de requerirse más de ~7 meses, la oferta podría ser objetada por vencimiento insuficiente.<br>\n② <strong>Storing (Reng. 1):</strong> Declara que los precios incluyen IVA ($308,00 c/IVA). Se utiliza ese valor para la comparación tal como indica la norma de comparación igualitaria.<br>\n③ <strong>Medi Sistem y Raul Jorge Leon Poggi (Reng. 1):</strong> Ambos ofrecen 15 equipos de lectura Accu-Chek Guide en comodato/sin cargo. Precio de tiras: $401,00 y $557,00 respectivamente.<br>\n④ <strong>EXSA S.R.L. (Reng. 1):</strong> Ofrece equipos necesarios en comodato (EVENCARE G2). Precio tiras: $180,00.<br>\n⑤ <strong>DNM Farma (Reng. 1):</strong> Cotiza tiras BETTERLIFE compatibles con equipos On Call Plus (Mod 1-2), $339,59.<br>\n⑥ <strong>Martoriani (Reng. 1):</strong> Incluye condición \"EXCLUSIVAMENTE TIPO ACCU CHECK GUIDE O SIMILAR\" con 15 biosensores en comodato. Precio tiras: $203,30.\n"
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-05-27T18:38:06.121Z"
     },
     {
@@ -6656,8 +6742,8 @@
       "fecha": "2026-06-02",
       "monto": 424050,
       "mayor": "No",
-      "zona": "",
-      "agente": "",
+      "zona": "Zona Norte",
+      "agente": "Diego",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
@@ -7058,9 +7144,9 @@
       "gestion_pre": "",
       "gestion_pre_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-05-22",
+      "adj_monto_able": 887800,
+      "adj_resumen": "Renglon 38 adjudicado cantidad 40 Equipos de Cirugia Hemorrepelente por $22195 c/u  para un total de $887800",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "gestion_post": "",
