@@ -11,27 +11,29 @@
 body{font-family:Arial,sans-serif;background:#eef1f6;min-height:100vh;color:#1a1a1a}
 
 /* TOP BAR */
-.topbar{background:#1a3a5c;color:#fff;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2)}
-.topbar-left h1{font-size:16px;font-weight:bold}
-.topbar-left p{font-size:11px;opacity:.65;margin-top:2px}
+.topbar{background:#1a3a5c;color:#fff;padding:9px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.topbar-left h1{font-size:14px;font-weight:bold}
+.topbar-left p{font-size:10px;opacity:.65;margin-top:1px}
 .topbar-right{display:flex;gap:7px;flex-wrap:wrap}
 
-/* LAYOUT */
-.main{max-width:1400px;margin:0 auto;padding:20px 16px}
+/* LAYOUT — fixed viewport, tabla scrollea internamente */
+html,body{height:100%;overflow:hidden}
+.main{max-width:1400px;margin:0 auto;padding:10px 16px;height:calc(100vh - 52px);display:flex;flex-direction:column;overflow:hidden}
 
-/* STAT CARDS */
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:20px}
-.stat{background:#fff;border-radius:10px;padding:14px 16px;border-top:3px solid #ccc}
+/* STAT CARDS — compact horizontal */
+.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:7px;flex-shrink:0}
+.stat{background:#fff;border-radius:7px;padding:6px 12px;border-top:3px solid #ccc;display:flex;align-items:center;gap:10px}
 .stat.blue{border-color:#2471a3}.stat.green{border-color:#27ae60}
 .stat.orange{border-color:#e67e22}.stat.red{border-color:#c0392b}.stat.purple{border-color:#8e44ad}
-.stat-label{font-size:11.5px;color:#888;margin-bottom:5px}
-.stat-value{font-size:24px;font-weight:bold;color:#1a1a1a}
-.stat-sub{font-size:10.5px;color:#bbb;margin-top:2px}
+.stat-label{font-size:10px;color:#888;line-height:1.2}
+.stat-value{font-size:18px;font-weight:bold;color:#1a1a1a;line-height:1}
+.stat-sub{font-size:10px;color:#bbb}
 
-/* TOOLBAR */
-.toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;align-items:center}
-.toolbar input,.toolbar select{padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:12.5px;background:#fff;outline:none}
+/* TOOLBAR — 2 columnas */
+.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:7px;flex-shrink:0}
+.toolbar input,.toolbar select{padding:5px 9px;border:1px solid #ccc;border-radius:6px;font-size:12px;background:#fff;outline:none;width:100%}
 .toolbar input:focus,.toolbar select:focus{border-color:#1a3a5c}
+.toolbar-bottom{display:flex;align-items:center;justify-content:flex-end;grid-column:1/-1;gap:8px}
 .spacer{flex:1}
 .count-lbl{font-size:12px;color:#999}
 
@@ -48,14 +50,14 @@ body{font-family:Arial,sans-serif;background:#eef1f6;min-height:100vh;color:#1a1
 .btn-icon{padding:5px 8px;font-size:13px}
 
 /* TABLE */
-.table-wrap{background:#fff;border-radius:10px;overflow:auto;box-shadow:0 1px 6px rgba(0,0,0,.08)}
-table{width:100%;border-collapse:collapse;font-size:12px}
+.table-wrap{background:#fff;border-radius:10px;overflow-y:auto;overflow-x:hidden;box-shadow:0 1px 6px rgba(0,0,0,.08);flex:1;min-height:0}
+table{width:100%;border-collapse:collapse;font-size:11.5px}
 thead tr{background:#1a3a5c;color:#fff}
-th{padding:10px 10px;text-align:left;font-weight:bold;white-space:nowrap;font-size:11.5px}
+th{padding:8px 8px;text-align:left;font-weight:bold;white-space:nowrap;font-size:11px}
 th.c{text-align:center}
 tbody tr{border-bottom:1px solid #f2f2f2;transition:background .12s}
 tbody tr:hover{background:#f5faff}
-td{padding:8px 10px;vertical-align:middle}
+td{padding:5px 8px;vertical-align:middle}
 td.c{text-align:center}
 td.r{text-align:right}
 
@@ -285,8 +287,7 @@ body.modo-lectura .modal-body select:disabled{
       <option value="pref">Con pref. nacional</option>
       <option value="adj_alerta">Con alertas de adjudicación</option>
     </select>
-    <div class="spacer"></div>
-    <span class="count-lbl" id="countLbl"></span>
+    <div class="toolbar-bottom"><span class="count-lbl" id="countLbl"></span></div>
   </div>
 
   <!-- TABLE -->
@@ -294,15 +295,15 @@ body.modo-lectura .modal-body select:disabled{
     <table>
       <thead>
         <tr>
-          <th style="min-width:190px">Entidad</th>
+          <th style="min-width:150px">Entidad</th>
           <th style="min-width:100px">N° Licit.</th>
           <th class="c" style="min-width:80px">Apertura</th>
           <th class="c" style="min-width:105px">Monto cotizado</th>
           <th class="c" style="min-width:65px">Zona</th>
           <th class="c" style="min-width:55px">Agente</th>
-          <th style="min-width:260px">Flujo de trabajo</th>
-          <th class="c" style="min-width:65px">Emp. tec.</th>
-          <th class="c" style="min-width:65px">Pref. nac.</th>
+          <th style="min-width:220px">Flujo</th>
+          <th class="c" style="min-width:50px">Emp.</th>
+          <th class="c" style="min-width:50px">Pref.</th>
           <th class="c" style="min-width:95px">F. Pre-adj.</th>
           <th class="c" style="min-width:100px">F. Adjudicación</th>
           <th class="c" style="min-width:90px">Estado OC</th>
