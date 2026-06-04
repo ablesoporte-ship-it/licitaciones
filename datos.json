@@ -7696,20 +7696,663 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "MARTORANI",
+          "MAXCONTINENTAL",
+          "CIRUGIA ARG",
+          "CARDIOPACK"
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 250,
+            "desc": "Sutura Polipropileno N°1, ag. 40mm ½circ., punta redonda, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2371.6,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 1610,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 2308,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 1000,
+            "desc": "Sutura Polipropileno N°2/0, doble aguja 26mm ½circ., hebra 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2490,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2371.6,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 2150,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 2752,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1505.24,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4a",
+            "cant": 1000,
+            "desc": "Sutura Polipropileno N°2/0 alt., doble aguja 26mm ½circ., hebra 90cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 1000,
+            "desc": "Sutura Polipropileno N°3/0, doble aguja 25mm ½circ., hebra 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2490,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2371.6,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 2150,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 2752,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5a",
+            "cant": 1000,
+            "desc": "Sutura Polipropileno N°3/0 alt., doble aguja 25mm ½circ., hebra 90cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 400,
+            "desc": "Sutura Polipropileno N°5/0, doble aguja 17mm ½circ., hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2490,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2371.6,
+                "marca": "",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 3033,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 2752,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 3028.63,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6a",
+            "cant": 400,
+            "desc": "Sutura Polipropileno N°5/0 alt., doble aguja 17mm ½circ., hebra 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 200,
+            "desc": "Sutura Polipropileno N°6/0, doble aguja 12mm 3/8circ., hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 6534.4,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 4220,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 6932,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 600,
+            "desc": "Catgut cromado N°1, ag. 35mm ½circ., punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2350,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 2512,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 700,
+            "desc": "Catgut cromado N°2, ag. 35mm ½circ., punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2720,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 2812,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 3000,
+            "desc": "Nylon monofilamento N°2/0, ag. 20mm 3/8circ., punta rev.cort., hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 559,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 1172.2,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 619,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 1102,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 588.06,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10a",
+            "cant": 3000,
+            "desc": "Nylon monofilamento N°2/0 alt., ag. 20mm 3/8circ., hebra 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 2000,
+            "desc": "Nylon monofilamento N°3/0, ag. 20mm 3/8circ., punta rev.cort., hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 559,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 1172.2,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 619,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 1102,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 588.06,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11a",
+            "cant": 2000,
+            "desc": "Nylon monofilamento N°3/0 alt., ag. 20mm 3/8circ., hebra 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 1000,
+            "desc": "Nylon monofilamento N°4/0, ag. 25mm 3/8circ., punta rev.cort., hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 559,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 1172.2,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 619,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 1102,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 623.15,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12a",
+            "cant": 1000,
+            "desc": "Nylon monofilamento N°4/0 alt., ag. 25mm 3/8circ., hebra 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 4000,
+            "desc": "Ácido poliglicólico N°1, ag. 25mm ½circ., punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 1813.24,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 1727,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1263.24,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13a",
+            "cant": 4000,
+            "desc": "Ácido poliglicólico N°1 alt., ag. 25mm ½circ., punta redonda, hebra 70cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 1000,
+            "desc": "Ácido poliglicólico N°2/0, ag. 25mm ½circ., punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1203,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 2129.6,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAXCONTINENTAL",
+                "precio": 1661.84,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARG",
+                "precio": 1727,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CARDIOPACK",
+                "precio": 1263.24,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14a",
+            "cant": 1000,
+            "desc": "Ácido poliglicólico N°2/0 alt., ag. 25mm ½circ., punta redonda, hebra 70cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "Surgimax/ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": ""
+      },
       "id": 60,
       "entidad": "HTAL EVITA LANUS",
       "nro": "LP 91",
-      "tipo": "Pública",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-04-30",
-      "monto": 16070400,
+      "monto": 13066000,
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
       "etapa": "Pre-adjudicación",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Comparativa LP 91/2026 Evita — Suturas quirófano. ABLE gana renglones 3,5,7,8,9,10,11,12,13,14 por menor precio. Renglones 4 y 6 ABLE no gana (precio base más alto). Alternativas cotizadas en renglones 4,5,6,10,11,12,13,14.",
       "creado": "2026-06-03T21:46:07.477Z"
     }
   ],
