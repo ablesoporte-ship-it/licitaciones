@@ -1027,6 +1027,132 @@ function rengSetView(view, btn){
   btn.closest('.reng-body-inner').querySelector('.reng-contenedor').className='reng-contenedor reng-view-'+view;
 }
 
+// ── Cruce comparativa vs preadjudicación ────────────────────────────────────
+function buildAlertasHTML(renglones, tabla){
+  if(!tabla||!tabla.renglones||!tabla.renglones.length) return '';
+  const ABLE_KEYS=['ABLE S.A.','ABLE S.A. 🇦🇷','ABLE'];
+
+  const alertas = [];
+
+  renglones.forEach(rp => {
+    // Buscar el renglón en la tabla (comparativa) — puede ser string o número
+    const tablaRow = tabla.renglones.find(tr =>
+      String(tr.reng).replace(/\s/g,'') === String(rp.reng).replace(/\s/g,'') && !tr.es_alt
+    );
+    if(!tablaRow) return; // no estaba en la comparativa
+
+    const ableCelda = (tablaRow.celdas||[]).find(c => ABLE_KEYS.includes(c.oferente));
+    if(!ableCelda) return;
+
+    const bg = ableCelda.bg_precio || '';
+    const adj = rp.resultado === 'adj';
+
+    // Caso 1: ganábamos (verde) y no nos adjudicaron → ALERTA ROJA
+    if(bg === 'verde' && !adj){
+      alertas.push({
+        tipo: 'rojo',
+        reng: rp.reng,
+        desc: rp.desc,
+        icon: '🔴',
+        texto: `Reng. ${rp.reng} — Éramos el más barato en comparativa y no fuimos adjudicados`,
+        motivo: rp.motivo
+      });
+    }
+
+    // Caso 2: no ganábamos (rosado/vacío) y nos adjudicaron → INFORMATIVO AMARILLO
+    if((bg===''||bg==='rosado') && adj){
+      alertas.push({
+        tipo: 'amarillo',
+        reng: rp.reng,
+        desc: rp.desc,
+        icon: '🟡',
+        texto: `Reng. ${rp.reng} — No ganábamos en comparativa y fuimos adjudicados`,
+        motivo: rp.motivo
+      });
+    }
+
+    // Caso 3: empate técnico (amarillo) y nos adjudicaron → GESTIÓN POSITIVA
+    if(bg === 'amarillo' && adj){
+      alertas.push({
+        tipo: 'gestion',
+        reng: rp.reng,
+        desc: rp.desc,
+        icon: '🤝',
+        texto: `Reng. ${rp.reng} — Empate técnico resuelto a favor de ABLE (industria nacional)`,
+        motivo: rp.motivo
+      });
+    }
+
+    // Caso 4: preferencia nacional (naranja) y nos adjudicaron → GESTIÓN POSITIVA
+    if(bg === 'naranja' && adj){
+      alertas.push({
+        tipo: 'gestion',
+        reng: rp.reng,
+        desc: rp.desc,
+        icon: '🇦🇷',
+        texto: `Reng. ${rp.reng} — Preferencia nacional aplicada`,
+        motivo: rp.motivo
+      });
+    }
+
+    // Caso 5: competidor objetado y nos adjudicaron → GESTIÓN POSITIVA
+    const haObjCompetidor = (tablaRow.celdas||[]).some(c =>
+      !ABLE_KEYS.includes(c.oferente) && c.obj === true
+    );
+    if(haObjCompetidor && adj && bg !== 'verde'){
+      alertas.push({
+        tipo: 'gestion',
+        reng: rp.reng,
+        desc: rp.desc,
+        icon: '⚠️',
+        texto: `Reng. ${rp.reng} — Adjudicado gracias a objeción de competidor`,
+        motivo: rp.motivo
+      });
+    }
+  });
+
+  if(!alertas.length) return '';
+
+  const COLORES = {
+    rojo:    { bg:'#fdedec', border:'#e74c3c', titulo:'Alertas — revisar' },
+    amarillo:{ bg:'#fef9c3', border:'#f59e0b', titulo:'Cambios respecto a comparativa' },
+    gestion: { bg:'#eafaf1', border:'#27ae60', titulo:'Gestión del agente' },
+  };
+
+  // Agrupar por tipo
+  const grupos = {};
+  alertas.forEach(a => {
+    if(!grupos[a.tipo]) grupos[a.tipo] = [];
+    grupos[a.tipo].push(a);
+  });
+
+  const orden = ['rojo','amarillo','gestion'];
+  let html = `<div style="margin-bottom:16px">
+    <div style="font-size:13px;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px">
+      📊 Cruce Comparativa vs Preadjudicación
+    </div>`;
+
+  orden.forEach(tipo => {
+    if(!grupos[tipo]) return;
+    const c = COLORES[tipo];
+    html += `<div style="background:${c.bg};border-left:4px solid ${c.border};border-radius:8px;padding:10px 14px;margin-bottom:8px">
+      <div style="font-size:11px;font-weight:700;color:${c.border};text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">${c.titulo}</div>`;
+    grupos[tipo].forEach(a => {
+      html += `<div style="font-size:12.5px;color:#1a1a2e;padding:3px 0;display:flex;gap:8px;align-items:flex-start">
+        <span>${a.icon}</span>
+        <div>
+          <span>${a.texto}</span>
+          <br><small style="color:#888;font-size:11px">${a.desc.substring(0,80)}${a.desc.length>80?'…':''}</small>
+        </div>
+      </div>`;
+    });
+    html += `</div>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+
 // ── Preadjudicación: usa renglones_preadj estructurado ──────────────────────
 function buildRengPreadjHTML(renglones, r){
   const fmtP = p => p!=null ? '$'+Number(p).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}) : '—';
@@ -1097,6 +1223,7 @@ function buildRengPreadjHTML(renglones, r){
 
   return `
   <div class="reng-etapa-note">📋 Etapa: <strong>${r.etapa}</strong> — resultado definitivo según acta de preadjudicación</div>
+  ${buildAlertasHTML(renglones, typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla)}
   <div class="reng-chips">
     <div class="reng-chip verde">✅ Adjudicados: ${adj.length} · ${fmtP(adjMonto)}</div>
     <div class="reng-chip rojo">❌ No adjudicados: ${noAdj.length} · ${fmtP(noAdjMonto)}</div>
