@@ -166,10 +166,64 @@ body.modo-lectura .modal-body select:disabled{
 .sep-row td{background:#f8f8f8;height:5px;padding:0}
 .comp-note{margin-top:14px;padding:11px 14px;background:#fff8e1;border-left:4px solid #f39c12;font-size:12px;line-height:1.6;border-radius:0 4px 4px 0}
 
+/* RENGLONES RESULT VIEW */
+.reng-chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.reng-chip{padding:7px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.reng-chip.verde{background:#d4efdf;color:#1e8449}
+.reng-chip.rojo{background:#fdedec;color:#c0392b}
+.reng-chip.gris{background:#f0f0f0;color:#555}
+
+.reng-top{display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.reng-tabs{display:flex;gap:4px}
+.reng-tab{padding:6px 14px;border-radius:6px;font-size:12.5px;cursor:pointer;border:1.5px solid #ddd;background:#fff;color:#555;font-weight:600}
+.reng-tab.active{background:#1a3a5c;color:#fff;border-color:#1a3a5c}
+.reng-tv{display:flex;gap:4px;margin-left:auto}
+.reng-tv-btn{padding:5px 10px;border-radius:5px;border:1.5px solid #ddd;background:#fff;cursor:pointer;font-size:12px;color:#555}
+.reng-tv-btn.active{background:#1a3a5c;color:#fff;border-color:#1a3a5c}
+
+.reng-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.reng-card{background:#fff;border-radius:10px;padding:13px 15px;box-shadow:0 1px 4px rgba(0,0,0,.08);border-left:4px solid #ddd}
+.reng-card.adj{border-left-color:#27ae60}
+.reng-card.no-adj{border-left-color:#e74c3c}
+.reng-card-hdr{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:7px}
+.reng-num-lbl{font-size:10.5px;font-weight:700;color:#999;text-transform:uppercase;letter-spacing:.5px}
+.reng-badge{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:10px}
+.reng-badge.adj{background:#d4efdf;color:#1e8449}
+.reng-badge.no-adj{background:#fdedec;color:#c0392b}
+.reng-desc{font-size:12.5px;color:#374151;line-height:1.4;margin-bottom:9px}
+.reng-precios{display:flex;gap:7px;margin-bottom:8px}
+.reng-pbox{flex:1;background:#f8fafc;border-radius:7px;padding:7px 9px}
+.reng-pbox .lbl{font-size:10px;color:#999;text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px}
+.reng-pbox .val{font-size:14px;font-weight:700;color:#1a1a1a}
+.reng-pbox .val.g{color:#1e8449}
+.reng-pbox .val.r{color:#c0392b}
+.reng-pbox .sub{font-size:10.5px;color:#bbb}
+.reng-motivo{display:flex;align-items:center;gap:6px;background:#f8fafc;border-radius:6px;padding:5px 9px;font-size:12px;color:#374151}
+.reng-motivo strong{color:#1a1a1a}
+
+.reng-lista{display:none;flex-direction:column;gap:4px}
+.reng-list-hdr{background:#1a3a5c;color:#fff;border-radius:7px;padding:8px 14px;display:grid;grid-template-columns:90px 1fr 105px 120px 90px 170px;gap:8px;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+.reng-list-row{background:#fff;border-radius:7px;padding:9px 14px;display:grid;grid-template-columns:90px 1fr 105px 120px 90px 170px;align-items:center;gap:8px;box-shadow:0 1px 3px rgba(0,0,0,.06);border-left:3px solid #ddd;font-size:12.5px}
+.reng-list-row.adj{border-left-color:#27ae60}
+.reng-list-row.no-adj{border-left-color:#e74c3c}
+.diff-neg{color:#1e8449;font-weight:700}
+.diff-pos{color:#c0392b;font-weight:700}
+
+.reng-view-grid .reng-lista{display:none}
+.reng-view-grid .reng-grid{display:grid}
+.reng-view-lista .reng-lista{display:flex}
+.reng-view-lista .reng-grid{display:none}
+
+.reng-empty{text-align:center;padding:40px;color:#bbb;font-size:13px}
+.reng-etapa-note{background:#eaf0f8;border-radius:7px;padding:9px 14px;font-size:12px;color:#1a3a5c;margin-bottom:14px}
+
 @media(max-width:700px){
   .form-grid{grid-template-columns:1fr}
   .fg.full{grid-column:1}
   .topbar-right .btn span{display:none}
+  .reng-list-hdr,.reng-list-row{grid-template-columns:70px 1fr 90px 100px}
+  .reng-list-hdr .col-diff,.reng-list-hdr .col-motivo,
+  .reng-list-row .col-diff,.reng-list-row .col-motivo{display:none}
 }
 </style>
 </head>
@@ -367,6 +421,20 @@ body.modo-lectura .modal-body select:disabled{
 </div>
 </div>
 
+<!-- ======= RENGLONES RESULT OVERLAY ======= -->
+<div class="overlay" id="rengOverlay" style="display:none" onclick="if(event.target===this)closeReng()">
+<div class="modal" style="max-width:1000px">
+  <div class="modal-hdr">
+    <h2 id="rengTitle">Resultado por renglón</h2>
+    <button class="modal-close" onclick="closeReng()">&#215;</button>
+  </div>
+  <div class="modal-body" id="rengBody" style="padding:16px"></div>
+  <div class="modal-ftr">
+    <button class="btn btn-outline" onclick="closeReng()">Cerrar</button>
+  </div>
+</div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -386,6 +454,7 @@ const ETAPA_SHORT = ['Pend.','Comp.','Pre-adj.','Adj.','OC'];
 function normalizeRows(rows){
   return rows.map(r=>({
     preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+    renglones_preadj: null,
     gestion_pre:'', gestion_pre_resultado:'',
     gestion_post:'', gestion_post_resultado:'',
     adj_recibida:false, adj_fecha:'', adj_monto_able:0,
@@ -595,6 +664,7 @@ function render(){
       <td class="c">${badgeOC(r.oc)}</td>
       <td class="c" style="white-space:nowrap">
         ${r.tabla?`<button class="btn btn-outline btn-icon" onclick="openComp(${r.id})" title="Ver comparativa" style="margin-right:3px">&#128202;</button>`:''}
+        ${r.renglones_preadj&&r.renglones_preadj.length?`<button class="btn btn-outline btn-icon" onclick="openReng(${r.id})" title="Ver renglones ABLE" style="margin-right:3px">&#128203;</button>`:''}
         <button class="btn btn-outline btn-icon" onclick="openDetail(${r.id})" title="Ver / Editar">&#128065;</button>
       </td>
     </tr>
@@ -873,6 +943,7 @@ function doImport(){
       preadj_pref_ok:p.preadj_pref_ok||'',
       gestion_pre:p.notas||'',
       gestion_pre_resultado:p.resultado||'',
+      renglones_preadj:p.renglones_preadj||null,
     };
     toast('Pre-adjudicación importada: '+p.nro,'ok');
 
@@ -933,6 +1004,235 @@ function openComp(id){
 }
 function closeComp(){ document.getElementById('compOverlay').style.display='none'; }
 
+function openReng(id){
+  const r=data.find(x=>x.id===id);
+  if(!r||!r.renglones_preadj||!r.renglones_preadj.length) return;
+  document.getElementById('rengTitle').textContent=r.nro+' — '+r.entidad+' · Renglones ABLE';
+  document.getElementById('rengBody').innerHTML=buildRengPreadjHTML(r.renglones_preadj, r);
+  document.getElementById('rengOverlay').style.display='flex';
+}
+function closeReng(){ document.getElementById('rengOverlay').style.display='none'; }
+
+function rengFiltrar(tipo, btn){
+  btn.closest('.reng-tabs').querySelectorAll('.reng-tab').forEach(t=>t.classList.remove('active'));
+  btn.classList.add('active');
+  const cont=btn.closest('.reng-body-inner');
+  cont.querySelectorAll('[data-rtipo]').forEach(el=>{
+    el.style.display=(tipo==='todos'||el.dataset.rtipo===tipo)?'':'none';
+  });
+}
+function rengSetView(view, btn){
+  btn.closest('.reng-tv').querySelectorAll('.reng-tv-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  btn.closest('.reng-body-inner').querySelector('.reng-contenedor').className='reng-contenedor reng-view-'+view;
+}
+
+// ── Preadjudicación: usa renglones_preadj estructurado ──────────────────────
+function buildRengPreadjHTML(renglones, r){
+  const fmtP = p => p!=null ? '$'+Number(p).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}) : '—';
+
+  const MOTIVO_ICON = {
+    'menor_precio':       { icon:'💰', label:'Menor precio' },
+    'empate_tecnico':     { icon:'🤝', label:'Empate técnico — industria nacional' },
+    'preferencia_nac':    { icon:'🇦🇷', label:'Preferencia nacional' },
+    'unica_oferta':       { icon:'🏆', label:'Única oferta' },
+    'precio_excesivo':    { icon:'🚫', label:'Precio excesivo' },
+    'superado':           { icon:'❌', label:'Superado por competidor' },
+    'rechazado_calidad':  { icon:'🔬', label:'Rechazado por especificaciones técnicas' },
+    'no_cotizo':          { icon:'—',  label:'No cotizó' },
+  };
+
+  const adj   = renglones.filter(r=>r.resultado==='adj');
+  const noAdj = renglones.filter(r=>r.resultado==='no_adj');
+  const adjMonto   = adj.reduce((s,r)=>(s+(r.precio_able||0)*(r.cant||0)),0);
+  const noAdjMonto = noAdj.reduce((s,r)=>(s+(r.precio_able||0)*(r.cant||0)),0);
+
+  const makeCard = rng => {
+    const res = rng.resultado==='adj'?'adj':'no-adj';
+    const label = rng.resultado==='adj'?'✅ Adjudicado':'❌ No adjudicado';
+    const m = MOTIVO_ICON[rng.motivo]||{icon:'📋',label:rng.motivo||'—'};
+    const diffPct = rng.precio_siguiente && rng.precio_able
+      ? Math.round((rng.precio_able/rng.precio_siguiente-1)*100) : null;
+    return `
+    <div class="reng-card ${res}" data-rtipo="${res}">
+      <div class="reng-card-hdr">
+        <span class="reng-num-lbl">Reng. ${rng.reng}</span>
+        <span class="reng-badge ${res}">${label}</span>
+      </div>
+      <div class="reng-desc">${(rng.desc||'').substring(0,120)}${(rng.desc||'').length>120?'…':''}</div>
+      <div class="reng-precios">
+        <div class="reng-pbox">
+          <div class="lbl">ABLE</div>
+          <div class="val ${res==='adj'?'g':'r'}">${fmtP(rng.precio_able)}</div>
+          <div class="sub">${rng.marca||'—'}</div>
+        </div>
+        <div class="reng-pbox">
+          <div class="lbl">${res==='adj'?'Siguiente':'Ganador'}</div>
+          <div class="val">${rng.precio_siguiente?fmtP(rng.precio_siguiente):'—'}</div>
+          <div class="sub">${rng.ganador_sig||'—'}</div>
+        </div>
+      </div>
+      <div class="reng-motivo">
+        <span>${m.icon}</span>
+        <span>${m.label}${diffPct!==null?` <span class="${diffPct<=0?'diff-neg':'diff-pos'}">(${diffPct>0?'+':''}${diffPct}%)</span>`:''}</span>
+      </div>
+    </div>`;
+  };
+
+  const makeListRow = rng => {
+    const res = rng.resultado==='adj'?'adj':'no-adj';
+    const m = MOTIVO_ICON[rng.motivo]||{icon:'📋',label:rng.motivo||'—'};
+    const diffPct = rng.precio_siguiente && rng.precio_able
+      ? Math.round((rng.precio_able/rng.precio_siguiente-1)*100) : null;
+    return `
+    <div class="reng-list-row ${res}" data-rtipo="${res}">
+      <div><strong>Reng. ${rng.reng}</strong></div>
+      <div style="font-size:11.5px">${(rng.desc||'').substring(0,80)}${(rng.desc||'').length>80?'…':''}</div>
+      <div class="${res==='adj'?'diff-neg':'diff-pos'}">${fmtP(rng.precio_able)}<br><small style="color:#bbb;font-weight:normal">${rng.marca||''}</small></div>
+      <div style="font-size:11.5px">${rng.precio_siguiente?fmtP(rng.precio_siguiente)+'<br><small style="color:#bbb">'+rng.ganador_sig+'</small>':'—'}</div>
+      <div class="col-diff">${diffPct!==null?`<span class="${diffPct<=0?'diff-neg':'diff-pos'}">${diffPct>0?'+':''}${diffPct}%</span>`:'—'}</div>
+      <div class="col-motivo" style="font-size:11.5px">${m.icon} ${m.label}</div>
+    </div>`;
+  };
+
+  return `
+  <div class="reng-etapa-note">📋 Etapa: <strong>${r.etapa}</strong> — resultado definitivo según acta de preadjudicación</div>
+  <div class="reng-chips">
+    <div class="reng-chip verde">✅ Adjudicados: ${adj.length} · ${fmtP(adjMonto)}</div>
+    <div class="reng-chip rojo">❌ No adjudicados: ${noAdj.length} · ${fmtP(noAdjMonto)}</div>
+    <div class="reng-chip gris">📋 ${renglones.length} renglones</div>
+  </div>
+  <div class="reng-body-inner">
+    <div class="reng-top">
+      <div class="reng-tabs">
+        <div class="reng-tab active" onclick="rengFiltrar('todos',this)">Todos</div>
+        <div class="reng-tab" onclick="rengFiltrar('adj',this)">✅ Adjudicados</div>
+        <div class="reng-tab" onclick="rengFiltrar('no-adj',this)">❌ No adjudicados</div>
+      </div>
+      <div class="reng-tv">
+        <button class="reng-tv-btn active" onclick="rengSetView('grid',this)">⊞ Tarjetas</button>
+        <button class="reng-tv-btn" onclick="rengSetView('lista',this)">≡ Lista</button>
+      </div>
+    </div>
+    <div class="reng-contenedor reng-view-grid">
+      <div class="reng-grid">${renglones.map(makeCard).join('')}</div>
+      <div class="reng-lista">
+        <div class="reng-list-hdr">
+          <div>Renglón</div><div>Descripción</div><div>Precio ABLE</div><div>Ganador/Sig.</div>
+          <div class="col-diff">Diferencia</div><div class="col-motivo">Motivo</div>
+        </div>
+        ${renglones.map(makeListRow).join('')}
+      </div>
+    </div>
+  </div>`;
+}
+
+// ── Comparativa: usa tabla con colores (solo etapa Comparativa) ─────────────
+function buildRengCompHTML(t, r){
+  const ABLE_KEYS=['ABLE S.A.','ABLE S.A. 🇦🇷','ABLE'];
+  const fmtP = p => p!=null ? '$'+Number(p).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}) : '—';
+
+  const renglones = (t.renglones||[]).filter(row=>{
+    const c=(row.celdas||[]).find(c=>ABLE_KEYS.includes(c.oferente));
+    return c && c.precio != null;
+  });
+
+  if(!renglones.length)
+    return '<p class="reng-empty">No hay renglones donde ABLE cotizó en esta comparativa.</p>';
+
+  const MOTIVOS = {
+    'verde':    { res:'adj',    icon:'💰', label:'Menor precio' },
+    'amarillo': { res:'adj',    icon:'🤝', label:'Empate técnico — industria nacional' },
+    'naranja':  { res:'adj',    icon:'🇦🇷', label:'Preferencia nacional' },
+    'rosado':   { res:'no-adj', icon:'❌', label:'Precio más alto' },
+    '':         { res:'no-adj', icon:'📋', label:'Sin ventaja de precio' },
+  };
+
+  let adjCount=0, noAdjCount=0, adjMonto=0, noAdjMonto=0;
+
+  const cards = renglones.map(row=>{
+    const ableCelda=(row.celdas||[]).find(c=>ABLE_KEYS.includes(c.oferente));
+    const bg=ableCelda.bg_precio||'';
+    const m=MOTIVOS[bg]||MOTIVOS[''];
+    const res=m.res;
+    if(res==='adj'){ adjCount++; adjMonto+=(ableCelda.precio||0)*(row.cant||0); }
+    else { noAdjCount++; noAdjMonto+=(ableCelda.precio||0)*(row.cant||0); }
+
+    const others=(row.celdas||[]).filter(c=>!ABLE_KEYS.includes(c.oferente)&&c.precio!=null&&!c.obj);
+    const cheapest=others.sort((a,b)=>a.precio-b.precio)[0];
+    const diffPct=cheapest&&ableCelda.precio ? Math.round((ableCelda.precio/cheapest.precio-1)*100) : null;
+    const label=res==='adj'?'✅ Ganando':'❌ Perdiendo';
+
+    return {row,ableCelda,res,m,cheapest,diffPct,label};
+  });
+
+  const makeCard=({row,ableCelda,res,m,cheapest,diffPct,label})=>`
+    <div class="reng-card ${res}" data-rtipo="${res}">
+      <div class="reng-card-hdr">
+        <span class="reng-num-lbl">Reng. ${row.reng}${row.es_alt?' (alt)':''}</span>
+        <span class="reng-badge ${res}">${label}</span>
+      </div>
+      <div class="reng-desc">${(row.desc||'').replace(/<[^>]+>/g,' ').substring(0,120)}${(row.desc||'').length>120?'…':''}</div>
+      <div class="reng-precios">
+        <div class="reng-pbox">
+          <div class="lbl">ABLE</div>
+          <div class="val ${res==='adj'?'g':'r'}">${fmtP(ableCelda.precio)}</div>
+          <div class="sub">${ableCelda.marca||'—'}</div>
+        </div>
+        <div class="reng-pbox">
+          <div class="lbl">${res==='adj'?'Siguiente':'Ganador'}</div>
+          <div class="val">${cheapest?fmtP(cheapest.precio):'—'}</div>
+          <div class="sub">${cheapest?cheapest.oferente:'Sin competencia'}</div>
+        </div>
+      </div>
+      <div class="reng-motivo">
+        <span>${m.icon}</span>
+        <span>${m.label}${diffPct!==null?` <span class="${diffPct<=0?'diff-neg':'diff-pos'}">(${diffPct>0?'+':''}${diffPct}%)</span>`:''}</span>
+      </div>
+    </div>`;
+
+  const makeListRow=({row,ableCelda,res,m,cheapest,diffPct,label})=>`
+    <div class="reng-list-row ${res}" data-rtipo="${res}">
+      <div><strong>Reng. ${row.reng}</strong>${row.es_alt?'<br><small style="color:#aaa">(alt)</small>':''}</div>
+      <div style="font-size:11.5px">${(row.desc||'').replace(/<[^>]+>/g,' ').substring(0,80)}${(row.desc||'').length>80?'…':''}</div>
+      <div class="${res==='adj'?'diff-neg':'diff-pos'}">${fmtP(ableCelda.precio)}<br><small style="color:#bbb;font-weight:normal">${ableCelda.marca||''}</small></div>
+      <div style="font-size:11.5px">${cheapest?fmtP(cheapest.precio)+'<br><small style="color:#bbb">'+cheapest.oferente+'</small>':'—'}</div>
+      <div class="col-diff">${diffPct!==null?`<span class="${diffPct<=0?'diff-neg':'diff-pos'}">${diffPct>0?'+':''}${diffPct}%</span>`:'—'}</div>
+      <div class="col-motivo" style="font-size:11.5px">${m.icon} ${m.label}</div>
+    </div>`;
+
+  return `
+  <div class="reng-etapa-note">📋 Etapa: <strong>Comparativa</strong> — estado proyectado (aún no hay preadjudicación)</div>
+  <div class="reng-chips">
+    <div class="reng-chip verde">✅ Ganando: ${adjCount} · ${fmtP(adjMonto)}</div>
+    <div class="reng-chip rojo">❌ Perdiendo: ${noAdjCount} · ${fmtP(noAdjMonto)}</div>
+    <div class="reng-chip gris">📋 ${renglones.length} renglones cotizados</div>
+  </div>
+  <div class="reng-body-inner">
+    <div class="reng-top">
+      <div class="reng-tabs">
+        <div class="reng-tab active" onclick="rengFiltrar('todos',this)">Todos</div>
+        <div class="reng-tab" onclick="rengFiltrar('adj',this)">✅ Ganando</div>
+        <div class="reng-tab" onclick="rengFiltrar('no-adj',this)">❌ Perdiendo</div>
+      </div>
+      <div class="reng-tv">
+        <button class="reng-tv-btn active" onclick="rengSetView('grid',this)">⊞ Tarjetas</button>
+        <button class="reng-tv-btn" onclick="rengSetView('lista',this)">≡ Lista</button>
+      </div>
+    </div>
+    <div class="reng-contenedor reng-view-grid">
+      <div class="reng-grid">${cards.map(makeCard).join('')}</div>
+      <div class="reng-lista">
+        <div class="reng-list-hdr">
+          <div>Renglón</div><div>Descripción</div><div>Precio ABLE</div><div>Ganador/Sig.</div>
+          <div class="col-diff">Diferencia</div><div class="col-motivo">Motivo</div>
+        </div>
+        ${cards.map(makeListRow).join('')}
+      </div>
+    </div>
+  </div>`;
+}
+
 function buildCompHTML(t){
   const ofs=t.oferentes||[];
   if(!ofs.length||!t.renglones||!t.renglones.length)
@@ -959,7 +1259,7 @@ function buildCompHTML(t){
       ${ofs.map(o=>{
         const c=cm[o]||{};
         const bgP=c.bg_precio?`bg-${c.bg_precio}`:'';
-        const bgM=c.bg_marca==='rosado'?'bg-rosado':'';
+        const bgM=c.bg_marca?`bg-${c.bg_marca}`:''; // aplica verde/amarillo/naranja/rosado
         return `<td class="comp-td" style="border-bottom:1px solid #f0f0f0">
           <div class="comp-price ${bgP}">${fmtP(c.precio)}</div>
           <div class="comp-marca ${bgM}">${c.marca||''}${c.obj?` <b style="color:#c0392b">(obj)</b>`:''}</div>
