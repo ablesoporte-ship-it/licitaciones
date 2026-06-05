@@ -4485,40 +4485,6 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 42,
-      "entidad": "HTAL NUESTRA SEÑORA DEL CARMEN",
-      "nro": "SAMO",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-04",
-      "monto": 903100,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-05-29T19:58:53.080Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -7312,31 +7278,13 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "",
       "creado": "2026-06-02T18:14:20.813Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 53,
       "entidad": "HTAL ROSSI",
       "nro": "PA 206",
@@ -7344,12 +7292,118 @@
       "fecha": "2026-06-05",
       "monto": 155920000,
       "mayor": "Sí",
-      "zona": "Lilian",
-      "agente": "Lilian",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 206/2026 HIGA Rossi La Plata — 2° llamado. ABLE cotiza reng. 3 con 3 alternativas, ninguna viable técnicamente: Principal $794 hemorrepelente (pliego pide NO hemorrepelente); ALT 1 $650 tela SP (pliego pide SMS) y puño sin especificar; ALT 2 $505 gramaje 20gr (pliego exige mín. 30gr). Ganador: LIVE IN BA (HEALTHY LAB) $726,96 cumple todas las specs. ",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "EURO SWISS S.A.",
+          "LIVE IN BA S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 80000,
+            "desc": "Camisolín descartable SMS 30Grs, manga larga, c/puños algodón hemorrepelente",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 794,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": 1424.48,
+                "marca": "EURO SWISS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LIVE IN BA S.A.",
+                "precio": 726.96,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 1",
+            "cant": 80000,
+            "desc": "Camisolín no hemorrepelente tela SP 30Grs, manga larga, c/puños elástico — NO VIABLE: tela SP (pliego exige SMS) / puño sin especificar",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 650,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LIVE IN BA S.A.",
+                "precio": 726.96,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 2",
+            "cant": 80000,
+            "desc": "Camisolín no hemorrepelente 20Grs, manga larga, c/puños elástico — NO VIABLE: gramaje 20gr (pliego exige mín. 30gr) / puño sin especificar",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 505,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LIVE IN BA S.A.",
+                "precio": 726.96,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Reng. 3 — Camisolín SMS 30gr. ABLE cotiza con 3 alternativas. LIVE IN BA (HEALTHY LAB) gana con $726,96, cumpliendo todas las especificaciones del pliego (no hemorrepelente, SMS, 30gr, puño algodón/poliéster). Análisis de viabilidad de ofertas ABLE:</p>\n    <p>&nbsp;&nbsp;• <strong>Principal $794 (ArgentCare)</strong>: hemorrepelente — el pliego especifica expresamente NO hemorrepelente. No viable técnicamente. Diferencia vs ganador: +9,2%.</p>\n    <p>&nbsp;&nbsp;• <strong>ALT 1 $650 (ArgentCare)</strong>: tela SP en lugar de SMS (pliego exige SMS) y puño elástico sin especificar material ni ancho (pliego exige algodón/poliéster mín. 5cm). No viable técnicamente. Gana en precio pero con riesgo de rechazo.</p>\n    <p>&nbsp;&nbsp;• <strong>ALT 2 $505 (ArgentCare)</strong>: gramaje 20gr inferior al mínimo requerido de 30gr, y puño elástico sin especificar. No viable técnicamente.</p>\n    <p>② EURO SWISS cotiza $1.424,48 (muy alto). MEDIBEL S.A. no presenta precios en el acta.</p>\n  "
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-06-03T21:17:26.317Z"
     },
     {
@@ -8486,7 +8540,245 @@
       "pref": "",
       "obs": "",
       "creado": "2026-06-04T20:04:14.692Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "LEX (MAZZA)",
+          "SEISEME",
+          "AUPRES",
+          "PROPATO",
+          "MAX CONTINENTAL"
+        ],
+        "renglones": [
+          {
+            "reng": "43",
+            "cant": 1000,
+            "desc": "Camisolín no estéril hemorrepelente tela SMS 30Grs, manga larga, c/puños algodón",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 850,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEX (MAZZA)",
+                "precio": 1164,
+                "marca": "NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEISEME",
+                "precio": 770,
+                "marca": "INSUMOS QUIRURGICOS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES",
+                "precio": 770,
+                "marca": "INSUMOS QUIRURGICOS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 209.18,
+                "marca": "PROTBARRIE (Origen: extranjero)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 747.04,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "44",
+            "cant": 600,
+            "desc": "Cofia descartable elastizada",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 25,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEX (MAZZA)",
+                "precio": 39,
+                "marca": "NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEISEME",
+                "precio": 20,
+                "marca": "NOVAMED",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES",
+                "precio": 20,
+                "marca": "NOVAMED",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 405.94,
+                "marca": "PADEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "45",
+            "cant": 600,
+            "desc": "Bota pata tela descartable uso cirugía",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 63.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "LEX (MAZZA)",
+                "precio": 225,
+                "marca": "INSUMOS QUIRURGICOS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEISEME",
+                "precio": 77,
+                "marca": "INSUMOS QUIRURGICOS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES",
+                "precio": 77,
+                "marca": "INSUMOS QUIRURGICOS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO",
+                "precio": 507.42,
+                "marca": "PRINTEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 198.7,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Reng. 43 — ABLE cotiza camisolín SMS 30gr hemorrepelente c/puños algodón ($850). MAX CONTINENTAL cotiza SMS 30gr (DIMEX, $747,04). PROPATO cotiza camisolín de origen extranjero ($209,18). El pliego (Anexo III, cód. DCI02013) especifica: gramaje 30 g/m², tela TNT SMS, manga larga, puño ajustado — SIN exigir hemorrepelente explícitamente. Diferencia ABLE vs PROPATO: +306%. Sin cláusula escrita que exija hemorrepelente, la comisión podría adjudicar a PROPATO. Gestión recomendada: verificar si existe norma ANMAT o circular técnica que respalde el requisito de hemorrepelente para uso hospitalario.</p>\n    <p>② Reng. 45 — ABLE gana por precio mínimo ($63,50 igual a AUPRES y menor que LEX/SEISEME). Monto adjudicable: $38.100.</p>\n  "
+      },
+      "id": 64,
+      "entidad": "HTAL NUESTRA SEÑORA DEL CARMEN DE ARECO",
+      "nro": "PA 27",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-04",
+      "monto": 903100,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 27/2026 Carmen de Areco. ABLE cotizó rengs. 43, 44 y 45. Gana reng. 45 (bota pata tela, $63,50). Reng. 43: camisolín ABLE $850 vs PROPATO $209,18 — pliego no exige hemorrepelente explícitamente, gestión pendiente. Reng. 44: ABLE $25 vs $20 (SEISEME/AUPRES), diferencia 25%, sin color.",
+      "creado": "2026-06-05T11:39:56.132Z"
+    },
+    {
+      "id": 65,
+      "entidad": "HTAL PERON",
+      "nro": "PA 151",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-11",
+      "monto": 3910200,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-05T13:27:15.936Z"
     }
   ],
-  "nextId": 64
+  "nextId": 66
 }
