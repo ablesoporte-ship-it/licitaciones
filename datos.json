@@ -9170,9 +9170,121 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "CIRUGIA ARGENTINA S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 200,
+            "desc": "Sutura ácido poliglicólico N°1, ag. 40mm, 1/2 Círc., punta Redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1868,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5ALT1",
+            "cant": 200,
+            "desc": "Sutura APG N°1, ag. 40mm, 1/2 Círc., punta Redonda, hebra 90cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 200,
+            "desc": "Sutura ácido poliglicólico N°0, ag. 40mm, 1/2 Círc., punta Redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1868,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6ALT1",
+            "cant": 200,
+            "desc": "Sutura APG N°0, ag. 40mm, 1/2 Círc., punta Redonda, hebra 90cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 100,
+            "desc": "Sutura nylon monofilamento N°2/0, ag. recta 60mm, punta Rev. cort., hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1068,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① ABLE gana R5, R6 y R7 como único competidor por renglón vs Cirugía Argentina (origen Perú, TAGUM).</p>\n    <p>② R5ALT1 y R6ALT1: solo cotiza ABLE — sin color por ser único oferente.</p>\n    <p>③ Renglones R1, R2, R3, R4, R8 y R9 no cotizados por ABLE — no se incluyen.</p>\n    <p>④ Cirugía Argentina cotiza productos de origen Perú (TAGUM) en R5, R6 y R7.</p>\n  "
+      },
       "id": 61,
-      "entidad": "HTAL PERON",
+      "entidad": "H.I.G.A. PRESIDENTE PERON",
       "nro": "PA 149",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-09",
@@ -9180,10 +9292,10 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 149/2026 H.I.G.A. Pte. Perón — Obstetricia. ABLE gana R5, R6 y R7 vs Cirugía Argentina (TAGUM, origen Perú). ALT sin color — único oferente. Gestión Noe.",
       "creado": "2026-06-04T19:26:25.152Z"
     },
     {
@@ -9500,9 +9612,355 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "DROGUERIA MARTORANI S.A.",
+          "CIRUGIA ARGENTINA S.A.",
+          "LABORATORIOS IGALTEX S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 300,
+            "desc": "Sutura ácido poliglicólico N°0, ag. 1/2 Círc., punta Redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 2129.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1868,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 1482.23,
+                "marca": "Medone",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1ALT1",
+            "cant": 300,
+            "desc": "Sutura APG N°0, ag. 1/2 Círc., punta Redonda, hebra 70cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 300,
+            "desc": "Sutura ácido poliglicólico N°1, ag. 1/2 Círc., punta Redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 2129.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1868,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 1526.12,
+                "marca": "Medone",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2ALT1",
+            "cant": 300,
+            "desc": "Sutura APG N°1, ag. 1/2 Círc., punta Redonda, hebra 70cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 300,
+            "desc": "Sutura ácido poliglicólico N°2/0, ag. 1/2 Círc., punta Redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 2129.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1798,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 1435.18,
+                "marca": "Medone",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3ALT1",
+            "cant": 300,
+            "desc": "Sutura APG N°2/0, ag. 1/2 Círc., punta Redonda, hebra 70cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 300,
+            "desc": "Sutura ácido poliglicólico N°3/0, ag. 1/2 Círc., punta Redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 2129.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1798,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 1391.24,
+                "marca": "Medone",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4ALT1",
+            "cant": 300,
+            "desc": "Sutura APG N°3/0, ag. 1/2 Círc., punta Redonda, hebra 70cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 300,
+            "desc": "Sutura nylon monofilamento N°2/0, ag. 3/8 circ., punta Rev. cort., hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 1172.2,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1068,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 811.32,
+                "marca": "Medone",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5ALT1",
+            "cant": 300,
+            "desc": "Sutura nylon monofilamento N°2/0, ag. 3/8 circ., punta Rev. cort., hebra 75cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 300,
+            "desc": "Sutura nylon monofilamento N°3/0, ag. 3/8 circ., punta Rev. cort., hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 1172.2,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA S.A.",
+                "precio": 1068,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 811.32,
+                "marca": "Medone",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6ALT1",
+            "cant": 300,
+            "desc": "Sutura nylon monofilamento N°3/0, ag. 3/8 circ., punta Rev. cort., hebra 75cm — ALT Marca ABLE",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① ABLE gana todos los renglones principales (R1 al R6) con el menor precio.</p>\n    <p>② Cirugía Argentina cotiza productos de origen Perú (TAGUM) en todos los renglones.</p>\n    <p>③ Renglones ALT1 (R1 al R6): solo cotiza ABLE — sin color por ser único oferente.</p>\n    <p>④ Martorani cotiza con hebra de 75cm en R1-R4 — pliego a verificar contra especificaciones.</p>\n  "
+      },
       "id": 65,
-      "entidad": "HTAL PERON",
+      "entidad": "H.I.G.A. PRESIDENTE PERON",
       "nro": "PA 151",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-11",
@@ -9510,10 +9968,10 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 151/2026 H.I.G.A. Pte. Perón. ABLE gana todos los renglones principales (R1-R6). Cirugía Argentina cotiza origen Perú (TAGUM). ALT1 sin color — único oferente. Gestión Noe.",
       "creado": "2026-06-05T13:27:15.936Z"
     },
     {
@@ -10730,7 +11188,7 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "El Agente se contacto con el Hospital y no aceptaron la preferencia Nacional",
+      "gestion_pre": "✅ GESTIÓN DEL AGENTE: Se contacto con el Hospital y no aceptaron la preferencia Nacional",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -10792,7 +11250,75 @@
       "pref": "",
       "obs": "",
       "creado": "2026-06-09T18:02:23.605Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 75,
+      "entidad": "HTAL EVA PERON",
+      "nro": "PA 142",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-17",
+      "monto": 0,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-06-11T12:36:57.708Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 76,
+      "entidad": "HTAL NAVAL PEDRO MALLO",
+      "nro": "",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-16",
+      "monto": 51700000,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-06-11T12:39:29.826Z"
     }
   ],
-  "nextId": 75
+  "nextId": 78
 }
