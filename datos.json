@@ -238,12 +238,46 @@
       "creado": "2026-05-22T18:56:55.187Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-05",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura poliglactina 5/0 oftalmológica — Aguja S-14",
+          "cant": 72,
+          "precio_able": 13200,
+          "marca": null,
+          "resultado": "no_adj",
+          "precio_siguiente": 26608.26,
+          "ganador_sig": "SEDESA S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura poliglactina 6/0 oftalmológica — Aguja S-14",
+          "cant": 24,
+          "precio_able": 13200,
+          "marca": null,
+          "resultado": "no_adj",
+          "precio_siguiente": 26608.26,
+          "ganador_sig": "SEDESA S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura poliglactina 7/0 oftalmológica — Aguja TG 140-8",
+          "cant": 48,
+          "precio_able": 13200,
+          "marca": null,
+          "resultado": "no_adj",
+          "precio_siguiente": 26608.26,
+          "ganador_sig": "SEDESA S.A.",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "⚠ IRREGULARIDAD: ABLE tenía el menor precio en R1, R2 y R3 y Sedesa S.A. fue marcada como (obj) por cotizar VICRYL (poliglactina J&J) en lugar de ácido poliglicólico según pliego. Sin embargo la comisión adjudicó a Sedesa S.A. los 3 renglones ignorando la objeción técnica. R9 y R12 desiertos (no cotiza ABLE). R5-R8, R10, R11, R13-R15 desiertos.",
+      "gestion_pre_resultado": "Sin resultado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -370,7 +404,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana por precio. todos los renglones  ① Sedesa S.A. — Renglones 1, 2 y 3: cotiza sutura de POLIGLACTINA (VICRYL J&J) cuando el pliego exige ÁCIDO POLIGLICÓLICO. NO cumple con las especificaciones técnicas del pliego y podría ser DESESTIMADA. Se marca como (obj) en la comparativa.",
@@ -1637,19 +1671,23 @@
       "creado": "2026-05-27T18:27:45.770Z"
     },
     {
-      "id": 31,
-      "entidad": "HTAL TETAMANTI",
-      "nro": "PA 75/2026",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-02",
-      "monto": 538824,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "PA 75/2026 H.I.E.M.I. Tetamanti. ABLE gana R1, R2 y R16 (cartuchos titanio LT400/LT200/LT300) vs Imágenes Tandil (JNJ, origen extranjero). Gestión Diego.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -1731,22 +1769,19 @@
         ],
         "notas": "\n    <p>① ABLE gana R1, R2 y R16 con el menor precio. Imágenes Tandil cotiza productos JNJ (origen extranjero) a $21.949,00 en los tres renglones.</p>\n    <p>② Precios de Imágenes Tandil con IVA incluido según su planilla.</p>\n    <p>③ Demás oferentes (Synergya, Unic Company, Normedical, Barraca Acher) no cotizaron los renglones de ABLE.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 31,
+      "entidad": "HTAL TETAMANTI",
+      "nro": "PA 75/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-02",
+      "monto": 538824,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 75/2026 H.I.E.M.I. Tetamanti. ABLE gana R1, R2 y R16 (cartuchos titanio LT400/LT200/LT300) vs Imágenes Tandil (JNJ, origen extranjero). Gestión Diego.",
       "creado": "2026-05-27T18:36:25.438Z"
     },
     {
@@ -1870,19 +1905,23 @@
       "creado": "2026-05-27T18:38:06.121Z"
     },
     {
-      "id": 33,
-      "entidad": "HTAL TETAMANTI",
-      "nro": "PA 76",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-02",
-      "monto": 24483000,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "PA 76/2026 H.I.E.M.I. Tetamanti. ABLE gana R13 camisolín 20g ($511,75) vs Dealer Medica, Max Continental y Medexpress. ALT1 y ALT2 sin color — único oferente. Gestión Diego.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -1966,22 +2005,19 @@
         ],
         "notas": "\n    <p>① R13: Dealer Medica ($726,00) y Max Continental ($747,04) objetados — cotizan producto NO hemorrepelente, no cumple pliego. ABLE gana con $511,75 como único oferente válido junto a Medexpress ($1.232,00).</p>\n    <p>② R13 — ABLE cotiza producto no hemorrepelente (20g) en renglón principal. Diferencia vs pliego anotada. El producto que cumple el pliego es el R13ALT2 (SMS 30g, hemorrepelente, puños algodón).</p>\n    <p>③ R13ALT1 (30g no hemorrepelente) y R13ALT2 (SMS 30g hemorrepelente): solo cotiza ABLE — sin color por ser único oferente.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 33,
+      "entidad": "HTAL TETAMANTI",
+      "nro": "PA 76",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-02",
+      "monto": 24483000,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 76/2026 H.I.E.M.I. Tetamanti. ABLE gana R13 camisolín 20g ($511,75) vs Dealer Medica, Max Continental y Medexpress. ALT1 y ALT2 sin color — único oferente. Gestión Diego.",
       "creado": "2026-05-28T12:07:04.171Z"
     },
     {
@@ -9459,37 +9495,175 @@
       "creado": "2026-06-04T19:26:25.152Z"
     },
     {
+      "id": 62,
+      "entidad": "HTAL ALENDE",
+      "nro": "LP 19",
+      "tipo": "Pública",
+      "fecha": "2026-06-11",
+      "monto": 3672400,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "LP 19/2026 H.I.G.A. Dr. Oscar E. Alende. ABLE gana r76, r77 y r77 ALT1. Reng 24: Igaltex gana ($178,99 IVA exento). Max Continental obj en r24 (escala), r76 y r77 (aguja). Gestion Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Igaltex",
+          "Max Continental",
+          "Martorani",
+          "Cirugia Argentina"
+        ],
+        "renglones": [
+          {
+            "reng": "24",
+            "cant": 11000,
+            "desc": "Tira reactiva p/determinacion visual de glucosa en sangre escala 20-800",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 272,
+                "marca": "On Call Plus",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 178.99,
+                "marca": "Okmeter",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 132,
+                "marca": "Sinocare",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "76",
+            "cant": 144,
+            "desc": "Sutura Nylon Monofilamento 3/0 aguja 3/8 circ. 26mm punta rev. cort. hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 616,
+                "marca": "Maxsutures",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Martorani",
+                "precio": 1172.2,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 1170.1,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "77",
+            "cant": 426,
+            "desc": "Sutura Nylon Monofilamento 5/0 aguja 3/8 circ. 15mm punta rev. cort. hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 616,
+                "marca": "Maxsutures",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Martorani",
+                "precio": 1172.2,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 1910,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "77 ALT 1",
+            "cant": 426,
+            "desc": "Sutura Nylon Monofilamento 5/0 aguja 3/8 circ. 15mm punta rev. cort. hebra 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Reng. 24 — Igaltex cotiza con IVA exento ($178,99). ABLE $272,00. Diferencia +51,9%. Sin color. Igaltex es nacional.</p>\n    <p>② Reng. 24 — Max Continental objetado: tiras escala 20-600 (pliego pide 20-800) y vencimiento 26/01/2027.</p>\n    <p>③ Reng. 76 — Max Continental objetado: cotiza aguja 25mm (pliego pide 26mm).</p>\n    <p>④ Reng. 77 — Max Continental objetado: cotiza aguja 13mm (pliego pide 15mm).</p>\n    <p>⑤ Reng. 76 — Cirugía Argentina: origen Perú. ABLE $607,00 vs $1.170,10. ABLE gana.</p>\n    <p>⑥ Reng. 77 ALT 1 — Única oferente ABLE. Hebra 75cm (alternativa al reng base de 45cm).</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 62,
-      "entidad": "HTAL ALENDE",
-      "nro": "PA 19",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-11",
-      "monto": 3375400,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-04T19:47:30.564Z"
     },
     {
@@ -9537,9 +9711,9 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-11",
+      "oc_alertas": "OC 374/2026. R7 bolsa ileostomía 300u × $1.870,00 y R8 bolsa colostomía 300u × $1.355,00. Total $967.500,00. Coincide exactamente con preadjudicación.",
       "tabla": null,
       "id": 63,
       "entidad": "HTAL BALESTRINI",
@@ -9550,7 +9724,7 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -11378,37 +11552,179 @@
       "creado": "2026-06-09T17:31:43.862Z"
     },
     {
+      "id": 74,
+      "entidad": "HTAL MAGDALENA",
+      "nro": "PA 153",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-12",
+      "monto": 50980000,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 153/2026 H.Z.G.A. Magdalena V. de Martínez. ABLE gana R1 ($650,00 30g) tras objeciones a Healthy Lab, Igaltex, Farmatec ALT, Max Continental y Martorani base. ALT1/ALT2/ALT3 de ABLE no cumplen pliego — anotadas. Gestión Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "HEALTHY LAB",
+          "IGALTEX S.R.L.",
+          "FARMATEC S.A.",
+          "MAX CONTINENTAL S.A.",
+          "DROGUERIA MARTORANI S.A.",
+          "PHARMA CENTER S.R.L.",
+          "BIOPROTEC S.R.L.",
+          "EURO SWISS S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 20000,
+            "desc": "Camisolín descartable 30g/m² TNT SMS, manga larga, puño ajustado, no estéril, no hemorrepelente, no transparente",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 650,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": 492.07,
+                "marca": "Healthy Lab",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 494.07,
+                "marca": "Global Prot.",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "FARMATEC S.A.",
+                "precio": 1494.35,
+                "marca": "Bluemedic",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL S.A.",
+                "precio": 772.52,
+                "marca": "Medicon",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "DROGUERIA MARTORANI S.A.",
+                "precio": 652.2,
+                "marca": "Pemed 24g",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "PHARMA CENTER S.R.L.",
+                "precio": 850,
+                "marca": "DPC SMS 30g",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC S.R.L.",
+                "precio": 918.7,
+                "marca": "Biosan 35g",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": 1425,
+                "marca": "Kratec 30g",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1ALT1",
+            "cant": 20000,
+            "desc": "Camisolín 20g — ALT (no cumple gramaje pliego)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 511.75,
+                "marca": "ArgentCare 20g",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1ALT2",
+            "cant": 20000,
+            "desc": "Camisolín 25g — ALT (no cumple gramaje pliego)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 592.25,
+                "marca": "ArgentCare 25g",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1ALT3",
+            "cant": 20000,
+            "desc": "Camisolín SMS 30g hemorrepelente — ALT (hemorrepelente: no cumple pliego)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 795,
+                "marca": "ArgentCare SMS herr.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Pliego requiere: camisolín 30g/m² mínimo, TNT SMS, manga larga, puño ajustado, no estéril, no hemorrepelente, no transparente.</p>\n    <p>② Healthy Lab ($492,07 y $648,00) — OBJETADO: cotización copia literalmente el texto del pliego sin especificar datos reales del producto (marca, gramaje real, certificado). No permite verificar cumplimiento técnico.</p>\n    <p>③ Igaltex ($494,07) — OBJETADO: no especifica gramaje ni tela SMS. Solo indica \"Camisolin paciente puños elástico Mca. Global Protective\" sin datos técnicos verificables.</p>\n    <p>④ Farmatec ALT ($1.118,00 Flexguard) — OBJETADO: gramaje no especificado en la cotización.</p>\n    <p>⑤ Max Continental ($772,52 Medicon) — OBJETADO: gramaje no especificado en la cotización.</p>\n    <p>⑥ Martorani base ($652,20 SMS 24g) — OBJETADO: gramaje 24g inferior al mínimo requerido de 30g.</p>\n    <p>⑦ ABLE ALT1 ($511,75 / 20g) y ALT2 ($592,25 / 25g): gramaje inferior al mínimo — diferencia vs pliego anotada, no compiten.</p>\n    <p>⑧ ABLE ALT3 ($795,00 SMS 30g hemorrepelente): hemorrepelente — no cumple pliego, no compite.</p>\n    <p>⑨ ABLE R1 base ($650,00 / 30g no hemorrepelente): cumple pliego. Gana como el precio válido más bajo tras las objeciones.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 74,
-      "entidad": "HTAL MAGDALENA",
-      "nro": "PA 153",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-10",
-      "monto": 50980000,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-09T18:02:23.605Z"
     },
     {
@@ -11478,7 +11794,302 @@
       "pref": "",
       "obs": "",
       "creado": "2026-06-11T12:39:29.826Z"
+    },
+    {
+      "id": 78,
+      "entidad": "HTAL FIORITO",
+      "nro": "PA 122",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-11",
+      "monto": 63180000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 122/2026 H.I.G.A. Dr. Pedro Fiorito. ABLE gana reng 39 ALT1, ALT2 y ALT3. Reng 39 base: Igaltex gana ($494,07 IVA exento). Martorani reng 39 objetado (24gr). Gestion Noe.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Igaltex",
+          "Martorani",
+          "Max Continental",
+          "Pro Med",
+          "Bhanac",
+          "Euroswiss",
+          "Bioprotec"
+        ],
+        "renglones": [
+          {
+            "reng": "39",
+            "cant": 24000,
+            "desc": "Camisolin descartable no esteril no hemorrepelente 30Grs SMS manga larga c/elasticos",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 678.5,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 494.07,
+                "marca": "Global Protective",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Martorani",
+                "precio": 652.2,
+                "marca": "PEMED",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 772.52,
+                "marca": "Medcon",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pro Med",
+                "precio": 797,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhanac",
+                "precio": 952.75,
+                "marca": "Dimex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": 1425,
+                "marca": "kratec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "39 ALT 1",
+            "cant": 24000,
+            "desc": "Camisolin 25Grs no esteril no hemorrepelente SMS manga larga c/elasticos",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 641.94,
+                "marca": "Global Protective",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec",
+                "precio": 796,
+                "marca": "Biosan",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "39 ALT 2",
+            "cant": 24000,
+            "desc": "Camisolin 20Grs no esteril no hemorrepelente SMS manga larga c/elasticos",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 511.75,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 775.2,
+                "marca": "Global Protective",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec",
+                "precio": 872.8,
+                "marca": "Biosan",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "39 ALT 3",
+            "cant": 24000,
+            "desc": "Camisolin hemorrepelente tela SMS 30Grs manga larga c/algodon",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 850,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec",
+                "precio": 924.9,
+                "marca": "Biosan",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Reng. 39 — Igaltex cotiza con IVA exento ($494,07). ABLE queda a +37,3% de diferencia, sin color.</p>\n    <p>② Reng. 39 — Martorani objetado: cotiza camisolin 24gr (pliego requiere 30gr).</p>\n    <p>③ Reng. 39 ALT 1 — ABLE gana ($592,25 vs Igaltex $641,94).</p>\n    <p>④ Reng. 39 ALT 2 — ABLE gana ($511,75 vs Igaltex $775,20).</p>\n    <p>⑤ Reng. 39 ALT 3 — ABLE gana ($850,00 vs Bioprotec $924,90).</p>\n  "
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-12T13:52:16.153Z"
+    },
+    {
+      "id": 79,
+      "entidad": "HTAL PIROVANO",
+      "nro": "427-1960-CME26",
+      "tipo": "Contratación Menor",
+      "fecha": "2026-06-12",
+      "monto": 5468520,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-12T14:49:07.245Z"
+    },
+    {
+      "id": 80,
+      "entidad": "HTAL SAN JUAN DE DIOS",
+      "nro": "PA 85",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-05",
+      "monto": 0,
+      "mayor": "No",
+      "zona": "Lilian",
+      "agente": "Lilian",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-12T15:24:15.486Z"
+    },
+    {
+      "id": 81,
+      "entidad": "Subsecretaría de Políticas de Cuidado en Salud",
+      "nro": "LP633",
+      "tipo": "Pública",
+      "fecha": "2026-06-19",
+      "monto": 7350000000,
+      "mayor": "Sí",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-12T15:43:30.576Z"
     }
   ],
-  "nextId": 78
+  "nextId": 82
 }
