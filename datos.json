@@ -5599,34 +5599,34 @@
     },
     {
       "preadj_fecha": "2026-06-03",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
       "renglones_preadj": [
         {
           "reng": "1",
-          "desc": "Equipo cirugia descartable hemorrepelente esteril (4 camisolines, 2 campos grandes, 2 medianos, 2 chicos)",
+          "desc": "Equipo de cirugia descartable hemorrepelente esteril — 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos",
           "cant": 10,
           "precio_able": 22195,
-          "marca": "Ebano (Ind. Argentina)",
+          "marca": null,
           "resultado": "no_adj",
-          "motivo": "rechazado_calidad",
-          "precio_siguiente": 25844.54,
-          "ganador_sig": "LIVE IN BA S.A."
+          "precio_siguiente": 25829.54,
+          "ganador_sig": "Live In BA S.A.",
+          "motivo": "rechazado_calidad"
         },
         {
           "reng": "2",
-          "desc": "Camisolin no esteril no hemorrepelente 30G/m2 tela TNT SMS manga larga",
+          "desc": "Camisolin descartable gramaje requerido 30 G/M2 TNT SMS manga larga puno ajustado no esteril no hemorrepelente",
           "cant": 21000,
           "precio_able": 678.5,
-          "marca": "ArgentCare (Ind. Argentina)",
+          "marca": null,
           "resultado": "no_adj",
-          "motivo": "superado",
-          "precio_siguiente": 563.04,
-          "ganador_sig": "LIVE IN BA S.A. (alt.)"
+          "precio_siguiente": 548.04,
+          "ganador_sig": "Live In BA S.A.",
+          "motivo": "superado"
         }
       ],
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "gestion_pre": "Reng 1: ABLE rechazada por calidad ($22.195,00) — Live In BA adjudicada por unica oferta valida ($25.829,54). Reng 2: Live In BA gana por menor precio $548,04 vs ABLE $678,50.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -9769,8 +9769,8 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-16",
       "oc_alertas": "",
       "tabla": {
         "oferentes": [
@@ -9946,7 +9946,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 27/2026 Carmen de Areco. ABLE cotizó rengs. 43, 44 y 45. Gana reng. 45 (bota pata tela, $63,50). Reng. 43: camisolín ABLE $850 vs PROPATO $209,18 — pliego no exige hemorrepelente explícitamente, gestión pendiente. Reng. 44: ABLE $25 vs $20 (SEISEME/AUPRES), diferencia 25%, sin color.",
@@ -11719,37 +11719,664 @@
       "creado": "2026-06-09T18:02:23.605Z"
     },
     {
+      "id": 75,
+      "entidad": "H.I.G.A. Eva Peron",
+      "nro": "PA 142",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-17",
+      "monto": 7053340,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "Si",
+      "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref. nac. en r55 (+4,4% vs Cardiopack India), r58 (+4,5% vs CirArg Peru), r60 (+4,85% vs Cardiopack India). Reng 21: validar unidad Suturas SRL. Dif tecnicas en rengs 48-62 a criterio evaluador. Gestion Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Sedesa",
+          "Cirugia Argentina",
+          "Cardiopack",
+          "Suturas SRL",
+          "Cardiomedic"
+        ],
+        "renglones": [
+          {
+            "reng": "21",
+            "cant": 350,
+            "desc": "Ligaclips LT200 cartucho x6u c/clipera en comodato [ABLE cumple pliego — Suturas SRL $4.000: VALIDAR unidad]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6500,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 26032.82,
+                "marca": "Johnson LT200",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 7710,
+                "marca": "Kangji/China",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas SRL",
+                "precio": 4000,
+                "marca": "UNIMED (validar u)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "48",
+            "cant": 108,
+            "desc": "Sutura APG cal 0, aguja CT-1 atraloc 36,4mm 1/2 circ 70cm [ABLE: aguja 35mm*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 4333.31,
+                "marca": "J&J Vicryl VCP340H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 1832,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 1320.11,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 2463.56,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "49",
+            "cant": 156,
+            "desc": "Sutura APG cal 1, aguja CT-1 atraloc 36,4mm 1/2 circ 70cm [ABLE: aguja 35mm*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 4999.98,
+                "marca": "J&J Vicryl VCP341H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 3480,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 1268.08,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 2499.86,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "50",
+            "cant": 60,
+            "desc": "Sutura APG cal 2/0, aguja CT-1 atraloc 36,4mm 1/2 circ 70cm [ABLE: aguja 35mm*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 5199.98,
+                "marca": "J&J Vicryl VCP339H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 3310,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 1320.11,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 2463.56,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "51",
+            "cant": 48,
+            "desc": "Sutura APG 3/0, aguja 3/8 circ reverso cortante 30mm 70cm [ABLE: aguja 1/2 circ punta redonda* — pref.nac. +9,55%]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 7718.29,
+                "marca": "J&J Vicryl J185H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 3310,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 1320.11,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "55",
+            "cant": 36,
+            "desc": "PP 3/0 doble aguja 36mm multipass punta cilindrica 90cm [ABLE: 25mm punta redonda* — pref.nac. +4,4%]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 12432.75,
+                "marca": "J&J Prolene 8842T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 2870,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 2289.32,
+                "marca": "Surgikal/India",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "56",
+            "cant": 216,
+            "desc": "PP 4/0 doble aguja 22mm 1/2 circ multipass punta cilindrica SH1 [ABLE: 25mm punta redonda*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 9542.38,
+                "marca": "J&J Prolene 9521T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 2870,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 2464.77,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 5789.85,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "56 ALT 1",
+            "cant": 216,
+            "desc": "PP 4/0 doble aguja 25mm 1/2 circ punta redonda hebra 90cm (ALT ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57",
+            "cant": 216,
+            "desc": "PP 4/0 doble aguja 26mm 1/2 circ multipass punta cilindrica 90cm [ABLE: 25mm punta redonda*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "Surgimax/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 9542.36,
+                "marca": "J&J Prolene 9521T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 2870,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 2394.59,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 6045.16,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57 ALT 1",
+            "cant": 216,
+            "desc": "PP 4/0 doble aguja 25mm 1/2 circ punta redonda hebra 90cm (ALT ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "58",
+            "cant": 108,
+            "desc": "PP 5/0 doble aguja 17mm 1/2 circ multipass punta cilindrica [ABLE: punta redonda* — pref.nac. +4,5%]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE/Ind.Arg*",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 11013.52,
+                "marca": "J&J Prolene 9556T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 2870,
+                "marca": "Tagum/Peru",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 3257.32,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 6207.3,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "59",
+            "cant": 72,
+            "desc": "PP 6/0 doble aguja 13mm 3/8 circ multipass punta cilindrica 75cm [ABLE: punta redonda*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "ABLE/Ind.Arg*",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 61691.67,
+                "marca": "J&J Prolene EP8706H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 5995,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 4401.98,
+                "marca": "Surgikal/India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 6967.18,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "60",
+            "cant": 72,
+            "desc": "PP 7/0 doble aguja 9,3mm 3/8 circ 75cm [ABLE: 9mm y 60cm* — pref.nac. +4,85%]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE/Ind.Arg*",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 61691.67,
+                "marca": "J&J Prolene EP8706H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 7345,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 5703.94,
+                "marca": "Surgikal/India",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic",
+                "precio": 8828.16,
+                "marca": "Atramat/Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "61",
+            "cant": 72,
+            "desc": "PP 7/0 doble aguja 9mm 3/8 circ estriada 75cm [ABLE: hebra 60cm*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE/Ind.Arg*",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 17771.12,
+                "marca": "J&J Prolene M8702T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 7645,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 4841.21,
+                "marca": "Surgikal/India",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "62",
+            "cant": 72,
+            "desc": "PP 7/0 doble aguja 9,3mm 3/8 circ estriada 75cm [ABLE: 9mm y 60cm*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE/Ind.Arg*",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 17771.12,
+                "marca": "J&J Prolene M8702T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina",
+                "precio": 7645,
+                "marca": "Tagum/Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack",
+                "precio": 4841.21,
+                "marca": "Surgikal/India",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Reng. 21 — ABLE cumple pliego. Suturas SRL $4.000,00: <strong>VALIDAR si cotiza por unidad o por cartucho x6u.</strong> Si por unidad: equiv x6 = $24.000,00 y ABLE gana.</p>\n    <p>② Reng. 48, 49, 50 — ABLE cotiza aguja 35mm vs pliego 36,4mm CT-1 atraloc. Diferencia mínima. A criterio del evaluador.</p>\n    <p>③ Reng. 51 — <strong>Preferencia nacional (+9,55%):</strong> ABLE $1.205,00 vs Cardiopack $1.320,11 (Surgikal/India). Dif. téc.: ABLE aguja 1/2 círculo punta redonda vs pliego 3/8 círculo reverso cortante 30mm.</p>\n    <p>④ Reng. 55 — <strong>Preferencia nacional (+4,4%):</strong> ABLE $2.390,00 vs Cardiopack $2.289,32 (Surgikal/India). Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 36mm multipass punta cilíndrica.</p>\n    <p>⑤ Reng. 56 — ABLE gana $2.390,00. Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 22mm multipass punta cilíndrica SH1.</p>\n    <p>⑥ Reng. 57 — ABLE gana $2.390,00. Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 26mm multipass punta cilíndrica.</p>\n    <p>⑦ Reng. 58 — <strong>Preferencia nacional (+4,5%):</strong> ABLE $3.000,00 vs Cirugía Argentina $2.870,00 (Tagum/Perú). Dif. téc.: ABLE punta redonda vs pliego punta cilíndrica multipass.</p>\n    <p>⑧ Reng. 59 — ABLE gana $4.000,00. Dif. téc.: ABLE punta redonda vs pliego punta cilíndrica multipass.</p>\n    <p>⑨ Reng. 60 — <strong>Preferencia nacional (+4,85%):</strong> ABLE $5.980,00 vs Cardiopack $5.703,94 (Surgikal/India). Dif. téc.: ABLE aguja 9mm hebra 60cm vs pliego 9,3mm hebra 75cm.</p>\n    <p>⑩ Reng. 61 — ABLE $5.980,00 vs Cardiopack $4.841,21 (Surgikal/India, +23,5%). Dif. téc.: ABLE hebra 60cm vs pliego 75cm.</p>\n    <p>⑪ Reng. 62 — ABLE $5.980,00 vs Cardiopack $4.841,21 (Surgikal/India, +23,5%). Dif. téc.: ABLE aguja 9mm hebra 60cm vs pliego 9,3mm hebra 75cm.</p>\n    <p>⑫ Todas las diferencias técnicas quedan a criterio del comité evaluador del hospital.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 75,
-      "entidad": "HTAL EVA PERON",
-      "nro": "PA 142",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-17",
-      "monto": 0,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-11T12:36:57.708Z"
     },
     {
@@ -12191,19 +12818,23 @@
       "creado": "2026-06-16T17:20:24.719Z"
     },
     {
-      "id": 86,
-      "entidad": "H.I.G.A. Presidente Peron",
-      "nro": "SAMO 66",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-12",
-      "monto": 657800,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "SAMO 66/2026 H.I.G.A. Presidente Peron. ABLE gana r4 ($6.578,00). Nota tecnica: ABLE cotiza aguja 9mm punta redonda vs BV-175 8mm del pliego. Cirugia Argentina origen Peru (pref. nac. ABLE). Sedesa cumple especificacion exacta ($55.966,68). Gestion Noe.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -12264,22 +12895,19 @@
         ],
         "notas": "\n    <p>① Reng. 4 — Ver nota técnica arriba sobre diferencia de aguja entre oferta ABLE y especificación del pliego.</p>\n    <p>② Reng. 4 — Cirugía Argentina $7.760,00 origen Perú (Tagum) — aplica preferencia nacional a favor de ABLE.</p>\n    <p>③ Reng. 4 — Suturas SRL $22.900,00 — aguja CC 3/8 9,3mm, no especifica BV-175.</p>\n    <p>④ Reng. 4 — Martorani $8.034,40 Meril — cotiza aguja 9mm triangular 3/8 (pliego pide punta redonda/roma).</p>\n    <p>⑤ Reng. 4 — Sedesa $55.966,68 J&amp;J Prolene — aguja BV-175 8mm, cumple especificación exacta del pliego.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 86,
+      "entidad": "H.I.G.A. Presidente Peron",
+      "nro": "SAMO 66",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-12",
+      "monto": 657800,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "SAMO 66/2026 H.I.G.A. Presidente Peron. ABLE gana r4 ($6.578,00). Nota tecnica: ABLE cotiza aguja 9mm punta redonda vs BV-175 8mm del pliego. Cirugia Argentina origen Peru (pref. nac. ABLE). Sedesa cumple especificacion exacta ($55.966,68). Gestion Noe.",
       "creado": "2026-06-16T21:49:54.965Z"
     }
   ],
