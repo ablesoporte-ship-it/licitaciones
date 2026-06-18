@@ -11719,19 +11719,23 @@
       "creado": "2026-06-09T18:02:23.605Z"
     },
     {
-      "id": 75,
-      "entidad": "H.I.G.A. Eva Peron",
-      "nro": "PA 142",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-17",
-      "monto": 7053340,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "Si",
-      "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref. nac. en r55 (+4,4% vs Cardiopack India), r58 (+4,5% vs CirArg Peru), r60 (+4,85% vs Cardiopack India). Reng 21: validar unidad Suturas SRL. Dif tecnicas en rengs 48-62 a criterio evaluador. Gestion Diego.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -12361,22 +12365,19 @@
         ],
         "notas": "\n    <p>① Reng. 21 — ABLE cumple pliego. Suturas SRL $4.000,00: <strong>VALIDAR si cotiza por unidad o por cartucho x6u.</strong> Si por unidad: equiv x6 = $24.000,00 y ABLE gana.</p>\n    <p>② Reng. 48, 49, 50 — ABLE cotiza aguja 35mm vs pliego 36,4mm CT-1 atraloc. Diferencia mínima. A criterio del evaluador.</p>\n    <p>③ Reng. 51 — <strong>Preferencia nacional (+9,55%):</strong> ABLE $1.205,00 vs Cardiopack $1.320,11 (Surgikal/India). Dif. téc.: ABLE aguja 1/2 círculo punta redonda vs pliego 3/8 círculo reverso cortante 30mm.</p>\n    <p>④ Reng. 55 — <strong>Preferencia nacional (+4,4%):</strong> ABLE $2.390,00 vs Cardiopack $2.289,32 (Surgikal/India). Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 36mm multipass punta cilíndrica.</p>\n    <p>⑤ Reng. 56 — ABLE gana $2.390,00. Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 22mm multipass punta cilíndrica SH1.</p>\n    <p>⑥ Reng. 57 — ABLE gana $2.390,00. Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 26mm multipass punta cilíndrica.</p>\n    <p>⑦ Reng. 58 — <strong>Preferencia nacional (+4,5%):</strong> ABLE $3.000,00 vs Cirugía Argentina $2.870,00 (Tagum/Perú). Dif. téc.: ABLE punta redonda vs pliego punta cilíndrica multipass.</p>\n    <p>⑧ Reng. 59 — ABLE gana $4.000,00. Dif. téc.: ABLE punta redonda vs pliego punta cilíndrica multipass.</p>\n    <p>⑨ Reng. 60 — <strong>Preferencia nacional (+4,85%):</strong> ABLE $5.980,00 vs Cardiopack $5.703,94 (Surgikal/India). Dif. téc.: ABLE aguja 9mm hebra 60cm vs pliego 9,3mm hebra 75cm.</p>\n    <p>⑩ Reng. 61 — ABLE $5.980,00 vs Cardiopack $4.841,21 (Surgikal/India, +23,5%). Dif. téc.: ABLE hebra 60cm vs pliego 75cm.</p>\n    <p>⑪ Reng. 62 — ABLE $5.980,00 vs Cardiopack $4.841,21 (Surgikal/India, +23,5%). Dif. téc.: ABLE aguja 9mm hebra 60cm vs pliego 9,3mm hebra 75cm.</p>\n    <p>⑫ Todas las diferencias técnicas quedan a criterio del comité evaluador del hospital.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 75,
+      "entidad": "H.I.G.A. Eva Peron",
+      "nro": "PA 142",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-17",
+      "monto": 7053340,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "Si",
+      "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref. nac. en r55 (+4,4% vs Cardiopack India), r58 (+4,5% vs CirArg Peru), r60 (+4,85% vs Cardiopack India). Reng 21: validar unidad Suturas SRL. Dif tecnicas en rengs 48-62 a criterio evaluador. Gestion Diego.",
       "creado": "2026-06-11T12:36:57.708Z"
     },
     {
@@ -12716,37 +12717,231 @@
       "creado": "2026-06-16T14:58:43.065Z"
     },
     {
+      "id": 83,
+      "entidad": "H.I.G.A. Presidente Peron",
+      "nro": "PA 155",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-18",
+      "monto": 13372990,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 155/2026 H.I.G.A. Presidente Peron. ABLE gana r1 y r2. Pierde r7,r8,r9,r11 contra Igaltex (nacional). Verificar codigo reng 8. Gestion Noe.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Igaltex",
+          "KIMS",
+          "Euro Swiss",
+          "Live in BA"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 2500,
+            "desc": "Camisolin no esteril hemorrepelente descartable SMS 45g manga larga tiras ajuste puno algodon elastizado [ABLE: ArgentCare cumple pliego]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "ArgentCare/Nac",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 1973,
+                "marca": "Kratec/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA",
+                "precio": 1407.64,
+                "marca": "Healthy Lab/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 200,
+            "desc": "Equipo cirugia descartable hemorrepelente esteril 4 camisolines 2 campos grandes 2 medianos 2 chicos SMS 45g [ABLE: Ebano cumple pliego]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 22195,
+                "marca": "Ebano/Nac",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA",
+                "precio": 26597.84,
+                "marca": "Healthy Lab/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 50000,
+            "desc": "Bolsa papel medico 110x30x190mm c/ind quim calor humedo fuelle doble costura",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 37.98,
+                "marca": "Able/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 35.29,
+                "marca": "Sterilys/Nac",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS",
+                "precio": 39.9,
+                "marca": "Yellow Pack/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 30000,
+            "desc": "Bolsa papel medico 90x50x250mm c/ind quim calor humedo fuelle doble costura [VERIFICAR codigo ABLE]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.18,
+                "marca": "Able/Nac*",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 38.85,
+                "marca": "Sterilys/Nac",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS",
+                "precio": 48.1,
+                "marca": "Yellow Pack/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 30000,
+            "desc": "Bolsa papel medico 125x50x250mm c/ind quim calor humedo fuelle doble costura",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.18,
+                "marca": "Able/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 49.52,
+                "marca": "Sterilys/Nac",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS",
+                "precio": 59.9,
+                "marca": "Yellow Pack/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 2000,
+            "desc": "Bolsa papel medico 250x100x380mm c/ind quim calor humedo fuelle doble costura",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 148.97,
+                "marca": "Able/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex",
+                "precio": 119.72,
+                "marca": "Sterilys/Nac",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS",
+                "precio": 225,
+                "marca": "Yellow Pack/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>① Reng. 1 — ABLE gana $1.322,50. ArgentCare SMS 45g nacional. Cumple pliego.</p>\n    <p>② Reng. 2 — ABLE gana $22.195,00. Ebano SMS 45g nacional. Cumple pliego.</p>\n    <p>③ Reng. 7 — ABLE $37,98 vs Igaltex $35,29 (nacional, +7,6%). Todos nacionales.</p>\n    <p>④ Reng. 8 — ABLE $57,18 vs Igaltex $38,85 (nacional, +47,2%). <strong>VERIFICAR: código ABLE BOX125X050X250 podría corresponder a reng 9 (125x50x250mm). Confirmar con Noé.</strong></p>\n    <p>⑤ Reng. 9 — ABLE $57,18 vs Igaltex $49,52 (nacional, +15,5%).</p>\n    <p>⑥ Reng. 11 — ABLE $148,97 vs Igaltex $119,72 (nacional, +24,4%).</p>\n    <p>⑦ Todos los competidores son nacionales. No aplica preferencia nacional ni empate técnico por extranjero.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 83,
-      "entidad": "HTAL PERON",
-      "nro": "PA 155",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-18",
-      "monto": 13372990,
-      "mayor": "Sí",
-      "zona": "",
-      "agente": "",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-16T15:07:15.294Z"
     },
     {
@@ -12909,7 +13104,41 @@
       "pref": "No",
       "obs": "SAMO 66/2026 H.I.G.A. Presidente Peron. ABLE gana r4 ($6.578,00). Nota tecnica: ABLE cotiza aguja 9mm punta redonda vs BV-175 8mm del pliego. Cirugia Argentina origen Peru (pref. nac. ABLE). Sedesa cumple especificacion exacta ($55.966,68). Gestion Noe.",
       "creado": "2026-06-16T21:49:54.965Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 87,
+      "entidad": "HTAL MALVINAS",
+      "nro": "PA 100",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-23",
+      "monto": 1830000,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-06-18T11:37:28.533Z"
     }
   ],
-  "nextId": 87
+  "nextId": 88
 }
