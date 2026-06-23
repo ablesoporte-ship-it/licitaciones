@@ -13294,26 +13294,8 @@
       "creado": "2026-06-16T21:49:54.965Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 87,
-      "entidad": "HTAL MALVINAS",
+      "entidad": "HTAL HEROES DE MALVINAS",
       "nro": "PA 100",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
@@ -13321,10 +13303,100 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana reng.1 LT400 ($7.800 vs CIR.ARG $7.810, +0,13%) y reng.2 LT300 ($6.420 vs CIR.ARG $7.810, +21,6%). Monto ABLE $1.830.000. Producto Industria Argentina vs Kangji China (CIR.ARG). Renglones 3-7 ABLE no cotiza.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "CIR. ARGENTINA",
+          "AMERICAN FIURE"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 70,
+            "desc": "Cartucho con 6 clips de titanio — Tamaño grande Tipo LT400 — Con Clipadora en Comodato — Marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 7800,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 7810,
+                "marca": "Kangji LT400 PM-1231-68 (China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AMERICAN FIURE",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 200,
+            "desc": "Cartucho con 6 clips de titanio — Tamaño mediano/grande Tipo LT300 — Con Clipadora en Comodato — Marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6420,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "CIR. ARGENTINA",
+                "precio": 7810,
+                "marca": "Kangji LT300 PM-1231-68 (China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AMERICAN FIURE",
+                "precio": 16990,
+                "marca": "Weck (blister 6 clips)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n  ① <strong>ABLE gana renglón 1 (LT400):</strong> ABLE $7.800,00 vs. CIR. ARGENTINA $7.810,00 (+0,13%). Diferencia mínima — ABLE es el precio más bajo. Ambos incluyen clipadora en comodato. ABLE ofrece producto <strong>Industria Argentina</strong>; CIR. ARGENTINA cotiza marca Kangji, <strong>Origen China</strong>.<br><br>\n  ② <strong>ABLE gana renglón 2 (LT300):</strong> ABLE $6.420,00 vs. CIR. ARGENTINA $7.810,00 (+21,6%) vs. AMERICAN FIURE $16.990,00 (+164,5%). ABLE gana con holgura. AMERICAN FIURE menciona que el hospital ya posee dos pinzas Weck en comodato.<br><br>\n  ③ <strong>CIR. ARGENTINA — precios con IVA:</strong> su planilla indica explícitamente \"PRECIO $ CON IVA\". Se utilizan los precios tal como cotizados ($7.810,00) para la comparación.<br><br>\n  ④ <strong>Renglones 3 a 7 — ABLE no cotiza:</strong> gasas (reng.3), apósitos (reng.4), esponja hemostática (reng.5), venda smarch (reng.6) y cinta adhesiva de papel (reng.7) no fueron cotizados por ABLE y no se incluyen en esta comparativa. Participan: BYMED, EURO SWISS, IGALTEX, MARTORANI y PAPELERA EP en distintos renglones.<br><br>\n  ⑤ <strong>Zona / Agente:</strong> Zona Oeste → Gonzalo. ABLE S.A. cotizó directamente (marca ABLE, Industria Argentina, La Tablada, Pcia. Bs. As.)."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-06-18T11:37:28.533Z"
     },
     {
@@ -13413,88 +13485,668 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "HEALTHY LAB",
+          "IGALTEX",
+          "BIOPROTEC",
+          "MARTORANI",
+          "EURO SWISS",
+          "BHAURAC",
+          "R.J.L. POGGI"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "Camisolin no estéril, no hemorrepelente, tela SP 30G, descartable, desde cuello hasta debajo de rodillas, manga larga, c/tiras ajuste cuello y cintura, puños elástico ajustables en muñeca — ArgentCare C.OSP.110.ELA.30.A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "ArgentCare SP 30G ①",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": 492.07,
+                "marca": "HEALTHY LAB (Ind. Argentina) ②",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 494.07,
+                "marca": "GLOBAL PROTECTIVE PM414-36 ②",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": 704,
+                "marca": "ARCABIOSANPM2545-2 SMS 30GS elást.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": 717.7,
+                "marca": "POLYMED (obj) 24G/M² ≠ pliego 30G/M²",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 839,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1024,
+                "marca": "DIMEX (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": 2280,
+                "marca": "CLOTHIER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "Camisolin no estéril, no hemorrepelente, tela SP 20G, descartable, manga larga, puños elástico — ArgentCare C.OSP.110.ELA.20.A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 484,
+                "marca": "ArgentCare SP 20G",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": 618.97,
+                "marca": "HEALTHY LAB (Ind. Argentina) ②",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 641.94,
+                "marca": "GLOBAL PROTECTIVE PM414-36 ②",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "Camisolin no estéril, no hemorrepelente, tela SP 25G, descartable, manga larga, puños elástico — ArgentCare C.OSP.110.ELA.25.A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 570,
+                "marca": "ArgentCare SP 25G",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": 775.2,
+                "marca": "GLOBAL PROTECTIVE PM414-36 ②",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": 663.8,
+                "marca": "ARCABIOSANPM2545-2 SMS 25GS elást.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "Camisolin no estéril, hemorrepelente, tela SMS 30G, descartable, manga larga, puños algodón ajustables en muñeca — ArgentCare C.SMS.120.ALG.30.A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 790,
+                "marca": "ArgentCare SMS 30G hemorrepelente",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": 763.3,
+                "marca": "ARCABIOSANPM2545-2 SMS 30GS algodón M",
+                "bg_precio": "naranja",
+                "bg_marca": "naranja",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "BIOPROTEC ALT4 — SMS 25GS p/algodón M — ARCABIOSANPM2545-2 (sin cotización ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": 723.1,
+                "marca": "ARCABIOSANPM2545-2 SMS 25GS algodón M",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "BIOPROTEC ALT5 — SMS 35GS p/elástico M — ARCABIOSANPM2545-2 (sin cotización ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": 876.3,
+                "marca": "ARCABIOSANPM2545-2 SMS 35GS elást. M",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 25000,
+            "desc": "BIOPROTEC ALT6 — SMS 35GS p/algodón M — ARCABIOSANPM2545-2 (sin cotización ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "HEALTHY LAB",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BIOPROTEC",
+                "precio": 935.6,
+                "marca": "ARCABIOSANPM2545-2 SMS 35GS algodón M",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MARTORANI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "R.J.L. POGGI",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n  ① <strong>ABLE S.A. — tela SP vs. SMS (oferta base op.1):</strong> ABLE cotiza el renglón base con tela <strong>SP (Spunbond) de 30G</strong>, mientras que el pliego exige <strong>TNT SMS (Spunbond-Meltblown-Spunbond) 30 G/M²</strong>. SP y SMS son materiales diferentes. ABLE presenta como ALT3 un camisolin con <strong>tela SMS 30G hemorrepelente</strong> ($790,00) que sí cumple el material. <em>Existe riesgo de observación en la oferta base según el criterio de evaluación técnica del comitente.</em><br><br>\n  ② <strong>HEALTHY LAB e IGALTEX — sin detalle técnico:</strong> ambos oferentes no especifican en sus planillas de cotización las características técnicas del producto (gramaje G/M², tipo de tela, composición). No se puede verificar si cumplen el pliego sin la muestra requerida. El pliego exige presentación de muestra; de no acreditarse el gramaje 30 G/M² y tela SMS, podrían ser observadas.<br><br>\n  ③ <strong>MARTORANI — (obj) renglón 1:</strong> declara expresamente en su planilla: <em>\"SE COTIZA EN TELA SMS DE 24G X 100CM DE LARGO\"</em>. El pliego requiere <strong>gramaje requerido 30 G/M²</strong>. Diferencia de gramaje inequívoca → objetado. Precio $717,70 &gt; ABLE $635,00, no afecta la posición de ABLE.<br><br>\n  ④ <strong>BIOPROTEC — sin oferta base única:</strong> presenta 6 alternativas (ALT1–ALT6) sin cotización principal. Se toma ALT1 ($704,00 — SMS 30GS p/elástico) como op.1 por ser la de menor precio que cumple el gramaje del pliego. Sus ALT3–ALT4 (25GS) y ALT5–ALT6 (35GS) no cumplen el gramaje 30G/M².<br><br>\n  ⑤ <strong>Resultado op.1 base:</strong> ABLE $635,00 pierde vs. HEALTHY LAB $492,07 (+29,0%). La diferencia supera el 10% → no aplica empate técnico ni preferencia nacional para ABLE en la oferta base.<br><br>\n  ⑥ <strong>ALT3 ABLE ($790) — preferencia nacional:</strong> vs. BIOPROTEC SMS 30GS algodón $763,30 — diferencia del 3,5%. Ambos nacionales. Dentro del margen 2–10% → naranja (pref. nacional). Si BIOPROTEC es objetado o descalificado, ABLE gana esta alternativa.<br><br>\n  ⑦ <strong>ALT1 y ALT2 de ABLE:</strong> ABLE gana con $484 (20G) y $570 (25G), pero ambas alternativas tienen gramaje inferior al requerido por el pliego (30 G/M²). Su adjudicación depende de que el hospital acepte esos gramajes.<br><br>\n  ⑧ <strong>Zona / Agente:</strong> Zona Oeste → Gonzalo. ABLE S.A. cotizó directamente (marca ArgentCare, Industria Argentina)."
+      },
       "id": 90,
-      "entidad": "HTAL MALVINAS",
+      "entidad": "HTAL HEROES DE MALVINAS",
       "nro": "PA 99",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
-      "monto": 61975000,
+      "monto": 15875000,
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE pierde op.1 vs HEALTHY LAB $492,07 (+29%). MARTORANI obj (24G≠30G). ABLE op.1 usa tela SP≠SMS pliego (riesgo observación). ALT3 $790 vs BIOPROTEC $763,30 (+3,5%) naranja. HEALTHY LAB e IGALTEX sin detalle técnico — requieren muestra.",
       "creado": "2026-06-18T19:53:14.628Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 91,
-      "entidad": "Municipalidad",
-      "nro": "LP 70",
-      "tipo": "Privada",
-      "fecha": "2026-06-23",
-      "monto": 23395890,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-06-19T12:03:20.018Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 92,
-      "entidad": "HTAL NARCISO LOPEZ",
+      "entidad": "HTAL Narciso Lopez",
       "nro": "PA 32",
-      "tipo": "Procedimiento Abreviado",
+      "tipo": "Procedimiento Abreviado SAMO Fondos Propios",
       "fecha": "2026-06-23",
-      "monto": 14874000,
-      "mayor": "Sí",
+      "monto": 3429000,
+      "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "Si",
+      "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref.nac.: r55 (+4,4% Cardiopack India), r58 (+4,5% CirArg Peru), r60 (+4,85% Cardiopack India). Dif.tec en multiples renglones a criterio evaluador. Gestion Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Live in BA (Healthy Lab)",
+          "Euro Swiss"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 6000,
+            "desc": "Camisolin no esteril, no hemorrepelente de tela SP 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con punos de elastico, ajustables en muneca - marca ArgentCare (cod. C.OSP.110.ELA30.A)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 571.5,
+                "marca": "ArgentCare/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA (Healthy Lab)",
+                "precio": 472.11,
+                "marca": "Healthy Lab/Nac (sin specs propias*)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 840,
+                "marca": "Kratec/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 6000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con punos de elastico, ajustables en muneca - marca ArgentCare (cod. C.OSP.110.ELA20.A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 435.6,
+                "marca": "ArgentCare/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 2",
+            "cant": 6000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con punos de elastico, ajustables en muneca - marca ArgentCare (cod. C.OSP.110.ELA25.A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 513,
+                "marca": "ArgentCare/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 3",
+            "cant": 6000,
+            "desc": "Camisolin no esteril, HEMORREPELENTE, tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con punos de algodon, ajustables en muneca - marca ArgentCare (cod. C.SMS.120.ALG.30.A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 711,
+                "marca": "ArgentCare/Nac",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA (Healthy Lab)",
+                "precio": 618.52,
+                "marca": "Healthy Lab/Nac (sin specs propias*)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>Reng. 1 — ABLE $571,50 vs Live in BA (Healthy Lab) $472,11 (+21,0%). Ambos nacionales, sin color especial.</p>\n    <p>Reng. 1 ALT 1 (20g) y ALT 2 (25g) — Únicamente ABLE presentó estas alternativas, sin competencia.</p>\n    <p>Reng. 1 ALT 3 (hemorrepelente 30g) — ABLE $711,00 vs Healthy Lab $618,52 (+15,0%). Ambos nacionales, sin color especial.</p>\n    <p>⚠️ <strong>ATENCIÓN</strong> — Live in BA (Healthy Lab) no detalla especificaciones técnicas propias del producto: copió textualmente la descripción del pliego (oferta base y ALT) sin indicar tipo de tela real, gramaje verificable, ni código comercial propio. ABLE sí detalla tela SP/SMS, gramaje, tipo de puño y código comercial propio en sus 4 ofertas. <strong>Posible motivo de objeción/observación técnica</strong> a evaluar con el agente de zona.</p>\n  "
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-06-19T18:24:58.070Z"
     },
     {
@@ -13566,12 +14218,2316 @@
       "creado": "2026-06-19T19:15:02.225Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 95,
       "entidad": "HTAL DURAND",
       "nro": "CM 416",
       "tipo": "Contratación Menor",
       "fecha": "2026-06-26",
       "monto": 3996360,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-06-22T13:11:59.333Z"
+    },
+    {
+      "id": 96,
+      "entidad": "Municipalidad de San Miguel - Subsecretaria de Salud",
+      "nro": "LP 70",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-23",
+      "monto": 51455690,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref.nac.: r55 (+4,4% Cardiopack India), r58 (+4,5% CirArg Peru), r60 (+4,85% Cardiopack India). Dif.tec en multiples renglones a criterio evaluador. Gestion Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss",
+          "Pharma Express",
+          "Drogueria Luma",
+          "Sedesa"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 4,
+            "desc": "CARTUCHO DE SUTURA - TIPO DE 3,5 MM PARA GRAPADORA LINEAL LAPAROSCOPICA ARTICULADA ECHELON FLEC ART.",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 505780,
+                "marca": "ENDOGIA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 301733,
+                "marca": "Covidien EGIA60AMT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 35000000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 25000,
+                "marca": "Braun",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 249618.77,
+                "marca": "Johnson GST60B",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 4,
+            "desc": "CARTUCHO DE SUTURA - TIPO DE 2,5 MM PARA GRAPADORA LINEAL LAPAROSCOPICA ARTICULADA ECHELON FLEX ART.",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 459800,
+                "marca": "ENDOGIA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 301733,
+                "marca": "Covidien EGIA60AVM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 35000000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 25000,
+                "marca": "Braun",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 249618.77,
+                "marca": "Johnson GST60W",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 20,
+            "desc": "CARTUCHO DE SUTURA - TIPO CARTUCHO DE 4,1 MM PARA GRAPADORA LINEAL LAPAROSCOPICA ARTICULADA ECHELON ",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 459800,
+                "marca": "ENDOGIA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 520000,
+                "marca": "Covidien EGIA60AXT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 35000000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 30000,
+                "marca": "Braun",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 249618.77,
+                "marca": "Johnson GST60G",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 120,
+            "desc": "CERA PARA HUESOS - HEMOSTATICA - TABLETA DE 2,5 GR",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3993,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 4660,
+                "marca": "CuraWax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2876,
+                "marca": "Truwax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 4350,
+                "marca": "Boneway",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 6359.76,
+                "marca": "Johnson W31G",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 10,
+            "desc": "CLAVIJA - DE 1 PUNTA DE 1.2 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 7500,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2789.23,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 10,
+            "desc": "CLAVIJA - CLAVIJA DE 2 PUNTAS DE 0.8 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 9100,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2767.7,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 10,
+            "desc": "CLAVIJA - DE 2 PUNTAS DE 1 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 9100,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3718.09,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 10,
+            "desc": "CLAVIJA - DE 2 PUNTAS DE 1.5 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 9100,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3835.22,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 12,
+            "desc": "CLAVIJA - DE 2 PUNTAS DE 1.75 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 9100,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 4410.5,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 20,
+            "desc": "CLAVIJA - DE 2 PUNTAS 2 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 10920,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 5072.08,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 10,
+            "desc": "CLAVIJA - DE 2 PUNTAS DE 2.5 MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 11500,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6080,
+                "marca": "Belmed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 240000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 50000,
+                "marca": "Imeco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 5832.89,
+                "marca": "DQ",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 50,
+            "desc": "CLIPS - DE TITANIO PARA LIGADURA LAPAROSCOPICA - TAMAÑO LARGE - TIPO LT 400 X 6 UNIDADES",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6720,
+                "marca": "ABLE LT400",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 5610,
+                "marca": "ABLE LT400",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 7936,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 7250,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 19934.15,
+                "marca": "Johnson LT400",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 140,
+            "desc": "CLIPS - DE TITANIO PARA LIGADURA LAPAROSCOPIA - TAMAÑO MEDIUM/LARGE - TIPO LT 300 X 6 UNIDADES",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5600,
+                "marca": "ABLE LT300",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 4672,
+                "marca": "ABLE LT300",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 6614,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 6043,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 19934.15,
+                "marca": "Johnson LT300",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 140,
+            "desc": "SPONGOSTAN - ESPONJA HEMOSTATICA REARSORBIBLE - UNIDAD 80 MM X 50 MM X 10MM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 12600,
+                "marca": "Curaspon",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 8025,
+                "marca": "Curaspon",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 4133,
+                "marca": "Surgikal",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 7850,
+                "marca": "Curaspon",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 13783.11,
+                "marca": "Johnson Spongostan",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 30,
+            "desc": "MALLA - DE POLIPROPILENO DE 15 X 15 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 41624,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 47935,
+                "marca": "Surmesh",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 20666,
+                "marca": "Surgikal",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 44200,
+                "marca": "Surmesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 76001.31,
+                "marca": "Johnson Prolene",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 1,
+            "desc": "MALLA - DE POLIPROPILENO DE 30 X 30 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 62800,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 75100,
+                "marca": "Surmesh",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 37510,
+                "marca": "Sorgikal",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 64600,
+                "marca": "Surmesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 167393.82,
+                "marca": "Johnson Prolene",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 1,
+            "desc": "MALLA - DE PROCEED 30,5 X 30,5 CM - J&J ETHICON",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1920000,
+                "marca": "Surmesh/Dalt",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 887092,
+                "marca": "Symbotex (ALT)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 60000000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 150000,
+                "marca": "Surgizime",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 1859168.03,
+                "marca": "Johnson Proceed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 60,
+            "desc": "SURGICEL - MALLA TIPO SURGICEL FIBRILAR - HEMOSTATICA TOPICA ABSORBIBLE EN CAPAS DE 2,5 CM X 5 - EFE",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 58000,
+                "marca": "Ethicon/Curatamp",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 77890,
+                "marca": "Curacel Fibrilar",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 24007,
+                "marca": "Boz",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 150000,
+                "marca": "Curatamp",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 50555.01,
+                "marca": "Johnson Surgicel Fibrilar",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 50,
+            "desc": "SURGICEL - MALLA TIPO SURGICEL - HEMOSTATICA TOPICA ABSORBIBLE DE 5,1 CM X 7,6 CM (CELULOSA OXIDADA ",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14550,
+                "marca": "Curatamp",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 23180,
+                "marca": "Curacel",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 24257,
+                "marca": "Boz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 129000,
+                "marca": "Curatamp",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 21299.03,
+                "marca": "Johnson Surgicel",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 1,
+            "desc": "MALLA - VICRYL POLYGLAGTIN 910 15 X 15",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1820000,
+                "marca": "Safil Mesh/Ethicon",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 887092,
+                "marca": "Symbotex (ALT, no vicryl)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 60000000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 120000,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 207851.99,
+                "marca": "Johnson Vicryl",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 50,
+            "desc": "SUTURAS - POLIGLACTINA 0 - CON AGUJA CURVO 1/2 CIRCULO PUNTO ROMA - HEBRA DE 75 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1160,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3775,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2153,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3466.65,
+                "marca": "Johnson Vicryl VCP340H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 2500,
+            "desc": "SUTURAS - POLIGLACTINA 1 - AGUJA CURVA CT - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3775,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2153,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3525.49,
+                "marca": "Johnson Vicryl VCP353H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 2000,
+            "desc": "SUTURAS - POLIGLACTINA 1 - AGUJA CURVA CT1 - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3775,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2153,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3494.38,
+                "marca": "Johnson Vicryl VCP341H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "24",
+            "cant": 1000,
+            "desc": "SUTURAS - POLIGLACTINA 1 - AGUJA CURVO CT2 - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 8278,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2356,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2153,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3494.38,
+                "marca": "Johnson Vicryl VCP335H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 40,
+            "desc": "SUTURAS - POLIGLACTINA 2 - AGUJA CURVA - 1/2 CIRCULO 40 MM - PUNTA REVERSO - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 4375,
+                "marca": "-",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2450,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 5047.52,
+                "marca": "Johnson Vicryl J536H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "26",
+            "cant": 76,
+            "desc": "SUTURAS - POLIGLACTINA 2/0 PLUS - AGUJA CURVA - 1/2 CIRCULO CTI 36 MM - PUNTA REDONDA - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3950,
+                "marca": "ABLE/Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 6980,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2450,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3466.65,
+                "marca": "Johnson Vicryl VCP339H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 100,
+            "desc": "SUTURAS - POLIGLACTINA 2/0 - AGUJA CURVA - 1/2 CIRCULO 36 MM - PUNTA REDONDA - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3775,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 10500,
+                "marca": "Braun",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3743.98,
+                "marca": "Johnson Vicryl VCP323H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 650,
+            "desc": "SUTURAS - POLIGLACTINA 3/0 - AGUJA CURVA - 1/2 CIRCULO 26 MM - PUNTA REDONDA - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1520,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 4400,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2090,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3466.65,
+                "marca": "Johnson Vicryl VCP316H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29",
+            "cant": 100,
+            "desc": "SUTURAS - POLIGLACTINA 4/0 PLUS - AGUJA CURVA - 1/2 CIRCULO SH 26 MM - PUNTA REDONDA - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3950,
+                "marca": "ABLE/Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 4400,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 10500,
+                "marca": "Braun",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3743.98,
+                "marca": "Johnson Vicryl VCP315H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "30",
+            "cant": 72,
+            "desc": "SUTURAS - POLIGLACTINA 5/0 - AGUJA CURVA - 1/2 CIRCULO 15 MM - PUNTA REDONDA - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1520,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3922,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1876,
+                "marca": "Sorgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 2090,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3466.65,
+                "marca": "Johnson Vicryl VCP303H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "31",
+            "cant": 200,
+            "desc": "CATGUT - CROMADO 1 - AGUJA CURVO - 1/2 CIRCULO CT 40 MM - PUNTA AHUSADA - HEBRA 90 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3478.5,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 3613,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 7500,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 4400.65,
+                "marca": "Johnson Vicryl VCP359H (ALT)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "32",
+            "cant": 500,
+            "desc": "CATGUT - CROMADO 2 - AGUJA CURVO - 1/2 CIRCULO CT 40 MM - PUNTA AHUSADA - HEBRA 90 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3540,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3873,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 5508,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 7500,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 4107.27,
+                "marca": "Johnson Vicryl VCP359H (ALT)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "33",
+            "cant": 500,
+            "desc": "CATGUT - SIMPLE 0 - AGUJA CURVA - 1/2 CIRCULO CT 40 MM - PUNTA AHUSADA - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2900,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 3402,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 4866,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 7500,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 3573.05,
+                "marca": "Johnson Vicryl VCP352H (ALT)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "34",
+            "cant": 100,
+            "desc": "SUTURA POLIGLECAPRONE - MONOCRYL 3/0 - AGUJA CURVA - 1/2 CIRCULO SH 26 MM - PUNTA REDONDA - HEBRA DE",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 9000,
+                "marca": "Meril/Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 7571,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 8300000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 10500,
+                "marca": "Braun",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 5998.21,
+                "marca": "Johnson Monocryl MCP316H",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "35",
+            "cant": 12,
+            "desc": "SUTURA POLIGLECAPRONE - MONOCRYL 4/0 - AGUJA CURVA - 1/2 CIRCULO SH 26 MM - PUNTA REDONDA - HEBRA DE",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 9000,
+                "marca": "Meril/Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 7571,
+                "marca": "Covidien",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 8300000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 10500,
+                "marca": "Braun",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 16661.7,
+                "marca": "Johnson Monocryl MCP3156H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 10,
+            "desc": "HILO DE SUTURA - DE LINO N°30 CARRETE",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 62500,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 18810.5,
+                "marca": "Gruschwitz",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 59048,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 18914,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 82106.7,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "37",
+            "cant": 5,
+            "desc": "HILO DE SUTURA - DE LINO N°50 CARRETE",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 62500,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 24265,
+                "marca": "Gruschwitz",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 76279,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 24400,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 100255,
+                "marca": "Gruschwitz",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "38",
+            "cant": 2,
+            "desc": "SUTURAS - MECANICA CIRCULAR DE 29 MM COD CDH29A - TIPO JOHNSON",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 885000,
+                "marca": "Feng Medical",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 612406,
+                "marca": "-",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 20000000,
+                "marca": "SM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 9500,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 348639.72,
+                "marca": "Johnson CDH29B",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "39",
+            "cant": 650,
+            "desc": "SUTURAS - MONONYLON 2/0 - AGUJA CURVA 3/8 DE 26 MM - REVERSO CORTANTE - HEBRA 70 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 2577,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1033,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 10500,
+                "marca": "Braun",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2101.77,
+                "marca": "Johnson Ethilon 164T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "40",
+            "cant": 2500,
+            "desc": "SUTURAS - MONONYLON 2/0 - AGUJA RECTA DE 60 MM - REVERSO CORTANTE - HEBRA 75 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 2577,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1033,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 1094,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2030.77,
+                "marca": "Johnson Ethilon 628H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "41",
+            "cant": 1900,
+            "desc": "SUTURAS - MONONYLON 3/0 - AGUJA CURVA 3/8 DE 26 MM - REVERSO CORTANTE - HEBRA 90 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 2577,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1033,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 1094,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2474.21,
+                "marca": "Johnson Ethilon 169T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "42",
+            "cant": 2500,
+            "desc": "SUTURAS - MONONYLON 3/0 - AGUJA RECTA DE 60 MM - REVERSO CORTANTE - HEBRA 75 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 2577,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1033,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 1150,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2030.77,
+                "marca": "Johnson Ethilon 627H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "43",
+            "cant": 700,
+            "desc": "SUTURAS - MONONYLON 4/0 - AGUJA CURVA 3/8 DE 19 MM - REVERSO CORTANTE - HEBRA 45 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 2577,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1033,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 1150,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2161.82,
+                "marca": "Johnson Ethilon 14502T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "44",
+            "cant": 140,
+            "desc": "SUTURAS - MONONYLON 5/0 - AGUJA CURVA 3/8 DE 20 MM - REVERSO CORTANTE - HEBRA 45 CM",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 2666,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1501,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 1150,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 2662.14,
+                "marca": "Johnson Ethilon 14501T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "45",
+            "cant": 72,
+            "desc": "SUTURAS - POLIPROPILENO (PROLENE) 4/0 - DOS AGUJAS CURVAS - 1/2 CIRCULO SH 26 MM - PUNTA REDONDA - H",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2450,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 10575.4,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2893,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogueria Luma",
+                "precio": 3919,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa",
+                "precio": 7704.68,
+                "marca": "Johnson RRolene 8521H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>⚠️ <strong>Items 1,2,3,5-11,14,17,20,34,35,38</strong> — Pharma Express cotiza precios extremadamente desproporcionados (ej. item 1: $35.000.000 por cartucho vs ABLE $505.780). Posible error de digitación del oferente. <strong>VERIFICAR antes de presentar informe.</strong></p>\n    <p>⚠️ <strong>Items 17, 20, 38</strong> — Droguería Luma también cotiza precios muy por debajo del resto del mercado ($150.000 / $120.000 / $9.500). VERIFICAR.</p>\n    <p>Items 31, 32, 33 — Sedesa ofrece ALTERNATIVA en material poliglactina en vez de catgut solicitado por pliego.</p>\n    <p>Items 17 y 20 — Euro Swiss presenta ALTERNATIVA Symbotex (poliéster+colágeno, no vicryl/proceed) — no es lo solicitado por pliego.</p>\n    <p>Droguería Luma no cotizó items 1 al 15 (no presentó oferta para ese tramo del pliego).</p>\n    <p>Cantidades tomadas del pliego oficial (Pedido de Cotización N° 2414). Algunos presupuestos transcribían cantidades con error (ej. Droguería Luma escribió 50.000 en vez de 50): se usó siempre la cantidad oficial del pliego.</p>\n    <p>Todas las marcas y precios fueron tomados literalmente de los presupuestos originales de cada oferente sin modificar cifras.</p>\n  "
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-22T15:41:25.440Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 97,
+      "entidad": "HTAL V. LOPEZ Y PLANES",
+      "nro": "PA 96",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-26",
+      "monto": 0,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-06-22T16:03:17.940Z"
+    },
+    {
+      "id": 98,
+      "entidad": "HTAL PIÑEYRO",
+      "nro": "SAMO 55",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-25",
+      "monto": 1850000,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-23T20:59:46.752Z"
+    },
+    {
+      "id": 99,
+      "entidad": "HTAL EVA PERON",
+      "nro": "PA 152",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-26",
+      "monto": 3629100,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
@@ -13595,16 +16551,16 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-06-22T13:11:59.333Z"
+      "creado": "2026-06-23T21:17:54.720Z"
     },
     {
-      "id": 96,
-      "entidad": "Municipalidad San Miguel",
-      "nro": "LP 14",
-      "tipo": "Privada",
-      "fecha": "",
-      "monto": 51491190,
-      "mayor": "Sí",
+      "id": 100,
+      "entidad": "HTAL DE QUEMADOS",
+      "nro": "CM 428",
+      "tipo": "Contratación Menor",
+      "fecha": "2026-06-25",
+      "monto": 2561544,
+      "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
       "etapa": "Pendiente",
@@ -13627,8 +16583,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-06-22T15:41:25.440Z"
+      "creado": "2026-06-23T21:19:29.801Z"
     }
   ],
-  "nextId": 97
+  "nextId": 101
 }
