@@ -7794,11 +7794,23 @@
       "creado": "2026-06-02T18:14:20.813Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-06-17",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Camisolin descartable, gramaje 30 g/m2, TNT SMS, manga larga, puno ajustado, no esteril, no hemorrepelente, longitud min 1,20m, ancho min 1,45m",
+          "cant": 80000,
+          "precio_able": 794,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sin ganador en este acta para este renglon (ABLE rechazado; Live in BA tambien desestimado por falta de puno)",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "Reng. 3 (camisolin descartable 30g/m2 TNT SMS) RECHAZADO a ABLE S.A. Oferta original y alternativas (ALT 1 y ALT 2) fueron desestimadas por no ajustarse a especificaciones tecnicas: tela SP en lugar de SMS solicitado, y no presentan el puno solicitado. Se le solicito a ABLE mejora de precio, la cual no resulto suficiente - el acta registra el motivo final como PRECIO EXCESIVO ($794,00 x 80.000u = $63.520.000,00). Tambien fue desestimado Live in BA S.A. (Of. N5) por no presentar el puno solicitado, y Medibel S.A. (Of. N2) por no ofrecer frasco humidificador (rengs. 1 y 2). Rengs. 1 y 2 (reguladores de vacio y flowmeter) adjudicados a B Gate S.A. - no son renglones de ABLE. Antecedente: situacion similar (tela SP vs SMS) ya detectada en comparativa previa de esta licitacion.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -7808,7 +7820,7 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": {
@@ -7906,11 +7918,11 @@
       "nro": "PA 206",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-05",
-      "monto": 155920000,
+      "monto": 63520000,
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 206/2026 HIGA Rossi La Plata — 2° llamado. ABLE cotiza reng. 3 con 3 alternativas, ninguna viable técnicamente: Principal $794 hemorrepelente (pliego pide NO hemorrepelente); ALT 1 $650 tela SP (pliego pide SMS) y puño sin especificar; ALT 2 $505 gramaje 20gr (pliego exige mín. 30gr). Ganador: LIVE IN BA (HEALTHY LAB) $726,96 cumple todas las specs. ",
@@ -16584,7 +16596,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-06-23T21:19:29.801Z"
+    },
+    {
+      "id": 101,
+      "entidad": "HTAL VICENTE LOPZ Y PLANES",
+      "nro": "PA 98",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-29",
+      "monto": 1028985,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-24T13:11:07.338Z"
     }
   ],
-  "nextId": 101
+  "nextId": 102
 }
