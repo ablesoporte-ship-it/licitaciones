@@ -16841,37 +16841,197 @@
       "creado": "2026-06-23T20:59:46.752Z"
     },
     {
+      "id": 99,
+      "entidad": "HTAL Eva Peron",
+      "nro": "PA 152",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-26",
+      "monto": 3669800,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "Si",
+      "obs": "PA 152/2026 H.I.G.A. Eva Peron. ABLE pierde 4 de 5 renglones contra Laboratorios Igaltex (Sterilys, nacional). Unico renglon ganado: reng 3, donde Igaltex no cotizo. ATENCION: ABLE cotiza 24u en reng 4, pliego pide 25u - verificar. Gestion Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "KIMS S.R.L.",
+          "Laboratorios Igaltex"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 9,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 300mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 60900,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 96100,
+                "marca": "Yellow Pack/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 54139.45,
+                "marca": "Sterilys/Ind.Arg",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 6,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 75mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.75.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 15400,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 25100,
+                "marca": "Yellow Pack/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 14168.6,
+                "marca": "Sterilys/Ind.Arg",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 6,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 100mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 20400,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 32250,
+                "marca": "Yellow Pack/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 25,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 200mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.200.200 [ABLE cotiza 24u, pliego pide 25u*]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 40700,
+                "marca": "ABLE/Ind.Arg (cotiza 24u vs 25u pliego*)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 64250,
+                "marca": "Yellow Pack/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 35904.66,
+                "marca": "Sterilys/Ind.Arg",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 60000,
+            "desc": "Bolsa de papel grado medico de 90mm x 50mm x 150mm con indicador quimico de calor humedo, marca Able - cod. BOX090X050X150",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 31.49,
+                "marca": "ABLE/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31,
+                "marca": "Yellow Pack/Ind.Arg",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 29.66,
+                "marca": "Sterilys/Ind.Arg",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>Reng. 1 — ABLE $60.900,00 vs Igaltex $54.139,45 (Sterilys, gana) vs KIMS $96.100,00 (Yellow Pack). Sin color especial (todos nacionales).</p>\n    <p>Reng. 2 — ABLE $15.400,00 vs Igaltex $14.168,60 (Sterilys, gana) vs KIMS $25.100,00.</p>\n    <p>Reng. 3 — ABLE gana $20.400,00. Igaltex NO cotizó este renglón. KIMS $32.250,00.</p>\n    <p>⚠️ <strong>ATENCIÓN Reng. 4</strong> — ABLE cotiza <strong>CANTIDAD 24 unidades</strong>; el pliego pide <strong>25 unidades</strong>. Verificar antes de comparar precio total. Precio unitario: ABLE $40.700,00 vs Igaltex $35.904,66 (gana, 25u) vs KIMS $64.250,00.</p>\n    <p>Reng. 5 — ABLE $31,49 vs Igaltex $29,66 (Sterilys, gana) vs KIMS $31,00.</p>\n    <p>Laboratorios Igaltex es el ganador en 4 de los 5 renglones donde ABLE cotizó. Todos los oferentes son de industria nacional — no aplica preferencia nacional ni empate técnico en ningún renglón.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 99,
-      "entidad": "HTAL EVA PERON",
-      "nro": "PA 152",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-26",
-      "monto": 3629100,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-23T21:17:54.720Z"
     },
     {
