@@ -6141,9 +6141,9 @@
       "adj_resumen": "ABLE adjudicada en 9 renglones (1,2,3,4,5,6,8,10,11) por menor precio. Reng. 7 desestimado por codigo duplicado con reng. 6. Reng. 9 (sutura polipropileno 4/0 doble aguja) RECHAZADO a ABLE por PRECIO EXCESIVO - no se determina en el acta a que firma se adjudico. Total ABLE: $5.766.800.",
       "adj_alertas": "🔴 Reng. 9 rechazado a ABLE por precio excesivo ($2.390,00). En la comparativa, el unico competidor con precio mas bajo (Martorani, $2.371,60) estaba objetado por ofrecer 1 aguja en vez de la doble aguja que exige el pliego. No se confirma en el acta si se adjudico a Martorani pese a la objecion, a otra firma, o si quedo desierto. Pendiente verificar con el hospital antes de descartar una irregularidad similar a PA 126/2026 (Oñativia).",
       "adj_tiene_alerta": true,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-29",
+      "oc_alertas": "OC Nro. 143/2026 emitida el 29/06/2026, entregada al proveedor el 01/07/2026. Renglones incluidos: 1,2,3,4,5,6,8,10,11 - confirma monto adjudicado $5.766.800,00. Reng.7 desestimado (codigo repetido con reng.6) y reng.9 (sutura polipropileno 4/0, rechazado por precio excesivo) ausentes de la OC, consistente con la adjudicacion. Disposicion DISPO-2026-481-GDEBA-HZGADNLMSALGP/2026. Entrega a pedido hasta 31/12/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -7286,7 +7286,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Adjudicación",
+      "etapa": "OC",
       "empate": "Sí",
       "pref": "Sí",
       "obs": "COMPARATIVA CON PRECIOS CARDIOPACK CORREGIDOS A CON IVA (21%). Rengs.1,2: ABLE naranja pref.nac. vs CARDIOPACK (+3,2% y +4,7%). Rengs.4,6,7,8: EMPATE TÉCNICO ABLE vs CARDIOPACK (dif. <1%) — ABLE gana por origen nacional. Reng.5: ABLE gana por precio ($1.205 < $1.211,21 con IVA). Reng.3: ABLE gana único. Reng.9: condicional (MERIL obj. doble aguja). Rengs.10-11: ABLE gana vs TAGUM. ABLE potencialmente gana todos los renglones.",
@@ -13332,11 +13332,25 @@
       "creado": "2026-06-16T17:20:24.719Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-06-26",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Sutura polipropileno azul monofilamento 7/0 60cm c/aguja BV-175 8mm alineacion tungsteno renio",
+          "cant": 100,
+          "precio_able": 6578,
+          "marca": "ABLE",
+          "resultado": "Perdido",
+          "precio_siguiente": 8033,
+          "ganador_sig": "Drogueria Martorani S.A. (Meril) - adjudicado por asesoramiento tecnico (PAT), no por precio",
+          "motivo": "rechazado_calidad",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        }
+      ],
+      "gestion_pre": "Reng. 4 (sutura polipropileno 7/0 c/aguja BV-175) adjudicado a DROGUERIA MARTORANI S.A. (Meril) por $8.033,00, con T.Adj=PAT (Por Asesoramiento Tecnico). ABLE tenia el precio mas bajo en la comparativa ($6.578,00) pero no figura mencionada en el acta (ni aprobada ni rechazada formalmente). La decision se baso en asesoramiento tecnico de la comision, no en precio - ambas ofertas (ABLE y Martorani) tenian observacion de aguja distinta a la BV-175 8mm exacta del pliego; Sedesa era la unica que cumplia la especificacion exacta pero a un precio muy superior ($55.966,68) y no fue adjudicada en este renglon. Sin irregularidad - resuelto por criterio tecnico del organismo licitante.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -13346,7 +13360,7 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": {
@@ -13418,7 +13432,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "SAMO 66/2026 H.I.G.A. Presidente Peron. ABLE gana r4 ($6.578,00). Nota tecnica: ABLE cotiza aguja 9mm punta redonda vs BV-175 8mm del pliego. Cirugia Argentina origen Peru (pref. nac. ABLE). Sedesa cumple especificacion exacta ($55.966,68). Gestion Noe.",
@@ -14166,18 +14180,30 @@
       "creado": "2026-06-18T19:53:14.628Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-25",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin descartable, gramaje requerido 30 G/M2, tela SP, manga larga, puño ajustado, marca ArgentCare",
+          "cant": 6000,
+          "precio_able": 571.5,
+          "marca": "ArgentCare",
+          "resultado": "Ganado",
+          "precio_siguiente": 472.11,
+          "ganador_sig": "ABLE S.A. (gano pese a no ser el mas barato - Healthy Lab quedo descartado por falta de especificaciones tecnicas propias)",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Reng. 1 (camisolin descartable tela SP 30grs, marca ArgentCare) ADJUDICADO A ABLE S.A. por $571,50 (T.Adj=PP), pese a que en la comparativa Live in BA/Healthy Lab figuraba mas barato ($472,11). Esto confirma la objecion tecnica que ya habiamos marcado: Healthy Lab no detallaba especificaciones tecnicas propias (tela, gramaje, codigo comercial), solo copiaba el texto del pliego. Ni Healthy Lab ni Euro Swiss figuran en el acta recibida.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-06-25",
+      "adj_monto_able": 3429000,
+      "adj_resumen": "ABLE adjudicada en el unico renglon de la licitacion (reng. 1, camisolin descartable tela SP 30grs, marca ArgentCare) por $571,50, pese a no ser la oferta mas barata en la comparativa (Healthy Lab $472,11). Healthy Lab quedo descartado por no detallar especificaciones tecnicas propias (objecion confirmada). Total ABLE: $3.429.000,00.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "oc": "Pendiente",
@@ -14290,11 +14316,24 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Adjudicación",
       "empate": "No",
       "pref": "Si",
       "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref.nac.: r55 (+4,4% Cardiopack India), r58 (+4,5% CirArg Peru), r60 (+4,85% Cardiopack India). Dif.tec en multiples renglones a criterio evaluador. Gestion Diego.",
-      "creado": "2026-06-19T18:24:58.070Z"
+      "creado": "2026-06-19T18:24:58.070Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin descartable, gramaje requerido 30 G/M2, tela SP, manga larga, puño ajustado, marca ArgentCare",
+          "cant": 6000,
+          "precio_able": 571.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": 472.11,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -14479,20 +14518,181 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Drogcor S.R.L.",
+          "Electron Plast S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "6",
+            "cant": 20,
+            "desc": "Resma de papel grado medico color blanco, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 232752,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast S.A.",
+                "precio": 122000,
+                "marca": "(obj) Electron Plast - presupuesto indica (80 X 80), pliego pide 80x120cm",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 75mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.75.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 43728.14,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 3,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 100mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19999,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 56131.79,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 150mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.150.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29998.5,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 84513.04,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso medico liso y lamina transparente de 300mm x 200mts con indicador quimico de calor humedo + ETO, marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59997,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 167344.23,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 60000,
+            "desc": "Bolsa de papel grado medico de 90mm x 50mm x 150mm con indicador quimico de calor humedo, marca Able - cod. BOX090X050X150",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 31.49,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 72.74,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>Reng. 6 (papel uso médico liso blanco, resma 80x120cm) — ABLE $158.300,00 vs Drogcor $232.752,00 vs Electron Plast $122.000,00 (<strong>OBJETADO</strong> — su presupuesto indica entre paréntesis \"(80 X 80)\", medida distinta a los 80x120cm que exige el pliego, sin aclarar el motivo de la diferencia). Con Electron Plast objetado, <strong>ABLE gana</strong> este renglon.</p>\n    <p>Renglones 7, 8, 9, 10, 11 (bobinas y bolsas de papel pouch grado médico) — ABLE gana los 5 en limpio frente a Drogcor, con diferencias de +191% (reng.7) a +181% (reng.11).</p>\n    <p><strong>ABLE gana los 6 de 6 renglones cotizados.</strong> Domus (reng.5) y Terragene (reng.2,3,12,13,14,16) no cotizaron ningún renglon de los que oferta ABLE, por lo que no se incluyen en esta comparativa.</p>\n  "
+      },
       "id": 94,
-      "entidad": "HTAL OÑATIVIA",
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
       "nro": "PA 146",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-26",
-      "monto": 2043190,
+      "monto": 5310378,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 146/2026 H.Z.G.A. Dr. Arturo Oñativia. ABLE gana los 6 de 6 renglones cotizados (6,7,8,9,10,11). Reng.6 (papel resma) ganado tras objetar a Electron Plast por medida distinta a la del pliego (80x80 vs 80x120). Renglones 7-11 (bobinas/bolsas pouch) ganados en limpio frente a Drogcor con diferencias de +181% a +191%. Gestion Noe.",
       "creado": "2026-06-19T19:15:02.225Z"
     },
     {
@@ -17457,37 +17657,297 @@
       "creado": "2026-06-25T19:16:25.849Z"
     },
     {
+      "id": 105,
+      "entidad": "H.I.G.A. General San Martin",
+      "nro": "PA 328",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-30",
+      "monto": 2565000,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 328/2026 H.I.G.A. General San Martin. ABLE gana los 4 renglones base cotizados (5,6,7,8). Reng.5 cubrecalzados $123 vs Aupres $141. Reng.6 cofia elastizada $25 vs Igaltex $31.71. Rengs.7 y 8 camisolin esteril SMS 45Grs AAMI PB70 $1725 vs Healthy Lab $2013/$2244. Euroswiss obj reng5 (bota diferente) y reng6 (plisada vs elastizada). ALT no esteril de ABLE incluida como info, no cumple spec base. Zona/agente pendiente asignar.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Aupres SRL",
+          "BHAURAC S.A.",
+          "Confar SRL",
+          "Euroswiss S.A.",
+          "Healthy Lab (Live in BA)",
+          "Igaltex SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 15000,
+            "desc": "Par de cubrecalzados con elastico, descartables, no esteriles, tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare - cod. CUBRE.1E2.3.PAR",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 123,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 141,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 181.17,
+                "marca": "Dimex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Confar SRL",
+                "precio": 271,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 281,
+                "marca": "(obj) Kratec botas c/tiras 20x38cm - pliego pide cubrepies",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Healthy Lab (Live in BA)",
+                "precio": 205.86,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 15000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare - cod. COFIA2E.12",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 25,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 51,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 60.39,
+                "marca": "Dimex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Confar SRL",
+                "precio": 47.5,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 44,
+                "marca": "(obj) Euromix C0093 - PLISADA, pliego pide ELASTIZADA",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Healthy Lab (Live in BA)",
+                "precio": 37.17,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex SRL",
+                "precio": 31.71,
+                "marca": "Global Protective (hemorrepelente)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 100,
+            "desc": "Camisolin esteril, hemorrepelente tela SMS 45Grs., trilaminado, barrera viral IV AAMI, esterilizado por OE, soldado x ultrasonido, AAMI PB 70, manga larga, puños algodón ajustables, refuerzo pechera y mangas, talle Mediano - marca ArgentCare - cod. CE.SMS.120.ALG.45.A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1725,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 4700,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 8696.32,
+                "marca": "Dimex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Confar SRL",
+                "precio": 6440,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live in BA)",
+                "precio": 2013.54,
+                "marca": "Healthy Lab",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 100,
+            "desc": "Camisolin esteril, hemorrepelente tela SMS 45Grs., talle Mediano [ALTERNATIVA - ABLE cotiza version NO esteril, C.SMS.120.ALG.45.A. ATENCION: pliego exige esteril, esta alternativa no cumple la especificacion base]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "(ALT) NO esteril - C.SMS.120.ALG.45.A ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 100,
+            "desc": "Camisolin esteril, hemorrepelente tela SMS 45Grs., trilaminado, barrera viral IV AAMI, esterilizado por OE, soldado x ultrasonido, AAMI PB 70, manga larga, puños algodón ajustables, refuerzo pechera y mangas, talle Grande - marca ArgentCare - cod. CE.SMS.120.ALG.45.A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1725,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 4720,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 8696.32,
+                "marca": "Dimex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Confar SRL",
+                "precio": 6640.5,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live in BA)",
+                "precio": 2244.15,
+                "marca": "Healthy Lab",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 100,
+            "desc": "Camisolin esteril, hemorrepelente tela SMS 45Grs., talle Grande [ALTERNATIVA - ABLE cotiza version NO esteril, C.SMS.120.ALG.45.A. ATENCION: pliego exige esteril, esta alternativa no cumple la especificacion base]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "(ALT) NO esteril - C.SMS.120.ALG.45.A ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>Reng.5 (cubrecalzados, 15.000 pares) — ABLE $123,00 gana en limpio vs Aupres $141,00. Euroswiss $281,00 (<strong>obj</strong>) cotiza botas c/tiras 20x38cm Kratec, producto diferente al cubrepiés que exige el pliego.</p>\n    <p>Reng.6 (cofia descartable elastizada, 15.000) — ABLE $25,00 gana en limpio vs Igaltex $31,71 (Global Protective). Euroswiss $44,00 (<strong>obj</strong>) cotiza cofia <strong>plisada</strong> Euromix C0093 — el pliego exige <strong>elastizada</strong>, construcción diferente.</p>\n    <p>Reng.7 y 8 (camisolin estéril SMS 45Grs. AAMI PB 70, talle M y G, 100c/u) — ABLE gana en limpio $1.725,00 vs Healthy Lab $2.013,54 (talle M) y $2.244,15 (talle G). Confirmado que ArgentCare CE.SMS.120.ALG.45.A cumple barrera viral IV AAMI, OE, ultrasonido, AAMI PB 70 y refuerzo en pechera y mangas.</p>\n    <p>ALT1 rengs. 7 y 8 — ABLE cotiza alternativa <strong>NO estéril</strong> ($1.322,50). El pliego exige estéril; esta alternativa no cumple la especificación base. Se incluye como información disponible por si la comisión acepta alternativas.</p>\n    <p><strong>ABLE gana los 4 renglones base cotizados.</strong> Zona/agente pendiente de asignar.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 105,
-      "entidad": "HTAL SAN MARTIN",
-      "nro": "PA 328",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-30",
-      "monto": 2828500,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-25T19:19:04.066Z"
     },
     {
@@ -17593,6 +18053,24 @@
       "creado": "2026-06-29T18:37:16.132Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 109,
       "entidad": "HTAL ROSSI",
       "nro": "PA 296",
@@ -17606,22 +18084,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-06-30T14:05:36.768Z"
     }
   ],
