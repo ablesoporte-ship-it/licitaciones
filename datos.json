@@ -18311,37 +18311,1487 @@
       "creado": "2026-06-24T19:44:44.306Z"
     },
     {
+      "id": 103,
+      "entidad": "H.I.G.A. Eva Peron",
+      "nro": "PA 151",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-01",
+      "monto": 12067800,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "No",
+      "obs": "Reng. 17 — pliego exige hebra de 150cm; ABLE cotiza hebra de 75cm (Surgimax y ABLE, ambas opciones). Riesgo de objeción — gestión preventiva recomendada con el hospital antes de la pre-adjudicación. Reng. 2 — Cirugía Argentina S.A. ofrece aguja de 25mm cuando el pliego pide 20mm. Posible objeción técnica si resulta pre-adjudicada. Empate técnico (≤2%) en renglones 2, 3, 4, 7, 9 y 16 frente a Cardiopack Argentina S.A. — evaluar gestión de empate con el agente de zona. Filas (ALT): ABLE ofrece alternativa propia marca ABLE en renglones 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 16 y 17 — no compiten por precio, son informativas. ABLE no cotiza renglones 6, 12 y 13.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Cirugía Argentina S.A.",
+          "Sedesa S.A.",
+          "Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 500,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM402045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 614.68,
+                "marca": "Surgikal - COD 5420",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1058,
+                "marca": "Tagum - Cód NN0924.G",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2436.37,
+                "marca": "Johnson Ethilon 14502T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA402075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 1000,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM202045F - Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 596.53,
+                "marca": "Surgikal - COD 5220",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1058,
+                "marca": "Tagum - Cód NN1125.G (aguja 25mm, pliego pide 20mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2436.37,
+                "marca": "Johnson Ethilon 14504T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 0,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA202075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 1000,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM206075J - Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 596.53,
+                "marca": "Surgikal - COD 5260",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1058,
+                "marca": "Tagum - Cód NN1119.K",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2335.38,
+                "marca": "Johnson Ethilon 628H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": 811.32,
+                "marca": "Medone - PM 414-152 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 0,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA206075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 1000,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM302045F - Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 596.53,
+                "marca": "Surgikal - COD 5320",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1058,
+                "marca": "Tagum - Cód NN1024.G",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2436.37,
+                "marca": "Johnson Ethilon 14503T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 0,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA302075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 5/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM502045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 614.68,
+                "marca": "Surgikal - COD 5520",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1058,
+                "marca": "Tagum - Cód NN0824.G",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3214.53,
+                "marca": "Johnson Ethilon 14501T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 0,
+            "desc": "Sutura de Nylon Monofilamento N° 5/0 con aguja de 20mm, 3/8 circ., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA502075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "PGM013570A - Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1230.57,
+                "marca": "Surgikal - COD F6136",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1672,
+                "marca": "Tagum - Cód GS1417.J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4018.54,
+                "marca": "Johnson Vicryl VCP341H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 0,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA013570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM202570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1230.57,
+                "marca": "Surgikal - COD 6226",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1672,
+                "marca": "Tagum - Cód GS1115.J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4018.54,
+                "marca": "Johnson Vicryl VCP317H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": 1435.18,
+                "marca": "Medone - PM 414-148 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 0,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA202570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 2000,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1295,
+                "marca": "PGM023570A - Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1283.81,
+                "marca": "Surgikal - COD 6237",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2112,
+                "marca": "Tagum - Cód GS1517.J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 5977.29,
+                "marca": "Johnson Vicryl W9246 (aguja 45mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 0,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA023570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 1180,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 15mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM301570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1672,
+                "marca": "Tagum - Cód GS1012.J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4013.68,
+                "marca": "Johnson Vicryl VCP305H (aguja 17mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 0,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 15mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA301570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 800,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1248.72,
+                "marca": "Surgikal - COD 6326",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1672,
+                "marca": "Tagum - Cód GS1015.J",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4126.18,
+                "marca": "Johnson Vicryl VCP316H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": 1391.24,
+                "marca": "Medone - PM 414-148 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 0,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA302570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja, 3/8 círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "PPM601275G - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 5608.35,
+                "marca": "Surgikal - COD 3613 (aguja 13mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 5490,
+                "marca": "Tagum - Cód PP0782ZK (aguja 13mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 13079.04,
+                "marca": "Johnson Prolene M8706T (aguja 13mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja, 3/8 círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "PPA601275G - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja, 3/8 círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca Tagum, Origen Peru (alternativa de Cirugía Argentina S.A., aguja 9,3mm)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 6969,
+                "marca": "Tagum - Cód PP0785ZI (aguja 9,3mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 17mm, 1/2 círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "PPM501775C - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2690,
+                "marca": "Tagum - Cód PP0813ZK",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 17mm, 1/2 círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA501775C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 3/0 con doble aguja de 25mm, 1/2 círc., punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "PPM302590C - Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2352.24,
+                "marca": "Surgikal - COD 3326",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2810,
+                "marca": "Tagum - Cód PP1012ZK",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 12353.18,
+                "marca": "Johnson Prolene 8822T (aguja 31mm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 3/0 con doble aguja de 25mm, 1/2 círc., punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA302590C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 40mm, 1/2 círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina) [ALERTA: pliego exige hebra 150cm]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PPM014075A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2302,
+                "marca": "Tagum - Cód PP1418.K",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 11743.54,
+                "marca": "Johnson Prolene 8824G",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 40mm, 1/2 círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina) [ALERTA: pliego exige hebra 150cm]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "PPA014075A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 200,
+            "desc": "Polipropileno N° 0 con aguja de 25mm, 1/2 círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "PPA002575A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2302,
+                "marca": "Tagum - Cód PP1315.K",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 7876.28,
+                "marca": "Johnson Prolene 8412T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 17 — pliego exige hebra de 150cm; ABLE cotiza hebra de 75cm (Surgimax y ABLE, ambas opciones). Riesgo de objeción — gestión preventiva recomendada con el hospital antes de la pre-adjudicación. Reng. 2 — Cirugía Argentina S.A. ofrece aguja de 25mm cuando el pliego pide 20mm. Posible objeción técnica si resulta pre-adjudicada. Empate técnico (≤2%) en renglones 2, 3, 4, 7, 9 y 16 frente a Cardiopack Argentina S.A. — evaluar gestión de empate con el agente de zona. Filas (ALT): ABLE ofrece alternativa propia marca ABLE en renglones 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 16 y 17 — no compiten por precio, son informativas. ABLE no cotiza renglones 6, 12 y 13."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 103,
-      "entidad": "HTAL EVA PERON",
-      "nro": "PA 151",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-01",
-      "monto": 26649600,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-25T19:14:00.067Z"
     },
     {
@@ -18665,8 +20115,8 @@
       "fecha": "2026-06-30",
       "monto": 2565000,
       "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
+      "zona": "Zona Sur",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
