@@ -12903,7 +12903,7 @@
       "monto": 63180000,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
@@ -20259,40 +20259,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 108,
-      "entidad": "HTAL EVITA",
-      "nro": "PA 122",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-03",
-      "monto": 5826000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-06-29T18:37:16.132Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 109,
       "entidad": "HTAL ROSSI",
       "nro": "PA 296",
@@ -20479,6 +20445,24 @@
       "creado": "2026-07-06T13:59:52.834Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 116,
       "entidad": "",
       "nro": "",
@@ -20492,25 +20476,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-07-06T15:01:00.583Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-06T15:01:00.583Z"
-    },
-    {
+      "tabla": null,
       "id": 117,
       "entidad": "HTAL PENNA",
       "nro": "PA 181",
@@ -20524,25 +20510,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-07-06T15:21:53.411Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-06T15:21:53.411Z"
-    },
-    {
+      "tabla": null,
       "id": 118,
       "entidad": "HTAL PENNA",
       "nro": "CM 425",
@@ -20556,6 +20544,397 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-07-06T15:24:28.427Z"
+    },
+    {
+      "id": 119,
+      "entidad": "HTAL Evita",
+      "nro": "LP 122",
+      "tipo": "Pública",
+      "fecha": "2026-07-03",
+      "monto": 5826000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 8 — el producto cotizado por ABLE (cofia descartable elastizada) NO corresponde a la especificación del pliego, que exige gorro descartable c/frontolux, tela impermeable. Riesgo de rechazo por incumplimiento de especificación técnica, independientemente del precio. Reng. 8 — GRANDMED S.R.L. cotiza gorro \"s/fronto\" (sin frontolux), tampoco cumple la especificación del pliego (que exige frontolux). Reng. 34 y 35 — Dealer Médica S.R.L. no indica marca en su cotización. Observación técnica. ABLE cotiza únicamente 5 de los 140 renglones del pliego (3, 8, 34, 35 y 63).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Suturas S.R.L.",
+          "Euroswiss S.A.",
+          "Droguería Martorani S.A.",
+          "GRANDMED S.R.L.",
+          "Droguería Farmatec S.A.",
+          "Dealer Médica S.R.L.",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 450,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6500,
+                "marca": "LT.400 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 4000,
+                "marca": "Clip de titanio LT 400 para clipadora Ethicon",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 5605,
+                "marca": "Clip titanio t/LT-400 ABLE (fabricante: Suturas Argentinas)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "GRANDMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dealer Médica S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 600,
+            "desc": "Cofia descartable elastizada, marca ArgentCare [ALERTA: no corresponde al producto del pliego, que exige gorro descartable c/frontolux tela impermeable]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 25,
+                "marca": "COFIA.2E.12 - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 133.5,
+                "marca": "PEMED - c/frontolux (cumple pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "GRANDMED S.R.L.",
+                "precio": 190.58,
+                "marca": "Clothier - s/fronto (no cumple pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dealer Médica S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "34",
+            "cant": 1000,
+            "desc": "Campo quirúrgico estéril de 90cm x 90cm hemorrepelente de 45grs tela SMS, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "CAMPO.90.90.E - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "GRANDMED S.R.L.",
+                "precio": 1337.66,
+                "marca": "Clothier",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1542.75,
+                "marca": "Bluemed - doble envoltura",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dealer Médica S.R.L.",
+                "precio": 3630,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1273,
+                "marca": "Global Protective (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "35",
+            "cant": 900,
+            "desc": "Campo quirúrgico estéril de 90cm x 90cm hemorrepelente de 45grs tela SMS, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "CAMPO.90.90.E - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "GRANDMED S.R.L.",
+                "precio": 1234.2,
+                "marca": "Clothier",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1361.25,
+                "marca": "Bluemed - doble envoltura fenestrado",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dealer Médica S.R.L.",
+                "precio": 3388,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "63",
+            "cant": 10,
+            "desc": "Bolsa urostomía drenable transparente, 1 pieza, con aro recortable de 15 a 70mm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3600,
+                "marca": "BUR.AT.1P.70 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "GRANDMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dealer Médica S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 8 — el producto cotizado por ABLE (cofia descartable elastizada) NO corresponde a la especificación del pliego, que exige gorro descartable c/frontolux, tela impermeable. Riesgo de rechazo por incumplimiento de especificación técnica, independientemente del precio. Reng. 8 — GRANDMED S.R.L. cotiza gorro \"s/fronto\" (sin frontolux), tampoco cumple la especificación del pliego (que exige frontolux). Reng. 34 y 35 — Dealer Médica S.R.L. no indica marca en su cotización. Observación técnica. ABLE cotiza únicamente 5 de los 140 renglones del pliego (3, 8, 34, 35 y 63)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
@@ -20572,8 +20951,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-06T15:24:28.427Z"
+      "creado": "2026-07-06T16:52:57.267Z"
     }
   ],
-  "nextId": 119
+  "nextId": 120
 }
