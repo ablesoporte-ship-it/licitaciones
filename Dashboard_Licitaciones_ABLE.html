@@ -1332,7 +1332,25 @@ function buildRengPreadjHTML(renglones, r){
   <div class="reng-etapa-note">📋 Etapa: <strong>${r.etapa}</strong> — resultado definitivo según acta de preadjudicación</div>
   ${buildAlertasHTML(r.renglones_preadj||renglones, typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla, r.renglones_adj||null)}
   ${r.renglones_adj && r.renglones_preadj ? buildAlertasAdjHTML(r.renglones_preadj, r.renglones_adj) : ''}
-  ${r.gestion_pre ? `<div style="margin-bottom:16px">
+  ${(()=>{
+    if(!r.gestion_pre) return '';
+    // Solo mostrar si algun renglon adjudicado (adj) no era verde en la comparativa
+    const tabla = typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla;
+    const rengsAdj = (r.renglones_preadj||renglones).filter(rp=>rp.resultado==='adj').map(rp=>String(rp.reng));
+    const fueGestion = rengsAdj.some(reng=>{
+      if(!tabla||!tabla.renglones) return false;
+      const tablaRow = tabla.renglones.find(tr=>String(tr.reng)===reng);
+      if(!tablaRow) return false;
+      const ableCell = (tablaRow.celdas||[]).find(c=>{
+        const n=(c.oferente||'').toLowerCase();
+        return n.includes('able');
+      });
+      if(!ableCell) return false;
+      // Si bg_precio es verde → ganó por precio solo, no fue gestión
+      return ableCell.bg_precio !== 'verde';
+    });
+    if(!fueGestion) return '';
+    return `<div style="margin-bottom:16px">
     <div style="font-size:13px;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px">
       🏅 Gestión del agente
     </div>
@@ -1346,7 +1364,8 @@ function buildRengPreadjHTML(renglones, r){
         </div>
       </div>
     </div>
-  </div>` : ''}
+  </div>`;
+  })()}
   <div class="reng-chips">
     <div class="reng-chip verde">✅ Adjudicados: ${adj.length} · ${fmtP(adjMonto)}</div>
     <div class="reng-chip rojo">❌ No adjudicados: ${noAdj.length} · ${fmtP(noAdjMonto)}</div>
