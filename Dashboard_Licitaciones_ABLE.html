@@ -1346,8 +1346,9 @@ function buildRengPreadjHTML(renglones, r){
         return n.includes('able');
       });
       if(!ableCell) return false;
-      // Si bg_precio es verde → ganó por precio solo, no fue gestión
-      return ableCell.bg_precio !== 'verde';
+      // Solo mostrar cuando bg_precio es vacio (ABLE pierde por precio pero gana por gestion PAS)
+      // Naranja y amarelo ya los cubre buildAlertasHTML en el cruce comparativa vs preadj
+      return !ableCell.bg_precio || ableCell.bg_precio === '';
     });
     if(!fueGestion) return '';
     return `<div style="margin-bottom:16px">

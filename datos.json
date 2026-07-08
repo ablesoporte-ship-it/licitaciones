@@ -1686,7 +1686,7 @@
       "monto": 3138212,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "Sí",
       "pref": "Sí",
@@ -6026,7 +6026,7 @@
       "monto": 14470450,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "OC",
       "empate": "No",
       "pref": "No",
@@ -7297,7 +7297,7 @@
       "monto": 6769600,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "OC",
       "empate": "Sí",
       "pref": "Sí",
@@ -8012,7 +8012,7 @@
       "monto": 63520000,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "OC",
       "empate": "No",
       "pref": "No",
@@ -8315,12 +8315,35 @@
       "creado": "2026-06-03T21:20:08.011Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-16",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "Si",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/colostomia adhesiva varias medidas, producto nacional - Marca ABLE",
+          "cant": 2500,
+          "precio_able": 1355,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "2",
+          "desc": "Bolsa p/colostomia adhesiva adulto con desagote, producto nacional - Marca ABLE",
+          "cant": 3840,
+          "precio_able": 1820,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Rengs. 1 y 2 (bolsas de colostomia, marca ABLE Ind. Argentina) adjudicados a ABLE S.A. Total: $10.376.300,00. Reng.1 (2500u x $1.355,00 = $3.387.500,00): adjudicado por preferencia de producto nacional, Ley 13981 Art.22 - habia competidor mas barato importado. Reng.2 (3840u x $1.820,00 = $6.988.800,00): menor precio. Licitacion MAYOR.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -8397,8 +8420,8 @@
       "monto": 10568300,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
+      "agente": "Noe",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "Sí",
       "obs": "PA 239/2026 H.I.G.A. Gandulfo. ABLE cotiza r1 y r2. R1: preferencia nacional vs Euro Swiss (origen extranjero) +7,9% ($1.355 vs $1.255). R2: ABLE gana ($1.870 vs $1.938). Gestión Noé.",
@@ -8406,8 +8429,8 @@
     },
     {
       "preadj_fecha": "2026-06-29",
-      "preadj_empate_ok": "N/A",
-      "preadj_pref_ok": "N/A",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
       "renglones_preadj": [
         {
           "reng": "25",
@@ -8415,12 +8438,10 @@
           "cant": 10000,
           "precio_able": 57.97,
           "marca": "ABLE",
-          "resultado": "Sin confirmar",
+          "resultado": "no_adj",
           "precio_siguiente": 39.9,
-          "ganador_sig": "Droguería Martorani S.A. (Aurinco) - segun comparativa, no confirmado por acta",
-          "motivo": "superado",
-          "gestion_pre": "",
-          "gestion_pre_resultado": ""
+          "ganador_sig": "Drogueria Martorani S.A. (Aurinco)",
+          "motivo": "superado"
         },
         {
           "reng": "48",
@@ -8428,12 +8449,10 @@
           "cant": 12000,
           "precio_able": 245,
           "marca": "On Call Plus",
-          "resultado": "Sin confirmar",
+          "resultado": "no_adj",
           "precio_siguiente": 132,
-          "ganador_sig": "Max Continental S.A. (Sinocare) - segun comparativa, no confirmado por acta",
-          "motivo": "superado",
-          "gestion_pre": "",
-          "gestion_pre_resultado": ""
+          "ganador_sig": "Max Continental S.A. (Sinocare)",
+          "motivo": "superado"
         },
         {
           "reng": "52",
@@ -8441,15 +8460,13 @@
           "cant": 30000,
           "precio_able": 25,
           "marca": "ArgentCare",
-          "resultado": "Ganado",
+          "resultado": "adj",
           "precio_siguiente": 33,
-          "ganador_sig": "ABLE S.A.",
-          "motivo": "menor_precio",
-          "gestion_pre": "",
-          "gestion_pre_resultado": ""
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "No se recibio acta de preadjudicacion por separado; se recibio directamente la Orden de Compra del reng. 52 (cofia descartable elastizada, marca ArgentCare), confirmando que ABLE gano ese renglon sin cambios respecto a la comparativa: $25,00 vs Farmatec $33,00 y Martorani $36,20. Renglones 25 (espatula de ayre) y 48 (tira reactiva glucosa) no tienen confirmacion de resultado aun - ABLE los perdia en la comparativa.",
+      "gestion_pre": "Reng.52 (cofia descartable elastizada, marca ArgentCare) ADJUDICADO A ABLE S.A. $25,00 x 30.000u = $750.000,00. Reng.25 (espatula de ayre) pierde vs Martorani $39,90. Reng.48 (tira reactiva glucosa) pierde vs Max Continental $132,00. Resultado logrado por gestion del agente (Gonzalo).",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -8461,7 +8478,7 @@
       "adj_tiene_alerta": false,
       "oc": "Correcta",
       "oc_fecha": "2026-06-29",
-      "oc_alertas": "OC reng. 52 (cofia descartable elastizada, marca ArgentCare) confirmada sin cambios respecto a la comparativa: 30.000 u x $25,00 = $750.000,00. Destino: HIGA Simplemente Evita, Gonzalez Catan. Entrega segun necesidades del establecimiento hasta el 30/10/2026. Disposicion DISPO-2026-944-GDEBA-HPDIGAMSALGP/2026.",
+      "oc_alertas": "OC Nro. 386/2026 fecha 29/06/2026. Reng.52 (cofia descartable elastizada, marca ArgentCare): 30.000 u x $25,00 = $750.000,00. Disposicion DISPO-2026-944-GDEBA-HPDIGAMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -10119,12 +10136,79 @@
       "creado": "2026-06-05T11:39:56.132Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-07",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura acido poliglicolico cal.0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "cant": 300,
+          "precio_able": 1250,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura acido poliglicolico cal.1 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "cant": 300,
+          "precio_able": 1250,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura acido poliglicolico cal.2/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "cant": 300,
+          "precio_able": 1205,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura acido poliglicolico cal.3/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "cant": 300,
+          "precio_able": 1205,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura nylon monofilamento cal.2/0 c/aguja 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax",
+          "cant": 300,
+          "precio_able": 607,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura nylon monofilamento cal.3/0 c/aguja 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax",
+          "cant": 300,
+          "precio_able": 607,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "6 renglones de suturas (Surgimax, Ind. Argentina) adjudicados a ABLE S.A. Total: $1.837.200,00. Rengs.1 y 2 (Poliglactina cal.0 y cal.1, 300u x $1.250); rengs.3 y 4 (Poliglactina cal.2/0 y 3/0, 300u x $1.205); rengs.5 y 6 (Nylon Monofil. cal.2/0 y 3/0, 300u x $607). Destino: Neurocirugía Hosp. Presidente Perón, Avellaneda.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -10133,9 +10217,9 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-07",
+      "oc_alertas": "OC Nro. 377/2026 fecha 07/07/2026. 6 renglones suturas Surgimax: rengs.1-2 Poliglactina 0 y 1 (300u x $1.250); rengs.3-4 Poliglactina 2/0 y 3/0 (300u x $1.205); rengs.5-6 Nylon 2/0 y 3/0 (300u x $607). Total: $1.837.200,00. Entrega inmediata 10 dias. Disposicion DISPO-2026-1074-GDEBA-HIPPMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -10492,7 +10576,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 151/2026 H.I.G.A. Pte. Perón. ABLE gana todos los renglones principales (R1-R6). Cirugía Argentina cotiza origen Perú (TAGUM). ALT1 sin color — único oferente. Gestión Noe.",
@@ -11565,7 +11649,7 @@
       "monto": 12952750,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
@@ -13039,7 +13123,7 @@
       "monto": 940000,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -13464,7 +13548,7 @@
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "empate_tecnico"
         },
         {
           "reng": "2",
@@ -13478,7 +13562,7 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "Rengs. 1 y 2 (clips titanio LT400 y LT300, marca ABLE Ind. Argentina) adjudicados a ABLE S.A. Total: $1.830.000,00. Reng.1 (LT400, 70u x $7.800): empate tecnico resuelto por preferencia nacional - Cirugia Argentina ofertaba marca Kangji origen China (Decreto 59/2019 Art.20). Reng.2 (LT300, 200u x $6.420): menor precio. Rengs.3 y 4 a Igaltex; reng.5 a Martorani; reng.6 a Euro Swiss. Reng.7 desierto (precio excesivo). Resultado logrado por gestion del agente de zona (Gonzalo).",
+      "gestion_pre": "Rengs. 1 y 2 (clips titanio LT400 y LT300, marca ABLE Ind. Argentina) adjudicados a ABLE S.A. Total: $1.830.000,00. Reng.1 (LT400, 70u x $7.800): empate tecnico resuelto por preferencia nacional - Cirugia Argentina ofertaba marca Kangji origen China (Decreto 59/2019 Art.20). Reng.2 (LT300, 200u x $6.420): menor precio. Resultado logrado por gestion del agente (Gonzalo).",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -14241,9 +14325,9 @@
       "adj_resumen": "ABLE adjudicada en el unico renglon de la licitacion (reng. 1, camisolin descartable tela SP 30grs, marca ArgentCare) por $571,50, pese a no ser la oferta mas barata en la comparativa (Healthy Lab $472,11). Healthy Lab quedo descartado por no detallar especificaciones tecnicas propias (objecion confirmada). Total ABLE: $3.429.000,00.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-07",
+      "oc_alertas": "OC Nro. 33/2026 fecha 07/07/2026. Reng.1 (camisolin descartable tela SP 30Grs., marca ArgentCare): 6.000 u x $571,50 = $3.429.000,00. Entrega a pedido hasta 31/12/2026. Disposicion DISPO-2026-490-GDEBA-HZGADNLMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -14351,7 +14435,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "Si",
       "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref.nac.: r55 (+4,4% Cardiopack India), r58 (+4,5% CirArg Peru), r60 (+4,85% Cardiopack India). Dif.tec en multiples renglones a criterio evaluador. Gestion Diego.",
@@ -19829,7 +19913,7 @@
         "notas": "Reng. 17 — pliego exige hebra de 150cm; ABLE cotiza hebra de 75cm (Surgimax y ABLE, ambas opciones). Riesgo de objeción — gestión preventiva recomendada con el hospital antes de la pre-adjudicación. Reng. 2 — Cirugía Argentina S.A. ofrece aguja de 25mm cuando el pliego pide 20mm. Posible objeción técnica si resulta pre-adjudicada. Empate técnico (≤2%) en renglones 2, 3, 4, 7, 9 y 16 frente a Cardiopack Argentina S.A. — evaluar gestión de empate con el agente de zona. Filas (ALT): ABLE ofrece alternativa propia marca ABLE en renglones 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 16 y 17 — no compiten por precio, son informativas. ABLE no cotiza renglones 6, 12 y 13."
       },
       "id": 103,
-      "entidad": "H.I.G.A. Eva Peron",
+      "entidad": "HTAL Eva Peron",
       "nro": "PA 151",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-01",
@@ -20394,20 +20478,413 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "KIMS S.R.L.",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 3000,
+            "desc": "Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 44,
+                "marca": "M/Kims - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 37.71,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 2000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 88,
+                "marca": "M/Kims - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 76.67,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 400,
+            "desc": "Bolsa de papel grado médico de 250mm x 100mm x 380mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 215,
+                "marca": "M/Kims - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 127.91,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 108200,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 57841.29,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 400mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 79850,
+                "marca": "PO.400.200 - Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 145500,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 78513.26,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 50250,
+                "marca": "PO.250.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 91500,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 48850.73,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 1,
+            "desc": "Resma de papel grado médico color blanco, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "RESMA20 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 160500,
+                "marca": "M/Kims - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 126521.96,
+                "marca": "Global Protective (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 3,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 72300,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 38359.68,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 3,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 36300,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 20177.39,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 1000,
+            "desc": "Bolsa de papel grado médico de 125mm x 50mm x 250mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 54.89,
+                "marca": "BOX125X050X250 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 60,
+                "marca": "M/Kims - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 52.91,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 10000,
+            "desc": "Bolsa de papel grado médico de 90mm x 50mm x 150mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 30.23,
+                "marca": "BOX090X050X150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 34,
+                "marca": "M/Kims - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 31.68,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 3,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29950,
+                "marca": "PO.150.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 54700,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 25222.39,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Laboratorios Igaltex S.R.L. es responsable inscripto EXENTO de IVA — sus precios se cargan tal cual figuran en su presupuesto, sin ajuste, aunque compiten en desigualdad de condiciones frente a oferentes que sí discriminan IVA. Renglones 4, 7, 12, 19 y 21 — Igaltex gana con diferencia entre 2% y 10% frente a ABLE (banda de preferencia nacional). Verificar origen del producto de Igaltex antes de gestionar el reclamo. Renglón 8 — empate técnico (≤2%) frente a Igaltex. Renglones 13 y 23 — ABLE pierde con diferencia mayor al 10% frente a Igaltex, sin margen de gestión por empate ni preferencia nacional. ABLE cotiza 12 de los 24 renglones del pliego (no cotiza 3, 5, 6, 9, 10, 11, 14, 15, 16, 17, 18 y 24). Papelera E.P. S.R.L. (renglones 3, 6, 9) y Sondas y Catéteres S.R.L. (renglón 17) no compiten en ningún renglón cotizado por ABLE."
+      },
       "id": 114,
-      "entidad": "HTAL CETRAGNOLO",
+      "entidad": "HTAL CETRANGOLO",
       "nro": "PA 41",
       "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-04",
+      "fecha": "2026-07-07",
       "monto": 1291804,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
+      "etapa": "Comparativa",
       "empate": "",
-      "pref": "",
-      "obs": "",
+      "pref": "No",
+      "obs": "Laboratorios Igaltex S.R.L. es responsable inscripto EXENTO de IVA — sus precios se cargan tal cual figuran en su presupuesto, sin ajuste, aunque compiten en desigualdad de condiciones frente a oferentes que sí discriminan IVA. Renglones 4, 7, 12, 19 y 21 — Igaltex gana con diferencia entre 2% y 10% frente a ABLE (banda de preferencia nacional). Verificar origen del producto de Igaltex antes de gestionar el reclamo. Renglón 8 — empate técnico (≤2%) frente a Igaltex. Renglones 13 y 23 — ABLE pierde con diferencia mayor al 10% frente a Igaltex, sin margen de gestión por empate ni preferencia nacional. ABLE cotiza 12 de los 24 renglones del pliego (no cotiza 3, 5, 6, 9, 10, 11, 14, 15, 16, 17, 18 y 24). Papelera E.P. S.R.L. (renglones 3, 6, 9) y Sondas y Catéteres S.R.L. (renglón 17) no compiten en ningún renglón cotizado por ABLE.",
       "creado": "2026-07-02T19:34:30.451Z"
     },
     {
@@ -20443,40 +20920,6 @@
       "pref": "",
       "obs": "",
       "creado": "2026-07-06T13:59:52.834Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 116,
-      "entidad": "",
-      "nro": "",
-      "tipo": "",
-      "fecha": "",
-      "monto": 0,
-      "mayor": "No",
-      "zona": "",
-      "agente": "",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-06T15:01:00.583Z"
     },
     {
       "preadj_fecha": "",
@@ -20547,19 +20990,23 @@
       "creado": "2026-07-06T15:24:28.427Z"
     },
     {
-      "id": 119,
-      "entidad": "HTAL Evita",
-      "nro": "LP 122",
-      "tipo": "Pública",
-      "fecha": "2026-07-03",
-      "monto": 5826000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng. 8 — el producto cotizado por ABLE (cofia descartable elastizada) NO corresponde a la especificación del pliego, que exige gorro descartable c/frontolux, tela impermeable. Riesgo de rechazo por incumplimiento de especificación técnica, independientemente del precio. Reng. 8 — GRANDMED S.R.L. cotiza gorro \"s/fronto\" (sin frontolux), tampoco cumple la especificación del pliego (que exige frontolux). Reng. 34 y 35 — Dealer Médica S.R.L. no indica marca en su cotización. Observación técnica. ABLE cotiza únicamente 5 de los 140 renglones del pliego (3, 8, 34, 35 y 63).",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -20935,25 +21382,40 @@
         ],
         "notas": "Reng. 8 — el producto cotizado por ABLE (cofia descartable elastizada) NO corresponde a la especificación del pliego, que exige gorro descartable c/frontolux, tela impermeable. Riesgo de rechazo por incumplimiento de especificación técnica, independientemente del precio. Reng. 8 — GRANDMED S.R.L. cotiza gorro \"s/fronto\" (sin frontolux), tampoco cumple la especificación del pliego (que exige frontolux). Reng. 34 y 35 — Dealer Médica S.R.L. no indica marca en su cotización. Observación técnica. ABLE cotiza únicamente 5 de los 140 renglones del pliego (3, 8, 34, 35 y 63)."
       },
+      "id": 119,
+      "entidad": "HTAL EVITA LANUS",
+      "nro": "LP 122",
+      "tipo": "Pública",
+      "fecha": "2026-07-03",
+      "monto": 5826000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 8 — el producto cotizado por ABLE (cofia descartable elastizada) NO corresponde a la especificación del pliego, que exige gorro descartable c/frontolux, tela impermeable. Riesgo de rechazo por incumplimiento de especificación técnica, independientemente del precio. Reng. 8 — GRANDMED S.R.L. cotiza gorro \"s/fronto\" (sin frontolux), tampoco cumple la especificación del pliego (que exige frontolux). Reng. 34 y 35 — Dealer Médica S.R.L. no indica marca en su cotización. Observación técnica. ABLE cotiza únicamente 5 de los 140 renglones del pliego (3, 8, 34, 35 y 63).",
+      "creado": "2026-07-06T16:52:57.267Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-06T16:52:57.267Z"
-    },
-    {
+      "tabla": null,
       "id": 120,
       "entidad": "HTAL MI PUEBLO",
       "nro": "PA 108",
@@ -20967,22 +21429,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-07-06T16:57:05.161Z"
     }
   ],
