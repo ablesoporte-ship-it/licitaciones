@@ -23050,37 +23050,383 @@
       "creado": "2026-07-02T19:25:13.214Z"
     },
     {
+      "id": 112,
+      "entidad": "HTAL EVITA LANUS",
+      "nro": "PA 125",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-07",
+      "monto": 12586000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglón 12 — el pliego especifica punta cilíndrica y ABLE cotiza punta redonda; en nomenclatura de suturas ambos términos son equivalentes (punta no cortante/atraumática), no se considera incumplimiento técnico real. Renglones 10 y 11 — ABLE pierde con diferencia mayor al 50% frente a Laboratorios Igaltex S.R.L. (exento de IVA), sin margen de gestión por empate ni preferencia nacional. Renglón 12 — Cardiopack Argentina S.A. (marca Surgikal) declara expresamente origen India en su presupuesto, a diferencia de otras licitaciones donde Surgikal figura como industria argentina. No obstante, ABLE gana este renglón directo por precio ($1.205 vs $1.242,67), la diferencia queda solo como dato de contexto. Renglón 16 — ABLE es el único oferente (cartucho de clips de titanio LT300); gana por defecto sin competencia. ABLE cotiza 4 renglones de esta licitación (10, 11, 12 y 16) de un total de 16.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Cirugía Argentina S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Droguería Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "10",
+            "cant": 1000,
+            "desc": "Sutura de Polipropileno N° 2/0 con doble aguja de 26mm, 1/2 Circ., punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "PPM202690C - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1571.79,
+                "marca": "Surgikal - COD 3226 (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2736,
+                "marca": "Tagum (origen Perú) - Cód PP1115ZK",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1507.05,
+                "marca": "Medone - PM 414-152 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 2/0 con doble aguja de 26mm, 1/2 Circ. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA202690C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 400,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 17mm, 1/2 Circ., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "PPM501775C - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 3198.03,
+                "marca": "Surgikal - COD 3517 (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2736,
+                "marca": "Tagum (origen Perú) - Cód PP0813ZK",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1507.05,
+                "marca": "Medone - PM 414-152 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 0,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 17mm, 1/2 Circ. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA501775C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Circ., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina) [pliego pide punta cilíndrica, término equivalente a punta redonda]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1242.67,
+                "marca": "Surgikal - COD 6336 (origen India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1678,
+                "marca": "Tagum Glicosorb (origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1391.24,
+                "marca": "Medone - PM 414-148 (exento IVA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 0,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Circ., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA302570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 1500,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "LT300 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Renglón 12 — el pliego especifica punta cilíndrica y ABLE cotiza punta redonda; en nomenclatura de suturas ambos términos son equivalentes (punta no cortante/atraumática), no se considera incumplimiento técnico real. Renglones 10 y 11 — ABLE pierde con diferencia mayor al 50% frente a Laboratorios Igaltex S.R.L. (exento de IVA), sin margen de gestión por empate ni preferencia nacional. Renglón 12 — Cardiopack Argentina S.A. (marca Surgikal) declara expresamente origen India en su presupuesto, a diferencia de otras licitaciones donde Surgikal figura como industria argentina. No obstante, ABLE gana este renglón directo por precio ($1.205 vs $1.242,67), la diferencia queda solo como dato de contexto. Renglón 16 — ABLE es el único oferente (cartucho de clips de titanio LT300); gana por defecto sin competencia. ABLE cotiza 4 renglones de esta licitación (10, 11, 12 y 16) de un total de 16."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 112,
-      "entidad": "HTAL EVITA LANUS",
-      "nro": "PA 125",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-07",
-      "monto": 18121000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-02T19:27:23.611Z"
     },
     {
@@ -24526,7 +24872,71 @@
       "pref": "",
       "obs": "LP UPA Nro.9 Haedo 26/2026. ABLE gana 9 renglones: reng.17 (camisolin 20Grs. ArgentCare, PAS), rengs.148,149 (suturas PGA 3/0 Surgimax, PP), reng.151 (nylon 5/0 oftalmo ABLE, PAS), reng.152 (nylon 3/0 aguja recta Surgimax, PP), rengs.153,154,155,156 (nylon varios calibres Surgimax, PAS). Rengs.152 y 153 adjudicados por preferencia nacional (ABLE Oferente 4 industria argentina, NOTA 10 del acta). Sin comparativa de precios cargada.",
       "creado": "2026-07-08T19:07:38.478Z"
+    },
+    {
+      "id": 127,
+      "entidad": "HTAL SAN MARTIN",
+      "nro": "PA 341",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-16",
+      "monto": 90750000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-10T13:07:01.822Z"
+    },
+    {
+      "id": 128,
+      "entidad": "HTAL SAN FELIPE",
+      "nro": "PA 150",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-16",
+      "monto": 21716100,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-10T14:06:55.616Z"
     }
   ],
-  "nextId": 127
+  "nextId": 129
 }
