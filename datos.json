@@ -8011,8 +8011,8 @@
       "fecha": "2026-06-05",
       "monto": 63520000,
       "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
+      "zona": "Lilian",
+      "agente": "Lilian",
       "etapa": "OC",
       "empate": "No",
       "pref": "No",
@@ -10642,8 +10642,8 @@
       "fecha": "2026-06-12",
       "monto": 1057500,
       "mayor": "No",
-      "zona": "",
-      "agente": "",
+      "zona": "Zona Sur",
+      "agente": "Noe",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -13724,8 +13724,8 @@
       "fecha": "2026-06-26",
       "monto": 1900800,
       "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
+      "zona": "Lilian",
+      "agente": "Lilian",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -22648,37 +22648,431 @@
       "creado": "2026-06-29T18:23:13.868Z"
     },
     {
+      "id": 109,
+      "entidad": "Hospital Interzonal General de Agudos Dr. Profesor Rodolfo Rossi",
+      "nro": "PA 296",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-01",
+      "monto": 44800000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "🔴 ALERTA CRÍTICA — El pliego exige tela TNT SMS, 30 g/m², y aclara explícitamente \"NO hemorrepelente\". La oferta BASE de ABLE es tela SP (no SMS) — no cumple el material exigido. La ALT3 de ABLE sí es SMS 30gr pero está declarada hemorrepelente, contradiciendo el \"no hemorrepelente\" del pliego. Las ALT1 y ALT2 de ABLE son lotes MIXTOS (parte SP + parte SMS), no un producto uniforme. Este mismo hospital (H.I.G.A. Rossi) tiene antecedente de objeción por diferencia de tela SP vs SMS en licitaciones anteriores — alto riesgo de rechazo técnico en la oferta base de ABLE. El acta de apertura registra como importe total de CEOS Médica S.A. el valor de su alternativa ($1.041,80 x 70.000 = $72.926.000), no el de su oferta base ($660,66) — se muestran ambas opciones en esta comparativa, tal como fueron presentadas. Healthy Lab (Live In BA S.A.) y Droguería Confar S.R.L. copian textualmente la descripción del pliego (SMS, 30gr, no hemorrepelente) sin detalle propio de producto — patrón conocido de Healthy Lab, observación técnica sin ser objeción formal. Licitación de renglón único (Camisolín descartable, 70.000 unidades). Droguería Confar S.R.L. y Euro Swiss S.A. no presentaron alternativas.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "CEOS Médica S.A.",
+          "Live In BA S.A. (Healthy Lab)",
+          "Droguería Confar S.R.L.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 70000,
+            "desc": "Camisolín no estéril, no hemorrepelente de tela SP, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare [ALERTA: pliego exige tela SMS, esta oferta es tela SP, NO CUMPLE material]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 640,
+                "marca": "C.OSP.110.ELA - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": 660.66,
+                "marca": "Clothier - SMS 30gr, puño elástico (oferta base)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 917.54,
+                "marca": "Healthy Lab - SMS 30gr, copia texto pliego (oferta base)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": 822,
+                "marca": "DCI02013 - copia texto pliego",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1228,
+                "marca": "Kratec - SMS 30gr",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "ABLE — Mix de camisolines: 45.000 u. no hemorrepelentes tela SP + 25.000 u. hemorrepelentes tela SMS 30grs, puño de algodón, marca ArgentCare [ALERTA: lote mixto, no uniforme]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 708,
+                "marca": "C.OPS.MIX1 - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "ABLE — Mix de camisolines: 40.000 u. no hemorrepelentes tela SP + 30.000 u. hemorrepelentes tela SMS 30grs, puño de algodón, marca ArgentCare [ALERTA: lote mixto, no uniforme]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 722,
+                "marca": "C.OPS.MIX2 - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "ABLE — Camisolín no estéril, hemorrepelente, tela SMS 30grs, puños de algodón, marca ArgentCare [ALERTA: material correcto pero pliego exige explícitamente NO hemorrepelente]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 830,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "CEOS Médica — Camisolín descartable, puño Ribb, tela SMS 30grs, marca Clothier [oferta registrada en el acta de apertura como importe total]",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": 1041.8,
+                "marca": "Clothier - puño Ribb",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "Healthy Lab — Camisolín SSMMS uso paciente, gramaje 30gr, origen nacional, alternativa 1 (copia texto del pliego)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 781.32,
+                "marca": "Healthy Lab - Alternativa 1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "Healthy Lab — Camisolín SSMMS uso paciente, puño algodón, origen nacional, alternativa 2",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 752.06,
+                "marca": "Healthy Lab - Alternativa 2, puño algodón",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 0,
+            "desc": "Healthy Lab — Camisolín SSMMS uso paciente, puño elástico, origen nacional, alternativa 3",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CEOS Médica S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 587.66,
+                "marca": "Healthy Lab - Alternativa 3, puño elástico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Confar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "🔴 ALERTA CRÍTICA — El pliego exige tela TNT SMS, 30 g/m², y aclara explícitamente \"NO hemorrepelente\". La oferta BASE de ABLE es tela SP (no SMS) — no cumple el material exigido. La ALT3 de ABLE sí es SMS 30gr pero está declarada hemorrepelente, contradiciendo el \"no hemorrepelente\" del pliego. Las ALT1 y ALT2 de ABLE son lotes MIXTOS (parte SP + parte SMS), no un producto uniforme. Este mismo hospital (H.I.G.A. Rossi) tiene antecedente de objeción por diferencia de tela SP vs SMS en licitaciones anteriores — alto riesgo de rechazo técnico en la oferta base de ABLE. El acta de apertura registra como importe total de CEOS Médica S.A. el valor de su alternativa ($1.041,80 x 70.000 = $72.926.000), no el de su oferta base ($660,66) — se muestran ambas opciones en esta comparativa, tal como fueron presentadas. Healthy Lab (Live In BA S.A.) y Droguería Confar S.R.L. copian textualmente la descripción del pliego (SMS, 30gr, no hemorrepelente) sin detalle propio de producto — patrón conocido de Healthy Lab, observación técnica sin ser objeción formal. Licitación de renglón único (Camisolín descartable, 70.000 unidades). Droguería Confar S.R.L. y Euro Swiss S.A. no presentaron alternativas."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 109,
-      "entidad": "HTAL ROSSI",
-      "nro": "PA 296",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-01",
-      "monto": 203000000,
-      "mayor": "Sí",
-      "zona": "Lilian",
-      "agente": "Lilian",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-06-30T14:05:36.768Z"
     },
     {
@@ -24839,19 +25233,23 @@
       "creado": "2026-07-08T15:23:59.274Z"
     },
     {
-      "id": 123,
-      "entidad": "HTAL CETRANGOLO",
-      "nro": "PA 43",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-13",
-      "monto": 325078,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Renglones 7 y 16 verificados contra el Anexo III — coinciden en código y especificación, sin diferencias técnicas con ninguno de los tres oferentes. ABLE gana ambos renglones cotizados con margen amplio (más del 40% de diferencia con el segundo más barato). ABLE cotiza 2 de 22 renglones del pliego (7 y 16), más una alternativa propia (marca ABLE) en el renglón 16.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -24958,22 +25356,19 @@
         ],
         "notas": "Renglones 7 y 16 verificados contra el Anexo III — coinciden en código y especificación, sin diferencias técnicas con ninguno de los tres oferentes. ABLE gana ambos renglones cotizados con margen amplio (más del 40% de diferencia con el segundo más barato). ABLE cotiza 2 de 22 renglones del pliego (7 y 16), más una alternativa propia (marca ABLE) en el renglón 16."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 123,
+      "entidad": "HTAL CETRANGOLO",
+      "nro": "PA 43",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-13",
+      "monto": 325078,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglones 7 y 16 verificados contra el Anexo III — coinciden en código y especificación, sin diferencias técnicas con ninguno de los tres oferentes. ABLE gana ambos renglones cotizados con margen amplio (más del 40% de diferencia con el segundo más barato). ABLE cotiza 2 de 22 renglones del pliego (7 y 16), más una alternativa propia (marca ABLE) en el renglón 16.",
       "creado": "2026-07-08T15:42:52.294Z"
     },
     {
@@ -25279,7 +25674,73 @@
       "pref": "",
       "obs": "",
       "creado": "2026-07-10T22:11:59.283Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 130,
+      "entidad": "HTAL EL CRUCE",
+      "nro": "PA 15",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-15",
+      "monto": 364292500,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-07-13T18:49:40.529Z"
+    },
+    {
+      "id": 131,
+      "entidad": "HTAL DE LA VEGA",
+      "nro": "PA 35",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-22",
+      "monto": 32652928,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-14T15:55:21.258Z"
     }
   ],
-  "nextId": 130
+  "nextId": 132
 }
