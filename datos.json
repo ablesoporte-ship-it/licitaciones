@@ -25807,7 +25807,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-07-14T18:02:55.617Z"
+    },
+    {
+      "id": 133,
+      "entidad": "HTAL DE LA VEGA",
+      "nro": "PA 37",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-22",
+      "monto": 11711410,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-14T21:16:43.131Z"
     }
   ],
-  "nextId": 133
+  "nextId": 134
 }
