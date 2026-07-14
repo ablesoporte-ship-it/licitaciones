@@ -22649,7 +22649,7 @@
     },
     {
       "id": 109,
-      "entidad": "Hospital Interzonal General de Agudos Dr. Profesor Rodolfo Rossi",
+      "entidad": "HTAL ROSSI",
       "nro": "PA 296",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-01",
@@ -24486,26 +24486,8 @@
       "creado": "2026-07-06T13:59:52.834Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 117,
-      "entidad": "HTAL PENNA",
+      "entidad": "H.I.G.A. Dr. Jose Penna",
       "nro": "PA 181",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-13",
@@ -24513,11 +24495,64 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-06T15:21:53.411Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 181/2026 H.I.G.A. Dr. Jose Penna, Bahia Blanca. ABLE unica oferente en reng.5 (clips titanio LT300, 192u x $5.350 = $1.027.200). Desestimada por asesoramiento tecnico: no compatible con equipo Karl Storz del quirofano. Renglon desierto.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 192,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina) - cod. LT.300",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "LT.300 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>Reng.5 (clips titanio LT300, 192u × $5.350 = $1.027.200,00) — <strong>ABLE única oferente.</strong> La oferta fue desestimada por asesoramiento técnico: no compatible con el equipo disponible en quirófano (marca Karl Storz). Renglon quedó desierto.</p>\n    <p>Rengs.3 y 4: desiertos, todas las ofertas desestimadas. Reng.1 adjudicado a Martorani (esponjas). Reng.8 adjudicado a Nastasi (línea transferencia diálisis Fresenius).</p>\n  "
+      },
+      "preadj_fecha": "2026-07-14",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE unica oferente en reng.5 (clips titanio LT300, 192u x $5.350 = $1.027.200,00). Desestimada por asesoramiento tecnico: no compatible con equipo disponible en quirofano (marca Karl Storz). Renglon desierto. Reng.1 adjudicado a Martorani (esponjas $569,80). Reng.8 adjudicado a Nastasi (linea transferencia dialisis Fresenius $60.454). Rengs.3 y 4 desiertos.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-06T15:21:53.411Z",
+      "renglones_preadj": [
+        {
+          "reng": "5",
+          "desc": "Cartucho con 6 clips de titanio tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina) - cod. LT.300",
+          "cant": 192,
+          "precio_able": 5350,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Desierto - ABLE unica oferente, desestimada por incompatibilidad tecnica (Karl Storz)",
+          "motivo": "rechazado_calidad"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -25740,7 +25775,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-07-14T15:55:21.258Z"
+    },
+    {
+      "id": 132,
+      "entidad": "HTAL ERILL",
+      "nro": "PA 74",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-20",
+      "monto": 841200,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-14T18:02:55.617Z"
     }
   ],
-  "nextId": 132
+  "nextId": 133
 }
