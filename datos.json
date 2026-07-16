@@ -20281,7 +20281,7 @@
       "tabla": null,
       "id": 104,
       "entidad": "HTAL Santojanni",
-      "nro": "LP 434",
+      "nro": "LP 434-0922",
       "tipo": "Pública",
       "fecha": "2026-07-01",
       "monto": 370260,
@@ -25772,20 +25772,368 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euroswiss",
+          "Droguería Pharma Center",
+          "Storing Insumos Médicos",
+          "Max Continental",
+          "Bio Protec"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 150000,
+            "desc": "Camisolín no estéril, no hemorrepelente, de 25 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "C.OSP.110.ELA25.A - ArgentCare",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": 1202.7,
+                "marca": "Kratec (30gr)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center",
+                "precio": 716.27,
+                "marca": "DPC (Largo 30G B SMS puño elástico)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing Insumos Médicos",
+                "precio": 1536,
+                "marca": "Clothier (IVA Exento)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 853.52,
+                "marca": "Medicon - PM 2055-66",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Bio Protec",
+                "precio": 602,
+                "marca": "Biosan PM 2545-2 (IVA Exento)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 150000,
+            "desc": "(ALT 30 g/m² — comparación directa) Camisolín no estéril, no hemorrepelente, tela SMS, 30 gr., puño de elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "ABLE - C.OSP.110.ELA30.A (ArgentCare)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center",
+                "precio": 637.8,
+                "marca": "Pharma Center - DPC (corto 30G SMS)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing Insumos Médicos",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 150000,
+            "desc": "(ALT ABLE 2) Camisolín no estéril, no hemorrepelente, de 20 grs., puños de elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "C.OSP.110.ELA20.A - ArgentCare (alternativa, 20gr)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing Insumos Médicos",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 150000,
+            "desc": "(ALT Pharma Center 1) Camisolín descartable largo 30G SMS, puño elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center",
+                "precio": 941.15,
+                "marca": "DPC (alternativa, largo 30G SMS)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing Insumos Médicos",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 150000,
+            "desc": "(ALT Pharma Center 2) Camisolín descartable corto económico, puño elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center",
+                "precio": 491.06,
+                "marca": "DPC (alternativa, corto económico)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing Insumos Médicos",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 150000,
+            "desc": "(ALT Bio Protec 1) Camisolín descartable, tela SB 25gr, color celeste médico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Storing Insumos Médicos",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec",
+                "precio": 535,
+                "marca": "Biosan PM 2545-2 (alternativa, tela SB, IVA Exento)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Renglón 1 (Camisolín descartable no estéril, no hemorrepelente, 150.000 un.) — ABLE $605,00 (25 gr., ArgentCare) vs. Bio Protec $602,00 (25 gr., tela SMS, IVA Exento). Diferencia de 0,50%, dentro del margen de empate técnico (≤2%). Ambas ofertas quedan en amarillo. El pliego presenta una inconsistencia entre el título de la especificación (\"gramaje requerido 30 g/m²\") y el detalle técnico (\"Tela SMS de 25 gramos\"). Se tomó como válida la especificación de 25 gramos y la oferta base de ABLE en ese gramaje, según lo confirmado. ABLE también cotizó una alternativa de 30 gr. ($635,00) por las dudas, incluida como ALT — con ese gramaje ABLE seguiría ganando igual. Max Continental fue objetada: nota manuscrita en su presupuesto indica \"Rechazado, no presentó póliza de garantía de oferta\". Queda marcada en rosado y excluida del cálculo de precio ganador. Bio Protec no presentó oferta base, solo dos alternativas (Alt.1 en tela SB, no SMS — posible incumplimiento de material; Alt.2 en tela SMS). Ninguna compite por el color de ganador. La Alternativa 2 de Bio Protec (Biosan PM 2545-2, tela SMS 25gr, $602,00) es copia textual del pliego (incluye la misma contradicción de gramaje 30 g/m² / 25 gramos del texto original), sin descripción propia del producto ni especificaciones adicionales verificables (largo, certificaciones). Se cargó como oferta base a pedido, para competir en empate técnico con ABLE — pero cabe la salvedad de que Bio Protec nunca presentó una oferta base propia en su documento original. Cruce de referencia entre alternativas de 30 g/m² (gramaje del título del pliego), unificado en una sola fila del cuadro para comparación directa: ABLE $635,00 vs. Pharma Center \"corto 30G SMS\" $637,80 — diferencia de solo 0,44%, equivalente a un empate técnico si se compararan como ofertas base. No modifica el resultado de la comparativa (las ALT no compiten por el color de ganador ni suman al monto de ABLE), pero queda documentado por si el hospital exige 30 g/m² al momento de adjudicar."
+      },
       "id": 127,
-      "entidad": "HTAL SAN MARTIN",
+      "entidad": "H.I.G.A. General San Martín (La Plata)",
       "nro": "PA 341",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-16",
       "monto": 90750000,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "Si",
+      "pref": "No",
+      "obs": "Renglón 1 (Camisolín descartable no estéril, no hemorrepelente, 150.000 un.) — ABLE $605,00 (25 gr., ArgentCare) vs. Bio Protec $602,00 (25 gr., tela SMS, IVA Exento). Diferencia de 0,50%, dentro del margen de empate técnico (≤2%). Ambas ofertas quedan en amarillo. El pliego presenta una inconsistencia entre el título de la especificación (\"gramaje requerido 30 g/m²\") y el detalle técnico (\"Tela SMS de 25 gramos\"). Se tomó como válida la especificación de 25 gramos y la oferta base de ABLE en ese gramaje, según lo confirmado. ABLE también cotizó una alternativa de 30 gr. ($635,00) por las dudas, incluida como ALT — con ese gramaje ABLE seguiría ganando igual. Max Continental fue objetada: nota manuscrita en su presupuesto indica \"Rechazado, no presentó póliza de garantía de oferta\". Queda marcada en rosado y excluida del cálculo de precio ganador. Bio Protec no presentó oferta base, solo dos alternativas (Alt.1 en tela SB, no SMS — posible incumplimiento de material; Alt.2 en tela SMS). Ninguna compite por el color de ganador. La Alternativa 2 de Bio Protec (Biosan PM 2545-2, tela SMS 25gr, $602,00) es copia textual del pliego (incluye la misma contradicción de gramaje 30 g/m² / 25 gramos del texto original), sin descripción propia del producto ni especificaciones adicionales verificables (largo, certificaciones). Se cargó como oferta base a pedido, para competir en empate técnico con ABLE — pero cabe la salvedad de que Bio Protec nunca presentó una oferta base propia en su documento original. Cruce de referencia entre alternativas de 30 g/m² (gramaje del título del pliego), unificado en una sola fila del cuadro para comparación directa: ABLE $635,00 vs. Pharma Center \"corto 30G SMS\" $637,80 — diferencia de solo 0,44%, equivalente a un empate técnico si se compararan como ofertas base. No modifica el resultado de la comparativa (las ALT no compiten por el color de ganador ni suman al monto de ABLE), pero queda documentado por si el hospital exige 30 g/m² al momento de adjudicar.",
       "creado": "2026-07-10T13:07:01.822Z"
     },
     {
@@ -26977,6 +27325,24 @@
       "creado": "2026-07-14T21:16:43.131Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 134,
       "entidad": "HTAL Centra ARGERICH",
       "nro": "LP 84",
@@ -26986,6 +27352,22 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-07-16T12:23:36.729Z"
+    },
+    {
+      "id": 135,
+      "entidad": "HTAL RAMOS MEJIA",
+      "nro": "PA 29",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-24",
+      "monto": 696520,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -27006,8 +27388,40 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-16T12:23:36.729Z"
+      "creado": "2026-07-16T18:29:05.975Z"
+    },
+    {
+      "id": 136,
+      "entidad": "HTAL Santojanni",
+      "nro": "LP 434",
+      "tipo": "Pública",
+      "fecha": "2026-07-24",
+      "monto": 7819400,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-16T18:35:59.032Z"
     }
   ],
-  "nextId": 135
+  "nextId": 137
 }
