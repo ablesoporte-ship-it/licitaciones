@@ -12300,12 +12300,35 @@
       "creado": "2026-06-09T18:02:23.605Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-24",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "60",
+          "desc": "Renglon desestimado a ABLE por no ajustarse a lo solicitado - aguja con insuficiente capacidad de penetracion segun dictamen Jefe Cirugia Cardiaca",
+          "cant": 0,
+          "precio_able": 0,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "No determinado en acta",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "61",
+          "desc": "Renglon desestimado a ABLE por no ajustarse a lo solicitado - aguja con insuficiente capacidad de penetracion segun dictamen Jefe Cirugia Cardiaca",
+          "cant": 0,
+          "precio_able": 0,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "No determinado en acta",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "ABLE desestimada en rengs.60 y 61 por no ajustarse a lo solicitado - el Jefe de Cirugia Cardiaca dictamino que las agujas presentan insuficiente capacidad de penetracion, se doblan al contacto tisular, la hebra se desprende y se rompe durante maniobras de sutura. ABLE no gana ningun renglon. Cardiomedic gana rengs.35,36 (valvulas por PAT). Multiples adjudicatarios para el resto (circulacion extracorporea, suturas cardiovasculares, material descartable). Gestion Diego.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -12955,7 +12978,7 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "Si",
       "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref. nac. en r55 (+4,4% vs Cardiopack India), r58 (+4,5% vs CirArg Peru), r60 (+4,85% vs Cardiopack India). Reng 21: validar unidad Suturas SRL. Dif tecnicas en rengs 48-62 a criterio evaluador. Gestion Diego.",
