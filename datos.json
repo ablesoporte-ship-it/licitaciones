@@ -25576,37 +25576,173 @@
       "creado": "2026-07-08T15:42:52.294Z"
     },
     {
+      "id": 124,
+      "entidad": "H.Z.E Dr. Juan Ubaldo Carrea (Vicente López)",
+      "nro": "PA 14",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-16",
+      "monto": 403724,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotiza los renglones 58, 59, 60 y 61 (bobinas y bolsas de papel grado médico para esterilización). Gana los 4 por precio, con márgenes muy amplios (55% a 90% por debajo del segundo más barato en cada renglón). Pendiente de confirmación — Renglón 59: el pliego exige bolsa de 145 x 320 x 40mm; la oferta de ABLE indica 140mm x 50mm x 330mm. Las medidas no coinciden entre sí (el '50mm' de ABLE no figura en el pliego). Bioneural sí cotiza con las medidas exactas del pliego (145x320x40). Pendiente de confirmación — Renglón 61: el pliego exige rollo pouch de 75mm x 100m; la oferta de ABLE indica 75mm x 200mts (la misma longitud que el renglón 58). Podría ser un error de tipeo en la carta de ABLE o estar ofertando el producto equivocado. Bioneural cotiza con la longitud exacta del pliego (100m). Bhaurac S.A. presentó descripciones técnicas para los renglones 49 a 62, pero no se pudo confirmar precio para los renglones 58, 59, 60 y 61 (no legible en el escaneo recibido) — se excluyó del cuadro por no tener oferta confirmada en estos renglones. Suturas S.R.L. no cotizó los renglones 59 y 60.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Suturas S.R.L.",
+          "Bioneural S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "58",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 21945,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 48000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": 76200,
+                "marca": "Ultra One",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "59",
+            "cant": 4000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo (pliego exige 145x320x40mm — medidas no coinciden, ver nota)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 83.01,
+                "marca": "BOX140X050X330 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": 410,
+                "marca": "Densell (145x320x40, conforme al pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "60",
+            "cant": 1000,
+            "desc": "Bolsa de papel grado médico de 90mm x 50mm x 150mm con indicador químico de calor húmedo",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 33.25,
+                "marca": "BOX090X050X150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": 150,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "61",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 75mm x 200mts con indicador químico de calor húmedo + ETO (pliego exige rollo de 100m — ver nota)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 16489,
+                "marca": "PO.75.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 31000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": 28800,
+                "marca": "Ultra One (75mm x 100m, conforme al pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE cotiza los renglones 58, 59, 60 y 61 (bobinas y bolsas de papel grado médico para esterilización). Gana los 4 por precio, con márgenes muy amplios (55% a 90% por debajo del segundo más barato en cada renglón). Pendiente de confirmación — Renglón 59: el pliego exige bolsa de 145 x 320 x 40mm; la oferta de ABLE indica 140mm x 50mm x 330mm. Las medidas no coinciden entre sí (el '50mm' de ABLE no figura en el pliego). Bioneural sí cotiza con las medidas exactas del pliego (145x320x40). Pendiente de confirmación — Renglón 61: el pliego exige rollo pouch de 75mm x 100m; la oferta de ABLE indica 75mm x 200mts (la misma longitud que el renglón 58). Podría ser un error de tipeo en la carta de ABLE o estar ofertando el producto equivocado. Bioneural cotiza con la longitud exacta del pliego (100m). Bhaurac S.A. presentó descripciones técnicas para los renglones 49 a 62, pero no se pudo confirmar precio para los renglones 58, 59, 60 y 61 (no legible en el escaneo recibido) — se excluyó del cuadro por no tener oferta confirmada en estos renglones. Suturas S.R.L. no cotizó los renglones 59 y 60."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 124,
-      "entidad": "HTAL CARREA",
-      "nro": "PA 14",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-16",
-      "monto": 403711,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-08T15:50:15.368Z"
     },
     {
@@ -29005,7 +29141,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-07-16T19:19:50.227Z"
+    },
+    {
+      "id": 138,
+      "entidad": "HTAL BALESTRINI",
+      "nro": "PA 212",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-21",
+      "monto": 1300000,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-17T12:00:33.675Z"
     }
   ],
-  "nextId": 138
+  "nextId": 139
 }
