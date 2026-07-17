@@ -11,27 +11,27 @@
 body{font-family:Arial,sans-serif;background:#eef1f6;min-height:100vh;color:#1a1a1a}
 
 /* TOP BAR */
-.topbar{background:#1a3a5c;color:#fff;padding:9px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.topbar{background:#1a3a5c;color:#fff;padding:6px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .topbar-left h1{font-size:14px;font-weight:bold}
 .topbar-left p{font-size:10px;opacity:.65;margin-top:1px}
 .topbar-right{display:flex;gap:7px;flex-wrap:wrap}
 
 /* LAYOUT — fixed viewport, tabla scrollea internamente */
 html,body{height:100%;overflow:hidden}
-.main{max-width:1400px;margin:0 auto;padding:10px 16px;height:calc(100vh - 52px);display:flex;flex-direction:column;overflow:hidden}
+.main{max-width:1400px;margin:0 auto;padding:7px 16px;height:calc(100vh - 44px);display:flex;flex-direction:column;overflow:hidden}
 
 /* STAT CARDS — compact horizontal */
-.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:7px;flex-shrink:0}
-.stat{background:#fff;border-radius:7px;padding:6px 12px;border-top:3px solid #ccc;display:flex;align-items:center;gap:10px}
+.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:5px;margin-bottom:5px;flex-shrink:0}
+.stat{background:#fff;border-radius:7px;padding:4px 10px;border-top:3px solid #ccc;display:flex;align-items:center;gap:8px}
 .stat.blue{border-color:#2471a3}.stat.green{border-color:#27ae60}
 .stat.orange{border-color:#e67e22}.stat.red{border-color:#c0392b}.stat.purple{border-color:#8e44ad}
-.stat-label{font-size:10px;color:#888;line-height:1.2}
-.stat-value{font-size:18px;font-weight:bold;color:#1a1a1a;line-height:1}
-.stat-sub{font-size:10px;color:#bbb}
+.stat-label{font-size:9.5px;color:#888;line-height:1.2}
+.stat-value{font-size:16px;font-weight:bold;color:#1a1a1a;line-height:1}
+.stat-sub{font-size:9.5px;color:#bbb}
 
 /* TOOLBAR — 2 columnas */
-.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:7px;flex-shrink:0}
-.toolbar input,.toolbar select{padding:5px 9px;border:1px solid #ccc;border-radius:6px;font-size:12px;background:#fff;outline:none;width:100%}
+.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:5px;flex-shrink:0}
+.toolbar input,.toolbar select{padding:4px 9px;border:1px solid #ccc;border-radius:6px;font-size:12px;background:#fff;outline:none;width:100%}
 .toolbar input:focus,.toolbar select:focus{border-color:#1a3a5c}
 .toolbar-bottom{display:flex;align-items:center;justify-content:flex-end;grid-column:1/-1;gap:8px}
 .spacer{flex:1}
@@ -53,11 +53,11 @@ html,body{height:100%;overflow:hidden}
 .table-wrap{background:#fff;border-radius:10px;overflow-y:auto;overflow-x:hidden;box-shadow:0 1px 6px rgba(0,0,0,.08);flex:1;min-height:0}
 table{width:100%;border-collapse:collapse;font-size:11.5px}
 thead tr{background:#1a3a5c;color:#fff}
-th{padding:8px 8px;text-align:left;font-weight:bold;white-space:nowrap;font-size:11px}
+th{padding:6px 8px;text-align:left;font-weight:bold;white-space:nowrap;font-size:11px}
 th.c{text-align:center}
 tbody tr{border-bottom:1px solid #f2f2f2;transition:background .12s}
 tbody tr:hover{background:#f5faff}
-td{padding:5px 8px;vertical-align:middle}
+td{padding:4px 8px;vertical-align:middle}
 td.c{text-align:center}
 td.r{text-align:right}
 
@@ -691,10 +691,145 @@ function render(){
       <td class="c" style="white-space:nowrap">
         ${r.tabla?`<button class="btn btn-outline btn-icon" onclick="openComp(${r.id})" title="Ver comparativa" style="margin-right:3px">&#128202;</button>`:''}
         ${r.renglones_preadj&&r.renglones_preadj.length?`<button class="btn btn-outline btn-icon" onclick="openReng(${r.id})" title="Ver renglones ABLE" style="margin-right:3px">&#128203;</button>`:''}
+        ${r.oc&&r.oc!=='Pendiente'?`<button class="btn btn-outline btn-icon" onclick="openOC(${r.id})" title="Ver OC" style="margin-right:3px">📦</button>`:''}
         <button class="btn btn-outline btn-icon" onclick="openDetail(${r.id})" title="Ver / Editar">&#128065;</button>
       </td>
     </tr>
   `).join('');
+}
+
+// ─── OC MODAL ──────────────────────────────────────────────────────────────
+function openOC(id){
+  const r=data.find(x=>x.id===id);
+  if(!r) return;
+  const fmt=n=>n!=null?'$\u00a0'+Number(n).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}):'—';
+  const fmtDate=d=>d?d.split('-').reverse().join('/'):'—';
+  const badgeOCColor=r.oc==='Correcta'?'background:#d4efdf;color:#1a6b36;border:1px solid #a9dfbf':
+    r.oc==='Con diferencias'?'background:#fde8d8;color:#8a4b00;border:1px solid #f5a97a':
+    'background:#f4f4f4;color:#888;border:1px solid #ccc';
+  const icon=r.oc==='Correcta'?'✅':r.oc==='Con diferencias'?'⚠️':'📦';
+  const motivos={'menor_precio':'💰 Menor precio','empate_tecnico':'🤝 Empate técnico','preferencia_nac':'🇦🇷 Pref. nacional','unica_oferta':'🏆 Única oferta','precio_excesivo':'🚫 Precio excesivo','superado':'❌ Superado','rechazado_calidad':'🔬 Rechazado','no_cotizo':'— No cotizó'};
+
+  // Extraer número de OC y disposición de oc_alertas
+  const alertas=r.oc_alertas||'';
+  const ocNumMatch=alertas.match(/OC\s*Nro\.?\s*([\d\/\-]+)/i);
+  const ocNum=ocNumMatch?ocNumMatch[1]:'—';
+  const dispoMatch=alertas.match(/Disposici[oó]n[:\s]*([\w\-\/\.]+)/i);
+  const dispo=dispoMatch?dispoMatch[1]:'—';
+
+  // Resumen encabezado
+  const encHTML=`<div style="padding:10px 18px;border-bottom:1px solid #eee;flex-shrink:0;background:#fafafa;font-size:11.5px;line-height:1.9">
+    <div style="display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start">
+      <div>
+        <div><strong style="color:#1a3a5c">Hospital:</strong> ${r.entidad}</div>
+        <div><strong style="color:#1a3a5c">Procedimiento:</strong> ${r.tipo||'—'} N° ${r.nro}</div>
+        <div><strong style="color:#1a3a5c">OC N°:</strong> ${ocNum} &nbsp;&nbsp; <strong style="color:#1a3a5c">Fecha:</strong> ${fmtDate(r.oc_fecha)}</div>
+        ${dispo!=='—'?`<div><strong style="color:#1a3a5c">Disposición:</strong> ${dispo}</div>`:''}
+        <div><strong style="color:#1a3a5c">Agente:</strong> ${r.agente||'—'} &nbsp;&nbsp; <strong style="color:#1a3a5c">Adjudicatario:</strong> ABLE S.A.</div>
+      </div>
+      <div style="text-align:right">
+        <span style="display:inline-block;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:bold;${badgeOCColor}">${icon} ${r.oc}</span>
+      </div>
+    </div>
+  </div>`;
+
+  // Tabla completa si hay renglones_adj
+  let bodyHTML='';
+  if(r.renglones_adj&&r.renglones_adj.length){
+    const adjRengs=r.renglones_adj.filter(x=>x.resultado==='adj');
+    const montoOC=adjRengs.reduce((s,x)=>(s+(x.precio_able||0)*(x.cant||0)),0);
+    const montoOrig=r.monto||0;
+    const diff=montoOC-montoOrig;
+
+    // Resumen cards
+    const resumen=`<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px">
+      <div style="background:#fff;border:1px solid #d0d7de;border-radius:6px;padding:8px 14px;flex:1;min-width:130px">
+        <div style="font-size:9.5px;color:#888;text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">Renglones adjudicados</div>
+        <div style="font-size:18px;font-weight:900;color:#1a6b36">${adjRengs.length} / ${r.renglones_adj.length}</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d0d7de;border-radius:6px;padding:8px 14px;flex:1;min-width:130px">
+        <div style="font-size:9.5px;color:#888;text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">Monto total OC</div>
+        <div style="font-size:16px;font-weight:900;color:#1a6b36">${fmt(montoOC)}</div>
+      </div>
+      ${montoOrig>0?`<div style="background:#fff;border:1px solid #d0d7de;border-radius:6px;padding:8px 14px;flex:1;min-width:130px">
+        <div style="font-size:9.5px;color:#888;text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">Monto cotizado original</div>
+        <div style="font-size:16px;font-weight:900;color:#1a1a2e">${fmt(montoOrig)}</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d0d7de;border-radius:6px;padding:8px 14px;flex:1;min-width:130px">
+        <div style="font-size:9.5px;color:#888;text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">Diferencia vs comparativa</div>
+        <div style="font-size:16px;font-weight:900;color:${diff<0?'#c0392b':diff>0?'#1a6b36':'#888'}">${diff===0?'Sin diferencia':(diff>0?'+':'')+fmt(diff)}</div>
+      </div>`:''}
+    </div>`;
+
+    const rows=r.renglones_adj.map(x=>{
+      const adj=x.resultado==='adj';
+      const bg=adj?'background:#d4efdf':'background:#fef5f5;color:#aaa';
+      const total=adj?(x.precio_able||0)*(x.cant||0):null;
+      return `<tr style="${bg}">
+        <td style="text-align:center;font-weight:bold;padding:5px 8px">${x.reng}</td>
+        <td style="text-align:right;padding:5px 8px">${(x.cant||0).toLocaleString('es-AR')}</td>
+        <td style="padding:5px 8px;font-size:11px">${x.desc||'—'}</td>
+        <td style="padding:5px 8px;font-size:10.5px">${x.marca||'—'}</td>
+        <td style="text-align:right;padding:5px 8px;font-weight:bold">${x.precio_able!=null?fmt(x.precio_able):'—'}</td>
+        <td style="text-align:right;padding:5px 8px;font-weight:bold">${total!=null?fmt(total):'—'}</td>
+        <td style="padding:5px 8px"><span style="font-size:10px;padding:2px 6px;border-radius:3px;background:rgba(0,0,0,.06)">${motivos[x.motivo]||x.motivo||'—'}</span></td>
+      </tr>`;
+    }).join('');
+
+    bodyHTML=resumen+`<table style="width:100%;border-collapse:collapse;font-size:11.5px;margin-bottom:12px">
+      <thead><tr style="background:#1a3a5c;color:#fff">
+        <th style="padding:6px 8px;text-align:center;white-space:nowrap">Reng.</th>
+        <th style="padding:6px 8px;text-align:right;white-space:nowrap">Cant.</th>
+        <th style="padding:6px 8px;text-align:left">Descripción (oferta ABLE)</th>
+        <th style="padding:6px 8px;text-align:left">Marca</th>
+        <th style="padding:6px 8px;text-align:right;white-space:nowrap">P. Unit.</th>
+        <th style="padding:6px 8px;text-align:right;white-space:nowrap">Total</th>
+        <th style="padding:6px 8px;text-align:left">Motivo</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+      <tfoot><tr style="background:#e8f0f5;font-weight:bold">
+        <td colspan="5" style="text-align:right;padding:6px 8px">TOTAL ADJUDICADO A ABLE S.A.</td>
+        <td style="text-align:right;padding:6px 8px;color:#1a6b36;font-size:13px">${fmt(montoOC)}</td>
+        <td></td>
+      </tr></tfoot>
+    </table>`;
+
+    if(alertas){
+      bodyHTML+=`<div style="background:#fff9e6;border:1px solid #e0c97a;border-radius:6px;padding:10px 14px;font-size:11px;line-height:1.7;color:#555">
+        <strong style="color:#7a5b00">Notas:</strong> ${alertas.replace(/\n/g,'<br>')}
+      </div>`;
+    }
+
+  } else {
+    // Vista simplificada
+    const monto=r.adj_monto_able||0;
+    bodyHTML=`<div style="text-align:center;padding:16px 0;margin-bottom:12px;background:#fff;border-radius:6px;border:1px solid #d0d7de">
+      <div style="font-size:9.5px;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">Total Orden de Compra</div>
+      <div style="font-size:26px;font-weight:900;color:#1a6b36">${monto>0?fmt(monto):'Ver notas'}</div>
+    </div>
+    <div style="background:#fff9e6;border:1px solid #e0c97a;border-radius:6px;padding:12px 14px;font-size:11.5px;line-height:1.8;color:#555;margin-bottom:12px">
+      <strong style="color:#7a5b00">Notas:</strong><br>${alertas.replace(/\n/g,'<br>')||'Sin notas'}
+    </div>
+    <div style="background:#e8f0f5;border:1px solid #d0d7de;border-radius:6px;padding:10px 14px;font-size:11px;color:#666">
+      ℹ️ Esta OC no tiene tabla de renglones cargada. Para la vista completa, cargar el JSON de adjudicación con <code>renglones_adj</code>.
+    </div>`;
+  }
+
+  const html=`<div style="background:#fff;border-radius:12px;width:92vw;max-width:860px;max-height:90vh;overflow:hidden;display:flex;flex-direction:column">
+    <div style="background:#1a3a5c;color:#fff;padding:11px 18px;border-radius:12px 12px 0 0;display:flex;justify-content:space-between;align-items:center;flex-shrink:0">
+      <div style="font-size:14px;font-weight:bold">📦 Orden de Compra</div>
+      <button onclick="document.getElementById('ocOverlay').remove()" style="background:none;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1">&times;</button>
+    </div>
+    ${encHTML}
+    <div style="padding:14px 18px;overflow-y:auto;flex:1">${bodyHTML}</div>
+  </div>`;
+
+  const overlay=document.createElement('div');
+  overlay.id='ocOverlay';
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:300;padding:16px';
+  overlay.innerHTML=html;
+  overlay.addEventListener('click',e=>{ if(e.target===overlay) overlay.remove(); });
+  document.body.appendChild(overlay);
 }
 
 // ─── DETAIL MODAL ──────────────────────────────────────────────────────────
