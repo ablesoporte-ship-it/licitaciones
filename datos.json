@@ -1808,23 +1808,19 @@
       "creado": "2026-05-27T18:36:25.438Z"
     },
     {
-      "preadj_fecha": "2026-06-09",
-      "preadj_empate_ok": "N/A",
-      "preadj_pref_ok": "N/A",
-      "renglones_preadj": [],
-      "gestion_pre": "⚠ ACTO FRACASADO — Disposición DISPO-2026-485-GDEBA-HZGMBMSALGP del 09/06/2026. Todos los precios declarados excesivos. Se autoriza 2° llamado.",
-      "gestion_pre_resultado": "Sin resultado",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "⚠ ACTO FRACASADO",
-      "adj_tiene_alerta": true,
-      "oc": "Fracasado",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 32,
+      "entidad": "HTAL MANUEL BELGRANO",
+      "nro": "PA 80",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-02",
+      "monto": 1617000,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 1 — Max Continental OBJETADO: VTO 26/01/2027 incumple clausula 5 del pliego (minimo 18 meses desde entrega). Ganador: EXSA $180,00 (MEDLINE EvenCare G2, equip. comodato). ABLE $269,50 (+49,7% sobre ganador, sin color). Martoriani $203,30 (cond. exclus. Accu-Check); Storing $308 c/IVA. Monto total ABLE: $1.617.000,00.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -1840,7 +1836,7 @@
           {
             "reng": "1",
             "cant": 6000,
-            "desc": "Tiras reactivas para la medición de glucosa en sangre con equipos bonificados Marca On Call Plus — TIRAS.REACT",
+            "desc": "Tiras reactivas para la medicion de glucosa en sangre con equipos bonificados Marca On Call Plus — TIRAS.REACT",
             "es_alt": false,
             "celdas": [
               {
@@ -1910,21 +1906,24 @@
             ]
           }
         ],
-        "notas": "\n① <strong>Max Continental (Reng. 1 — objetado):</strong> Indica VTO 26/01/2027. El pliego (cláusula 5) exige vigencia mínima de 18 meses desde la entrega efectiva; con entrega posterior al 02/06/2026, el producto vencería en ~7 meses → incumple el pliego → objetado. Nuevo ganador: EXSA a $180,00.<br>\n② <strong>Medi Sistem y Raul Jorge Leon Poggi (Reng. 1):</strong> Ambos ofrecen 15 equipos de lectura Accu-Chek Guide en comodato/sin cargo. Precio de tiras: $401,00 y $557,00 respectivamente.<br>\n③ <strong>EXSA S.R.L. (Reng. 1):</strong> Ofrece equipos necesarios en comodato (EVENCARE G2). Precio tiras: $180,00.<br>\n④ <strong>DNM Farma (Reng. 1):</strong> Cotiza tiras BETTERLIFE compatibles con equipos On Call Plus (Mod 1-2), $339,59.<br>\n⑤ <strong>Martoriani (Reng. 1):</strong> Incluye condición \"EXCLUSIVAMENTE TIPO ACCU CHECK GUIDE O SIMILAR\" con 15 biosensores en comodato. Precio tiras: $203,30.\n"
+        "notas": "① Max Continental (Reng. 1 — objetado): Indica VTO 26/01/2027. El pliego (clausula 5) exige vigencia minima de 18 meses desde la entrega efectiva; con entrega posterior al 02/06/2026, el producto venceria en ~7 meses → incumple el pliego → objetado. Nuevo ganador: EXSA a $180,00. ② Medi Sistem y Raul Jorge Leon Poggi (Reng. 1): Ambos ofrecen 15 equipos de lectura Accu-Chek Guide en comodato/sin cargo. Precio de tiras: $401,00 y $557,00 respectivamente. ③ EXSA S.R.L. (Reng. 1): Ofrece equipos necesarios en comodato (EVENCARE G2). Precio tiras: $180,00. ④ DNM Farma (Reng. 1): Cotiza tiras BETTERLIFE compatibles con equipos On Call Plus (Mod 1-2), $339,59. ⑤ Martoriani (Reng. 1): Incluye condicion EXCLUSIVAMENTE TIPO ACCU CHECK GUIDE O SIMILAR con 15 biosensores en comodato. Precio tiras: $203,30."
       },
-      "id": 32,
-      "entidad": "HTAL MANUEL BELGRANO",
-      "nro": "PA 80",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-02",
-      "monto": 1617000,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "OC",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng. 1 — Max Continental OBJETADO: VTO 26/01/2027 incumple cláusula 5 del pliego (mínimo 18 meses desde entrega). Ganador: EXSA $180,00 (MEDLINE EvenCare G2, equip. comodato). ABLE $269,50 (+49,7% sobre ganador, sin color). Martoriani $203,30 (cond. exclus. Accu-Check); Storing $308 c/IVA. Monto total ABLE: $1.617.000,00.",
+      "preadj_fecha": "2026-06-09",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Fracasado",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-05-27T18:38:06.121Z"
     },
     {
@@ -25747,40 +25746,6 @@
       "creado": "2026-07-08T15:50:15.368Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 125,
-      "entidad": "HTAL BELGRANO",
-      "nro": "PA 80",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-17",
-      "monto": 1632000,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-08T18:43:11.378Z"
-    },
-    {
       "preadj_fecha": "2026-05-26",
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "Si",
@@ -29185,6 +29150,24 @@
       "creado": "2026-07-17T12:00:33.675Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 139,
       "entidad": "HTAL COSME ARGERICH",
       "nro": "CM 412",
@@ -29198,6 +29181,109 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-07-17T12:53:34.378Z"
+    },
+    {
+      "id": 140,
+      "entidad": "H.Z.G.A. Manuel Belgrano (Villa San Andrés)",
+      "nro": "PA 80 (3° llamado)",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-17",
+      "monto": 1632000,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglón único (Tiras reactivas de glucosa, 6.000 un., con entrega de 15 equipos biosensores en comodato como condición excluyente) — ABLE $272,00 (On Call Plus) queda 6° de 8 oferentes, un 108,6% por encima de Laboratorios Igaltex ($130,37, Okmeter Match II), el más barato. No es empate técnico ni preferencia nacional (la diferencia supera ampliamente el 10%) — ABLE no gana este renglón. Todos los oferentes declaran cumplir la condición excluyente de entrega de equipos biosensores en comodato, por lo que ninguna oferta queda descalificada por ese motivo. Grupo Bosch presentó garantía de oferta por $223.293,00, la única de los 8 sobres con garantía declarada — el resto presentó $0,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex",
+          "Max Continental",
+          "Exsa S.R.L.",
+          "Droguería Martorani",
+          "Nipro Medical",
+          "DNM Farma",
+          "Grupo Bosch"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 6000,
+            "desc": "Tiras reactivas para la medición de glucosa en sangre, con equipos bonificados - Marca On Call Plus",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 272,
+                "marca": "TIRAS.REACT - On Call Plus",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 130.37,
+                "marca": "Okmeter Match II - PM 414-154 (IVA Exento)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 135,
+                "marca": "Sinocare - PM 2055-142",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Exsa S.R.L.",
+                "precio": 170,
+                "marca": "Medline - MPH1550 (IVA Exento)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": 178.8,
+                "marca": "Microlife",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nipro Medical",
+                "precio": 240,
+                "marca": "GoChek2 - Origen China",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DNM Farma",
+                "precio": 397.99,
+                "marca": "Betterlife - On Call Plus (Mod 1-2)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Bosch",
+                "precio": 744.31,
+                "marca": "Accu-Chek Guide (Roche Diabetes)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Renglón único (Tiras reactivas de glucosa, 6.000 un., con entrega de 15 equipos biosensores en comodato como condición excluyente) — ABLE $272,00 (On Call Plus) queda 6° de 8 oferentes, un 108,6% por encima de Laboratorios Igaltex ($130,37, Okmeter Match II), el más barato. No es empate técnico ni preferencia nacional (la diferencia supera ampliamente el 10%) — ABLE no gana este renglón. Todos los oferentes declaran cumplir la condición excluyente de entrega de equipos biosensores en comodato, por lo que ninguna oferta queda descalificada por ese motivo. Grupo Bosch presentó garantía de oferta por $223.293,00, la única de los 8 sobres con garantía declarada — el resto presentó $0,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
@@ -29214,8 +29300,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-17T12:53:34.378Z"
+      "creado": "2026-07-17T18:27:48.697Z"
     }
   ],
-  "nextId": 140
+  "nextId": 141
 }
