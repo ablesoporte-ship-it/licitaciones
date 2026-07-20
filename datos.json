@@ -2069,7 +2069,7 @@
       "fecha": "2026-06-01",
       "monto": 2283200,
       "mayor": "No",
-      "zona": "BAC",
+      "zona": "Zona Norte",
       "agente": "Diego",
       "etapa": "Pendiente",
       "empate": "",
@@ -13726,8 +13726,8 @@
     },
     {
       "preadj_fecha": "2026-07-03",
-      "preadj_empate_ok": "Si",
-      "preadj_pref_ok": "Si",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
       "renglones_preadj": [
         {
           "reng": "1",
@@ -13757,14 +13757,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-07-20",
+      "adj_monto_able": 1830000,
+      "adj_resumen": "ABLE adjudicada en renglones 1 y 2 (clips titanio LT400 y LT300, marca ABLE Ind. Argentina), ambos por menor precio. Reng.1 (LT400, 70u x $7.800 vs CIR.ARG $7.810). Reng.2 (LT300, 200u x $6.420 vs CIR.ARG $7.810). Total adjudicado: $1.830.000,00. Disposición DISPO-2026-633-GDEBA-HZGAHMMSALGP.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-20",
+      "oc_alertas": "OC Nro. 335/2026. Disposición: DISPO-2026-633-GDEBA-HZGAHMMSALGP. Renglones 1 y 2 sin diferencias respecto de lo adjudicado — cantidades y precios unitarios coinciden. Total: $1.830.000,00.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -13848,11 +13848,31 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana reng.1 LT400 ($7.800 vs CIR.ARG $7.810, +0,13%) y reng.2 LT300 ($6.420 vs CIR.ARG $7.810, +21,6%). Monto ABLE $1.830.000. Producto Industria Argentina vs Kangji China (CIR.ARG). Renglones 3-7 ABLE no cotiza.",
-      "creado": "2026-06-18T11:37:28.533Z"
+      "creado": "2026-06-18T11:37:28.533Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Cartucho con 6 clips de titanio tamaño grande tipo LT400, marca ABLE (clipadora en comodato)",
+          "cant": 70,
+          "precio_able": 7800,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Cartucho con 6 clips de titanio tamaño mediano/grande tipo LT300, marca ABLE (clipadora en comodato)",
+          "cant": 200,
+          "precio_able": 6420,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -17537,7 +17557,7 @@
       "agente": "Gonzalo",
       "etapa": "Comparativa",
       "empate": "No",
-      "pref": "Si",
+      "pref": "No",
       "obs": "PA 96/2026 H.I.G.A. Vicente Lopez y Planes. Reng 6: Cardiopack objetado por punta reforzada y hebra 75cm vs 90cm pliego, ABLE pasa a ganar. Reng 2: ABLE oferta catgut lento vs cromado pedido. Reng 5: dif tec aguja 10mm pliego vs 13-15mm ofertado por todos. Gestion Gonzalo.",
       "creado": "2026-06-22T16:03:17.940Z"
     },
@@ -17766,7 +17786,7 @@
       "agente": "Diego",
       "etapa": "Comparativa",
       "empate": "No",
-      "pref": "Si",
+      "pref": "No",
       "obs": "PA 152/2026 H.I.G.A. Eva Peron. ABLE pierde 4 de 5 renglones contra Laboratorios Igaltex (Sterilys, nacional). Unico renglon ganado: reng 3, donde Igaltex no cotizo. ATENCION: ABLE cotiza 24u en reng 4, pliego pide 25u - verificar. Gestion Diego.",
       "creado": "2026-06-23T21:17:54.720Z"
     },
