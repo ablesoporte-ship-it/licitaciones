@@ -1928,12 +1928,24 @@
       "creado": "2026-05-27T18:38:06.121Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-04",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "13",
+          "desc": "Camisolín no estéril, hemorrepelente, descartable, desde cuello a debajo rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños algodón elastizados — ALTERNATIVA 2: tela SMS 30grs, marca ArgentCare",
+          "cant": 12000,
+          "precio_able": 850,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unica_oferta"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 76/2026 (H.I.E.M.I. Dr. Victorio Tetamanti). ABLE aprobada en reng.13 (camisolín hemorrepelente, 12.000u) mediante ALTERNATIVA 2: tela SMS 30grs (cumple pliego, a diferencia de la tela SP habitual), marca ArgentCare, $850,00 c/u — total $10.200.000,00. Oferentes 5 y 6 rechazados en ese renglón por informe.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -2037,7 +2049,7 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "PA 76/2026 H.I.E.M.I. Tetamanti. ABLE gana R13 camisolín 20g ($511,75) vs Dealer Medica, Max Continental y Medexpress. ALT1 y ALT2 sin color — único oferente. Gestión Diego.",
@@ -10827,14 +10839,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "adj_fecha": "2026-07-20",
+      "adj_monto_able": 5009250,
+      "adj_resumen": "ABLE adjudicada en rengs. 1, 2, 5-13 (suturas nylon y poliglactina, marca Surgimax Ind. Argentina, rengs.8 y 9 marca ABLE) por menor precio — H.I.G.A. Presidente Perón (Avellaneda), Quirófano. Total: $5.009.250,00. Disposición DISPO-2026-1168-GDEBA-HIPPMSALGP. Adjudicación inferida a partir de la OC 403/2026 (no se recibió acta de adjudicación separada).",
+      "adj_alertas": "IRREGULARIDAD: Reng. 14 (sutura nylon 3/0 c/aguja recta 60mm, hebra 75cm, 350u, marca Surgimax, $590,00 c/u) — ABLE cotizó el mismo precio y producto que el reng.13 (idéntica descripción, también $590,00, SÍ adjudicado), pero el reng.14 no fue adjudicado a ABLE y no figura en la OC 403/2026. No se recibió justificación del hospital. Llama la atención que sea prácticamente el mismo ítem que el reng.13 con el mismo precio. Pendiente reclamar/verificar motivo.",
+      "adj_tiene_alerta": true,
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-20",
+      "oc_alertas": "OC Nro. 403/2026. Disposición: DISPO-2026-1168-GDEBA-HIPPMSALGP. Total: $5.009.250,00. Sin adjudicación previa cargada en el dashboard; se toma la OC como única referencia. Reng.14 no incluido en la OC pese a igual precio/producto que reng.13 — ver alerta en adjudicación.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -11851,11 +11863,123 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 148/2026 H.I.G.A. Pte. Perón. ABLE gana rengs. 1,2,5,6,7,8,9,10,11,12,13,14. R9: Cardiopack objetado (aguja 36mm vs 50mm requerida), ABLE gana vs Igaltex $1.642,21. Pierde r15 (+60,2% vs Igaltex), r16 (+50,3% vs Cardiopack), r22 (+14,5% vs Euro Swiss). Dif. ABLE vs pliego: r1/r2 hebra 45cm vs 75cm; r7 aguja 15mm vs 17mm; r8/r9 hebra 90cm vs 75cm; r10/r11 hebra 70cm vs 75cm. Gestión Noé.",
-      "creado": "2026-06-08T17:22:38.398Z"
+      "creado": "2026-06-08T17:22:38.398Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura atraumática nylon monofilamento 2/0, aguja 26mm 3/8 circ. punta rev. cort., hebra 45cm, marca Surgimax (Ind. Argentina)",
+          "cant": 800,
+          "precio_able": 590,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura nylon 4/0, aguja 25mm 3/8 circ. punta rev. cort., hebra 45cm, marca Surgimax (Ind. Argentina)",
+          "cant": 300,
+          "precio_able": 590,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura nylon monofilamento no absorbible c/aguja recta 60mm calibre 2/0, hebra 75cm, marca Surgimax (Ind. Argentina)",
+          "cant": 400,
+          "precio_able": 590,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura poliglactina absorbible multifilamento 2/0, aguja 25mm 1/2 circ. punta redonda, hebra 70cm, marca Surgimax (Ind. Argentina)",
+          "cant": 700,
+          "precio_able": 1205,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura poliglactina violeta trenzada c/aguja 1/2 círculo 4/0, 15mm, hebra 70cm, marca Surgimax (Ind. Argentina)",
+          "cant": 300,
+          "precio_able": 1205,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura poliglactina calibre 0, aguja 50mm 1/2 circ. punta redonda, hebra 90cm, marca ABLE (Ind. Argentina)",
+          "cant": 900,
+          "precio_able": 1335,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura poliglactina calibre 1 (Vicryl), aguja 50mm 1/2 circ. punta redonda, hebra 90cm, marca ABLE (Ind. Argentina)",
+          "cant": 250,
+          "precio_able": 1335,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura poliglactina calibre 1 (Vicryl), aguja 35mm 1/2 circ. punta redonda, hebra 70cm, marca Surgimax (Ind. Argentina)",
+          "cant": 250,
+          "precio_able": 1218,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura poliglactina c/aguja calibre 3/0 (Vicryl), 25mm 1/2 circ. punta redonda, hebra 70cm, marca Surgimax (Ind. Argentina)",
+          "cant": 700,
+          "precio_able": 1205,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura atraumática estéril nylon calibre 5/0 c/aguja 20mm punta reversa cortante, hebra 45cm, marca Surgimax (Ind. Argentina)",
+          "cant": 100,
+          "precio_able": 590,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "13",
+          "desc": "Sutura nylon monofilamento 75cm c/aguja recta 60mm calibre 3/0, marca Surgimax (Ind. Argentina)",
+          "cant": 300,
+          "precio_able": 590,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura nylon monofilamento N°3/0, aguja recta 60mm, punta rev. cort., hebra 75cm, marca Surgimax (Industria Argentina)",
+          "cant": 350,
+          "precio_able": 590,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "No consta en la OC — no se recibió justificación",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-06-12",
@@ -14965,14 +15089,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-07-21",
+      "adj_monto_able": 2143178.06,
+      "adj_resumen": "ABLE adjudicada en rengs. 7 a 11 (papel/bolsas grado médico p/esterilización, marca ABLE) por menor precio — H.Z.G.A. Dr. Arturo Oñativia, Servicio de Esterilización. Total: $2.143.178,06. Disposición RESO-2026-269-GDEBA-SSASYATMSALGP. Adjudicación inferida a partir de la OC 305/2026 (no se recibió acta de adjudicación separada).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-21",
+      "oc_alertas": "OC Nro. 305/2026. Disposición: RESO-2026-269-GDEBA-SSASYATMSALGP. Total: $2.143.178,06. Sin adjudicación previa cargada en el dashboard; se toma la OC como única referencia.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -15144,11 +15268,58 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 146/2026 H.Z.G.A. Dr. Arturo Oñativia. ABLE gana los 6 de 6 renglones cotizados (6,7,8,9,10,11). Reng.6 (papel resma) ganado tras objetar a Electron Plast por medida distinta a la del pliego (80x80 vs 80x120). Renglones 7-11 (bobinas/bolsas pouch) ganados en limpio frente a Drogcor con diferencias de +181% a +191%. Gestion Noe.",
-      "creado": "2026-06-19T19:15:02.225Z"
+      "creado": "2026-06-19T19:15:02.225Z",
+      "renglones_adj": [
+        {
+          "reng": "7",
+          "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 75mm x 200m, marca ABLE",
+          "cant": 1,
+          "precio_able": 14990,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "8",
+          "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 100mm x 200m, marca ABLE",
+          "cant": 3,
+          "precio_able": 19999,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 150mm x 200m, marca ABLE",
+          "cant": 2,
+          "precio_able": 29998.5,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "10",
+          "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 300mm x 200m, marca ABLE",
+          "cant": 2,
+          "precio_able": 59397.03,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11",
+          "desc": "Papel uso médico liso c/indicador químico, bolsas 90x150x50mm, marca ABLE",
+          "cant": 60000,
+          "precio_able": 31.49,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -24867,8 +25038,8 @@
       "fecha": "2026-07-08",
       "monto": 58376050,
       "mayor": "Sí",
-      "zona": "ABLE",
-      "agente": "ABLE",
+      "zona": "Zona Norte",
+      "agente": "Diego",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
