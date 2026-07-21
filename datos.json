@@ -10841,12 +10841,12 @@
       "adj_recibida": false,
       "adj_fecha": "2026-07-20",
       "adj_monto_able": 5009250,
-      "adj_resumen": "ABLE adjudicada en rengs. 1, 2, 5-13 (suturas nylon y poliglactina, marca Surgimax Ind. Argentina, rengs.8 y 9 marca ABLE) por menor precio — H.I.G.A. Presidente Perón (Avellaneda), Quirófano. Total: $5.009.250,00. Disposición DISPO-2026-1168-GDEBA-HIPPMSALGP. Adjudicación inferida a partir de la OC 403/2026 (no se recibió acta de adjudicación separada).",
-      "adj_alertas": "IRREGULARIDAD: Reng. 14 (sutura nylon 3/0 c/aguja recta 60mm, hebra 75cm, 350u, marca Surgimax, $590,00 c/u) — ABLE cotizó el mismo precio y producto que el reng.13 (idéntica descripción, también $590,00, SÍ adjudicado), pero el reng.14 no fue adjudicado a ABLE y no figura en la OC 403/2026. No se recibió justificación del hospital. Llama la atención que sea prácticamente el mismo ítem que el reng.13 con el mismo precio. Pendiente reclamar/verificar motivo.",
-      "adj_tiene_alerta": true,
+      "adj_resumen": "ABLE adjudicada en rengs. 1, 2, 5-13 (suturas nylon y poliglactina, marca Surgimax Ind. Argentina, rengs.8 y 9 marca ABLE) por menor precio — H.I.G.A. Presidente Perón (Avellaneda), Quirófano. Total: $5.009.250,00. Disposición DISPO-2026-1168-GDEBA-HIPPMSALGP. Adjudicación inferida a partir de la OC 403/2026 (no se recibió acta de adjudicación separada). Reng.14 (idéntico a reng.13) anulado por duplicado, no adjudicado.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
       "oc": "Correcta",
       "oc_fecha": "2026-07-20",
-      "oc_alertas": "OC Nro. 403/2026. Disposición: DISPO-2026-1168-GDEBA-HIPPMSALGP. Total: $5.009.250,00. Sin adjudicación previa cargada en el dashboard; se toma la OC como única referencia. Reng.14 no incluido en la OC pese a igual precio/producto que reng.13 — ver alerta en adjudicación.",
+      "oc_alertas": "OC Nro. 403/2026. Disposición: DISPO-2026-1168-GDEBA-HIPPMSALGP. Total: $5.009.250,00. Sin adjudicación previa cargada en el dashboard; se toma la OC como única referencia. Reng.14 no incluido en la OC — anulado por duplicado (idéntico a reng.13).",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -11967,17 +11967,6 @@
           "marca": "Surgimax (Ind. Argentina)",
           "resultado": "adj",
           "motivo": "menor_precio"
-        },
-        {
-          "reng": "14",
-          "desc": "Sutura nylon monofilamento N°3/0, aguja recta 60mm, punta rev. cort., hebra 75cm, marca Surgimax (Industria Argentina)",
-          "cant": 350,
-          "precio_able": 590,
-          "marca": "Surgimax (Ind. Argentina)",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "No consta en la OC — no se recibió justificación",
-          "motivo": "superado"
         }
       ]
     },
