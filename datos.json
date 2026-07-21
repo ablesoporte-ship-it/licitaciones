@@ -9701,12 +9701,46 @@
       "creado": "2026-06-04T19:26:25.152Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-22",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "24",
+          "desc": "Tira reactiva p/determinación visual de glucosa en sangre, escala 20-800",
+          "cant": 11000,
+          "precio_able": 272,
+          "marca": "On Call Plus",
+          "resultado": "no_adj",
+          "precio_siguiente": 132,
+          "ganador_sig": "Max Continental S.A. (marca Sinocare)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "76",
+          "desc": "Sutura atraumática nylon monofilamento negro 3/0, aguja 3/8 círc. 26mm punta reverso cortante, hebra 75cm, marca Surgimax (Industria Argentina)",
+          "cant": 144,
+          "precio_able": 607,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "77",
+          "desc": "Sutura nylon monofilamento negro 5/0, aguja 3/8 círc. 15mm punta reverso cortante, hebra 45cm, marca Surgimax (Industria Argentina)",
+          "cant": 426,
+          "precio_able": 607,
+          "marca": "Surgimax (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación LP 19/2026 (H.I.G.A. Dr. Oscar Alende), comisión reunida 22/06/2026. ABLE gana rengs. 76 y 77 (suturas nylon 3/0 y 5/0, marca Surgimax Ind. Argentina) por menor precio: $607,00 c/u vs. Max Continental $616,00. Total adjudicado a ABLE: $345.990,00. Reng. 24 (tiras reactivas glucosa) perdido: ABLE $272,00 vs. Max Continental $132,00 (marca Sinocare) — superado en precio. OBSERVACIÓN: Max Continental figura aprobado en reng.24 con escala 20-800 (coincide con pliego), pese a que en la comparativa original constaba objetado por escala 20-600. Verificar. Reng. 77 ALT 1 (única oferta ABLE) no mencionado en el acta.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -9867,7 +9901,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "LP 19/2026 H.I.G.A. Dr. Oscar E. Alende. ABLE gana r76, r77 y r77 ALT1. Reng 24: Igaltex gana ($178,99 IVA exento). Max Continental obj en r24 (escala), r76 y r77 (aguja). Gestion Diego.",
