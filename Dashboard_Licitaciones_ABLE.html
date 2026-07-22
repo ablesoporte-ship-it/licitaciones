@@ -708,7 +708,7 @@ function openOC(id){
     r.oc==='Con diferencias'?'background:#fde8d8;color:#8a4b00;border:1px solid #f5a97a':
     'background:#f4f4f4;color:#888;border:1px solid #ccc';
   const icon=r.oc==='Correcta'?'✅':r.oc==='Con diferencias'?'⚠️':'📦';
-  const motivos={'menor_precio':'💰 Menor precio','empate_tecnico':'🤝 Empate técnico','preferencia_nac':'🇦🇷 Pref. nacional','unica_oferta':'🏆 Única oferta','precio_excesivo':'🚫 Precio excesivo','superado':'❌ Superado','rechazado_calidad':'🔬 Rechazado','no_cotizo':'— No cotizó'};
+  const motivos={'menor_precio':'💰 Menor precio','empate_tecnico':'🤝 Empate técnico','preferencia_nac':'🇦🇷 Pref. nacional','unica_oferta':'🏆 Única oferta','precio_excesivo':'🚫 Precio excesivo','superado':'❌ Superado','rechazado_calidad':'🔬 Rechazado','asesoramiento_tecnico':'🩺 Asesoramiento técnico','no_cotizo':'— No cotizó'};
 
   // Extraer número de OC y disposición de oc_alertas
   const alertas=r.oc_alertas||'';
@@ -1415,6 +1415,7 @@ function buildRengPreadjHTML(renglones, r){
     'precio_excesivo':    { icon:'🚫', label:'Precio excesivo' },
     'superado':           { icon:'❌', label:'Superado por competidor' },
     'rechazado_calidad':  { icon:'🔬', label:'Rechazado por especificaciones técnicas' },
+    'asesoramiento_tecnico': { icon:'🩺', label:'Asesoramiento técnico' },
     'no_cotizo':          { icon:'—',  label:'No cotizó' },
   };
 
