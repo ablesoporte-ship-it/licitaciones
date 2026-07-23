@@ -29802,37 +29802,486 @@
       "creado": "2026-07-17T18:27:48.697Z"
     },
     {
+      "id": 141,
+      "entidad": "HOSPITAL MATERNO INFANTIL \"ANA GOITIA\"",
+      "nro": "PA 24",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-22",
+      "monto": 1925438,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.3 — Pierde por 2,83% vs Martorani (Aurinco, origen no especificado) — revisar posible preferencia nacional. Reng.12 — Pierde por 36,9% vs Farmatec. Reng.6 y 7 — Único oferente, gana sin competencia. Reng.33, 35, 36, 37, 49 — Gana los 5 por menor precio. Total ABLE: $2.945.438,00. Gana 7 de 9 renglones.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Droguería Farmatec S.A.",
+          "Max Continental S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 5,
+            "desc": "Bajalenguas adultos por 100 unidades — Cód. BAJA.AD, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1030,
+                "marca": "BAJA.AD - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1001.7,
+                "marca": "Aurinco (origen no especificado)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1069.64,
+                "marca": "Novamed/Clericot",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 200,
+            "desc": "Sutura de Catgut Lento N°1 sin aguja, hebra de 150cm — Cód. CLA01150, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2820,
+                "marca": "CLA01150 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Catgut Lento N°1 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. CLA013570A, marca ABLE (Industria Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2350,
+                "marca": "CLA013570A - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 250,
+            "desc": "Sutura de Catgut Simple N°0 sin aguja, hebra de 150cm — Cód. CSA00150, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2640,
+                "marca": "CSA00150 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7 ALT 1",
+            "cant": 250,
+            "desc": "Sutura de Catgut Simple N°0 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. CSA003570A, marca ABLE (Industria Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "CSA003570A - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 400,
+            "desc": "Espátula de Ayre descartable por unidad — Cód. ESPA001, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.97,
+                "marca": "ESPA001 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 43.9,
+                "marca": "Aurinco",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 42.35,
+                "marca": "Clericot",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "33",
+            "cant": 120,
+            "desc": "Sutura de Ácido Poliglicólico N°2/0 con aguja de 25mm, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM202570A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM202570A - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1517.33,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "35",
+            "cant": 20,
+            "desc": "Sutura de Ácido Poliglicólico N°3/0 con aguja de 15mm, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM301570A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM301570A - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 60,
+            "desc": "Sutura de Nylon Monofilamento N°2/0 con aguja de 60mm, recta, punta rev. cort., hebra de 75cm — Cód. NYM206075J, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM206075J - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 612,
+                "marca": "Maxsutures (obs: oferta sin devolución)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "37",
+            "cant": 300,
+            "desc": "Sutura de Ácido Poliglicólico N°1 con aguja de 50mm, 1/2 círc., punta redonda, hebra de 90cm — Cód. PGA015090A, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA015090A - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1823.05,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "49",
+            "cant": 56,
+            "desc": "Sutura de Ácido Poliglicólico N°4/0 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM402070A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM402070A - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1517.33,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.3 — Pierde por 2,83% vs Martorani (Aurinco, origen no especificado) — revisar posible preferencia nacional. Reng.12 — Pierde por 36,9% vs Farmatec. Reng.6 y 7 — Único oferente, gana sin competencia. Reng.33, 35, 36, 37, 49 — Gana los 5 por menor precio. Total ABLE: $2.945.438,00. Gana 7 de 9 renglones."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 141,
-      "entidad": "HTAL ANA GOITIA",
-      "nro": "PA 24",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-22",
-      "monto": 2945438,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-20T16:18:44.527Z"
     },
     {
@@ -30264,8 +30713,8 @@
       "fecha": "2026-07-27",
       "monto": 963205,
       "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
+      "zona": "Zona Norte",
+      "agente": "Diego",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -32026,7 +32475,103 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-07-23T12:51:03.854Z"
+    },
+    {
+      "id": 162,
+      "entidad": "HTAL Erill",
+      "nro": "PA 79",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-30",
+      "monto": 78788600,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-23T18:55:16.739Z"
+    },
+    {
+      "id": 163,
+      "entidad": "HTAL SAN JUAN DE DIOS",
+      "nro": "PA 95",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-29",
+      "monto": 4226370,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-23T18:57:54.709Z"
+    },
+    {
+      "id": 164,
+      "entidad": "HTAL LUDOVICA",
+      "nro": "PA 250",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-29",
+      "monto": 855000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-23T18:59:32.964Z"
     }
   ],
-  "nextId": 162
+  "nextId": 165
 }
