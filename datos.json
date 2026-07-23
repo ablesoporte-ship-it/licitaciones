@@ -20755,12 +20755,57 @@
       "creado": "2026-06-25T19:16:25.849Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-22",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "5",
+          "desc": "Par de cubrecalzados con elástico, descartables, no estériles, tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare - cód. CUBRE.1E2.3.PAR",
+          "cant": 15000,
+          "precio_able": 123,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Cofia descartable elastizada, marca ArgentCare - cód. COFIA2E.12",
+          "cant": 15000,
+          "precio_able": 25,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "7",
+          "desc": "Camisolín estéril, hemorrepelente tela SMS 45Grs., trilaminado, barrera viral IV AAMI, esterilizado por OE, soldado x ultrasonido, AAMI PB 70, talle Mediano - marca ArgentCare - cód. CE.SMS.120.ALG.45.A",
+          "cant": 100,
+          "precio_able": 1725,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 2013.54,
+          "ganador_sig": "Live in BA S.A. (Healthy Lab)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "8",
+          "desc": "Camisolín estéril, hemorrepelente tela SMS 45Grs., trilaminado, barrera viral IV AAMI, esterilizado por OE, soldado x ultrasonido, AAMI PB 70, talle Grande - marca ArgentCare - cód. CE.SMS.120.ALG.45.A",
+          "cant": 100,
+          "precio_able": 1725,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 2244.15,
+          "ganador_sig": "Live in BA S.A. (Healthy Lab)",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 328/2026 (H.I.G.A. San Martín, La Plata), comisión reunida 22/07/2026. ABLE gana reng.5 (cubrecalzados, $123,00) y reng.6 (cofia, $25,00) por precio. ABLE PIERDE reng.7 y reng.8 (camisolín estéril SMS 45g, talles M y G): se rechaza la Alternativa no estéril (pliego exige estéril indispensable) y TAMBIÉN se rechaza la oferta ORIGINAL (estéril, $1.725,00, que iba ganando en la comparativa) porque la muestra física analizada carece del refuerzo en pechera y mangas que sí figuraba en la descripción técnica — discrepancia entre lo descripto y lo enviado como muestra. Se pre adjudica reng.7 y 8 a Live in BA S.A. (Healthy Lab) pese a ser más cara ($2.013,54 y $2.244,15), por ajustarse a lo solicitado. Otros renglones no cotizados por ABLE: reng.1 a Live in BA (precio), reng.2 a Confar (único oferente), reng.3 a Aupres (precio), reng.4 a Confar (precio). RECOMENDACIÓN INTERNA: verificar por qué la muestra de CE.SMS.120.ALG.45.A no coincidió con la ficha técnica declarada.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -21043,7 +21088,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "PA 328/2026 H.I.G.A. General San Martin. ABLE gana los 4 renglones base cotizados (5,6,7,8). Reng.5 cubrecalzados $123 vs Aupres $141. Reng.6 cofia elastizada $25 vs Igaltex $31.71. Rengs.7 y 8 camisolin esteril SMS 45Grs AAMI PB70 $1725 vs Healthy Lab $2013/$2244. Euroswiss obj reng5 (bota diferente) y reng6 (plisada vs elastizada). ALT no esteril de ABLE incluida como info, no cumple spec base. Zona/agente pendiente asignar.",
@@ -29893,37 +29938,236 @@
       "creado": "2026-07-20T16:52:52.430Z"
     },
     {
+      "id": 145,
+      "entidad": "HOSPITAL ZONAL GENERAL AGUDOS MAGDALENA V. DE MARTINEZ",
+      "nro": "PA 176",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-23",
+      "monto": 25455000,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.1 — Pliego exige mínimo 35grs. La oferta de ABLE (30g) no cumple; se deja en verde por precio de todas formas. Ninguna de las alternativas (25g, 20g, 30g hemorrepelente) cumple tampoco. Aupres $700,00, gramaje no especificado. Dato de contexto: en la licitación anterior de este mismo hospital para un ítem similar (PA 153/2026, pliego que pedía 30g mínimo), la oferta base de ABLE (30g, no hemorrepelente) sí cumplía y ganó. En esta nueva PA 176, el pliego subió el mínimo a 35g — la oferta de ABLE no se actualizó a la nueva exigencia. Reng.4 (600u, camisolín estéril hemorrepelente 45g) — la oferta BASE de ABLE ($1.850,00) sí cumple el pliego (estéril + hemorrepelente + 45g), pero Aupres SRL también cumple (estéril, hemorrepelente, 45g) a $1.600,00 — 15,62% más barato. ABLE pierde este renglón. La Alternativa 1 de ABLE ($1.322,50, más barata) NO CUMPLE porque es 'no estéril', y el pliego exige estéril — no es una opción válida aunque sea la más económica. Reng.2 (12.000 pares) — ni ABLE ($130,00) ni Aupres ($136,00) especifican el gramaje de la tela SMS en la documentación recibida, aunque el pliego pide mínimo 35g. No se puede confirmar cumplimiento de ninguno de los dos; ABLE queda como oferta más barata sin objeción de datos, pero conviene revisar el packing/ficha técnica real antes de dar por ganado. Reng.3 (10.000 unidades, cofia) — sin requisito de gramaje en el pliego. ABLE gana claro: $28,50 vs Aupres $60,00. Total oferta ABLE (todas las líneas, base+alt): $95.017.500,00. Si se descartan las líneas no compliant (reng.1 completo y reng.4 Alt.1), el monto realmente adjudicable a ABLE dependería de que se confirme el cumplimiento de reng.2 y de que se resuelva a favor de algún oferente en reng.1 — muy por debajo de los $95M cotizados.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Aupres S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 36000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca — Cód. C.OSP.110.ELA.30.A, marca ArgentCare — No cumple",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 625,
+                "marca": "C.OSP.110.ELA.30.A - ArgentCare - No cumple",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 700,
+                "marca": "Bioprotec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 36000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 25Grs. — Cód. C.OSP.110.ELA.25.A, marca ArgentCare — ⚠️ NO CUMPLE (pliego exige mínimo 35grs)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "C.OSP.110.ELA.25.A - ArgentCare 25g - No cumple (min. 35g)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 2",
+            "cant": 36000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20Grs. — Cód. C.OSP.110.ELA.20.A, marca ArgentCare — ⚠️ NO CUMPLE (pliego exige mínimo 35grs)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 503,
+                "marca": "C.OSP.110.ELA.20.A - ArgentCare 20g - No cumple (min. 35g)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 3",
+            "cant": 36000,
+            "desc": "Camisolín no estéril, HEMORREPELENTE tela SMS de 30Grs. — Cód. C.SMS.120.ALG.30.A, marca ArgentCare — ⚠️ NO CUMPLE (pliego pide NO hemorrepelente, y gramaje sigue bajo el mínimo de 35grs)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare - Hemorrepelente y 30g - No cumple",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 12000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras — Cód. CUBRE.1E.23.PAR, marca ArgentCare — gramaje no especificado, verificar contra pliego (min. 35g SMS)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "CUBRE.1E.23.PAR - ArgentCare (gramaje no especificado)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 136,
+                "marca": "Gramaje no especificado",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 10000,
+            "desc": "Cofia descartable elastizada — Cód. COFIA.2E.12, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 28.5,
+                "marca": "COFIA.2E.12 - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 60,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 600,
+            "desc": "Camisolín ESTÉRIL, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca — Cód. CE.SMS.120.ALG.45.A, marca ArgentCare — Cumple",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1850,
+                "marca": "CE.SMS.120.ALG.45.A - ArgentCare - Cumple",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 1600,
+                "marca": "Estéril, hemorrepelente, 45g - Cumple",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 1",
+            "cant": 600,
+            "desc": "Camisolín NO ESTÉRIL, hemorrepelente tela SMS de 45Grs. — Cód. C.SMS.120.ALG.45.A, marca ArgentCare — ⚠️ NO CUMPLE (pliego exige estéril)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "C.SMS.120.ALG.45.A - ArgentCare - No estéril - No cumple",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1 — Pliego exige mínimo 35grs. La oferta de ABLE (30g) no cumple; se deja en verde por precio de todas formas. Ninguna de las alternativas (25g, 20g, 30g hemorrepelente) cumple tampoco. Aupres $700,00, gramaje no especificado. Dato de contexto: en la licitación anterior de este mismo hospital para un ítem similar (PA 153/2026, pliego que pedía 30g mínimo), la oferta base de ABLE (30g, no hemorrepelente) sí cumplía y ganó. En esta nueva PA 176, el pliego subió el mínimo a 35g — la oferta de ABLE no se actualizó a la nueva exigencia. Reng.4 (600u, camisolín estéril hemorrepelente 45g) — la oferta BASE de ABLE ($1.850,00) sí cumple el pliego (estéril + hemorrepelente + 45g), pero Aupres SRL también cumple (estéril, hemorrepelente, 45g) a $1.600,00 — 15,62% más barato. ABLE pierde este renglón. La Alternativa 1 de ABLE ($1.322,50, más barata) NO CUMPLE porque es 'no estéril', y el pliego exige estéril — no es una opción válida aunque sea la más económica. Reng.2 (12.000 pares) — ni ABLE ($130,00) ni Aupres ($136,00) especifican el gramaje de la tela SMS en la documentación recibida, aunque el pliego pide mínimo 35g. No se puede confirmar cumplimiento de ninguno de los dos; ABLE queda como oferta más barata sin objeción de datos, pero conviene revisar el packing/ficha técnica real antes de dar por ganado. Reng.3 (10.000 unidades, cofia) — sin requisito de gramaje en el pliego. ABLE gana claro: $28,50 vs Aupres $60,00. Total oferta ABLE (todas las líneas, base+alt): $95.017.500,00. Si se descartan las líneas no compliant (reng.1 completo y reng.4 Alt.1), el monto realmente adjudicable a ABLE dependería de que se confirme el cumplimiento de reng.2 y de que se resuelva a favor de algún oferente en reng.1 — muy por debajo de los $95M cotizados."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 145,
-      "entidad": "HTAL MARTINEZ",
-      "nro": "PA 176",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-23",
-      "monto": 95017500,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-20T16:54:12.060Z"
     },
     {
