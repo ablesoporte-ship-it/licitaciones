@@ -29580,37 +29580,326 @@
       "creado": "2026-07-16T18:35:59.032Z"
     },
     {
+      "id": 137,
+      "entidad": "HTAL MERCANTE",
+      "nro": "PA 168",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-23",
+      "monto": 883180,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Reng.1 (LigaClip LT300, 50u) — ABLE gana claro, $5.350,00 vs Cirugía Argentina $8.160,00. Reng.2 y reng.3 (poliglicólico N°0 y N°1, 250u y 150u) — Cardiopack (Surgikal, India) gana con $1.194,27 vs ABLE $1.250,00 — diferencia de 4,67%, dentro de la banda de PREFERENCIA NACIONAL (2-10%) a favor de ABLE. Cirugía Argentina $1.798,00, Martorani $2.448,60. Reng.4 (poliglicólico 4/0, 24u) — Cardiopack gana por apenas 0,90% ($1.194,27 vs ABLE $1.205,00) — EMPATE TÉCNICO a favor de industria nacional. Cirugía Argentina $1.938,00, Martorani $2.448,60. Reng.5 (poliglicólico 6/0, 24u) — Cardiopack NO COTIZÓ este renglón. ABLE gana directo, $1.205,00 vs Cirugía Argentina $1.938,00 y Martorani $2.448,60. Reng.6 (poliglactina c/aguja 5/0, 48u) — ABLE gana claro, $1.205,00 vs Cardiopack $1.212,42 (0,62%), Cirugía Argentina $1.938,00, Martorani $2.448,60. Total oferta ABLE: $1.216.930,00 (verificado, coincide con el monto ya cargado).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Cirugía Argentina S.A.",
+          "Droguería Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 50,
+            "desc": "Cartucho con 6 clips de titanio, tamaño mediano/grande, tipo LT300 — Cód. LT.300, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "LT.300 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 8160,
+                "marca": "Tagum (Origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 250,
+            "desc": "Sutura de Ácido Poliglicólico N°0 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM003570A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "PGM003570A - Surgimax (Ind. Arg.)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1194.27,
+                "marca": "Surgikal (Origen India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1798,
+                "marca": "Tagum (Origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 250,
+            "desc": "Sutura de Ácido Poliglicólico N°0 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGA003570A, marca ABLE (Industria Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA003570A - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 150,
+            "desc": "Sutura de Ácido Poliglicólico N°1 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM013570A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "PGM013570A - Surgimax (Ind. Arg.)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1194.27,
+                "marca": "Surgikal (Origen India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1798,
+                "marca": "Tagum (Origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 24,
+            "desc": "Sutura de Ácido Poliglicólico N°4/0 con aguja, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM40257 0A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM40257 0A - Surgimax (Ind. Arg.)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1194.27,
+                "marca": "Surgikal (Origen India)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1938,
+                "marca": "Tagum (Origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 24,
+            "desc": "Sutura de Ácido Poliglicólico N°6/0 con aguja de 15mm, 1/2 círc., punta redonda, hebra de 70cm — Cód. PGM60157 0A, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM60157 0A - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "No cotiza",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1938,
+                "marca": "Tagum (Origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 48,
+            "desc": "Sutura Poliglactina c/aguja 5/0 con 1/2 círc., punta redonda, hebra de 70cm — Cód. D0101113, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "D0101113 - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1212.42,
+                "marca": "Surgikal (Origen India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1938,
+                "marca": "Tagum (Origen Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1 (LigaClip LT300, 50u) — ABLE gana claro, $5.350,00 vs Cirugía Argentina $8.160,00. Reng.2 y reng.3 (poliglicólico N°0 y N°1, 250u y 150u) — Cardiopack (Surgikal, India) gana con $1.194,27 vs ABLE $1.250,00 — diferencia de 4,67%, dentro de la banda de PREFERENCIA NACIONAL (2-10%) a favor de ABLE. Cirugía Argentina $1.798,00, Martorani $2.448,60. Reng.4 (poliglicólico 4/0, 24u) — Cardiopack gana por apenas 0,90% ($1.194,27 vs ABLE $1.205,00) — EMPATE TÉCNICO a favor de industria nacional. Cirugía Argentina $1.938,00, Martorani $2.448,60. Reng.5 (poliglicólico 6/0, 24u) — Cardiopack NO COTIZÓ este renglón. ABLE gana directo, $1.205,00 vs Cirugía Argentina $1.938,00 y Martorani $2.448,60. Reng.6 (poliglactina c/aguja 5/0, 48u) — ABLE gana claro, $1.205,00 vs Cardiopack $1.212,42 (0,62%), Cirugía Argentina $1.938,00, Martorani $2.448,60. Total oferta ABLE: $1.216.930,00 (verificado, coincide con el monto ya cargado)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 137,
-      "entidad": "HTAL MERCANTE",
-      "nro": "PA 168",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-23",
-      "monto": 1216930,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-16T19:19:50.227Z"
     },
     {
@@ -30278,7 +30567,7 @@
       "monto": 1925438,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noé",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
@@ -30656,37 +30945,606 @@
       "creado": "2026-07-20T16:56:24.546Z"
     },
     {
+      "id": 147,
+      "entidad": "HTAL MERCANTE",
+      "nro": "PA 41",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-24",
+      "monto": 736446,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "No",
+      "obs": "Reng.17 (bajalenguas adultos) — EMPATE TÉCNICO: Martorani $10,10/u x 2.000 = $20.200,00 vs ABLE $1.030,00 por caja de 100 (equivale a $10,30/u) — diferencia de 1,98%, dentro del 2%. Como ambas marcas (Aurinco y ABLE) son industria argentina, el desempate no es por preferencia nacional — corresponde resolverlo por el criterio de desempate que indique el pliego (antecedentes, plazo de entrega, etc.). Reng.18 (bajalenguas pediátricos) — mismo caso: EMPATE TÉCNICO, Martorani $10,10 vs ABLE $10,30 (1,98%). Ambos de industria nacional — desempate según criterio del pliego, no por origen. Reng.27 (bolsa de colostomía) — ABLE gana ampliamente: $1.355,00 vs Martorani $6.362,70 (Hollister). Reng.43 (espátula de Ayre) — Martorani gana con $43,90 vs ABLE $57,97 (32% más caro). ABLE pierde este renglón. Reng.103, 105 y 106 (suturas nylon 2/0, 4/0 y 5/0) — Max Continental cotiza cantidades MENORES a las pedidas por el pliego (48 y 96 en vez de 50 y 100) — posible objetable por cantidad insuficiente. De todas formas ABLE gana ampliamente en precio ($607,00 vs $712,00 Max Continental y $1.348,60 Martorani). Reng.104 (sutura nylon 3/0) — ABLE gana claro, $607,00 vs Max Continental $712,00 y Martorani $1.348,60. Reng.136 a 139 (bolsas de papel grado médico varias medidas) — ABLE gana ampliamente en los 4 renglones frente a Raúl J. L. Poggi (entre 3,6x y 6,2x más caro). Reng.140 y 141 — sin datos de competidores en la documentación recibida. Total oferta ABLE: $2.775.846,00 (verificado, coincide con el monto ya cargado).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Max Continental S.A.",
+          "Raúl Jorge León Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "17",
+            "cant": 2000,
+            "desc": "Bajalenguas adultos, precio por unidad — Cód. BAJA.AD, marca ABLE (Industria Argentina). Nota: oferta original cargada como $1.030,00 por caja de 100 unidades (equivale a $10,30/u).",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 10.3,
+                "marca": "BAJA.AD - ABLE (Ind. Arg.) - oferta original: $1.030,00 por 100 unidades",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 10.1,
+                "marca": "Aurinco",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 5000,
+            "desc": "Bajalenguas pediátricos por unidad — Cód. BAJA.PD, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 10.3,
+                "marca": "BAJA.PD - ABLE (Ind. Arg.)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 10.1,
+                "marca": "Aurinco",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 50,
+            "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) — Cód. BCO.CT.1P.70, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1355,
+                "marca": "BCO.CT.1P.70 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 6362.7,
+                "marca": "Hollister",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "43",
+            "cant": 600,
+            "desc": "Espátula de Ayre descartable por unidad — Cód. ESPA.001, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.97,
+                "marca": "ESPA.001 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 43.9,
+                "marca": "Aurinco",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "103",
+            "cant": 50,
+            "desc": "Sutura de Nylon negro monofilamento calibre 2/0 c/aguja 3/8 círc. — Cód. NYM202045F, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM202045F - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures (cotiza 48u, pliego pide 50u)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "104",
+            "cant": 150,
+            "desc": "Sutura de Nylon negro monofilamento calibre 3/0-45cm c/aguja 3/8 — Cód. NYM302045F, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM302045F - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "105",
+            "cant": 100,
+            "desc": "Sutura de Nylon negro monofilamento c/aguja 3/8 círc. calibre 4/0 — Cód. NYM402045F, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM402045F - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures (cotiza 96u, pliego pide 100u)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "106",
+            "cant": 100,
+            "desc": "Sutura de Nylon monofilamento calibre 5/0 — Cód. NYM502045F, marca Surgimax (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM502045F - Surgimax (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures (cotiza 96u, pliego pide 100u)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "136",
+            "cant": 2000,
+            "desc": "Bolsa de papel grado médico c/indicador químico 90x250x50mm (equiv. 125x50x250 en notación ABLE) — Cód. BOX125X50X250, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 54.89,
+                "marca": "BOX125X50X250 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 199,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "137",
+            "cant": 2000,
+            "desc": "Bolsa de papel grado médico c/indicador químico 110x190x30mm — Cód. BOX110X30X190, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X30X190 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 197,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "138",
+            "cant": 1000,
+            "desc": "Bolsa de papel grado médico c/indicador químico 125x250x50-90mm — Cód. BOX125X50X250, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 54.89,
+                "marca": "BOX125X50X250 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 248,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "139",
+            "cant": 500,
+            "desc": "Bolsa de papel grado médico c/indicador químico 140x250x40-75mm — Cód. BOX140X50X330, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X50X330 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 466,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "140",
+            "cant": 200,
+            "desc": "Bolsa de papel grado médico c/indicador químico 140x330x50mm — Cód. BOX140X50X330, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X50X330 - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "141",
+            "cant": 200,
+            "desc": "Bolsa de papel grado médico c/indicador químico 250x380x100mm — Cód. BOX250X100X380F, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380F - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.17 (bajalenguas adultos) — EMPATE TÉCNICO: Martorani $10,10/u x 2.000 = $20.200,00 vs ABLE $1.030,00 por caja de 100 (equivale a $10,30/u) — diferencia de 1,98%, dentro del 2%. Como ambas marcas (Aurinco y ABLE) son industria argentina, el desempate no es por preferencia nacional — corresponde resolverlo por el criterio de desempate que indique el pliego (antecedentes, plazo de entrega, etc.). Reng.18 (bajalenguas pediátricos) — mismo caso: EMPATE TÉCNICO, Martorani $10,10 vs ABLE $10,30 (1,98%). Ambos de industria nacional — desempate según criterio del pliego, no por origen. Reng.27 (bolsa de colostomía) — ABLE gana ampliamente: $1.355,00 vs Martorani $6.362,70 (Hollister). Reng.43 (espátula de Ayre) — Martorani gana con $43,90 vs ABLE $57,97 (32% más caro). ABLE pierde este renglón. Reng.103, 105 y 106 (suturas nylon 2/0, 4/0 y 5/0) — Max Continental cotiza cantidades MENORES a las pedidas por el pliego (48 y 96 en vez de 50 y 100) — posible objetable por cantidad insuficiente. De todas formas ABLE gana ampliamente en precio ($607,00 vs $712,00 Max Continental y $1.348,60 Martorani). Reng.104 (sutura nylon 3/0) — ABLE gana claro, $607,00 vs Max Continental $712,00 y Martorani $1.348,60. Reng.136 a 139 (bolsas de papel grado médico varias medidas) — ABLE gana ampliamente en los 4 renglones frente a Raúl J. L. Poggi (entre 3,6x y 6,2x más caro). Reng.140 y 141 — sin datos de competidores en la documentación recibida. Total oferta ABLE: $2.775.846,00 (verificado, coincide con el monto ya cargado)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 147,
-      "entidad": "HTAL MERCANTE",
-      "nro": "PA 41",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-24",
-      "monto": 2775845,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-20T20:00:45.632Z"
     },
     {
