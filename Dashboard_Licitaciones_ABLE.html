@@ -222,16 +222,8 @@ body.modo-lectura .modal-body select:disabled{
 .reng-etapa-note{background:#eaf0f8;border-radius:7px;padding:9px 14px;font-size:12px;color:#1a3a5c;margin-bottom:14px}
 
 @media(max-width:700px){
-  html,body{height:auto;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
-  .main{height:auto;min-height:calc(100vh - 44px);overflow:visible;padding:7px 10px}
-  .stats{grid-template-columns:repeat(3,minmax(110px,1fr));overflow-x:auto}
-  .toolbar{grid-template-columns:1fr}
-  .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;flex:none;max-height:60vh}
-  table{min-width:900px}
   .form-grid{grid-template-columns:1fr}
   .fg.full{grid-column:1}
-  .topbar{flex-wrap:wrap}
-  .topbar-right{flex-wrap:wrap;gap:6px}
   .topbar-right .btn span{display:none}
   .reng-list-hdr,.reng-list-row{grid-template-columns:70px 1fr 90px 100px}
   .reng-list-hdr .col-diff,.reng-list-hdr .col-motivo,
@@ -296,6 +288,28 @@ body.modo-lectura .modal-body select:disabled{
       <option value="empate">Con empate técnico</option>
       <option value="pref">Con pref. nacional</option>
       <option value="adj_alerta">Con alertas de adjudicación</option>
+    </select>
+    <select id="fGestion" onchange="render()">
+      <option value="">Gestión agente (todos)</option>
+      <option value="Diego">🏅 Diego</option>
+      <option value="Noe">🏅 Noe</option>
+      <option value="Gonzalo">🏅 Gonzalo</option>
+      <option value="any">🏅 Cualquier gestión</option>
+    </select>
+    <select id="fMes" onchange="render()">
+      <option value="">Mes apertura (todos)</option>
+      <option value="2026-01">Enero 2026</option>
+      <option value="2026-02">Febrero 2026</option>
+      <option value="2026-03">Marzo 2026</option>
+      <option value="2026-04">Abril 2026</option>
+      <option value="2026-05">Mayo 2026</option>
+      <option value="2026-06">Junio 2026</option>
+      <option value="2026-07">Julio 2026</option>
+      <option value="2026-08">Agosto 2026</option>
+      <option value="2026-09">Septiembre 2026</option>
+      <option value="2026-10">Octubre 2026</option>
+      <option value="2026-11">Noviembre 2026</option>
+      <option value="2026-12">Diciembre 2026</option>
     </select>
     <div class="toolbar-bottom"><span class="count-lbl" id="countLbl"></span></div>
   </div>
@@ -606,6 +620,29 @@ function defaultRow(){
 }
 
 // ─── RENDER ────────────────────────────────────────────────────────────────
+function tienePanelGestion(r){
+  // gestion = ABLE ganó (adj) un renglón que en la comparativa NO era el más barato (bg_precio !== verde)
+  if(r.etapa==='Comparativa' || r.etapa==='Pendiente') return false;
+  const tabla = r.tabla ? (typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla) : null;
+  // preferir renglones_adj (etapa Adjudicación/OC, resultado final); si no existe, usar renglones_preadj
+  const renglones = (r.renglones_adj && r.renglones_adj.length) ? r.renglones_adj : (r.renglones_preadj || []);
+  if(renglones.length && tabla && tabla.renglones){
+    return renglones.some(rp=>{
+      const resultado = (rp.resultado||'').toLowerCase();
+      if(resultado!=='adj' && resultado!=='ganado') return false;
+      const reng = String(rp.reng);
+      const tablaRow = tabla.renglones.find(tr=>String(tr.reng)===reng || Number(tr.reng)===Number(reng));
+      if(!tablaRow) return false;
+      const ableCell = (tablaRow.celdas||[]).find(c=>(c.oferente||'').toLowerCase().includes('able'));
+      if(!ableCell) return false;
+      return ableCell.bg_precio !== 'verde';
+    });
+  }
+  if(renglones.length) return false;
+  // sin detalle de renglones ni tabla: usar empate/pref de la comparativa como indicio
+  return r.empate==='Sí' || r.pref==='Sí';
+}
+
 function filtered(){
   const q=(document.getElementById('search').value||'').toLowerCase();
   const zona=document.getElementById('fZona').value;
@@ -613,6 +650,9 @@ function filtered(){
   const mayor=document.getElementById('fMayor').value;
   const oc=document.getElementById('fOC').value;
   const alerta=document.getElementById('fAlerta').value;
+  const gestion=document.getElementById('fGestion').value;
+  const mes=document.getElementById('fMes').value;
+  const agentes=['Diego','Noe','Gonzalo'];
   return data.filter(r=>{
     if(q && !r.entidad.toLowerCase().includes(q) && !r.nro.toLowerCase().includes(q)) return false;
     if(zona && r.zona!==zona) return false;
@@ -623,6 +663,9 @@ function filtered(){
     if(alerta==='empate' && r.empate!=='Sí') return false;
     if(alerta==='pref' && r.pref!=='Sí') return false;
     if(alerta==='adj_alerta' && !r.adj_tiene_alerta) return false;
+    if(gestion==='any' && !tienePanelGestion(r)) return false;
+    if(gestion && gestion!=='any' && !(tienePanelGestion(r) && r.gestion_pre===gestion)) return false;
+    if(mes && !(r.fecha||'').startsWith(mes)) return false;
     return true;
   });
 }
@@ -716,7 +759,7 @@ function openOC(id){
     r.oc==='Con diferencias'?'background:#fde8d8;color:#8a4b00;border:1px solid #f5a97a':
     'background:#f4f4f4;color:#888;border:1px solid #ccc';
   const icon=r.oc==='Correcta'?'✅':r.oc==='Con diferencias'?'⚠️':'📦';
-  const motivos={'menor_precio':'💰 Menor precio','empate_tecnico':'🤝 Empate técnico','preferencia_nac':'🇦🇷 Pref. nacional','unica_oferta':'🏆 Única oferta','precio_excesivo':'🚫 Precio excesivo','superado':'❌ Superado','rechazado_calidad':'🔬 Rechazado','asesoramiento_tecnico':'🩺 Asesoramiento técnico','no_cotizo':'— No cotizó'};
+  const motivos={'menor_precio':'💰 Menor precio','empate_tecnico':'🤝 Empate técnico','preferencia_nac':'🇦🇷 Pref. nacional','unica_oferta':'🏆 Única oferta','precio_excesivo':'🚫 Precio excesivo','superado':'❌ Superado','rechazado_calidad':'🔬 Rechazado','no_cotizo':'— No cotizó'};
 
   // Extraer número de OC y disposición de oc_alertas
   const alertas=r.oc_alertas||'';
@@ -1053,10 +1096,37 @@ function previewImport(){
 
 function doImport(){
   if(!importParsed){ toast('Validá el JSON primero','warn'); return; }
-  const p=importParsed;
-  const accion=p.accion||'';
 
-  // Find existing row by nro
+  // Si es un array, procesar cada elemento en modo batch
+  if(Array.isArray(importParsed)){
+    let ok=0, err=[];
+    importParsed.forEach(item=>{
+      try{
+        const accion=item.accion||'';
+        const idx=data.findIndex(r=>r.nro===item.nro);
+        if(accion==='fix_gestion'){
+          if(idx<0){err.push(item.nro+': no encontrado');return;}
+          data[idx]={...data[idx],
+            gestion_pre:item.gestion_pre!==undefined?item.gestion_pre:data[idx].gestion_pre,
+            gestion_pre_resultado:item.gestion_pre_resultado!==undefined?item.gestion_pre_resultado:data[idx].gestion_pre_resultado
+          };
+          ok++;
+        } else {
+          err.push(item.nro+': acción '+accion+' no soportada en batch');
+        }
+      }catch(e){ err.push(item.nro+': '+e.message); }
+    });
+    save(); render(); closeImport(); autoBackup();
+    toast(`Batch: ${ok} ok${err.length?' / '+err.length+' errores':''}`, ok>0?'ok':'err');
+    if(err.length) console.warn('Errores batch:',err);
+    return;
+  }
+
+  importSingle(importParsed);
+}
+
+function importSingle(p){
+  const accion=p.accion||'';
   let idx=data.findIndex(r=>r.nro===p.nro);
 
   if(accion==='nueva_comparativa'){
@@ -1103,6 +1173,15 @@ function doImport(){
     };
     toast('OC importada: '+p.nro+' — '+p.oc_estado,'ok');
 
+  } else if(accion==='fix_gestion'){
+    if(idx<0){ toast('No se encontró: '+p.nro,'err'); return; }
+    data[idx]={
+      ...data[idx],
+      gestion_pre: p.gestion_pre!==undefined ? p.gestion_pre : data[idx].gestion_pre,
+      gestion_pre_resultado: p.gestion_pre_resultado!==undefined ? p.gestion_pre_resultado : data[idx].gestion_pre_resultado,
+    };
+    toast('Gestión corregida: '+p.nro,'ok');
+
   } else if(accion==='preadjudicacion'){
     if(idx<0){ toast('No se encontró la licitación: '+p.nro,'err'); return; }
     data[idx]={
@@ -1111,14 +1190,14 @@ function doImport(){
       preadj_fecha:p.preadj_fecha||'',
       preadj_empate_ok:p.preadj_empate_ok||'',
       preadj_pref_ok:p.preadj_pref_ok||'',
-      gestion_pre:p.notas||'',
-      gestion_pre_resultado:p.resultado||'',
+      gestion_pre: p.gestion_pre!==undefined ? p.gestion_pre : (p.notas||''),
+      gestion_pre_resultado: p.gestion_pre_resultado!==undefined ? p.gestion_pre_resultado : (p.resultado||''),
       renglones_preadj:p.renglones_preadj||null,
     };
     toast('Pre-adjudicación importada: '+p.nro,'ok');
 
   } else if(accion==='gestion'){
-    if(idx<0){ toast('No se encontró la licitación: '+p.nro,'err'); return; }
+    if(idx<0){ throw new Error('No encontrado: '+p.nro); }
     data[idx]={...data[idx], etapa:'Pre-adjudicación', gestion_pre:p.detalle||'', gestion_pre_resultado:p.resultado||''};
     toast('Gestión importada: '+p.nro,'ok');
 
@@ -1423,7 +1502,6 @@ function buildRengPreadjHTML(renglones, r){
     'precio_excesivo':    { icon:'🚫', label:'Precio excesivo' },
     'superado':           { icon:'❌', label:'Superado por competidor' },
     'rechazado_calidad':  { icon:'🔬', label:'Rechazado por especificaciones técnicas' },
-    'asesoramiento_tecnico': { icon:'🩺', label:'Asesoramiento técnico' },
     'no_cotizo':          { icon:'—',  label:'No cotizó' },
   };
 
