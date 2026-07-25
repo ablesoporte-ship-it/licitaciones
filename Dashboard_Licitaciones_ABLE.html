@@ -2015,6 +2015,13 @@ function closeMigrate(){
 if(window.location.protocol !== 'file:'){
   document.body.classList.add('modo-lectura');
   document.getElementById('lastSave').textContent = '👁 Modo lectura — solo ABLE puede editar';
+  // Auto-refresh: solo en modo lectura (GitHub Pages), cada 3 min, y no si hay un modal abierto
+  setInterval(()=>{
+    const overlayAbierto = ['detailOverlay','importOverlay','migrateOverlay','compOverlay','rengOverlay']
+      .some(id=>document.getElementById(id).style.display !== 'none');
+    if(overlayAbierto) return;
+    load().then(render);
+  }, 5*60*1000);
 }
 load().then(render);
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); } });
