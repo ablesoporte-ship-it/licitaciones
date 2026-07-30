@@ -35744,19 +35744,23 @@
       "creado": "2026-07-21T12:03:06.961Z"
     },
     {
-      "id": 151,
-      "entidad": "Municipalidad de Tigre",
-      "nro": "LP 14",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-24",
-      "monto": 64209302,
-      "mayor": "Sí",
-      "zona": "",
-      "agente": "A confirmar",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng. 33 — ABLE pierde vs Medibel por 9,93%. Verificar si el producto de Medibel es importado para evaluar preferencia nacional. Reng. 36 — ABLE cotizó Camisolin; el pliego pide Bata paciente descartable. Son prendas distintas, riesgo de rechazo. Reng. 52 — ABLE cotizó Bolsa de Ileostomía; Sedesa cotizó Bolsa de Colostomía. Verificar cuál exige el pliego. Reng. 97 y 98 — Precios normalizados por clip individual (empaques distintos entre oferentes). Detalle del precio original de cada uno debajo del valor normalizado. Reng. 241 — ABLE pierde vs Ciudad Hospitalaria por 6,9%. Verificar si es importado para evaluar preferencia nacional. Reng. 384, 388 y 389 — Preferencia nacional para ABLE vs Max Continental: sus códigos de producto confirman origen importado (IMPORTADOR C.D.G. S.A.), diferencias dentro del rango 2%-10%. Zona y agente de esta licitación pendientes de confirmar antes de importar al dashboard.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -38253,22 +38257,19 @@
         ],
         "notas": "Reng. 33 — ABLE pierde vs Medibel por 9,93%. Verificar si el producto de Medibel es importado para evaluar preferencia nacional. Reng. 36 — ABLE cotizó Camisolin; el pliego pide Bata paciente descartable. Son prendas distintas, riesgo de rechazo. Reng. 52 — ABLE cotizó Bolsa de Ileostomía; Sedesa cotizó Bolsa de Colostomía. Verificar cuál exige el pliego. Reng. 97 y 98 — Precios normalizados por clip individual (empaques distintos entre oferentes). Detalle del precio original de cada uno debajo del valor normalizado. Reng. 241 — ABLE pierde vs Ciudad Hospitalaria por 6,9%. Verificar si es importado para evaluar preferencia nacional. Reng. 384, 388 y 389 — Preferencia nacional para ABLE vs Max Continental: sus códigos de producto confirman origen importado (IMPORTADOR C.D.G. S.A.), diferencias dentro del rango 2%-10%. Zona y agente de esta licitación pendientes de confirmar antes de importar al dashboard."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 151,
+      "entidad": "Municipalidad de Tigre",
+      "nro": "LP 14",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-24",
+      "monto": 64209302,
+      "mayor": "Sí",
+      "zona": "",
+      "agente": "A confirmar",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 33 — ABLE pierde vs Medibel por 9,93%. Verificar si el producto de Medibel es importado para evaluar preferencia nacional. Reng. 36 — ABLE cotizó Camisolin; el pliego pide Bata paciente descartable. Son prendas distintas, riesgo de rechazo. Reng. 52 — ABLE cotizó Bolsa de Ileostomía; Sedesa cotizó Bolsa de Colostomía. Verificar cuál exige el pliego. Reng. 97 y 98 — Precios normalizados por clip individual (empaques distintos entre oferentes). Detalle del precio original de cada uno debajo del valor normalizado. Reng. 241 — ABLE pierde vs Ciudad Hospitalaria por 6,9%. Verificar si es importado para evaluar preferencia nacional. Reng. 384, 388 y 389 — Preferencia nacional para ABLE vs Max Continental: sus códigos de producto confirman origen importado (IMPORTADOR C.D.G. S.A.), diferencias dentro del rango 2%-10%. Zona y agente de esta licitación pendientes de confirmar antes de importar al dashboard.",
       "creado": "2026-07-21T12:05:35.822Z"
     },
     {
@@ -40051,40 +40052,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 165,
-      "entidad": "HTAL PERON",
-      "nro": "LP 32",
-      "tipo": "Privada",
-      "fecha": "2026-07-29",
-      "monto": 6950950,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-24T12:18:34.402Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 166,
       "entidad": "HTAL EL DIQUE",
       "nro": "PA 41",
@@ -41526,7 +41493,1255 @@
       "pref": "",
       "obs": "",
       "creado": "2026-07-27T18:18:29.059Z"
+    },
+    {
+      "id": 175,
+      "entidad": "H.I.G.A. Presidente Perón",
+      "nro": "LP 32",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-29",
+      "monto": 5812450,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Solo se incluyen los renglones que ABLE cotiza (1,2,5 a 10,19,21,22) de los 34 del pliego. Preferencia nacional para ABLE: renglones 1, 2 y 22 vs Cardiopack/SURGIKAL India (dif. 3,9%-5,2%). Empate t\\u00e9cnico: renglon 21 vs Cardiopack/SURGIKAL India (dif. 1,41%). Renglones 9 y 10: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (36,4%), fuera de rango. Medpharma S.A. revende bajo MARCA ABLE, compite directo con la oferta propia de ABLE. Cantidades cotizadas no coinciden con el pliego en Sedesa y Max Continental (menos unidades) \\u2014 posible observaci\\u00f3n t\\u00e9cnica. ALERTA ESPEC. \\u2014 ABLE desv\\u00eda del pliego en: R1 (punta redonda, no cilindrica), R5 (aguja 12mm vs 13mm), R6 (doble aguja/hebra 90cm vs 1 aguja/60cm), R7 (hebra 75cm vs 90cm), R8 (calibre 7/0 vs 8/0), R9 y R10 (mismo c\\u00f3digo PPA700960G para 3 medidas de aguja distintas \\u2014 no puede cumplir las 3), R19 (aguja 25mm vs 22mm), R21 (aguja 25mm vs 26mm). Sin desvio en R2 y R22. ALERTA ESPEC. \\u2014 Cardiopack tambi\\u00e9n desv\\u00eda en varios renglones donde compite: R1 (hebra 75cm vs 90cm), R9/R10 (aguja 10mm, autodeclarado Alternativa), R19 (2 agujas de 20mm vs 1 de 22mm), y sobre todo R21 (hebra 45cm vs 70cm pedido \\u2014 36% mas corta, justo donde empata t\\u00e9cnico en precio con ABLE). BHAURAC, Meril, J&J y Tagum copian el texto del pliego casi literal donde compiten \\u2014 parecen los mas seguros en cumplimiento t\\u00e9cnico, aunque casi ninguno gana por precio.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "BHAURAC S.A. (UNISUR)",
+          "Cardiopack Argentina S.A.",
+          "Cardiomedic S.A. (Atramat)",
+          "Max Continental S.A.",
+          "Droguería Martorani S.A. (Meril)",
+          "Sedesa S.A. (J&J)",
+          "Medpharma S.A. (marca ABLE)",
+          "Cirugía Argentina S.A. (Tagum)"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 250,
+            "desc": "Sutura ac. poliglicolico N1, 1/2 circ. punta cilindrica, 40mm, hebra 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": 2629.33,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1188.22,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": 2636.59,
+                "marca": "Atramat - Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1655.57,
+                "marca": "Maxsutures (cant.240)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 4563.15,
+                "marca": "J&J Vicryl (cant.216)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 3827.68,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1792,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 250,
+            "desc": "ALTERNATIVA — ABLE ofrece variante propia (hebra 90cm en vez de 70cm)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "Oferta ALT ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 300,
+            "desc": "Sutura nylon monofilamento 75cm c/aguja recta 60mm calibre 3/0",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": 1340.68,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 584.43,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": 1891.23,
+                "marca": "Atramat - Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 2257.38,
+                "marca": "J&J Ethilon (cant.288)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 1854.97,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1068,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 300,
+            "desc": "ALTERNATIVA — ABLE ofrece variante propia",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "Oferta ALT ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 200,
+            "desc": "Sutura polipropileno azul monofilamento c/2 agujas calibre 6/0",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 7514.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 11794.11,
+                "marca": "J&J Prolene (cant.192)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 12101.17,
+                "marca": "ABLE - alt. aguja 12mm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 6410,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 150,
+            "desc": "Sutura de polipropileno calibre 5/0, 60cm c/aguja C-1 13mm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": 7341.07,
+                "marca": "Atramat - Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 6727.6,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 11794.11,
+                "marca": "J&J Prolene (cant.144)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 7452,
+                "marca": "ABLE - alt. hebra 90cm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 5260,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 150,
+            "desc": "Sutura de polipropileno calibre 5/0, 90cm c/aguja RV-1 17cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 2727.4,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 9025.63,
+                "marca": "J&J Prolene (cant.144)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 7128,
+                "marca": "ABLE - alt. hebra 75cm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 2734,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 150,
+            "desc": "Sutura polipropileno azul c/2 agujas calibre 7/0 (8/0 60cm 3/8 6,5mm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": 10178.52,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 9239.4,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 35856.66,
+                "marca": "J&J Prolene (cant.144)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 17465.77,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 13510,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 150,
+            "desc": "Sutura polipropileno azul c/2 agujas calibre 7/0 (60cm BV-175 8mm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": 10178.52,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 4385.04,
+                "marca": "SURGIKAL - India (Alternativa spec)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 9239.4,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 22163.33,
+                "marca": "J&J Prolene (cant.144)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 15802.36,
+                "marca": "ABLE - alt. aguja 9mm hebra 60cm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 7210,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 200,
+            "desc": "Sutura polipropileno azul c/2 agujas calibre 7/0 (75cm BV-1 9,3mm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 4385.04,
+                "marca": "SURGIKAL - India (Alternativa spec)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 9239.4,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 15923.6,
+                "marca": "J&J Prolene (cant.192)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 7810,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 200,
+            "desc": "Sutura polipropileno azul c/1 aguja calibre 4/0, ahusada 22mm, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": 4468.53,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1644.39,
+                "marca": "SURGIKAL - Industria Argentina",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 2727.4,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 5553.76,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 250,
+            "desc": "Sutura ac. poliglicolico N2/0, aguja 26mm 1/2 circ., hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": 2165.9,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1188.22,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": 2511.96,
+                "marca": "Atramat - Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1517.33,
+                "marca": "Maxsutures (cant.240)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 3883.62,
+                "marca": "J&J Vicryl (cant.216)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": 3487.85,
+                "marca": "ABLE - alt. aguja 25mm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1664,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 250,
+            "desc": "ALTERNATIVA — ABLE ofrece variante propia",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "Oferta ALT ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 300,
+            "desc": "Sutura nylon negro monofilamento c/aguja 3/8 circ. calibre 2/0",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 584.43,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": 1839.2,
+                "marca": "Atramat - Mexico",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": 2354.18,
+                "marca": "J&J Ethilon (cant.288)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1068,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 300,
+            "desc": "ALTERNATIVA — ABLE ofrece variante propia",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "Oferta ALT ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A. (UNISUR)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A. (Atramat)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A. (Meril)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A. (J&J)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medpharma S.A. (marca ABLE)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Solo se incluyen los renglones que ABLE cotiza (1,2,5 a 10,19,21,22) de los 34 del pliego. Preferencia nacional para ABLE: renglones 1, 2 y 22 vs Cardiopack/SURGIKAL India (dif. 3,9%-5,2%). Empate t\\u00e9cnico: renglon 21 vs Cardiopack/SURGIKAL India (dif. 1,41%). Renglones 9 y 10: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (36,4%), fuera de rango. Medpharma S.A. revende bajo MARCA ABLE, compite directo con la oferta propia de ABLE. Cantidades cotizadas no coinciden con el pliego en Sedesa y Max Continental (menos unidades) \\u2014 posible observaci\\u00f3n t\\u00e9cnica. ALERTA ESPEC. \\u2014 ABLE desv\\u00eda del pliego en: R1 (punta redonda, no cilindrica), R5 (aguja 12mm vs 13mm), R6 (doble aguja/hebra 90cm vs 1 aguja/60cm), R7 (hebra 75cm vs 90cm), R8 (calibre 7/0 vs 8/0), R9 y R10 (mismo c\\u00f3digo PPA700960G para 3 medidas de aguja distintas \\u2014 no puede cumplir las 3), R19 (aguja 25mm vs 22mm), R21 (aguja 25mm vs 26mm). Sin desvio en R2 y R22. ALERTA ESPEC. \\u2014 Cardiopack tambi\\u00e9n desv\\u00eda en varios renglones donde compite: R1 (hebra 75cm vs 90cm), R9/R10 (aguja 10mm, autodeclarado Alternativa), R19 (2 agujas de 20mm vs 1 de 22mm), y sobre todo R21 (hebra 45cm vs 70cm pedido \\u2014 36% mas corta, justo donde empata t\\u00e9cnico en precio con ABLE). BHAURAC, Meril, J&J y Tagum copian el texto del pliego casi literal donde compiten \\u2014 parecen los mas seguros en cumplimiento t\\u00e9cnico, aunque casi ninguno gana por precio."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-30T13:26:42.385Z"
     }
   ],
-  "nextId": 175
+  "nextId": 176
 }
