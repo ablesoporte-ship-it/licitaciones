@@ -7453,81 +7453,53 @@
       ]
     },
     {
-      "preadj_fecha": "2026-06-16",
-      "preadj_empate_ok": "N/A",
-      "preadj_pref_ok": "N/A",
-      "renglones_preadj": [
-        {
-          "reng": "2",
-          "desc": "Bolsa p/colostomía adhesiva plana recortable con descarte",
-          "cant": 100,
-          "precio_able": 1490.5,
-          "marca": "ABLE",
-          "resultado": "no_adj",
-          "precio_siguiente": 2422,
-          "ganador_sig": "DROGUERIA FARMATEC S.A.",
-          "motivo": "rechazado_calidad"
-        },
-        {
-          "reng": "3",
-          "desc": "Cofia descartable elastizada — Marca ArgentCare",
-          "cant": 10000,
-          "precio_able": 27.23,
-          "marca": "ArgentCare",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "menor_precio"
-        }
-      ],
-      "gestion_pre": "Diego",
-      "gestion_pre_resultado": "Parcial",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Correcta",
-      "oc_fecha": "2026-06-30",
-      "oc_alertas": "OC Nro. 192/2026 fecha 30/06/2026. Reng.3 (cofia descartable elastizada, marca ArgentCare): 10.000 u x $27,23 = $272.300,00. Entrega inmediata dentro de los 10 dias corridos de recibida la OC. Consumo hasta 31/10/2026. Disposicion DISPO-2026-521-GDEBA-HZGMBMSALGP/2026.",
+      "id": 51,
+      "entidad": "HTAL ERILL",
+      "nro": "PA 79",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-30",
+      "monto": 21749600,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
-          "Farmatec",
-          "Propato",
-          "Martoriani",
-          "Storing",
-          "Euroswiss",
-          "Igaltex"
+          "Euroswiss S.A.",
+          "Macor Insumos Hospitalarios S.R.L.",
+          "Droguería Martorani S.A.",
+          "Healthy Lab Professional Care",
+          "AUPRES SRL"
         ],
         "renglones": [
           {
-            "reng": "2",
-            "cant": 100,
-            "desc": "Bolsa de colostomía cerrada transparente 1 pieza c/aro recortable 15-70mm c/filtro — BCO.CT.1P.70",
+            "reng": "10",
+            "cant": 720,
+            "desc": "Bolsa p/colostomia adhesiva, con aro recortable, varias medidas",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 1490.5,
-                "marca": "ABLE",
+                "precio": 1355,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 1250,
+                "marca": "Euromix",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
-              },
-              {
-                "oferente": "Farmatec",
-                "precio": 2462,
-                "marca": "EURO",
-                "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Propato",
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7535,7 +7507,15 @@
                 "obj": false
               },
               {
-                "oferente": "Martoriani",
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 6380.8,
+                "marca": "HOLLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7543,23 +7523,7 @@
                 "obj": false
               },
               {
-                "oferente": "Storing",
-                "precio": 28774.35,
-                "marca": "Coloplast — (obj) bolsa drenable ≠ colostomía recortable",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
-              },
-              {
-                "oferente": "Euroswiss",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Igaltex",
+                "oferente": "AUPRES SRL",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7569,9 +7533,233 @@
             ]
           },
           {
-            "reng": "2",
-            "cant": 90,
-            "desc": "ALT — Bolsa drenable opaca Sensura Coloplast cod.15550 recortable 10–66mm",
+            "reng": "11",
+            "cant": 30000,
+            "desc": "Camisolin descartable 30 G/m2, TNT SMS, manga larga, puno ajustado (ABLE ofrece como base tela SP 30gr - NO CUMPLE espec, pliego exige SMS)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "SP 30gr - NO CUMPLE espec",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 1340,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": 1757.6,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 855.79,
+                "marca": "uso general",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 1",
+            "cant": 30000,
+            "desc": "ALTERNATIVA — ABLE tela SP 25gr (NO CUMPLE espec: ni tela ni gramaje)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "SP 25gr - NO CUMPLE espec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 2",
+            "cant": 30000,
+            "desc": "ALTERNATIVA — ABLE tela SP 20gr (NO CUMPLE espec: ni tela ni gramaje)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "SP 20gr - NO CUMPLE espec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 3",
+            "cant": 30000,
+            "desc": "ALTERNATIVA — ABLE tela SMS 30gr (esta SI CUMPLE la espec del pliego)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "SMS 30gr - CUMPLE espec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 HealthyLab",
+            "cant": 30000,
+            "desc": "ALTERNATIVA — Healthy Lab, uso paciente (así etiquetada por el propio oferente)",
             "es_alt": true,
             "celdas": [
               {
@@ -7583,7 +7771,7 @@
                 "obj": false
               },
               {
-                "oferente": "Farmatec",
+                "oferente": "Euroswiss S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7591,7 +7779,7 @@
                 "obj": false
               },
               {
-                "oferente": "Propato",
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7599,7 +7787,7 @@
                 "obj": false
               },
               {
-                "oferente": "Martoriani",
+                "oferente": "Droguería Martorani S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7607,23 +7795,15 @@
                 "obj": false
               },
               {
-                "oferente": "Storing",
-                "precio": 22440.18,
-                "marca": "Coloplast",
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 654.15,
+                "marca": "uso paciente",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euroswiss",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Igaltex",
+                "oferente": "AUPRES SRL",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7633,127 +7813,55 @@
             ]
           },
           {
-            "reng": "2",
-            "cant": 90,
-            "desc": "ALT — Bolsa drenable opaca alterna Coloplast cod.5885 recortable 10–70mm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Farmatec",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Martoriani",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Storing",
-                "precio": 10562.1,
-                "marca": "Coloplast",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euroswiss",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "3",
-            "cant": 10000,
+            "reng": "19",
+            "cant": 24000,
             "desc": "Cofia descartable elastizada",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 27.5,
-                "marca": "ArgentCare",
+                "precio": 28.5,
+                "marca": "",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Farmatec",
-                "precio": 33,
-                "marca": "BLUEMED/NOVAMED",
+                "oferente": "Euroswiss S.A.",
+                "precio": 37,
+                "marca": "Euromix",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Propato",
-                "precio": 72.88,
-                "marca": "PADEMED",
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Martoriani",
-                "precio": 36.2,
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 43.9,
                 "marca": "PEMED",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Storing",
-                "precio": null,
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 45.52,
                 "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euroswiss",
-                "precio": 41,
-                "marca": "EUROMIX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Igaltex",
-                "precio": 31.71,
-                "marca": "GLOBAL PROTECTIVE",
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -7761,13 +7869,21 @@
             ]
           },
           {
-            "reng": "3",
-            "cant": 10000,
-            "desc": "ALT — Cofia plato redonda 20gr no plisada",
-            "es_alt": true,
+            "reng": "21",
+            "cant": 40,
+            "desc": "Equipo de cirugia descartable hemorrepelente esteril, 4 camisolines, 2 campos grandes, 2 medianos, 2 chicos",
+            "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
+                "precio": 26000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7775,7 +7891,7 @@
                 "obj": false
               },
               {
-                "oferente": "Farmatec",
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7783,7 +7899,7 @@
                 "obj": false
               },
               {
-                "oferente": "Propato",
+                "oferente": "Droguería Martorani S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7791,7 +7907,7 @@
                 "obj": false
               },
               {
-                "oferente": "Martoriani",
+                "oferente": "Healthy Lab Professional Care",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -7799,47 +7915,34 @@
                 "obj": false
               },
               {
-                "oferente": "Storing",
-                "precio": 144.68,
-                "marca": "Clothier",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euroswiss",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
+                "oferente": "AUPRES SRL",
+                "precio": 21600,
+                "marca": "Bioprotec",
+                "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               }
             ]
           }
         ],
-        "notas": "\n① <strong>Storing (Reng. 2 base — objetado):</strong> Cotizó bolsa drenable Gris Sensura Mio Coloplast (90 u., $28.774,35 u.) en lugar de la bolsa de colostomía adhesiva recortable del pliego. Producto diferente → objetado. Se incluyen las dos alternativas ofrecidas como filas ALT (reng. 2 ALT-1 y ALT-2); ambas son también bolsas drenables, no comparables con el producto base.<br>\n② <strong>Storing (Reng. 3 ALT):</strong> No cotizó cofia elastizada (reng. 3 base). Solo ofreció como alternativa cofia plato redonda no plisada (Clothier, $144,68 u.), producto de características diferentes → incluida como fila ALT independiente, sin color.<br>\n③ <strong>Renglones 1, 4, 5, 6, 7, 9, 10, 11, 12, 13:</strong> ABLE S.A. no cotizó estos ítems; no se incluyen en la presente comparativa.\n"
+        "notas": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional."
       },
-      "id": 51,
-      "entidad": "HTAL MANUEL BELGRANO",
-      "nro": "PA 79",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-06-02",
-      "monto": 424050,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "OC",
-      "empate": "No",
-      "pref": "No",
-      "obs": "ABLE gana reng. 2 (bolsa colostomía $1.490,50 vs Farmatec $2.462,00 — +65,2%) y reng. 3 (cofia elastizada $27,50 vs Igaltex $31,71 — +15,3%). Storing objetado reng. 2 base (bolsa drenable ≠ colostomía recortable); ALT-1 $22.440,18 y ALT-2 $10.562,10 también drenables, no comparables. Storing reng. 3 solo ofreció ALT cofia plato redonda no plisada $144,68 (producto diferente). Monto total ABLE: $424.050,00.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-06-02T16:47:36.434Z"
     },
     {
@@ -39848,40 +39951,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 159,
-      "entidad": "HTAL MERCANTE",
-      "nro": "PA 164",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-30",
-      "monto": 1032079,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-23T12:12:29.309Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 160,
       "entidad": "HTAL SANITARIA 1",
       "nro": "PA 97",
@@ -39930,40 +39999,6 @@
       "pref": "",
       "obs": "",
       "creado": "2026-07-23T12:51:03.854Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 162,
-      "entidad": "HTAL Erill",
-      "nro": "PA 79",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-30",
-      "monto": 78788600,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-23T18:55:16.739Z"
     },
     {
       "preadj_fecha": "",
@@ -42741,7 +42776,243 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-07-30T13:26:42.385Z"
+    },
+    {
+      "id": 176,
+      "entidad": "HTAL MERCANTE",
+      "nro": "PA 164",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-30",
+      "monto": 1032079,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Droguería Farmatec S.A.",
+          "Macor Insumos Hospitalarios S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "10",
+            "cant": 150,
+            "desc": "Bajalengua adulto, caja x100 unidades, tamano grande",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1030,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1001.7,
+                "marca": "AURINCO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1474,
+                "marca": "MEDONE - normalizado, ver nota",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1069.64,
+                "marca": "NOVAMED/CLERICOT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 100,
+            "desc": "Bolsa p/ileostomia c/aro Karaya, autoadhesivo recortable, 38mm, tipo Hollister",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 9195.4,
+                "marca": "HOLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 2542,
+                "marca": "EURO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": 7661.31,
+                "marca": "HOLLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 5000,
+            "desc": "Cubrecalzado descartable, no esteril, par, resistente a rasgaduras",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 154.1,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "51",
+            "cant": 700,
+            "desc": "Espatula de Ayre descartable, unidad",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.97,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 45.9,
+                "marca": "AURINCO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 40.46,
+                "marca": "MEDONE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 42,
+                "marca": "CLERICOT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-30T16:21:40.284Z"
     }
   ],
-  "nextId": 176
+  "nextId": 177
 }
