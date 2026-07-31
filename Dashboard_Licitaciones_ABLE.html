@@ -107,7 +107,7 @@ td.r{text-align:right}
 .fg{display:flex;flex-direction:column;gap:4px}
 .fg.full{grid-column:1/-1}
 label{font-size:11.5px;font-weight:bold;color:#666}
-input[type=text],input[type=date],input[type=number],select,textarea{padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:12.5px;width:100%;font-family:Arial,sans-serif;outline:none}
+input[type=text],input[type=date],input[type=number],input[type=password],select,textarea{padding:7px 10px;border:1px solid #ccc;border-radius:6px;font-size:12.5px;width:100%;font-family:Arial,sans-serif;outline:none}
 input:focus,select:focus,textarea:focus{border-color:#1a3a5c;box-shadow:0 0 0 2px rgba(26,58,92,.1)}
 textarea{resize:vertical;min-height:60px}
 .auto-fld{background:#f5f5f5;color:#999;cursor:not-allowed}
@@ -246,10 +246,12 @@ body.modo-lectura .modal-body select:disabled{
   </div>
   <div class="topbar-right">
     <span id="unpublishedBadge" class="solo-edicion" style="display:none;background:#e67e22;color:#fff;font-size:11px;font-weight:bold;padding:4px 10px;border-radius:10px;white-space:nowrap">⚠ Cambios sin publicar</span>
+    <button class="btn btn-ghost solo-edicion" id="pendBanner" style="display:none;background:#c0392b" onclick="abrirPendientes()">&#128276; <span id="pendCount">0</span> nueva(s) por correo</button>
     <input type="file" id="xlsxInput" accept=".xlsx,.xls" style="display:none" onchange="loadFromExcel(event)">
     <button class="btn btn-ghost solo-edicion" onclick="document.getElementById('xlsxInput').click()">&#128194; Cargar Excel</button>
     <button class="btn btn-ghost solo-edicion" onclick="showImport()">&#8595; Importar de Claude</button>
     <button class="btn btn-ghost solo-edicion" onclick="exportExcel()">&#128190; Exportar Excel</button>
+    <button class="btn btn-ghost solo-edicion" onclick="abrirGithubConfig()">&#128273; GitHub</button>
     <button class="btn btn-teal solo-edicion" onclick="publishJSON()">&#128228; Publicar datos.json</button>
     <button class="btn btn-success solo-edicion" onclick="openNew()">+ Nueva licitación</button>
   </div>
@@ -466,6 +468,49 @@ body.modo-lectura .modal-body select:disabled{
 </div>
 </div>
 
+<!-- ======= GITHUB CONFIG OVERLAY ======= -->
+<div class="overlay" id="githubOverlay" style="display:none" onclick="if(event.target===this)cerrarGithubConfig()">
+<div class="modal" style="max-width:480px">
+  <div class="modal-hdr">
+    <h2>&#128273; Publicación automática a GitHub</h2>
+    <button class="modal-close" onclick="cerrarGithubConfig()">&#215;</button>
+  </div>
+  <div class="modal-body">
+    <p style="font-size:12.5px;color:#555;margin-bottom:14px;line-height:1.6">
+      Con un token de acceso personal de GitHub, el botón "Publicar datos.json" commitea directo al repositorio — sin descargar ni pegar a mano.<br><br>
+      Generalo en GitHub → foto de perfil → Settings → Developer settings → Personal access tokens (fine-grained) → <em>Generate new token</em>, limitado al repositorio <code>ablesoporte-ship-it/licitaciones</code> con permiso <strong>Contents: Read and write</strong>.<br><br>
+      El token se guarda solo en este navegador (localStorage) y nunca se incluye en el HTML que se publica — quien vea el dashboard en modo lectura no puede verlo.
+    </p>
+    <div class="fg">
+      <label>Token</label>
+      <input type="password" id="ghTokenInput" placeholder="github_pat_..." autocomplete="off">
+    </div>
+    <p id="ghTokenStatus" style="font-size:11.5px;color:#888;margin-top:10px;line-height:1.5"></p>
+  </div>
+  <div class="modal-ftr">
+    <button class="btn btn-danger btn-sm" onclick="quitarGithubToken()">Quitar token</button>
+    <div style="flex:1"></div>
+    <button class="btn btn-outline" onclick="cerrarGithubConfig()">Cerrar</button>
+    <button class="btn btn-primary" onclick="guardarGithubToken()">Guardar</button>
+  </div>
+</div>
+</div>
+
+<!-- ======= PENDIENTES POR CORREO OVERLAY ======= -->
+<div class="overlay" id="pendOverlay" style="display:none" onclick="if(event.target===this)cerrarPendientes()">
+<div class="modal" style="max-width:560px">
+  <div class="modal-hdr">
+    <h2>&#128276; Licitaciones detectadas por correo</h2>
+    <button class="modal-close" onclick="cerrarPendientes()">&#215;</button>
+  </div>
+  <div class="modal-body" id="pendBody"></div>
+  <div class="modal-ftr">
+    <button class="btn btn-outline" onclick="cerrarPendientes()">Cerrar</button>
+    <button class="btn btn-success" onclick="agregarTodosPendientes()">&#10003; Agregar todas</button>
+  </div>
+</div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -563,19 +608,174 @@ function markPublished(){
   document.getElementById('unpublishedBadge').style.display = 'none';
 }
 
-function publishJSON(){
+// ─── GITHUB API (publicación automática) ───────────────────────────────────
+const GH_OWNER='ablesoporte-ship-it', GH_REPO='licitaciones', GH_PATH='datos.json';
+const GH_TOKEN_KEY='ableGithubToken';
+
+function getGithubToken(){ return localStorage.getItem(GH_TOKEN_KEY)||''; }
+
+function abrirGithubConfig(){
+  const tok=getGithubToken();
+  document.getElementById('ghTokenInput').value='';
+  document.getElementById('ghTokenStatus').textContent = tok
+    ? '✓ Token configurado (termina en ...'+tok.slice(-4)+'). Dejá el campo vacío y tocá "Guardar" para conservarlo, o pegá uno nuevo para reemplazarlo.'
+    : 'Todavía no configuraste un token — "Publicar datos.json" va a seguir descargando el archivo para subirlo a mano.';
+  document.getElementById('githubOverlay').style.display='flex';
+}
+function cerrarGithubConfig(){ document.getElementById('githubOverlay').style.display='none'; }
+
+function guardarGithubToken(){
+  const v=document.getElementById('ghTokenInput').value.trim();
+  if(v){ localStorage.setItem(GH_TOKEN_KEY, v); toast('Token guardado ✓ — la próxima publicación va directo a GitHub','ok'); }
+  cerrarGithubConfig();
+}
+function quitarGithubToken(){
+  localStorage.removeItem(GH_TOKEN_KEY);
+  toast('Token eliminado — volviste al modo descarga manual','warn');
+  cerrarGithubConfig();
+}
+
+function b64EncodeUnicode(str){
+  return btoa(unescape(encodeURIComponent(str)));
+}
+
+async function publicarEnGithub(payloadStr){
+  const token=getGithubToken();
+  const apiUrl=`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_PATH}`;
+  const headers={ 'Authorization':'token '+token, 'Accept':'application/vnd.github+json' };
+
+  // 1. Obtener el sha actual del archivo (lo exige la API para poder actualizarlo)
+  const getRes=await fetch(apiUrl, {headers});
+  if(!getRes.ok){
+    throw new Error('No se pudo leer el archivo actual en GitHub (HTTP '+getRes.status+'). Revisá el token y sus permisos.');
+  }
+  const getJson=await getRes.json();
+
+  // 2. Subir el contenido nuevo
+  const putRes=await fetch(apiUrl, {
+    method:'PUT',
+    headers:{...headers,'Content-Type':'application/json'},
+    body:JSON.stringify({
+      message:'Actualiza datos.json — '+new Date().toLocaleString('es-AR'),
+      content:b64EncodeUnicode(payloadStr),
+      sha:getJson.sha
+    })
+  });
+  if(!putRes.ok){
+    const errJson=await putRes.json().catch(()=>({}));
+    throw new Error('GitHub rechazó la publicación (HTTP '+putRes.status+'): '+(errJson.message||'error desconocido'));
+  }
+  return putRes.json();
+}
+
+async function publishJSON(){
   const payload = JSON.stringify({rows:data, nextId}, null, 2);
+  const token = getGithubToken();
+
+  if(token){
+    toast('Publicando en GitHub...','warn');
+    try{
+      await publicarEnGithub(payload);
+      localStorage.setItem(KEY, JSON.stringify({rows:data, nextId, _unpublished:false}));
+      markPublished();
+      document.getElementById('lastSave').textContent = 'Publicado en GitHub — '+new Date().toLocaleTimeString('es-AR');
+      toast('Publicado en GitHub ✓','ok');
+      return;
+    }catch(e){
+      console.error(e);
+      toast('No se pudo publicar automático: '+e.message+' — descargando datos.json como respaldo','err');
+      // sigue al fallback de descarga manual
+    }
+  }
+
+  // Fallback: descarga manual (comportamiento original)
   const blob = new Blob([payload], {type:'application/json'});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url; a.download = 'datos.json';
   document.body.appendChild(a); a.click();
   document.body.removeChild(a); URL.revokeObjectURL(url);
-  // Update localStorage to mark as published
   localStorage.setItem(KEY, JSON.stringify({rows:data, nextId, _unpublished:false}));
   markPublished();
   document.getElementById('lastSave').textContent = 'datos.json descargado — subilo a GitHub para que todos vean los cambios';
-  toast('datos.json descargado ✓ — subilo a GitHub','ok');
+  if(!token) toast('datos.json descargado ✓ — subilo a GitHub (o configurá el botón 🔑 GitHub para publicar automático)','ok');
+}
+
+// ─── PENDIENTES POR CORREO ─────────────────────────────────────────────────
+// Cola separada que escribe LicitacionesSimple Lee Correos.gs (Apps Script)
+// cada vez que detecta una licitación nueva. Es un archivo aparte de
+// datos.json a propósito: así nunca pisa cambios que tengas sin publicar.
+const PEND_OWNER='ablesoporte-ship-it', PEND_REPO='licitaciones', PEND_PATH='pendientes_dashboard.json';
+const PEND_VISTOS_KEY='ablePendVistos';
+let pendientesActuales=[];
+
+function pendVistos(){ try{ return new Set(JSON.parse(localStorage.getItem(PEND_VISTOS_KEY)||'[]')); }catch(e){ return new Set(); } }
+function marcarPendienteVisto(id){
+  const v=pendVistos(); v.add(id);
+  localStorage.setItem(PEND_VISTOS_KEY, JSON.stringify([...v]));
+}
+
+async function checkPendientes(){
+  try{
+    const url=`https://raw.githubusercontent.com/${PEND_OWNER}/${PEND_REPO}/main/${PEND_PATH}?_=${Date.now()}`;
+    const res=await fetch(url);
+    if(!res.ok) return; // todavía no existe el archivo, o error de red — no hay pendientes que mostrar
+    const lista=await res.json();
+    const vistos=pendVistos();
+    pendientesActuales=(lista||[]).filter(p=>p && p.id && !vistos.has(p.id));
+    actualizarBadgePendientes(pendientesActuales.length);
+  }catch(e){ /* sin conexión — se reintenta en el próximo chequeo */ }
+}
+
+function actualizarBadgePendientes(n){
+  const b=document.getElementById('pendBanner');
+  if(!b) return;
+  document.getElementById('pendCount').textContent=n;
+  b.style.display=n>0?'inline-flex':'none';
+}
+
+function renderPendientesBody(){
+  const html=pendientesActuales.map(p=>`
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;border:1px solid #e0e0e0;border-radius:8px;margin-bottom:8px">
+      <div>
+        <strong style="font-size:13px">${esc(p.entidad)}</strong><br>
+        <span style="font-size:11.5px;color:#888">${p.fecha?fmtDate(p.fecha):'sin fecha'} · ${esc(p.zona||'sin zona')} · ${esc(p.agente||'sin agente')}</span>
+      </div>
+      <button class="btn btn-success btn-sm" onclick="agregarPendiente('${p.id}')">+ Agregar</button>
+    </div>
+  `).join('');
+  document.getElementById('pendBody').innerHTML = html || '<p style="color:#888;text-align:center;padding:20px">Sin pendientes.</p>';
+}
+
+function abrirPendientes(){ renderPendientesBody(); document.getElementById('pendOverlay').style.display='flex'; }
+function cerrarPendientes(){ document.getElementById('pendOverlay').style.display='none'; }
+
+function agregarPendiente(id){
+  const p=pendientesActuales.find(x=>x.id===id);
+  if(!p) return;
+  const nueva={
+    id:nextId++, entidad:p.entidad||'', nro:'', tipo:'', fecha:p.fecha||'', monto:0, mayor:'No',
+    zona:p.zona||'', agente:p.agente||'', etapa:'Pendiente', empate:'', pref:'',
+    obs:'',
+    preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
+    gestion_pre:'', gestion_pre_resultado:'',
+    adj_recibida:false, adj_fecha:'', adj_monto_able:0, adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
+    gestion_post:'', gestion_post_resultado:'',
+    oc:'Pendiente', oc_fecha:'', oc_alertas:'', creado:new Date().toISOString()
+  };
+  data.push(nueva);
+  marcarPendienteVisto(id);
+  pendientesActuales=pendientesActuales.filter(x=>x.id!==id);
+  actualizarBadgePendientes(pendientesActuales.length);
+  renderPendientesBody();
+  save(); render();
+  toast('Agregada: '+p.entidad+' — completá N°/tipo/monto cuando tengas la comparativa','ok');
+}
+
+function agregarTodosPendientes(){
+  if(!pendientesActuales.length) return;
+  [...pendientesActuales].forEach(p=>agregarPendiente(p.id));
+  cerrarPendientes();
 }
 
 function defaultRow(){
@@ -2022,9 +2222,14 @@ if(window.location.protocol !== 'file:'){
     if(overlayAbierto) return;
     load().then(render);
   }, 5*60*1000);
+} else {
+  // Modo edición (local): chequea licitaciones nuevas detectadas por correo
+  // cada 5 min, sin importar cuánto tiempo lleves con el Dashboard abierto.
+  checkPendientes();
+  setInterval(checkPendientes, 5*60*1000);
 }
 load().then(render);
-document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); } });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ closeDetail(); closeImport(); closeMigrate(); closeComp(); cerrarPendientes(); } });
 </script>
 </body>
 </html>
