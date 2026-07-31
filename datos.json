@@ -17710,14 +17710,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-07-30",
+      "adj_monto_able": 3680560,
+      "adj_resumen": "ABLE adjudicada en rengs. 1, 2 y 6. Total: $3.680.560,00. Reng.1 (Catgut simple N°0 aguja 40mm, marca ABLE, 400u x $2.200). Reng.2 (Catgut cromado N°2 aguja 35mm, marca ABLE, 48u x $2.720). Reng.6 (PGA cal.1 aguja 40mm 90cm, marca ABLE, 2.000u x $1.335). Disposicion DISPO-2026-1060-GDEBA-HIAVLPMSALGP/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-30",
+      "oc_alertas": "OC Nro. 360/2026 fecha 30/07/2026. Reng.1 (Catgut simple N°0 400u x $2.200 = $880.000). Reng.2 (Catgut cromado N°2 48u x $2.720 = $130.560). Reng.6 (PGA cal.1 2.000u x $1.335 = $2.670.000). Total: $3.680.560,00. Entrega a pedido hasta 31/12/2026. Disposicion DISPO-2026-1060-GDEBA-HIAVLPMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -17900,11 +17900,46 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 96/2026 H.I.G.A. Vicente Lopez y Planes. Reng 6: Cardiopack objetado por punta reforzada y hebra 75cm vs 90cm pliego, ABLE pasa a ganar. Reng 2: ABLE oferta catgut lento vs cromado pedido. Reng 5: dif tec aguja 10mm pliego vs 13-15mm ofertado por todos. Gestion Gonzalo.",
-      "creado": "2026-06-22T16:03:17.940Z"
+      "creado": "2026-06-22T16:03:17.940Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Catgut simple N°0 aguja 40mm 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. Argentina)",
+          "cant": 400,
+          "precio_able": 2200,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "2",
+          "desc": "Catgut cromado N°2 aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. Argentina)",
+          "cant": 48,
+          "precio_able": 2720,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura PGA cal.1 aguja 40mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. Argentina)",
+          "cant": 2000,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
