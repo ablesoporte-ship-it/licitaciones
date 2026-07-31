@@ -7453,19 +7453,23 @@
       ]
     },
     {
-      "id": 51,
-      "entidad": "HTAL ERILL",
-      "nro": "PA 79",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-30",
-      "monto": 21749600,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -7927,22 +7931,19 @@
         ],
         "notas": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 51,
+      "entidad": "HTAL ERILL",
+      "nro": "PA 79",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-30",
+      "monto": 21749600,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional.",
       "creado": "2026-06-02T16:47:36.434Z"
     },
     {
@@ -39899,37 +39900,188 @@
       "creado": "2026-07-22T19:19:48.861Z"
     },
     {
+      "id": 158,
+      "entidad": "H.Z.G.A. Las Flores",
+      "nro": "PA 36",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-21",
+      "monto": 1560330,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 36/2026 H.Z.G.A. Las Flores. ABLE gana 6 renglones (5,6,7,8,9,11) por menor precio. Total: $1.560.330,00. Deltorni cotiza todos los renglones a precios muy superiores.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Deltorni S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 3,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts con indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Deltorni S.R.L.",
+                "precio": 44800,
+                "marca": "Deltorni",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 3,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 200mm x 200mts con indicador quimico calor humedo + ETO - Marca Able - cod. PO.200.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Deltorni S.R.L.",
+                "precio": 90205,
+                "marca": "Deltorni",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 6000,
+            "desc": "Bolsa de papel grado medico 140mm x 50mm x 330mm con indicador quimico calor humedo - Marca Able - cod. BOX140X050X330",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Deltorni S.R.L.",
+                "precio": 195,
+                "marca": "Deltorni",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 12000,
+            "desc": "Bolsa de papel grado medico 125mm x 50mm x 250mm con indicador quimico calor humedo - Marca Able - cod. BOX125X050X250",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 54.89,
+                "marca": "BOX125X050X250 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Deltorni S.R.L.",
+                "precio": 120,
+                "marca": "Deltorni",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 3000,
+            "desc": "Bolsa de papel grado medico 90mm x 50mm x 150mm con indicador quimico calor humedo - Marca Able - cod. BOX090X050X150",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 30.23,
+                "marca": "BOX090X050X150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Deltorni S.R.L.",
+                "precio": 48,
+                "marca": "Deltorni",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 3,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts con indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Deltorni S.R.L.",
+                "precio": 133240,
+                "marca": "Deltorni",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>ABLE cotiza rengs. 5, 6, 7, 8, 9 y 11. Gana los 6 renglones en limpio por menor precio. Total cotizado: <strong>$1.560.330,00</strong>.</p>\n    <p>Rengs. 1, 2, 3, 4 y 10 no cotizados por ABLE (cinta adhesiva de papel, gasa tubular, papel kraft, indicador químico externo) — no se incluyen en esta comparativa.</p>\n    <p>Todos los productos ABLE son de marca propia con indicador químico de calor húmedo + ETO. Deltorni cotiza en todos los renglones a precios muy superiores.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 158,
-      "entidad": "HTAL Flores",
-      "nro": "PA 36",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-28",
-      "monto": 1560330,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-22T19:26:25.533Z"
     },
     {
@@ -41530,19 +41682,23 @@
       "creado": "2026-07-27T18:18:29.059Z"
     },
     {
-      "id": 175,
-      "entidad": "H.I.G.A. Presidente Perón",
-      "nro": "LP 32",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-29",
-      "monto": 5812450,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "",
-      "pref": "",
-      "obs": "Solo se incluyen los renglones que ABLE cotiza (1,2,5 a 10,19,21,22) de los 34 del pliego. Preferencia nacional para ABLE: renglones 1, 2 y 22 vs Cardiopack/SURGIKAL India (dif. 3,9%-5,2%). Empate t\\u00e9cnico: renglon 21 vs Cardiopack/SURGIKAL India (dif. 1,41%). Renglones 9 y 10: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (36,4%), fuera de rango. Medpharma S.A. revende bajo MARCA ABLE, compite directo con la oferta propia de ABLE. Cantidades cotizadas no coinciden con el pliego en Sedesa y Max Continental (menos unidades) \\u2014 posible observaci\\u00f3n t\\u00e9cnica. ALERTA ESPEC. \\u2014 ABLE desv\\u00eda del pliego en: R1 (punta redonda, no cilindrica), R5 (aguja 12mm vs 13mm), R6 (doble aguja/hebra 90cm vs 1 aguja/60cm), R7 (hebra 75cm vs 90cm), R8 (calibre 7/0 vs 8/0), R9 y R10 (mismo c\\u00f3digo PPA700960G para 3 medidas de aguja distintas \\u2014 no puede cumplir las 3), R19 (aguja 25mm vs 22mm), R21 (aguja 25mm vs 26mm). Sin desvio en R2 y R22. ALERTA ESPEC. \\u2014 Cardiopack tambi\\u00e9n desv\\u00eda en varios renglones donde compite: R1 (hebra 75cm vs 90cm), R9/R10 (aguja 10mm, autodeclarado Alternativa), R19 (2 agujas de 20mm vs 1 de 22mm), y sobre todo R21 (hebra 45cm vs 70cm pedido \\u2014 36% mas corta, justo donde empata t\\u00e9cnico en precio con ABLE). BHAURAC, Meril, J&J y Tagum copian el texto del pliego casi literal donde compiten \\u2014 parecen los mas seguros en cumplimiento t\\u00e9cnico, aunque casi ninguno gana por precio.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -42759,38 +42915,39 @@
         ],
         "notas": "Solo se incluyen los renglones que ABLE cotiza (1,2,5 a 10,19,21,22) de los 34 del pliego. Preferencia nacional para ABLE: renglones 1, 2 y 22 vs Cardiopack/SURGIKAL India (dif. 3,9%-5,2%). Empate t\\u00e9cnico: renglon 21 vs Cardiopack/SURGIKAL India (dif. 1,41%). Renglones 9 y 10: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (36,4%), fuera de rango. Medpharma S.A. revende bajo MARCA ABLE, compite directo con la oferta propia de ABLE. Cantidades cotizadas no coinciden con el pliego en Sedesa y Max Continental (menos unidades) \\u2014 posible observaci\\u00f3n t\\u00e9cnica. ALERTA ESPEC. \\u2014 ABLE desv\\u00eda del pliego en: R1 (punta redonda, no cilindrica), R5 (aguja 12mm vs 13mm), R6 (doble aguja/hebra 90cm vs 1 aguja/60cm), R7 (hebra 75cm vs 90cm), R8 (calibre 7/0 vs 8/0), R9 y R10 (mismo c\\u00f3digo PPA700960G para 3 medidas de aguja distintas \\u2014 no puede cumplir las 3), R19 (aguja 25mm vs 22mm), R21 (aguja 25mm vs 26mm). Sin desvio en R2 y R22. ALERTA ESPEC. \\u2014 Cardiopack tambi\\u00e9n desv\\u00eda en varios renglones donde compite: R1 (hebra 75cm vs 90cm), R9/R10 (aguja 10mm, autodeclarado Alternativa), R19 (2 agujas de 20mm vs 1 de 22mm), y sobre todo R21 (hebra 45cm vs 70cm pedido \\u2014 36% mas corta, justo donde empata t\\u00e9cnico en precio con ABLE). BHAURAC, Meril, J&J y Tagum copian el texto del pliego casi literal donde compiten \\u2014 parecen los mas seguros en cumplimiento t\\u00e9cnico, aunque casi ninguno gana por precio."
       },
+      "id": 175,
+      "entidad": "H.I.G.A. Presidente Perón",
+      "nro": "LP 32",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-29",
+      "monto": 5812450,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Solo se incluyen los renglones que ABLE cotiza (1,2,5 a 10,19,21,22) de los 34 del pliego. Preferencia nacional para ABLE: renglones 1, 2 y 22 vs Cardiopack/SURGIKAL India (dif. 3,9%-5,2%). Empate t\\u00e9cnico: renglon 21 vs Cardiopack/SURGIKAL India (dif. 1,41%). Renglones 9 y 10: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (36,4%), fuera de rango. Medpharma S.A. revende bajo MARCA ABLE, compite directo con la oferta propia de ABLE. Cantidades cotizadas no coinciden con el pliego en Sedesa y Max Continental (menos unidades) \\u2014 posible observaci\\u00f3n t\\u00e9cnica. ALERTA ESPEC. \\u2014 ABLE desv\\u00eda del pliego en: R1 (punta redonda, no cilindrica), R5 (aguja 12mm vs 13mm), R6 (doble aguja/hebra 90cm vs 1 aguja/60cm), R7 (hebra 75cm vs 90cm), R8 (calibre 7/0 vs 8/0), R9 y R10 (mismo c\\u00f3digo PPA700960G para 3 medidas de aguja distintas \\u2014 no puede cumplir las 3), R19 (aguja 25mm vs 22mm), R21 (aguja 25mm vs 26mm). Sin desvio en R2 y R22. ALERTA ESPEC. \\u2014 Cardiopack tambi\\u00e9n desv\\u00eda en varios renglones donde compite: R1 (hebra 75cm vs 90cm), R9/R10 (aguja 10mm, autodeclarado Alternativa), R19 (2 agujas de 20mm vs 1 de 22mm), y sobre todo R21 (hebra 45cm vs 70cm pedido \\u2014 36% mas corta, justo donde empata t\\u00e9cnico en precio con ABLE). BHAURAC, Meril, J&J y Tagum copian el texto del pliego casi literal donde compiten \\u2014 parecen los mas seguros en cumplimiento t\\u00e9cnico, aunque casi ninguno gana por precio.",
+      "creado": "2026-07-30T13:26:42.385Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-30T13:26:42.385Z"
-    },
-    {
-      "id": 176,
-      "entidad": "HTAL MERCANTE",
-      "nro": "PA 164",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-30",
-      "monto": 1032079,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -42995,22 +43152,19 @@
         ],
         "notas": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 176,
+      "entidad": "HTAL MERCANTE",
+      "nro": "PA 164",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-30",
+      "monto": 1032079,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE.",
       "creado": "2026-07-30T16:21:40.284Z"
     }
   ],
