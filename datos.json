@@ -42088,37 +42088,141 @@
       ]
     },
     {
+      "id": 174,
+      "entidad": "HTAL EVA PERÓN",
+      "nro": "PA 176",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-03",
+      "monto": 1043411,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.3 — Igaltex gana por 3,32% (dimensiones idénticas al pliego 110x30x190mm) — sin margen de empate técnico/preferencia claro sin confirmar origen. Reng.4 — ⚠️ Igaltex cotiza $54,15 pero sus dimensiones (140x40x250mm) NO coinciden con el pliego (140-145x320x40mm) — el largo difiere en 70mm (22%). Posible objetable, revisar antes de dar por perdido. Reng.6 — Igaltex gana por 19,45% (dimensiones idénticas al pliego 250x380x100mm) — fuera de banda de preferencia nacional. KIMS pierde en los 3 renglones, no compite en precio. Total ABLE: $1.043.403,84 (verificado).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "KIMS S.R.L.",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 12800,
+            "desc": "Bolsa de papel grado médico 110mm x 30mm x 190mm con indicador químico de calor húmedo — Cód. BOX110X030X190, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 45,
+                "marca": "Kims (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 35.29,
+                "marca": "Sterilys - dimensiones 110x30x190mm, coincide con pliego",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 4800,
+            "desc": "Bolsa de papel grado médico 140mm x 50mm x 330mm con indicador químico de calor húmedo — Cód. BOX140X050X330, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 85,
+                "marca": "Kims (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 54.15,
+                "marca": "Sterilys - dimensiones 140x40x250mm, NO coincide con pliego (pide ~320mm de largo)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 1500,
+            "desc": "Bolsa de papel grado médico 250mm x 100mm x 380mm con indicador químico de calor húmedo — Cód. BOX250X100X380, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 200,
+                "marca": "Kims (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 119.72,
+                "marca": "Sterilys - dimensiones 250x380x100mm, coincide con pliego",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.3 — Igaltex gana por 3,32% (dimensiones idénticas al pliego 110x30x190mm) — sin margen de empate técnico/preferencia claro sin confirmar origen. Reng.4 — ⚠️ Igaltex cotiza $54,15 pero sus dimensiones (140x40x250mm) NO coinciden con el pliego (140-145x320x40mm) — el largo difiere en 70mm (22%). Posible objetable, revisar antes de dar por perdido. Reng.6 — Igaltex gana por 19,45% (dimensiones idénticas al pliego 250x380x100mm) — fuera de banda de preferencia nacional. KIMS pierde en los 3 renglones, no compite en precio. Total ABLE: $1.043.403,84 (verificado)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 174,
-      "entidad": "HTAL EVA PERON",
-      "nro": "PA 176",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-03",
-      "monto": 1043403,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-27T18:18:29.059Z"
     },
     {
