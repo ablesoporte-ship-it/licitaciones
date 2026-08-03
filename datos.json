@@ -1,266 +1,6 @@
 {
   "rows": [
     {
-      "preadj_fecha": "2026-05-26",
-      "preadj_empate_ok": "N/A",
-      "preadj_pref_ok": "",
-      "renglones_preadj": [
-        {
-          "reng": "14",
-          "desc": "Camisolin descartable 30 g/m2, TNT SMS, manga larga, puno ajustado, no esteril, no hemorrepelente",
-          "cant": 12000,
-          "precio_able": 671.72,
-          "marca": "ArgentCare - CAM.NHE.110.ELA.30",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Rechazado por el Ministerio (precio excesivo) tras preadjudicacion favorable de la comision por pref. nacional",
-          "motivo": "precio_excesivo"
-        },
-        {
-          "reng": "12",
-          "desc": "Renglon rechazado a ABLE por no ajustarse a lo solicitado (camisolin sin pechera)",
-          "cant": null,
-          "precio_able": null,
-          "marca": "",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Desierto (Bhaurac S.A. tambien rechazado por precio excesivo)",
-          "motivo": "rechazado_calidad"
-        }
-      ],
-      "gestion_pre": "Diego",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "No otorgada",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": {
-        "oferentes": [
-          "ABLE S.A.",
-          "Euro Swiss S.A.",
-          "Droguería Martorani S.A.",
-          "Bhaurac S.A.",
-          "Alfredo O. Potenza SRL"
-        ],
-        "renglones": [
-          {
-            "reng": "12",
-            "cant": 1300,
-            "desc": "Camisolin estéril, hemorrepelente, tela SMS 45g, descartable, manga larga,\r\ntiras ajuste cuello y cintura, puños algodón ajustables en muñeca",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1725,
-                "marca": "ArgentCare",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": 5251.4,
-                "marca": "DMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Alfredo O. Potenza SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "14",
-            "cant": 12000,
-            "desc": "Camisolin no estéril, no hemorrepelente, tela TNT 30g, descartable,\r\nmanga larga, puños elástico ajustables en muñeca",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 678.5,
-                "marca": "ArgentCare",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": 1695.95,
-                "marca": "KRATEC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 677.7,
-                "marca": "PEMED",
-                "bg_precio": "amarillo",
-                "bg_marca": "rosado",
-                "obj": true
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": 900.24,
-                "marca": "DMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Alfredo O. Potenza SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "14",
-            "cant": 12000,
-            "desc": "(alt) Camisolin no estéril, hemorrepelente, tela SMS 30g, descartable,\r\nmanga larga, puños algodón ajustables en muñeca",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 850,
-                "marca": "ArgentCare",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Alfredo O. Potenza SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "14",
-            "cant": 12000,
-            "desc": "(alt) Camisolin no estéril, no hemorrepelente, tela TNT 20g, descartable,\r\nmanga larga, puños elástico ajustables en muñeca",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 511.75,
-                "marca": "ArgentCare",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Alfredo O. Potenza SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          }
-        ],
-        "notas": "① Renglón 14 — Droguería Martorani S.A. (PEMED): cotiza camisolin de 24,5 g cuando el pliego exige 30 g. La oferta NO cumple con las especificaciones técnicas requeridas y podría ser DESESTIMADA. En caso de desestimación, ABLE S.A. sería el oferente válido más económico y debería recibir la adjudicación. ② Renglón 14 — Independientemente de lo anterior, la diferencia de precio entre ABLE ($678,50) y Martorani ($677,70) es de solo 0,12%, configurando EMPATE TÉCNICO. La entidad debería adjudicar a ABLE por ser producto nacional (ArgentCare). Se recomienda gestión comercial urgente antes de la adjudicación."
-      },
-      "id": 14,
-      "entidad": "H.I.G.A. PETRONA V. DE CORDERO",
-      "nro": "PA 73",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-05-20",
-      "monto": 26725500,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "OC",
-      "empate": "Sí",
-      "pref": "No",
-      "obs": "① Renglón 14 — Droguería Martorani S.A. (PEMED): cotiza camisolin de 24,5 g cuando el pliego exige 30 g. La oferta NO cumple con las especificaciones técnicas requeridas y podría ser DESESTIMADA. En caso de desestimación, ABLE S.A. sería el oferente válido más económico y debería recibir la adjudicación. ② Renglón 14 — Independientemente de lo anterior, la diferencia de precio entre ABLE ($678,50) y Martorani ($677,70) es de solo 0,12%, configurando EMPATE TÉCNICO. La entidad debería adjudicar a ABLE por ser producto nacional (ArgentCare). Se recomienda gestión comercial urgente antes de la adjudicación.",
-      "creado": "2026-05-22T18:56:55.187Z"
-    },
-    {
       "preadj_fecha": "2026-06-05",
       "preadj_empate_ok": "N/A",
       "preadj_pref_ok": "N/A",
@@ -1389,14 +1129,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-06-17",
+      "adj_monto_able": 29620800,
+      "adj_resumen": "ABLE adjudicada en reng.1 (120u x $246.840 = $29.620.800,00). OC 61/2026. Licitacion MAYOR.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-17",
+      "oc_alertas": "OC Nro. 61/2026 fecha 17/06/2026. Reng.1 (120u x $246.840,00 = $29.620.800,00). HTAL Sanitaria 1. Licitacion MAYOR.",
       "tabla": null,
       "id": 23,
       "entidad": "HTAL SANITARIA 1",
@@ -1407,11 +1147,24 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-05-27T17:28:14.192Z"
+      "creado": "2026-05-27T17:28:14.192Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Reng.1 - Marca ABLE",
+          "cant": 120,
+          "precio_able": 246840,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -1457,14 +1210,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-06-17",
+      "adj_monto_able": 312105,
+      "adj_resumen": "ABLE adjudicada en reng.1 (210u x $1.490,50 = $312.105,00). OC 60/2026. HTAL Sanitaria 1.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-17",
+      "oc_alertas": "OC Nro. 60/2026 fecha 17/06/2026. Reng.1 (210u x $1.490,50 = $312.105,00). HTAL Sanitaria 1.",
       "tabla": null,
       "id": 25,
       "entidad": "HTAL SANITARIA 1",
@@ -1475,11 +1228,24 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-05-27T17:32:28.203Z"
+      "creado": "2026-05-27T17:32:28.203Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Reng.1 - Marca ABLE",
+          "cant": 210,
+          "precio_able": 1490.5,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -8764,18 +8530,18 @@
         }
       ],
       "gestion_pre": "",
-      "gestion_pre_resultado": "Ganado parcial",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-06-09",
+      "adj_monto_able": 1632000,
+      "adj_resumen": "ABLE adjudicada en reng.4 (catgut cromado, 600u x $2.720 = $1.632.000,00). OC 263/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-09",
+      "oc_alertas": "OC Nro. 263/2026 fecha 09/06/2026. Reng.4 (catgut cromado, 600u x $2.720 = $1.632.000,00). HTAL Melendez.",
       "tabla": null,
       "id": 58,
       "entidad": "HTAL MELENDEZ",
@@ -8786,11 +8552,24 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-06-03T21:32:40.948Z"
+      "creado": "2026-06-03T21:32:40.948Z",
+      "renglones_adj": [
+        {
+          "reng": "4",
+          "desc": "Catgut cromado - Marca ABLE",
+          "cant": 600,
+          "precio_able": 2720,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-05-14",
@@ -44475,6 +44254,24 @@
       "creado": "2026-08-03T17:18:40.827Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 198,
       "entidad": "Htal Mi Pueblo",
       "nro": "PA 129",
@@ -44488,25 +44285,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-03T17:20:57.054Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-03T17:20:57.054Z"
-    },
-    {
+      "tabla": null,
       "id": 199,
       "entidad": "Htal Mi Pueblo",
       "nro": "PA 130",
@@ -44520,25 +44319,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-03T17:20:57.889Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-03T17:20:57.889Z"
-    },
-    {
+      "tabla": null,
       "id": 200,
       "entidad": "Htal Piñeyro",
       "nro": "PA 104",
@@ -44552,24 +44353,171 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
+      "creado": "2026-08-03T17:44:41.154Z"
+    },
+    {
+      "preadj_fecha": "2026-05-26",
+      "preadj_empate_ok": "Si",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "14",
+          "desc": "Camisolin descartable 30g/m2 TNT SMS, no esteril, no hemorrepelente - Marca ArgentCare",
+          "cant": 12000,
+          "precio_able": 671.72,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por Ministerio por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "12",
+          "desc": "Renglon rechazado a ABLE por no ajustarse (camisolin sin pechera)",
+          "cant": 0,
+          "precio_able": 0,
+          "marca": "",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Desierto",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "Diego",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-03T17:44:41.154Z"
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Bhaurac S.A.",
+          "Drog. Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "12",
+            "cant": 1300,
+            "desc": "Camisolin esteril hemorrepelente tela SMS 45g, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras ajuste cuello y cintura, puños algodon ajustables en muneca - Marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1725,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 5251.4,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 12000,
+            "desc": "Camisolin no esteril, no hemorrepelente 30g, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras ajuste cuello y cintura, puños de elastico ajustables en muneca - Marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 678.5,
+                "marca": "ArgentCare",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1695.95,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 900.24,
+                "marca": "DMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 677.7,
+                "marca": "(⚠️ PEMED — cotiza 24,5g, pliego exige 30g) — objetable por especificaciones",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 12000,
+            "desc": "ALT 1 — Camisolin no esteril, hemorrepelente SMS 30g, descartable, manga larga, c/tiras ajuste, puños algodon ajustables en muneca - Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 850,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 12000,
+            "desc": "ALT 2 — Camisolin no esteril, no hemorrepelente 20g, descartable, manga larga, c/tiras ajuste, puños de elastico ajustables en muneca - Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 511.75,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p><strong>Reng.12</strong> (camisolin esteril hemorrepelente SMS 45g, 1.300u) — ABLE gana en limpio $1.725,00. Bhaurac $5.251,40 (unico competidor). Acta desestimo a ABLE por “no ajustarse” (camisolin sin pechera) — ABLE impugno.</p>\n    <p><strong>Reng.14</strong> (camisolin no esteril no hemorrepelente 30g, 12.000u) — ABLE $678,50 vs Martorani $677,70. Diferencia 0,12% = <strong>EMPATE TECNICO</strong>. ⚠️ Martorani OBJETABLE: cotiza camisolin de 24,5g cuando el pliego exige 30g/m2. Con la objecion, ABLE queda como unico oferente valido y debe adjudicarse.</p>\n    <p><strong>Reng.14 ALT1</strong> (camisolin no esteril hemorrepelente SMS 30g, 12.000u) — ABLE unica oferente $850,00.</p>\n    <p><strong>Reng.14 ALT2</strong> (camisolin no esteril no hemorrepelente 20g, 12.000u) — ABLE unica oferente $511,75.</p>\n    <p><strong>RESULTADO FINAL:</strong> Ministerio rechazo por precio excesivo tras preadjudicacion favorable de la comision. ABLE no obtuvo OC.</p>\n  "
+      },
+      "id": 201,
+      "entidad": "H.I.G.A. Petrona V. de Cordero",
+      "nro": "PA 73",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-05-20",
+      "monto": 10384500,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "OC",
+      "empate": "Si",
+      "pref": "No",
+      "obs": "PA 73/2026 H.I.G.A. Petrona V. de Cordero. Reng.12 ABLE gana verde ($1.725) pero acta la desestimo. Reng.14 empate tecnico ABLE $678,50 vs Martorani $677,70 (0,12%); Martorani objetable (24,5g vs 30g). Ministerio rechazo por precio excesivo. ABLE sin OC. Gestion Diego.",
+      "creado": "2026-08-03T19:42:06.054Z"
     }
   ],
-  "nextId": 201
+  "nextId": 202
 }
