@@ -447,7 +447,7 @@ body.modo-lectura .modal-body select:disabled{
     <h2 id="compTitle">Comparativa</h2>
     <button class="modal-close" onclick="closeComp()">&#215;</button>
   </div>
-  <div class="modal-body" id="compBody" style="padding:16px;overflow-x:auto"></div>
+  <div class="modal-body" id="compBody" style="padding:16px;overflow:auto;max-height:calc(92vh - 120px)"></div>
   <div class="modal-ftr">
     <button class="btn btn-outline" onclick="closeComp()">Cerrar</button>
   </div>
@@ -1946,12 +1946,16 @@ function buildCompHTML(t){
 
   const fmtP=p=>p!=null?'$'+Number(p).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}):'—';
 
+  // Reng./Cant. quedan "congeladas" a la izquierda (sticky) y el encabezado
+  // queda fijo arriba (sticky), como freeze panes de Excel, para no perder
+  // la referencia al scrollear tablas largas en las dos direcciones.
+  const wReng=50, wCant=55;
   let html=`<table style="width:100%;border-collapse:collapse;font-size:12px">
     <thead><tr>
-      <th class="comp-hdr" style="min-width:50px">Reng.</th>
-      <th class="comp-hdr" style="min-width:55px">Cant.</th>
-      <th class="comp-hdr" style="min-width:200px;text-align:left;padding-left:10px">Descripción</th>
-      ${ofs.map(o=>`<th class="comp-hdr" style="min-width:130px">${o}</th>`).join('')}
+      <th class="comp-hdr" style="min-width:${wReng}px;width:${wReng}px;position:sticky;top:0;left:0;z-index:3">Reng.</th>
+      <th class="comp-hdr" style="min-width:${wCant}px;width:${wCant}px;position:sticky;top:0;left:${wReng}px;z-index:3">Cant.</th>
+      <th class="comp-hdr" style="min-width:200px;text-align:left;padding-left:10px;position:sticky;top:0;z-index:2">Descripción</th>
+      ${ofs.map(o=>`<th class="comp-hdr" style="min-width:130px;position:sticky;top:0;z-index:2">${o}</th>`).join('')}
     </tr></thead><tbody>`;
 
   t.renglones.forEach((row,idx)=>{
@@ -1959,8 +1963,8 @@ function buildCompHTML(t){
     const cm={};
     (row.celdas||[]).forEach(c=>{cm[c.oferente]=c;});
     html+=`<tr>
-      <td style="padding:8px 10px;text-align:center;vertical-align:top;font-weight:bold;color:#1a3a5c;border-bottom:1px solid #f0f0f0">${row.reng||''}${row.es_alt?'<br><em style="font-size:9px;font-weight:normal;color:#999">(alt)</em>':''}</td>
-      <td style="padding:8px 10px;text-align:center;vertical-align:top;color:#555;border-bottom:1px solid #f0f0f0">${row.cant||''}</td>
+      <td style="padding:8px 10px;text-align:center;vertical-align:top;font-weight:bold;color:#1a3a5c;border-bottom:1px solid #f0f0f0;background:#fff;position:sticky;left:0;z-index:1;width:${wReng}px">${row.reng||''}${row.es_alt?'<br><em style="font-size:9px;font-weight:normal;color:#999">(alt)</em>':''}</td>
+      <td style="padding:8px 10px;text-align:center;vertical-align:top;color:#555;border-bottom:1px solid #f0f0f0;background:#fff;position:sticky;left:${wReng}px;z-index:1;width:${wCant}px">${row.cant||''}</td>
       <td style="padding:8px 10px;vertical-align:top;font-size:11.5px;line-height:1.5;border-bottom:1px solid #f0f0f0">${row.desc||''}</td>
       ${ofs.map(o=>{
         const c=cm[o]||{};
