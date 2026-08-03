@@ -8982,14 +8982,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "2026-06-05",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-06-09",
+      "adj_monto_able": 16740040,
+      "adj_resumen": "ABLE adjudicada en 10 renglones de suturas. OC 265/2026. Total: $16.740.040,00. Licitacion MAYOR.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-06-09",
+      "oc_alertas": "OC Nro. 265/2026 fecha 09/06/2026. 10 renglones de suturas (ABLE y Surgimax). Total: $16.740.040,00. H.I.G.A. Evita Lanus. Licitacion MAYOR.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -9643,11 +9643,123 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Comparativa LP 91/2026 Evita — Suturas quirófano. ABLE gana renglones 3,5,7,8,9,10,11,12,13,14 por menor precio. Renglones 4 y 6 ABLE no gana (precio base más alto). Alternativas cotizadas en renglones 4,5,6,10,11,12,13,14.",
-      "creado": "2026-06-03T21:46:07.477Z"
+      "creado": "2026-06-03T21:46:07.477Z",
+      "renglones_adj": [
+        {
+          "reng": "3",
+          "desc": "Sutura - Marca ABLE",
+          "cant": 250,
+          "precio_able": 1500,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura polipropileno - Marca ABLE",
+          "cant": 1000,
+          "precio_able": 2490,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura polipropileno - Marca ABLE",
+          "cant": 200,
+          "precio_able": 5920.2,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "8",
+          "desc": "Catgut simple - Marca ABLE",
+          "cant": 600,
+          "precio_able": 2350,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Catgut cromado - Marca ABLE",
+          "cant": 700,
+          "precio_able": 2720,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura nylon monofilamento - Marca Surgimax",
+          "cant": 3000,
+          "precio_able": 559,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura nylon monofilamento - Marca Surgimax",
+          "cant": 2000,
+          "precio_able": 559,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura nylon monofilamento - Marca Surgimax",
+          "cant": 1000,
+          "precio_able": 559,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "13",
+          "desc": "Sutura PGA - Marca Surgimax",
+          "cant": 4000,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura PGA - Marca Surgimax",
+          "cant": 1000,
+          "precio_able": 1203,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-06-17",
@@ -44287,7 +44399,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-08-03T14:15:14.154Z"
+    },
+    {
+      "id": 196,
+      "entidad": "Htal Cestino",
+      "nro": "PA 52",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-07",
+      "monto": 9931000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-03T15:08:49.036Z"
     }
   ],
-  "nextId": 196
+  "nextId": 197
 }
