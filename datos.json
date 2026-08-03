@@ -13597,12 +13597,35 @@
       "creado": "2026-06-16T14:58:43.065Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-06-26",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin no esteril hemorrepelente SMS 45Grs., manga larga, tiras ajuste cuello y cintura, puños algodon ajustables en muneca - Marca ArgentCare",
+          "cant": 1000,
+          "precio_able": 1322.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Equipo de cirugia SMS descartable esteril con 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos - Marca Ebano",
+          "cant": 100,
+          "precio_able": 22195,
+          "marca": "Ebano",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.1 y 2. Total: $3.542.000,00. Reng.1 (camisolin no esteril hemorrepelente SMS 45Grs., marca ArgentCare, 1.000u x $1.322,50 = $1.322.500, PP). Reng.2 (equipo cirugia SMS esteril con 4 camisolines + campos, marca Ebano, 100u x $22.195 = $2.219.500, PP). Rengs.6,7,8,9,11 a Igaltex (papel medico). Rengs.12,13,14,15,16,17,18,19 a Terragene (indicadores). Reng.5 a RC Radiologia. Reng.22 a Flores Diego. Reng.21 desierto.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -13819,7 +13842,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "PA 155/2026 H.I.G.A. Presidente Peron. ABLE gana r1 y r2. Pierde r7,r8,r9,r11 contra Igaltex (nacional). Verificar codigo reng 8. Gestion Noe.",
