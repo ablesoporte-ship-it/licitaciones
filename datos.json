@@ -43976,40 +43976,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 179,
-      "entidad": "Htal Wilde",
-      "nro": "LP 11",
-      "tipo": "Privada",
-      "fecha": "2026-08-06",
-      "monto": 4440000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-31T21:42:54.825Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 180,
       "entidad": "Htal El Dique",
       "nro": "PA 42",
@@ -45516,7 +45482,145 @@
       "pref": "No",
       "obs": "PA 73/2026 H.I.G.A. Petrona V. de Cordero. Reng.12 ABLE gana verde ($1.725) pero acta la desestimo. Reng.14 empate tecnico ABLE $678,50 vs Martorani $677,70 (0,12%); Martorani objetable (24,5g vs 30g). Ministerio rechazo por precio excesivo. ABLE sin OC. Gestion Diego.",
       "creado": "2026-08-03T19:42:06.054Z"
+    },
+    {
+      "id": 202,
+      "entidad": "HTAL WILDE",
+      "nro": "PA 11",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-04",
+      "monto": 4440000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglón 4 (Camisolín estéril, hemorrepelente, descartable, 2.400 un.) — ABLE $1.850,00 vs. Bioprotec $2.444,00 (Biosan) y Bhaurac $6.616,76 (Dimex). ABLE gana por precio, 24,3% por debajo de Bioprotec y 72% por debajo de Bhaurac. Pendiente de confirmación — el pliego exige puños de algodón elastizados, distintos talles y refuerzo en pechera y mangas. La carta de ABLE confirma tela SMS 45gs y puños de algodón, pero no menciona que sean elastizados, no menciona talles ni el refuerzo en pechera/mangas. ABLE cotiza además una alternativa (ALT1) en versión NO estéril a $1.322,50 — el pliego exige explícitamente que el producto sea estéril, por lo que esta alternativa no cumple la especificación básica del renglón y queda solo de referencia, sin competir. ABLE no cotiza el renglón 5 (campo quirúrgico) ni los renglones 1, 2 y 3 (almohada y ambos de quirófano) — quedan fuera de esta comparativa.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Bioprotec S.R.L.",
+          "Bhaurac S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "4",
+            "cant": 2400,
+            "desc": "Camisolín estéril, hemorrepelente, descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1850,
+                "marca": "CE.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": 2444,
+                "marca": "Biosan PM 2545-1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 6616.76,
+                "marca": "Dimex - DCI02004",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 2400,
+            "desc": "(ALT ABLE — NO cumple pliego, requiere estar estéril) Camisolín NO estéril, hemorrepelente, descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "C.SMS.120.ALG.45.A - ArgentCare (no estéril)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Renglón 4 (Camisolín estéril, hemorrepelente, descartable, 2.400 un.) — ABLE $1.850,00 vs. Bioprotec $2.444,00 (Biosan) y Bhaurac $6.616,76 (Dimex). ABLE gana por precio, 24,3% por debajo de Bioprotec y 72% por debajo de Bhaurac. Pendiente de confirmación — el pliego exige puños de algodón elastizados, distintos talles y refuerzo en pechera y mangas. La carta de ABLE confirma tela SMS 45gs y puños de algodón, pero no menciona que sean elastizados, no menciona talles ni el refuerzo en pechera/mangas. ABLE cotiza además una alternativa (ALT1) en versión NO estéril a $1.322,50 — el pliego exige explícitamente que el producto sea estéril, por lo que esta alternativa no cumple la especificación básica del renglón y queda solo de referencia, sin competir. ABLE no cotiza el renglón 5 (campo quirúrgico) ni los renglones 1, 2 y 3 (almohada y ambos de quirófano) — quedan fuera de esta comparativa."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-04T20:05:37.020Z"
+    },
+    {
+      "id": 203,
+      "entidad": "Htal Militar Central",
+      "nro": "LP 84",
+      "tipo": "Pública",
+      "fecha": "2026-08-05",
+      "monto": 45454712,
+      "mayor": "Sí",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-04T20:42:05.438Z"
     }
   ],
-  "nextId": 202
+  "nextId": 204
 }
