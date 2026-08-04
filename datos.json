@@ -159,7 +159,7 @@
         "notas": "ABLE gana por precio. todos los renglones  ① Sedesa S.A. — Renglones 1, 2 y 3: cotiza sutura de POLIGLACTINA (VICRYL J&J) cuando el pliego exige ÁCIDO POLIGLICÓLICO. NO cumple con las especificaciones técnicas del pliego y podría ser DESESTIMADA. Se marca como (obj) en la comparativa."
       },
       "id": 15,
-      "entidad": "H.I.A.E.P. SOR MARÍA LUDOVICA",
+      "entidad": "HTAL LUDOVICA",
       "nro": "PA 200",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-05-21",
@@ -7698,7 +7698,7 @@
         "notas": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional."
       },
       "id": 51,
-      "entidad": "HTAL ERILL",
+      "entidad": "HTAL DR. ENRIQUE ERILL",
       "nro": "PA 79",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-30",
@@ -12483,7 +12483,7 @@
         }
       ],
       "gestion_pre": "Diego",
-      "gestion_pre_resultado": "Perdido - ABLE desestimada rengs 60 y 61.",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -13125,7 +13125,7 @@
         "notas": "\n    <p>① Reng. 21 — ABLE cumple pliego. Suturas SRL $4.000,00: <strong>VALIDAR si cotiza por unidad o por cartucho x6u.</strong> Si por unidad: equiv x6 = $24.000,00 y ABLE gana.</p>\n    <p>② Reng. 48, 49, 50 — ABLE cotiza aguja 35mm vs pliego 36,4mm CT-1 atraloc. Diferencia mínima. A criterio del evaluador.</p>\n    <p>③ Reng. 51 — <strong>Preferencia nacional (+9,55%):</strong> ABLE $1.205,00 vs Cardiopack $1.320,11 (Surgikal/India). Dif. téc.: ABLE aguja 1/2 círculo punta redonda vs pliego 3/8 círculo reverso cortante 30mm.</p>\n    <p>④ Reng. 55 — <strong>Preferencia nacional (+4,4%):</strong> ABLE $2.390,00 vs Cardiopack $2.289,32 (Surgikal/India). Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 36mm multipass punta cilíndrica.</p>\n    <p>⑤ Reng. 56 — ABLE gana $2.390,00. Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 22mm multipass punta cilíndrica SH1.</p>\n    <p>⑥ Reng. 57 — ABLE gana $2.390,00. Dif. téc.: ABLE aguja 25mm punta redonda vs pliego 26mm multipass punta cilíndrica.</p>\n    <p>⑦ Reng. 58 — <strong>Preferencia nacional (+4,5%):</strong> ABLE $3.000,00 vs Cirugía Argentina $2.870,00 (Tagum/Perú). Dif. téc.: ABLE punta redonda vs pliego punta cilíndrica multipass.</p>\n    <p>⑧ Reng. 59 — ABLE gana $4.000,00. Dif. téc.: ABLE punta redonda vs pliego punta cilíndrica multipass.</p>\n    <p>⑨ Reng. 60 — <strong>Preferencia nacional (+4,85%):</strong> ABLE $5.980,00 vs Cardiopack $5.703,94 (Surgikal/India). Dif. téc.: ABLE aguja 9mm hebra 60cm vs pliego 9,3mm hebra 75cm.</p>\n    <p>⑩ Reng. 61 — ABLE $5.980,00 vs Cardiopack $4.841,21 (Surgikal/India, +23,5%). Dif. téc.: ABLE hebra 60cm vs pliego 75cm.</p>\n    <p>⑪ Reng. 62 — ABLE $5.980,00 vs Cardiopack $4.841,21 (Surgikal/India, +23,5%). Dif. téc.: ABLE aguja 9mm hebra 60cm vs pliego 9,3mm hebra 75cm.</p>\n    <p>⑫ Todas las diferencias técnicas quedan a criterio del comité evaluador del hospital.</p>\n  "
       },
       "id": 75,
-      "entidad": "H.I.G.A. Eva Peron",
+      "entidad": "HTAL Eva Peron",
       "nro": "PA 142",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-17",
@@ -13135,7 +13135,7 @@
       "agente": "Diego",
       "etapa": "Pre-adjudicación",
       "empate": "No",
-      "pref": "Si",
+      "pref": "",
       "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref. nac. en r55 (+4,4% vs Cardiopack India), r58 (+4,5% vs CirArg Peru), r60 (+4,85% vs Cardiopack India). Reng 21: validar unidad Suturas SRL. Dif tecnicas en rengs 48-62 a criterio evaluador. Gestion Diego.",
       "creado": "2026-06-11T12:36:57.708Z"
     },
@@ -18362,12 +18362,211 @@
       "creado": "2026-06-24T13:11:07.338Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-22",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura Nylon N°3/0 aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Surgimax",
+          "cant": 48,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura Polipropileno N°4/0 aguja 25mm 1/2 circ. punta redonda hebra 75cm - ABLE",
+          "cant": 72,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura Polipropileno N°4/0 doble aguja 25mm 1/2 circ. punta redonda hebra 90cm - Surgimax",
+          "cant": 72,
+          "precio_able": 2390,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura Polipropileno N°5/0 doble aguja 13mm 3/8 circ. punta redonda hebra 90cm - Surgimax (⚠️ ABLE ofrece 90cm, pliego exige 60cm)",
+          "cant": 144,
+          "precio_able": 2415,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura Polipropileno N°7/0 doble aguja 09mm 3/8 circ. punta redonda hebra 60cm - ABLE",
+          "cant": 72,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura Polipropileno N°6/0 doble aguja 12mm 3/8 circ. punta redonda hebra 75cm - Surgimax",
+          "cant": 36,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "20",
+          "desc": "Sutura PGA N°2/0 aguja 40mm 1/2 circ. punta redonda hebra 70cm - ABLE (⚠️ pliego exige punta reverso cortante OS-8 y 3/8 circ.)",
+          "cant": 72,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Desestimado",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "21",
+          "desc": "Sutura PGA N°3/0 aguja 25mm 1/2 circ. punta redonda hebra 70cm - Surgimax",
+          "cant": 180,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "22",
+          "desc": "Sutura PGA N°5/0 aguja 15mm 1/2 circ. punta redonda hebra 70cm - Surgimax",
+          "cant": 72,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "23",
+          "desc": "Sutura Nylon N°6/0 aguja 16mm 3/8 circ. punta rev. cort. hebra 45cm - Surgimax",
+          "cant": 36,
+          "precio_able": 665,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Medic Tools SRL (Tagum)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "24",
+          "desc": "Sutura Nylon N°9/0 doble aguja 6,5mm 3/8 circ. punta rev. cort. hebra 30cm - ABLE (⚠️ pliego exige aguja simple 5mm hebra 13cm — Medic Tools Tagum Peru importado gana sin aplicar preferencia nacional)",
+          "cant": 12,
+          "precio_able": 13200,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 12900,
+          "ganador_sig": "Medic Tools SRL (Tagum, Peru importado) — preferencia nacional no aplicada",
+          "motivo": "superado"
+        },
+        {
+          "reng": "28",
+          "desc": "Sutura PGA N°2/0 aguja 30mm 3/8 circ. reverso cortante hebra 70cm - Surgimax (⚠️ pliego exige UR-6 5/8 circ. 26mm punta redonda ahusada)",
+          "cant": 72,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "29",
+          "desc": "Sutura PGA N°0 aguja 35mm 1/2 circ. punta redonda hebra 70cm - Surgimax (⚠️ pliego exige HS35 40mm punta reverso cortante)",
+          "cant": 72,
+          "precio_able": 1250,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Medic Tools SRL (Tagum)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "30",
+          "desc": "Sutura PGA N°0 aguja 35mm 1/2 circ. punta redonda hebra 70cm - Surgimax",
+          "cant": 36,
+          "precio_able": 1250,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "31",
+          "desc": "Sutura PGA N°2/0 aguja 40mm 1/2 circ. punta redonda hebra 70cm - ABLE (⚠️ pliego exige punta reverso cortante OS-8 — unico oferente, desestimado)",
+          "cant": 72,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Desestimado — ABLE unica oferente pero punta no ajusta",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "34",
+          "desc": "LigaClip LT300 - clips titanio tipo LT300 - Marca ABLE",
+          "cant": 72,
+          "precio_able": 5350,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 4830,
+          "ganador_sig": "Euroswiss SA (revende producto de ABLE a $4.830 — mas barato que ABLE directa)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "35",
+          "desc": "LigaClip LT200 - clips titanio tipo LT200 - Marca ABLE",
+          "cant": 36,
+          "precio_able": 5885,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sedesa SA (J&J)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "37",
+          "desc": "LigaClip LT400 - clips titanio tipo LT400 - Marca ABLE",
+          "cant": 36,
+          "precio_able": 6500,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 5800,
+          "ganador_sig": "Euroswiss SA (revende producto de ABLE a $5.800 — mas barato que ABLE directa)",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE no adjudicada en ningun renglon. Sedesa SA (J&J) gana mayoria de renglones CCV por ajustarse a lo solicitado. Medic Tools SRL (Tagum, Peru) gana rengs.2,5,23,25,26,29. Euroswiss gana rengs.34 y 37 (revende clips ABLE a menor precio). Rengs.8,20,28,29,31: ABLE con diferencias de especificacion vs pliego (punta, circulo, hebra). Reng.24: Medic Tools $12.900 (importado Peru) gana vs ABLE $13.200 — preferencia nacional no aplicada. Rengs.18,20,31,34,38 desestimados. Rengs.39-43 desiertos.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -19030,9 +19229,9 @@
       "fecha": "2026-07-01",
       "monto": 2969796,
       "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Comparativa",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "Sí",
       "obs": "PA 241/2026 H.I.A.E.P. Sor Maria Ludovica. ABLE cotiza 18 renglones de suturas quirurgicas cardiovasculares y pediatricas, drenajes y clips titanio. CRITICO: rengs 20,31 punta redonda vs reverso cortante del pliego; reng 28 circulo y punta distintos; reng 29 tamaño y punta distintos; reng 24 doble aguja vs simple del pliego - posible rechazo tecnico pero ABLE GANA via PREFERENCIA NACIONAL (2.3% vs Tagum Peru importado, dentro del 10%). Rengs 34 y 37 clips titanio: Euroswiss revende producto de ABLE mas barato (ambos nacionales, no aplica pref nacional entre ellos). Zona/agente pendiente asignar.",
@@ -30191,14 +30390,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-07-25",
+      "adj_monto_able": 383180,
+      "adj_resumen": "ABLE adjudicada en rengs.1,4,5,6. Total: $383.180,00. Reng.1 (LT300 50u x $5.350 = $267.500, PAS). Reng.4 (PGA N°4/0 24u x $1.205 = $28.920, preferencia nacional). Reng.5 (PGA N°6/0 24u x $1.205 = $28.920). Reng.6 (PGA N°5/0 48u x $1.205 = $57.840, preferencia nacional). OC 365/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-25",
+      "oc_alertas": "OC Nro. 365/2026 fecha 25/07/2026. Reng.1 (LT300 50u x $5.350 = $267.500). Reng.4 (PGA N°4/0 24u x $1.205 = $28.920). Reng.5 (PGA N°6/0 24u x $1.205 = $28.920). Reng.6 (PGA N°5/0 48u x $1.205 = $57.840). Total: $383.180,00. Disposicion DISPO-2026-1130-GDEBA-HZGADMMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -30499,11 +30698,57 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "Reng.1 (LigaClip LT300, 50u) — ABLE gana claro, $5.350,00 vs Cirugía Argentina $8.160,00. Reng.2 y reng.3 (poliglicólico N°0 y N°1, 250u y 150u) — Cardiopack (Surgikal, India) gana con $1.194,27 vs ABLE $1.250,00 — diferencia de 4,67%, dentro de la banda de PREFERENCIA NACIONAL (2-10%) a favor de ABLE. Cirugía Argentina $1.798,00, Martorani $2.448,60. Reng.4 (poliglicólico 4/0, 24u) — Cardiopack gana por apenas 0,90% ($1.194,27 vs ABLE $1.205,00) — EMPATE TÉCNICO a favor de industria nacional. Cirugía Argentina $1.938,00, Martorani $2.448,60. Reng.5 (poliglicólico 6/0, 24u) — Cardiopack NO COTIZÓ este renglón. ABLE gana directo, $1.205,00 vs Cirugía Argentina $1.938,00 y Martorani $2.448,60. Reng.6 (poliglactina c/aguja 5/0, 48u) — ABLE gana claro, $1.205,00 vs Cardiopack $1.212,42 (0,62%), Cirugía Argentina $1.938,00, Martorani $2.448,60. Total oferta ABLE: $1.216.930,00 (verificado, coincide con el monto ya cargado).",
-      "creado": "2026-07-16T19:19:50.227Z"
+      "creado": "2026-07-16T19:19:50.227Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo LT300 - Marca ABLE (Ind. Argentina)",
+          "cant": 50,
+          "precio_able": 5350,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura PGA N°4/0 aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. Argentina)",
+          "cant": 24,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura PGA N°6/0 aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. Argentina)",
+          "cant": 24,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura PGA N°5/0 aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. Argentina)",
+          "cant": 48,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-07-23",
@@ -43985,37 +44230,686 @@
       "creado": "2026-07-31T21:42:54.899Z"
     },
     {
+      "id": 187,
+      "entidad": "HTAL DR. ENRIQUE ERILL",
+      "nro": "PA 83",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-04",
+      "monto": 3706900,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Solo se incluyen los renglones que ABLE cotiza (1 a 9) de los 13 del pliego. Empate tecnico: renglon 6, ABLE vs Cardiopack/SURGIKAL India (diferencia 1,56%). Preferencia nacional para ABLE: renglon 7 vs Cardiopack/SURGIKAL India (diferencia 3,43%). Renglon 9: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (15%), fuera de rango. Renglones 1, 2, 3, 4, 5 y 8: ABLE gana directo con su marca base (Surgimax o ABLE). Renglon 4: Cardiopack declara su propia oferta como '(Alternativa)' por variar la especificacion de aguja. ABLE cotiza cada renglon con dos marcas propias (Surgimax como base, mas barata; ABLE como alternativa, mas cara) en los renglones 1,2,4,6,7,9. En el renglon 7 la alternativa ABLE resulta mas barata que la base Surgimax.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Max Continental S.A.",
+          "Cirugía Argentina S.A. (Tagum)"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 300,
+            "desc": "Sutura ac. poliglicolico N1, aguja 40mm, 1/2 circ., punta cilindrica",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1210,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1228.15,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1655.57,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1762,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 300,
+            "desc": "ALTERNATIVA — Sutura Ac. Poliglicolico N1, aguja 40mm, 1/2 circ., punta redonda, hebra 90cm - Marca ABLE (cod. PGA014090A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 200,
+            "desc": "Sutura ac. poliglicolico N3/0, aguja 26mm, 1/2 circ., punta cilindrica",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1228.15,
+                "marca": "SURGIKAL - Industria Argentina",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1517.94,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1662,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 200,
+            "desc": "ALTERNATIVA — Sutura Ac. Poliglicolico N3/0, aguja 25mm, 1/2 circ., punta redonda, hebra 70cm - Marca ABLE (cod. PGA302570A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 150,
+            "desc": "Sutura polipropileno azul N1, aguja 40mm, 1/2 circ., punta cilindrica",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1650.44,
+                "marca": "SURGIKAL - Industria Argentina",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 2345,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 200,
+            "desc": "Sutura polipropileno c/aguja punta redonda 1/2 circ. 40mm calibre 0",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1650.44,
+                "marca": "SURGIKAL - Industria Argentina (Alternativa spec)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1650,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 2115,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 1",
+            "cant": 200,
+            "desc": "ALTERNATIVA — Sutura Polipropileno N0, aguja 40mm, 1/2 circ., punta redonda, hebra 75cm - Marca ABLE (cod. PPA004075A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 144,
+            "desc": "Sutura polipropileno azul N4/0, aguja 25mm, 1/2 circ.",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2474.45,
+                "marca": "SURGIKAL - Industria Argentina",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5 ALT",
+            "cant": 144,
+            "desc": "ALTERNATIVA — Cirugia Argentina, así etiquetada por el propio oferente (5 Alt)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 2820,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 500,
+            "desc": "Sutura nylon negro N2/0, aguja 3/8 circ. reverso cortante",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 596,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 586.85,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1105,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6 ALT 1",
+            "cant": 500,
+            "desc": "ALTERNATIVA — Sutura Nylon Monofilamento N2/0, aguja 26mm, 3/8 circ., punta rev.cort., hebra 75cm - Marca ABLE (cod. NYA202675F)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 500,
+            "desc": "Sutura nylon negro N3/0, aguja 24mm, 3/8 circ. reverso cortante",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 586.85,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1105,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7 ALT 1",
+            "cant": 500,
+            "desc": "ALTERNATIVA — Sutura Nylon Monofilamento N3/0, aguja 24mm, 3/8 circ., punta rev.cort., hebra 75cm - Marca ABLE (cod. NYA302475F) - mas barata que la base",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 596,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 600,
+            "desc": "Sutura poligalactina 90cm, aguja 1/2 circ. 50mm calibre 1",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1823.05,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 1762,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 700,
+            "desc": "Sutura ac. poliglicolico N2, aguja 35mm, 1/2 circ., punta cilindrica",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1350,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1173.7,
+                "marca": "SURGIKAL - India",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1790.16,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": 2075,
+                "marca": "Tagum - Peru",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9 ALT 1",
+            "cant": 700,
+            "desc": "ALTERNATIVA — Sutura Ac. Poliglicolico N2, aguja 35mm, 1/2 circ., punta redonda, hebra 70cm - Marca ABLE (cod. PGA023570A)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A. (Tagum)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Empate tecnico: renglon 6, ABLE vs Cardiopack/SURGIKAL India (diferencia 1,56%). Preferencia nacional para ABLE: renglon 7 vs Cardiopack/SURGIKAL India (diferencia 3,43%). Renglon 9: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (15%), fuera de rango. Renglones 1, 2, 3, 4, 5 y 8: ABLE gana directo con su marca base (Surgimax o ABLE). Renglon 4: Cardiopack declara su propia oferta como '(Alternativa)' por variar la especificacion de aguja. ABLE cotiza cada renglon con dos marcas propias (Surgimax como base, mas barata; ABLE como alternativa, mas cara) en los renglones 1,2,4,6,7,9. En el renglon 7 la alternativa ABLE resulta mas barata que la base Surgimax."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 187,
-      "entidad": "Htal Erill",
-      "nro": "PA 83",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-04",
-      "monto": 6661700,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-31T21:42:54.909Z"
     },
     {
