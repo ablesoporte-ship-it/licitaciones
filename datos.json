@@ -41008,37 +41008,1931 @@
       "creado": "2026-07-24T18:06:31.428Z"
     },
     {
+      "id": 170,
+      "entidad": "Hospital Naval Buenos Aires Cirujano Mayor Dr. Pedro Mallo",
+      "nro": "LP 38",
+      "tipo": "Licitacion Privada",
+      "fecha": "2026-07-29",
+      "monto": 25429395,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "LP 38/2026 Hospital Naval Pedro Mallo, Armada Argentina. ABLE cotiza 33 renglones (con ALTs) de suturas catgut, nylon y polipropileno. Total cotizado: $41.181.122,88. ABLE gana la mayoria. Reng.35 pierde vs Max Continental, reng.43 pierde vs Bhaurac. Gestion Diego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Pharma Express",
+          "ALTECH",
+          "EQUIP. DELUCA",
+          "UNOLEX",
+          "Sedesa S.A.",
+          "Tomarchio",
+          "BHAURAC",
+          "MAX CONT."
+        ],
+        "renglones": [
+          {
+            "reng": "6",
+            "cant": 200,
+            "desc": "LigaClip LT200 - cartucho con 6 clips de titanio tipo LT200 - Marca ABLE (Ind. argentina) - cod. LT.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 7062,
+                "marca": "LT.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 16222,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EQUIP. DELUCA",
+                "precio": 10505,
+                "marca": "EQUIP. DELUCA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 20930.58,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 350,
+            "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo LT300 - Marca ABLE (Ind. argentina) - cod. LT.300",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6420,
+                "marca": "LT.300 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 16222,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EQUIP. DELUCA",
+                "precio": 12400,
+                "marca": "EQUIP. DELUCA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "UNOLEX",
+                "precio": 50000,
+                "marca": "UNOLEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 20930.58,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 552,
+            "desc": "Sutura de Catgut Cromado N°2 c/aguja - Marca ABLE (Ind. argentina) - cod. CLA024090A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3459.84,
+                "marca": "CLA024090A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 7777,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4277.96,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 192,
+            "desc": "Sutura de Catgut Simple N°0 c/aguja - Marca ABLE (Ind. argentina) - cod. CSA003570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2640,
+                "marca": "CSA003570A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 5956,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3640.89,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 264,
+            "desc": "Sutura de Catgut Simple N°1 c/aguja - Marca ABLE (Ind. argentina) - cod. CSA013570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2820,
+                "marca": "CSA013570A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 6716,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 384,
+            "desc": "Sutura Nylon N°2/0 c/aguja SCE - Marca Surgimax (Ind. argentina) - cod. NYM202645F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 728.4,
+                "marca": "NYM202645F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1523.67,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 2584,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2207.04,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1214,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 384,
+            "desc": "(ALT) Sutura Nylon N°2/0 c/aguja SCE 75cm - Marca ABLE (Ind. argentina) - cod. NYA202675F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 942,
+                "marca": "NYA202675F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 684,
+            "desc": "Sutura Nylon N°2/0 c/aguja recta - Marca Surgimax (Ind. argentina) - cod. NYM206075J",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 728.4,
+                "marca": "NYM206075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1414.84,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 2274,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1800.26,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 2240,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1280,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 812,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 684,
+            "desc": "(ALT) Sutura Nylon N°2/0 c/aguja recta 75cm - Marca ABLE (Ind. argentina) - cod. NYA206075J",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 942,
+                "marca": "NYA206075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 1440,
+            "desc": "Sutura Nylon Monofilamento N°3/0 - Marca Surgimax (Ind. argentina) - cod. NYM302045F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 728.4,
+                "marca": "NYM302045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1414.84,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 2274,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1877.46,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 2240,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1166,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 812,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 1440,
+            "desc": "(ALT) Sutura Nylon N°3/0 75cm - Marca ABLE (Ind. argentina) - cod. NYA302075F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 942,
+                "marca": "NYA302075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 1764,
+            "desc": "Sutura Nylon N°3/0 aguja recta - Marca Surgimax (Ind. argentina) - cod. NYM306075J",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 728.4,
+                "marca": "NYM306075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1394.91,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 2274,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1800.26,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 2240,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1166,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 812,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 1764,
+            "desc": "(ALT) Sutura Nylon N°3/0 aguja recta 75cm - Marca ABLE (Ind. argentina) - cod. NYA306075J",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 942,
+                "marca": "NYA306075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 432,
+            "desc": "Sutura Mononylon N°4/0 - Marca Surgimax (Ind. argentina) - cod. NYM402545F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 728.4,
+                "marca": "NYM402545F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1523.67,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 2274,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1943.26,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 2240,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1106,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 812,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 432,
+            "desc": "(ALT) Sutura Nylon N°4/0 75cm - Marca ABLE (Ind. argentina) - cod. NYA402575F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 942,
+                "marca": "NYA402575F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 324,
+            "desc": "Sutura Nylon Monofilamento N°4/0 - Marca Surgimax (Ind. argentina) - cod. NYM406075J",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 728.4,
+                "marca": "NYM406075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1523.67,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 2444,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1853.86,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 2240,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 1166,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 812,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 324,
+            "desc": "(ALT) Sutura Nylon Monofilamento N°4/0 75cm - Marca ABLE (Ind. argentina) - cod. NYA406075J",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 942,
+                "marca": "NYA406075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 72,
+            "desc": "Sutura Nylon Monofilamento N°6/0 c/aguja - Marca Surgimax (Ind. argentina) - cod. NYM601645F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 756,
+                "marca": "NYM601645F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 1980.77,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3267,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3227.58,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 5247.17,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29",
+            "cant": 360,
+            "desc": "Sutura PGA N°0 c/aguja - Marca Surgimax (Ind. argentina) - cod. PGM003570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "PGM003570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2285.5,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3189.41,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3219.45,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29",
+            "cant": 360,
+            "desc": "(ALT) Sutura PGA N°0 c/aguja - Marca ABLE (Ind. argentina) - cod. PGA003570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA003570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "30",
+            "cant": 324,
+            "desc": "Sutura PGA N°0 c/aguja - Marca Surgimax (Ind. argentina) - cod. PGM004070A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "PGM004070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2285.5,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3722.57,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3219.45,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2165,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "30",
+            "cant": 324,
+            "desc": "(ALT) Sutura PGA N°0 c/aguja - Marca ABLE (Ind. argentina) - cod. PGA004070A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA004070A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "31",
+            "cant": 144,
+            "desc": "Sutura de Acido Poliglicolico N°0 con aguja de 35mm, 1/2 Circ., punta Redonda, hebra de 90cm - Marca ABLE (Ind. argentina) - cod. PGA003590A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA003590A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2475.96,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 10690.5,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "32",
+            "cant": 1440,
+            "desc": "Sutura PGA N°1 - Marca Surgimax (Ind. argentina) - cod. PGM013570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "PGM013570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2063.3,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3189.41,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3165.6,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2137,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 1718.6,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "32",
+            "cant": 1440,
+            "desc": "(ALT) Sutura PGA N°1 - Marca ABLE (Ind. argentina) - cod. PGA013570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA013570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "33",
+            "cant": 1692,
+            "desc": "Sutura PGA N°1 c/aguja - Marca Surgimax (Ind. argentina) - cod. PGM014070A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "PGM014070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2063.3,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3283.3,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3175.65,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2137,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 1655.57,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "33",
+            "cant": 1692,
+            "desc": "(ALT) Sutura PGA N°1 c/aguja - Marca ABLE (Ind. argentina) - cod. PGA014070A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA014070A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "34",
+            "cant": 1044,
+            "desc": "Sutura PGA N°2/0 - Marca Surgimax (Ind. argentina) - cod. PGM202570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1446,
+                "marca": "PGM202570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2122.25,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2970.96,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3702,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2165,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 1517.33,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "34",
+            "cant": 1044,
+            "desc": "(ALT) Sutura PGA N°2/0 - Marca ABLE (Ind. argentina) - cod. PGA202570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA202570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "35",
+            "cant": 1116,
+            "desc": "Sutura PGA N°2/0 c/aguja - Marca ABLE (Ind. argentina) - cod. PGA204070A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA204070A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3080.56,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3175,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 1517.94,
+                "marca": "MAX CONT.",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "37",
+            "cant": 1800,
+            "desc": "Sutura PGA N°3/0 - Marca Surgimax (Ind. argentina) - cod. PGM302570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1446,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2063.3,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 3624,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2970.96,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3700,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2165,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONT.",
+                "precio": 1517.94,
+                "marca": "MAX CONT.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "37",
+            "cant": 1800,
+            "desc": "(ALT) Sutura PGA N°3/0 - Marca ABLE (Ind. argentina) - cod. PGA302570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA302570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "38",
+            "cant": 216,
+            "desc": "Sutura PGA N°4/0 - Marca Surgimax (Ind. argentina) - cod. PGM402570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1446,
+                "marca": "PGM402570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2475.96,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 4118,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2970.96,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3700,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2165,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "38",
+            "cant": 216,
+            "desc": "(ALT) Sutura PGA N°4/0 - Marca ABLE (Ind. argentina) - cod. PGA402570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1602,
+                "marca": "PGA402570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "39",
+            "cant": 72,
+            "desc": "Sutura PGA N°4/0 doble aguja - Marca Surgimax (Ind. argentina) - cod. PGM401570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1446,
+                "marca": "PGM401570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2475.96,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 4118,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3189.41,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3219.45,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "40",
+            "cant": 36,
+            "desc": "Sutura PGA N°5/0 c/aguja - Marca Surgimax (Ind. argentina) - cod. PGM501570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1446,
+                "marca": "PGM501570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 2475.96,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 4118,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3189.41,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 3219.45,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2337,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "41",
+            "cant": 72,
+            "desc": "Sutura Polipropileno N°0 - Marca ABLE (Ind. argentina) - cod. PPA002575A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1920,
+                "marca": "PPA002575A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 5264,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 5154.6,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 7972.45,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2003,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "42",
+            "cant": 48,
+            "desc": "Sutura Polipropileno N°0 c/aguja - Marca ABLE (Ind. argentina) - cod. PPM004075A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "PPM004075A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 5264,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4836.6,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 7980,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "43",
+            "cant": 96,
+            "desc": "Sutura Polipropileno N°2/0 - Marca ABLE (Ind. argentina) - cod. PPM202690C",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2868,
+                "marca": "PPM202690C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 3961.54,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 6578,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 7021.17,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 9510,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 2511,
+                "marca": "BHAURAC",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "44",
+            "cant": 48,
+            "desc": "Sutura Polipropileno N°3/0 c/2 agujas - Marca ABLE (Ind. argentina) - cod. PPM302590C",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2868,
+                "marca": "PPM302590C - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 4291.67,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 6578,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 7021.17,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 9380,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 4554,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "45",
+            "cant": 168,
+            "desc": "Sutura Polipropileno N°4/0 - Marca ABLE (Ind. argentina) - cod. PPA402575A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1920,
+                "marca": "PPA402575A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 4266.27,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 6251,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 7021.17,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 9327,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "46",
+            "cant": 72,
+            "desc": "Sutura Polipropileno N°5/0 c/2 agujas - Marca Surgimax (Ind. argentina) - cod. PPM501390G",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2898,
+                "marca": "PPM501390G - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 12161,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 9716.3,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 10530,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "47",
+            "cant": 72,
+            "desc": "Sutura Polipropileno N°6/0 c/2 agujas - Marca Surgimax (Ind. argentina) - cod. PPM601275G",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4800,
+                "marca": "PPM601275G - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 13114,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 14808.71,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 10530,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "48",
+            "cant": 48,
+            "desc": "Sutura Polipropileno N°7/0 - Marca ABLE (Ind. argentina) - cod. PPA700960G",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 7176,
+                "marca": "PPA700960G - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express",
+                "precio": 9078.53,
+                "marca": "Pharma Express",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 19256,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 14808.71,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC",
+                "precio": 10162,
+                "marca": "BHAURAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "55",
+            "cant": 96,
+            "desc": "Sutura Polipropileno Monofilamento N°1 - Marca ABLE (Ind. argentina) - cod. PPA0165150A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2592,
+                "marca": "PPA0165150A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 7986,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 9208.94,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Tomarchio",
+                "precio": 20325.2,
+                "marca": "Tomarchio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57",
+            "cant": 12,
+            "desc": "Sutura Nylon Monofilamento N°9/0 - Marca ABLE (Ind. argentina) - cod. NYA906,530G",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 15840,
+                "marca": "NYA906,530G - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 32081,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 39641.42,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "63",
+            "cant": 96,
+            "desc": "Sutura Catgut Cromado N°1 c/aguja - Marca ABLE (Ind. argentina) - cod. CLA013570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2820,
+                "marca": "CLA013570A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH",
+                "precio": 6716,
+                "marca": "ALTECH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3189.41,
+                "marca": "Sedesa",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>ABLE gana la mayoria de renglones por menor precio. <strong>Reng.35</strong> (PGA 2/0 c/ag 40mm 70cm, 1.116u): MAX CONT. gana a $1.517,94 vs ABLE $1.602. <strong>Reng.43</strong> (Polipropileno 2/0 doble aguja 90cm, 96u): BHAURAC gana a $2.511 vs ABLE $2.868. Total cotizado por ABLE: <strong>$41.181.122,88</strong>. LICITACIÓN MAYOR.</p>\n    <p>Renglones con ALT: ABLE ofrece base (cod. NYM/PGM/PPM, Surgimax) y alternativa (cod. NYA/PGA/PPA, Marca ABLE) con precio ligeramente superior ($942 nylon vs $728,40 base; $1.602 PGA vs $1.446-$1.500 base). Rengs.6 y 7 incluyen 3 clipadoras sin cargo en comodato para cirugia cardiovascular.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 170,
-      "entidad": "HTAL PEDRO MALLO",
-      "nro": "LP",
-      "tipo": "Privada",
-      "fecha": "2026-07-29",
-      "monto": 41181122,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-27T13:31:47.054Z"
     },
     {
@@ -44196,19 +46090,23 @@
       "creado": "2026-07-31T21:42:54.899Z"
     },
     {
-      "id": 187,
-      "entidad": "HTAL DR. ENRIQUE ERILL",
-      "nro": "PA 83",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-04",
-      "monto": 3706900,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "",
-      "pref": "",
-      "obs": "Solo se incluyen los renglones que ABLE cotiza (1 a 9) de los 13 del pliego. Empate tecnico: renglon 6, ABLE vs Cardiopack/SURGIKAL India (diferencia 1,56%). Preferencia nacional para ABLE: renglon 7 vs Cardiopack/SURGIKAL India (diferencia 3,43%). Renglon 9: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (15%), fuera de rango. Renglones 1, 2, 3, 4, 5 y 8: ABLE gana directo con su marca base (Surgimax o ABLE). Renglon 4: Cardiopack declara su propia oferta como '(Alternativa)' por variar la especificacion de aguja. ABLE cotiza cada renglon con dos marcas propias (Surgimax como base, mas barata; ABLE como alternativa, mas cara) en los renglones 1,2,4,6,7,9. En el renglon 7 la alternativa ABLE resulta mas barata que la base Surgimax.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -44860,22 +46758,19 @@
         ],
         "notas": "Empate tecnico: renglon 6, ABLE vs Cardiopack/SURGIKAL India (diferencia 1,56%). Preferencia nacional para ABLE: renglon 7 vs Cardiopack/SURGIKAL India (diferencia 3,43%). Renglon 9: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (15%), fuera de rango. Renglones 1, 2, 3, 4, 5 y 8: ABLE gana directo con su marca base (Surgimax o ABLE). Renglon 4: Cardiopack declara su propia oferta como '(Alternativa)' por variar la especificacion de aguja. ABLE cotiza cada renglon con dos marcas propias (Surgimax como base, mas barata; ABLE como alternativa, mas cara) en los renglones 1,2,4,6,7,9. En el renglon 7 la alternativa ABLE resulta mas barata que la base Surgimax."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 187,
+      "entidad": "HTAL DR. ENRIQUE ERILL",
+      "nro": "PA 83",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-04",
+      "monto": 3706900,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Solo se incluyen los renglones que ABLE cotiza (1 a 9) de los 13 del pliego. Empate tecnico: renglon 6, ABLE vs Cardiopack/SURGIKAL India (diferencia 1,56%). Preferencia nacional para ABLE: renglon 7 vs Cardiopack/SURGIKAL India (diferencia 3,43%). Renglon 9: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (15%), fuera de rango. Renglones 1, 2, 3, 4, 5 y 8: ABLE gana directo con su marca base (Surgimax o ABLE). Renglon 4: Cardiopack declara su propia oferta como '(Alternativa)' por variar la especificacion de aguja. ABLE cotiza cada renglon con dos marcas propias (Surgimax como base, mas barata; ABLE como alternativa, mas cara) en los renglones 1,2,4,6,7,9. En el renglon 7 la alternativa ABLE resulta mas barata que la base Surgimax.",
       "creado": "2026-07-31T21:42:54.909Z"
     },
     {
@@ -45484,19 +47379,23 @@
       "creado": "2026-08-03T19:42:06.054Z"
     },
     {
-      "id": 202,
-      "entidad": "HTAL WILDE",
-      "nro": "PA 11",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-04",
-      "monto": 4440000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Renglón 4 (Camisolín estéril, hemorrepelente, descartable, 2.400 un.) — ABLE $1.850,00 vs. Bioprotec $2.444,00 (Biosan) y Bhaurac $6.616,76 (Dimex). ABLE gana por precio, 24,3% por debajo de Bioprotec y 72% por debajo de Bhaurac. Pendiente de confirmación — el pliego exige puños de algodón elastizados, distintos talles y refuerzo en pechera y mangas. La carta de ABLE confirma tela SMS 45gs y puños de algodón, pero no menciona que sean elastizados, no menciona talles ni el refuerzo en pechera/mangas. ABLE cotiza además una alternativa (ALT1) en versión NO estéril a $1.322,50 — el pliego exige explícitamente que el producto sea estéril, por lo que esta alternativa no cumple la especificación básica del renglón y queda solo de referencia, sin competir. ABLE no cotiza el renglón 5 (campo quirúrgico) ni los renglones 1, 2 y 3 (almohada y ambos de quirófano) — quedan fuera de esta comparativa.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -45571,25 +47470,40 @@
         ],
         "notas": "Renglón 4 (Camisolín estéril, hemorrepelente, descartable, 2.400 un.) — ABLE $1.850,00 vs. Bioprotec $2.444,00 (Biosan) y Bhaurac $6.616,76 (Dimex). ABLE gana por precio, 24,3% por debajo de Bioprotec y 72% por debajo de Bhaurac. Pendiente de confirmación — el pliego exige puños de algodón elastizados, distintos talles y refuerzo en pechera y mangas. La carta de ABLE confirma tela SMS 45gs y puños de algodón, pero no menciona que sean elastizados, no menciona talles ni el refuerzo en pechera/mangas. ABLE cotiza además una alternativa (ALT1) en versión NO estéril a $1.322,50 — el pliego exige explícitamente que el producto sea estéril, por lo que esta alternativa no cumple la especificación básica del renglón y queda solo de referencia, sin competir. ABLE no cotiza el renglón 5 (campo quirúrgico) ni los renglones 1, 2 y 3 (almohada y ambos de quirófano) — quedan fuera de esta comparativa."
       },
+      "id": 202,
+      "entidad": "HTAL WILDE",
+      "nro": "PA 11",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-04",
+      "monto": 4440000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglón 4 (Camisolín estéril, hemorrepelente, descartable, 2.400 un.) — ABLE $1.850,00 vs. Bioprotec $2.444,00 (Biosan) y Bhaurac $6.616,76 (Dimex). ABLE gana por precio, 24,3% por debajo de Bioprotec y 72% por debajo de Bhaurac. Pendiente de confirmación — el pliego exige puños de algodón elastizados, distintos talles y refuerzo en pechera y mangas. La carta de ABLE confirma tela SMS 45gs y puños de algodón, pero no menciona que sean elastizados, no menciona talles ni el refuerzo en pechera/mangas. ABLE cotiza además una alternativa (ALT1) en versión NO estéril a $1.322,50 — el pliego exige explícitamente que el producto sea estéril, por lo que esta alternativa no cumple la especificación básica del renglón y queda solo de referencia, sin competir. ABLE no cotiza el renglón 5 (campo quirúrgico) ni los renglones 1, 2 y 3 (almohada y ambos de quirófano) — quedan fuera de esta comparativa.",
+      "creado": "2026-08-04T20:05:37.020Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-04T20:05:37.020Z"
-    },
-    {
+      "tabla": null,
       "id": 203,
       "entidad": "Htal Militar Central",
       "nro": "LP 84",
@@ -45603,22 +47517,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-08-04T20:42:05.438Z"
     }
   ],
