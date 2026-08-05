@@ -14086,7 +14086,7 @@
         "notas": "\n  ① <strong>ABLE gana renglón 1 (LT400):</strong> ABLE $7.800,00 vs. CIR. ARGENTINA $7.810,00 (+0,13%). Diferencia mínima — ABLE es el precio más bajo. Ambos incluyen clipadora en comodato. ABLE ofrece producto <strong>Industria Argentina</strong>; CIR. ARGENTINA cotiza marca Kangji, <strong>Origen China</strong>.<br><br>\n  ② <strong>ABLE gana renglón 2 (LT300):</strong> ABLE $6.420,00 vs. CIR. ARGENTINA $7.810,00 (+21,6%) vs. AMERICAN FIURE $16.990,00 (+164,5%). ABLE gana con holgura. AMERICAN FIURE menciona que el hospital ya posee dos pinzas Weck en comodato.<br><br>\n  ③ <strong>CIR. ARGENTINA — precios con IVA:</strong> su planilla indica explícitamente \"PRECIO $ CON IVA\". Se utilizan los precios tal como cotizados ($7.810,00) para la comparación.<br><br>\n  ④ <strong>Renglones 3 a 7 — ABLE no cotiza:</strong> gasas (reng.3), apósitos (reng.4), esponja hemostática (reng.5), venda smarch (reng.6) y cinta adhesiva de papel (reng.7) no fueron cotizados por ABLE y no se incluyen en esta comparativa. Participan: BYMED, EURO SWISS, IGALTEX, MARTORANI y PAPELERA EP en distintos renglones.<br><br>\n  ⑤ <strong>Zona / Agente:</strong> Zona Oeste → Gonzalo. ABLE S.A. cotizó directamente (marca ABLE, Industria Argentina, La Tablada, Pcia. Bs. As.)."
       },
       "id": 87,
-      "entidad": "HTAL HEROES DE MALVINAS",
+      "entidad": "H.Z.G.A. Heroes de Malvinas",
       "nro": "PA 100",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
@@ -14752,7 +14752,7 @@
         "notas": "\n  ① <strong>ABLE S.A. — tela SP vs. SMS (oferta base op.1):</strong> ABLE cotiza el renglón base con tela <strong>SP (Spunbond) de 30G</strong>, mientras que el pliego exige <strong>TNT SMS (Spunbond-Meltblown-Spunbond) 30 G/M²</strong>. SP y SMS son materiales diferentes. ABLE presenta como ALT3 un camisolin con <strong>tela SMS 30G hemorrepelente</strong> ($790,00) que sí cumple el material. <em>Existe riesgo de observación en la oferta base según el criterio de evaluación técnica del comitente.</em><br><br>\n  ② <strong>HEALTHY LAB e IGALTEX — sin detalle técnico:</strong> ambos oferentes no especifican en sus planillas de cotización las características técnicas del producto (gramaje G/M², tipo de tela, composición). No se puede verificar si cumplen el pliego sin la muestra requerida. El pliego exige presentación de muestra; de no acreditarse el gramaje 30 G/M² y tela SMS, podrían ser observadas.<br><br>\n  ③ <strong>MARTORANI — (obj) renglón 1:</strong> declara expresamente en su planilla: <em>\"SE COTIZA EN TELA SMS DE 24G X 100CM DE LARGO\"</em>. El pliego requiere <strong>gramaje requerido 30 G/M²</strong>. Diferencia de gramaje inequívoca → objetado. Precio $717,70 &gt; ABLE $635,00, no afecta la posición de ABLE.<br><br>\n  ④ <strong>BIOPROTEC — sin oferta base única:</strong> presenta 6 alternativas (ALT1–ALT6) sin cotización principal. Se toma ALT1 ($704,00 — SMS 30GS p/elástico) como op.1 por ser la de menor precio que cumple el gramaje del pliego. Sus ALT3–ALT4 (25GS) y ALT5–ALT6 (35GS) no cumplen el gramaje 30G/M².<br><br>\n  ⑤ <strong>Resultado op.1 base:</strong> ABLE $635,00 pierde vs. HEALTHY LAB $492,07 (+29,0%). La diferencia supera el 10% → no aplica empate técnico ni preferencia nacional para ABLE en la oferta base.<br><br>\n  ⑥ <strong>ALT3 ABLE ($790) — preferencia nacional:</strong> vs. BIOPROTEC SMS 30GS algodón $763,30 — diferencia del 3,5%. Ambos nacionales. Dentro del margen 2–10% → naranja (pref. nacional). Si BIOPROTEC es objetado o descalificado, ABLE gana esta alternativa.<br><br>\n  ⑦ <strong>ALT1 y ALT2 de ABLE:</strong> ABLE gana con $484 (20G) y $570 (25G), pero ambas alternativas tienen gramaje inferior al requerido por el pliego (30 G/M²). Su adjudicación depende de que el hospital acepte esos gramajes.<br><br>\n  ⑧ <strong>Zona / Agente:</strong> Zona Oeste → Gonzalo. ABLE S.A. cotizó directamente (marca ArgentCare, Industria Argentina)."
       },
       "id": 90,
-      "entidad": "HTAL HEROES DE MALVINAS",
+      "entidad": "H.Z.G.A. Heroes de Malvinas",
       "nro": "PA 99",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
@@ -29111,19 +29111,35 @@
       "creado": "2026-07-10T14:06:55.616Z"
     },
     {
-      "id": 129,
-      "entidad": "H.Z.E.R. El Dique",
-      "nro": "PA 40",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-17",
-      "monto": 12100000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "OC",
-      "empate": "No",
-      "pref": "No",
-      "obs": "PA 40/2026 H.Z.E.R. El Dique. ABLE unica oferente en reng.1 (camisolin SP 30Grs, 20.000u x $635 = $12.700.000). Adjudicada ALT 1. Rengs.2-3 guantes nitrilo Poggi. MAYOR. Zona Sur, Noe.",
+      "preadj_fecha": "2026-07-17",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin no esteril no hemorrepelente tela SP 30Grs., manga larga, puños elastico ajustables en muneca - Marca ArgentCare (cod. C.OSP.110.ELA.30.A)",
+          "cant": 20000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unica_oferta"
+        }
+      ],
+      "gestion_pre": "Reng.1 (camisolin no esteril no hemorrepelente SP 30Grs., marca ArgentCare, 20.000u x $635 = $12.700.000). ABLE unica oferente valida — ALT 1 cumple gramaje 30G/m2 exigido. Disposicion DISPO-2026-307-GDEBA-HZEREDMSALGP/2026. MAYOR.",
+      "gestion_pre_resultado": "Ganado",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "2026-07-17",
+      "adj_monto_able": 12700000,
+      "adj_resumen": "ABLE adjudicada en reng.1 (camisolin SP 30Grs. ArgentCare, 20.000u x $635 = $12.700.000,00). Unica oferta valida. MAYOR.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-05",
+      "oc_alertas": "OC Nro. 89/2026 fecha 05/08/2026. Reng.1 (camisolin SP 30Grs. ArgentCare, 20.000u x $635 = $12.700.000,00). Entrega hasta 31/12/2026. Disposicion DISPO-2026-307-GDEBA-HZEREDMSALGP/2026. MAYOR.",
       "tabla": {
         "oferentes": [
           "ABLE S.A."
@@ -29180,36 +29196,20 @@
         ],
         "notas": "\n    <p><strong>Reng.1 — ABLE ÚNICA OFERENTE.</strong> Pliego exige 30G/m². Solo la <strong>ALT 1 (SP 30Grs, $635)</strong> cumple. Base (25Grs, $605) y ALT 2 (20Grs, $481,30) NO cumplen el gramaje. Total adjudicado: <strong>$12.700.000,00 — LICITACIÓN MAYOR.</strong></p>\n    <p>Rengs. 2 (guantes nitrilo talla M, 140 cajas) y 3 (guantes nitrilo talla S, 110 cajas): Poggi Raul Jorge Leon único oferente a $8.888/caja. ABLE no cotiza.</p>\n  "
       },
-      "preadj_fecha": "2026-07-17",
-      "preadj_empate_ok": "No",
-      "preadj_pref_ok": "No",
-      "gestion_pre": "Reng.1 (camisolin no esteril no hemorrepelente SP 30Grs., marca ArgentCare, 20.000u x $635 = $12.700.000). ABLE unica oferente valida — ALT 1 cumple gramaje 30G/m2 exigido. Disposicion DISPO-2026-307-GDEBA-HZEREDMSALGP/2026. MAYOR.",
-      "gestion_pre_resultado": "Ganado",
-      "adj_recibida": false,
-      "adj_fecha": "2026-07-17",
-      "adj_monto_able": 12700000,
-      "adj_resumen": "ABLE adjudicada en reng.1 (camisolin SP 30Grs. ArgentCare, 20.000u x $635 = $12.700.000,00). Unica oferta valida. MAYOR.",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Correcta",
-      "oc_fecha": "2026-08-05",
-      "oc_alertas": "OC Nro. 89/2026 fecha 05/08/2026. Reng.1 (camisolin SP 30Grs. ArgentCare, 20.000u x $635 = $12.700.000,00). Entrega hasta 31/12/2026. Disposicion DISPO-2026-307-GDEBA-HZEREDMSALGP/2026. MAYOR.",
+      "id": 129,
+      "entidad": "H.Z.E.R. El Dique",
+      "nro": "PA 40",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-17",
+      "monto": 12100000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 40/2026 H.Z.E.R. El Dique. ABLE unica oferente en reng.1 (camisolin SP 30Grs, 20.000u x $635 = $12.700.000). Adjudicada ALT 1. Rengs.2-3 guantes nitrilo Poggi. MAYOR. Zona Sur, Noe.",
       "creado": "2026-07-10T22:11:59.283Z",
-      "renglones_preadj": [
-        {
-          "reng": "1",
-          "desc": "Camisolin no esteril no hemorrepelente tela SP 30Grs., manga larga, puños elastico ajustables en muneca - Marca ArgentCare (cod. C.OSP.110.ELA.30.A)",
-          "cant": 20000,
-          "precio_able": 635,
-          "marca": "ArgentCare",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "unica_oferta"
-        }
-      ],
       "renglones_adj": [
         {
           "reng": "1",
@@ -31706,9 +31706,163 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "KIMS S.R.L.",
+          "Poggi Raul Jorge Leon"
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 2,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 400mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.400.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 87835,
+                "marca": "PO.400.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 78513.26,
+                "marca": "Sterilys - Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 141500,
+                "marca": "Yellow - KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 428000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 2,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 65637,
+                "marca": "PO.300.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 107700,
+                "marca": "Yellow - KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 328000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 2,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 21945,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 20177.39,
+                "marca": "Sterilys - Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 35300,
+                "marca": "Yellow - KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 116200,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 3,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.150.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 32945,
+                "marca": "PO.150.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 52100,
+                "marca": "Yellow - KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 164000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>ABLE gana rengs.3 (pouch 300mm) y 7 (pouch 150mm). Total adjudicado estimado: <strong>$230.109,00</strong>.</p>\n    <p>Reng.2 (pouch 400mm): Igaltex gana a $78.513,26 vs ABLE $87.835 (+11,7%). Reng.4 (pouch 100mm): Igaltex gana a $20.177,39 vs ABLE $21.945 (+8,8%). Ambos nacionales — no aplica preferencia nacional.</p>\n    <p>Rengs.1 (óxido etileno), 5 (apósito gasa), 6 (cinta adhesiva papel), 8 (cinta adhesiva ETO), 9 (gasa hidrofila pouch): ABLE no cotiza.</p>\n  "
+      },
       "id": 144,
-      "entidad": "HTAL HEROES DE MALVINAS",
+      "entidad": "H.Z.G.A. Heroes de Malvinas",
       "nro": "PA 111",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-24",
@@ -31716,10 +31870,10 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 111/2026 H.Z.G.A. Heroes de Malvinas. ABLE gana rengs.3 y 7 (pouch 300 y 150mm). Pierde rengs.2 y 4 vs Igaltex. Total adjudicado estimado: $230.109. Zona Oeste, Gonzalo.",
       "creado": "2026-07-20T16:52:52.430Z"
     },
     {
@@ -40336,9 +40490,77 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Cirugia Argentina S.A.",
+          "Aupres S.R.L.",
+          "American Fiure S.A.",
+          "Drog. Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 240,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina) - cod. LT.300",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "LT.300 - ABLE (Ind. argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 4650,
+                "marca": "Clip titanio t/LT-300 - Euro Swiss (Fabricante: Suturas Argentinas - revende producto de ABLE)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 8160,
+                "marca": "Kanji - Cirugia Argentina (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 8740,
+                "marca": "Unimed - Aupres",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "American Fiure S.A.",
+                "precio": 17500,
+                "marca": "Weck - American Fiure",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 9083.3,
+                "marca": "LigaClip LT300 Ethicon J&J - Martorani (precio por cartucho 6 clips)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>Reng.5 (LT300, 240u): ABLE $5.350 pierde vs Euro Swiss $4.650. <strong>Euro Swiss revende el producto de ABLE</strong> (Fabricante declarado: Suturas Argentinas). Diferencia 15% — no aplica preferencia nacional (ambos nacionales). ABLE sin adjudicación.</p>\n    <p>Martorani ($908.330) cotiza por clip unitario (no por cartucho x6) — precio no comparable, excluido.</p>\n    <p>ABLE no cotiza los demás renglones (equipos irrigación, catéter hemodiálisis, suturas, etc.).</p>\n  "
+      },
       "id": 156,
-      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
+      "entidad": "H.Z.G.A. Dr. Arturo Onativia",
       "nro": "PA 157",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-24",
@@ -40346,10 +40568,10 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 157/2026 H.Z.G.A. Dr. Arturo Onativia. ABLE pierde reng.5 (LT300) vs Euro Swiss que revende producto de ABLE a menor precio. Zona Sur, Noe.",
       "creado": "2026-07-22T18:29:41.953Z"
     },
     {
@@ -41042,19 +41264,23 @@
       "creado": "2026-07-23T18:59:32.964Z"
     },
     {
-      "id": 166,
-      "entidad": "H.Z.E.R. El Dique",
-      "nro": "PA 41",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-30",
-      "monto": 1015220,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "",
-      "obs": "PA 41/2026 H.Z.E.R. El Dique. ABLE gana rengs.1 y 3 (bolsas papel grado medico). Total: $1.015.220. Poggi unico competidor a precios muy superiores. Zona Sur, Noe.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -41112,22 +41338,19 @@
         ],
         "notas": "\n    <p>ABLE gana rengs. 1 y 3 por menor precio amplio. Total: <strong>$1.015.220,00</strong>. Poggi cotiza $186 y $999 vs ABLE $36,46 y $143,01.</p>\n    <p>Reng.2 (bobina papel 60cm x 100m): Papelera EP $84.892 y Poggi $276.000 — ABLE no cotiza. Rengs.4-9 (indicadores, guantes, polietileno): Papelera EP — ABLE no cotiza.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 166,
+      "entidad": "H.Z.E.R. El Dique",
+      "nro": "PA 41",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-30",
+      "monto": 1015220,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "PA 41/2026 H.Z.E.R. El Dique. ABLE gana rengs.1 y 3 (bolsas papel grado medico). Total: $1.015.220. Poggi unico competidor a precios muy superiores. Zona Sur, Noe.",
       "creado": "2026-07-24T17:46:32.816Z"
     },
     {
@@ -48234,7 +48457,107 @@
       "pref": "",
       "obs": "",
       "creado": "2026-08-05T12:26:40.909Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 207,
+      "entidad": "HTAL ROSSI",
+      "nro": "PA 310",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-10",
+      "monto": 3622500,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-08-05T18:39:23.768Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 208,
+      "entidad": "Htal Julio de Vedia PA 50",
+      "nro": "PA 50",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-12",
+      "monto": 958320,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-08-05T19:03:42.747Z"
+    },
+    {
+      "id": 209,
+      "entidad": "Htal San Jose",
+      "nro": "PA 52",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-12",
+      "monto": 2450050,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-05T19:43:40.254Z"
     }
   ],
-  "nextId": 207
+  "nextId": 211
 }
