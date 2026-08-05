@@ -10746,7 +10746,7 @@
         "notas": "\n    <p>ABLE gana rengs. 1 y 6 por menor precio amplio. Total cotizado: <strong>$1.057.540,00</strong>.</p>\n    <p>Poggi cotiza $176,00 (reng.1) y $888,00 (reng.6) — ABLE es 4-6 veces más barata.</p>\n    <p>Rengs. 2 (bobina papel 60cm x 334m), 3 (indicador biológico calor seco), 4 (integrador calor seco), 5 (kit indicador biológico), 7 (polipropileno hoja), 8 (guantes malla metálica) y 9 (guantes kevlar): ABLE no cotiza.</p>\n  "
       },
       "id": 70,
-      "entidad": "HTAL EL DIQUE",
+      "entidad": "H.Z.E.R. El Dique",
       "nro": "PA 34",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-12",
@@ -29112,7 +29112,7 @@
     },
     {
       "id": 129,
-      "entidad": "HTAL EL DIQUE",
+      "entidad": "H.Z.E.R. El Dique",
       "nro": "PA 40",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-17",
@@ -41042,37 +41042,92 @@
       "creado": "2026-07-23T18:59:32.964Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 166,
-      "entidad": "HTAL EL DIQUE",
-      "nro": "PA 41",
+      "entidad": "H.Z.E.R. El Dique",
+      "nro": "PA 41/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-30",
       "monto": 1015220,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "Si",
+      "obs": "PA 41/2026 H.Z.E.R. El Dique. ABLE gana rengs.1 y 3 (bolsas papel grado medico). Total: $1.015.220. Poggi unico competidor a precios muy superiores. Zona Sur, Noe.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Poggi Raul Jorge Leon"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 20000,
+            "desc": "Bolsa de papel grado medico de 110mm x 30mm x 190mm con indicador quimico de calor humedo - Marca Able - cod. BOX110X030X190",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 186,
+                "marca": "Termosoldable - Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 2000,
+            "desc": "Bolsa de papel grado medico de 250mm x 100mm x 380mm con indicador quimico de calor humedo - Marca Able - cod. BOX250X100X380",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 999,
+                "marca": "Termosoldable - Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>ABLE gana rengs. 1 y 3 por menor precio amplio. Total: <strong>$1.015.220,00</strong>. Poggi cotiza $186 y $999 vs ABLE $36,46 y $143,01.</p>\n    <p>Reng.2 (bobina papel 60cm x 100m): Papelera EP $84.892 y Poggi $276.000 — ABLE no cotiza. Rengs.4-9 (indicadores, guantes, polietileno): Papelera EP — ABLE no cotiza.</p>\n  "
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-07-24T17:46:32.816Z"
     },
     {
@@ -46498,7 +46553,7 @@
       "oc_alertas": "",
       "tabla": null,
       "id": 180,
-      "entidad": "HTAL EL DIQUE",
+      "entidad": "H.Z.E.R. El Dique",
       "nro": "PA 42",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-07",
