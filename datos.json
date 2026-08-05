@@ -10675,8 +10675,8 @@
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
       "renglones_preadj": null,
-      "gestion_pre": "Diego",
-      "gestion_pre_resultado": "Ganado",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -10688,20 +10688,76 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Poggi Raul Jorge Leon"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 20000,
+            "desc": "Bolsa de papel grado medico de 110mm x 30mm x 190mm con indicador quimico de calor humedo - Marca Able - cod. BOX110X030X190",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 37.98,
+                "marca": "BOX110X030X190 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 176,
+                "marca": "Termosellable",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 2000,
+            "desc": "Bolsa de papel grado medico de 250mm x 100mm x 380mm con indicador quimico de calor humedo - Marca Able - cod. BOX250X100X380",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 148.97,
+                "marca": "BOX250X100X380 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raul Jorge Leon",
+                "precio": 888,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>ABLE gana rengs. 1 y 6 por menor precio amplio. Total cotizado: <strong>$1.057.540,00</strong>.</p>\n    <p>Poggi cotiza $176,00 (reng.1) y $888,00 (reng.6) — ABLE es 4-6 veces más barata.</p>\n    <p>Rengs. 2 (bobina papel 60cm x 334m), 3 (indicador biológico calor seco), 4 (integrador calor seco), 5 (kit indicador biológico), 7 (polipropileno hoja), 8 (guantes malla metálica) y 9 (guantes kevlar): ABLE no cotiza.</p>\n  "
+      },
       "id": 70,
       "entidad": "HTAL EL DIQUE",
       "nro": "PA 34",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-12",
-      "monto": 1057500,
+      "monto": 1057540,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 34/2026 H.Z.E.R. El Dique, Ensenada. ABLE gana rengs.1 y 6 (bolsas papel grado medico). Total: $1.057.540. Poggi unico competidor a precios muy superiores. Zona Sur, Noe.",
       "creado": "2026-06-07T17:15:01.668Z"
     },
     {
@@ -26625,7 +26681,7 @@
         "notas": "🔴 ALERTA CRÍTICA — La oferta base de ABLE ($635,00, código C.OSP.110.E, tela SP) NO cumple el pliego, que exige tela TNT SMS de 30 g/m². La ÚNICA opción de ABLE que sí cumple es la ALT3 ($790,00, código C.SMS.120.A, tela SMS 30 g/m²). Esta comparativa se armó respetando la estructura literal del documento de ABLE (base + 3 alternativas), pero antes de gestionar o dar por ganador este renglón debe usarse el precio de ALT3, no el de la oferta base. ABLE ALT1 ($484,00) y ALT2 ($570,00) tampoco cumplen: declaran gramaje de 20 g/m² y 25 g/m² respectivamente, por debajo del 30 g/m² exigido. Droguería Martorani S.A. (marca PEMED, $750,40) autodeclara en su propia planilla que cotiza TNT SMS de 24 g/m², por debajo del 30 g/m² requerido — mismo patrón de incumplimiento ya detectado en PA 206/2026 (Rossi). Marcado como objetado. GRANDMED S.R.L. ($698,78, marca Clothier) y Euroswiss S.A. ($800,00, marca Kratec) no especifican material ni gramaje en su cotización — observación técnica, riesgo no confirmado. Healthy Lab (Live in BA S.A., $767,84) copia textualmente la descripción del pliego (TNT SMS 30 g/m², origen nacional) sin detalle propio de producto — patrón recurrente de este oferente, observación técnica aunque no es objeción formal."
       },
       "id": 121,
-      "entidad": "HTAL Horacio Cestino",
+      "entidad": "H.Z.G.A. Horacio Cestino",
       "nro": "PA 33",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-08",
@@ -29055,37 +29111,91 @@
       "creado": "2026-07-10T14:06:55.616Z"
     },
     {
+      "id": 129,
+      "entidad": "HTAL EL DIQUE",
+      "nro": "PA 40",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-17",
+      "monto": 12100000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 40/2026 H.Z.E.R. El Dique. ABLE unica oferente en reng.1 (camisolin SP 30Grs, 20.000u x $635 = $12.700.000). Adjudicada ALT 1. Rengs.2-3 guantes nitrilo Poggi. MAYOR. Zona Sur, Noe.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 20000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, manga larga, puños elastico ajustables en muneca - Marca ArgentCare - cod. C.OSP.110.ELA.25.A ⚠️ Base: 25Grs — NO cumple el gramaje 30G/m2 del pliego",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "C.OSP.110.ELA.25.A - ArgentCare (25Grs)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 20000,
+            "desc": "(ALT 1 — VALIDA) Camisolin no esteril, no hemorrepelente tela SP de 30Grs., descartable, manga larga, puños elastico ajustables en muneca - Marca ArgentCare - cod. C.OSP.110.ELA.30.A ✅ Cumple 30G/m2 — oferta adjudicada",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "C.OSP.110.ELA.30.A - ArgentCare (SP 30Grs) — UNICA OFERTA VALIDA",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 20000,
+            "desc": "(ALT 2) Camisolin no esteril, no hemorrepelente de 20Grs., descartable, manga larga, puños elastico ajustables en muneca - Marca ArgentCare - cod. C.OSP.110.ELA.20.A ⚠️ 20Grs — NO cumple el gramaje 30G/m2 del pliego",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "C.OSP.110.ELA.20.A - ArgentCare (20Grs)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p><strong>Reng.1 — ABLE ÚNICA OFERENTE.</strong> Pliego exige 30G/m². Solo la <strong>ALT 1 (SP 30Grs, $635)</strong> cumple. Base (25Grs, $605) y ALT 2 (20Grs, $481,30) NO cumplen el gramaje. Total adjudicado: <strong>$12.700.000,00 — LICITACIÓN MAYOR.</strong></p>\n    <p>Rengs. 2 (guantes nitrilo talla M, 140 cajas) y 3 (guantes nitrilo talla S, 110 cajas): Poggi Raul Jorge Leon único oferente a $8.888/caja. ABLE no cotiza.</p>\n  "
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 129,
-      "entidad": "HTAL EL DIQUE",
-      "nro": "PA 40",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-17",
-      "monto": 12200000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-10T22:11:59.283Z"
     },
     {
@@ -40991,36 +41101,530 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Max Continental S.A.",
+          "Medic Tools S.R.L.",
+          "Drog. Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 360,
+            "desc": "Sutura PGA N°2 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM023570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1295,
+                "marca": "PGM023570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1790.16,
+                "marca": "Maxsutures (Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools S.R.L.",
+                "precio": 2680,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 360,
+            "desc": "(ALT 1) Sutura PGA N°2 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. argentina) - cod. PGA023570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA023570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 120,
+            "desc": "Sutura PGA N°1 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM013570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "PGM013570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1824,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools S.R.L.",
+                "precio": 2180,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 120,
+            "desc": "Sutura PGA N°3/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM302570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1517.94,
+                "marca": "Maxsutures (Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools S.R.L.",
+                "precio": 2180,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 200,
+            "desc": "Sutura Nylon Monofilamento N°2/0 c/aguja recta 60mm punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina) - cod. NYM206075J",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM206075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools S.R.L.",
+                "precio": 1380,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 200,
+            "desc": "(ALT 1) Sutura Nylon N°2/0 c/aguja recta 60mm punta rev. cort. hebra 75cm - Marca ABLE (Ind. argentina) - cod. NYA206075J",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA206075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 240,
+            "desc": "Sutura Nylon Monofilamento N°4/0 c/aguja 15mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina) - cod. NYM401545F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM401545F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools S.R.L.",
+                "precio": 1498,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 1596.6,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 240,
+            "desc": "(ALT 1) Sutura Nylon N°4/0 c/aguja 15mm 3/8 circ. punta rev. cort. hebra 75cm - Marca ABLE (Ind. argentina) - cod. NYA401575F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA401575F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 240,
+            "desc": "Sutura Nylon Monofilamento N°3/0 c/aguja recta 60mm punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina) - cod. NYM306075J",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM306075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools S.R.L.",
+                "precio": 1380,
+                "marca": "Tagum",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 240,
+            "desc": "(ALT 1) Sutura Nylon N°3/0 c/aguja recta 60mm punta rev. cort. hebra 75cm - Marca ABLE (Ind. argentina) - cod. NYA306075J",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA306075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 360,
+            "desc": "Sutura Nylon Negro Monofilamento N°3/0 c/aguja 3/8 circ. hebra 45cm - Marca Surgimax (Ind. argentina) - cod. NYM302045F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM302045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 360,
+            "desc": "(ALT 1) Sutura Nylon N°3/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 75cm - Marca ABLE (Ind. argentina) - cod. NYA302075F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA302075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 240,
+            "desc": "Sutura PGA N°1 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM012570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "PGM012570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1656.18,
+                "marca": "Maxsutures (Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 240,
+            "desc": "(ALT 1) Sutura PGA N°1 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. argentina) - cod. PGA012570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA012570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 48,
+            "desc": "Sutura Polipropileno N°1 c/aguja 35mm 1/2 circ. punta redonda hebra 75cm - Marca Surgimax (Ind. argentina) - cod. PPM013575A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "PPM013575A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1690,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 2727.1,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 240,
+            "desc": "Sutura Nylon Negro Monofilamento N°2/0 c/aguja 3/8 circ. hebra 45cm - Marca Surgimax (Ind. argentina) - cod. NYM202045F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM202045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 712,
+                "marca": "Maxsutures",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril (Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 240,
+            "desc": "(ALT 1) Sutura Nylon N°2/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 75cm - Marca ABLE (Ind. argentina) - cod. NYA202075F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA202075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "\n    <p>ABLE gana todos los renglones donde cotiza (1,6,7,8,9,10,11,12,13,14) por menor precio. Total cotizado por ABLE: <strong>$3.891.600,00</strong>.</p>\n    <p>Rengs. 2 (cera p/huesos), 3 (hilo de lino N°40) y 4-5 (hilo de lino): ABLE no cotiza — adjudicados a Euro Swiss y Martorani respectivamente.</p>\n    <p>Nota: los precios del cuadro comparativo usan coma como separador decimal. Se corrigió la interpretación (ej. $1.790,16 = $1.790,16).</p>\n  "
+      },
       "id": 168,
-      "entidad": "HTAL CESTINO",
+      "entidad": "H.Z.G.A. Horacio Cestino",
       "nro": "PA 49",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-29",
-      "monto": 3891600,
+      "monto": 1909760,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-24T18:06:31.428Z"
-    },
-    {
-      "id": 170,
-      "entidad": "Hospital Naval Buenos Aires Cirujano Mayor Dr. Pedro Mallo",
-      "nro": "LP 38",
-      "tipo": "Licitacion Privada",
-      "fecha": "2026-07-29",
-      "monto": 25429395,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
-      "obs": "LP 38/2026 Hospital Naval Pedro Mallo, Armada Argentina. ABLE cotiza 33 renglones (con ALTs) de suturas catgut, nylon y polipropileno. Total cotizado: $41.181.122,88. ABLE gana la mayoria. Reng.35 pierde vs Max Continental, reng.43 pierde vs Bhaurac. Gestion Diego.",
+      "obs": "PA 49/2026 H.Z.G.A. Horacio Cestino, Ensenada. ABLE gana todos los renglones cotizados (1,6,7,8,9,10,11,12,13,14). Total: $3.891.600,00. Zona Sur, Noe.",
+      "creado": "2026-07-24T18:06:31.428Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -42917,22 +43521,19 @@
         ],
         "notas": "\n    <p>ABLE gana la mayoria de renglones por menor precio. <strong>Reng.35</strong> (PGA 2/0 c/ag 40mm 70cm, 1.116u): MAX CONT. gana a $1.517,94 vs ABLE $1.602. <strong>Reng.43</strong> (Polipropileno 2/0 doble aguja 90cm, 96u): BHAURAC gana a $2.511 vs ABLE $2.868. Total cotizado por ABLE: <strong>$41.181.122,88</strong>. LICITACIÓN MAYOR.</p>\n    <p>Renglones con ALT: ABLE ofrece base (cod. NYM/PGM/PPM, Surgimax) y alternativa (cod. NYA/PGA/PPA, Marca ABLE) con precio ligeramente superior ($942 nylon vs $728,40 base; $1.602 PGA vs $1.446-$1.500 base). Rengs.6 y 7 incluyen 3 clipadoras sin cargo en comodato para cirugia cardiovascular.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 170,
+      "entidad": "Hospital Naval Buenos Aires Cirujano Mayor Dr. Pedro Mallo",
+      "nro": "LP 38",
+      "tipo": "Licitacion Privada",
+      "fecha": "2026-07-29",
+      "monto": 25429395,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "LP 38/2026 Hospital Naval Pedro Mallo, Armada Argentina. ABLE cotiza 33 renglones (con ALTs) de suturas catgut, nylon y polipropileno. Total cotizado: $41.181.122,88. ABLE gana la mayoria. Reng.35 pierde vs Max Continental, reng.43 pierde vs Bhaurac. Gestion Diego.",
       "creado": "2026-07-27T13:31:47.054Z"
     },
     {
@@ -45871,7 +46472,7 @@
       "oc_alertas": "",
       "tabla": null,
       "id": 180,
-      "entidad": "Htal El Dique",
+      "entidad": "HTAL EL DIQUE",
       "nro": "PA 42",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-07",
@@ -47065,7 +47666,7 @@
       "oc_alertas": "",
       "tabla": null,
       "id": 196,
-      "entidad": "Htal Cestino",
+      "entidad": "H.Z.G.A. Horacio Cestino",
       "nro": "PA 52",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-07",
@@ -47520,6 +48121,24 @@
       "creado": "2026-08-04T20:42:05.438Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 204,
       "entidad": "HTAL EVITA LANUS",
       "nro": "PA 143",
@@ -47533,22 +48152,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-08-05T12:26:40.909Z"
     }
   ],
