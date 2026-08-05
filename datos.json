@@ -29120,7 +29120,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 40/2026 H.Z.E.R. El Dique. ABLE unica oferente en reng.1 (camisolin SP 30Grs, 20.000u x $635 = $12.700.000). Adjudicada ALT 1. Rengs.2-3 guantes nitrilo Poggi. MAYOR. Zona Sur, Noe.",
@@ -29180,23 +29180,49 @@
         ],
         "notas": "\n    <p><strong>Reng.1 — ABLE ÚNICA OFERENTE.</strong> Pliego exige 30G/m². Solo la <strong>ALT 1 (SP 30Grs, $635)</strong> cumple. Base (25Grs, $605) y ALT 2 (20Grs, $481,30) NO cumplen el gramaje. Total adjudicado: <strong>$12.700.000,00 — LICITACIÓN MAYOR.</strong></p>\n    <p>Rengs. 2 (guantes nitrilo talla M, 140 cajas) y 3 (guantes nitrilo talla S, 110 cajas): Poggi Raul Jorge Leon único oferente a $8.888/caja. ABLE no cotiza.</p>\n  "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-17",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Reng.1 (camisolin no esteril no hemorrepelente SP 30Grs., marca ArgentCare, 20.000u x $635 = $12.700.000). ABLE unica oferente valida — ALT 1 cumple gramaje 30G/m2 exigido. Disposicion DISPO-2026-307-GDEBA-HZEREDMSALGP/2026. MAYOR.",
+      "gestion_pre_resultado": "Ganado",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-07-17",
+      "adj_monto_able": 12700000,
+      "adj_resumen": "ABLE adjudicada en reng.1 (camisolin SP 30Grs. ArgentCare, 20.000u x $635 = $12.700.000,00). Unica oferta valida. MAYOR.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "gestion_post": "",
       "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-07-10T22:11:59.283Z"
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-05",
+      "oc_alertas": "OC Nro. 89/2026 fecha 05/08/2026. Reng.1 (camisolin SP 30Grs. ArgentCare, 20.000u x $635 = $12.700.000,00). Entrega hasta 31/12/2026. Disposicion DISPO-2026-307-GDEBA-HZEREDMSALGP/2026. MAYOR.",
+      "creado": "2026-07-10T22:11:59.283Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin no esteril no hemorrepelente tela SP 30Grs., manga larga, puños elastico ajustables en muneca - Marca ArgentCare (cod. C.OSP.110.ELA.30.A)",
+          "cant": 20000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unica_oferta"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin no esteril no hemorrepelente tela SP 30Grs., manga larga, puños elastico ajustables en muneca - Marca ArgentCare (cod. C.OSP.110.ELA.30.A)",
+          "cant": 20000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "unica_oferta",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
