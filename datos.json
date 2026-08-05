@@ -5488,7 +5488,7 @@
         "notas": "① ALT de AUPRES excluida (ABLE no cotiza). ② ALT 1/2/3: único oferente = ABLE. ③ ABLE participa con marca ARGENTCARE (Ind. Argentina)."
       },
       "id": 44,
-      "entidad": "HTAL SAN JOSE DE PERGAMINO",
+      "entidad": "Htal San Jose de Pergamino",
       "nro": "PA 135",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-05-29",
@@ -14940,7 +14940,7 @@
         }
       ],
       "gestion_pre": "Diego",
-      "gestion_pre_resultado": "Exitosa - ABLE adjudicada por ajustarse a lo solicitado en licitacion MAYOR de $9.760.000,00",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -15085,7 +15085,7 @@
         "notas": "\n    <p>Reng. 1 (base) — ABLE $635,00 cotiza tela SP; el pliego pide SMS. Ortopedia Viamonte $659,00 \"según muestra\" sin detalle de tela. Euro Swiss $839,00 no menciona SMS. Ganador absoluto: Igaltex $494,07, pero cotiza 25.000u en vez de 16.000u del pliego (<strong>VERIFICAR</strong>) y tampoco menciona SMS ni gramaje 30g en su descripción.</p>\n    <p>Reng. 1 ALT 1 y ALT 2 — ABLE sin tela especificada como SMS. Igaltex también cotiza estas variantes a 25.000u (no 16.000u).</p>\n    <p>Reng. 1 ALT 3 — ÚNICA oferta de ABLE que cumple textualmente con tela SMS solicitada por pliego ($790,00). Healthy Lab también oferta ALT a $657,54.</p>\n    <p>⚠️ <strong>ATENCIÓN</strong> — Healthy Lab (Live in BA) copia <strong>TEXTUALMENTE</strong> la descripción del pliego en sus dos ofertas (base y ALT), palabra por palabra, sin detallar tipo de puño, dimensiones ni código comercial propio del producto. Mismo patrón ya detectado en SAMO 32/2026 (Narciso López) y PA 206/2026 (Rossi), donde ofertas sin especificación verificable fueron motivo de objeción.</p>\n    <p>⚠️ <strong>ATENCIÓN</strong> — Laboratorios Igaltex cotiza renglón 1 y sus 2 alternativas por <strong>25.000 unidades</strong>, cuando el pliego solicita <strong>16.000 unidades</strong>. VERIFICAR antes de comparar montos totales.</p>\n    <p><strong>Antecedente:</strong> en PA 206/2026 (Rossi) ABLE fue desestimado en renglón de camisolín por ofertar tela SP cuando el pliego pedía SMS, y por no presentar el puño solicitado en las alternativas. Mismo riesgo aplica aquí para la oferta base de ABLE.</p>\n  "
       },
       "id": 93,
-      "entidad": "HTAL San Jose de Pergamino",
+      "entidad": "Htal San Jose de Pergamino",
       "nro": "PA 138",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-25",
@@ -15095,7 +15095,7 @@
       "agente": "Diego",
       "etapa": "Pre-adjudicación",
       "empate": "No",
-      "pref": "Si",
+      "pref": "",
       "obs": "PA 142/2026 H.I.G.A. Eva Peron. Pref.nac.: r55 (+4,4% Cardiopack India), r58 (+4,5% CirArg Peru), r60 (+4,85% Cardiopack India). Dif.tec en multiples renglones a criterio evaluador. Gestion Diego.",
       "creado": "2026-06-19T19:13:07.462Z",
       "renglones_adj": [
@@ -21520,7 +21520,7 @@
       "creado": "2026-06-29T13:37:59.456Z"
     },
     {
-      "preadj_fecha": "2026-07-13",
+      "preadj_fecha": "2026-07-31",
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "No",
       "renglones_preadj": [
@@ -48528,7 +48528,7 @@
     },
     {
       "id": 209,
-      "entidad": "Htal San Jose",
+      "entidad": "Htal San Jose de Pergamino",
       "nro": "PA 52",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-12",
