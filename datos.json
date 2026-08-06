@@ -9580,7 +9580,7 @@
         }
       ],
       "gestion_pre": "Noe",
-      "gestion_pre_resultado": "Ganado - 3 renglones suturas.",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -9706,7 +9706,7 @@
         "notas": "\n    <p>① ABLE gana R5, R6 y R7 como único competidor por renglón vs Cirugía Argentina (origen Perú, TAGUM).</p>\n    <p>② R5ALT1 y R6ALT1: solo cotiza ABLE — sin color por ser único oferente.</p>\n    <p>③ Renglones R1, R2, R3, R4, R8 y R9 no cotizados por ABLE — no se incluyen.</p>\n    <p>④ Cirugía Argentina cotiza productos de origen Perú (TAGUM) en R5, R6 y R7.</p>\n  "
       },
       "id": 61,
-      "entidad": "H.I.G.A. PRESIDENTE PERON",
+      "entidad": "H.I.G.A. Presidente Peron",
       "nro": "PA 149",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-09",
@@ -10656,7 +10656,7 @@
         "notas": "\n    <p>① ABLE gana todos los renglones principales (R1 al R6) con el menor precio.</p>\n    <p>② Cirugía Argentina cotiza productos de origen Perú (TAGUM) en todos los renglones.</p>\n    <p>③ Renglones ALT1 (R1 al R6): solo cotiza ABLE — sin color por ser único oferente.</p>\n    <p>④ Martorani cotiza con hebra de 75cm en R1-R4 — pliego a verificar contra especificaciones.</p>\n  "
       },
       "id": 65,
-      "entidad": "H.I.G.A. PRESIDENTE PERON",
+      "entidad": "H.I.G.A. Presidente Peron",
       "nro": "PA 151",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-11",
@@ -10899,7 +10899,7 @@
         }
       ],
       "gestion_pre": "Noe",
-      "gestion_pre_resultado": "Ganado - 11 renglones suturas.",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -11919,7 +11919,7 @@
         "notas": "\n    <p>① Reng. 9 — Cardiopack objetado: cotiza aguja MRF36 (36mm) vs pliego requiere aguja 50mm. Con Cardiopack fuera, ABLE $1.335,00 gana vs siguiente mínimo Igaltex $1.642,21.</p>\n    <p>② Reng. 10 — ABLE $1.218,00 vs Cardiopack $1.218,47 (origen India). ABLE gana por $0,47.</p>\n    <p>③ Reng. 15 — ABLE $2.415,00 vs Igaltex $1.507,05 (+60,2%). Igaltex no objetado (1/2 taper = 1/2 círculo). Sin color.</p>\n    <p>④ Reng. 16 — ABLE $2.390,00 vs Cardiopack $1.589,94 (origen India, +50,3%). Sin color.</p>\n    <p>⑤ Reng. 22 — ABLE $5.350,00 vs Euro Swiss $4.672,29 (+14,5%). Sin color.</p>\n    <p>⑥ Igaltex cotiza renglones 7, 9 y 10 como alternativas (ALT) en su planilla — incluidos como renglones base para comparación.</p>\n    <p>⑦ Reng. 11 — ABLE principal Marca ABLE ($1.335), ALT1 Surgimax ($1.205, calidad menor). ABLE gana renglón principal.</p>\n    <p>⑧ Diferencias de ABLE vs pliego (a informar): R1 y R2 — Surgimax hebra 45cm vs 75cm requerida. R7 — aguja 15mm vs 17mm requerida. R8 y R9 — hebra 90cm vs 75cm requerida. R10 y R11 — hebra 70cm vs 75cm requerida.</p>\n  "
       },
       "id": 71,
-      "entidad": "H.I.G.A. PRESIDENTE PERON",
+      "entidad": "H.I.G.A. Presidente Peron",
       "nro": "PA 148",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-08",
@@ -13576,14 +13576,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-08-06",
+      "adj_monto_able": 3542000,
+      "adj_resumen": "ABLE adjudicada en rengs.1 y 2. Total: $3.542.000,00. Reng.1 (camisolin SMS 45Grs ArgentCare, 1.000u x $1.322,50 = $1.322.500). Reng.2 (equipo cirugia SMS esteril Ebano, 100u x $22.195 = $2.219.500). Disposicion DISPO-2026-1252-GDEBA-HIPPMSALGP/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-06",
+      "oc_alertas": "OC Nro. 434/2026 fecha 06/08/2026. Reng.1 (camisolin SMS 45Grs ArgentCare, 1.000u x $1.322,50 = $1.322.500). Reng.2 (equipo cirugia SMS Ebano, 100u x $22.195 = $2.219.500). Total: $3.542.000,00. Entrega inmediata 10 dias corridos. Disposicion DISPO-2026-1252-GDEBA-HIPPMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -13789,11 +13789,35 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 155/2026 H.I.G.A. Presidente Peron. ABLE gana r1 y r2. Pierde r7,r8,r9,r11 contra Igaltex (nacional). Verificar codigo reng 8. Gestion Noe.",
-      "creado": "2026-06-16T15:07:15.294Z"
+      "creado": "2026-06-16T15:07:15.294Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin no esteril hemorrepelente SMS 45Grs., manga larga, tiras ajuste cuello y cintura, puños algodon ajustables en muneca - Marca ArgentCare",
+          "cant": 1000,
+          "precio_able": 1322.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "2",
+          "desc": "Equipo de cirugia SMS descartable esteril con 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos - Marca Ebano",
+          "cant": 100,
+          "precio_able": 22195,
+          "marca": "Ebano",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -24868,12 +24892,46 @@
       "creado": "2026-07-02T19:22:32.884Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-31",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Reng.2 — verificar descripcion en comparativa",
+          "cant": 3000,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "8",
+          "desc": "Reng.8 — ABLE $1.030 (Ind. Argentina) — preferencia nacional no aplicada",
+          "cant": 120,
+          "precio_able": 1030,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Competidor importado — preferencia nacional no reconocida",
+          "motivo": "superado"
+        },
+        {
+          "reng": "14",
+          "desc": "Reng.14 — verificar descripcion en comparativa",
+          "cant": 400,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.2 ($1.870, 3.000u) y 14 ($1.355, 400u) por menor precio. IRREGULARIDAD reng.8: ABLE $1.030 (Ind. Argentina) vs competidor importado mas barato dentro del 10% — preferencia nacional (Art.13.3) no fue aplicada a favor de ABLE. Reng.3,6,12 a Aupres; reng.4,5,8,13,15 a Martorani; reng.7,9 a Euro Swiss; reng.17 a Max Continental; reng.11 desierto; reng.16 a Sondas y Catéteres. Expediente EX-2026-22236665-GDEBA-HIGAGSMMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -25057,7 +25115,7 @@
         "notas": "Renglón 8 — Droguería Martorani S.A. (marca Aurinco, fabricada por Electroplast S.A. en Montevideo, Uruguay, e importada por la propia Martorani) gana con diferencia de 2,83% frente a ABLE — banda de preferencia nacional confirmada, gestionar reclamo con el hospital antes de la pre-adjudicación. De los 11 oferentes que se presentaron en esta licitación (Sondas y Catéteres, Droguería Martorani, Laboratorios Igaltex, Raúl J. L. Poggi, Max Continental, Dealer Médica, Aupres, Papelera E.P., Euro Swiss, ABLE y Medic Tools), solo Martorani, Medic Tools y Euro Swiss compiten en los mismos renglones que ABLE (2, 8 y 14) — el resto cotiza renglones fuera del catálogo de ABLE. Medic Tools S.R.L. es responsable exento de IVA — sus precios se cargan tal cual figuran en su presupuesto. ABLE cotiza 3 renglones de esta licitación (2, 8 y 14), más una alternativa propia (bolsa de dos piezas) en el renglón 2."
       },
       "id": 111,
-      "entidad": "Hospital Interzonal General Agudos General San Martín",
+      "entidad": "H.I.G.A. General San Martin",
       "nro": "PA 337",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-07",
@@ -25065,7 +25123,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "Sí",
       "obs": "Renglón 8 — Droguería Martorani S.A. (marca Aurinco, fabricada por Electroplast S.A. en Montevideo, Uruguay, e importada por la propia Martorani) gana con diferencia de 2,83% frente a ABLE — banda de preferencia nacional confirmada, gestionar reclamo con el hospital antes de la pre-adjudicación. De los 11 oferentes que se presentaron en esta licitación (Sondas y Catéteres, Droguería Martorani, Laboratorios Igaltex, Raúl J. L. Poggi, Max Continental, Dealer Médica, Aupres, Papelera E.P., Euro Swiss, ABLE y Medic Tools), solo Martorani, Medic Tools y Euro Swiss compiten en los mismos renglones que ABLE (2, 8 y 14) — el resto cotiza renglones fuera del catálogo de ABLE. Medic Tools S.R.L. es responsable exento de IVA — sus precios se cargan tal cual figuran en su presupuesto. ABLE cotiza 3 renglones de esta licitación (2, 8 y 14), más una alternativa propia (bolsa de dos piezas) en el renglón 2.",
@@ -46888,7 +46946,240 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "KIMS S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 130,
+            "desc": "Resma de papel grado médico color blanco de 80cm de ancho (precio por kg) — Cód. RESMA.KG, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 8050,
+                "marca": "RESMA.KG - ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 8718.04,
+                "marca": "Alhstrom (papel crepé azul, ABLE cotiza blanco)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 9510,
+                "marca": "Alhstrom (papel crepé azul)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 50000,
+            "desc": "Bolsa de papel grado médico 110mm x 30mm x 190mm con indicador químico de calor húmedo — Cód. BOX110X030X190, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 41.93,
+                "marca": "BOX110X030X190 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 35.29,
+                "marca": "Sterilys",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 34.5,
+                "marca": "Yellow Pack",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 60000,
+            "desc": "Bolsa de papel grado médico 125mm x 50mm x 250mm con indicador químico de calor húmedo — Cód. BOX125X050X250, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 63.12,
+                "marca": "BOX125X050X250 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 49.52,
+                "marca": "Sterilys (cotiza 100.000u)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 48.1,
+                "marca": "Yellow Pack (cotiza 100.000u)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 15,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO — Cód. PO.150.200, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 31500,
+                "marca": "PO.150.200 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 25222.39,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 45700,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 10,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO — Cód. PO.250.200, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 52850,
+                "marca": "PO.250.200 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 48850.73,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 76500,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 10,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO — Cód. PO.200.200, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 41850,
+                "marca": "PO.200.200 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 38359.68,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 60500,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 12,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO — Cód. PO.100.200, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 21750,
+                "marca": "PO.100.200 - ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 20177.39,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 30700,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.2 — ABLE gana claro: $8.050,00 vs Igaltex $8.718,04 y KIMS $9.510,00. Reng.5 y 6 — ABLE PIERDE ambos ante KIMS (menor precio de los 3): reng.5 -21,5%, reng.6 -31,2%. Reng.8, 9, 11 y 13 — ABLE pierde los 4 ante Igaltex (Sterilys, industria nacional): -24,9%, -8,2%, -9,1% y -7,8%. Sin recurso de preferencia nacional, ambos son industria argentina. Reng.6 — Igaltex y KIMS ofrecen cantidad mayor a la de ABLE (100.000 vs 60.000) — no invalida sus ofertas, solo indican capacidad excedente. ABLE gana solo 1 de 7 renglones (reng.2). Total oferta ABLE: $8.610.700,00 (verificado)."
+      },
       "id": 184,
       "entidad": "H.I.G.A. General San Martin",
       "nro": "PA 365",
@@ -46898,10 +47189,10 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.2 — ABLE gana claro: $8.050,00 vs Igaltex $8.718,04 y KIMS $9.510,00. Reng.5 y 6 — ABLE PIERDE ambos ante KIMS (menor precio de los 3): reng.5 -21,5%, reng.6 -31,2%. Reng.8, 9, 11 y 13 — ABLE pierde los 4 ante Igaltex (Sterilys, industria nacional): -24,9%, -8,2%, -9,1% y -7,8%. Sin recurso de preferencia nacional, ambos son industria argentina. Reng.6 — Igaltex y KIMS ofrecen cantidad mayor a la de ABLE (100.000 vs 60.000) — no invalida sus ofertas, solo indican capacidad excedente. ABLE gana solo 1 de 7 renglones (reng.2). Total oferta ABLE: $8.610.700,00 (verificado).",
       "creado": "2026-07-31T21:42:54.880Z"
     },
     {
@@ -47759,24 +48050,6 @@
       "creado": "2026-07-31T22:23:21.911Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 191,
       "entidad": "HTAL WILDE",
       "nro": "PA 126",
@@ -47785,11 +48058,135 @@
       "monto": 4104000,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Solo R21 (LT300). ABLE $5.700 pierde vs Euro Swiss $4.700 (mismo producto Suturas Argentinas). Diferencia +21,3%. R22 LT400: ABLE no cotizó directamente.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "EURO SWISS S.A.",
+          "CIRUGIA ARGENTINA",
+          "AUPRES S.R.L.",
+          "SEDESA S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "22",
+            "cant": 100,
+            "desc": "Ligaclip LT400 — Cartucho con 6 clips de titanio, tamaño grande. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 6840,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": 5600,
+                "marca": "ABLE/Sut. Arg. (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA",
+                "precio": 8160,
+                "marca": "KANGJI (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA S.A.",
+                "precio": 22325.95,
+                "marca": "J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 600,
+            "desc": "Ligaclip LT300 — Cartucho con 6 clips de titanio, tamaño mediano/grande. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 5700,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": 4700,
+                "marca": "ABLE/Sut. Arg. (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "CIRUGIA ARGENTINA",
+                "precio": 6490,
+                "marca": "KANGJI (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES S.R.L.",
+                "precio": 7870,
+                "marca": "UNIMED (Origen: —)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA S.A.",
+                "precio": 22325.95,
+                "marca": "J&J (Origen: EE.UU.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 21 — ABLE $5.700,00 vs Euro Swiss $4.700,00 (ABLE/Suturas Argentinas, Ind. Argentina). Diferencia +21,3%. Sin color — ambos nacionales, diferencia supera el 10%. Reng. 21 — Euro Swiss distribuye producto de Suturas Argentinas SRL (marca ABLE). ABLE S.A. cotiza directamente a $5.700,00. Reng. 22 — ABLE $6.840,00 vs Euro Swiss $5.600,00 (ABLE/Suturas Argentinas, Ind. Argentina). Diferencia +22,1%. Sin color — ambos nacionales, diferencia supera el 10%. Euro Swiss revende el mismo producto a menor precio. Renglones 1 a 20 y 22 a 43 — ABLE no cotizó en estos renglones."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-07-31T22:42:49.781Z"
     },
     {
@@ -48539,6 +48936,24 @@
       "creado": "2026-08-05T19:43:40.254Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 211,
       "entidad": "Htal Fiorito",
       "nro": "PA 144",
@@ -48552,38 +48967,26 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-06T18:06:06.178Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-06T18:06:06.178Z"
-    },
-    {
-      "id": 212,
-      "entidad": "H.I.E.A.C. San Juan de Dios",
-      "nro": "PA 95",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-29",
-      "monto": 3289200,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "",
-      "pref": "",
-      "obs": "Reng. 1 — ABLE $1.680,00 vs Cardiopack $1.213,63 (SURGIKAL, Ind. Argentina). Diferencia +38,5%. Sin color — ambos nacionales. Reng. 4 — ABLE $607,00 vs Cardiopack $643,72 (SURGIKAL, Origen India). ABLE gana por $36,72. Reng. 5 — ABLE $1.205,00 vs Cardiopack $1.195,48 (SURGIKAL, Ind. Argentina). Diferencia +0,8%. Empate técnico ≤2% — ambos nacionales. Reng. 6 — ABLE $1.205,00 vs Cardiopack $1.213,63 (SURGIKAL, Origen India). ABLE gana por $8,63. Rengs. 10 y 11 — ABLE $1.250,00 vs Cardiopack $1.195,48 (SURGIKAL, Ind. Argentina). Diferencia +4,6%. Sin color — ambos nacionales, no aplica preferencia nacional. Reng. 13 — ABLE $5.885,00 (Ligaclips LT200, Ind. Argentina) vs Medic Tools $8.390,00 (Kangji, China). ABLE gana. Reng. 14 — ABLE $607,00 vs Cardiopack $607,42 (SURGIKAL, Origen India). ABLE gana por $0,42. Reng. 15 — ABLE $607,00 vs Cardiopack $607,42 (SURGIKAL, Origen India). ABLE gana por $0,42. Reng. 21 y 22 — ABLE $5.980,00 vs Cardiopack (cotiza como ALT) $5.665,22 / $5.057,80 (SURGIKAL, Ind. Argentina). Diferencia +5,6% / +18,2%. Sin color — ambos nacionales. Rengs. 2, 3, 7, 8, 9, 12, 17, 18, 19, 23, 24 — ABLE no cotizó, no se incluyen. Reng. 16 — ABLE $1.205,00 vs Cardiopack $1.213,63 (SURGIKAL, Origen India). ABLE gana por $8,63.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -49325,24 +49728,55 @@
         ],
         "notas": "Reng. 1 — ABLE $1.680,00 vs Cardiopack $1.213,63 (SURGIKAL, Ind. Argentina). Diferencia +38,5%. Sin color — ambos nacionales. Reng. 4 — ABLE $607,00 vs Cardiopack $643,72 (SURGIKAL, Origen India). ABLE gana por $36,72. Reng. 5 — ABLE $1.205,00 vs Cardiopack $1.195,48 (SURGIKAL, Ind. Argentina). Diferencia +0,8%. Empate técnico ≤2% — ambos nacionales. Reng. 6 — ABLE $1.205,00 vs Cardiopack $1.213,63 (SURGIKAL, Origen India). ABLE gana por $8,63. Rengs. 10 y 11 — ABLE $1.250,00 vs Cardiopack $1.195,48 (SURGIKAL, Ind. Argentina). Diferencia +4,6%. Sin color — ambos nacionales, no aplica preferencia nacional. Reng. 13 — ABLE $5.885,00 (Ligaclips LT200, Ind. Argentina) vs Medic Tools $8.390,00 (Kangji, China). ABLE gana. Reng. 14 — ABLE $607,00 vs Cardiopack $607,42 (SURGIKAL, Origen India). ABLE gana por $0,42. Reng. 15 — ABLE $607,00 vs Cardiopack $607,42 (SURGIKAL, Origen India). ABLE gana por $0,42. Reng. 21 y 22 — ABLE $5.980,00 vs Cardiopack (cotiza como ALT) $5.665,22 / $5.057,80 (SURGIKAL, Ind. Argentina). Diferencia +5,6% / +18,2%. Sin color — ambos nacionales. Rengs. 2, 3, 7, 8, 9, 12, 17, 18, 19, 23, 24 — ABLE no cotizó, no se incluyen. Reng. 16 — ABLE $1.205,00 vs Cardiopack $1.213,63 (SURGIKAL, Origen India). ABLE gana por $8,63."
       },
+      "id": 212,
+      "entidad": "H.I.E.A.C. San Juan de Dios",
+      "nro": "PA 95",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-29",
+      "monto": 3289200,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Reng. 1 — ABLE $1.680,00 vs Cardiopack $1.213,63 (SURGIKAL, Ind. Argentina). Diferencia +38,5%. Sin color — ambos nacionales. Reng. 4 — ABLE $607,00 vs Cardiopack $643,72 (SURGIKAL, Origen India). ABLE gana por $36,72. Reng. 5 — ABLE $1.205,00 vs Cardiopack $1.195,48 (SURGIKAL, Ind. Argentina). Diferencia +0,8%. Empate técnico ≤2% — ambos nacionales. Reng. 6 — ABLE $1.205,00 vs Cardiopack $1.213,63 (SURGIKAL, Origen India). ABLE gana por $8,63. Rengs. 10 y 11 — ABLE $1.250,00 vs Cardiopack $1.195,48 (SURGIKAL, Ind. Argentina). Diferencia +4,6%. Sin color — ambos nacionales, no aplica preferencia nacional. Reng. 13 — ABLE $5.885,00 (Ligaclips LT200, Ind. Argentina) vs Medic Tools $8.390,00 (Kangji, China). ABLE gana. Reng. 14 — ABLE $607,00 vs Cardiopack $607,42 (SURGIKAL, Origen India). ABLE gana por $0,42. Reng. 15 — ABLE $607,00 vs Cardiopack $607,42 (SURGIKAL, Origen India). ABLE gana por $0,42. Reng. 21 y 22 — ABLE $5.980,00 vs Cardiopack (cotiza como ALT) $5.665,22 / $5.057,80 (SURGIKAL, Ind. Argentina). Diferencia +5,6% / +18,2%. Sin color — ambos nacionales. Rengs. 2, 3, 7, 8, 9, 12, 17, 18, 19, 23, 24 — ABLE no cotizó, no se incluyen. Reng. 16 — ABLE $1.205,00 vs Cardiopack $1.213,63 (SURGIKAL, Origen India). ABLE gana por $8,63.",
+      "creado": "2026-08-06T19:15:09.466Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-06T19:15:09.466Z"
+      "tabla": null,
+      "id": 213,
+      "entidad": "H.I.G.A. General San Martin",
+      "nro": "LP 91",
+      "tipo": "Privada",
+      "fecha": "2026-08-11",
+      "monto": 37536000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-08-06T20:24:37.927Z"
     }
   ],
-  "nextId": 213
+  "nextId": 214
 }
