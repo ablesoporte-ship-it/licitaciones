@@ -25846,12 +25846,145 @@
       "creado": "2026-07-02T19:27:23.611Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-15",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca ABLE",
+          "cant": 3000,
+          "precio_able": 36.46,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 37.71,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys) — más caro que ABLE, adjudicado 'por ajustarse a lo solicitado'",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "2",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca ABLE",
+          "cant": 2000,
+          "precio_able": 75.46,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 76.67,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys) — más caro que ABLE, adjudicado 'por ajustarse a lo solicitado'",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa de papel grado médico de 250mm x 100mm x 380mm con indicador químico de calor húmedo, marca ABLE",
+          "cant": 400,
+          "precio_able": 143.01,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 127.91,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 1,
+          "precio_able": 59670,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 57841.29,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "8",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 400mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.400.200",
+          "cant": 1,
+          "precio_able": 78500,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "empate_tecnico"
+        },
+        {
+          "reng": "12",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 1,
+          "precio_able": 50250,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 48850.73,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "13",
+          "desc": "Resma de papel grado médico color blanco, marca ABLE",
+          "cant": 1,
+          "precio_able": 158300,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 126521.96,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Global Protective)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "19",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 3,
+          "precio_able": 39780,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 38359.68,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "20",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.100.200",
+          "cant": 3,
+          "precio_able": 19600,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "21",
+          "desc": "Bolsa de papel grado médico de 125mm x 50mm x 250mm con indicador químico de calor húmedo, marca ABLE",
+          "cant": 1000,
+          "precio_able": 54.89,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 52.91,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "22",
+          "desc": "Bolsa de papel grado médico de 90mm x 50mm x 150mm con indicador químico de calor húmedo, marca ABLE",
+          "cant": 10000,
+          "precio_able": 30.23,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 31.68,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys) — más caro que ABLE, adjudicado 'por ajustarse a lo solicitado'",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "23",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 3,
+          "precio_able": 29950,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 25222.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 41/2026 (H.Z.E.A.C. Dr. Cetrángolo, Florida), comisión reunida 15/07/2026. ABLE gana reng.8 (empate técnico resuelto a favor, $78.500,00) y reng.20 (menor precio, $58.800,00 total) — total adjudicado $137.300,00. ⚠️ IRREGULARIDAD: en reng.1, 2 y 22, ABLE tenía el precio más bajo de la comparativa pero el acta adjudica a Igaltex bajo la categoría 'por ajustarse a lo solicitado' (no 'por precio') — sugiere rechazo técnico de ABLE en esos 3 renglones, no derrota por precio. Verificar motivo de rechazo con el hospital, mismo patrón que PA 328. Resto de renglones (4, 7, 12, 13, 19, 21, 23) perdidos por precio, consistente con la comparativa original.",
+      "gestion_pre_resultado": "Parcial",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -26266,7 +26399,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "Sí",
       "pref": "No",
       "obs": "Laboratorios Igaltex S.R.L. es responsable inscripto EXENTO de IVA — sus precios se cargan tal cual figuran en su presupuesto, sin ajuste, aunque compiten en desigualdad de condiciones frente a oferentes que sí discriminan IVA. Renglones 4, 7, 12, 19 y 21 — Igaltex gana con diferencia entre 2% y 10% frente a ABLE (banda de preferencia nacional). Verificar origen del producto de Igaltex antes de gestionar el reclamo. Renglón 8 — empate técnico (≤2%) frente a Igaltex. Renglones 13 y 23 — ABLE pierde con diferencia mayor al 10% frente a Igaltex, sin margen de gestión por empate ni preferencia nacional. ABLE cotiza 12 de los 24 renglones del pliego (no cotiza 3, 5, 6, 9, 10, 11, 14, 15, 16, 17, 18 y 24). Papelera E.P. S.R.L. (renglones 3, 6, 9) y Sondas y Catéteres S.R.L. (renglón 17) no compiten en ningún renglón cotizado por ABLE.",
@@ -47174,37 +47307,446 @@
       "creado": "2026-07-31T21:42:54.849Z"
     },
     {
+      "id": 182,
+      "entidad": "HTAL MERCANTE",
+      "nro": "PA 192",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-07",
+      "monto": 5025660,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Resultado general: de los 10 renglones cotizados por ABLE, se gana únicamente el renglón 22 (ABLE es el único oferente además de Kims). En el resto gana Laboratorios Igaltex por menor precio, sin que corresponda empate técnico ni preferencia nacional en ningún caso (ningún oferente declara producto importado en esta licitación). Reng. 18, 19 y 21 — ABLE queda a 6,03%, 6,06% y 10,95% de Igaltex respectivamente. No se colorea como preferencia nacional porque Igaltex no declara origen importado — la preferencia nacional solo aplica frente a un competidor importado. Reng. 25 — Papelera EP ofrece una alternativa de resma de 10kg cuando el pliego pide 20kg (según se desprende de la descripción de Igaltex, 'x 20 kg'), pero no se objeta al no ser la oferta ganadora. Gana Igaltex ($135.173,04); ABLE queda muy por encima ($158.300,00, +17,1%). Reng. 1, 3, 4, 17 y 20 — ABLE queda entre 16,9% y 308% por encima de Igaltex; diferencias fuera de cualquier rango de empate o preferencia. Monto total cotizado por ABLE (los 10 renglones donde participa): $5.025.660,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "LABORATORIOS IGALTEX S.R.L.",
+          "KIMS S.R.L.",
+          "PAPELERA EP S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "Papel Uso Médico Liso c/Indicador Químico - Bolsa - 125 x 250 x 50-90 mm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 63.12,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 49.25,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 65,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 6000,
+            "desc": "Papel Uso Médico Liso c/Indicador Químico - Bolsa - 250 x 380 x 100 mm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 164.46,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 40.28,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 210,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 15000,
+            "desc": "Papel Uso Médico Liso c/Indicador Químico - Unidad - Bolsa - 110 x 190 x 30 mm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 41.93,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 35.29,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 46,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 3,
+            "desc": "Papel Uso Médico Liso y Lámina Transparente c/Indicador Químico (envase mixto) - Rollo - 50mm x 200m",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 12840,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 10985.65,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 16900,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 3,
+            "desc": "Papel Uso Médico Liso y Lámina Transparente c/Indicador Químico - Rollo - Envase Mixto - 75 mm x 200 m",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 16050,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 15137.4,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 24500,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 3,
+            "desc": "Papel Uso Médico Liso y Lámina Transparente c/Indicador Químico (Pouch) - Rollo - Envase Mixto - 100 mm x 200 m",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 21400,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 20177.39,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31500,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 3,
+            "desc": "Papel Uso Médico Liso y Lámina Transparente c/Indicador Químico - Rollo - Envase Mixto - 150 mm x 200 m",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 32100,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 25222.39,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 47400,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 3,
+            "desc": "Papel Uso Médico Liso y Lámina Transparente c/Indicador Químico (Pouch) - Rollo - Envase Mixto - 200 mm x 200 m",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 42560,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 38359.68,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 62700,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 3,
+            "desc": "Papel Uso Médico Liso y Lámina Transparente c/Indicador Químico (Pouch) - Rollo - Envase Mixto - 300 mm x 60 mm x 100 m",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 63900,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 79100,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 6,
+            "desc": "Papel Uso Médico Liso Blanco - Kg - Resma - 60 x 90 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 135173.04,
+                "marca": "Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 142000,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA EP S.R.L.",
+                "precio": 143896,
+                "marca": "Papelera EP",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Resultado general: de los 10 renglones cotizados por ABLE, se gana únicamente el renglón 22 (ABLE es el único oferente además de Kims). En el resto gana Laboratorios Igaltex por menor precio, sin que corresponda empate técnico ni preferencia nacional en ningún caso (ningún oferente declara producto importado en esta licitación). Reng. 18, 19 y 21 — ABLE queda a 6,03%, 6,06% y 10,95% de Igaltex respectivamente. No se colorea como preferencia nacional porque Igaltex no declara origen importado — la preferencia nacional solo aplica frente a un competidor importado. Reng. 25 — Papelera EP ofrece una alternativa de resma de 10kg cuando el pliego pide 20kg (según se desprende de la descripción de Igaltex, 'x 20 kg'), pero no se objeta al no ser la oferta ganadora. Gana Igaltex ($135.173,04); ABLE queda muy por encima ($158.300,00, +17,1%). Reng. 1, 3, 4, 17 y 20 — ABLE queda entre 16,9% y 308% por encima de Igaltex; diferencias fuera de cualquier rango de empate o preferencia. Monto total cotizado por ABLE (los 10 renglones donde participa): $5.025.660,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 182,
-      "entidad": "Htal Mercante",
-      "nro": "PA 192",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-07",
-      "monto": 5025000,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-31T21:42:54.860Z"
     },
     {
@@ -47242,21 +47784,99 @@
       "creado": "2026-07-31T21:42:54.871Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-07",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Resma de papel grado médico color blanco de 80cm de ancho (precio por kg), marca ABLE - Cód. RESMA.KG",
+          "cant": 130,
+          "precio_able": 8050,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Bolsa de papel grado médico 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca ABLE - Cód. BOX110X030X190",
+          "cant": 50000,
+          "precio_able": 41.93,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 34.5,
+          "ganador_sig": "KIMS S.R.L. (Yellow Pack)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "6",
+          "desc": "Bolsa de papel grado médico 125mm x 50mm x 250mm con indicador químico de calor húmedo, marca ABLE - Cód. BOX125X050X250",
+          "cant": 60000,
+          "precio_able": 63.12,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 48.1,
+          "ganador_sig": "KIMS S.R.L. (Yellow Pack)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "8",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.150.200",
+          "cant": 15,
+          "precio_able": 31500,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 25222.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "9",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.250.200",
+          "cant": 10,
+          "precio_able": 52850,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 48850.73,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "11",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.200.200",
+          "cant": 10,
+          "precio_able": 41850,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 38359.68,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "13",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.100.200",
+          "cant": 12,
+          "precio_able": 21750,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": 20177.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 365/2026 (H.I.G.A. Gral. San Martín, La Plata), 07/08/2026. ABLE gana reng.2 (resma papel blanco) por menor precio, tal como reflejaba la comparativa. Reng.5, 6, 8, 9, 11 y 13: pierde ante KIMS (reng.5, 6) e Igaltex (reng.8, 9, 11, 13) por menor precio, consistente con la comparativa original. Ningún renglón fue rechazado por incumplimiento — todos por precio.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-08-07",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": {
@@ -47502,7 +48122,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.2 — ABLE gana claro: $8.050,00 vs Igaltex $8.718,04 y KIMS $9.510,00. Reng.5 y 6 — ABLE PIERDE ambos ante KIMS (menor precio de los 3): reng.5 -21,5%, reng.6 -31,2%. Reng.8, 9, 11 y 13 — ABLE pierde los 4 ante Igaltex (Sterilys, industria nacional): -24,9%, -8,2%, -9,1% y -7,8%. Sin recurso de preferencia nacional, ambos son industria argentina. Reng.6 — Igaltex y KIMS ofrecen cantidad mayor a la de ABLE (100.000 vs 60.000) — no invalida sus ofertas, solo indican capacidad excedente. ABLE gana solo 1 de 7 renglones (reng.2). Total oferta ABLE: $8.610.700,00 (verificado).",
