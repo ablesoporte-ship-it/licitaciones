@@ -32063,12 +32063,68 @@
       "creado": "2026-07-20T16:18:44.527Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-08",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "8",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 4,
+          "precio_able": 21725.55,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 2,
+          "precio_able": 43758,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "10",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 2,
+          "precio_able": 54160,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "12",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 4,
+          "precio_able": 32220,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "13",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 75mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE",
+          "cant": 2,
+          "precio_able": 16324.11,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 19/2026 (H.Z.E. Materno Infantil Argentina Diego, Azul), comisión reunida 08/07/2026. ABLE gana los 5 renglones cotizados (8, 9, 10, 12, 13) — todos bobinas de pouch de papel grado médico, marca ABLE. Total adjudicado a ABLE: $444.266,42. El acta menciona un total general de $804.659,42 adjudicado a todas las firmas, pero no se recibió la sección del otro oferente ni la comparativa original — no se puede confirmar si ABLE cotizó y perdió algún renglón adicional. Sin sección de 'Rechazados' visible en el documento recibido.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -32090,7 +32146,7 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -41712,12 +41768,24 @@
       "creado": "2026-07-23T12:51:03.854Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-31",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Cofia descartable elastizada, marca ArgentCare - Cód. COFIA.2E.12",
+          "cant": 30000,
+          "precio_able": 28.22,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 250/2026 (H.I.A.E.P. Sor María Ludovica, La Plata), comisión reunida 31/07/2026. ABLE gana su único renglón cotizado (reng.2, cofia descartable elastizada) por menor precio y por ajustarse a lo solicitado. Total adjudicado a ABLE: $846.600,00.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -41739,7 +41807,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
