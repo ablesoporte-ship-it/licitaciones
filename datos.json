@@ -47307,19 +47307,23 @@
       "creado": "2026-07-31T21:42:54.849Z"
     },
     {
-      "id": 182,
-      "entidad": "HTAL MERCANTE",
-      "nro": "PA 192",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-07",
-      "monto": 5025660,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Resultado general: de los 10 renglones cotizados por ABLE, se gana únicamente el renglón 22 (ABLE es el único oferente además de Kims). En el resto gana Laboratorios Igaltex por menor precio, sin que corresponda empate técnico ni preferencia nacional en ningún caso (ningún oferente declara producto importado en esta licitación). Reng. 18, 19 y 21 — ABLE queda a 6,03%, 6,06% y 10,95% de Igaltex respectivamente. No se colorea como preferencia nacional porque Igaltex no declara origen importado — la preferencia nacional solo aplica frente a un competidor importado. Reng. 25 — Papelera EP ofrece una alternativa de resma de 10kg cuando el pliego pide 20kg (según se desprende de la descripción de Igaltex, 'x 20 kg'), pero no se objeta al no ser la oferta ganadora. Gana Igaltex ($135.173,04); ABLE queda muy por encima ($158.300,00, +17,1%). Reng. 1, 3, 4, 17 y 20 — ABLE queda entre 16,9% y 308% por encima de Igaltex; diferencias fuera de cualquier rango de empate o preferencia. Monto total cotizado por ABLE (los 10 renglones donde participa): $5.025.660,00.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -47731,22 +47735,19 @@
         ],
         "notas": "Resultado general: de los 10 renglones cotizados por ABLE, se gana únicamente el renglón 22 (ABLE es el único oferente además de Kims). En el resto gana Laboratorios Igaltex por menor precio, sin que corresponda empate técnico ni preferencia nacional en ningún caso (ningún oferente declara producto importado en esta licitación). Reng. 18, 19 y 21 — ABLE queda a 6,03%, 6,06% y 10,95% de Igaltex respectivamente. No se colorea como preferencia nacional porque Igaltex no declara origen importado — la preferencia nacional solo aplica frente a un competidor importado. Reng. 25 — Papelera EP ofrece una alternativa de resma de 10kg cuando el pliego pide 20kg (según se desprende de la descripción de Igaltex, 'x 20 kg'), pero no se objeta al no ser la oferta ganadora. Gana Igaltex ($135.173,04); ABLE queda muy por encima ($158.300,00, +17,1%). Reng. 1, 3, 4, 17 y 20 — ABLE queda entre 16,9% y 308% por encima de Igaltex; diferencias fuera de cualquier rango de empate o preferencia. Monto total cotizado por ABLE (los 10 renglones donde participa): $5.025.660,00."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 182,
+      "entidad": "HTAL MERCANTE",
+      "nro": "PA 192",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-07",
+      "monto": 5025660,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Resultado general: de los 10 renglones cotizados por ABLE, se gana únicamente el renglón 22 (ABLE es el único oferente además de Kims). En el resto gana Laboratorios Igaltex por menor precio, sin que corresponda empate técnico ni preferencia nacional en ningún caso (ningún oferente declara producto importado en esta licitación). Reng. 18, 19 y 21 — ABLE queda a 6,03%, 6,06% y 10,95% de Igaltex respectivamente. No se colorea como preferencia nacional porque Igaltex no declara origen importado — la preferencia nacional solo aplica frente a un competidor importado. Reng. 25 — Papelera EP ofrece una alternativa de resma de 10kg cuando el pliego pide 20kg (según se desprende de la descripción de Igaltex, 'x 20 kg'), pero no se objeta al no ser la oferta ganadora. Gana Igaltex ($135.173,04); ABLE queda muy por encima ($158.300,00, +17,1%). Reng. 1, 3, 4, 17 y 20 — ABLE queda entre 16,9% y 308% por encima de Igaltex; diferencias fuera de cualquier rango de empate o preferencia. Monto total cotizado por ABLE (los 10 renglones donde participa): $5.025.660,00.",
       "creado": "2026-07-31T21:42:54.860Z"
     },
     {
@@ -50787,20 +50788,538 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "EURO SWISS S.A.",
+          "KIMS S.R.L.",
+          "PAPELERA E.P. SRL",
+          "AUPRES SRL",
+          "IGALTEX S.R.L.",
+          "BYMED S.R.L.",
+          "BHAURAC S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "7",
+            "cant": 6,
+            "desc": "Resma de papel grado médico color blanco 80x120cm 20kg — RESMA.20 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "RESMA.20 — Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 140500,
+                "marca": "YA221102 — Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 135173.34,
+                "marca": "MCA. GLOBAL PROTECTIVE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 4,
+            "desc": "Bobina de pouch papel uso médico liso y lámina transparente 200mm x 200mts c/indicador qco calor húmedo + ETO — PO.200.200 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 41769,
+                "marca": "PO.200.200 — Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 62700,
+                "marca": "YA264223 — Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 38359.68,
+                "marca": "Sterilys — PM 414-29",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 250,
+            "desc": "Camisolin estéril hemorrepelente tela SMS 45g, descartable, manga larga, puños de algodón ajustables en muñeca — CE.SMS.120.ALG.45.A — marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1850,
+                "marca": "CE.SMS.120.ALG.45.A — ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": 3260,
+                "marca": "BIOPROTEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 6616.76,
+                "marca": "DCI02001 — DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 80000,
+            "desc": "Bolsa papel grado médico liso c/indicador qco 110mm x 30mm x 190mm autosellable — BOX110X030X190 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 40.11,
+                "marca": "BOX110X030X190 — Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 40,
+                "marca": "YA253304 — Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 35.29,
+                "marca": "Sterilys — PM 414-29",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 40000,
+            "desc": "Bolsa papel grado médico liso c/indicador qco 90mm x 250mm x 50mm autosellable — BOX125X050X250 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 60.38,
+                "marca": "BOX125X050X250 — Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 46,
+                "marca": "YA253303 — Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 38.85,
+                "marca": "Sterilys — PM 414-29",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 2,
+            "desc": "Bobina de pouch papel uso médico liso y lámina transparente 100mm x 200mts c/indicador qco calor húmedo + ETO — PO.100.200 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 20947.5,
+                "marca": "PO.100.200 — Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31500,
+                "marca": "YA264213 — Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 20177.39,
+                "marca": "Sterilys — PM 414-29",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 4,
+            "desc": "Bobina de pouch papel uso médico liso y lámina transparente 300mm x 200mts c/indicador qco calor húmedo + ETO — PO.300.200 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 62653.5,
+                "marca": "PO.300.200 — Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 93800,
+                "marca": "YA264228 — Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PAPELERA E.P. SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "AUPRES SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 57841.29,
+                "marca": "Sterilys — PM 414-29",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BYMED S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 7 — ABLE $158.300,00 vs IGALTEX $135.173,34 (nac.) dif. 17,1% — ABLE pierde sin alerta. Reng. 14 — ABLE $41.769,00 vs IGALTEX $38.359,68 (nac.) dif. 8,9% — ABLE pierde sin alerta. Reng. 15 — ABLE $1.850,00 gana. AUPRES $3.260,00 / BHAURAC $6.616,76. Reng. 17 — ABLE $40,11 vs IGALTEX $35,29 (nac.) dif. 13,6% — ABLE pierde sin alerta. Reng. 18 — ABLE $60,38 vs IGALTEX $38,85 (nac.) dif. 55,4% — ABLE pierde sin alerta. Reng. 22 — ABLE $20.947,50 vs IGALTEX $20.177,39 (nac.) dif. 3,8% — ABLE pierde sin alerta. Reng. 27 — ABLE $62.653,50 vs IGALTEX $57.841,29 (nac.) dif. 8,3% — ABLE pierde sin alerta. Renglones no cotizados por ABLE: 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 16, 19, 20, 21, 23, 24, 25, 26."
+      },
       "id": 195,
-      "entidad": "Htal Magdalena V. de Martinez",
+      "entidad": "H.Z.G.A. MAGDALENA V. DE MARTÍNEZ",
       "nro": "PA 211",
-      "tipo": "Procedimiento Abreviado",
+      "tipo": "Procedimiento Abreviado N° 211/2026",
       "fecha": "2026-08-07",
-      "monto": 7495525,
+      "monto": 7495885,
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 7 — ABLE $158.300,00 vs IGALTEX $135.173,34 (nac.) dif. 17,1% — ABLE pierde sin alerta. Reng. 14 — ABLE $41.769,00 vs IGALTEX $38.359,68 (nac.) dif. 8,9% — ABLE pierde sin alerta. Reng. 15 — ABLE $1.850,00 gana. AUPRES $3.260,00 / BHAURAC $6.616,76. Reng. 17 — ABLE $40,11 vs IGALTEX $35,29 (nac.) dif. 13,6% — ABLE pierde sin alerta. Reng. 18 — ABLE $60,38 vs IGALTEX $38,85 (nac.) dif. 55,4% — ABLE pierde sin alerta. Reng. 22 — ABLE $20.947,50 vs IGALTEX $20.177,39 (nac.) dif. 3,8% — ABLE pierde sin alerta. Reng. 27 — ABLE $62.653,50 vs IGALTEX $57.841,29 (nac.) dif. 8,3% — ABLE pierde sin alerta. Renglones no cotizados por ABLE: 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 16, 19, 20, 21, 23, 24, 25, 26.",
       "creado": "2026-08-03T14:15:14.154Z"
     },
     {
@@ -52717,7 +53236,107 @@
       "creado": "2026-08-06T20:24:37.927Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 214,
+      "entidad": "",
+      "nro": "",
+      "tipo": "",
+      "fecha": "",
+      "monto": 0,
+      "mayor": "No",
+      "zona": "",
+      "agente": "",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-08-07T20:06:44.517Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 215,
+      "entidad": "Htal Jose Penna",
+      "nro": "CM 425",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-14",
+      "monto": 2580480,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-08-07T20:07:02.700Z"
+    },
+    {
+      "id": 216,
+      "entidad": "Htal Mi Pueblo",
+      "nro": "PA 134",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-13",
+      "monto": 10378252,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-10T18:14:58.862Z"
+    },
+    {
+      "id": 217,
       "entidad": "",
       "nro": "",
       "tipo": "",
@@ -52746,18 +53365,18 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-07T20:06:44.517Z"
+      "creado": "2026-08-10T18:15:15.717Z"
     },
     {
-      "id": 215,
-      "entidad": "Htal Jose Penna",
-      "nro": "CM 425",
+      "id": 218,
+      "entidad": "Htal la Flores",
+      "nro": "SAMO 26",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-14",
-      "monto": 2580480,
+      "monto": 299864,
       "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
+      "zona": "Zona Sur",
+      "agente": "Noé",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -52778,8 +53397,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-07T20:07:02.700Z"
+      "creado": "2026-08-10T18:15:53.836Z"
     }
   ],
-  "nextId": 216
+  "nextId": 219
 }
