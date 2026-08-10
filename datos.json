@@ -25988,14 +25988,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "adj_fecha": "2026-07-15",
+      "adj_monto_able": 137300,
+      "adj_resumen": "ABLE adjudicada en reng.8 ($78.500,00, empate técnico) y reng.20 ($58.800,00, menor precio) — H.Z.E.A.C. Dr. Cetrángolo. Total: $137.300,00. Confirmado por OC 115/2026, Disposición DISPO-2026-450-GDEBA-HZEACDAACMSALGP.",
+      "adj_alertas": "IRREGULARIDAD: en reng.1, 2 y 22, ABLE tenía el precio más bajo de la comparativa pero perdió ante Igaltex bajo la categoría 'por ajustarse a lo solicitado' (no 'por precio') — sugiere rechazo técnico de ABLE en esos 3 renglones. Verificar motivo con el hospital.",
+      "adj_tiene_alerta": true,
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-10",
+      "oc_alertas": "OC Nro. 115/2026. Disposición: DISPO-2026-450-GDEBA-HZEACDAACMSALGP. Reng.8 y 20 sin diferencias respecto de lo adjudicado. Total: $137.300,00.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -26399,11 +26399,121 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "Sí",
       "pref": "No",
       "obs": "Laboratorios Igaltex S.R.L. es responsable inscripto EXENTO de IVA — sus precios se cargan tal cual figuran en su presupuesto, sin ajuste, aunque compiten en desigualdad de condiciones frente a oferentes que sí discriminan IVA. Renglones 4, 7, 12, 19 y 21 — Igaltex gana con diferencia entre 2% y 10% frente a ABLE (banda de preferencia nacional). Verificar origen del producto de Igaltex antes de gestionar el reclamo. Renglón 8 — empate técnico (≤2%) frente a Igaltex. Renglones 13 y 23 — ABLE pierde con diferencia mayor al 10% frente a Igaltex, sin margen de gestión por empate ni preferencia nacional. ABLE cotiza 12 de los 24 renglones del pliego (no cotiza 3, 5, 6, 9, 10, 11, 14, 15, 16, 17, 18 y 24). Papelera E.P. S.R.L. (renglones 3, 6, 9) y Sondas y Catéteres S.R.L. (renglón 17) no compiten en ningún renglón cotizado por ABLE.",
-      "creado": "2026-07-02T19:34:30.451Z"
+      "creado": "2026-07-02T19:34:30.451Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa de papel grado médico 110x30x190mm c/ind. químico calor húmedo, marca ABLE",
+          "cant": 3000,
+          "precio_able": 36.46,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "2",
+          "desc": "Bolsa de papel grado médico 140x50x330mm c/ind. químico calor húmedo, marca ABLE",
+          "cant": 2000,
+          "precio_able": 75.46,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa de papel grado médico 250x100x380mm c/ind. químico calor húmedo, marca ABLE",
+          "cant": 400,
+          "precio_able": 143.01,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "Bobina de pouch 300x200mm c/ind. químico calor húmedo + ETO, marca ABLE",
+          "cant": 1,
+          "precio_able": 59670,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        },
+        {
+          "reng": "8",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 400mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.400.200",
+          "cant": 1,
+          "precio_able": 78500,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "empate_tecnico"
+        },
+        {
+          "reng": "12",
+          "desc": "Bobina de pouch 250x200mm c/ind. químico calor húmedo + ETO, marca ABLE",
+          "cant": 1,
+          "precio_able": 50250,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        },
+        {
+          "reng": "13",
+          "desc": "Resma de papel grado médico color blanco, marca ABLE",
+          "cant": 1,
+          "precio_able": 158300,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        },
+        {
+          "reng": "19",
+          "desc": "Bobina de pouch 200x200mm c/ind. químico calor húmedo + ETO, marca ABLE",
+          "cant": 3,
+          "precio_able": 39780,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        },
+        {
+          "reng": "20",
+          "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca ABLE - Cód. PO.100.200",
+          "cant": 3,
+          "precio_able": 19600,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "21",
+          "desc": "Bolsa de papel grado médico 125x50x250mm c/ind. químico calor húmedo, marca ABLE",
+          "cant": 1000,
+          "precio_able": 54.89,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        },
+        {
+          "reng": "22",
+          "desc": "Bolsa de papel grado médico 90x50x150mm c/ind. químico calor húmedo, marca ABLE",
+          "cant": 10000,
+          "precio_able": 30.23,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "23",
+          "desc": "Bobina de pouch 150x200mm c/ind. químico calor húmedo + ETO, marca ABLE",
+          "cant": 3,
+          "precio_able": 29950,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
