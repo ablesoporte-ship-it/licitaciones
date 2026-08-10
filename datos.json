@@ -5320,14 +5320,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-08-10",
+      "adj_monto_able": 7150000,
+      "adj_resumen": "ABLE adjudicada en reng.1 (camisolin SMS 30Grs. ArgentCare, 11.000u x $650 = $7.150.000,00). OC 392/2026. Licitacion MAYOR.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-10",
+      "oc_alertas": "OC Nro. 392/2026 fecha 10/08/2026. Reng.1 (camisolin SMS 30Grs. ArgentCare, 11.000u x $650 = $7.150.000,00). Entrega hasta 31/12/2026. Disposicion DISPO-2026-1289-GDEBA-HIGASJMSALGP/2026. Licitacion MAYOR.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -5501,18 +5501,31 @@
       },
       "id": 44,
       "entidad": "Htal San Jose de Pergamino",
-      "nro": "PA 135",
+      "nro": "PA 135/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-05-29",
       "monto": 7463500,
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana Renglón 1 con $678,50 (ARGENTCARE 30grs, Ind. Argentina). ALT 1/2/3 son ofertas exclusivas de ABLE. ALT de AUPRES excluida (ABLE no cotiza).",
-      "creado": "2026-05-29T22:39:19.545Z"
+      "creado": "2026-05-29T22:39:19.545Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin no esteril no hemorrepelente SMS 30Grs., manga larga, tiras ajuste cuello y cintura, puños elastico ajustables en muneca - Marca ArgentCare",
+          "cant": 11000,
+          "precio_able": 650,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-06-03",
@@ -25465,12 +25478,35 @@
       "creado": "2026-07-02T19:25:13.214Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-21",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "12",
+          "desc": "Sutura de Acido Poliglicolico N°3/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 1000,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "16",
+          "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo LT300 - Marca ABLE (Ind. argentina)",
+          "cant": 1500,
+          "precio_able": 5296,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.12 (PGA N°3/0 aguja 25mm 1/2 circ. punta redonda 70cm, Surgimax, 1.000u x $1.205 = $1.205.000, PP). Reng.16 (LigaClip LT300, 1.500u x $5.296) RECHAZADO por precio excesivo. Otros: Igaltex rengs.10,11 (Polipropileno Medone); Cardiopack rengs.5,13,14 (esponja hemostatica Surgikal y hilo lino Surgikal, Ind. Arg.); Euro Swiss reng.5 (hoja bisturi PAS); Papelera EP reng.9 rechazada precio excesivo; Martorani reng.6 rechazada precio excesivo; reng.8 desierto. Expediente EX-2026-21663493-GDEBA-HIGAEMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -25839,7 +25875,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Renglón 12 — el pliego especifica punta cilíndrica y ABLE cotiza punta redonda; en nomenclatura de suturas ambos términos son equivalentes (punta no cortante/atraumática), no se considera incumplimiento técnico real. Renglones 10 y 11 — ABLE pierde con diferencia mayor al 50% frente a Laboratorios Igaltex S.R.L. (exento de IVA), sin margen de gestión por empate ni preferencia nacional. Renglón 12 — Cardiopack Argentina S.A. (marca Surgikal) declara expresamente origen India en su presupuesto, a diferencia de otras licitaciones donde Surgikal figura como industria argentina. No obstante, ABLE gana este renglón directo por precio ($1.205 vs $1.242,67), la diferencia queda solo como dato de contexto. Renglón 16 — ABLE es el único oferente (cartucho de clips de titanio LT300); gana por defecto sin competencia. ABLE cotiza 4 renglones de esta licitación (10, 11, 12 y 16) de un total de 16.",
