@@ -1,179 +1,6 @@
 {
   "rows": [
     {
-      "preadj_fecha": "2026-06-05",
-      "preadj_empate_ok": "N/A",
-      "preadj_pref_ok": "N/A",
-      "renglones_preadj": [
-        {
-          "reng": "1",
-          "desc": "Sutura poliglactina 5/0 oftalmológica — Aguja S-14",
-          "cant": 72,
-          "precio_able": 13200,
-          "marca": null,
-          "resultado": "no_adj",
-          "precio_siguiente": 26608.26,
-          "ganador_sig": "SEDESA S.A.",
-          "motivo": "rechazado_calidad"
-        },
-        {
-          "reng": "2",
-          "desc": "Sutura poliglactina 6/0 oftalmológica — Aguja S-14",
-          "cant": 24,
-          "precio_able": 13200,
-          "marca": null,
-          "resultado": "no_adj",
-          "precio_siguiente": 26608.26,
-          "ganador_sig": "SEDESA S.A.",
-          "motivo": "rechazado_calidad"
-        },
-        {
-          "reng": "3",
-          "desc": "Sutura poliglactina 7/0 oftalmológica — Aguja TG 140-8",
-          "cant": 48,
-          "precio_able": 13200,
-          "marca": null,
-          "resultado": "no_adj",
-          "precio_siguiente": 26608.26,
-          "ganador_sig": "SEDESA S.A.",
-          "motivo": "rechazado_calidad"
-        }
-      ],
-      "gestion_pre": "Noe",
-      "gestion_pre_resultado": "Sin resultado",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": {
-        "oferentes": [
-          "ABLE S.A.",
-          "Medic Tools SRL",
-          "Sedesa S.A."
-        ],
-        "renglones": [
-          {
-            "reng": "1",
-            "cant": 72,
-            "desc": "Sutura de Ácido Poliglicólico N° 5/0\r\nAguja 08mm, 1/4 circ. doble, punta Espatulada\r\nHebra 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 13200,
-                "marca": "ABLE\r\n(Ind. Argentina)",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Medic Tools SRL",
-                "precio": 14850,
-                "marca": "TAGUM\r\n(Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 27765.14,
-                "marca": "J&J VICRYL J571GPoliglactina ≠ Poliglicólico",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
-              }
-            ]
-          },
-          {
-            "reng": "2",
-            "cant": 24,
-            "desc": "Sutura de Ácido Poliglicólico N° 6/0\r\nAguja 08mm, 1/4 circ. doble, punta Espatulada\r\nHebra 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 13200,
-                "marca": "ABLE\r\n(Ind. Argentina)",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Medic Tools SRL",
-                "precio": 14850,
-                "marca": "TAGUM\r\n(Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 27765.14,
-                "marca": "J&J VICRYL J570GPoliglactina ≠ Poliglicólico",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
-              }
-            ]
-          },
-          {
-            "reng": "3",
-            "cant": 48,
-            "desc": "Sutura de Ácido Poliglicólico N° 7/0\r\nAguja 6,5mm, 3/8 Circ. (2 Ag.), punta Espatulada\r\nHebra 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 13200,
-                "marca": "ABLE\r\n(Ind. Argentina)",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Medic Tools SRL",
-                "precio": 14850,
-                "marca": "TAGUM\r\n(Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 27765.14,
-                "marca": "J&J VICRYL J546GPoliglactina ≠ Poliglicólico",
-                "bg_precio": "",
-                "bg_marca": "rosado",
-                "obj": true
-              }
-            ]
-          }
-        ],
-        "notas": "ABLE gana por precio. todos los renglones  ① Sedesa S.A. — Renglones 1, 2 y 3: cotiza sutura de POLIGLACTINA (VICRYL J&J) cuando el pliego exige ÁCIDO POLIGLICÓLICO. NO cumple con las especificaciones técnicas del pliego y podría ser DESESTIMADA. Se marca como (obj) en la comparativa."
-      },
-      "id": 15,
-      "entidad": "HTAL LUDOVICA",
-      "nro": "PA 200",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-05-21",
-      "monto": 1900800,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pre-adjudicación",
-      "empate": "No",
-      "pref": "No",
-      "obs": "ABLE gana por precio. todos los renglones  ① Sedesa S.A. — Renglones 1, 2 y 3: cotiza sutura de POLIGLACTINA (VICRYL J&J) cuando el pliego exige ÁCIDO POLIGLICÓLICO. NO cumple con las especificaciones técnicas del pliego y podría ser DESESTIMADA. Se marca como (obj) en la comparativa.",
-      "creado": "2026-05-22T18:56:55.187Z"
-    },
-    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
@@ -48944,24 +48771,6 @@
       "creado": "2026-07-31T21:42:54.889Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 186,
       "entidad": "Htal Jose Penna",
       "nro": "PA 200",
@@ -48971,11 +48780,118 @@
       "mayor": "Sí",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-31T21:42:54.899Z"
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglones 7, 8 y 9 (papel grado médico). Único oferente conocido: ABLE (sin datos de otros oferentes). Reng. 8 y 9 adjudicados a ABLE. Reng. 7 desestimado: ABLE cotizó medida 140x50x330mm y el pliego exige 140x40x250mm.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "7",
+            "cant": 56000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 90.39,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 22000,
+            "desc": "Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 43.7,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 21000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 90.39,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Único oferente ABLE conocido en reng. 7, 8 y 9 (no hay datos de otros oferentes). Reng. 7: ABLE cotizó 140x50x330mm; pliego exige 140x40x250mm — no cumple espec. técnica. Pliego reng. 7 también exige máquina selladora rotativa en consignación (sin confirmar si ABLE la ofreció)."
+      },
+      "preadj_fecha": "2026-08-11",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Reng. 7 desestimado por medida incorrecta (cotizó 140x50x330mm en vez de 140x40x250mm). Reng. 8 y 9 preadjudicados a ABLE.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-31T21:42:54.899Z",
+      "renglones_preadj": [
+        {
+          "reng": "7",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+          "cant": 56000,
+          "precio_able": 90.39,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "8",
+          "desc": "Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca Able",
+          "cant": 22000,
+          "precio_able": 43.7,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+          "cant": 21000,
+          "precio_able": 90.39,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
