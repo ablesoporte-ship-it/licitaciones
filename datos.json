@@ -48676,37 +48676,246 @@
       "creado": "2026-07-31T21:42:54.880Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 185,
-      "entidad": "Htal Fiorito",
+      "entidad": "Hospital Interzonal General de Agudos Dr. Pedro Fiorito",
       "nro": "PA 147",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-05",
       "monto": 17525946,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "🔴 Renglón 8 — el pliego exige bolsa 140-145 x 250-270 x 40-45mm. ABLE cotiza 140 x 50 x 330mm (código BOX140X050X330): el largo (330mm) excede ampliamente el rango pedido (250-270mm). Laboratorios Igaltex sí cumple la medida exacta (140x40x250mm). 🔴 Renglón 15 — el pliego exige rollo de 50mm de ancho (código YA264202). ABLE cotiza 60mm de ancho (código PO.60.200), 10mm por encima de lo pedido. KIMS S.R.L. cotiza exactamente el código y medida del pliego. Laboratorios Igaltex S.R.L. es responsable exento de IVA — sus precios se cargan tal cual figuran en su presupuesto. ABLE pierde los renglones 7, 8, 12 y 13 frente a Igaltex, con diferencias entre 6,5% y 67%. Raúl Jorge León Poggi resultó consistentemente el oferente más caro en los 5 renglones, sin representar amenaza competitiva. ABLE cotiza 5 renglones de esta licitación (7, 8, 12, 13 y 15) de un total de 15.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "KIMS S.R.L.",
+          "Raúl Jorge León Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "7",
+            "cant": 200000,
+            "desc": "Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 41.93,
+                "marca": "BOX110X030X190 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 35.29,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 39,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 186,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 90000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able [ALERTA: pliego exige 250-270mm de largo, esta oferta es 330mm, NO CUMPLE medida]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 90.5,
+                "marca": "BOX140X050X330 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 54.15,
+                "marca": "Sterilys - 140x40x250mm, cumple pliego (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 71,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 319,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 5,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 61750,
+                "marca": "PO.300.200 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 57841.29,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 97300,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 320000,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 12,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 52008,
+                "marca": "PO.250.200 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 48850.75,
+                "marca": "Sterilys - PM 414-29 (exento IVA)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 82300,
+                "marca": "M/Yellow Pack - Ind. Arg.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 272000,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 5,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 60mm x 200mts con indicador químico de calor húmedo + ETO, marca Able [ALERTA: pliego exige 50mm de ancho, esta oferta es 60mm, NO CUMPLE medida]",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 12420,
+                "marca": "PO.60.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 17900,
+                "marca": "M/Kims - Ind. Arg., 50mm cumple pliego",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 72999,
+                "marca": "Sin marca especificada",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "🔴 Renglón 8 — el pliego exige bolsa 140-145 x 250-270 x 40-45mm. ABLE cotiza 140 x 50 x 330mm (código BOX140X050X330): el largo (330mm) excede ampliamente el rango pedido (250-270mm). Laboratorios Igaltex sí cumple la medida exacta (140x40x250mm). 🔴 Renglón 15 — el pliego exige rollo de 50mm de ancho (código YA264202). ABLE cotiza 60mm de ancho (código PO.60.200), 10mm por encima de lo pedido. KIMS S.R.L. cotiza exactamente el código y medida del pliego. Laboratorios Igaltex S.R.L. es responsable exento de IVA — sus precios se cargan tal cual figuran en su presupuesto. ABLE pierde los renglones 7, 8, 12 y 13 frente a Igaltex, con diferencias entre 6,5% y 67%. Raúl Jorge León Poggi resultó consistentemente el oferente más caro en los 5 renglones, sin representar amenaza competitiva. ABLE cotiza 5 renglones de esta licitación (7, 8, 12, 13 y 15) de un total de 15."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-07-31T21:42:54.889Z"
     },
     {
