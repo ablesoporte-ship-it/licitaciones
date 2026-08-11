@@ -1460,23 +1460,35 @@
       "creado": "2026-05-27T18:27:45.770Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-27",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "13",
+          "desc": "Camisolin no esteril no hemorrepelente tela SMS 30Grs., manga larga, tiras ajuste cuello y cintura, puños elastico ajustables en muneca - Marca ArgentCare",
+          "cant": 16000,
+          "precio_able": 805,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Reng.13 (camisolin no esteril no hemorrepelente SMS 30Grs., marca ArgentCare, 16.000u x $805 = $12.880.000). Adjudicado a ABLE por menor precio (PP). Licitacion MAYOR. Disposicion DISPO-2026-1147-GDEBA-HIEPMSALGP/2026.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-07-27",
+      "adj_monto_able": 12880000,
+      "adj_resumen": "ABLE adjudicada en reng.13 (camisolin SMS 30Grs. ArgentCare, 16.000u x $805 = $12.880.000,00). OC 345/2026. Licitacion MAYOR.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-07-27",
+      "oc_alertas": "OC Nro. 345/2026 fecha 27/07/2026. Reng.13 (camisolin SMS 30Grs. ArgentCare, 16.000u x $805 = $12.880.000,00). Entrega hasta 31/12/2026. Disposicion DISPO-2026-1147-GDEBA-HIEPMSALGP/2026. Licitacion MAYOR.",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -1567,11 +1579,24 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "PA 75/2026 H.I.E.M.I. Tetamanti. ABLE gana R1, R2 y R16 (cartuchos titanio LT400/LT200/LT300) vs Imágenes Tandil (JNJ, origen extranjero). Gestión Diego.",
-      "creado": "2026-05-27T18:36:25.438Z"
+      "creado": "2026-05-27T18:36:25.438Z",
+      "renglones_adj": [
+        {
+          "reng": "13",
+          "desc": "Camisolin no esteril no hemorrepelente tela SMS 30Grs., manga larga, tiras ajuste cuello y cintura, puños elastico ajustables en muneca - Marca ArgentCare",
+          "cant": 16000,
+          "precio_able": 805,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-06-09",
