@@ -52937,11 +52937,23 @@
       "creado": "2026-08-03T19:42:06.054Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-08-04",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Camisolin esteril hemorrepelente descartable, manga larga, tiras ajuste cuello y cintura, puños algodon ajustables en muneca - Marca ArgentCare o similar",
+          "cant": 2400,
+          "precio_able": 0,
+          "marca": "",
+          "resultado": "no_adj",
+          "precio_siguiente": 2434,
+          "ganador_sig": "Bioprotec S.R.L. (2.400u x $2.434 = $5.841.600 — adjudicado por PAS)",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "Reng.4 (camisolin esteril hemorrepelente SMS, manga larga, tiras ajuste, puños algodon): adjudicado a Bioprotec S.R.L. (2.400u x $2.434 = $5.841.600) por ajustarse a lo pedido (PAS). ABLE no gana reng.4.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -52951,9 +52963,9 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "Reng.4 adjudicado a Bioprotec S.R.L. ABLE no recibe OC en esta licitacion.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -53037,7 +53049,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Renglón 4 (Camisolín estéril, hemorrepelente, descartable, 2.400 un.) — ABLE $1.850,00 vs. Bioprotec $2.444,00 (Biosan) y Bhaurac $6.616,76 (Dimex). ABLE gana por precio, 24,3% por debajo de Bioprotec y 72% por debajo de Bhaurac. Pendiente de confirmación — el pliego exige puños de algodón elastizados, distintos talles y refuerzo en pechera y mangas. La carta de ABLE confirma tela SMS 45gs y puños de algodón, pero no menciona que sean elastizados, no menciona talles ni el refuerzo en pechera/mangas. ABLE cotiza además una alternativa (ALT1) en versión NO estéril a $1.322,50 — el pliego exige explícitamente que el producto sea estéril, por lo que esta alternativa no cumple la especificación básica del renglón y queda solo de referencia, sin competir. ABLE no cotiza el renglón 5 (campo quirúrgico) ni los renglones 1, 2 y 3 (almohada y ambos de quirófano) — quedan fuera de esta comparativa.",
