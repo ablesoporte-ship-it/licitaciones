@@ -31137,24 +31137,6 @@
       "creado": "2026-07-16T12:23:36.729Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 135,
       "entidad": "HTAL RAMOS MEJIA",
       "nro": "PA 29",
@@ -31164,11 +31146,64 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-16T18:29:05.975Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Único renglón cotizado: 19 (resma papel grado médico). Rechazado por precio excesivo. Sin datos de otros oferentes.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "19",
+            "cant": 4,
+            "desc": "Resma de papel grado médico color blanco, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 174130,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Único oferente ABLE conocido en reng. 19 (sin datos de otros oferentes). Rechazado por precio excesivo."
+      },
+      "preadj_fecha": "2026-07-31",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Único renglón cotizado por ABLE (19). Rechazado por precio excesivo.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "2026-08-11",
+      "oc_alertas": "Único renglón cotizado (19) rechazado por precio excesivo.",
+      "creado": "2026-07-16T18:29:05.975Z",
+      "renglones_preadj": [
+        {
+          "reng": "19",
+          "desc": "Resma de papel grado médico color blanco, marca Able",
+          "cant": 4,
+          "precio_able": 174130,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -48853,9 +48888,9 @@
       "adj_tiene_alerta": false,
       "gestion_post": "",
       "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "No otorgada",
+      "oc_fecha": "2026-08-11",
+      "oc_alertas": "Reng. 7 no adjudicado (rechazo por espec. técnica). Reng. 8 y 9 adjudicados a ABLE.",
       "creado": "2026-07-31T21:42:54.899Z",
       "renglones_preadj": [
         {
@@ -54449,37 +54484,77 @@
       "creado": "2026-08-06T19:15:09.466Z"
     },
     {
+      "id": 213,
+      "entidad": "H.I.G.A. General San Martin",
+      "nro": "LP 91",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-11",
+      "monto": 37536000,
+      "mayor": "Sí",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 5 — ABLE $312,80 pierde vs Euro Swiss S.A. $241,00 (+29,8%). Diferencia mayor al 10%, fuera de rango de empate técnico y preferencia nacional.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 120000,
+            "desc": "Tiras reactivas para la medición de glucosa en sangre con equipos bonificados Marca On Call Plus",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 312.8,
+                "marca": "TIRAS.REACT - On Call Plus",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 241,
+                "marca": "FEMTTO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 479,
+                "marca": "One Call",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 5 — ABLE $312,80 pierde vs Euro Swiss S.A. $241,00 (+29,8%). Diferencia mayor al 10%, fuera de rango de empate técnico y preferencia nacional."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 213,
-      "entidad": "H.I.G.A. General San Martin",
-      "nro": "LP 91",
-      "tipo": "Privada",
-      "fecha": "2026-08-11",
-      "monto": 37536000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-06T20:24:37.927Z"
     },
     {
