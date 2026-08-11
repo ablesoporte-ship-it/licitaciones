@@ -50984,19 +50984,23 @@
       "creado": "2026-07-31T22:45:13.035Z"
     },
     {
-      "id": 193,
-      "entidad": "Htal Balestrini",
-      "nro": "PA 225",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-07",
-      "monto": 1468330,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "ABLE gana R2 y R3 (bobinas pouch 75 y 100mm). Pierde R4-R6 vs Igaltex (ambos nacionales). Pierde R9-R10 vs Igaltex (bolsas). 7 renglones cotizados.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
@@ -51287,38 +51291,39 @@
         ],
         "notas": "Reng. 2 — ABLE $14.990,00 (Bobina pouch 75mm x 200m, Ind. Argentina) vs Igaltex $15.137,40. ABLE gana por $147,40. Reng. 3 — ABLE $19.950,00 (Bobina pouch 100mm x 200m, Ind. Argentina) vs Igaltex $20.177,39. ABLE gana por $227,39. Reng. 4 — ABLE $39.780,00 (Bobina pouch 200mm x 200m) vs Igaltex $38.359,68. Diferencia +3,7%. Sin color — ambos nacionales, no aplica preferencia nacional. Reng. 5 — ABLE $50.250,00 (Bobina pouch 250mm x 200m) vs Igaltex $48.850,73. Diferencia +2,9%. Sin color — ambos nacionales. Reng. 6 — ABLE $29.950,00 (Bobina pouch 150mm x 200m) vs Igaltex $25.222,39. Diferencia +18,7%. Sin color. Reng. 9 — ABLE $54,89 (Bolsa 125x50x250mm) vs Igaltex $38,85 vs KIMS $50,00. Igaltex gana. Diferencia ABLE +41,3%. Reng. 10 — ABLE $75,46 (Bolsa 140x50x330mm) vs Igaltex $52,23 vs KIMS $80,00. Igaltex gana. Diferencia ABLE +44,5%. Terragene cotizó renglones 7, 11, 12, 15, 15ALT y 16 — productos de esterilización que ABLE no cotiza. Renglones 1, 7, 8, 11, 12, 13, 14, 15, 16 — ABLE no cotizó, no se incluyen en esta comparativa."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-08-03T13:22:17.009Z"
-    },
-    {
-      "id": 194,
-      "entidad": "H.I.G.A. Dr. Diego Paroissien",
-      "nro": "PA 210",
+      "id": 193,
+      "entidad": "Htal Balestrini",
+      "nro": "PA 225",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-07",
-      "monto": 2209720,
+      "monto": 1468330,
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
-      "obs": "Resultado general: de los 6 renglones cotizados por ABLE, se ganan los renglones 4 y 5. En los renglones 1, 2, 3 y 6 gana Igaltex (o Poggi en el reng. 6) por menor precio; ninguna diferencia cae en empate técnico ni preferencia nacional (ningún oferente declara producto importado). Reng. 2 — ABLE queda a solo 2,86% de Igaltex (no llega al 2% de empate técnico). Reng. 6 — gana Droguería Poggi ($32.000,00), muy por debajo de Igaltex ($57.841,29) y de ABLE ($59.670,00, +86,5%); precio de Poggi llamativamente bajo respecto al resto de sus propios renglones, verificar si es correcto en el acta. Kims cotiza los renglones 1 a 6 con la leyenda '(opcional)' para el método de esterilización, cuando el pliego exige 'no opcional' en los renglones 2 a 6; no se objeta por no ser ganador en ninguno de ellos. Monto total cotizado por ABLE (renglones 1 a 6): $2.209.720,00.",
+      "obs": "ABLE gana R2 y R3 (bobinas pouch 75 y 100mm). Pierde R4-R6 vs Igaltex (ambos nacionales). Pierde R9-R10 vs Igaltex (bolsas). 7 renglones cotizados.",
+      "creado": "2026-08-03T13:22:17.009Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -51570,22 +51575,19 @@
         ],
         "notas": "Resultado general: de los 6 renglones cotizados por ABLE, se ganan los renglones 4 y 5. En los renglones 1, 2, 3 y 6 gana Igaltex (o Poggi en el reng. 6) por menor precio; ninguna diferencia cae en empate técnico ni preferencia nacional (ningún oferente declara producto importado). Reng. 2 — ABLE queda a solo 2,86% de Igaltex (no llega al 2% de empate técnico). Reng. 6 — gana Droguería Poggi ($32.000,00), muy por debajo de Igaltex ($57.841,29) y de ABLE ($59.670,00, +86,5%); precio de Poggi llamativamente bajo respecto al resto de sus propios renglones, verificar si es correcto en el acta. Kims cotiza los renglones 1 a 6 con la leyenda '(opcional)' para el método de esterilización, cuando el pliego exige 'no opcional' en los renglones 2 a 6; no se objeta por no ser ganador en ninguno de ellos. Monto total cotizado por ABLE (renglones 1 a 6): $2.209.720,00."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 194,
+      "entidad": "H.I.G.A. Dr. Diego Paroissien",
+      "nro": "PA 210",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-07",
+      "monto": 2209720,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Resultado general: de los 6 renglones cotizados por ABLE, se ganan los renglones 4 y 5. En los renglones 1, 2, 3 y 6 gana Igaltex (o Poggi en el reng. 6) por menor precio; ninguna diferencia cae en empate técnico ni preferencia nacional (ningún oferente declara producto importado). Reng. 2 — ABLE queda a solo 2,86% de Igaltex (no llega al 2% de empate técnico). Reng. 6 — gana Droguería Poggi ($32.000,00), muy por debajo de Igaltex ($57.841,29) y de ABLE ($59.670,00, +86,5%); precio de Poggi llamativamente bajo respecto al resto de sus propios renglones, verificar si es correcto en el acta. Kims cotiza los renglones 1 a 6 con la leyenda '(opcional)' para el método de esterilización, cuando el pliego exige 'no opcional' en los renglones 2 a 6; no se objeta por no ser ganador en ninguno de ellos. Monto total cotizado por ABLE (renglones 1 a 6): $2.209.720,00.",
       "creado": "2026-08-03T13:48:18.580Z"
     },
     {
@@ -54072,20 +54074,20 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 214,
-      "entidad": "",
-      "nro": "",
-      "tipo": "",
-      "fecha": "",
-      "monto": 0,
+      "id": 215,
+      "entidad": "Htal Jose Penna",
+      "nro": "CM 425",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-14",
+      "monto": 2580480,
       "mayor": "No",
-      "zona": "",
-      "agente": "",
+      "zona": "Zona Norte",
+      "agente": "Diego",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-08-07T20:06:44.517Z"
+      "creado": "2026-08-07T20:07:02.700Z"
     },
     {
       "preadj_fecha": "",
@@ -54106,22 +54108,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 215,
-      "entidad": "Htal Jose Penna",
-      "nro": "CM 425",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-14",
-      "monto": 2580480,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-07T20:07:02.700Z"
-    },
-    {
       "id": 216,
       "entidad": "Htal Mi Pueblo",
       "nro": "PA 134",
@@ -54135,57 +54121,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-08-10T18:14:58.862Z"
     },
     {
-      "id": 217,
-      "entidad": "",
-      "nro": "",
-      "tipo": "",
-      "fecha": "",
-      "monto": 0,
-      "mayor": "No",
-      "zona": "",
-      "agente": "",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-10T18:15:15.717Z"
-    },
-    {
+      "tabla": null,
       "id": 218,
       "entidad": "Htal la Flores",
       "nro": "SAMO 26",
@@ -54199,6 +54155,1878 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-10T18:15:53.836Z"
+    },
+    {
+      "id": 219,
+      "entidad": "Municipalidad de Esteban Echeverría",
+      "nro": "LP 17",
+      "tipo": "Pública",
+      "fecha": "2026-08-04",
+      "monto": 23645454,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "LP 17/2026 Echeverría. ABLE gana ítems 45,113,125,200,201,203,205,206,208,209,210,211,305. Empate técnico: 202,215. Pierde: 115,204,207.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A. 🇦🇷",
+          "SIST MEDICAL",
+          "FERAVAL",
+          "PROPATO HNOS.",
+          "COMARSA",
+          "EURO SWISS",
+          "MAX CONTINENTAL",
+          "SOMED MEDICA",
+          "MEDI-CROSS"
+        ],
+        "renglones": [
+          {
+            "reng": "45",
+            "cant": 14000,
+            "desc": "Botas descartables tela no tejida SMS tricapa hemorrepelente adulto. Marca ARGENTCARE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 69.5,
+                "marca": "ARGENTCARE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": 141,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": 200.45,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 249.65,
+                "marca": "PADEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 287.46,
+                "marca": "PADEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "113",
+            "cant": 40,
+            "desc": "Ropa descartable alto riesgo HIV — 3 camisolines, 2 campos grandes, 4 campos chicos. Marca Ebano (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 28500,
+                "marca": "EBANO (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": 31037,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 36288.92,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 36886,
+                "marca": "DX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "115",
+            "cant": 200,
+            "desc": "Espátula de Ayre. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 57.97,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": 50.9,
+                "marca": "CLERICOT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 46.58,
+                "marca": "CLERICOT",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "125",
+            "cant": 20000,
+            "desc": "Gorro cirugía descartable mujer tipo cofia SMS/SP plisada adulta. Marca ARGENTCARE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 29.5,
+                "marca": "ARGENTCARE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": 39.5,
+                "marca": "SWORD",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": 51.66,
+                "marca": "ALFAMEDIC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 59.54,
+                "marca": "PADEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 41.72,
+                "marca": "ZIFU",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 37.6,
+                "marca": "EUROMIX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": 41.06,
+                "marca": "UCARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": 84.88,
+                "marca": "CLOTHIER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "200",
+            "cant": 264,
+            "desc": "Sutura catgut cromado N°1, uso quirúrgico, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 3100,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 4166.58,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 3202.51,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "201",
+            "cant": 192,
+            "desc": "Sutura catgut cromado 3/0 cod. 842T, uso con aguja, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 2600,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 3324.88,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 3132.75,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "202",
+            "cant": 2832,
+            "desc": "Sutura catgut cromado N°2, uso quirúrgico, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 3590,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 4762.88,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 3565.62,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "203",
+            "cant": 1112,
+            "desc": "Sutura catgut simple N°1 cod. 1870T, uso con aguja, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 2800,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 3398.88,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 3202.51,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "204",
+            "cant": 1496,
+            "desc": "Sutura Prolene 2/0, presentación x unidad. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1500,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 969.85,
+                "marca": "CLYSTER (importado)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 4385,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 10269.63,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "204",
+            "cant": 1496,
+            "desc": "ALT — Sutura Prolene 2/0, marca ABLE (Ind. Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1600,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "205",
+            "cant": 114,
+            "desc": "Aguja quirúrgica Prolene N°3 con aguja medio círculo redonda 25mm, largo 90cm. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 2800,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "206",
+            "cant": 52,
+            "desc": "Aguja quirúrgica Prolene N°1 polipropileno, aguja medio círculo redonda 35cm. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1600,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 3144.34,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 8352.72,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 1625,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "207",
+            "cant": 72,
+            "desc": "Aguja quirúrgica PP doble aguja 1/2 círculo 13mm, hilo 75mm N°6/0. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 5500,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": 969.85,
+                "marca": "CLYSTER (importado)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 11527.65,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "208",
+            "cant": 144,
+            "desc": "Aguja quirúrgica PP doble aguja 1/2 círculo 17mm, hilo 75mm N°5/0. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 2800,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 11007.16,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 3050,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "209",
+            "cant": 144,
+            "desc": "Aguja quirúrgica PP doble aguja medio círculo 25mm, largo 90cm N°4/0. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 2800,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 10071.81,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 3050,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "210",
+            "cant": 138,
+            "desc": "Aguja quirúrgica Vicryl 2/0 cod. J 166H, presentación x unidad. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1290,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 8110.84,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 1300.57,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "210",
+            "cant": 138,
+            "desc": "ALT — Aguja Vicryl 2/0, marca ABLE (Ind. Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1300,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "211",
+            "cant": 684,
+            "desc": "Aguja quirúrgica Vicryl 3/0 cod. J 316H, presentación x unidad. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1290,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 4052.54,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 1300.57,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "211",
+            "cant": 684,
+            "desc": "ALT — Aguja Vicryl 3/0, marca ABLE (Ind. Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1300,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "215",
+            "cant": 230,
+            "desc": "Aguja quirúrgica Vicryl N°0, aguja medio círculo 36mm, hilo 70cm. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1340,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": 2199.78,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": 3535.89,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 1331,
+                "marca": "MAXSUTURES",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "215",
+            "cant": 230,
+            "desc": "ALT — Aguja Vicryl N°0, marca ABLE (Ind. Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 1360,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "305",
+            "cant": 1716,
+            "desc": "Sutura mononailon aguja recta cortante 60mm, hilo 75cm N°3, presentación c/u. Marca Surgimax (Ind. Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 650,
+                "marca": "SURGIMAX (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": 712,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "305",
+            "cant": 1716,
+            "desc": "ALT — Mononailon N°3, marca ABLE (Ind. Argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A. 🇦🇷",
+                "precio": 708,
+                "marca": "ABLE (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SIST MEDICAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FERAVAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "PROPATO HNOS.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "COMARSA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MAX CONTINENTAL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SOMED MEDICA",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MEDI-CROSS",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Ítems 200, 201, 202, 203 — Euro Swiss y Comarsa distribuyen producto ABLE (catgut). ABLE cotiza directo a menor precio en 200, 201 y 203. Ítem 202: ABLE $3.590 pierde vs Euro Swiss $3.565,62 (+0,7%) — mismo producto revendido. Ítem 204 — ABLE pierde vs Propato $969,85 (CLYSTER, importado). Diferencia +54,8%. ALT ABLE $1.600 también pierde. Ítem 207 — ABLE $5.500 pierde vs Propato $969,85 (CLYSTER, importado). Diferencia +467%. Ítem 215 — ABLE $1.340 pierde vs Max Continental $1.331 (MAXSUTURES). Diferencia +0,7%. Ítems 204, 210, 211, 215, 305 — ABLE presentó ofertas alternativas (ALT), mostradas como filas separadas sin color. Nota: Esta licitación es municipal (Municipalidad de Esteban Echeverría). No aplican criterios de empate técnico ni preferencia nacional de la normativa provincial."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
@@ -54215,8 +56043,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-10T18:15:53.836Z"
+      "creado": "2026-08-11T11:31:57.450Z"
     }
   ],
-  "nextId": 219
+  "nextId": 220
 }
