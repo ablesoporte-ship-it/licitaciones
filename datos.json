@@ -47706,37 +47706,239 @@
       "creado": "2026-07-31T21:42:54.836Z"
     },
     {
+      "id": 181,
+      "entidad": "H.I.G.A. Presidente Perón",
+      "nro": "LP 33",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-03",
+      "monto": 1318750,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "Reng. 13 — ABLE $1.355,00 (BCO.CT.1P.70 - marca Able) vs EURO SWISS $1.279,00 (EURO SWISS SA). Dif. 5,9% — ganador importado. Preferencia nacional aplicable. Reng. 19 — ABLE cotiza por UNIDAD $69,50 (CUBRE.1E.40.23.U) y por PAR $130,00 (ALT). BHAURAC $330,84/ud (DIMEX nac.) — precio mayor, ABLE gana. DROG. MARTORANI $76,80/ud (PEMED nac.) — dif. 9,5% — ganador nacional, ABLE pierde sin alerta. Reng. 20 — ABLE $28,50 (COFIA.2E.12 - ArgentCare) vs IGALTEX $31,71 (Global Protective nac.) vs EURO SWISS $38,00. ABLE es el menor precio, gana.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "EURO SWISS S.A.",
+          "IGALTEX S.R.L.",
+          "DROG. MARTORANI S.A.",
+          "BHAURAC S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "13",
+            "cant": 250,
+            "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) — BCO.CT.1P.70 — marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1355,
+                "marca": "BCO.CT.1P.70 — Able",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": 1279,
+                "marca": "EURO SWISS SA — importado",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROG. MARTORANI S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 10000,
+            "desc": "Cubrecalzado con elástico — UNIDAD — descartable, no estéril, tela no tejida, no deslizable — CUBRE.1E.40.23.U — marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 69.5,
+                "marca": "CUBRE.1E.40.23.U — ArgentCare (x unidad)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROG. MARTORANI S.A.",
+                "precio": 76.8,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 330.84,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 10000,
+            "desc": "ALT 1 — Cubrecalzado con elástico — PAR — descartable, no estéril, tela no tejida, no deslizable — CUBRE.1E.40.23.P — marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "CUBRE.1E.40.23.P — ArgentCare (x par)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROG. MARTORANI S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 10000,
+            "desc": "Cofia descartable elastizada — COFIA.2E.12 — marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 28.5,
+                "marca": "COFIA.2E.12 — ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "EURO SWISS S.A.",
+                "precio": 38,
+                "marca": "EURO SWISS SA — importado",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "IGALTEX S.R.L.",
+                "precio": 31.71,
+                "marca": "Global Protective — nac.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "DROG. MARTORANI S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BHAURAC S.A.",
+                "precio": 57.35,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 13 — ABLE $1.355,00 (BCO.CT.1P.70 - marca Able) vs EURO SWISS $1.279,00 (EURO SWISS SA). Dif. 5,9% — ganador importado. Preferencia nacional aplicable. Reng. 19 — ABLE cotiza por UNIDAD $69,50 (CUBRE.1E.40.23.U) y por PAR $130,00 (ALT). BHAURAC $330,84/ud (DIMEX nac.) — precio mayor, ABLE gana. DROG. MARTORANI $76,80/ud (PEMED nac.) — dif. 9,5% — ganador nacional, ABLE pierde sin alerta. Reng. 20 — ABLE $28,50 (COFIA.2E.12 - ArgentCare) vs IGALTEX $31,71 (Global Protective nac.) vs EURO SWISS $38,00. ABLE es el menor precio, gana."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 181,
-      "entidad": "H.I.G.A. Presidente Peron",
-      "nro": "LP 33",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-03",
-      "monto": 2618750,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-31T21:42:54.849Z"
     },
     {
