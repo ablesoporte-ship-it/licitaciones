@@ -26541,12 +26541,35 @@
       "creado": "2026-07-06T15:24:28.427Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-08",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "8",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 200,
+          "precio_able": 25,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado — no ajusta a lo solicitado",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "63",
+          "desc": "Bolsa p/urostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm - Marca ABLE (Industria argentina)",
+          "cant": 4,
+          "precio_able": 3600,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.63 (bolsa urostomia drenable transparente 1 pieza aro recortable 15-70mm, Marca ABLE Ind. argentina, 4u x $3.600 = $14.400, PUP). Reng.8 (cofia descartable elastizada ArgentCare) rechazado por no ajustarse a lo solicitado. Licitacion Privada 23 paginas, multiples oferentes. Expediente EX-2026-12474159-GDEBA-HIGAEMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -26942,7 +26965,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng. 8 — el producto cotizado por ABLE (cofia descartable elastizada) NO corresponde a la especificación del pliego, que exige gorro descartable c/frontolux, tela impermeable. Riesgo de rechazo por incumplimiento de especificación técnica, independientemente del precio. Reng. 8 — GRANDMED S.R.L. cotiza gorro \"s/fronto\" (sin frontolux), tampoco cumple la especificación del pliego (que exige frontolux). Reng. 34 y 35 — Dealer Médica S.R.L. no indica marca en su cotización. Observación técnica. ABLE cotiza únicamente 5 de los 140 renglones del pliego (3, 8, 34, 35 y 63).",
