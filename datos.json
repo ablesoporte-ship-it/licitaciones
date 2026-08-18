@@ -54523,74 +54523,70 @@
       "creado": "2026-08-03T14:15:14.154Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 196,
+      "entidad": "Htal San Jose de Pergamino",
+      "nro": "PA 52",
+      "tipo": "Procedimiento Abreviado SAMO - Fondos Propios",
+      "fecha": "2026-08-14",
+      "monto": 1273320,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana rengs.3,4,5,6,8,9 por menor precio. Total adjudicado estimado: $1.218.120,00. Procedimiento SAMO fondos propios. Reng.7 (polipropileno N°1): Propato gana a $877,25 vs ABLE $1.500 (71% mas caro). Ambos nacionales — no aplica preferencia nacional. Reng.10 (polipropileno N°2/0): Propato gana a $1.272,29 vs ABLE $1.600 (25,8% mas caro). Ambos nacionales. Cirugia Argentina = Tagum (Peru, importado). Azcuenaga = Covidien (importado). Viamonte = Johnson & Johnson (importado). Rengs.1 (hilo lino N°40) y 2 (hilo lino N°20): ABLE no cotiza — no se incluyen.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
-          "Euroswiss S.A.",
-          "Pharma Center S.R.L.",
-          "Droguería Farmatec S.A.",
-          "Aupres S.R.L."
+          "Propato Hnos. S.A.I.C.",
+          "Cirugia Argentina S.A.",
+          "Drog. Azcuenaga S.R.L.",
+          "Ortop. Viamonte S.A."
         ],
         "renglones": [
           {
             "reng": "3",
-            "cant": 100,
-            "desc": "Bajalenguas adultos por 100 unidades — Cód. BAJA.AD, marca ABLE (Industria Argentina)",
+            "cant": 120,
+            "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM202570A",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 1018,
-                "marca": "BAJA.AD - ABLE (Ind. Arg.)",
+                "precio": 1205,
+                "marca": "PGM202570A - Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euroswiss S.A.",
-                "precio": 1070,
-                "marca": "Suturas Argentinas (revende producto de ABLE)",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1399.54,
+                "marca": "Clyster - Propato (Ind. argentina)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Pharma Center S.R.L.",
-                "precio": null,
-                "marca": "",
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 1805,
+                "marca": "Glisorbo Tagum - Cirugia Argentina (Peru)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 1069.65,
-                "marca": "Novamed/Clericot (dato reconstruido, verificar)",
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 2584,
+                "marca": "Covidien - Azcuenaga (importado)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Aupres S.R.L.",
-                "precio": null,
-                "marca": "",
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 4077.8,
+                "marca": "Vicryl J&J - Viamonte (importado)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -54598,69 +54594,69 @@
             ]
           },
           {
-            "reng": "16",
-            "cant": 3000,
-            "desc": "Camisolín estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca — Cód. CE.SMS.120.ALG.45.A, marca ArgentCare — Cumple (estéril)",
+            "reng": "4",
+            "cant": 370,
+            "desc": "Sutura PGA N°2 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM023570A",
             "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1795,
-                "marca": "CE.SMS.120.ALG.45.A - ArgentCare - Cumple",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euroswiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Pharma Center S.R.L.",
-                "precio": 1693,
-                "marca": "DPC - estéril, cumple",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 4247.1,
-                "marca": "Bluemed \"según pliego\" (dato reconstruido, verificar)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres S.R.L.",
-                "precio": 2945,
-                "marca": "Bioprotec - estéril, cumple",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "16 ALT 1",
-            "cant": 3000,
-            "desc": "Camisolín NO estéril, hemorrepelente tela SMS de 45Grs. — Cód. C.SMS.120.ALG.45.A, marca ArgentCare — No cumple (pliego exige estéril)",
-            "es_alt": true,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
                 "precio": 1295,
-                "marca": "C.SMS.120.ALG.45.A - ArgentCare - No cumple (no estéril)",
-                "bg_precio": "",
+                "marca": "PGM023570A - Surgimax",
+                "bg_precio": "verde",
                 "bg_marca": "",
-                "obj": true
+                "obj": false
               },
               {
-                "oferente": "Euroswiss S.A.",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1399.54,
+                "marca": "Clyster - Propato (Ind. argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 2125,
+                "marca": "Glisorbo Tagum - Cirugia Argentina (Peru)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 3300,
+                "marca": "Covidien - Azcuenaga (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 5111.17,
+                "marca": "Vicryl J&J - Viamonte (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 370,
+            "desc": "(ALT 1) Sutura PGA N°2 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. argentina) - cod. PGA023570A",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA023570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54668,7 +54664,7 @@
                 "obj": false
               },
               {
-                "oferente": "Pharma Center S.R.L.",
+                "oferente": "Cirugia Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54676,7 +54672,7 @@
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
+                "oferente": "Drog. Azcuenaga S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54684,7 +54680,7 @@
                 "obj": false
               },
               {
-                "oferente": "Aupres S.R.L.",
+                "oferente": "Ortop. Viamonte S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54694,45 +54690,141 @@
             ]
           },
           {
-            "reng": "25",
-            "cant": 5000,
-            "desc": "Cofia descartable elastizada — Cód. COFIA.2E.12, marca ArgentCare — Cumple (elastizada)",
+            "reng": "5",
+            "cant": 100,
+            "desc": "Sutura PGA N°3/0 c/aguja 30mm 3/8 circ. punta rev. cort. hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM303070F",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 28.5,
-                "marca": "COFIA.2E.12 - ArgentCare - Cumple",
+                "precio": 1205,
+                "marca": "PGM303070F - Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euroswiss S.A.",
-                "precio": 39,
-                "marca": "Euromix - plisada, pliego pide elastizada",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Pharma Center S.R.L.",
-                "precio": 40,
-                "marca": "DPC - plisada según su propia nota, pliego pide elastizada",
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 2780,
+                "marca": "Glicosorb Tagum - Cirugia Argentina (Peru)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 47.4,
-                "marca": "Bluemed",
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 3585,
+                "marca": "Covidien - Azcuenaga (importado)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Aupres S.R.L.",
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 10776.03,
+                "marca": "Vicryl J&J - Viamonte (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 410,
+            "desc": "Sutura nylon monofilamento N°2/0 c/aguja 26mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina) - cod. NYM202645F",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM202645F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 679.53,
+                "marca": "Clyster - Propato (Ind. argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 1170,
+                "marca": "Tagum - Cirugia Argentina (Peru)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 1566,
+                "marca": "Covidien - Azcuenaga (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 2170.43,
+                "marca": "Ethilon J&J - Viamonte (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 410,
+            "desc": "(ALT 1) Sutura nylon monofilamento N°2/0 c/aguja 26mm 3/8 circ. punta rev. cort. hebra 75cm - Marca ABLE (Ind. argentina) - cod. NYA202675F",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA202675F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54742,21 +54834,69 @@
             ]
           },
           {
-            "reng": "26",
-            "cant": 6000,
-            "desc": "Cubrecalzado con elástico, descartable, no estéril, tela no tejida, no deslizable, resistente a las rasgaduras — Cód. CUBRE.1E.40.23.A, marca ArgentCare — descripción no menciona hemorrepelente, pliego sí lo exige",
+            "reng": "7",
+            "cant": 24,
+            "desc": "Sutura polipropileno N°1 c/aguja 35mm 1/2 circ. punta redonda hebra 75cm - Marca Surgimax (Ind. argentina) - cod. PPM013575A",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 69.5,
-                "marca": "CUBRE.1E.40.23.A - ArgentCare - sin mención de hemorrepelente",
+                "precio": 1500,
+                "marca": "PPM013575A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 877.25,
+                "marca": "Clyster - Propato (Ind. argentina)",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euroswiss S.A.",
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 2580,
+                "marca": "Tagum - Cirugia Argentina (Peru)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 10591,
+                "marca": "Covidien - Azcuenaga (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 5153.15,
+                "marca": "Prolene J&J - Viamonte (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 36,
+            "desc": "Sutura PGA N°1 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM013570A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "PGM013570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54764,7 +54904,47 @@
                 "obj": false
               },
               {
-                "oferente": "Pharma Center S.R.L.",
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 1945,
+                "marca": "Glisorbo Tagum - Cirugia Argentina (Peru)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 2217,
+                "marca": "Dexon Covidien - Azcuenaga (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 3398.16,
+                "marca": "Vicryl J&J - Viamonte (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 45,
+            "desc": "Sutura polipropileno N°6/0 doble aguja 12mm 3/8 circ. punta redonda hebra 75cm - Marca Surgimax (Ind. argentina) - cod. PPM601275G",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "PPM601275G - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -54772,17 +54952,121 @@
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 304.9,
-                "marca": "Bluemed",
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 7560,
+                "marca": "Tagum - Cirugia Argentina (Peru)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Aupres S.R.L.",
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 9444,
+                "marca": "Covidien - Azcuenaga (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 11007.84,
+                "marca": "Prolene J&J - Viamonte (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 45,
+            "desc": "(ALT 1) Sutura polipropileno N°6/0 doble aguja 10mm 3/8 circ. punta redonda hebra 60cm - Marca Surgimax (Ind. argentina) - cod. PPM601060G",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "PPM601060G - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 5880,
+                "marca": "Tagum - Cirugia Argentina (Peru)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 12,
+            "desc": "Sutura polipropileno N°2/0 c/aguja 35mm 1/2 circ. punta redonda hebra 75cm - Marca ABLE (Ind. argentina) - cod. PPA203575A",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "PPA203575A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1272.29,
+                "marca": "Clyster - Propato (Ind. argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 2330,
+                "marca": "Tagum - Cirugia Argentina (Peru)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drog. Azcuenaga S.R.L.",
+                "precio": 16985,
+                "marca": "Covidien - Azcuenaga (importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ortop. Viamonte S.A.",
+                "precio": 14961.4,
+                "marca": "Prolene J&J - Viamonte (importado)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -54790,24 +55074,24 @@
             ]
           }
         ],
-        "notas": "Reng.3 — ABLE gana, $1.018,00. Euroswiss revende el mismo bajalenguas de ABLE (marca 'Suturas Argentinas') a $1.070,00. Reng.16 — pliego exige ESTÉRIL. La Alt.1 de ABLE (no estéril, $1.295,00) NO cumple. Entre las compliant: Pharma Center gana por 6,02% ($1.693,00 vs ABLE $1.795,00) — verificar si DPC es industria nacional para saber si aplica preferencia. Aupres $2.945,00 pierde. Dato de Farmatec ($4.247,10) reconstruido de una hoja con desalineación de OCR — usar con precaución. Reng.25 — ABLE gana claro, $28,50 (Euroswiss $39,00 plisada, Pharma Center $40,00 plisada, Farmatec $47,40 — Euroswiss/Pharma Center no cumplen 'elastizada' pero no hace falta objetarlos, ABLE ya es la más barata). Reng.26 — ABLE gana, $69,50 vs Farmatec $304,90. Ojo: la descripción de ABLE no menciona 'hemorrepelente', que el pliego sí exige — verificar ficha técnica real. Total ABLE: $9.931.300,00 (verificado)."
+        "notas": "ABLE gana rengs.3,4,5,6,8,9 por menor precio. Total adjudicado estimado: $1.218.120,00. Procedimiento SAMO fondos propios. Reng.7 (polipropileno N°1): Propato gana a $877,25 vs ABLE $1.500 (71% mas caro). Ambos nacionales — no aplica preferencia nacional. Reng.10 (polipropileno N°2/0): Propato gana a $1.272,29 vs ABLE $1.600 (25,8% mas caro). Ambos nacionales. Cirugia Argentina = Tagum (Peru, importado). Azcuenaga = Covidien (importado). Viamonte = Johnson & Johnson (importado). Rengs.1 (hilo lino N°40) y 2 (hilo lino N°20): ABLE no cotiza — no se incluyen."
       },
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 196,
-      "entidad": "H.Z.G.A. Horacio Cestino",
-      "nro": "PA 52",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-07",
-      "monto": 6046300,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.3 — ABLE gana, $1.018,00. Euroswiss revende el mismo bajalenguas de ABLE (marca 'Suturas Argentinas') a $1.070,00. Reng.16 — pliego exige ESTÉRIL. La Alt.1 de ABLE (no estéril, $1.295,00) NO cumple. Entre las compliant: Pharma Center gana por 6,02% ($1.693,00 vs ABLE $1.795,00) — verificar si DPC es industria nacional para saber si aplica preferencia. Aupres $2.945,00 pierde. Dato de Farmatec ($4.247,10) reconstruido de una hoja con desalineación de OCR — usar con precaución. Reng.25 — ABLE gana claro, $28,50 (Euroswiss $39,00 plisada, Pharma Center $40,00 plisada, Farmatec $47,40 — Euroswiss/Pharma Center no cumplen 'elastizada' pero no hace falta objetarlos, ABLE ya es la más barata). Reng.26 — ABLE gana, $69,50 vs Farmatec $304,90. Ojo: la descripción de ABLE no menciona 'hemorrepelente', que el pliego sí exige — verificar ficha técnica real. Total ABLE: $9.931.300,00 (verificado).",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-03T15:08:49.036Z"
     },
     {
@@ -55758,43 +56042,6 @@
       "pref": "",
       "obs": "",
       "creado": "2026-08-05T19:03:42.747Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 209,
-      "entidad": "Htal San Jose de Pergamino",
-      "nro": "PA 52",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-12",
-      "monto": 2450050,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-05T19:43:40.254Z"
     },
     {
       "preadj_fecha": "",
