@@ -8464,22 +8464,57 @@
       "creado": "2026-06-03T21:26:26.394Z"
     },
     {
-      "preadj_fecha": "2026-05-11",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
+      "preadj_fecha": "2026-08-18",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
       "renglones_preadj": [
         {
-          "reng": "4",
-          "desc": "Catgut cromado N°2 c/aguja 35mm 1/2 circ.",
-          "cant": 600,
-          "precio_able": 2720,
+          "reng": "2",
+          "desc": "Bobina pouch 400mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 87835,
           "marca": "ABLE",
-          "resultado": "adj",
-          "motivo": "menor_precio"
+          "resultado": "no_adj",
+          "precio_siguiente": 78513.26,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Bobina pouch 300mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 65637,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 57841.29,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "4",
+          "desc": "Bobina pouch 100mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 21945,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 20177.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "Bobina pouch 150mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 32945,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 25222.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
         }
       ],
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "gestion_pre": "ABLE NO gana ningun renglon. Igaltex (Sterilys) gana rengs.2,3,4,5,7,9. KIMS gana rengs.1,8. Bymed gana reng.6. Rengs.3 y 7 fueron incorrectamente asignados a ABLE en la comparativa — Igaltex cotizaba precios menores no detectados en el cuadro original. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-24601531-GDEBA-HZGAHMMSALGP.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -8504,7 +8539,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "OC",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -32992,14 +33027,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-08-14",
+      "adj_monto_able": 444266.42,
+      "adj_resumen": "ABLE adjudicada en rengs.8,9,10,12,13 (bobinas pouch marca ABLE). Total: $444.266,42. OC 106/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-14",
+      "oc_alertas": "OC Nro. 106/2026 fecha 14/08/2026. Reng.8 (pouch 100mm x 40m, 4u x $21.725,55 = $86.902,20). Reng.9 (pouch 100mm x 100m, 2u x $43.758 = $87.516). Reng.10 (pouch 200mm x 200m, 2u x $54.160 = $108.320). Reng.12 (pouch 250mm x 200m, 4u x $32.220 = $128.880). Reng.13 (pouch 75mm x 100m, 2u x $16.324,11 = $32.648,22). Total: $444.266,42. Disposicion DISPO-2026-501-GDEBA-HZEMIADMSALGP/2026.",
       "tabla": null,
       "liquidado": false,
       "liquidado_fecha": "",
@@ -33013,11 +33048,68 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-07-20T16:27:38.747Z"
+      "creado": "2026-07-20T16:27:38.747Z",
+      "renglones_adj": [
+        {
+          "reng": "8",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 40mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 4,
+          "precio_able": 21725.55,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 100mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 43758,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "10",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 54160,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "12",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 250mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 4,
+          "precio_able": 32220,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "13",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 75mm x 100mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 16324.11,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -33107,23 +33199,19 @@
       "creado": "2026-07-20T16:31:11.446Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 144,
+      "entidad": "H.Z.G.A. Heroes de Malvinas",
+      "nro": "PA 111",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-24",
+      "monto": 230109,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "PA 111/2026 H.Z.G.A. Heroes de Malvinas. ABLE pierde todos los renglones vs Igaltex (Sterilys). Rengs.3 y 7: Igaltex cotizo precios no visibles en el cuadro comparativo original. Zona Oeste, Gonzalo.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -33135,167 +33223,228 @@
           {
             "reng": "2",
             "cant": 2,
-            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 400mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.400.200",
-            "es_alt": false,
+            "alt": false,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 400mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
                 "precio": 87835,
-                "marca": "PO.400.200 - Able",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "ABLE",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               },
               {
                 "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": 78513.26,
-                "marca": "Sterilys - Igaltex",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
+                "marca": "Sterilys",
+                "obj": false,
+                "ext": false,
+                "bg_precio": "bg-verde"
               },
               {
                 "oferente": "KIMS S.R.L.",
                 "precio": 141500,
-                "marca": "Yellow - KIMS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "Yellow",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               },
               {
                 "oferente": "Poggi Raul Jorge Leon",
                 "precio": 428000,
-                "marca": "Poggi",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               }
             ]
           },
           {
             "reng": "3",
             "cant": 2,
-            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
-            "es_alt": false,
+            "alt": false,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
                 "precio": 65637,
-                "marca": "PO.300.200 - Able",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
+                "marca": "ABLE",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 57841.29,
+                "marca": "Sterilys",
+                "obj": false,
+                "ext": false,
+                "bg_precio": "bg-verde"
               },
               {
                 "oferente": "KIMS S.R.L.",
                 "precio": 107700,
-                "marca": "Yellow - KIMS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "Yellow",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               },
               {
                 "oferente": "Poggi Raul Jorge Leon",
                 "precio": 328000,
-                "marca": "Poggi",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               }
             ]
           },
           {
             "reng": "4",
             "cant": 2,
-            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
-            "es_alt": false,
+            "alt": false,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
                 "precio": 21945,
-                "marca": "PO.100.200 - Able",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "ABLE",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               },
               {
                 "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": 20177.39,
-                "marca": "Sterilys - Igaltex",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
+                "marca": "Sterilys",
+                "obj": false,
+                "ext": false,
+                "bg_precio": "bg-verde"
               },
               {
                 "oferente": "KIMS S.R.L.",
                 "precio": 35300,
-                "marca": "Yellow - KIMS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "Yellow",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               },
               {
                 "oferente": "Poggi Raul Jorge Leon",
                 "precio": 116200,
-                "marca": "Poggi",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               }
             ]
           },
           {
             "reng": "7",
             "cant": 3,
-            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.150.200",
-            "es_alt": false,
+            "alt": false,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
                 "precio": 32945,
-                "marca": "PO.150.200 - Able",
-                "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
+                "marca": "ABLE",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 25222.39,
+                "marca": "Sterilys",
+                "obj": false,
+                "ext": false,
+                "bg_precio": "bg-verde"
               },
               {
                 "oferente": "KIMS S.R.L.",
                 "precio": 52100,
-                "marca": "Yellow - KIMS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "Yellow",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               },
               {
                 "oferente": "Poggi Raul Jorge Leon",
                 "precio": 164000,
-                "marca": "Poggi",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
+                "marca": "",
+                "obj": false,
+                "ext": false,
+                "bg_precio": ""
               }
             ]
           }
-        ],
-        "notas": "\n    <p>ABLE gana rengs.3 (pouch 300mm) y 7 (pouch 150mm). Total adjudicado estimado: <strong>$230.109,00</strong>.</p>\n    <p>Reng.2 (pouch 400mm): Igaltex gana a $78.513,26 vs ABLE $87.835 (+11,7%). Reng.4 (pouch 100mm): Igaltex gana a $20.177,39 vs ABLE $21.945 (+8,8%). Ambos nacionales — no aplica preferencia nacional.</p>\n    <p>Rengs.1 (óxido etileno), 5 (apósito gasa), 6 (cinta adhesiva papel), 8 (cinta adhesiva ETO), 9 (gasa hidrofila pouch): ABLE no cotiza.</p>\n  "
+        ]
       },
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 144,
-      "entidad": "H.Z.G.A. Heroes de Malvinas",
-      "nro": "PA 111",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-07-24",
-      "monto": 449669,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "PA 111/2026 H.Z.G.A. Heroes de Malvinas. ABLE gana rengs.3 y 7 (pouch 300 y 150mm). Pierde rengs.2 y 4 vs Igaltex. Total adjudicado estimado: $230.109. Zona Oeste, Gonzalo.",
-      "creado": "2026-07-20T16:52:52.430Z"
+      "preadj_fecha": "2026-08-18",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE NO gana ningun renglon. Igaltex (Sterilys) gana rengs.2,3,4,5,7,9. KIMS gana rengs.1,8. Bymed gana reng.6. Rengs.3 y 7 fueron incorrectamente asignados a ABLE en la comparativa — Igaltex cotizaba precios menores no detectados en el cuadro original. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-24601531-GDEBA-HZGAHMMSALGP.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-20T16:52:52.430Z",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Bobina pouch 400mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 87835,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 78513.26,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Bobina pouch 300mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 65637,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 57841.29,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "4",
+          "desc": "Bobina pouch 100mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 2,
+          "precio_able": 21945,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 20177.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "Bobina pouch 150mm x 200m c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 32945,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 25222.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -59666,6 +59815,24 @@
       "creado": "2026-08-18T14:23:51.782Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 225,
       "entidad": "HTAL CETRANGOLO",
       "nro": "PA 12",
@@ -59679,25 +59846,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-18T18:21:30.765Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-18T18:21:30.765Z"
-    },
-    {
+      "tabla": null,
       "id": 226,
       "entidad": "H.I.G.A. Petrona V. de Cordero",
       "nro": "PA 100",
@@ -59711,25 +59880,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-18T18:21:30.781Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-18T18:21:30.781Z"
-    },
-    {
+      "tabla": null,
       "id": 227,
       "entidad": "Htal Belgrano",
       "nro": "PA 116",
@@ -59743,25 +59914,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-18T18:52:06.362Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-18T18:52:06.362Z"
-    },
-    {
+      "tabla": null,
       "id": 228,
       "entidad": "Htal Ana Goitia",
       "nro": "PA 31",
@@ -59775,22 +59948,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-08-18T19:09:07.938Z"
     }
   ],
