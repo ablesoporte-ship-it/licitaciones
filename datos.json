@@ -42061,7 +42061,7 @@
       "creado": "2026-07-22T16:44:20.392Z"
     },
     {
-      "preadj_fecha": "2026-08-04",
+      "preadj_fecha": "2026-08-19",
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "No",
       "renglones_preadj": [
@@ -42073,7 +42073,7 @@
           "marca": "ABLE",
           "resultado": "no_adj",
           "precio_siguiente": 2970,
-          "ganador_sig": "Cirugia Argentina S.A. (Tagum, Peru) — preferencia nacional no reconocida",
+          "ganador_sig": "Cirugia Argentina S.A. (Tagum, Peru)",
           "motivo": "superado"
         },
         {
@@ -42106,7 +42106,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 1168.86,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India) — preferencia nacional no reconocida",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)",
           "motivo": "superado"
         },
         {
@@ -42117,7 +42117,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 1206.37,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India) — preferencia nacional no reconocida",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)",
           "motivo": "superado"
         },
         {
@@ -42138,8 +42138,8 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "precio_siguiente": 602.58,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — empate tecnico no reconocido",
+          "precio_siguiente": 548.13,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — por desempate (PD)",
           "motivo": "superado"
         },
         {
@@ -42149,8 +42149,8 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "precio_siguiente": 602.58,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — empate tecnico no reconocido",
+          "precio_siguiente": 548.13,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — por desempate (PD)",
           "motivo": "superado"
         },
         {
@@ -42160,8 +42160,8 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "precio_siguiente": 602.58,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — empate tecnico no reconocido",
+          "precio_siguiente": 548.13,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — por desempate (PD)",
           "motivo": "superado"
         },
         {
@@ -42198,7 +42198,7 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "ABLE gana rengs.7,8,11,15,16,18. Total: $2.950.156,00. Pierde rengs.6,9,10 (preferencia nacional no reconocida) y rengs.12,13,14 (empate tecnico no reconocido). Cardiopack gana rengs.9,10,12,13,14,17. Cirugia Argentina (Tagum Peru) gana reng.6. Expediente EX-2026-22711425-GDEBA-HZGADAOMSALGP.",
+      "gestion_pre": "ABLE gana rengs.7,8,11,15,16,18. Total: $2.950.156,00. Rengs.12,13,14: Cardiopack gana por DESEMPATE (PD) a $548,13 (precio reducido vs apertura $602,58). Reng.6 (catgut cromado N°2): Cirugia Argentina $2.970 (Tagum Peru) — ABLE $3.264 pierde. Rengs.9,10 (PGA): Cardiopack $1.168,86 y $1.206,37. Cirugia Argentina (Tagum Peru) gana rengs.2,3,4. Martorani gana rengs.19,20,22,23,24. Reng.21 desierto. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22711425-GDEBA-HZGADAOMSALGP.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
