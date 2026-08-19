@@ -60017,7 +60017,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-08-19T17:57:25.025Z"
+    },
+    {
+      "id": 230,
+      "entidad": "Htal Jose Penna",
+      "nro": "PA 215",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-26",
+      "monto": 1772820,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-19T20:26:19.951Z"
     }
   ],
-  "nextId": 230
+  "nextId": 231
 }
