@@ -248,6 +248,7 @@ body.modo-lectura .modal-body select:disabled{
     <span id="unpublishedBadge" class="solo-edicion" style="display:none;background:#e67e22;color:#fff;font-size:11px;font-weight:bold;padding:4px 10px;border-radius:10px;white-space:nowrap">⚠ Cambios sin publicar</span>
     <button class="btn btn-ghost solo-edicion" id="pendBanner" style="display:none;background:#c0392b" onclick="abrirPendientes()">&#128276; <span id="pendCount">0</span> nueva(s) por correo</button>
     <input type="file" id="xlsxInput" accept=".xlsx,.xls" style="display:none" onchange="loadFromExcel(event)">
+    <button class="btn btn-ghost" onclick="abrirBuscadorProducto()">&#128269; Buscador de producto</button>
     <button class="btn btn-ghost solo-edicion" onclick="document.getElementById('xlsxInput').click()">&#128194; Cargar Excel</button>
     <button class="btn btn-ghost solo-edicion" onclick="showImport()">&#8595; Importar de Claude</button>
     <button class="btn btn-ghost solo-edicion" onclick="exportExcel()">&#128190; Exportar Excel</button>
@@ -464,6 +465,31 @@ body.modo-lectura .modal-body select:disabled{
   <div class="modal-body" id="rengBody" style="padding:16px"></div>
   <div class="modal-ftr">
     <button class="btn btn-outline" onclick="closeReng()">Cerrar</button>
+  </div>
+</div>
+</div>
+
+<!-- ======= BUSCADOR DE PRODUCTO OVERLAY ======= -->
+<div class="overlay" id="prodOverlay" style="display:none" onclick="if(event.target===this)cerrarBuscadorProducto()">
+<div class="modal" style="max-width:1150px">
+  <div class="modal-hdr">
+    <h2>&#128269; Buscador de producto — todo el historial</h2>
+    <button class="modal-close" onclick="cerrarBuscadorProducto()">&#215;</button>
+  </div>
+  <div class="modal-body" style="padding:16px;overflow:auto;max-height:calc(92vh - 120px)">
+    <div style="display:flex;gap:8px;margin-bottom:6px;flex-wrap:wrap;align-items:center">
+      <input type="text" id="prodQuery" placeholder="Ej: camisolin 45g, sutura nylon 2/0, campo quirurgico..." oninput="buscarProducto()" style="flex:1;min-width:260px;padding:8px 10px;font-size:13px;border:1px solid #ccc;border-radius:6px">
+      <select id="prodOrden" onchange="buscarProducto()" style="padding:8px 10px;font-size:12.5px;border:1px solid #ccc;border-radius:6px">
+        <option value="fecha_desc">Más recientes primero</option>
+        <option value="fecha_asc">Más antiguas primero</option>
+      </select>
+      <label style="font-size:11.5px;color:#666;white-space:nowrap"><input type="checkbox" id="prodSoloPerdidos" onchange="buscarProducto()" style="vertical-align:middle"> Solo donde perdimos</label>
+    </div>
+    <div id="prodResumen" style="font-size:11.5px;color:#888;margin-bottom:10px"></div>
+    <div id="prodResultados"></div>
+  </div>
+  <div class="modal-ftr">
+    <button class="btn btn-outline" onclick="cerrarBuscadorProducto()">Cerrar</button>
   </div>
 </div>
 </div>
@@ -1446,6 +1472,118 @@ async function exportExcel(){
   a.href=url;a.download='Dashboard_Licitaciones_ABLE.xlsx';
   document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
   toast('Excel exportado ✓','ok');
+}
+
+// ─── BUSCADOR DE PRODUCTO (cross-licitación) ──────────────────────────────
+// Aplana todos los renglones de todas las comparativas cargadas en un solo
+// índice buscable por descripción de producto. Se recalcula en cada
+// búsqueda (con ~150-300 licitaciones no hace falta cachear) — así siempre
+// refleja los datos actuales de `data`, incluidas licitaciones agregadas
+// después de abrir el dashboard.
+function indiceProductos(){
+  const out=[];
+  data.forEach(r=>{
+    if(!r.tabla) return;
+    const t=typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla;
+    if(!t.renglones||!t.oferentes) return;
+    const nombreAble = t.oferentes.find(o=>/\bable\b/i.test(o));
+    t.renglones.forEach(row=>{
+      const celdas={};
+      (row.celdas||[]).forEach(c=>{celdas[c.oferente]=c;});
+      const cAble = nombreAble ? celdas[nombreAble] : null;
+      let mejorRival=null, precioRival=null;
+      t.oferentes.forEach(o=>{
+        if(o===nombreAble) return;
+        const c=celdas[o];
+        if(!c||c.precio==null) return;
+        if(precioRival===null || Number(c.precio)<precioRival){ precioRival=Number(c.precio); mejorRival=o; }
+      });
+      let ganamos=null;
+      if(cAble && cAble.precio!=null){
+        ganamos = precioRival===null ? true : Number(cAble.precio)<=precioRival;
+      }
+      out.push({
+        licId:r.id, nro:r.nro, entidad:r.entidad, fecha:r.fecha, zona:r.zona, agente:r.agente,
+        reng:row.reng, desc:row.desc||'', cant:row.cant,
+        precioAble: cAble ? cAble.precio : null, marcaAble: cAble ? cAble.marca : null,
+        mejorRival, precioRival, ganamos,
+        oferentes: t.oferentes, celdas
+      });
+    });
+  });
+  return out;
+}
+
+function abrirBuscadorProducto(){
+  document.getElementById('prodOverlay').style.display='flex';
+  document.getElementById('prodQuery').value='';
+  document.getElementById('prodResultados').innerHTML='<p style="color:#999;text-align:center;padding:24px">Escribí el nombre de un producto para buscar en todo el historial.</p>';
+  document.getElementById('prodResumen').textContent='';
+  setTimeout(()=>document.getElementById('prodQuery').focus(),50);
+}
+function cerrarBuscadorProducto(){ document.getElementById('prodOverlay').style.display='none'; }
+
+function buscarProducto(){
+  const qRaw=document.getElementById('prodQuery').value.trim();
+  const cont=document.getElementById('prodResultados');
+  const resumen=document.getElementById('prodResumen');
+  if(qRaw.length<3){
+    cont.innerHTML='<p style="color:#999;text-align:center;padding:24px">Escribí al menos 3 letras.</p>';
+    resumen.textContent='';
+    return;
+  }
+  // Cada palabra tiene que aparecer en la descripción (no hace falta el orden exacto).
+  const palabras=qRaw.toLowerCase().split(/\s+/).filter(Boolean);
+  const orden=document.getElementById('prodOrden').value;
+  const soloPerdidos=document.getElementById('prodSoloPerdidos').checked;
+
+  let filas=indiceProductos().filter(f=>{
+    const d=f.desc.toLowerCase();
+    return palabras.every(p=>d.includes(p));
+  });
+  if(soloPerdidos) filas=filas.filter(f=>f.ganamos===false);
+
+  filas.sort((a,b)=>{
+    const da=a.fecha||'0000-00-00', db=b.fecha||'0000-00-00';
+    return orden==='fecha_asc' ? da.localeCompare(db) : db.localeCompare(da);
+  });
+
+  if(!filas.length){
+    cont.innerHTML='<p style="color:#999;text-align:center;padding:24px">Sin resultados para "'+esc(qRaw)+'".</p>';
+    resumen.textContent='';
+    return;
+  }
+
+  const ganados=filas.filter(f=>f.ganamos===true).length;
+  const perdidos=filas.filter(f=>f.ganamos===false).length;
+  resumen.innerHTML=`<strong>${filas.length}</strong> apariciones · <span style="color:#1a6b36">${ganados} ganados</span> · <span style="color:#c0392b">${perdidos} perdidos</span> — ordenado ${orden==='fecha_asc'?'de más antiguo a más reciente':'de más reciente a más antiguo'}`;
+
+  cont.innerHTML=`<table style="width:100%;border-collapse:collapse;font-size:12px">
+    <thead><tr style="background:#1a3a5c;color:#fff">
+      <th style="padding:6px 8px;text-align:left">Fecha</th>
+      <th style="padding:6px 8px;text-align:left">Hospital / Licitación</th>
+      <th style="padding:6px 8px;text-align:left">Descripción</th>
+      <th style="padding:6px 8px;text-align:right">ABLE</th>
+      <th style="padding:6px 8px;text-align:right">Mejor rival</th>
+      <th style="padding:6px 8px;text-align:center">Resultado</th>
+      <th style="padding:6px 8px;text-align:center"></th>
+    </tr></thead>
+    <tbody>${filas.map(f=>{
+      const fmt=n=>n!=null?'$'+Number(n).toLocaleString('es-AR',{maximumFractionDigits:2}):'—';
+      let badge='<span style="color:#ccc">—</span>';
+      if(f.ganamos===true) badge='<span class="badge" style="background:#d4efdf;color:#1a6b36">Ganamos</span>';
+      else if(f.ganamos===false) badge=`<span class="badge" style="background:#fde8d8;color:#8a4b00">${esc(f.mejorRival||'')}</span>`;
+      return `<tr style="border-bottom:1px solid #f0f0f0">
+        <td style="padding:6px 8px;white-space:nowrap">${fmtDate(f.fecha)}</td>
+        <td style="padding:6px 8px">${esc(f.entidad)}<div style="font-size:10px;color:#999">${esc(f.nro||'')}${f.agente?' · '+esc(f.agente):''}</div></td>
+        <td style="padding:6px 8px;font-size:11px;max-width:320px">${esc(f.desc)}${f.marcaAble?'<div style="font-size:10px;color:#999">Marca ABLE: '+esc(f.marcaAble)+'</div>':''}</td>
+        <td style="padding:6px 8px;text-align:right;font-weight:bold">${fmt(f.precioAble)}</td>
+        <td style="padding:6px 8px;text-align:right">${fmt(f.precioRival)}</td>
+        <td style="padding:6px 8px;text-align:center">${badge}</td>
+        <td style="padding:6px 8px;text-align:center">${f.licId!=null?`<button class="btn btn-outline btn-icon" title="Ver comparativa completa" onclick="cerrarBuscadorProducto();openComp(${f.licId})">&#128202;</button>`:''}</td>
+      </tr>`;
+    }).join('')}</tbody>
+  </table>`;
 }
 
 // ─── COMPARATIVA VIEWER ───────────────────────────────────────────────────
