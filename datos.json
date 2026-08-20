@@ -59817,24 +59817,6 @@
       "creado": "2026-08-18T11:56:48.926Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 224,
       "entidad": "HTAL DR. ENRIQUE ERILL",
       "nro": "PA 89",
@@ -59842,12 +59824,198 @@
       "fecha": "2026-08-20",
       "monto": 3006250,
       "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "zona": "",
+      "agente": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE solo cotizó R9 a R13 — verificado contra el Anexo III (mismas cantidades y códigos comerciales). Licitación de PBA: aplica preferencia nacional, pero no corresponde en R9/R10/R13 porque el ganador (Igaltex, marca Sterilys/Global Protective) es industria nacional. Raúl Jorge León Poggi no informa marca en su presupuesto.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex SRL",
+          "Raúl Jorge León Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "9",
+            "cant": 9,
+            "desc": "Resma de papel grado médico color blanco",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 135173.04,
+                "marca": "GLOBAL PROTECTIVE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 488000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 30000,
+            "desc": "Bolsa de papel grado médico de 110mm x30mm x190mm con indicador químico de calor húmedo",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 35.29,
+                "marca": "STERILYS",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 188,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 75mm x200mts con indicador químico de calor húmedo + ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 15137.4,
+                "marca": "STERILYS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 89600,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 5,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x200mts con indicador químico de calor húmedo + ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 20177.39,
+                "marca": "STERILYS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 109000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 6,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x200mts con indicador químico de calor húmedo + ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 57841.2,
+                "marca": "STERILYS",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 320000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE solo cotizó R9 a R13 — verificado contra el Anexo III (mismas cantidades y códigos comerciales). Licitación de PBA: aplica preferencia nacional, pero no corresponde en R9/R10/R13 porque el ganador (Igaltex, marca Sterilys/Global Protective) es industria nacional. Raúl Jorge León Poggi no informa marca en su presupuesto."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-18T14:23:51.782Z"
     },
     {
@@ -59987,6 +60155,24 @@
       "creado": "2026-08-18T19:09:07.938Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 229,
       "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
       "nro": "PA 184",
@@ -60000,25 +60186,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-19T17:57:25.025Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-19T17:57:25.025Z"
-    },
-    {
+      "tabla": null,
       "id": 230,
       "entidad": "Htal Jose Penna",
       "nro": "PA 215",
@@ -60032,22 +60220,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-08-19T20:26:19.951Z"
     }
   ],
