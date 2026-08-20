@@ -60352,23 +60352,19 @@
       "creado": "2026-08-18T14:23:51.782Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 225,
+      "entidad": "HTAL CETRANGOLO",
+      "nro": "PA 12/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-20",
+      "monto": 1429500,
+      "mayor": "No",
+      "zona": "",
+      "agente": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE: el pliego exige tela SMS 30g/m² para R57. La oferta BASE de ABLE es tela SP (no cumple, y tampoco es hemorrepelente). La ALT 3 de ABLE ($815,00) sí es SMS 30g/m² y hemorrepelente — cumple la especificación, y sigue siendo más barata que LEIX ($1.186,00). Verificar con ABLE cuál oferta corresponde presentar.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -60530,7 +60526,7 @@
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 1210,
+                "precio": 605,
                 "marca": "ArgentCare",
                 "bg_precio": "",
                 "bg_marca": "",
@@ -60578,7 +60574,7 @@
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 962.6,
+                "precio": 481.3,
                 "marca": "ArgentCare",
                 "bg_precio": "",
                 "bg_marca": "",
@@ -60626,7 +60622,7 @@
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 1630,
+                "precio": 815,
                 "marca": "ArgentCare",
                 "bg_precio": "",
                 "bg_marca": "",
@@ -60667,21 +60663,24 @@
             ]
           }
         ],
-        "notas": "IMPORTANTE: el pliego exige tela SMS 30g/m² para R57. La oferta BASE de ABLE es tela SP (no cumple, y tampoco es hemorrepelente). La ALT 3 de ABLE ($1.630,00) sí es SMS 30g/m² y hemorrepelente — cumple la especificación. Verificar con ABLE cuál oferta corresponde presentar."
+        "notas": "IMPORTANTE: el pliego exige tela SMS 30g/m² para R57. La oferta BASE de ABLE es tela SP (no cumple, y tampoco es hemorrepelente). La ALT 3 de ABLE ($815,00) sí es SMS 30g/m² y hemorrepelente — cumple la especificación, y sigue siendo más barata que LEIX ($1.186,00). Verificar con ABLE cuál oferta corresponde presentar."
       },
-      "id": 225,
-      "entidad": "HTAL CETRANGOLO",
-      "nro": "PA 12",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-20",
-      "monto": 1429500,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "IMPORTANTE: el pliego exige tela SMS 30g/m² para R57. La oferta BASE de ABLE es tela SP (no cumple, y tampoco es hemorrepelente). La ALT 3 de ABLE ($1.630,00) sí es SMS 30g/m² y hemorrepelente — cumple la especificación. Verificar con ABLE cuál oferta corresponde presentar.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-18T18:21:30.765Z"
     },
     {
