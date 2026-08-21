@@ -60081,26 +60081,8 @@
       "creado": "2026-08-11T11:31:57.450Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 222,
-      "entidad": "Htal Magdalena V. de Martinez",
+      "entidad": "Htal Magdalena V. de Martínez",
       "nro": "PA 17",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-21",
@@ -60108,10 +60090,117 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE: ABLE cotizó el mismo producto y precio ($1.870,00, código BIL.AT.1P.70, bolsa de ILEOSTOMÍA) en R23 y R24. El pliego pide dos productos distintos: R23 es bolsa de COLOSTOMÍA adhesiva (no ileostomía), y R24 es bolsa de ileostomía drenable de medida específica 22x64mm. Es el mismo error recurrente ya detectado en otras licitaciones (ofrecer ileostomía donde se pide colostomía). Revisar con ABLE antes de presentar — puede derivar en rechazo por incumplimiento de especificación en R23.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Euro Swiss S.A.",
+          "Max Continental S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "23",
+            "cant": 900,
+            "desc": "Bolsa de ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2681.9,
+                "marca": "PHARMACARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1365,
+                "marca": "EUROMIX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "24",
+            "cant": 50,
+            "desc": "Bolsa de ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2681.9,
+                "marca": "PHARMACARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2240,
+                "marca": "EUROMIX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2210.98,
+                "marca": "INTRATUB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "IMPORTANTE: ABLE cotizó el mismo producto y precio ($1.870,00, código BIL.AT.1P.70, bolsa de ILEOSTOMÍA) en R23 y R24. El pliego pide dos productos distintos: R23 es bolsa de COLOSTOMÍA adhesiva (no ileostomía), y R24 es bolsa de ileostomía drenable de medida específica 22x64mm. Es el mismo error recurrente ya detectado en otras licitaciones (ofrecer ileostomía donde se pide colostomía). Revisar con ABLE antes de presentar — puede derivar en rechazo por incumplimiento de especificación en R23."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-13T20:05:54.090Z"
     },
     {
