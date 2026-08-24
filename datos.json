@@ -62417,37 +62417,164 @@
       "creado": "2026-08-21T13:30:01.355Z"
     },
     {
+      "id": 238,
+      "entidad": "H.Z.G.A. Dr. Profesor Rodolfo Rossi",
+      "nro": "PA 132",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-24",
+      "monto": 61500000,
+      "mayor": "Sí",
+      "zona": "",
+      "agente": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE: el pliego exige tela SMS 30gr/m² para R3. La oferta BASE de ABLE es tela SP (no cumple). La ALT 4 ($815,00) es 100% SMS 30gr y cumple la especificación completa — sigue siendo más barata que Aupres SRL ($1.180,00). Verificar con ABLE cuál oferta corresponde presentar. Aupres SRL declara el camisolín como 'no hemorrepelente' pero con gramaje 30grs (habitualmente asociado a tela SMS hemorrepelente) — la descripción es ambigua/contradictoria, a confirmar con ficha técnica.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Aupres SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 100000,
+            "desc": "Camisolín no estéril, no hemorrepelente de tela SP, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 615,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 1180,
+                "marca": "BIOPROTEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 1",
+            "cant": 100000,
+            "desc": "Mix de camisolines descartables: 80.000 unidades no hemorrepelentes de tela SP con puño de elástico + 20.000 unidades hemorrepelentes de tela SMS de 30grs con puño de algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 660,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 2",
+            "cant": 100000,
+            "desc": "Mix de camisolines descartables: 70.000 unidades no hemorrepelentes de tela SP con puño de elástico + 30.000 unidades hemorrepelentes de tela SMS de 30grs con puño de algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 685,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 3",
+            "cant": 100000,
+            "desc": "Mix de camisolines descartables: 60.000 unidades no hemorrepelentes de tela SP con puño de elástico + 40.000 unidades hemorrepelentes de tela SMS de 30grs con puño de algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 705,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 4",
+            "cant": 100000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30grs. (cumple espec. de tela SMS del pliego), descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "IMPORTANTE: el pliego exige tela SMS 30gr/m² para R3. La oferta BASE de ABLE es tela SP (no cumple). La ALT 4 ($815,00) es 100% SMS 30gr y cumple la especificación completa — sigue siendo más barata que Aupres SRL ($1.180,00). Verificar con ABLE cuál oferta corresponde presentar. Aupres SRL declara el camisolín como 'no hemorrepelente' pero con gramaje 30grs (habitualmente asociado a tela SMS hemorrepelente) — la descripción es ambigua/contradictoria, a confirmar con ficha técnica."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 238,
-      "entidad": "H.I.G.A. Prof. Dr. Rodolfo Rossi",
-      "nro": "PA 132",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-24",
-      "monto": 81500000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-21T19:27:06.263Z"
     },
     {
