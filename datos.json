@@ -62043,24 +62043,6 @@
       "creado": "2026-08-18T18:21:30.781Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 227,
       "entidad": "Htal Belgrano",
       "nro": "PA 116",
@@ -62070,10 +62052,134 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
       "obs": "",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "SEDESA S.A.",
+          "Cirugía Argentina",
+          "Droguería Martorani S.A.",
+          "Droguería Farmatec S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "6",
+            "cant": 1500,
+            "desc": "Espátula de Ayre descartable por unidad",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.97,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 44.4,
+                "marca": "AURINCO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 42.39,
+                "marca": "CLERICOT",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 80,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño grande Tipo LT400",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6500,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA S.A.",
+                "precio": 22325.95,
+                "marca": "J&J LIGACLIP LT400",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 7810,
+                "marca": "Kangji (China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 51949.9,
+                "marca": "ETICON LT400",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": ""
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-18T18:52:06.362Z"
     },
     {
