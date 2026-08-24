@@ -54266,12 +54266,79 @@
       "creado": "2026-08-03T13:22:17.009Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-13",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa papel grado medico con fuelle e indicador quimico calor humedo 140x250x40-75mm - Marca ABLE",
+          "cant": 6000,
+          "precio_able": 75.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 52.23,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "2",
+          "desc": "Bobina pouch 250mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 8,
+          "precio_able": 50250,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 48850.73,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Bobina pouch 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 12,
+          "precio_able": 29950,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 25222.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "4",
+          "desc": "Bobina pouch 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 8,
+          "precio_able": 19950,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 20177.39,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys — PAS, ajusta especificacion tecnica)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "5",
+          "desc": "Bobina pouch 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 8,
+          "precio_able": 14990,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 15137.4,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys — PAS, ajusta especificacion tecnica)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "6",
+          "desc": "Bobina pouch 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 12,
+          "precio_able": 59670,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 32000,
+          "ganador_sig": "Poggi Raul Jorge Leon",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE no gana ningun renglon. Pierde rengs.1,2,3,6 por precio vs Igaltex (Sterilys). Rengs.4 y 5: ABLE mas barata pero Igaltex gana por PAS (ajuste tecnico a lo solicitado). Igaltex gana rengs.1,2,3,4,5,7,15. Poggi gana reng.6. KIMS gana reng.14. Expediente EX-2026-24821516-GDEBA-HIGACMDDPMSALGP.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -54280,9 +54347,9 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "ABLE no gana ningun renglon. Igaltex adjudicada mayoria de renglones. ABLE no recibe OC.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -54546,7 +54613,7 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Resultado general: de los 6 renglones cotizados por ABLE, se ganan los renglones 4 y 5. En los renglones 1, 2, 3 y 6 gana Igaltex (o Poggi en el reng. 6) por menor precio; ninguna diferencia cae en empate técnico ni preferencia nacional (ningún oferente declara producto importado). Reng. 2 — ABLE queda a solo 2,86% de Igaltex (no llega al 2% de empate técnico). Reng. 6 — gana Droguería Poggi ($32.000,00), muy por debajo de Igaltex ($57.841,29) y de ABLE ($59.670,00, +86,5%); precio de Poggi llamativamente bajo respecto al resto de sus propios renglones, verificar si es correcto en el acta. Kims cotiza los renglones 1 a 6 con la leyenda '(opcional)' para el método de esterilización, cuando el pliego exige 'no opcional' en los renglones 2 a 6; no se objeta por no ser ganador en ninguno de ellos. Monto total cotizado por ABLE (renglones 1 a 6): $2.209.720,00.",
