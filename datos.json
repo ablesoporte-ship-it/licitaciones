@@ -62353,37 +62353,77 @@
       "creado": "2026-08-18T19:09:07.938Z"
     },
     {
+      "id": 229,
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
+      "nro": "PA 184",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-21",
+      "monto": 3166000,
+      "mayor": "No",
+      "zona": "",
+      "agente": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Drogcor S.R.L.",
+          "Electron Plast S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 20,
+            "desc": "Resma de papel grado médico color blanco",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogcor S.R.L.",
+                "precio": 223800,
+                "marca": "KIMS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast S.A.",
+                "precio": 135000,
+                "marca": "ELECTRON PLAST",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": ""
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 229,
-      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
-      "nro": "PA 184",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-21",
-      "monto": 3166000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-19T17:57:25.025Z"
     },
     {
