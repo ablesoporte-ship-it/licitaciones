@@ -33215,12 +33215,24 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-24",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "16",
+          "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo mediano/grande LT300 - Marca ABLE (Industria argentina)",
+          "cant": 216,
+          "precio_able": 5350,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.16 (LigaClip LT300, cartucho 6 clips titanio mediano/grande, Marca ABLE, 216u x $5.350 = $1.155.600, PP). Otros oferentes: Unic Company (rengs.20,24,29), Igaltex (reng.17), Potenza (rengs.50,51,52), Martorani (rengs.3,5,6,7,15,18,19,34,48,49,53), Farmatec (rengs.9,10,11,14,31), Flosan (valvula hidrocefalia), Euro Swiss (rengs.8,13,23,25,42,43,44,45,46,47), Aupres (rengs.1,35,36), Sondas y Catéteres (rengs.21,22,37). PA 135 de H.I.G.A. Dr. Pedro Fiorito — DIFERENTE del PA 135 de San Jose de Pergamino. Expediente EX-2026-17998880-GDEBA-HIGAPFMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -33295,7 +33307,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Único renglón cotizado por ABLE: reng.16 (clips de titanio LT-300). ABLE gana claro: $5.350,00 vs American Fiure $8.945,00 (67,2% más caro), Aupres $24.502,00 (358% más caro) y Euroswiss $81.388,26 (1.421% más caro). ⚠️ Dato relevante: Euroswiss revende el mismo clip de ABLE — su descripción dice literalmente 'Clip de titanio t/LT-300 ABLE X 18 UDS', marca 'Suturas Argentinas', a más de 15 veces el precio directo de ABLE. Mismo patrón de reventa ya detectado en otras licitaciones. Total oferta ABLE: $1.155.600,00 (216 × $5.350,00), coincide con el monto ya cargado.",
@@ -43746,12 +43758,35 @@
       "creado": "2026-07-22T18:29:41.953Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-05",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Bolsa p/colostomia adhesiva varias medidas - Marca ABLE",
+          "cant": 200,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Bolsa p/ileostomia varias medidas - Marca ABLE",
+          "cant": 10,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.4 y 5 (bolsas ostomia). Total: $289.700,00. Reng.4 (bolsa colostomia adhesiva, Marca ABLE, 200u x $1.355 = $271.000). Reng.5 (bolsa ileostomia, Marca ABLE, 10u x $1.870 = $18.700). Total LP adjudicado $53.371.547,75 entre 16 proveedores. Poggi rechazado rengs.11,46 por precio excesivo. Expediente EX-2026-21438299-GDEBA-HZGMLVMSALGP. H. Mariano y Luciano de la Vega, Moreno.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -44109,7 +44144,7 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "⚠️ IMPORTANTE — Reng.73 (tiras reactivas de glucosa, 36.000 unidades, el renglón más grande de ABLE en esta licitación, representa el 96% de su oferta) — ABLE pierde por un margen enorme: $312,80 vs Nipro/EXSA $180,00 y Martorani $178,30 (diferencia de 74-76%, muy por fuera del rango de empate técnico o preferencia nacional). Conviene revisar el precio de compra de estas tiras para futuras licitaciones — la brecha es demasiado grande para explicarse por costo de origen. Reng.4 — ABLE $1.355,00 (marca ABLE) vs Euroswiss $1.373,84 (Euromix) vs Farmatec $1.558,00 (Euro) vs Martorani $5.784,30 (Hollister). ABLE gana por menor precio. Reng.5 — ABLE $1.870,00 (marca ABLE) vs Farmatec $2.540,00 (Euro) vs Martorani $8.359,50 (Hollister). ABLE gana por menor precio. Reng.19 — Farmatec gana con $42,30 (Sedeme) vs ABLE $57,97 — diferencia de 37%, ABLE pierde claramente (fuera de rango de empate/preferencia). Martorani $45,90 (Aurinco) también por debajo de ABLE. Reng.57 — Martorani gana con $1.001,70 (Aurinco) vs ABLE $1.030,00 — diferencia de 2,83%, apenas fuera del 2% de empate técnico. Si la marca Aurinco es de origen importado, correspondería reclamar preferencia nacional (banda 2-10%) — falta confirmar el origen, no figura en la documentación de Martorani. Farmatec $1.109,00, Euroswiss $1.391,50 (revendiendo marca ABLE vía Suturas Argentinas). Reng.73 detalle de todos los oferentes: ABLE $312,80 (On Call Plus) — Nipro $180,00 (GoChek2, origen China) — EXSA $180,00 (Medline) — Martorani $178,30 (Microlife) — Raúl J. L. Poggi $444,00 (On Call, pierde también) — Euroswiss no cotizó este renglón. Total oferta ABLE: $11.711.470,00 (verificado). De ganar solo reng.4 y reng.5 (los únicos claros), el monto adjudicable bajaría a $289.700,00 — una fracción mínima de lo cotizado, dado el peso de reng.73 en el total.",
