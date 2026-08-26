@@ -42753,7 +42753,7 @@
       "adj_fecha": "2026-08-26",
       "adj_monto_able": 2950156,
       "adj_resumen": "ABLE adjudicada en rengs.7,8,11,15,16,18. Total: $2.950.156,00. OC 387/2026.",
-      "adj_alertas": "IRREGULARIDADES: preferencia nacional no reconocida en rengs.6,9,10,12,13,14 (Cardiopack/Cirugia Argentina importados adjudicados vs ABLE nacional).",
+      "adj_alertas": "IRREGULARIDADES: preferencia nacional no reconocida en rengs.6,9,10 (Cirugia Argentina/Cardiopack importados). Empate tecnico no reconocido en rengs.12,13,14 (Cardiopack importado gana por desempate).",
       "adj_tiene_alerta": true,
       "oc": "Correcta",
       "oc_fecha": "2026-08-26",
@@ -43790,9 +43790,9 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
-      "empate": "Si",
-      "pref": "Si",
+      "etapa": "OC",
+      "empate": "",
+      "pref": "",
       "obs": "Euro Swiss revende producto de ABLE (fabricante Suturas Argentinas) en reng. 6, 7 y 8 — no es oferta independiente. Cardiopack Argentina = Surgikal, origen India (importado). Cirugía Argentina = Tagum, origen Perú (importado). Reng. 6, 9 y 10: preferencia nacional aplicable (ABLE dentro del 10% vs. importado). Reng. 12, 13 y 14: empate técnico vs Cardiopack Argentina (≤2%). Reng. 7, 8, 11, 15, 16 y 18: ABLE gana directo por menor precio.",
       "creado": "2026-07-22T18:27:47.469Z",
       "renglones_adj": [
@@ -43803,9 +43803,9 @@
           "precio_able": 3264,
           "marca": "ABLE",
           "resultado": "no_adj",
-          "motivo": "superado",
           "precio_siguiente": 2970,
-          "ganador_sig": "Cirugia Argentina S.A. (Tagum, Peru importado) — preferencia nacional NO reconocida"
+          "ganador_sig": "Cirugia Argentina S.A. (Tagum, Peru importado) — PREFERENCIA NACIONAL NO RESPETADA",
+          "motivo": "preferencia_nac"
         },
         {
           "reng": "7",
@@ -43814,9 +43814,9 @@
           "precio_able": 2350,
           "marca": "ABLE",
           "resultado": "adj",
-          "motivo": "menor_precio",
           "precio_siguiente": null,
-          "ganador_sig": null
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         },
         {
           "reng": "8",
@@ -43825,9 +43825,9 @@
           "precio_able": 2200,
           "marca": "ABLE",
           "resultado": "adj",
-          "motivo": "menor_precio",
           "precio_siguiente": null,
-          "ganador_sig": null
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         },
         {
           "reng": "9",
@@ -43836,9 +43836,9 @@
           "precio_able": 1250,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
           "precio_siguiente": 1168.86,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — preferencia nacional NO reconocida"
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — PREFERENCIA NACIONAL NO RESPETADA",
+          "motivo": "preferencia_nac"
         },
         {
           "reng": "10",
@@ -43847,9 +43847,9 @@
           "precio_able": 1295,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
           "precio_siguiente": 1206.37,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — preferencia nacional NO reconocida"
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — PREFERENCIA NACIONAL NO RESPETADA",
+          "motivo": "preferencia_nac"
         },
         {
           "reng": "11",
@@ -43858,9 +43858,9 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "adj",
-          "motivo": "menor_precio",
           "precio_siguiente": null,
-          "ganador_sig": null
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         },
         {
           "reng": "12",
@@ -43869,9 +43869,9 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
           "precio_siguiente": 548.13,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — desempate PD siendo importado, preferencia nacional NO reconocida"
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — EMPATE TECNICO NO RECONOCIDO",
+          "motivo": "empate_tecnico"
         },
         {
           "reng": "13",
@@ -43880,9 +43880,9 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
           "precio_siguiente": 548.13,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — desempate PD siendo importado, preferencia nacional NO reconocida"
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — EMPATE TECNICO NO RECONOCIDO",
+          "motivo": "empate_tecnico"
         },
         {
           "reng": "14",
@@ -43891,9 +43891,9 @@
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
           "precio_siguiente": 548.13,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — desempate PD siendo importado, preferencia nacional NO reconocida"
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — EMPATE TECNICO NO RECONOCIDO",
+          "motivo": "empate_tecnico"
         },
         {
           "reng": "15",
@@ -43902,9 +43902,9 @@
           "precio_able": 1500,
           "marca": "Surgimax",
           "resultado": "adj",
-          "motivo": "menor_precio",
           "precio_siguiente": null,
-          "ganador_sig": null
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         },
         {
           "reng": "16",
@@ -43913,9 +43913,9 @@
           "precio_able": 1500,
           "marca": "Surgimax",
           "resultado": "adj",
-          "motivo": "menor_precio",
           "precio_siguiente": null,
-          "ganador_sig": null
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         },
         {
           "reng": "18",
@@ -43924,9 +43924,9 @@
           "precio_able": 1205,
           "marca": "Surgimax",
           "resultado": "adj",
-          "motivo": "menor_precio",
           "precio_siguiente": null,
-          "ganador_sig": null
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         }
       ]
     },
