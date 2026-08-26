@@ -34525,12 +34525,123 @@
       "creado": "2026-07-20T20:06:48.480Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-03",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 2016,
+          "precio_able": 589,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura PGA N°0 c/aguja 25mm 1/2 circ. punta redonda - Marca Surgimax (Ind. argentina)",
+          "cant": 620,
+          "precio_able": 1250,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — preferencia nacional NO reconocida",
+          "motivo": "superado"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura PGA N°4/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 72,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare - cod. COFIA.2E.12",
+          "cant": 12000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable 15-70mm con filtro - Marca ABLE",
+          "cant": 220,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "65",
+          "desc": "LigaClip LT400 - cartucho con 6 clips de titanio tipo LT400 grande - Marca ABLE (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 6500,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "81",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 60mm recta - Marca Surgimax (Ind. argentina)",
+          "cant": 408,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — empate tecnico NO reconocido",
+          "motivo": "superado"
+        },
+        {
+          "reng": "82",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 2304,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "84",
+          "desc": "Sutura polipropileno N°3/0 doble aguja 25mm 1/2 circ. - Marca Surgimax (Ind. argentina)",
+          "cant": 96,
+          "precio_able": 2390,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Laboratorios Igaltex S.R.L.",
+          "motivo": "superado"
+        },
+        {
+          "reng": "106",
+          "desc": "Bolsa colostomia neonatal drenable transparente 1 pieza aro recortable 15-32mm con filtro - Marca ABLE",
+          "cant": 30,
+          "precio_able": 3800,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.2,4,5,6,65,82,106. Total: $5.867.424,00. IRREGULARIDADES: Reng.3 (PGA N°0, ABLE naranja - preferencia nacional) adjudicado a Cardiopack (Surgikal, India importado) — preferencia nacional NO reconocida. Reng.81 (Nylon N°3/0, ABLE amarillo - empate tecnico) adjudicado a Cardiopack (Surgikal, India importado) — empate tecnico NO reconocido siendo Cardiopack importado. Reng.84: ABLE pierde por precio. Total LP: $63.446.626,14. Expediente EX-2026-21014767-GDEBA-HZGAAAEMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -35504,10 +35615,10 @@
       "monto": 7155808,
       "mayor": "Sí",
       "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "",
-      "pref": "",
+      "agente": "Noe",
+      "etapa": "Pre-adjudicación",
+      "empate": "Sí",
+      "pref": "Sí",
       "obs": "Reng.3 — hebra 70cm no cumple, pliego pide 90cm (ninguna oferta de ABLE cumple). Reng.106 — Ileostomía ofertada, pliego pide Colostomía c/velcro e hidrocoloide (mismo error que en PA 74). Reng.4 y 82 — solo difiere el nombre del material (Ac.Poliglicólico vs Poliglactina); specs numéricas OK. Reng.2, 4, 5, 6, 65 — ABLE gana directo. Reng.3 — empate/preferencia nacional (2,79%) vs Cardiopack India — pero ver nota de hebra arriba. Reng.65 — gana vs Cirugía Arg. (China) y American Fiure (misma base x6, sin conversión). Reng.81 — empate técnico (1,34%) vs Cardiopack India. Reng.82 — gana directo. Max Continental con hebra 75cm (no 90cm) — objetable. Reng.84 — ABLE PIERDE fuerte: Igaltex 58,6% más barato. Reng.106 — único oferente. Total ABLE: $9.886.348,00.",
       "creado": "2026-07-21T12:00:50.134Z"
     },
@@ -42509,7 +42620,7 @@
           "marca": "ABLE",
           "resultado": "no_adj",
           "precio_siguiente": 2970,
-          "ganador_sig": "Cirugia Argentina S.A. (Tagum, Peru)",
+          "ganador_sig": "Cirugia Argentina S.A. (Tagum, Peru importado) — preferencia nacional no reconocida",
           "motivo": "superado"
         },
         {
@@ -42542,7 +42653,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 1168.86,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — preferencia nacional no reconocida",
           "motivo": "superado"
         },
         {
@@ -42553,7 +42664,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 1206.37,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — preferencia nacional no reconocida",
           "motivo": "superado"
         },
         {
@@ -42575,7 +42686,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 548.13,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — por desempate (PD)",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — por desempate PD siendo importado, preferencia nacional no reconocida",
           "motivo": "superado"
         },
         {
@@ -42586,7 +42697,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 548.13,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — por desempate (PD)",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — por desempate PD siendo importado, preferencia nacional no reconocida",
           "motivo": "superado"
         },
         {
@@ -42597,7 +42708,7 @@
           "marca": "Surgimax",
           "resultado": "no_adj",
           "precio_siguiente": 548.13,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, Ind. argentina) — por desempate (PD)",
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — por desempate PD siendo importado, preferencia nacional no reconocida",
           "motivo": "superado"
         },
         {
@@ -42634,7 +42745,7 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "ABLE gana rengs.7,8,11,15,16,18. Total: $2.950.156,00. Rengs.12,13,14: Cardiopack gana por DESEMPATE (PD) a $548,13 (precio reducido vs apertura $602,58). Reng.6 (catgut cromado N°2): Cirugia Argentina $2.970 (Tagum Peru) — ABLE $3.264 pierde. Rengs.9,10 (PGA): Cardiopack $1.168,86 y $1.206,37. Cirugia Argentina (Tagum Peru) gana rengs.2,3,4. Martorani gana rengs.19,20,22,23,24. Reng.21 desierto. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22711425-GDEBA-HZGADAOMSALGP.",
+      "gestion_pre": "ABLE gana rengs.7,8,11,15,16,18. Total: $2.950.156,00. IRREGULARIDADES: Reng.6 ABLE naranja — Cirugia Argentina (Tagum, Peru importado) gana, preferencia nacional no reconocida. Rengs.9 y 10 ABLE naranja — Cardiopack (Surgikal, India importado) gana, preferencia nacional no reconocida. Rengs.12,13,14 ABLE amarillo (empate tecnico) — Cardiopack (India importado) gana por desempate PD a $548,13, siendo importado la preferencia nacional deberia haber dado el renglon a ABLE. Cirugia Argentina gana rengs.2,3,4,6 (Tagum Peru). Cardiopack gana rengs.1,5,9,10,12,13,14,17. Martorani gana rengs.19,20,22,24 (reng.23 rechazado precio excesivo). Reng.21 desierto. Estado: PREADJUDICACION APROBADA. Expediente EX-2026-22711425-GDEBA-HZGADAOMSALGP.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -48449,12 +48560,46 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-06",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Bolsa papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX110X030X190",
+          "cant": 12800,
+          "precio_able": 36.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 35.29,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa papel grado medico 140mm x 40mm x 250mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX140X040X250",
+          "cant": 4800,
+          "precio_able": 75.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 54.15,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "6",
+          "desc": "Bolsa papel grado medico 250mm x 100mm x 380mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX250X100X380",
+          "cant": 1500,
+          "precio_able": 143.01,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 119.72,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE no gana ningun renglon. Igaltex (Sterilys) gana rengs.1,2,3,4,5,6 por menor precio. Papelera EP gana reng.9. Reng.8 Papelera EP rechazado precio excesivo. Reng.7 desestimado precio excesivo. Expediente EX-2026-24126598-GDEBA-HIEPMSALGP.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -48463,9 +48608,9 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "ABLE no gana ningun renglon. Igaltex adjudicada rengs.1-6. ABLE no recibe OC.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -48577,14 +48722,14 @@
       "liquidado_obs": "",
       "id": 174,
       "entidad": "HTAL EVA PERÓN",
-      "nro": "PA 176",
+      "nro": "PA 176/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-03",
       "monto": 1043411,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.3 — Igaltex gana por 3,32% (dimensiones idénticas al pliego 110x30x190mm) — sin margen de empate técnico/preferencia claro sin confirmar origen. Reng.4 — ⚠️ Igaltex cotiza $54,15 pero sus dimensiones (140x40x250mm) NO coinciden con el pliego (140-145x320x40mm) — el largo difiere en 70mm (22%). Posible objetable, revisar antes de dar por perdido. Reng.6 — Igaltex gana por 19,45% (dimensiones idénticas al pliego 250x380x100mm) — fuera de banda de preferencia nacional. KIMS pierde en los 3 renglones, no compite en precio. Total ABLE: $1.043.403,84 (verificado).",
