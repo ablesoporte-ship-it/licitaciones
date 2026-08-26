@@ -43920,7 +43920,7 @@
       "renglones_preadj": [
         {
           "reng": "4",
-          "desc": "Bolsa p/colostomia adhesiva varias medidas - Marca ABLE",
+          "desc": "Bolsa colostomia cerrada transparente 1 pieza con aro recortable - Marca ABLE",
           "cant": 200,
           "precio_able": 1355,
           "marca": "ABLE",
@@ -43931,7 +43931,7 @@
         },
         {
           "reng": "5",
-          "desc": "Bolsa p/ileostomia varias medidas - Marca ABLE",
+          "desc": "Bolsa ileostomia drenable transparente 1 pieza con aro recortable - Marca ABLE",
           "cant": 10,
           "precio_able": 1870,
           "marca": "ABLE",
@@ -43939,9 +43939,42 @@
           "precio_siguiente": null,
           "ganador_sig": null,
           "motivo": "menor_precio"
+        },
+        {
+          "reng": "19",
+          "desc": "Espatula de Ayre descartable - Marca ABLE - cod. ESP",
+          "cant": 1000,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "57",
+          "desc": "Bajalenguas adultos x 100 unidades - Marca ABLE - cod. BAJA.A",
+          "cant": 100,
+          "precio_able": 1030,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "73",
+          "desc": "Tiras reactivas medicion glucosa en sangre - Marca ABLE",
+          "cant": 36000,
+          "precio_able": 312.8,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
         }
       ],
-      "gestion_pre": "ABLE gana rengs.4 y 5 (bolsas ostomia). Total: $289.700,00. Reng.4 (bolsa colostomia adhesiva, Marca ABLE, 200u x $1.355 = $271.000). Reng.5 (bolsa ileostomia, Marca ABLE, 10u x $1.870 = $18.700). Total LP adjudicado $53.371.547,75 entre 16 proveedores. Poggi rechazado rengs.11,46 por precio excesivo. Expediente EX-2026-21438299-GDEBA-HZGMLVMSALGP. H. Mariano y Luciano de la Vega, Moreno.",
+      "gestion_pre": "ABLE gana rengs.4 y 5 (bolsas ostomia). Total: $289.700,00. Reng.4 (bolsa colostomia ABLE, 200u x $1.355 = $271.000). Reng.5 (bolsa ileostomia ABLE, 10u x $1.870 = $18.700). Pierde rengs.19 (espatula Ayre), 57 (bajalenguas) y 73 (tiras reactivas glucosa) por precio. Total LP adjudicado $53.371.547,75. Expediente EX-2026-21438299-GDEBA-HZGMLVMSALGP.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
