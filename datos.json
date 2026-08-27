@@ -51041,14 +51041,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "adj_fecha": "2026-08-27",
+      "adj_monto_able": 681170,
+      "adj_resumen": "ABLE adjudicada en rengs.19 y 20 (cubrecalzado y cofia ArgentCare). Total: $681.170,00. OC 479/2026.",
+      "adj_alertas": "IRREGULARIDAD reng.13: bolsa colostomia adjudicada a Euro Swiss (importado) siendo ABLE nacional mas barata. Preferencia nacional NO reconocida.",
+      "adj_tiene_alerta": true,
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-27",
+      "oc_alertas": "OC Nro. 479/2026 fecha 27/08/2026. Reng.19 (cubrecalzado ArgentCare, 7.000u x $68,81 = $481.670). Reng.20 (cofia ArgentCare, 7.000u x $28,50 = $199.500). Total: $681.170,00. Disposicion DISPO-2026-1390-GDEBA-HIPPMSALGP/2026. IRREGULARIDAD: reng.13 preferencia nacional no reconocida (Euro Swiss importado adjudicado vs ABLE nacional).",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -51265,11 +51265,46 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "",
       "obs": "Reng. 13 — ABLE $1.355,00 (BCO.CT.1P.70 - marca Able) vs EURO SWISS $1.279,00 (EURO SWISS SA). Dif. 5,9% — ganador importado. Preferencia nacional aplicable. Reng. 19 — ABLE cotiza por UNIDAD $69,50 (CUBRE.1E.40.23.U) y por PAR $130,00 (ALT). BHAURAC $330,84/ud (DIMEX nac.) — precio mayor, ABLE gana. DROG. MARTORANI $76,80/ud (PEMED nac.) — dif. 9,5% — ganador nacional, ABLE pierde sin alerta. Reng. 20 — ABLE $28,50 (COFIA.2E.12 - ArgentCare) vs IGALTEX $31,71 (Global Protective nac.) vs EURO SWISS $38,00. ABLE es el menor precio, gana.",
-      "creado": "2026-07-31T21:42:54.849Z"
+      "creado": "2026-07-31T21:42:54.849Z",
+      "renglones_adj": [
+        {
+          "reng": "13",
+          "desc": "Bolsa colostomia adhesiva varias medidas - Marca ABLE",
+          "cant": 250,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 1279,
+          "ganador_sig": "Euro Swiss S.A. (importado) — PREFERENCIA NACIONAL NO RESPETADA",
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "19",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril tela no tejida no deslizable resistente a rasgaduras - Marca ArgentCare",
+          "cant": 7000,
+          "precio_able": 68.81,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "20",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 7000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
