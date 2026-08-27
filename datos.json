@@ -62899,37 +62899,159 @@
       "creado": "2026-08-18T18:52:06.362Z"
     },
     {
+      "id": 228,
+      "entidad": "Htal Ana Goitia",
+      "nro": "PA 31",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-24",
+      "monto": 493150,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotizó también un 'R29' (mismo código y precio que R3) que NO figura en el Anexo III de esta licitación — no se incluyó en la comparativa por no poder confirmarse contra el pliego. Verificar con ABLE si es un renglón real o un error de carga.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex SRL",
+          "Kims S.R.L.",
+          "Bymed S.R.L.",
+          "Beta Medical",
+          "Raúl Jorge León Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 7,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x200mts con indicador químico de calor húmedo + ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 60980.78,
+                "marca": "STERILYS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 93800,
+                "marca": "Yellow Pack (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bymed S.R.L.",
+                "precio": 96076,
+                "marca": "QDS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Beta Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 320000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 1000,
+            "desc": "Bolsa de papel grado médico de 140mm x50mm x330mm con indicador químico de calor húmedo",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 64.72,
+                "marca": "STERILYS",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 76,
+                "marca": "Yellow Pack (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bymed S.R.L.",
+                "precio": 141.7,
+                "marca": "QDS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Beta Medical",
+                "precio": 125.95,
+                "marca": "EFELAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 320,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ]
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 228,
-      "entidad": "Htal Ana Goitia",
-      "nro": "PA 31",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-24",
-      "monto": 568610,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-18T19:09:07.938Z"
     },
     {
