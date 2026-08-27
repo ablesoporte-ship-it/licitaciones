@@ -57804,587 +57804,6 @@
       "creado": "2026-08-05T19:03:42.747Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": {
-        "oferentes": [
-          "ABLE S.A.",
-          "MedPharma S.A.",
-          "Droguería Pharma Center",
-          "Laboratorios Igaltex",
-          "Healthy Lab",
-          "Droguería Martorani S.A.",
-          "Droguería Farmatec S.A.",
-          "Aupres SRL",
-          "Bhaurac S.A.",
-          "Euro Swiss S.A."
-        ],
-        "renglones": [
-          {
-            "reng": "1",
-            "cant": 20000,
-            "desc": "Cofia descartable elastizada, marca ArgentCare",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 28.5,
-                "marca": "COFIA.2E.12 - ArgentCare",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MedPharma S.A.",
-                "precio": 55.66,
-                "marca": "SWORD",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Pharma Center",
-                "precio": 35,
-                "marca": "DPC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex",
-                "precio": 31.71,
-                "marca": "Global Protective",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Healthy Lab",
-                "precio": 45.25,
-                "marca": "Healthy Lab",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 43.6,
-                "marca": "PEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 47.44,
-                "marca": "BLUEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": 59.82,
-                "marca": "DIMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": 37.9,
-                "marca": "Euromix",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "2",
-            "cant": 20000,
-            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, hemorrepelente, no deslizable y resistentes a las rasgaduras, marca ArgentCare",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 130,
-                "marca": "CUBRE.1E.23.PAR - ArgentCare",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MedPharma S.A.",
-                "precio": 186.46,
-                "marca": "EBANO",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Pharma Center",
-                "precio": 187,
-                "marca": "DPC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Healthy Lab",
-                "precio": 252.35,
-                "marca": "Healthy Lab",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 153.7,
-                "marca": "PEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 304.92,
-                "marca": "BLUEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": 179.45,
-                "marca": "DIMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "3",
-            "cant": 1500,
-            "desc": "Camisolin estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1850,
-                "marca": "CE.SMS.120.ALG.45.A - ArgentCare",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MedPharma S.A.",
-                "precio": 2226.88,
-                "marca": "SWORD",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Pharma Center",
-                "precio": 2100,
-                "marca": "DPC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Healthy Lab",
-                "precio": 817.56,
-                "marca": "Healthy Lab",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 4400,
-                "marca": "BLUEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres SRL",
-                "precio": 3812,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": 2645.7,
-                "marca": "DIMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "3",
-            "cant": 1500,
-            "desc": "Camisolin no estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1322.5,
-                "marca": "C.SMS.120.ALG.45.A - ArgentCare",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MedPharma S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Pharma Center",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Healthy Lab",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "4",
-            "cant": 80,
-            "desc": "Equipo de cirugía de tela SMS descartable, estéril, que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 26000,
-                "marca": "EB.7031 - Ebano",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MedPharma S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Pharma Center",
-                "precio": 21700,
-                "marca": "DPC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Healthy Lab",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres SRL",
-                "precio": 19990,
-                "marca": "Bioprotek",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "14",
-            "cant": 3600,
-            "desc": "Bolsa de colostomia cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1275,
-                "marca": "BCO.CT.1P.70 - ABLE (Ind. Argentina)",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MedPharma S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Pharma Center",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Healthy Lab",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1809.9,
-                "marca": "Pharmacare",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 1649,
-                "marca": "Euro (cant. 3.500, no 3.600)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Aupres SRL",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Bhaurac S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": 1279,
-                "marca": "Euromix",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          }
-        ],
-        "notas": "Reng. 1, 2 y 14: ABLE gana directo por menor precio. Reng. 3: ABLE pierde por amplio margen (+126%) vs Healthy Lab, cuya descripción copia textualmente la del pliego. Reng. 4: ABLE pierde por amplio margen (+30%) vs Aupres SRL. Ningún renglón cae en rango de empate técnico ni preferencia nacional. Reng. 14 — Droguería Farmatec cotizó cantidad 3.500 en vez de 3.600 solicitadas por pliego."
-      },
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 211,
-      "entidad": "Htal Fiorito",
-      "nro": "PA 144",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-13",
-      "monto": 12615000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng. 1, 2 y 14: ABLE gana directo por menor precio. Reng. 3: ABLE pierde por amplio margen (+126%) vs Healthy Lab, cuya descripción copia textualmente la del pliego. Reng. 4: ABLE pierde por amplio margen (+30%) vs Aupres SRL. Ningún renglón cae en rango de empate técnico ni preferencia nacional. Reng. 14 — Droguería Farmatec cotizó cantidad 3.500 en vez de 3.600 solicitadas por pliego.",
-      "creado": "2026-08-06T18:06:06.178Z"
-    },
-    {
       "preadj_fecha": "2026-08-07",
       "preadj_empate_ok": "Si",
       "preadj_pref_ok": "No",
@@ -65274,24 +64693,6 @@
       "creado": "2026-08-24T19:15:35.035Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 244,
       "entidad": "HTAL Vicente Lopez y Planes",
       "nro": "PA 144",
@@ -65301,10 +64702,132 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
+      "etapa": "Comparativa",
       "empate": "",
-      "pref": "",
-      "obs": "",
+      "pref": "No",
+      "obs": "Resultado general: de los 3 renglones cotizados por ABLE, gana Igaltex en el 1 y el 3, y hay empate técnico con Igaltex en el renglón 2. Reng. 1 — ABLE $50.250,00 vs Igaltex $48.069,11, diferencia de 4,54%. No corresponde preferencia nacional (ningún oferente declara producto importado). Reng. 2 — Empate técnico: ABLE $19.950,00 vs Igaltex $19.854,55, diferencia de solo 0,48%. Reng. 3 — ABLE $29.950,00 vs Igaltex $24.818,83, diferencia de 20,68%, fuera de rango de empate o preferencia. Reng. 4 — ABLE no cotiza (solo lo cotiza Kims); no se incluye en esta comparativa. Monto total cotizado por ABLE (renglones 1 a 3): $2.100.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "LABORATORIOS IGALTEX S.R.L.",
+          "KIMS S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 12,
+            "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 250mm x 200m, calor húmedo+ETO+formaldehído",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 50250,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 48069.11,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 79100,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 30,
+            "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 100mm x 200m, calor húmedo+ETO+formaldehído",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 19854.55,
+                "marca": "Sterilys",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31500,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 30,
+            "desc": "Papel uso médico liso y lámina transparente c/indicador químico (pouch), envase mixto 150mm x 200m, calor húmedo+ETO+formaldehído",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29950,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LABORATORIOS IGALTEX S.R.L.",
+                "precio": 24818.83,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 47450,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Resultado general: de los 3 renglones cotizados por ABLE, gana Igaltex en el 1 y el 3, y hay empate técnico con Igaltex en el renglón 2. Reng. 1 — ABLE $50.250,00 vs Igaltex $48.069,11, diferencia de 4,54%. No corresponde preferencia nacional (ningún oferente declara producto importado). Reng. 2 — Empate técnico: ABLE $19.950,00 vs Igaltex $19.854,55, diferencia de solo 0,48%. Reng. 3 — ABLE $29.950,00 vs Igaltex $24.818,83, diferencia de 20,68%, fuera de rango de empate o preferencia. Reng. 4 — ABLE no cotiza (solo lo cotiza Kims); no se incluye en esta comparativa. Monto total cotizado por ABLE (renglones 1 a 3): $2.100.000,00."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-24T19:15:35.054Z"
     },
     {
