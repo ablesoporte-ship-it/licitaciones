@@ -64387,37 +64387,410 @@
       "creado": "2026-08-21T12:38:53.275Z"
     },
     {
+      "id": 237,
+      "entidad": "Htal Fiorito",
+      "nro": "PA 162",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-26",
+      "monto": 15240000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "El texto del Anexo III para R1 mezcla dos descripciones distintas (tela SMS 30g/m² por un lado, y 'no hemorrepelente' con puños de algodón por otro) — el pliego original está redactado de forma ambigua/contradictoria en ese punto. No se asume cuál versión es la correcta. Droguería Martorani S.A. cotiza con tela SMS de 22g/m², no 30g/m² como indica el pliego (aclarado por el propio oferente en su descripción). Droguería Pharma Center SRL (ganador del renglón) copia el texto del pliego palabra por palabra en su descripción, incluyendo el mismo error de redacción ('USO AISLAMIENTO DE DE AJUSTE') — no describe características propias del producto que va a entregar. No se puede verificar si el producto real cumple la especificación. Healthy Lab Professional Care fue desestimada en el acto de apertura.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Farmatec S.A.",
+          "Aupres SRL",
+          "MedPharma S.A.",
+          "Droguería Martorani S.A.",
+          "Droguería Pharma Center SRL",
+          "Euro Swiss S.A.",
+          "Healthy Lab Professional Care"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 24000,
+            "desc": "Camisolín no estéril, no hemorrepelente de tela SP de 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 810,
+                "marca": "BLUEMED/FLEXGUARD",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 660,
+                "marca": "BIOPROTEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MedPharma S.A.",
+                "precio": 1714.33,
+                "marca": "ARGENTCARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 749.9,
+                "marca": "PEMED (22g/m², no 30g/m²)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 616,
+                "marca": "DPC",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 801,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 767.54,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 24000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 25grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MedPharma S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 2",
+            "cant": 24000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 484,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MedPharma S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 3",
+            "cant": 24000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 790,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MedPharma S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1-1 ALT Pharma",
+            "cant": 24000,
+            "desc": "Camisolín descartable largo 25G SMS puño elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MedPharma S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 504,
+                "marca": "MEDPROTECT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "El texto del Anexo III para R1 mezcla dos descripciones distintas (tela SMS 30g/m² por un lado, y 'no hemorrepelente' con puños de algodón por otro) — el pliego original está redactado de forma ambigua/contradictoria en ese punto. No se asume cuál versión es la correcta. Droguería Martorani S.A. cotiza con tela SMS de 22g/m², no 30g/m² como indica el pliego (aclarado por el propio oferente en su descripción). Droguería Pharma Center SRL (ganador del renglón) copia el texto del pliego palabra por palabra en su descripción, incluyendo el mismo error de redacción ('USO AISLAMIENTO DE DE AJUSTE') — no describe características propias del producto que va a entregar. No se puede verificar si el producto real cumple la especificación. Healthy Lab Professional Care fue desestimada en el acto de apertura."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 237,
-      "entidad": "Htal Fiorito",
-      "nro": "PA 162",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-26",
-      "monto": 60030000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-21T13:30:01.355Z"
     },
     {
