@@ -34745,14 +34745,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
+      "adj_fecha": "2026-08-28",
+      "adj_monto_able": 5867424,
+      "adj_resumen": "ABLE adjudicada en renglones 2, 4, 5, 6, 65, 82 y 106. Renglones 3, 81 y 84 no adjudicados a ABLE.",
+      "adj_alertas": "Reng.3 — preferencia nacional no reconocida (Cardiopack India adjudicado). Reng.81 — empate técnico no reconocido (Cardiopack India adjudicado).",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-28",
+      "oc_alertas": "Reng. 2 — precio OC $589,00 vs cotizado $607,00. Diferencia de $18,00/ud por mejora de precio. Total afectado: $36.288,00 (2.016 uds). Resto de renglones y cantidades correctos.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -35716,11 +35716,123 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "Sí",
       "pref": "Sí",
       "obs": "Reng.3 — hebra 70cm no cumple, pliego pide 90cm (ninguna oferta de ABLE cumple). Reng.106 — Ileostomía ofertada, pliego pide Colostomía c/velcro e hidrocoloide (mismo error que en PA 74). Reng.4 y 82 — solo difiere el nombre del material (Ac.Poliglicólico vs Poliglactina); specs numéricas OK. Reng.2, 4, 5, 6, 65 — ABLE gana directo. Reng.3 — empate/preferencia nacional (2,79%) vs Cardiopack India — pero ver nota de hebra arriba. Reng.65 — gana vs Cirugía Arg. (China) y American Fiure (misma base x6, sin conversión). Reng.81 — empate técnico (1,34%) vs Cardiopack India. Reng.82 — gana directo. Max Continental con hebra 75cm (no 90cm) — objetable. Reng.84 — ABLE PIERDE fuerte: Igaltex 58,6% más barato. Reng.106 — único oferente. Total ABLE: $9.886.348,00.",
-      "creado": "2026-07-21T12:00:50.134Z"
+      "creado": "2026-07-21T12:00:50.134Z",
+      "renglones_adj": [
+        {
+          "reng": "2",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax",
+          "cant": 2016,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura PGA N°0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "cant": 620,
+          "precio_able": 1250,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "motivo": "superado",
+          "precio_siguiente": 1216.05,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura PGA N°4/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "cant": 72,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "5",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 12000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "6",
+          "desc": "Bolsa de ileostomía drenable transparente 1 pieza aro recortable 15-70mm - Marca ABLE",
+          "cant": 220,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "65",
+          "desc": "LigaClip LT400 - cartucho 6 clips titanio tipo LT400 grande - Marca ABLE",
+          "cant": 100,
+          "precio_able": 6500,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "81",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 60mm recta hebra 75cm - Marca Surgimax",
+          "cant": 408,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "motivo": "superado",
+          "precio_siguiente": 598.95,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)"
+        },
+        {
+          "reng": "82",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE",
+          "cant": 2304,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "84",
+          "desc": "Sutura polipropileno N°3/0 doble aguja 25mm 1/2 circ. hebra 90cm - Marca Surgimax",
+          "cant": 96,
+          "precio_able": 2390,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "motivo": "superado",
+          "precio_siguiente": 1507.05,
+          "ganador_sig": "Laboratorios Igaltex S.R.L."
+        },
+        {
+          "reng": "106",
+          "desc": "Bolsa ileostomía neonatal drenable transparente 1 pieza aro recortable 15-32mm - Marca ABLE",
+          "cant": 30,
+          "precio_able": 3800,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "unica_oferta",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-07-24",
