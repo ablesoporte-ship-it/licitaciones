@@ -59037,76 +59037,128 @@
       "creado": "2026-08-10T18:15:53.836Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 219,
+      "entidad": "Municipalidad de Esteban Echeverría",
+      "nro": "LP 17/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-04",
+      "monto": 22832094000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Esta comparativa cubre SOLO los ítems visibles en las páginas provistas (17, 23, 50, 55, 92-98, 130 de 133 totales del comparativo municipal) — no es la licitación completa. Item 199 y 306: ABLE no participa en estos ítems. Fuente: comparativo oficial ya elaborado por la Municipalidad de Esteban Echeverría (sistema R.A.F.A.M.), no planillas individuales de cada oferente. El asterisco (*) del documento original indica ítems que superan el Costo Estimado del Preventivo — se conserva esa información en el detalle de cada renglón donde aplica.",
       "tabla": {
         "oferentes": [
-          "ABLE S.A. 🇦🇷",
-          "SIST MEDICAL",
-          "FERAVAL",
-          "PROPATO HNOS.",
-          "COMARSA",
-          "EURO SWISS",
-          "MAX CONTINENTAL",
-          "SOMED MEDICA",
-          "MEDI-CROSS"
+          "ABLE S.A.",
+          "Droguería Comarsa S.A.",
+          "Euro Swiss S.A.",
+          "Sist Medical S.R.L.",
+          "Propato Hnos. S.A.I.C.",
+          "Somed Medica SRL",
+          "Feraval S.A.",
+          "Max Continental S.A.",
+          "Droguería Medi-Cross S.R.L."
         ],
         "renglones": [
           {
-            "reng": "45",
-            "cant": 14000,
-            "desc": "Botas descartables tela no tejida SMS tricapa hemorrepelente adulto. Marca ARGENTCARE (Ind. Argentina)",
+            "reng": "35",
+            "cant": 350000,
+            "desc": "Bajalengua descartable - uso adultos - paquetes de unidades x100",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
-                "precio": 69.5,
-                "marca": "ARGENTCARE (Ind. Arg.)",
+                "oferente": "ABLE S.A.",
+                "precio": 930,
+                "marca": "ABLE",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": 141,
-                "marca": "PEMED",
+                "oferente": "Droguería Comarsa S.A.",
+                "precio": 993,
+                "marca": "CLERICOT",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": 200.45,
-                "marca": "BLUEMED",
+                "oferente": "Euro Swiss S.A.",
+                "precio": 999,
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
-                "precio": 249.65,
-                "marca": "PADEMED",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": 1135,
+                "marca": "NOVAMED",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1149.5,
+                "marca": "IND ARG",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": 1173.33,
+                "marca": "CLERICOT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": 1749.48,
+                "marca": "CLERICOT",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "45",
+            "cant": 14000000,
+            "desc": "Botas descartables - tipo escarpines tela no tejida tipo spundbonded o SMS tricapa hemorrepelente - adulto",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 69.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 287.46,
                 "marca": "PADEMED",
                 "bg_precio": "",
@@ -59114,33 +59166,57 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
-                "precio": null,
-                "marca": null,
+                "oferente": "Sist Medical S.R.L.",
+                "precio": 141,
+                "marca": "PEMED",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
-                "precio": null,
-                "marca": null,
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 249.65,
+                "marca": "PADEMED",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": 200.45,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59150,43 +59226,19 @@
           {
             "reng": "113",
             "cant": 40,
-            "desc": "Ropa descartable alto riesgo HIV — 3 camisolines, 2 campos grandes, 4 campos chicos. Marca Ebano (Ind. Argentina)",
+            "desc": "Ropa descartable alto riesgo - riesgo HIV - 3 camisolines 2 campos grande 4 campos chicos (material alto riesgo)",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 28500,
-                "marca": "EBANO (Ind. Arg.)",
+                "marca": "Ebano",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": 31037,
-                "marca": "DIMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 36288.92,
                 "marca": "EBANO",
                 "bg_precio": "",
@@ -59194,7 +59246,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 36886,
                 "marca": "DX",
                 "bg_precio": "",
@@ -59202,25 +59254,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
-                "precio": null,
-                "marca": null,
+                "oferente": "Sist Medical S.R.L.",
+                "precio": 31037,
+                "marca": "DIMEX",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59229,20 +59305,36 @@
           },
           {
             "reng": "115",
-            "cant": 200,
-            "desc": "Espátula de Ayre. Marca ABLE (Ind. Argentina)",
+            "cant": 200000,
+            "desc": "Espátula de Ayre",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 57.97,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sist Medical S.R.L.",
                 "precio": 50.9,
                 "marca": "CLERICOT",
                 "bg_precio": "",
@@ -59250,15 +59342,7 @@
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": 46.58,
                 "marca": "CLERICOT",
                 "bg_precio": "verde",
@@ -59266,41 +59350,33 @@
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59309,44 +59385,20 @@
           },
           {
             "reng": "125",
-            "cant": 20000,
-            "desc": "Gorro cirugía descartable mujer tipo cofia SMS/SP plisada adulta. Marca ARGENTCARE (Ind. Argentina)",
+            "cant": 20000000,
+            "desc": "Gorro para cirugía descartable para mujer tipo cofia de tela resistente material SMS/SP plisada - de mujer adulta",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 29.5,
-                "marca": "ARGENTCARE (Ind. Arg.)",
+                "marca": "ArgentCare",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": 39.5,
-                "marca": "SWORD",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": 51.66,
-                "marca": "ALFAMEDIC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": 59.54,
-                "marca": "PADEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 41.72,
                 "marca": "ZIFU",
                 "bg_precio": "",
@@ -59354,7 +59406,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 37.6,
                 "marca": "EUROMIX",
                 "bg_precio": "",
@@ -59362,15 +59414,23 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
-                "precio": null,
-                "marca": null,
+                "oferente": "Sist Medical S.R.L.",
+                "precio": 39.5,
+                "marca": "SWORD",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 59.54,
+                "marca": "PADEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
                 "precio": 41.06,
                 "marca": "UCARE",
                 "bg_precio": "",
@@ -59378,7 +59438,23 @@
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Feraval S.A.",
+                "precio": 51.66,
+                "marca": "ALFAMEDIC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": 84.88,
                 "marca": "CLOTHIER",
                 "bg_precio": "",
@@ -59389,44 +59465,20 @@
           },
           {
             "reng": "200",
-            "cant": 264,
-            "desc": "Sutura catgut cromado N°1, uso quirúrgico, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "cant": 264000,
+            "desc": "Sutura tipo catgut cromado N°1 - uso quirúrgico - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 3100,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 4166.58,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59434,7 +59486,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 3202.51,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59442,25 +59494,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59469,44 +59545,20 @@
           },
           {
             "reng": "201",
-            "cant": 192,
-            "desc": "Sutura catgut cromado 3/0 cod. 842T, uso con aguja, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "cant": 192000,
+            "desc": "Sutura tipo catgut cromado Nro. 3/0 cod. 842T - uso con aguja - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 2600,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 3324.88,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59514,7 +59566,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 3132.75,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59522,25 +59574,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59549,44 +59625,20 @@
           },
           {
             "reng": "202",
-            "cant": 2832,
-            "desc": "Sutura catgut cromado N°2, uso quirúrgico, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "cant": 2832000,
+            "desc": "Sutura tipo catgut cromado N°2 - uso quirúrgico - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 3590,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 4762.88,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59594,7 +59646,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 3565.62,
                 "marca": "ABLE",
                 "bg_precio": "verde",
@@ -59602,25 +59654,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59629,44 +59705,20 @@
           },
           {
             "reng": "203",
-            "cant": 1112,
-            "desc": "Sutura catgut simple N°1 cod. 1870T, uso con aguja, presentación x unidad. Marca ABLE (Ind. Argentina)",
+            "cant": 1112000,
+            "desc": "Sutura tipo catgut simple Nro.1 cod. 1870T - uso con aguja - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 2800,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 3398.88,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59674,7 +59726,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 3202.51,
                 "marca": "ABLE",
                 "bg_precio": "",
@@ -59682,25 +59734,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59709,44 +59785,20 @@
           },
           {
             "reng": "204",
-            "cant": 1496,
-            "desc": "Sutura Prolene 2/0, presentación x unidad. Marca Surgimax (Ind. Argentina)",
+            "cant": 1496000,
+            "desc": "Sutura tipo prolene - uso N° 2/0 - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1500,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": 969.85,
-                "marca": "CLYSTER (importado)",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 4385,
                 "marca": "SURGIKAL",
                 "bg_precio": "",
@@ -59754,7 +59806,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 10269.63,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -59762,25 +59814,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 969.85,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59788,79 +59864,79 @@
             ]
           },
           {
-            "reng": "204",
-            "cant": 1496,
-            "desc": "ALT — Sutura Prolene 2/0, marca ABLE (Ind. Argentina)",
+            "reng": "204 ALT 1",
+            "cant": 1496000,
+            "desc": "Sutura tipo prolene - uso N° 2/0 - presentación x unidad",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1600,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59869,78 +59945,78 @@
           },
           {
             "reng": "205",
-            "cant": 114,
-            "desc": "Aguja quirúrgica Prolene N°3 con aguja medio círculo redonda 25mm, largo 90cm. Marca Surgimax (Ind. Argentina)",
+            "cant": 114000,
+            "desc": "Aguja quirúrgica - especificación prolene con aguja medio círculo redonda N°3 de 25mm largo 90cm",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 2800,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -59949,52 +60025,28 @@
           },
           {
             "reng": "206",
-            "cant": 52,
-            "desc": "Aguja quirúrgica Prolene N°1 polipropileno, aguja medio círculo redonda 35cm. Marca Surgimax (Ind. Argentina)",
+            "cant": 52000,
+            "desc": "Aguja quirúrgica - especificación prolene N°1 - polipropileno con aguja medio círculo redonda de 35cm - IPO",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1600,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
-                "precio": 3144.34,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 8352.72,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60002,7 +60054,39 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 1625,
                 "marca": "MAXSUTURES",
                 "bg_precio": "",
@@ -60010,17 +60094,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60029,52 +60105,28 @@
           },
           {
             "reng": "207",
-            "cant": 72,
-            "desc": "Aguja quirúrgica PP doble aguja 1/2 círculo 13mm, hilo 75mm N°6/0. Marca Surgimax (Ind. Argentina)",
+            "cant": 72000,
+            "desc": "Aguja quirúrgica - especificación prolene polipropileno con doble aguja 1/2 círculo redonda 13mm longitud de hilo 75mm N°6/0",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 5500,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": 969.85,
-                "marca": "CLYSTER (importado)",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 11527.65,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60082,25 +60134,49 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 969.85,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60109,52 +60185,28 @@
           },
           {
             "reng": "208",
-            "cant": 144,
-            "desc": "Aguja quirúrgica PP doble aguja 1/2 círculo 17mm, hilo 75mm N°5/0. Marca Surgimax (Ind. Argentina)",
+            "cant": 144000,
+            "desc": "Aguja quirúrgica - especificación prolene polipropileno doble aguja 1/2 círculo redonda 17mm longitud de hilo 75mm N°5/0",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 2800,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 11007.16,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60162,7 +60214,39 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 3050,
                 "marca": "MAXSUTURES",
                 "bg_precio": "",
@@ -60170,17 +60254,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60189,52 +60265,28 @@
           },
           {
             "reng": "209",
-            "cant": 144,
-            "desc": "Aguja quirúrgica PP doble aguja medio círculo 25mm, largo 90cm N°4/0. Marca Surgimax (Ind. Argentina)",
+            "cant": 144000,
+            "desc": "Aguja quirúrgica - especificación prolene polipropileno doble aguja medio círculo redonda de 25mm y largo 90cm N°4/0",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 2800,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 10071.81,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60242,7 +60294,39 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 3050,
                 "marca": "MAXSUTURES",
                 "bg_precio": "",
@@ -60250,17 +60334,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60269,52 +60345,28 @@
           },
           {
             "reng": "210",
-            "cant": 138,
-            "desc": "Aguja quirúrgica Vicryl 2/0 cod. J 166H, presentación x unidad. Marca Surgimax (Ind. Argentina)",
+            "cant": 138000,
+            "desc": "Aguja quirúrgica tipo vicryl p/sutura - especificación N°2/0 cod. J166H - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1290,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 8110.84,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60322,7 +60374,39 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 1300.57,
                 "marca": "MAXSUTURES",
                 "bg_precio": "",
@@ -60330,17 +60414,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60348,79 +60424,79 @@
             ]
           },
           {
-            "reng": "210",
-            "cant": 138,
-            "desc": "ALT — Aguja Vicryl 2/0, marca ABLE (Ind. Argentina)",
+            "reng": "210 ALT 1",
+            "cant": 138000,
+            "desc": "Aguja quirúrgica tipo vicryl p/sutura - especificación N°2/0 cod. J166H - presentación x unidad",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1300,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60429,52 +60505,28 @@
           },
           {
             "reng": "211",
-            "cant": 684,
-            "desc": "Aguja quirúrgica Vicryl 3/0 cod. J 316H, presentación x unidad. Marca Surgimax (Ind. Argentina)",
+            "cant": 684000,
+            "desc": "Aguja quirúrgica tipo vicryl p/sutura - especificación N°3/0 cod. J316H - presentación x unidad",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1290,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 4052.54,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60482,7 +60534,39 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 1300.57,
                 "marca": "MAXSUTURES",
                 "bg_precio": "",
@@ -60490,17 +60574,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60508,79 +60584,79 @@
             ]
           },
           {
-            "reng": "211",
-            "cant": 684,
-            "desc": "ALT — Aguja Vicryl 3/0, marca ABLE (Ind. Argentina)",
+            "reng": "211 ALT 1",
+            "cant": 684000,
+            "desc": "Aguja quirúrgica tipo vicryl p/sutura - especificación N°3/0 cod. J316H - presentación x unidad",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1300,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60589,44 +60665,20 @@
           },
           {
             "reng": "215",
-            "cant": 230,
-            "desc": "Aguja quirúrgica Vicryl N°0, aguja medio círculo 36mm, hilo 70cm. Marca Surgimax (Ind. Argentina)",
+            "cant": 230000,
+            "desc": "Aguja quirúrgica tipo vicryl con aguja con medio círculo 36mm longitud de hilo 70cm N°0",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1340,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "FERAVAL",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "PROPATO HNOS.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COMARSA",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": 2199.78,
                 "marca": "SURGIKAL",
                 "bg_precio": "",
@@ -60634,7 +60686,7 @@
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Euro Swiss S.A.",
                 "precio": 3535.89,
                 "marca": "COVIDIEN",
                 "bg_precio": "",
@@ -60642,7 +60694,39 @@
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Sist Medical S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Somed Medica SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 1331,
                 "marca": "MAXSUTURES",
                 "bg_precio": "verde",
@@ -60650,17 +60734,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60668,79 +60744,79 @@
             ]
           },
           {
-            "reng": "215",
-            "cant": 230,
-            "desc": "ALT — Aguja Vicryl N°0, marca ABLE (Ind. Argentina)",
+            "reng": "215 ALT 1",
+            "cant": 230000,
+            "desc": "Aguja quirúrgica tipo vicryl con aguja con medio círculo 36mm longitud de hilo 70cm N°0",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 1360,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60749,60 +60825,68 @@
           },
           {
             "reng": "305",
-            "cant": 1716,
-            "desc": "Sutura mononailon aguja recta cortante 60mm, hilo 75cm N°3, presentación c/u. Marca Surgimax (Ind. Argentina)",
+            "cant": 1716000,
+            "desc": "Sutura tipo mononailon con aguja recta cortante 60mm longitud de hilo 75cm N°3",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 650,
-                "marca": "SURGIMAX (Ind. Arg.)",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
                 "precio": 712,
                 "marca": "MAXSUTURES",
                 "bg_precio": "",
@@ -60810,17 +60894,9 @@
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "MEDI-CROSS",
-                "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60828,79 +60904,79 @@
             ]
           },
           {
-            "reng": "305",
-            "cant": 1716,
-            "desc": "ALT — Mononailon N°3, marca ABLE (Ind. Argentina)",
+            "reng": "305 ALT 1",
+            "cant": 1716000,
+            "desc": "Sutura tipo mononailon con aguja recta cortante 60mm longitud de hilo 75cm N°3",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 708,
-                "marca": "ABLE (Ind. Arg.)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SIST MEDICAL",
+                "oferente": "Droguería Comarsa S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "FERAVAL",
+                "oferente": "Euro Swiss S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Sist Medical S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COMARSA",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "EURO SWISS",
+                "oferente": "Somed Medica SRL",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MAX CONTINENTAL",
+                "oferente": "Feraval S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SOMED MEDICA",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "MEDI-CROSS",
+                "oferente": "Droguería Medi-Cross S.R.L.",
                 "precio": null,
-                "marca": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -60908,24 +60984,24 @@
             ]
           }
         ],
-        "notas": "Ítems 200, 201, 202, 203 — Euro Swiss y Comarsa distribuyen producto ABLE (catgut). ABLE cotiza directo a menor precio en 200, 201 y 203. Ítem 202: ABLE $3.590 pierde vs Euro Swiss $3.565,62 (+0,7%) — mismo producto revendido. Ítem 204 — ABLE pierde vs Propato $969,85 (CLYSTER, importado). Diferencia +54,8%. ALT ABLE $1.600 también pierde. Ítem 207 — ABLE $5.500 pierde vs Propato $969,85 (CLYSTER, importado). Diferencia +467%. Ítem 215 — ABLE $1.340 pierde vs Max Continental $1.331 (MAXSUTURES). Diferencia +0,7%. Ítems 204, 210, 211, 215, 305 — ABLE presentó ofertas alternativas (ALT), mostradas como filas separadas sin color. Nota: Esta licitación es municipal (Municipalidad de Esteban Echeverría). No aplican criterios de empate técnico ni preferencia nacional de la normativa provincial."
+        "notas": "Esta comparativa cubre SOLO los ítems visibles en las páginas provistas (17, 23, 50, 55, 92-98, 130 de 133 totales del comparativo municipal) — no es la licitación completa. Item 199 y 306: ABLE no participa en estos ítems. Fuente: comparativo oficial ya elaborado por la Municipalidad de Esteban Echeverría (sistema R.A.F.A.M.), no planillas individuales de cada oferente. El asterisco (*) del documento original indica ítems que superan el Costo Estimado del Preventivo — se conserva esa información en el detalle de cada renglón donde aplica."
       },
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 219,
-      "entidad": "Municipalidad de Esteban Echeverría",
-      "nro": "LP 17",
-      "tipo": "Pública",
-      "fecha": "2026-08-04",
-      "monto": 23645454,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noé",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "LP 17/2026 Echeverría. ABLE gana ítems 45,113,125,200,201,203,205,206,208,209,210,211,305. Empate técnico: 202,215. Pierde: 115,204,207.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-11T11:31:57.450Z"
     },
     {
@@ -62899,19 +62975,23 @@
       "creado": "2026-08-18T18:52:06.362Z"
     },
     {
-      "id": 228,
-      "entidad": "Htal Ana Goitia",
-      "nro": "PA 31",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-24",
-      "monto": 493150,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "ABLE cotizó también un 'R29' (mismo código y precio que R3) que NO figura en el Anexo III de esta licitación — no se incluyó en la comparativa por no poder confirmarse contra el pliego. Verificar con ABLE si es un renglón real o un error de carga.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -63036,22 +63116,19 @@
           }
         ]
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 228,
+      "entidad": "Htal Ana Goitia",
+      "nro": "PA 31",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-24",
+      "monto": 493150,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotizó también un 'R29' (mismo código y precio que R3) que NO figura en el Anexo III de esta licitación — no se incluyó en la comparativa por no poder confirmarse contra el pliego. Verificar con ABLE si es un renglón real o un error de carga.",
       "creado": "2026-08-18T19:09:07.938Z"
     },
     {
@@ -64387,19 +64464,23 @@
       "creado": "2026-08-21T12:38:53.275Z"
     },
     {
-      "id": 237,
-      "entidad": "Htal Fiorito",
-      "nro": "PA 162",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-26",
-      "monto": 15240000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "El texto del Anexo III para R1 mezcla dos descripciones distintas (tela SMS 30g/m² por un lado, y 'no hemorrepelente' con puños de algodón por otro) — el pliego original está redactado de forma ambigua/contradictoria en ese punto. No se asume cuál versión es la correcta. Droguería Martorani S.A. cotiza con tela SMS de 22g/m², no 30g/m² como indica el pliego (aclarado por el propio oferente en su descripción). Droguería Pharma Center SRL (ganador del renglón) copia el texto del pliego palabra por palabra en su descripción, incluyendo el mismo error de redacción ('USO AISLAMIENTO DE DE AJUSTE') — no describe características propias del producto que va a entregar. No se puede verificar si el producto real cumple la especificación. Healthy Lab Professional Care fue desestimada en el acto de apertura.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -64775,22 +64856,19 @@
         ],
         "notas": "El texto del Anexo III para R1 mezcla dos descripciones distintas (tela SMS 30g/m² por un lado, y 'no hemorrepelente' con puños de algodón por otro) — el pliego original está redactado de forma ambigua/contradictoria en ese punto. No se asume cuál versión es la correcta. Droguería Martorani S.A. cotiza con tela SMS de 22g/m², no 30g/m² como indica el pliego (aclarado por el propio oferente en su descripción). Droguería Pharma Center SRL (ganador del renglón) copia el texto del pliego palabra por palabra en su descripción, incluyendo el mismo error de redacción ('USO AISLAMIENTO DE DE AJUSTE') — no describe características propias del producto que va a entregar. No se puede verificar si el producto real cumple la especificación. Healthy Lab Professional Care fue desestimada en el acto de apertura."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 237,
+      "entidad": "Htal Fiorito",
+      "nro": "PA 162",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-26",
+      "monto": 15240000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "El texto del Anexo III para R1 mezcla dos descripciones distintas (tela SMS 30g/m² por un lado, y 'no hemorrepelente' con puños de algodón por otro) — el pliego original está redactado de forma ambigua/contradictoria en ese punto. No se asume cuál versión es la correcta. Droguería Martorani S.A. cotiza con tela SMS de 22g/m², no 30g/m² como indica el pliego (aclarado por el propio oferente en su descripción). Droguería Pharma Center SRL (ganador del renglón) copia el texto del pliego palabra por palabra en su descripción, incluyendo el mismo error de redacción ('USO AISLAMIENTO DE DE AJUSTE') — no describe características propias del producto que va a entregar. No se puede verificar si el producto real cumple la especificación. Healthy Lab Professional Care fue desestimada en el acto de apertura.",
       "creado": "2026-08-21T13:30:01.355Z"
     },
     {
@@ -65188,19 +65266,23 @@
       "creado": "2026-08-24T19:15:35.035Z"
     },
     {
-      "id": 244,
-      "entidad": "Htal Fiorito",
-      "nro": "PA 144",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-13",
-      "monto": 12615000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng. 1, 2 y 14: ABLE gana directo por menor precio. Reng. 3: ABLE pierde por amplio margen (+126%) vs Healthy Lab, cuya descripción copia textualmente la del pliego. Reng. 4: ABLE pierde por amplio margen (+30%) vs Aupres SRL. Ningún renglón cae en rango de empate técnico ni preferencia nacional. Reng. 14 — Droguería Farmatec cotizó cantidad 3.500 en vez de 3.600 solicitadas por pliego.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -65746,22 +65828,19 @@
         ],
         "notas": "Reng. 1, 2 y 14: ABLE gana directo por menor precio. Reng. 3: ABLE pierde por amplio margen (+126%) vs Healthy Lab, cuya descripción copia textualmente la del pliego. Reng. 4: ABLE pierde por amplio margen (+30%) vs Aupres SRL. Ningún renglón cae en rango de empate técnico ni preferencia nacional. Reng. 14 — Droguería Farmatec cotizó cantidad 3.500 en vez de 3.600 solicitadas por pliego."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 244,
+      "entidad": "Htal Fiorito",
+      "nro": "PA 144",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-13",
+      "monto": 12615000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 1, 2 y 14: ABLE gana directo por menor precio. Reng. 3: ABLE pierde por amplio margen (+126%) vs Healthy Lab, cuya descripción copia textualmente la del pliego. Reng. 4: ABLE pierde por amplio margen (+30%) vs Aupres SRL. Ningún renglón cae en rango de empate técnico ni preferencia nacional. Reng. 14 — Droguería Farmatec cotizó cantidad 3.500 en vez de 3.600 solicitadas por pliego.",
       "creado": "2026-08-24T19:15:35.054Z"
     },
     {
@@ -66071,6 +66150,24 @@
       "creado": "2026-08-26T20:16:46.568Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 254,
       "entidad": "Htal Melo",
       "nro": "PA 22",
@@ -66084,38 +66181,26 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-27T14:04:10.504Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-27T14:04:10.504Z"
-    },
-    {
-      "id": 255,
-      "entidad": "HTAL Vicente Lopez y Planes",
-      "nro": "PA 144",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-27",
-      "monto": 2100000,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "Sí",
-      "pref": "No",
-      "obs": "Resultado general: de los 3 renglones cotizados por ABLE, gana Igaltex en el 1 y el 3, y hay empate técnico con Igaltex en el renglón 2. Reng. 1 — ABLE $50.250,00 vs Igaltex $48.069,11, diferencia de 4,54%. No corresponde preferencia nacional (ningún oferente declara producto importado). Reng. 2 — Empate técnico: ABLE $19.950,00 vs Igaltex $19.854,55, diferencia de solo 0,48%. Reng. 3 — ABLE $29.950,00 vs Igaltex $24.818,83, diferencia de 20,68%, fuera de rango de empate o preferencia. Reng. 4 — ABLE no cotiza (solo lo cotiza Kims); no se incluye en esta comparativa. Monto total cotizado por ABLE (renglones 1 a 3): $2.100.000,00.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -66222,22 +66307,19 @@
         ],
         "notas": "Resultado general: de los 3 renglones cotizados por ABLE, gana Igaltex en el 1 y el 3, y hay empate técnico con Igaltex en el renglón 2. Reng. 1 — ABLE $50.250,00 vs Igaltex $48.069,11, diferencia de 4,54%. No corresponde preferencia nacional (ningún oferente declara producto importado). Reng. 2 — Empate técnico: ABLE $19.950,00 vs Igaltex $19.854,55, diferencia de solo 0,48%. Reng. 3 — ABLE $29.950,00 vs Igaltex $24.818,83, diferencia de 20,68%, fuera de rango de empate o preferencia. Reng. 4 — ABLE no cotiza (solo lo cotiza Kims); no se incluye en esta comparativa. Monto total cotizado por ABLE (renglones 1 a 3): $2.100.000,00."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 255,
+      "entidad": "HTAL Vicente Lopez y Planes",
+      "nro": "PA 144",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-27",
+      "monto": 2100000,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "Sí",
+      "pref": "No",
+      "obs": "Resultado general: de los 3 renglones cotizados por ABLE, gana Igaltex en el 1 y el 3, y hay empate técnico con Igaltex en el renglón 2. Reng. 1 — ABLE $50.250,00 vs Igaltex $48.069,11, diferencia de 4,54%. No corresponde preferencia nacional (ningún oferente declara producto importado). Reng. 2 — Empate técnico: ABLE $19.950,00 vs Igaltex $19.854,55, diferencia de solo 0,48%. Reng. 3 — ABLE $29.950,00 vs Igaltex $24.818,83, diferencia de 20,68%, fuera de rango de empate o preferencia. Reng. 4 — ABLE no cotiza (solo lo cotiza Kims); no se incluye en esta comparativa. Monto total cotizado por ABLE (renglones 1 a 3): $2.100.000,00.",
       "creado": "2026-08-27T16:02:06.796Z"
     }
   ],
