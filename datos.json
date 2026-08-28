@@ -34710,12 +34710,12 @@
       "adj_recibida": false,
       "adj_fecha": "2026-08-28",
       "adj_monto_able": 5867424,
-      "adj_resumen": "ABLE adjudicada en renglones 2, 4, 5, 6, 65, 82 y 106. Renglones 3, 81 y 84 no adjudicados a ABLE.",
-      "adj_alertas": "Reng.3 — preferencia nacional no reconocida (Cardiopack India adjudicado). Reng.81 — empate técnico no reconocido (Cardiopack India adjudicado).",
-      "adj_tiene_alerta": false,
+      "adj_resumen": "ABLE adjudicada en rengs.2,4,5,6,65,82,106. Total: $5.867.424,00. OC 442/2026 H.I.G.A. Eurnekian.",
+      "adj_alertas": "IRREGULARIDADES: Reng.3 (PGA N°0, ABLE naranja) — Cardiopack (Surgikal, India importado) adjudicado siendo ABLE nacional mas barata. Preferencia nacional NO reconocida. Reng.81 (Nylon N°3/0, ABLE amarillo) — empate tecnico con Cardiopack (importado) NO reconocido.",
+      "adj_tiene_alerta": true,
       "oc": "Correcta",
       "oc_fecha": "2026-08-28",
-      "oc_alertas": "Reng. 2 — precio OC $589,00 vs cotizado $607,00. Diferencia de $18,00/ud por mejora de precio. Total afectado: $36.288,00 (2.016 uds). Resto de renglones y cantidades correctos.",
+      "oc_alertas": "OC Nro. 442/2026 fecha 28/08/2026. Reng.2 (Nylon N°2/0 Surgimax, 2.016u x $589 = $1.187.424). Reng.4 (PGA N°4/0 Surgimax, 72u x $1.205 = $86.760). Reng.5 (cofia ArgentCare, 12.000u x $28,50 = $342.000). Reng.6 (bolsa ileostomia ABLE, 220u x $1.870 = $411.400). Reng.65 (LT400 ABLE, 100u x $6.500 = $650.000). Reng.82 (PGA N°1 ABLE, 2.304u x $1.335 = $3.075.840). Reng.106 (bolsa colostomia neonatal ABLE, 30u x $3.800 = $114.000). Total: $5.867.424,00. Disposicion DISPO-2026-124-GDEBA-HIGAAAEMSALGP/2026. IRREGULARIDADES: reng.3 preferencia nacional no reconocida (Cardiopack India importado adjudicado vs ABLE nacional). Reng.81 empate tecnico no reconocido (Cardiopack importado).",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -35672,7 +35672,7 @@
       "liquidado_obs": "",
       "id": 149,
       "entidad": "HTAL DR. ALBERTO EURNEKIAN",
-      "nro": "LP 17",
+      "nro": "LP 17/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-27",
       "monto": 7155808,
@@ -35687,9 +35687,9 @@
       "renglones_adj": [
         {
           "reng": "2",
-          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
           "cant": 2016,
-          "precio_able": 607,
+          "precio_able": 589,
           "marca": "Surgimax",
           "resultado": "adj",
           "motivo": "menor_precio",
@@ -35698,18 +35698,18 @@
         },
         {
           "reng": "3",
-          "desc": "Sutura PGA N°0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "desc": "Sutura PGA N°0 c/aguja 35mm 1/2 circ. punta redonda - Marca Surgimax (Ind. argentina)",
           "cant": 620,
           "precio_able": 1250,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
-          "precio_siguiente": 1216.05,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)"
+          "precio_siguiente": null,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — PREFERENCIA NACIONAL NO RESPETADA",
+          "motivo": "preferencia_nac"
         },
         {
           "reng": "4",
-          "desc": "Sutura PGA N°4/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax",
+          "desc": "Sutura PGA N°4/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
           "cant": 72,
           "precio_able": 1205,
           "marca": "Surgimax",
@@ -35720,7 +35720,7 @@
         },
         {
           "reng": "5",
-          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare - cod. COFIA.2E.12",
           "cant": 12000,
           "precio_able": 28.5,
           "marca": "ArgentCare",
@@ -35731,7 +35731,7 @@
         },
         {
           "reng": "6",
-          "desc": "Bolsa de ileostomía drenable transparente 1 pieza aro recortable 15-70mm - Marca ABLE",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable 15-70mm con filtro - Marca ABLE (Ind. argentina)",
           "cant": 220,
           "precio_able": 1870,
           "marca": "ABLE",
@@ -35742,7 +35742,7 @@
         },
         {
           "reng": "65",
-          "desc": "LigaClip LT400 - cartucho 6 clips titanio tipo LT400 grande - Marca ABLE",
+          "desc": "LigaClip LT400 - cartucho con 6 clips de titanio tipo LT400 grande - Marca ABLE (Ind. argentina)",
           "cant": 100,
           "precio_able": 6500,
           "marca": "ABLE",
@@ -35753,18 +35753,18 @@
         },
         {
           "reng": "81",
-          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 60mm recta hebra 75cm - Marca Surgimax",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 60mm recta - Marca Surgimax (Ind. argentina)",
           "cant": 408,
           "precio_able": 607,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
-          "precio_siguiente": 598.95,
-          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India)"
+          "precio_siguiente": null,
+          "ganador_sig": "Cardiopack Argentina S.A. (Surgikal, India importado) — EMPATE TECNICO NO RECONOCIDO",
+          "motivo": "empate_tecnico"
         },
         {
           "reng": "82",
-          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. argentina)",
           "cant": 2304,
           "precio_able": 1335,
           "marca": "ABLE",
@@ -35775,23 +35775,23 @@
         },
         {
           "reng": "84",
-          "desc": "Sutura polipropileno N°3/0 doble aguja 25mm 1/2 circ. hebra 90cm - Marca Surgimax",
+          "desc": "Sutura polipropileno N°3/0 doble aguja 25mm 1/2 circ. - Marca Surgimax (Ind. argentina)",
           "cant": 96,
           "precio_able": 2390,
           "marca": "Surgimax",
           "resultado": "no_adj",
-          "motivo": "superado",
-          "precio_siguiente": 1507.05,
-          "ganador_sig": "Laboratorios Igaltex S.R.L."
+          "precio_siguiente": null,
+          "ganador_sig": "Laboratorios Igaltex S.R.L.",
+          "motivo": "superado"
         },
         {
           "reng": "106",
-          "desc": "Bolsa ileostomía neonatal drenable transparente 1 pieza aro recortable 15-32mm - Marca ABLE",
+          "desc": "Bolsa colostomia neonatal drenable transparente 1 pieza aro recortable 15-32mm con filtro - Marca ABLE (Ind. argentina)",
           "cant": 30,
           "precio_able": 3800,
           "marca": "ABLE",
           "resultado": "adj",
-          "motivo": "unica_oferta",
+          "motivo": "menor_precio",
           "precio_siguiente": null,
           "ganador_sig": null
         }
