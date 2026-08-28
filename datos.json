@@ -61897,15 +61897,54 @@
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
-          "Euro Swiss S.A.",
-          "LEIX Insumos Hospitalarios",
-          "Propato Hnos SAIC",
-          "Droguería Farmatec S.A."
+          "Aupres S.R.L.",
+          "Propato Hnos. S.A.I.C.",
+          "Max Continental S.A."
         ],
         "renglones": [
           {
-            "reng": "29",
-            "cant": 1000,
+            "reng": "13",
+            "cant": 30,
+            "desc": "Bajalenguas adultos por 100 unidades",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1010,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 1399,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1023.92,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 900,
             "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras",
             "es_alt": false,
             "celdas": [
@@ -61918,33 +61957,25 @@
                 "obj": false
               },
               {
-                "oferente": "Euro Swiss S.A.",
-                "precio": 315,
-                "marca": "KRATEC",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "LEIX Insumos Hospitalarios",
-                "precio": 213,
-                "marca": "NOVAMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato Hnos SAIC",
-                "precio": null,
+                "oferente": "Aupres S.R.L.",
+                "precio": 160,
                 "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 261.36,
-                "marca": "BLUEMED",
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 226.95,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -61952,8 +61983,88 @@
             ]
           },
           {
-            "reng": "30",
-            "cant": 1000,
+            "reng": "23",
+            "cant": 500,
+            "desc": "Kit de ropa descartable elemento un camisolín, una cofia, un barbijo y un par de cubre calzados, especificación estéril",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2000,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 4100,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23 ALT 1",
+            "cant": 500,
+            "desc": "Kit de ropa descartable elemento un camisolín, una cofia, un barbijo y un par de cubre calzados, especificación no estéril",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1400,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "35",
+            "cant": 1200,
             "desc": "Cofia descartable elastizada",
             "es_alt": false,
             "celdas": [
@@ -61961,38 +62072,30 @@
                 "oferente": "ABLE S.A.",
                 "precio": 29.5,
                 "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 28,
+                "marca": "",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 41.9,
                 "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "LEIX Insumos Hospitalarios",
-                "precio": 41,
-                "marca": "NOVAMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato Hnos SAIC",
-                "precio": 43.59,
-                "marca": "DIMEX",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 39.29,
-                "marca": "BLUEMED/NOVAMED",
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -62000,21 +62103,29 @@
             ]
           },
           {
-            "reng": "57",
-            "cant": 2000,
-            "desc": "Camisolín no estéril, no hemorrepelente de tela SP de 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "reng": "39",
+            "cant": 36,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 635,
-                "marca": "ArgentCare",
+                "precio": 5350,
+                "marca": "ABLE",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euro Swiss S.A.",
+                "oferente": "Aupres S.R.L.",
+                "precio": 37100,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -62022,71 +62133,7 @@
                 "obj": false
               },
               {
-                "oferente": "LEIX Insumos Hospitalarios",
-                "precio": 1186,
-                "marca": "BLUEMED/FLEXGUARD",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato Hnos SAIC",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 740,
-                "marca": "BLUEMED/FLEXGUARD",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "57 ALT 1",
-            "cant": 2000,
-            "desc": "Camisolín no estéril, no hemorrepelente de 25grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 605,
-                "marca": "ArgentCare",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "LEIX Insumos Hospitalarios",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato Hnos SAIC",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
+                "oferente": "Max Continental S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -62096,94 +62143,38 @@
             ]
           },
           {
-            "reng": "57 ALT 2",
-            "cant": 2000,
-            "desc": "Camisolín no estéril, no hemorrepelente de 20grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
-            "es_alt": true,
+            "reng": "46",
+            "cant": 3,
+            "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos",
+            "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 481.3,
-                "marca": "ArgentCare",
+                "precio": 26000,
+                "marca": "Ebano",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
+                "oferente": "Aupres S.R.L.",
+                "precio": 22000,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 44695.27,
                 "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "LEIX Insumos Hospitalarios",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato Hnos SAIC",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "57 ALT 3",
-            "cant": 2000,
-            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30grs. (cumple espec. de tela SMS del pliego), descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 815,
-                "marca": "ArgentCare",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Euro Swiss S.A.",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "LEIX Insumos Hospitalarios",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Propato Hnos SAIC",
-                "precio": null,
-                "marca": "",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": null,
+                "oferente": "Max Continental S.A.",
+                "precio": 27454.33,
                 "marca": "",
                 "bg_precio": "",
                 "bg_marca": "",
@@ -62192,21 +62183,21 @@
             ]
           }
         ],
-        "notas": "IMPORTANTE: el pliego exige tela SMS 30g/m² para R57. La oferta BASE de ABLE es tela SP (no cumple, y tampoco es hemorrepelente). La ALT 3 de ABLE ($815,00) sí es SMS 30g/m² y hemorrepelente — cumple la especificación, y sigue siendo más barata que LEIX ($1.186,00). Verificar con ABLE cuál oferta corresponde presentar."
+        "notas": "R35: Aupres S.R.L. le gana a ABLE por 5,36% (dentro del rango de preferencia nacional), pero no se aplicó naranja por no tener confirmado el origen (importado o nacional) de Aupres. Fuente: Listado de Ofertas oficial (R.A.F.A.M.) ya elaborado por el hospital, verificado renglón por renglón contra el Excel de ABLE."
       },
       "id": 225,
-      "entidad": "HTAL CETRANGOLO",
+      "entidad": "Hospital Zonal Zenón Videla Dorna",
       "nro": "PA 12/2026",
       "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-20",
-      "monto": 1429500,
+      "fecha": "2026-08-27",
+      "monto": 1453300,
       "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
+      "zona": "Zona Sur",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
-      "obs": "IMPORTANTE: el pliego exige tela SMS 30g/m² para R57. La oferta BASE de ABLE es tela SP (no cumple, y tampoco es hemorrepelente). La ALT 3 de ABLE ($815,00) sí es SMS 30g/m² y hemorrepelente — cumple la especificación, y sigue siendo más barata que LEIX ($1.186,00). Verificar con ABLE cuál oferta corresponde presentar.",
+      "obs": "R35: Aupres S.R.L. le gana a ABLE por 5,36% (dentro del rango de preferencia nacional), pero no se aplicó naranja por no tener confirmado el origen (importado o nacional) de Aupres. Fuente: Listado de Ofertas oficial (R.A.F.A.M.) ya elaborado por el hospital, verificado renglón por renglón contra el Excel de ABLE.",
       "creado": "2026-08-18T18:21:30.765Z"
     },
     {
@@ -66509,40 +66500,6 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": null,
-      "id": 249,
-      "entidad": "Htal Dorna",
-      "nro": "PA 14",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-21",
-      "monto": 0,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-25T19:23:58.877Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 250,
       "entidad": "Htal. Rivadavia",
       "nro": "CM 431",
@@ -66834,6 +66791,24 @@
       "creado": "2026-08-27T16:02:06.796Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 256,
       "entidad": "H.I.G.A. General San Martin",
       "nro": "PA 395",
@@ -66847,25 +66822,27 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-08-28T16:29:53.238Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-08-28T16:29:53.238Z"
-    },
-    {
+      "tabla": null,
       "id": 257,
       "entidad": "H.Z.E.R. El Dique",
       "nro": "PA 42",
@@ -66879,22 +66856,6 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "creado": "2026-08-28T16:29:53.251Z"
     }
   ],
