@@ -52709,14 +52709,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-08-28",
+      "adj_monto_able": 2761900,
+      "adj_resumen": "ABLE adjudicada en rengs.1-8 (suturas PGA, PP y Nylon marcas Surgimax y ABLE). Total: $2.761.900,00. Reng.6 empate tecnico y reng.7 preferencia nacional reconocidos. OC 196/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-28",
+      "oc_alertas": "OC Nro. 196/2026 fecha 28/08/2026. Rengs.1-8 suturas Surgimax y ABLE. Total: $2.761.900,00. Reng.6 empate tecnico y reng.7 preferencia nacional reconocidos correctamente. Disposicion DISPO-2026-1327-GDEBA-HZGADEEMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -53380,11 +53380,112 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "Solo se incluyen los renglones que ABLE cotiza (1 a 9) de los 13 del pliego. Empate tecnico: renglon 6, ABLE vs Cardiopack/SURGIKAL India (diferencia 1,56%). Preferencia nacional para ABLE: renglon 7 vs Cardiopack/SURGIKAL India (diferencia 3,43%). Renglon 9: ABLE pierde vs Cardiopack/SURGIKAL India por margen amplio (15%), fuera de rango. Renglones 1, 2, 3, 4, 5 y 8: ABLE gana directo con su marca base (Surgimax o ABLE). Renglon 4: Cardiopack declara su propia oferta como '(Alternativa)' por variar la especificacion de aguja. ABLE cotiza cada renglon con dos marcas propias (Surgimax como base, mas barata; ABLE como alternativa, mas cara) en los renglones 1,2,4,6,7,9. En el renglon 7 la alternativa ABLE resulta mas barata que la base Surgimax.",
-      "creado": "2026-07-31T21:42:54.909Z"
+      "creado": "2026-07-31T21:42:54.909Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura PGA N°3/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 300,
+          "precio_able": 1210,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura PGA N°3/0 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 200,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura polipropileno N°1 c/aguja 35mm 1/2 circ. punta redonda hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 150,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura polipropileno N°0 c/aguja 35mm 1/2 circ. punta redonda hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 200,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura polipropileno N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 75cm - Marca ABLE (Ind. argentina)",
+          "cant": 144,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja - Marca Surgimax (Ind. argentina)",
+          "cant": 500,
+          "precio_able": 596,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "empate_tecnico",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja - Marca Surgimax (Ind. argentina)",
+          "cant": 500,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 600,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda - Marca Surgimax (Ind. argentina)",
+          "cant": 700,
+          "precio_able": 1350,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
