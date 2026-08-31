@@ -32695,14 +32695,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-08-29",
+      "adj_monto_able": 1787100,
+      "adj_resumen": "ABLE adjudicada en rengs.6,7,33,35,36,37,49 (catgut y suturas marcas ABLE y Surgimax). Total: $1.787.100,00. OC 151/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-08-29",
+      "oc_alertas": "OC Nro. 151/2026 fecha 29/08/2026. Rengs.6,7,33,35,36,37,49 (catgut y suturas marcas ABLE y Surgimax). Total: $1.787.100,00. Entrega parcial. Disposicion DISPO-2026-411-GDEBA-HSEMIAGMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -33166,11 +33166,112 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.3 — Pierde por 2,83% vs Martorani (Aurinco, origen no especificado) — revisar posible preferencia nacional. Reng.12 — Pierde por 36,9% vs Farmatec. Reng.6 y 7 — Único oferente, gana sin competencia. Reng.33, 35, 36, 37, 49 — Gana los 5 por menor precio. Total ABLE: $2.945.438,00. Gana 7 de 9 renglones.",
-      "creado": "2026-07-20T16:18:44.527Z"
+      "creado": "2026-07-20T16:18:44.527Z",
+      "renglones_adj": [
+        {
+          "reng": "3",
+          "desc": "Bajalengua caja x 100 unidades",
+          "cant": 5,
+          "precio_able": 1030,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 1007.7,
+          "ganador_sig": "Drogueria Martorani S.A. (Aurinco)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "6",
+          "desc": "Catgut cromado N°1 sin aguja hebra 150cm - Marca ABLE (Ind. argentina)",
+          "cant": 200,
+          "precio_able": 2820,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "7",
+          "desc": "Catgut simple N°0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. argentina) — ALT 1",
+          "cant": 250,
+          "precio_able": 2200,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "12",
+          "desc": "Espatula de Ayre descartable",
+          "cant": 400,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 42.35,
+          "ganador_sig": "Drogueria Farmatec S.A.",
+          "motivo": "superado"
+        },
+        {
+          "reng": "33",
+          "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 120,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "35",
+          "desc": "Sutura PGA N°3/0 c/aguja 15mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 20,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "36",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 60mm recta punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 60,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "37",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 300,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "49",
+          "desc": "Sutura PGA N°4/0 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 56,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-07-08",
@@ -50809,12 +50910,57 @@
       "creado": "2026-07-30T13:26:42.385Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-30",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "10",
+          "desc": "Bajalengua descartable x 100 unidades",
+          "cant": 150,
+          "precio_able": 1030,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "15",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "18",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril con tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 130,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "51",
+          "desc": "Espatula de Ayre descartable - Marca ABLE",
+          "cant": 700,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.15 y 18. Total: $837.000,00. Reng.15 (bolsa ileostomia 1 pieza aro recortable 15-70mm con filtro ABLE, 100u x $1.870 = $187.000). Reng.18 (cubrecalzado botas cirugia ArgentCare, 5.000u x $130 = $650.000). Pierde rengs.10 (bajalengua) y 51 (espatula Ayre). Total LP adjudicado $30.492.492,50. Expediente EX-2026-20777565-GDEBA-HZGAGDMMSALGP. H.Z.G.A. Gob. Domingo Mercante, Jose C. Paz.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -51042,7 +51188,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE.",
