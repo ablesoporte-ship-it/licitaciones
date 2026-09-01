@@ -64257,11 +64257,11 @@
       "creado": "2026-08-18T19:09:07.938Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-08-21",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [],
+      "gestion_pre": "LICITACION FRACASADA. Apertura 21/08/2026. 3 oferentes: ABLE $3.166.000, Electron Plast $2.700.000, DROGCOR $5.964.762,26. ABLE y Electron Plast sin garantia de oferta ($0). Licitacion declarada fracasada. Expediente EX-2026-28644071-GDEBA-HZGADAOMSALGP.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -64271,9 +64271,9 @@
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "Fracasado",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "Licitacion PA 184/2026 FRACASADA. Sin garantia de oferta presentada. ABLE no recibe OC.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -64325,7 +64325,7 @@
       "mayor": "No",
       "zona": "",
       "agente": "",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "",
