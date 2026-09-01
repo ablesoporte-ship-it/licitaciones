@@ -64391,37 +64391,284 @@
       "creado": "2026-08-19T20:26:19.951Z"
     },
     {
+      "id": 231,
+      "entidad": "HTAL Lobos",
+      "nro": "PA 12/2026",
+      "tipo": "Procedimiento Abreviado SAMO-Fondos Propios",
+      "fecha": "2026-08-27",
+      "monto": 1586840,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 1, 2, 3, 4, 9, 10, 11, 12, 13, 16: ABLE gana directo por amplio margen frente al único competidor (Poggi). Reng. 1: el propio cuadro del hospital aclara que ABLE ofertó bolsa 140x50x330mm; el pliego pide 125x250x50-90mm.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Poggi Raúl Jorge León"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 8000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able (pliego pide 125x250x50-90mm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 196,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 6000,
+            "desc": "Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 144,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 4000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 288,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 1000,
+            "desc": "Bolsa de papel grado médico de 250mm x 100mm x 380mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 733,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 320666,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 50250,
+                "marca": "PO.250.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 273600,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29950,
+                "marca": "PO.150.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 164000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 109000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 75mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "PO.75.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 107000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 1,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 400mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 79850,
+                "marca": "PO.400.200 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Poggi Raúl Jorge León",
+                "precio": 439666,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 1, 2, 3, 4, 9, 10, 11, 12, 13, 16: ABLE gana directo por amplio margen frente al único competidor (Poggi). Reng. 1: el propio cuadro del hospital aclara que ABLE ofertó bolsa 140x50x330mm; el pliego pide 125x250x50-90mm."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 231,
-      "entidad": "Htal Lobos",
-      "nro": "PA 12",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-27",
-      "monto": 1586840,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-20T16:59:49.897Z"
     },
     {
@@ -66218,19 +66465,57 @@
       "creado": "2026-08-24T13:00:37.539Z"
     },
     {
-      "id": 240,
-      "entidad": "HTAL GENERAL MARIANO Y LUCIANO DE LA VEGA",
-      "nro": "PA 23",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-25",
-      "monto": 12321000,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
-      "empate": "No",
-      "pref": "No",
-      "obs": "El pliego exige tela SMS 30gr/m² para R1 (confirmado, aparece en la descripción de todos los oferentes). La oferta BASE de ABLE en R1 es tela SP (no cumple). La ALT 3 ($815,00) es SMS 30gr y cumple la especificación de tela. R3: el pliego pide aclarar si se cotiza por PAR o por UNIDAD. La base de ABLE parece ser por unidad ($69,50) y su ALT 1 es explícitamente por par ($130,00) — verificar que la comparación con el resto de los oferentes sea sobre la misma base antes de definir el ganador.",
+      "preadj_fecha": "2026-08-26",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin descartable no esteril no hemorrepelente tela SP 30Grs., manga larga, tiras ajuste cuello y cintura, puños elastico ajustables en muneca - Marca ArgentCare",
+          "cant": 18000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 9000,
+          "precio_able": 29.5,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 28.11,
+          "ganador_sig": "Healthy Lab ($28,11 x 9.000u = $252.990)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril con cintas ajustables tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare",
+          "cant": 9000,
+          "precio_able": 69.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.1 y 3. Total: $12.055.500,00. MAYOR. Reng.1 (camisolin SP 30Grs. ArgentCare, 18.000u x $635 = $11.430.000, PAS). Reng.3 (botas cirugia ArgentCare, 9.000u x $69,50 = $625.500, PP). Reng.2 (cofia): ABLE $29,50 pierde vs Healthy Lab $28,11. Total LP: $12.308.490,00. Vigencia 01/09/2026 al 31/12/2026. Expediente EX-2026-16711664-GDEBA-HZGMLVMSALGP.",
+      "gestion_pre_resultado": "Ganado",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -66748,58 +67033,20 @@
         ],
         "notas": "El pliego exige tela SMS 30gr/m² para R1 (confirmado, aparece en la descripción de todos los oferentes). La oferta BASE de ABLE en R1 es tela SP (no cumple). La ALT 3 ($815,00) es SMS 30gr y cumple la especificación de tela. R3: el pliego pide aclarar si se cotiza por PAR o por UNIDAD. La base de ABLE parece ser por unidad ($69,50) y su ALT 1 es explícitamente por par ($130,00) — verificar que la comparación con el resto de los oferentes sea sobre la misma base antes de definir el ganador."
       },
-      "preadj_fecha": "2026-08-26",
-      "preadj_empate_ok": "No",
-      "preadj_pref_ok": "No",
-      "gestion_pre": "ABLE gana rengs.1 y 3. Total: $12.055.500,00. MAYOR. Reng.1 (camisolin SP 30Grs. ArgentCare, 18.000u x $635 = $11.430.000, PAS). Reng.3 (botas cirugia ArgentCare, 9.000u x $69,50 = $625.500, PP). Reng.2 (cofia): ABLE $29,50 pierde vs Healthy Lab $28,11. Total LP: $12.308.490,00. Vigencia 01/09/2026 al 31/12/2026. Expediente EX-2026-16711664-GDEBA-HZGMLVMSALGP.",
-      "gestion_pre_resultado": "Ganado",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-08-24T14:32:39.176Z",
-      "renglones_preadj": [
-        {
-          "reng": "1",
-          "desc": "Camisolin descartable no esteril no hemorrepelente tela SP 30Grs., manga larga, tiras ajuste cuello y cintura, puños elastico ajustables en muneca - Marca ArgentCare",
-          "cant": 18000,
-          "precio_able": 635,
-          "marca": "ArgentCare",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "menor_precio"
-        },
-        {
-          "reng": "2",
-          "desc": "Cofia descartable elastizada - Marca ArgentCare",
-          "cant": 9000,
-          "precio_able": 29.5,
-          "marca": "ArgentCare",
-          "resultado": "no_adj",
-          "precio_siguiente": 28.11,
-          "ganador_sig": "Healthy Lab ($28,11 x 9.000u = $252.990)",
-          "motivo": "superado"
-        },
-        {
-          "reng": "3",
-          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril con cintas ajustables tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare",
-          "cant": 9000,
-          "precio_able": 69.5,
-          "marca": "ArgentCare",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "menor_precio"
-        }
-      ]
+      "id": 240,
+      "entidad": "HTAL GENERAL MARIANO Y LUCIANO DE LA VEGA",
+      "nro": "PA 23",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-25",
+      "monto": 12321000,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "El pliego exige tela SMS 30gr/m² para R1 (confirmado, aparece en la descripción de todos los oferentes). La oferta BASE de ABLE en R1 es tela SP (no cumple). La ALT 3 ($815,00) es SMS 30gr y cumple la especificación de tela. R3: el pliego pide aclarar si se cotiza por PAR o por UNIDAD. La base de ABLE parece ser por unidad ($69,50) y su ALT 1 es explícitamente por par ($130,00) — verificar que la comparación con el resto de los oferentes sea sobre la misma base antes de definir el ganador.",
+      "creado": "2026-08-24T14:32:39.176Z"
     },
     {
       "preadj_fecha": "",
