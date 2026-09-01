@@ -27588,7 +27588,7 @@
       "renglones_preadj": [
         {
           "reng": "7",
-          "desc": "Reng.7 - Marca ABLE",
+          "desc": "Reng.7 — insumo hospitalario ABLE — rechazado precio excesivo (verificar descripcion en comparativa)",
           "cant": 75,
           "precio_able": 667.7,
           "marca": "ABLE",
@@ -27599,7 +27599,7 @@
         },
         {
           "reng": "16",
-          "desc": "Reng.16 - Marca ABLE",
+          "desc": "Catgut cromado N°2 c/aguja 1/2 circ. punta redonda hebra 70cm - Marca ABLE (Ind. argentina)",
           "cant": 200,
           "precio_able": 1375,
           "marca": "ABLE",
@@ -27609,17 +27609,17 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "ABLE gana reng.16 ($1.375, 200u = $275.000, PP). Reng.7 (ABLE verde en comparativa) RECHAZADO por precio excesivo. Expediente EX-2026-20314636-GDEBA-HZEACDAACMSALGP. H.Z.E.A.C. Dr. Cetrangolo, Florida.",
+      "gestion_pre": "ABLE gana reng.16 (Catgut cromado N°2 c/aguja ABLE, 200u x $1.375 = $275.000). Reng.7 RECHAZADO por precio excesivo. OC 182/2026. Expediente EX-2026-20314636-GDEBA-HZEACDAACMSALGP.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
-      "adj_monto_able": 0,
+      "adj_monto_able": null,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "Correcta",
       "oc_fecha": "",
       "oc_alertas": "",
       "tabla": {
@@ -27744,7 +27744,9 @@
       "empate": "No",
       "pref": "No",
       "obs": "Renglones 7 y 16 verificados contra el Anexo III — coinciden en código y especificación, sin diferencias técnicas con ninguno de los tres oferentes. ABLE gana ambos renglones cotizados con margen amplio (más del 40% de diferencia con el segundo más barato). ABLE cotiza 2 de 22 renglones del pliego (7 y 16), más una alternativa propia (marca ABLE) en el renglón 16.",
-      "creado": "2026-07-08T15:42:52.294Z"
+      "creado": "2026-07-08T15:42:52.294Z",
+      "renglones_adj": null,
+      "oc_estado": ""
     },
     {
       "preadj_fecha": "2026-07-22",
