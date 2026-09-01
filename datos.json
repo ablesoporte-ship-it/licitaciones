@@ -27582,12 +27582,35 @@
       "creado": "2026-07-08T15:23:59.274Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-07-16",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "7",
+          "desc": "Reng.7 - Marca ABLE",
+          "cant": 75,
+          "precio_able": 667.7,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "16",
+          "desc": "Reng.16 - Marca ABLE",
+          "cant": 200,
+          "precio_able": 1375,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.16 ($1.375, 200u = $275.000, PP). Reng.7 (ABLE verde en comparativa) RECHAZADO por precio excesivo. Expediente EX-2026-20314636-GDEBA-HZEACDAACMSALGP. H.Z.E.A.C. Dr. Cetrangolo, Florida.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -27717,7 +27740,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Renglones 7 y 16 verificados contra el Anexo III — coinciden en código y especificación, sin diferencias técnicas con ninguno de los tres oferentes. ABLE gana ambos renglones cotizados con margen amplio (más del 40% de diferencia con el segundo más barato). ABLE cotiza 2 de 22 renglones del pliego (7 y 16), más una alternativa propia (marca ABLE) en el renglón 16.",
