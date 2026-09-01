@@ -66218,65 +66218,415 @@
       "creado": "2026-08-24T13:00:37.539Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 240,
+      "entidad": "HTAL GENERAL MARIANO Y LUCIANO DE LA VEGA",
+      "nro": "PA 23",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-25",
+      "monto": 12321000,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "El pliego exige tela SMS 30gr/m² para R1 (confirmado, aparece en la descripción de todos los oferentes). La oferta BASE de ABLE en R1 es tela SP (no cumple). La ALT 3 ($815,00) es SMS 30gr y cumple la especificación de tela. R3: el pliego pide aclarar si se cotiza por PAR o por UNIDAD. La base de ABLE parece ser por unidad ($69,50) y su ALT 1 es explícitamente por par ($130,00) — verificar que la comparación con el resto de los oferentes sea sobre la misma base antes de definir el ganador.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
-          "Droguería Martorani S.A.",
-          "Droguería Farmatec S.A.",
-          "Euro Swiss S.A."
+          "BioProtec S.R.L.",
+          "Droguería Pharma Center SRL",
+          "Propato Hnos SAIC",
+          "Euro Swiss S.A.",
+          "Healthy Lab Professional Care"
         ],
         "renglones": [
           {
-            "reng": "20",
-            "cant": 2500,
+            "reng": "1",
+            "cant": 18000,
+            "desc": "Camisolín no estéril, no hemorrepelente de tela SP de 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BioProtec S.R.L.",
+                "precio": 610,
+                "marca": "BIOSAN",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 741.41,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": 1065.33,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 801,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 647.54,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 18000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 25grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 2",
+            "cant": 18000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 3",
+            "cant": 18000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30grs. (cumple espec. de tela SMS del pliego), descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1.1-alt Pharma",
+            "cant": 18000,
+            "desc": "Camisolín descartable largo 25G SMS puño elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 504.63,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1.2-alt Pharma",
+            "cant": 18000,
+            "desc": "Camisolín descartable largo económico puño elástico",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 560.56,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 9000,
             "desc": "Cofia descartable elastizada",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 32.45,
+                "precio": 29.5,
                 "marca": "ArgentCare",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 42.9,
-                "marca": "SWORD",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 35.8,
-                "marca": "NOVAMED/BLUEMED",
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 22.59,
+                "marca": "DPC",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": 37.6,
+                "marca": "DIMEX",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
                 "oferente": "Euro Swiss S.A.",
-                "precio": 43,
-                "marca": "LIFELONG",
+                "precio": 40,
+                "marca": "EUROMIX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 28.11,
+                "marca": "HEALTHY LAB",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -66284,39 +66634,55 @@
             ]
           },
           {
-            "reng": "21",
-            "cant": 3000,
-            "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgadura",
+            "reng": "3",
+            "cant": 9000,
+            "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras",
             "es_alt": false,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 76.45,
+                "precio": 69.5,
                 "marca": "ArgentCare",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 74.7,
-                "marca": "PEMED",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
-                "precio": 283.14,
-                "marca": "BLUEMED",
+                "oferente": "BioProtec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": 181.66,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": 203.66,
+                "marca": "DIMEX",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
                 "oferente": "Euro Swiss S.A.",
-                "precio": 307,
+                "precio": 297,
                 "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
+                "precio": 157.54,
+                "marca": "HEALTHY LAB",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -66324,21 +66690,21 @@
             ]
           },
           {
-            "reng": "21 ALT 1",
-            "cant": 3000,
+            "reng": "3 ALT 1",
+            "cant": 9000,
             "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras",
             "es_alt": true,
             "celdas": [
               {
                 "oferente": "ABLE S.A.",
-                "precio": 143,
+                "precio": 130,
                 "marca": "ArgentCare",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "Droguería Martorani S.A.",
+                "oferente": "BioProtec S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -66346,7 +66712,15 @@
                 "obj": false
               },
               {
-                "oferente": "Droguería Farmatec S.A.",
+                "oferente": "Droguería Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -66355,6 +66729,14 @@
               },
               {
                 "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab Professional Care",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -66364,22 +66746,60 @@
             ]
           }
         ],
-        "notas": "R21 (confirmado en el Anexo III oficial): el pliego exige 'HEMORREPELENTE' — la descripción de la oferta de ABLE no incluye ese término. Verificar con ABLE si el producto cumple antes de presentar."
+        "notas": "El pliego exige tela SMS 30gr/m² para R1 (confirmado, aparece en la descripción de todos los oferentes). La oferta BASE de ABLE en R1 es tela SP (no cumple). La ALT 3 ($815,00) es SMS 30gr y cumple la especificación de tela. R3: el pliego pide aclarar si se cotiza por PAR o por UNIDAD. La base de ABLE parece ser por unidad ($69,50) y su ALT 1 es explícitamente por par ($130,00) — verificar que la comparación con el resto de los oferentes sea sobre la misma base antes de definir el ganador."
       },
-      "id": 240,
-      "entidad": "Htal Ana Goitia",
-      "nro": "PA 23",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-26",
-      "monto": 310475,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "R21 (confirmado en el Anexo III oficial): el pliego exige 'HEMORREPELENTE' — la descripción de la oferta de ABLE no incluye ese término. Verificar con ABLE si el producto cumple antes de presentar.",
-      "creado": "2026-08-24T14:32:39.176Z"
+      "preadj_fecha": "2026-08-26",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE gana rengs.1 y 3. Total: $12.055.500,00. MAYOR. Reng.1 (camisolin SP 30Grs. ArgentCare, 18.000u x $635 = $11.430.000, PAS). Reng.3 (botas cirugia ArgentCare, 9.000u x $69,50 = $625.500, PP). Reng.2 (cofia): ABLE $29,50 pierde vs Healthy Lab $28,11. Total LP: $12.308.490,00. Vigencia 01/09/2026 al 31/12/2026. Expediente EX-2026-16711664-GDEBA-HZGMLVMSALGP.",
+      "gestion_pre_resultado": "Ganado",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-24T14:32:39.176Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin descartable no esteril no hemorrepelente tela SP 30Grs., manga larga, tiras ajuste cuello y cintura, puños elastico ajustables en muneca - Marca ArgentCare",
+          "cant": 18000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 9000,
+          "precio_able": 29.5,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 28.11,
+          "ganador_sig": "Healthy Lab ($28,11 x 9.000u = $252.990)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril con cintas ajustables tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare",
+          "cant": 9000,
+          "precio_able": 69.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
