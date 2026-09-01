@@ -68991,20 +68991,70 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Medi Sistem S.R.L.",
+          "Laboratorios Igaltex"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 12000,
+            "desc": "Tiras reactivas para la medición de glucosa en sangre con equipos bonificados Marca On Call Plus",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 312.8,
+                "marca": "TIRAS.REACT - On Call Plus",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 178.9,
+                "marca": "MICROLIFE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medi Sistem S.R.L.",
+                "precio": 348,
+                "marca": "ROCHE (Accu-Chek Guide)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 134.79,
+                "marca": "Okmeter Match II",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 1: ABLE pierde por amplio margen (+132%) vs Laboratorios Igaltex. Medi Sistem (Roche) entrega 30 equipos de lectura sin cargo por adjudicación; Igaltex entrega equipos en comodato cada 2.000 tiras."
+      },
       "id": 261,
       "entidad": "HTAL MERCANTE",
-      "nro": "PA 14",
+      "nro": "SAMO 14",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-01",
       "monto": 3753600,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 1: ABLE pierde por amplio margen (+132%) vs Laboratorios Igaltex. Medi Sistem (Roche) entrega 30 equipos de lectura sin cargo por adjudicación; Igaltex entrega equipos en comodato cada 2.000 tiras.",
       "creado": "2026-08-31T11:48:02.450Z"
     },
     {
@@ -69108,7 +69158,41 @@
       "pref": "",
       "obs": "",
       "creado": "2026-08-31T17:30:01.072Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
+      "id": 266,
+      "entidad": "Htal V. del Carmen",
+      "nro": "SAMO 24",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-03",
+      "monto": 1383800,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-09-01T14:24:45.108Z"
     }
   ],
-  "nextId": 266
+  "nextId": 267
 }
