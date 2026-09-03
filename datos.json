@@ -70735,37 +70735,107 @@
       "creado": "2026-08-31T17:30:01.072Z"
     },
     {
+      "id": 266,
+      "entidad": "Htal V. del Carmen",
+      "nro": "SAMO 24",
+      "tipo": "Procedimiento Abreviado SAMO - Fondos Propios",
+      "fecha": "2026-09-03",
+      "monto": 1383800,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE UNICA OFERENTE en los 4 renglones. Total cotizado: $1.383.800,00. Procedimiento SAMO fondos propios. Reng.1 y otros renglones no cotizados por ABLE no se incluyen.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 10,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.200.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 10,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 12,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 10,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.75.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "PO.75.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE UNICA OFERENTE en los 4 renglones. Total cotizado: $1.383.800,00. Procedimiento SAMO fondos propios. Reng.1 y otros renglones no cotizados por ABLE no se incluyen."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 266,
-      "entidad": "Htal V. del Carmen",
-      "nro": "SAMO 24",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-03",
-      "monto": 1383800,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-01T14:24:45.108Z"
     },
     {
