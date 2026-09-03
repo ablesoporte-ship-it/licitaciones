@@ -25428,18 +25428,18 @@
         }
       ],
       "gestion_pre": "ABLE gana rengs.2 ($1.870, 3.000u) y 14 ($1.355, 400u) por menor precio. IRREGULARIDAD reng.8: ABLE $1.030 (Ind. Argentina) vs competidor importado mas barato dentro del 10% — preferencia nacional (Art.13.3) no fue aplicada a favor de ABLE. Reng.3,6,12 a Aupres; reng.4,5,8,13,15 a Martorani; reng.7,9 a Euro Swiss; reng.17 a Max Continental; reng.11 desierto; reng.16 a Sondas y Catéteres. Expediente EX-2026-22236665-GDEBA-HIGAGSMMSALGP.",
-      "gestion_pre_resultado": "Ganado",
+      "gestion_pre_resultado": "Sin resultado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "2026-09-03",
       "adj_monto_able": 6152000,
-      "adj_resumen": "ABLE adjudicada en renglones 2 y 14",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
+      "adj_resumen": "ABLE adjudicada en renglones 2 ($1.870 × 3.000u) y 14 ($1.355 × 400u) por menor precio. Renglón 8 no adjudicado — preferencia nacional no reconocida por el hospital (Martorani con producto uruguayo ganó por 2,83%).",
+      "adj_alertas": "Renglón 8 — preferencia nacional no reconocida. Martorani (Aurinco, origen Uruguay) adjudicado a $1.001,70 vs ABLE $1.030,00. Diferencia 2,83% dentro de la banda del Art. 13.3 Decreto 59/2019.",
+      "adj_tiene_alerta": true,
       "oc": "Correcta",
       "oc_fecha": "2026-09-03",
-      "oc_alertas": "",
+      "oc_alertas": "OC 652/2026 — Renglones 2 y 14 adjudicados a ABLE correctamente. Renglón 8 no incluido en OC (adjudicado a Martorani — preferencia nacional no reconocida).",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -25631,24 +25631,35 @@
       "renglones_adj": [
         {
           "reng": "2",
-          "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "desc": "Bolsa de ileostomía con desagote, transparente, 1 pieza, aro recortable 15-70mm, con filtro. Marca ABLE. Cód. BIL.AT.1P.70",
           "cant": 3000,
           "precio_able": 1870,
           "marca": "ABLE",
           "resultado": "adj",
           "motivo": "menor_precio",
-          "precio_siguiente": null,
+          "precio_siguiente": 2290,
           "ganador_sig": null
         },
         {
+          "reng": "8",
+          "desc": "Bajalenguas adultos por 100 unidades. Marca ABLE.",
+          "cant": 120,
+          "precio_able": 1030,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "motivo": "superado",
+          "precio_siguiente": 1001.7,
+          "ganador_sig": "Droguería Martorani S.A. (Aurinco — origen Uruguay)"
+        },
+        {
           "reng": "14",
-          "desc": "Bolsa de colostomía cerrada transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "desc": "Bolsa de colostomía cerrada transparente, 1 pieza, aro recortable 15-70mm, con filtro. Marca ABLE. Cód. BCO.CT.1P.70",
           "cant": 400,
           "precio_able": 1355,
           "marca": "ABLE",
           "resultado": "adj",
           "motivo": "menor_precio",
-          "precio_siguiente": null,
+          "precio_siguiente": 1400,
           "ganador_sig": null
         }
       ]
