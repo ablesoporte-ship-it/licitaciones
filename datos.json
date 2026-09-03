@@ -25432,13 +25432,13 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-03",
+      "adj_monto_able": 6152000,
+      "adj_resumen": "ABLE adjudicada en renglones 2 y 14",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-03",
       "oc_alertas": "",
       "tabla": {
         "oferentes": [
@@ -25623,11 +25623,35 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "Sí",
       "obs": "Renglón 8 — Droguería Martorani S.A. (marca Aurinco, fabricada por Electroplast S.A. en Montevideo, Uruguay, e importada por la propia Martorani) gana con diferencia de 2,83% frente a ABLE — banda de preferencia nacional confirmada, gestionar reclamo con el hospital antes de la pre-adjudicación. De los 11 oferentes que se presentaron en esta licitación (Sondas y Catéteres, Droguería Martorani, Laboratorios Igaltex, Raúl J. L. Poggi, Max Continental, Dealer Médica, Aupres, Papelera E.P., Euro Swiss, ABLE y Medic Tools), solo Martorani, Medic Tools y Euro Swiss compiten en los mismos renglones que ABLE (2, 8 y 14) — el resto cotiza renglones fuera del catálogo de ABLE. Medic Tools S.R.L. es responsable exento de IVA — sus precios se cargan tal cual figuran en su presupuesto. ABLE cotiza 3 renglones de esta licitación (2, 8 y 14), más una alternativa propia (bolsa de dos piezas) en el renglón 2.",
-      "creado": "2026-07-02T19:25:13.214Z"
+      "creado": "2026-07-02T19:25:13.214Z",
+      "renglones_adj": [
+        {
+          "reng": "2",
+          "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 3000,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "14",
+          "desc": "Bolsa de colostomía cerrada transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 400,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-07-21",
