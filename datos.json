@@ -14012,8 +14012,8 @@
     },
     {
       "preadj_fecha": "2026-07-03",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
       "renglones_preadj": [
         {
           "reng": "1",
@@ -14024,7 +14024,7 @@
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "empate_tecnico"
+          "motivo": "menor_precio"
         },
         {
           "reng": "2",
@@ -14038,19 +14038,19 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "Gonzalo",
+      "gestion_pre": "ABLE gana rengs.1 y 2 (clips titanio LT400 y LT300 con clipadora en comodato). Reng.1 LT400 (70u x $7.800 vs CIR.ARG $7.810, +0,13%). Reng.2 LT300 (200u x $6.420 vs CIR.ARG $7.810). Total: $1.830.000. Rengs.3-7 ABLE no cotiza.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "2026-07-20",
       "adj_monto_able": 1830000,
-      "adj_resumen": "ABLE adjudicada en renglones 1 y 2 (clips titanio LT400 y LT300, marca ABLE Ind. Argentina), ambos por menor precio. Reng.1 (LT400, 70u x $7.800 vs CIR.ARG $7.810). Reng.2 (LT300, 200u x $6.420 vs CIR.ARG $7.810). Total adjudicado: $1.830.000,00. Disposición DISPO-2026-633-GDEBA-HZGAHMMSALGP.",
+      "adj_resumen": "ABLE adjudicada en rengs.1 y 2 (clips titanio LT400 y LT300, marca ABLE Ind. Argentina). Reng.1 (LT400, 70u x $7.800 = $546.000). Reng.2 (LT300, 200u x $6.420 = $1.284.000). Total: $1.830.000,00. Disposicion DISPO-2026-633-GDEBA-HZGAHMMSALGP.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "oc": "Correcta",
       "oc_fecha": "2026-07-20",
-      "oc_alertas": "OC Nro. 335/2026. Disposición: DISPO-2026-633-GDEBA-HZGAHMMSALGP. Renglones 1 y 2 sin diferencias respecto de lo adjudicado — cantidades y precios unitarios coinciden. Total: $1.830.000,00.",
+      "oc_alertas": "OC Nro. 335/2026. Disposicion DISPO-2026-633-GDEBA-HZGAHMMSALGP. Rengs.1 y 2 sin diferencias respecto de lo adjudicado — cantidades y precios unitarios coinciden. Total: $1.830.000,00.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -14150,7 +14150,9 @@
           "precio_able": 7800,
           "marca": "ABLE (Ind. Argentina)",
           "resultado": "adj",
-          "motivo": "menor_precio"
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
         },
         {
           "reng": "2",
@@ -14159,7 +14161,9 @@
           "precio_able": 6420,
           "marca": "ABLE (Ind. Argentina)",
           "resultado": "adj",
-          "motivo": "menor_precio"
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
         }
       ]
     },
@@ -34163,12 +34167,167 @@
       "creado": "2026-07-20T16:56:24.546Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-11",
+      "preadj_empate_ok": "Sí",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "17",
+          "desc": "Bajalengua caja x 100 unidades - Industria argentina - Marca ABLE",
+          "cant": 2000,
+          "precio_able": 1005,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "empate_tecnico"
+        },
+        {
+          "reng": "18",
+          "desc": "Bajalengua pediatrico de madera - Marca ABLE - Industria argentina",
+          "cant": 5000,
+          "precio_able": 10.05,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "empate_tecnico"
+        },
+        {
+          "reng": "27",
+          "desc": "Bolsa colostomia adhesiva 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 50,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "43",
+          "desc": "Espatula de Ayre descartable - Marca ABLE",
+          "cant": 600,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 43.9,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "103",
+          "desc": "Sutura nylon negro monofilamento N°2/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 50,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "104",
+          "desc": "Sutura nylon negro monofilamento N°3/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 150,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "105",
+          "desc": "Sutura nylon negro monofilamento N°4/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "106",
+          "desc": "Sutura nylon monofilamento N°5/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "136",
+          "desc": "Bolsa papel grado medico 125mm x 50mm x 250mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX125X050X250",
+          "cant": 2000,
+          "precio_able": 54.89,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "137",
+          "desc": "Bolsa papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX110X030X190",
+          "cant": 2000,
+          "precio_able": 36.1,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "138",
+          "desc": "Bolsa papel grado medico 125mm x 50mm x 250mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX125X050X250",
+          "cant": 1000,
+          "precio_able": 54.89,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "139",
+          "desc": "Bolsa papel grado medico 140mm x 50mm x 330mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX140X050X330",
+          "cant": 500,
+          "precio_able": 75.46,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "140",
+          "desc": "Bolsa papel grado medico 140mm x 50mm x 330mm c/indicador quimico calor humedo PUP - Marca ABLE - cod. BOX140X050X330",
+          "cant": 200,
+          "precio_able": 75.46,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "141",
+          "desc": "Bolsa papel grado medico 250mm x 100mm x 380mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX250X100X380",
+          "cant": 200,
+          "precio_able": 143.01,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.17,18,27,103,104,105,106,137,138,139,140. Total: $2.550.712,00. Rengs.17 y 18 (bajalengua) por desempate (PD). Rengs.27,103,104,105,106,137,138,139,140 por menor precio. Reng.43 (espatula Ayre) ABLE pierde. Rengs.136 y 141 RECHAZADOS por precio excesivo. Licitacion UPA Nro.15 Jose C. Paz. Expediente EX-2026-18485257-GDEBA-HZGAGDMMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -34763,7 +34922,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "No",
       "obs": "Reng.17 (bajalenguas adultos) — EMPATE TÉCNICO: Martorani $10,10/u x 2.000 = $20.200,00 vs ABLE $1.030,00 por caja de 100 (equivale a $10,30/u) — diferencia de 1,98%, dentro del 2%. Como ambas marcas (Aurinco y ABLE) son industria argentina, el desempate no es por preferencia nacional — corresponde resolverlo por el criterio de desempate que indique el pliego (antecedentes, plazo de entrega, etc.). Reng.18 (bajalenguas pediátricos) — mismo caso: EMPATE TÉCNICO, Martorani $10,10 vs ABLE $10,30 (1,98%). Ambos de industria nacional — desempate según criterio del pliego, no por origen. Reng.27 (bolsa de colostomía) — ABLE gana ampliamente: $1.355,00 vs Martorani $6.362,70 (Hollister). Reng.43 (espátula de Ayre) — Martorani gana con $43,90 vs ABLE $57,97 (32% más caro). ABLE pierde este renglón. Reng.103, 105 y 106 (suturas nylon 2/0, 4/0 y 5/0) — Max Continental cotiza cantidades MENORES a las pedidas por el pliego (48 y 96 en vez de 50 y 100) — posible objetable por cantidad insuficiente. De todas formas ABLE gana ampliamente en precio ($607,00 vs $712,00 Max Continental y $1.348,60 Martorani). Reng.104 (sutura nylon 3/0) — ABLE gana claro, $607,00 vs Max Continental $712,00 y Martorani $1.348,60. Reng.136 a 139 (bolsas de papel grado médico varias medidas) — ABLE gana ampliamente en los 4 renglones frente a Raúl J. L. Poggi (entre 3,6x y 6,2x más caro). Reng.140 y 141 — sin datos de competidores en la documentación recibida. Total oferta ABLE: $2.775.846,00 (verificado, coincide con el monto ya cargado).",
@@ -51792,12 +51951,123 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-13",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa papel grado medico 125mm x 50mm x 250mm c/indicador quimico calor humedo - Marca ABLE",
+          "cant": 30000,
+          "precio_able": 63.12,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 49.25,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Bolsa papel grado medico 250mm x 100mm x 380mm c/indicador quimico calor humedo - Marca ABLE",
+          "cant": 6000,
+          "precio_able": 164.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 40.28,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca ABLE",
+          "cant": 15000,
+          "precio_able": 41.93,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 35.29,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "17",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 12840,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "18",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 16050,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "19",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 21400,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "20",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 250mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 32100,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "21",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 400mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE",
+          "cant": 3,
+          "precio_able": 42560,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "22",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.300.200",
+          "cant": 3,
+          "precio_able": 63900,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "25",
+          "desc": "Resma papel grado medico liso blanco 60x90cm x 20kg - Marca ABLE - cod. RESMA.20",
+          "cant": 6,
+          "precio_able": 158300,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 135173.04,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.22 (bobina pouch 300mm x 200mts, 3u x $63.900 = $191.700, PP). Rengs.1,3,4 bolsas papel van a otro proveedor (precio menor). Rengs.17,18,19,20,21 bobinas pouch van a otros oferentes. Reng.25 (resma papel grado medico) no adjudicado a ABLE. Total LP: $8.582.621,37. Expediente EX-2026-26032615-GDEBA-HZGAGDMMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -52232,7 +52502,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Resultado general: de los 10 renglones cotizados por ABLE, se gana únicamente el renglón 22 (ABLE es el único oferente además de Kims). En el resto gana Laboratorios Igaltex por menor precio, sin que corresponda empate técnico ni preferencia nacional en ningún caso (ningún oferente declara producto importado en esta licitación). Reng. 18, 19 y 21 — ABLE queda a 6,03%, 6,06% y 10,95% de Igaltex respectivamente. No se colorea como preferencia nacional porque Igaltex no declara origen importado — la preferencia nacional solo aplica frente a un competidor importado. Reng. 25 — Papelera EP ofrece una alternativa de resma de 10kg cuando el pliego pide 20kg (según se desprende de la descripción de Igaltex, 'x 20 kg'), pero no se objeta al no ser la oferta ganadora. Gana Igaltex ($135.173,04); ABLE queda muy por encima ($158.300,00, +17,1%). Reng. 1, 3, 4, 17 y 20 — ABLE queda entre 16,9% y 308% por encima de Igaltex; diferencias fuera de cualquier rango de empate o preferencia. Monto total cotizado por ABLE (los 10 renglones donde participa): $5.025.660,00.",
@@ -63361,12 +63631,112 @@
       "creado": "2026-08-18T18:21:30.765Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-27",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "Sí",
+      "renglones_preadj": [
+        {
+          "reng": "5",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 60mm recta punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 380,
+          "precio_able": 543,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja recta - Marca Surgimax (Ind. argentina)",
+          "cant": 615,
+          "precio_able": 598,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Cardiopack Argentina S.A. (PAS — ajusta a lo solicitado). ABLE rechazada por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 24mm 3/8 circ. punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 865,
+          "precio_able": 543,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura nylon monofilamento N°5/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 260,
+          "precio_able": 543,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura PGA N°0 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina) - cod. PGM003570A",
+          "cant": 215,
+          "precio_able": 1178,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. argentina) - cod. PGA015090A",
+          "cant": 500,
+          "precio_able": 1321.65,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 330,
+          "precio_able": 1197,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 390,
+          "precio_able": 1197,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "13",
+          "desc": "Sutura PGA N°5/0 c/aguja 15mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 265,
+          "precio_able": 1178,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.5,7,8,9,10,11,13. Total: $2.438.490,00. Rengs.5,7,8,9,13 por preferencia productor argentino (mejora de oferta entre ABLE y Cardiopack). Reng.10 (PGA N°1 ABLE) menor precio. Reng.11 por preferencia nacional. Reng.6 (Nylon N°3/0): ABLE verde en comparativa pero RECHAZADA por precio excesivo — Cardiopack adjudicado PAS. Reng.12 ABLE no gana. Rengs 4 (hilo lino Tagum Peru) rechazado precio excesivo. Expediente EX-2026-26795249-GDEBA-HZGAPVCMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -64489,7 +64859,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "Sí",
       "obs": "ABLE solo cotiza R5 a R13 (no cotiza R1-4, suturas de lino). R6: el pliego exige aguja de 40mm (código TT40, ver oferta Cardiopack). La oferta de ABLE (base y ALT1) es de 30mm — no coincide con la especificación. Revisar con ABLE antes de presentar. Cardiopack Argentina S.A. (marca Surgikal, origen India) e Cirugía Argentina (marca Tagum, origen Perú) son oferentes de origen importado — aplica preferencia nacional donde corresponda por estar dentro del rango 2-10%.",
