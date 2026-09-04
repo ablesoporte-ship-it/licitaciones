@@ -51505,14 +51505,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-02",
+      "adj_monto_able": 837000,
+      "adj_resumen": "ABLE adjudicada en rengs.15 y 18. Reng.15 (bolsa ileostomia 1 pieza aro recortable 15-70mm con filtro ABLE, 100u x $1.870 = $187.000). Reng.18 (cubrecalzado botas cirugia ArgentCare, 5.000u x $130 = $650.000). Total: $837.000,00. OC 407/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-02",
+      "oc_alertas": "OC Nro. 407/2026 fecha 02/09/2026. Reng.15 (bolsa ileostomia ABLE, 100u x $1.870 = $187.000). Reng.18 (botas cirugia ArgentCare, 5.000u x $130 = $650.000). Total: $837.000,00. Disposicion DISPO-2026-1496-GDEBA-HZGAGDMMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -51729,11 +51729,57 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.10 - Igaltex cotizo por unidad individual (15.000 UN a $14,74) en vez de por caja x100 como el resto. Se normalizo a precio por caja ($1.474,00) para poder comparar. AURINCO (Martorani) es marca nacional, por lo que no aplica preferencia nacional: ABLE simplemente pierde este renglon por 2,82%. Reng.15 y 18 - ABLE gana directo, sin discusion de precio. Reng.51 - ABLE pierde por margen amplio (43%) frente a Igaltex/MEDONE.",
-      "creado": "2026-07-30T16:21:40.284Z"
+      "creado": "2026-07-30T16:21:40.284Z",
+      "renglones_adj": [
+        {
+          "reng": "10",
+          "desc": "Bajalengua descartable x 100 unidades",
+          "cant": 150,
+          "precio_able": 1030,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "15",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "18",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril con tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 130,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "51",
+          "desc": "Espatula de Ayre descartable - Marca ABLE",
+          "cant": 700,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -59266,12 +59312,35 @@
       "creado": "2026-08-05T12:26:40.909Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-24",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril c/cintas ajustables tela no tejida hemorrepelente no deslizable - Marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 158.6,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 158.6,
+          "ganador_sig": "PEMED S.A. (PAS $158,60 x 5.000u = $793.000) — ABLE rechazada: ofrece con elastico, pliego pide cintas ajustables",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "5",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare - cod. COFIA.2E.12",
+          "cant": 10000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.5 (cofia descartable elastizada ArgentCare, 10.000u x $28,50 = $285.000, PP). Reng.4 (botas cirugia ArgentCare) RECHAZADO tecnicamente — ABLE ofrece con elastico, pliego pide con cintas ajustables; adjudicado a PEMED ($158,60 x 5.000u = $793.000, PAS). Total LP: $3.790.000,00. Expediente EX-2026-23686773-GDEBA-HIGAPDRRMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -59451,7 +59520,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Resultado general: de los 3 renglones cotizados por ABLE, se ganan los renglones 4 y 5 (por amplio margen). En el renglón 1 pierde por muy poco frente a Aupres. Reng. 1 — ABLE $29.900,00 vs Aupres $29.000,00, diferencia de 3,10%. No corresponde empate técnico (>2%) ni preferencia nacional (ningún oferente declara producto importado en este renglón). Reng. 2 y 3 (Sonda tipo K67 y Cánula de aspiración K65) — ABLE no cotiza; ganan Martorani y Euro Swiss respectivamente. No se incluyen en esta comparativa. Monto total cotizado por ABLE (renglones 1, 4 y 5): $3.622.500,00.",
@@ -72243,7 +72312,39 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-09-04T16:09:27.334Z"
+    },
+    {
+      "id": 280,
+      "entidad": "Htal V. Lopez y Planes",
+      "nro": "PA 155",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-08",
+      "monto": 8409980,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-04T17:34:34.630Z"
     }
   ],
-  "nextId": 280
+  "nextId": 281
 }
