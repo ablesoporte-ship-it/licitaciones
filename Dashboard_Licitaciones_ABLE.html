@@ -895,8 +895,15 @@ function filtered(){
     if(alerta==='empate' && r.empate!=='Sí') return false;
     if(alerta==='pref' && r.pref!=='Sí') return false;
     if(alerta==='adj_alerta' && !r.adj_tiene_alerta) return false;
+    // "Gestión agente": antes exigía que el campo de texto dijera SOLO el
+    // nombre del agente (ej. "Diego"), así que ignoraba cualquier licitación
+    // con una nota real escrita ahí. Ahora usa la misma señal real que ya
+    // calcula tienePanelGestion (ABLE ganó un renglón que no era el más
+    // barato de la comparativa), y para filtrar por agente puntual compara
+    // contra el agente ASIGNADO a la licitación (r.agente), no contra el
+    // contenido del campo de texto.
     if(gestion==='any' && !tienePanelGestion(r)) return false;
-    if(gestion && gestion!=='any' && !(tienePanelGestion(r) && r.gestion_pre===gestion)) return false;
+    if(gestion && gestion!=='any' && !(tienePanelGestion(r) && (r.agente||'').toLowerCase()===gestion.toLowerCase())) return false;
     if(mes && !(r.fecha||'').startsWith(mes)) return false;
     return true;
   });
