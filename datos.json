@@ -70597,37 +70597,216 @@
       "creado": "2026-08-27T16:02:06.796Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 256,
-      "entidad": "H.I.G.A. General San Martin",
+      "entidad": "H.I.G.A. Gral. San Martín (La Plata)",
       "nro": "PA 395",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-04",
       "monto": 4576500,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-24132805-GDEBA-HIGAGSMMSALGP, apertura 04/09/2026. R4, R5 y R6 no se incluyen: ABLE no cotizó ahí. ABLE: nota manuscrita 'Registro de Proveedores vencido, en trámite' — verificar. Droguería Martorani: nota manuscrita 'no presentó Formulario A-404' (Art. 7°a pliego). Empate técnico ≤2% (Art. 13.1). Mantenimiento de oferta: 60 días (Art. 3°).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Medic Tools SRL",
+          "Max Continental S.A.",
+          "Droguería Martorani S.A.",
+          "Euro Swiss S.A.",
+          "MG Insumos S.A. (Droguería MG)"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 1350,
+            "desc": "Bolsa de ileostomía con desagote, transparente, 1 pieza con aro recortable de 15 a 70mm, c/filtro",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools SRL",
+                "precio": 3100,
+                "marca": "CONVATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2210.98,
+                "marca": "INTRATUB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2399.9,
+                "marca": "PHARMACARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2105,
+                "marca": "EURO SWISS (Euromix)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Insumos S.A. (Droguería MG)",
+                "precio": 2899,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 720,
+            "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm, c/filtro",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1275,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools SRL",
+                "precio": 2348,
+                "marca": "CONVATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1938.76,
+                "marca": "INTRATUB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1499.9,
+                "marca": "PHARMACARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1282,
+                "marca": "EURO SWISS (Euromix)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Insumos S.A. (Droguería MG)",
+                "precio": 2240,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 270,
+            "desc": "Bolsa de ileostomía con desagote, transparente, 1 pieza, convexa, aro recortable 15 a 57mm, c/filtro",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools SRL",
+                "precio": 9639,
+                "marca": "CONVATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Insumos S.A. (Droguería MG)",
+                "precio": 9180,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE: nota manuscrita 'Registro de Proveedores vencido, en trámite' — verificar. Droguería Martorani: nota manuscrita 'no presentó Formulario A-404' (Art. 7°a pliego). Empate técnico ≤2% (Art. 13.1). Mantenimiento de oferta: 60 días (Art. 3°)."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-08-28T16:29:53.238Z"
     },
     {
