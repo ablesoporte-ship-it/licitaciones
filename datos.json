@@ -65061,12 +65061,35 @@
       "creado": "2026-08-18T18:21:30.781Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-24",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "6",
+          "desc": "Espatula de Ayre descartable - Marca Clericot (Farmatec)",
+          "cant": 1500,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 42,
+          "ganador_sig": "Drogueria Farmatec S.A. (Clericot, $42 x 1500u = $63.000)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "LigaClip hemostatico titanio tipo LT400 - cartucho con 6 clips de titanio tamaño grande LT400 - Marca ABLE (Ind. argentina)",
+          "cant": 80,
+          "precio_able": 6435,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.7 (LigaClip LT400 ABLE, 80u x $6.435 = $514.800, PPA). Reng.6 (espatula Ayre) pierde vs Farmatec $42. Total LP: $6.346.255,30. Cardiopack (reng.13 venda enyesada), Farmatec (rengs.6,18 hilo lino Surgikal), Martorani (rengs.11,12,14). Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-24570971-GDEBA-HZGMBMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -65195,7 +65218,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "",
