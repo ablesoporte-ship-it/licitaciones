@@ -7150,12 +7150,57 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-11",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "10",
+          "desc": "Bolsa p/colostomia adhesiva varias medidas - Marca ABLE",
+          "cant": 720,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "11",
+          "desc": "Camisolin descartable SMS 30G/m2 manga larga tiras ajuste puños ajustables - Marca ArgentCare (Ind. argentina)",
+          "cant": 30000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "19",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare - cod. COFIA.2E.12",
+          "cant": 24000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "21",
+          "desc": "Reng.21 — ABLE no gana",
+          "cant": 40,
+          "precio_able": 26000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.11 y 19. Total: $19.734.000,00. MAYOR. Reng.11 (camisolin SMS 30Grs. ArgentCare, 30.000u x $635 = $19.050.000, PP). Reng.19 (cofia elastizada ArgentCare, 24.000u x $28,50 = $684.000, PP). Reng.10 (bolsa colostomia) y reng.21 ABLE no gana. Total LP: $45.292.277,60. Expediente EX-2026-21692621-GDEBA-HZDEFFEMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -7640,7 +7685,7 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "IMPORTANTE - Reng.11: el pliego exige tela TNT SMS 30 G/m2. ABLE cotizo 4 opciones: solo la marcada SMS 30gr ($815) cumple espec y fue usada como base de la comparativa. Las otras 3 (tela SP, dos de ellas ademas con menor gramaje: 25gr y 20gr) NO cumplen y quedan solo como referencia informativa en filas ALT - mismo problema de tela SP/SMS ya detectado en licitaciones anteriores. Con la version que cumple espec (SMS 30gr, $815), ABLE gana el renglon 11 directo: es mas barato que Euroswiss ($1.340), Macor ($1.757,60) y Healthy Lab ($855,79). Reng.10 - ABLE pierde vs Euroswiss (8,4%). Verificar si el producto de Euroswiss (Euromix) es importado para evaluar preferencia nacional. Reng.19 - ABLE gana directo. Reng.21 - ABLE pierde vs AUPRES/Bioprotec por margen amplio (20,4%), fuera de rango de preferencia nacional.",
