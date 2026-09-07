@@ -71867,14 +71867,14 @@
     {
       "id": 275,
       "entidad": "H.I.E.A.C. San Juan de Dios",
-      "nro": "PA 97/2026",
+      "nro": "PA 97",
       "tipo": "Procedimiento Abreviado",
       "fecha": "",
       "monto": 11052000,
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. Nombre del hospital y fecha de apertura no confirmados en el cuadro comparativo — verificar contra el acta original. R1-18 y R20-24 no se incluyen: ABLE no cotizó ahí (solo participa en R19).",
@@ -71929,11 +71929,11 @@
         ],
         "notas": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. "
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-03",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE gana reng.19 (camisolin descartable SMS 30G/m2 manga larga puño ajustado ArgentCare, 18.000u x $614 = $11.052.000, PP). MAYOR. Otros proveedores: Medic Center, Euromix (guantes nitrilo). Reng.3 (filtro viral) FRACASADO. Total LP: $28.001.101,90. Expediente EX-2026-22638810-GDEBA-HIEACSJDMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
@@ -71945,7 +71945,20 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-04T12:10:19.688Z"
+      "creado": "2026-09-04T12:10:19.688Z",
+      "renglones_preadj": [
+        {
+          "reng": "19",
+          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado para atencion bajo aislamiento de contacto - Marca ArgentCare (Ind. argentina)",
+          "cant": 18000,
+          "precio_able": 614,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
