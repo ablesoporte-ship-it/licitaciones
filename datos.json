@@ -45758,7 +45758,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 158,
-      "entidad": "H.Z.G.A. Las Flores",
+      "entidad": "Htal la Flores",
       "nro": "PA 36",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-21",
@@ -60948,40 +60948,206 @@
       "creado": "2026-08-10T18:14:58.862Z"
     },
     {
+      "id": 218,
+      "entidad": "Htal de Las Flores",
+      "nro": "SAMO 26",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-02",
+      "monto": 236129,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. IF-2026-31180179-GDEBA-HZGLFMSALGP, cuadro comparativo firmado 02/09/2026. R1-50 no se incluyen: ABLE no cotizó ahí (solo participa en R51 a R54). R52 y R53: Azcuénaga cotiza con cantidad distinta (72) a la del renglón (100/75) — no cambia el resultado.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Droguería Martorani S.A.",
+          "Droguería Azcuénaga S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "51",
+            "cant": 30,
+            "desc": "Sutura de ácido poliglicólico N° 3/0, aguja 25mm 1/2 circ. punta cilíndrica, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1265.25,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1464.5,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 6722,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "52",
+            "cant": 100,
+            "desc": "Sutura de ácido poliglicólico N° 1, aguja 40mm punta cilíndrica, hebra 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1312.5,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1531.08,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 6242,
+                "marca": "Covidien (cant. 72)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "53",
+            "cant": 75,
+            "desc": "Sutura de nylon monofilamento N° 2/0, aguja recta 60mm, punta rev. cort., hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 637.35,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 900.68,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meryl",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 2012,
+                "marca": "Covidien (cant. 72)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "54",
+            "cant": 30,
+            "desc": "Sutura de nylon negro monofilamento N° 4/0, aguja 3/8 circ. 20mm, hebra 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 637.35,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 900.68,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 2012,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. IF-2026-31180179-GDEBA-HZGLFMSALGP, cuadro comparativo firmado 02/09/2026. R52 y R53: Azcuénaga cotiza con cantidad distinta (72) a la del renglón (100/75) — no cambia el resultado."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 218,
-      "entidad": "Htal la Flores",
-      "nro": "SAMO 26",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-14",
-      "monto": 299864,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-08-10T18:15:53.836Z"
     },
     {
