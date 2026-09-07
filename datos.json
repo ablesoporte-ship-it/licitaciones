@@ -71865,49 +71865,86 @@
       "creado": "2026-09-03T19:34:32.672Z"
     },
     {
-      "preadj_fecha": "2026-09-03",
-      "preadj_empate_ok": "No",
-      "preadj_pref_ok": "No",
-      "renglones_preadj": [
-        {
-          "reng": "19",
-          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado para atencion bajo aislamiento de contacto - Marca ArgentCare (Ind. argentina)",
-          "cant": 18000,
-          "precio_able": 614,
-          "marca": "ArgentCare",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "menor_precio"
-        }
-      ],
-      "gestion_pre": "ABLE gana reng.19 (camisolin descartable SMS 30G/m2 manga larga puño ajustado ArgentCare, 18.000u x $614 = $11.052.000, PP). MAYOR. Otros proveedores: Medic Center (rengs.1,2,4,5,6,7,8,9,10,11), Euromix (rengs.16,17,18 guantes nitrilo), Kims y otros. Reng.3 (filtro viral/bacteriano): FRACASADO. Total LP: $28.001.101,90. Expediente EX-2026-22638810-GDEBA-HIEACSJDMSALGP.",
-      "gestion_pre_resultado": "Ganado",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
+      "id": 275,
+      "entidad": "H.I.E.A.C. San Juan de Dios",
+      "nro": "PA 97/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "",
+      "monto": 11052000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. Nombre del hospital y fecha de apertura no confirmados en el cuadro comparativo — verificar contra el acta original. R1-18 y R20-24 no se incluyen: ABLE no cotizó ahí (solo participa en R19).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Droguería Farmatec S.A.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "19",
+            "cant": 18000,
+            "desc": "Camisolín descartable, gramaje 30 g/m², manga larga, no estéril, no hemorrepelente",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 614,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 750.9,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 980,
+                "marca": "Bluemed/Flexguard",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1235,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. "
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 275,
-      "entidad": "H.I.E.A.C. San Juan de Dios",
-      "nro": "PA 97/2026",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-04",
-      "monto": 11052000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pre-adjudicación",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-04T12:10:19.688Z"
     },
     {
