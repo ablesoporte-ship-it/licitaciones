@@ -13504,7 +13504,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 79,
-      "entidad": "HTAL PIROVANO",
+      "entidad": "Htal Pirovano",
       "nro": "CM 427",
       "tipo": "Contratación Menor",
       "fecha": "2026-06-12",
@@ -61116,19 +61116,23 @@
       "creado": "2026-08-10T18:14:58.862Z"
     },
     {
-      "id": 218,
-      "entidad": "Htal de Las Flores",
-      "nro": "SAMO 26",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-14",
-      "monto": 236129,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Expte. IF-2026-31180179-GDEBA-HZGLFMSALGP, cuadro comparativo firmado 02/09/2026. R1-50 no se incluyen: ABLE no cotizó ahí (solo participa en R51 a R54). R52 y R53: Azcuénaga cotiza con cantidad distinta (72) a la del renglón (100/75) — no cambia el resultado.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -61300,22 +61304,19 @@
         ],
         "notas": "Expte. IF-2026-31180179-GDEBA-HZGLFMSALGP, cuadro comparativo firmado 02/09/2026. R52 y R53: Azcuénaga cotiza con cantidad distinta (72) a la del renglón (100/75) — no cambia el resultado."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 218,
+      "entidad": "Htal de Las Flores",
+      "nro": "SAMO 26",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-14",
+      "monto": 236129,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. IF-2026-31180179-GDEBA-HZGLFMSALGP, cuadro comparativo firmado 02/09/2026. R1-50 no se incluyen: ABLE no cotizó ahí (solo participa en R51 a R54). R52 y R53: Azcuénaga cotiza con cantidad distinta (72) a la del renglón (100/75) — no cambia el resultado.",
       "creado": "2026-08-10T18:15:53.836Z"
     },
     {
@@ -71605,20 +71606,157 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "KIMS S.R.L.",
+          "Laboratorios Igaltex SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 23000,
+            "desc": "Pliego pide bolsa 140-145x320x40mm — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE — no coincide con medida del pliego",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 68,
+                "marca": "Kims (140-145x320x40mm, coincide con pliego)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 77.29,
+                "marca": "Sterilys",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 4,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 250mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 50250,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 78800,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 49241,
+                "marca": "Sterilys — verificar origen nacional/importado",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 6000,
+            "desc": "Pliego pide bolsa p/jeringa 90x250x40-50mm — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE — no coincide con medida del pliego",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 38,
+                "marca": "Kims (90x250x50mm, coincide con pliego)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 4,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 75mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 24450,
+                "marca": "Yellow Pack",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 41494,
+                "marca": "Sterilys",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-27725684-GDEBA-HIAEPSSMLMSALGP, apertura 07/09/2026. ALERTA: R1 y R13 — ABLE cotizó la misma bolsa (140x50x330mm) para ambos, pero el pliego pide medidas distintas: R1 = 140-145x320x40mm, R13 = 90x250x40-50mm (bolsa p/jeringa). KIMS sí coincide con el pliego en ambos. Riesgo de rechazo técnico en ABLE, no solo tema de precio. R1 y R13 piden además cotizar alternativa en bolsa termosoldable "
+      },
       "id": 262,
       "entidad": "Htal. Ludovica",
-      "nro": "PA 296",
+      "nro": "PA 296/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-07",
       "monto": 2449300,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-27725684-GDEBA-HIAEPSSMLMSALGP, apertura 07/09/2026. R3-12 (salvo los que ABLE cotizó) no se incluyen: ABLE no participó ahí. ALERTA: R1 y R13 — ABLE cotizó la misma bolsa (140x50x330mm) para ambos, pero el pliego pide medidas distintas: R1 = 140-145x320x40mm, R13 = 90x250x40-50mm (bolsa p/jeringa). KIMS sí coincide con el pliego en ambos. Riesgo de rechazo técnico en ABLE, no solo tema de precio. R1 y R13 piden además cotizar alternativa en bolsa termosoldable — no consta que ABLE la haya presentado. Muestra obligatoria (pto. 2 Anexo III, cláusula completa con lugar/horario) en casi todos los renglones — Depósito de Farmacia, 8 a 12hs. Caducidad mínima exigida: 24 meses desde la entrega (pto. 5 Anexo III). R2: diferencia con Igaltex de 2,05% — apenas fuera de empate técnico (≤2%), origen de Igaltex/Sterilys sin confirmar.",
       "creado": "2026-08-31T13:49:07.455Z"
     },
     {
@@ -72033,19 +72171,35 @@
       "creado": "2026-09-03T19:34:32.672Z"
     },
     {
-      "id": 275,
-      "entidad": "H.I.E.A.C. San Juan de Dios",
-      "nro": "PA 97",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-04",
-      "monto": 11052000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pre-adjudicación",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. Nombre del hospital y fecha de apertura no confirmados en el cuadro comparativo — verificar contra el acta original. R1-18 y R20-24 no se incluyen: ABLE no cotizó ahí (solo participa en R19).",
+      "preadj_fecha": "2026-09-03",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "19",
+          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado para atencion bajo aislamiento de contacto - Marca ArgentCare (Ind. argentina)",
+          "cant": 18000,
+          "precio_able": 614,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.19 (camisolin descartable SMS 30G/m2 manga larga puño ajustado ArgentCare, 18.000u x $614 = $11.052.000, PP). MAYOR. Otros proveedores: Medic Center, Euromix (guantes nitrilo). Reng.3 (filtro viral) FRACASADO. Total LP: $28.001.101,90. Expediente EX-2026-22638810-GDEBA-HIEACSJDMSALGP.",
+      "gestion_pre_resultado": "Ganado",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "0001-01-01",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -72097,36 +72251,20 @@
         ],
         "notas": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. "
       },
-      "preadj_fecha": "2026-09-03",
-      "preadj_empate_ok": "No",
-      "preadj_pref_ok": "No",
-      "gestion_pre": "ABLE gana reng.19 (camisolin descartable SMS 30G/m2 manga larga puño ajustado ArgentCare, 18.000u x $614 = $11.052.000, PP). MAYOR. Otros proveedores: Medic Center, Euromix (guantes nitrilo). Reng.3 (filtro viral) FRACASADO. Total LP: $28.001.101,90. Expediente EX-2026-22638810-GDEBA-HIEACSJDMSALGP.",
-      "gestion_pre_resultado": "Ganado",
-      "adj_recibida": false,
-      "adj_fecha": "0001-01-01",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-04T12:10:19.688Z",
-      "renglones_preadj": [
-        {
-          "reng": "19",
-          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado para atencion bajo aislamiento de contacto - Marca ArgentCare (Ind. argentina)",
-          "cant": 18000,
-          "precio_able": 614,
-          "marca": "ArgentCare",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "menor_precio"
-        }
-      ]
+      "id": 275,
+      "entidad": "H.I.E.A.C. San Juan de Dios",
+      "nro": "PA 97",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-04",
+      "monto": 11052000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-22638810-GDEBA-HIEACSJDMSALGP. Nombre del hospital y fecha de apertura no confirmados en el cuadro comparativo — verificar contra el acta original. R1-18 y R20-24 no se incluyen: ABLE no cotizó ahí (solo participa en R19).",
+      "creado": "2026-09-04T12:10:19.688Z"
     },
     {
       "preadj_fecha": "",
@@ -73007,7 +73145,71 @@
       "pref": "",
       "obs": "",
       "creado": "2026-09-04T18:10:38.758Z"
+    },
+    {
+      "id": 283,
+      "entidad": "Htal Malvinas",
+      "nro": "PA 140",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-11",
+      "monto": 63073500,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-07T20:05:55.152Z"
+    },
+    {
+      "id": 284,
+      "entidad": "Htal Pirovano",
+      "nro": "CM 427-3061",
+      "tipo": "Contratación Menor",
+      "fecha": "2026-09-10",
+      "monto": 13298400,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-07T20:05:55.296Z"
     }
   ],
-  "nextId": 283
+  "nextId": 285
 }
