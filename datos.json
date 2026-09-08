@@ -73674,7 +73674,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación.",
@@ -73852,7 +73852,7 @@
       "preadj_fecha": "2026-09-01",
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "No",
-      "gestion_pre": "PREADJUDICACION PARCIAL. ABLE no gana ningun renglon en esta instancia. Azcuenaga gana rengs.1,3,4,5,7 (pañales Huggies, $10.483.155). MG Pharmacorp gana rengs.32 (canula alto flujo F&P) y rengs.24,25,26 (bolsas oxigeno DCD). PARCIAL — pueden quedar renglones pendientes de resolver. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22641033-GDEBA-HIGDJPMSALGP.",
+      "gestion_pre": "ABLE no gana ningun renglon. Reng.9 (bolsa ileostomia neonatal ABLE, $3.800) DADO DE BAJA por contar con stock. Rengs.22 y 23 (aro acople colostomia y bolsa colostomia/ileostomia 2 piezas) ABLE verde en comparativa pero adjudicados a Nestor (asesoramiento). Reng.6 (tiras reactivas) ABLE pierde vs Medline. Azcuenaga gana rengs.1,3,4,5,7 (pañales). MG Pharmacorp reng.32. PREADJUDICACION PARCIAL. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22641033-GDEBA-HIGDJPMSALGP.",
       "gestion_pre_resultado": "Perdido",
       "adj_recibida": false,
       "adj_fecha": "",
@@ -73862,11 +73862,56 @@
       "adj_tiene_alerta": false,
       "gestion_post": "",
       "gestion_post_resultado": "",
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "ABLE no gana ningun renglon. Reng.9 dado de baja por stock. Rengs.22 y 23 adjudicados a Nestor. Reng.6 adjudicado a Medline. ABLE no recibe OC.",
       "creado": "2026-09-08T15:11:31.980Z",
-      "renglones_preadj": []
+      "renglones_preadj": [
+        {
+          "reng": "6",
+          "desc": "Tira reactiva p/determinacion de glucosa en sangre c/glucometros en comodato",
+          "cant": 1200,
+          "precio_able": 344.08,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 175,
+          "ganador_sig": "Medline ($175 x 1.200u = $210.000)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "9",
+          "desc": "Bolsa p/ileostomia neonatal con aro recortable 15 a 32mm transparente con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 30,
+          "precio_able": 3800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Dado de baja — hospital cuenta con stock",
+          "motivo": "desierto"
+        },
+        {
+          "reng": "22",
+          "desc": "Aro de acople p/bolsa de colostomia varias medidas (tipo Coloplast) - Marca ABLE (Ind. argentina)",
+          "cant": 60,
+          "precio_able": 3200,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Nestor (asesoramiento)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "23",
+          "desc": "Bolsa p/colostomia/ileostomia abierta de dos piezas para adultos - Marca ABLE (Ind. argentina)",
+          "cant": 180,
+          "precio_able": 2800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Nestor (asesoramiento)",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "id": 287,
