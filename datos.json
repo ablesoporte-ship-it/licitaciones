@@ -72112,9 +72112,9 @@
         "notas": "ABLE UNICA OFERENTE en los 4 renglones. Total cotizado: $1.383.800,00. Procedimiento SAMO fondos propios. Reng.1 y otros renglones no cotizados por ABLE no se incluyen."
       },
       "id": 266,
-      "entidad": "Htal V. del Carmen",
+      "entidad": "Htal Virgen del Carmen",
       "nro": "SAMO 24",
-      "tipo": "Procedimiento Abreviado SAMO - Fondos Propios",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-03",
       "monto": 1383800,
       "mayor": "No",
@@ -72195,37 +72195,166 @@
       "creado": "2026-09-02T17:56:36.500Z"
     },
     {
+      "id": 269,
+      "entidad": "Htal Virgen del Carmen",
+      "nro": "SAMO 29",
+      "tipo": "Procedimiento Abreviado - SAMO Fondos Propios",
+      "fecha": "2026-09-08",
+      "monto": 526350,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-30107574-GDEBA-HZGAVCMSALGP, apertura 08/09/2026. R3, R4, R5, R6, R8 y R9 no se incluyen: ABLE no cotizó ahí. R1: el pliego pide indicar si se cotiza por par o unidad. Todos los demás oferentes cotizan por par — se usó la alternativa de ABLE por par ($143,00) para comparar; su oferta principal es por unidad ($80,30).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "LEIX Insumos Hospitalarios",
+          "Droguería Martorani S.A.",
+          "Propato Hnos. S.A.I.C."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 3000,
+            "desc": "Cubrecalzado (bota p/cirugía) descartable, no estéril, c/cintas ajustables, tela no tejida hemorrepelente — precio por PAR",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143,
+                "marca": "ArgentCare (por par)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": 221,
+                "marca": "Ins. Quirúrgicos",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 160.7,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 231.43,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 3000,
+            "desc": "ALT.1 — Cubrecalzado con elástico, descartable, no estéril, tela no tejida, no deslizable — marca ArgentCare, precio por UNIDAD",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 80.3,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 3000,
+            "desc": "Cofia descartable elastizada",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 32.45,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": 43,
+                "marca": "NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 41.9,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 42.73,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-30107574-GDEBA-HZGAVCMSALGP, apertura 08/09/2026. R3, R4, R5, R6, R8 y R9 no se incluyen: ABLE no cotizó ahí. R1: el pliego pide indicar si se cotiza por par o unidad. Todos los demás oferentes cotizan por par — se usó la alternativa de ABLE por par ($143,00) para comparar; su oferta principal es por unidad ($80,30)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 269,
-      "entidad": "Htal V. Carmen",
-      "nro": "PA 29",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-08",
-      "monto": 767250,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-02T18:42:16.170Z"
     },
     {
@@ -73239,26 +73368,8 @@
       "creado": "2026-09-04T16:09:27.334Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 280,
-      "entidad": "Htal V. Lopez y Planes",
+      "entidad": "HTAL Vicente Lopez y Planes",
       "nro": "PA 155",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-08",
@@ -73266,10 +73377,157 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-28534569-GDEBA-HIAVLPMSALGP, apertura 08/09/2026. R4 y R5 no se incluyen: ABLE no cotizó ahí. ALERTA R1: ABLE cotizó 140x50x330mm — pliego pide 140x250x40-75mm. Los demás sí coinciden. R2: ABLE cotizó 140x50x330mm, mismos valores que pide el pliego en otro orden — coincide. ALERTA R3: ABLE cotizó 110x30x190mm — pliego pide 90x125x25-50mm. Es el más barato pero no coincide la medida. Muestra: cláusula del pto. 2 sin lugar/horario completado — no tendría validez tal como está. Caducidad mínima exigida: 6 meses desde la entrega.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "KIMS S.R.L.",
+          "Raúl Jorge León Poggi",
+          "Laboratorios Igaltex SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 50000,
+            "desc": "Pliego pide bolsa 140x250x40-75mm (YA253307) — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE — no coincide con medida del pliego",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 52,
+                "marca": "Yellow Pack (140x250x40-75mm, coincide con pliego)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 253,
+                "marca": "Ins. Quirúrgicos (140x250x40-75mm, coincide con pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 56.24,
+                "marca": "Sterilys (140x40x250mm, coincide con pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 60000,
+            "desc": "Bolsa de papel grado médico 140x330x50mm, c/indicador químico calor húmedo (YA253308)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 61,
+                "marca": "Yellow Pack",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 288,
+                "marca": "Ins. Quirúrgicos",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 77.29,
+                "marca": "Sterilys",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 3000,
+            "desc": "Pliego pide bolsa 90x125x25-50mm (YA253301) — ABLE cotizó 110x30x190mm (medida distinta, verificar)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "ABLE — no coincide con medida del pliego",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 46,
+                "marca": "Yellow Pack (90x125x25-50mm, coincide con pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 53.23,
+                "marca": "Sterilys (125x50x250mm — tampoco coincide exacto con el pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-28534569-GDEBA-HIAVLPMSALGP, apertura 08/09/2026. R4 y R5 no se incluyen: ABLE no cotizó ahí. ALERTA R1: ABLE cotizó 140x50x330mm — pliego pide 140x250x40-75mm. Los demás sí coinciden. R2: ABLE cotizó 140x50x330mm, mismos valores que pide el pliego en otro orden — coincide. ALERTA R3: ABLE cotizó 110x30x190mm — pliego pide 90x125x25-50mm. Es el más barato pero no coincide la medida. Muestra: cláusula del pto. 2 sin lugar/horario completado — no tendría validez tal como está. Caducidad mínima exigida: 6 meses desde la entrega."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-04T17:34:34.630Z"
     },
     {
