@@ -66548,40 +66548,6 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 233,
-      "entidad": "Htal Penna",
-      "nro": "PA 223",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-01",
-      "monto": 1146600,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-20T18:56:56.538Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -73697,7 +73663,242 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-09-08T15:08:07.834Z"
+    },
+    {
+      "id": 286,
+      "entidad": "Htal Penna",
+      "nro": "PA 223",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-04",
+      "monto": 810000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Nestor Luis Serrón y Cía SRL",
+          "Droguería Azcuénaga S.R.L.",
+          "Gustavo Daniel Nastasi"
+        ],
+        "renglones": [
+          {
+            "reng": "9",
+            "cant": 30,
+            "desc": "Bolsa de ileostomía neonatal con aro recortable 15 a 32mm, transparente, contiene filtro",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3800,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": 8124,
+                "marca": "Coloplast",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 9303,
+                "marca": "Hollister/Easyflex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 60,
+            "desc": "Aro de acople p/bolsa de colostomía, varias medidas (tipo Coloplast 13191 / Hollister)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": 11248,
+                "marca": "Coloplast",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 8400,
+                "marca": "Hollister",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": 13163,
+                "marca": "Convatec (Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 180,
+            "desc": "Bolsa p/colostomía/ileostomía abierta de dos piezas, para adultos",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2800,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": 5910,
+                "marca": "Coloplast",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 5400,
+                "marca": "Hollister",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 180,
+            "desc": "ALTERNATIVA — Bolsa de ileostomía con desagote, de 1 pieza, aro recortable 15 a 70mm, contiene filtro",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-08T15:11:31.980Z"
+    },
+    {
+      "id": 287,
+      "entidad": "",
+      "nro": "",
+      "tipo": "",
+      "fecha": "",
+      "monto": 0,
+      "mayor": "No",
+      "zona": "",
+      "agente": "",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-08T15:17:57.578Z"
     }
   ],
-  "nextId": 286
+  "nextId": 288
 }
