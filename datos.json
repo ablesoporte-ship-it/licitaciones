@@ -73674,7 +73674,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noé",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación.",
@@ -73849,11 +73849,11 @@
         ],
         "notas": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-01",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "PREADJUDICACION PARCIAL. ABLE no gana ningun renglon en esta instancia. Azcuenaga gana rengs.1,3,4,5,7 (pañales Huggies, $10.483.155). MG Pharmacorp gana rengs.32 (canula alto flujo F&P) y rengs.24,25,26 (bolsas oxigeno DCD). PARCIAL — pueden quedar renglones pendientes de resolver. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22641033-GDEBA-HIGDJPMSALGP.",
+      "gestion_pre_resultado": "Perdido",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
@@ -73865,7 +73865,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-08T15:11:31.980Z"
+      "creado": "2026-09-08T15:11:31.980Z",
+      "renglones_preadj": []
     },
     {
       "id": 287,
