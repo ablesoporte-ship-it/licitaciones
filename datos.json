@@ -66152,8 +66152,8 @@
       "fecha": "2026-08-26",
       "monto": 1343160,
       "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noé",
+      "zona": "ABLE",
+      "agente": "ABLE",
       "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "",
@@ -74800,7 +74800,63 @@
           "motivo": "menor_precio"
         }
       ]
+    },
+    {
+      "id": 289,
+      "entidad": "H.Z.G.A. Horacio Cestino",
+      "nro": "PA 52",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-07",
+      "monto": 9931300,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pre-adjudicación",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "2026-09-09",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE gana rengs.25 y 26. Total: $559.500,00. Reng.25 (cofia descartable elastizada ArgentCare, 5.000u x $28,50 = $142.500, PP). Reng.26 (cubrecalzado botas cirugia ArgentCare c/cintas ajustables, 6.000u x $69,50 = $417.000, PP). Total LP: $10.511.332,00. PREADJUDICACION APROBADA. Expediente EX-2026-22155517-GDEBA-HZGAHCMSALGP. H.Z.G.A. Horacio Cestino, Ensenada.",
+      "gestion_pre_resultado": "Ganado",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-09T19:48:41.988Z",
+      "renglones_preadj": [
+        {
+          "reng": "25",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare (Ind. argentina)",
+          "cant": 5000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "26",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril c/cintas ajustables tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare (Ind. argentina)",
+          "cant": 6000,
+          "precio_able": 69.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     }
   ],
-  "nextId": 289
+  "nextId": 290
 }
