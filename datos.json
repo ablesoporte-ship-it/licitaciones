@@ -26062,14 +26062,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-09",
+      "adj_monto_able": 1205000,
+      "adj_resumen": "ABLE adjudicada en reng.12 (PGA N°3/0 aguja 25mm 1/2 circ. punta redonda 70cm Surgimax, 1.000u x $1.205 = $1.205.000). Reng.16 (LT300) rechazado precio excesivo. OC 362/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-09",
+      "oc_alertas": "OC Nro. 362/2026 fecha 09/09/2026. Reng.12 (PGA N°3/0 Surgimax, 1.000u x $1.205 = $1.205.000,00). Disposicion DISPO-2026-1055-GDEBA-HIGAEMSALGP/2026. H.I.G.A. Evita, Lanus.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -26430,11 +26430,35 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Renglón 12 — el pliego especifica punta cilíndrica y ABLE cotiza punta redonda; en nomenclatura de suturas ambos términos son equivalentes (punta no cortante/atraumática), no se considera incumplimiento técnico real. Renglones 10 y 11 — ABLE pierde con diferencia mayor al 50% frente a Laboratorios Igaltex S.R.L. (exento de IVA), sin margen de gestión por empate ni preferencia nacional. Renglón 12 — Cardiopack Argentina S.A. (marca Surgikal) declara expresamente origen India en su presupuesto, a diferencia de otras licitaciones donde Surgikal figura como industria argentina. No obstante, ABLE gana este renglón directo por precio ($1.205 vs $1.242,67), la diferencia queda solo como dato de contexto. Renglón 16 — ABLE es el único oferente (cartucho de clips de titanio LT300); gana por defecto sin competencia. ABLE cotiza 4 renglones de esta licitación (10, 11, 12 y 16) de un total de 16.",
-      "creado": "2026-07-02T19:27:23.611Z"
+      "creado": "2026-07-02T19:27:23.611Z",
+      "renglones_adj": [
+        {
+          "reng": "12",
+          "desc": "Sutura de Acido Poliglicolico N°3/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 1000,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "16",
+          "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo LT300 - Marca ABLE (Ind. argentina)",
+          "cant": 1500,
+          "precio_able": 5296,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-07-15",
@@ -61074,12 +61098,35 @@
       "creado": "2026-08-07T20:07:02.700Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-19",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "32",
+          "desc": "LigaClip hemostatico titanio tipo LT400 - cartucho con 6 clips de titanio tamaño grande LT400 - Marca ABLE (Ind. argentina)",
+          "cant": 75,
+          "precio_able": 5425,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "33",
+          "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo mediano/grande LT300 - Marca ABLE (Ind. argentina)",
+          "cant": 50,
+          "precio_able": 4521,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.32 y 33 (clips titanio LT400 y LT300). Total: $632.925,00. Reng.32 (LigaClip LT400 ABLE, 75u x $5.425 = $406.875, PP). Reng.33 (LigaClip LT300 ABLE, 50u x $4.521 = $226.050, PP). Total LP: $9.904.020,40 entre varios proveedores. PREADJUDICACION APROBADA. Expediente EX-2026-23197051-GDEBA-HZGAMPMSALGP. H.Z.G.A. Mi Pueblo, Florencio Varela.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -61104,7 +61151,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -67957,12 +68004,24 @@
       "creado": "2026-08-21T12:38:53.207Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-04",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/ileostomia drenable recortable c/barrera protectora 25mm x 64mm - Marca ABLE (Ind. argentina)",
+          "cant": 180,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.1 (bolsa ileostomia drenable recortable c/barrera protectora 25mm x 64mm, paciente Tarabelli Jonatan DNI 40669738, 180u x $1.870 = $336.600, PUP). RSI Bahia Blanca. Expediente EX-2026-22591233-GDEBA-RSIMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -67984,7 +68043,7 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -68561,12 +68620,24 @@
       "creado": "2026-08-21T19:27:06.263Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-09",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 270,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.1 (bolsa ileostomia drenable 1 pieza aro recortable 15-70mm con filtro, 270u x $1.870 = $504.900). RSI Bahia Blanca. OC 99/2026. Expediente EX-2026-21374599-GDEBA-RSIMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -68588,7 +68659,7 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -72664,24 +72735,6 @@
       "creado": "2026-09-02T18:42:16.170Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 270,
       "entidad": "Htal Melendez",
       "nro": "PA 174",
@@ -72691,11 +72744,73 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-03T13:11:13.079Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.1 (equipo cirugia Ebano): ABLE $28.600 pierde vs Aupres $22.100 (-22,7%). Ambos nacionales — no aplica preferencia nacional. Reng.2 (equipo parto alto riesgo): ABLE no cotiza — Aupres $18.000 y Bioneural $25.000. Rengs.3-9 (cemento quirurgico, mallas, guantes nitrilo, sonda drenaje): ABLE no cotiza.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Aupres S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 20,
+            "desc": "Equipo de cirugia descartable hemorrepelente esteril 4 camisolines + 2 campos grandes + 2 campos medianos + 2 campos chicos - Marca Ebano (Ind. argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 28600,
+                "marca": "Ebano - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 22100,
+                "marca": "Bioportec - Aupres S.R.L. (Ind. argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1 (equipo cirugia Ebano): ABLE $28.600 pierde vs Aupres $22.100 (-22,7%). Ambos nacionales — no aplica preferencia nacional. Reng.2 (equipo parto alto riesgo): ABLE no cotiza — Aupres $18.000 y Bioneural $25.000. Rengs.3-9 (cemento quirurgico, mallas, guantes nitrilo, sonda drenaje): ABLE no cotiza."
+      },
+      "preadj_fecha": "2026-09-09",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE no gana ningun renglon. Reng.1 (equipo cirugia Ebano, 20u x $28.600): pierde vs Aupres ($22.100 x 20u = $442.000). Ambos nacionales — no aplica preferencia nacional. Rengs.2-9: ABLE no cotiza. Expediente EX-2026-22798334-GDEBA-HZGLMMSALGP.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "Reng.1 adjudicado a Aupres S.R.L. ($22.100). ABLE no recibe OC.",
+      "creado": "2026-09-03T13:11:13.079Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Equipo de cirugia descartable hemorrepelente esteril 4 camisolines 2 campos grandes 2 campos medianos 2 campos chicos - Marca Ebano",
+          "cant": 20,
+          "precio_able": 28600,
+          "marca": "Ebano",
+          "resultado": "no_adj",
+          "precio_siguiente": 22100,
+          "ganador_sig": "Aupres S.R.L. ($22.100 x 20u = $442.000)",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
