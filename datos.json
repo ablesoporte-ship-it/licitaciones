@@ -14183,10 +14183,10 @@
       "renglones_preadj": [
         {
           "reng": "1",
-          "desc": "Cartucho con 6 clips de titanio tamaño grande tipo LT400, marca ABLE (clipadora en comodato)",
+          "desc": "Cartucho con 6 clips de titanio tamaño grande tipo LT400 - Marca ABLE (clipadora en comodato)",
           "cant": 70,
           "precio_able": 7800,
-          "marca": "ABLE (Ind. Argentina)",
+          "marca": "ABLE",
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
@@ -14194,10 +14194,10 @@
         },
         {
           "reng": "2",
-          "desc": "Cartucho con 6 clips de titanio tamaño mediano/grande tipo LT300, marca ABLE (clipadora en comodato)",
+          "desc": "Cartucho con 6 clips de titanio tamaño mediano/grande tipo LT300 - Marca ABLE (clipadora en comodato)",
           "cant": 200,
           "precio_able": 6420,
-          "marca": "ABLE (Ind. Argentina)",
+          "marca": "ABLE",
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
@@ -14211,12 +14211,12 @@
       "adj_recibida": false,
       "adj_fecha": "2026-07-20",
       "adj_monto_able": 1830000,
-      "adj_resumen": "ABLE adjudicada en rengs.1 y 2 (clips titanio LT400 y LT300, marca ABLE Ind. Argentina). Reng.1 (LT400, 70u x $7.800 = $546.000). Reng.2 (LT300, 200u x $6.420 = $1.284.000). Total: $1.830.000,00. Disposicion DISPO-2026-633-GDEBA-HZGAHMMSALGP.",
+      "adj_resumen": "ABLE adjudicada en rengs.1 y 2 (clips titanio LT400 y LT300). Reng.1 (LT400, 70u x $7.800 = $546.000). Reng.2 (LT300, 200u x $6.420 = $1.284.000). Total: $1.830.000,00. OC 335/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "oc": "Correcta",
       "oc_fecha": "2026-07-20",
-      "oc_alertas": "OC Nro. 335/2026. Disposicion DISPO-2026-633-GDEBA-HZGAHMMSALGP. Rengs.1 y 2 sin diferencias respecto de lo adjudicado — cantidades y precios unitarios coinciden. Total: $1.830.000,00.",
+      "oc_alertas": "OC Nro. 335/2026. Disposicion DISPO-2026-633-GDEBA-HZGAHMMSALGP. Rengs.1 y 2 sin diferencias. Total: $1.830.000,00.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -14311,10 +14311,10 @@
       "renglones_adj": [
         {
           "reng": "1",
-          "desc": "Cartucho con 6 clips de titanio tamaño grande tipo LT400, marca ABLE (clipadora en comodato)",
+          "desc": "Cartucho con 6 clips de titanio tamaño grande tipo LT400 - Marca ABLE (clipadora en comodato)",
           "cant": 70,
           "precio_able": 7800,
-          "marca": "ABLE (Ind. Argentina)",
+          "marca": "ABLE",
           "resultado": "adj",
           "motivo": "menor_precio",
           "precio_siguiente": null,
@@ -14322,10 +14322,10 @@
         },
         {
           "reng": "2",
-          "desc": "Cartucho con 6 clips de titanio tamaño mediano/grande tipo LT300, marca ABLE (clipadora en comodato)",
+          "desc": "Cartucho con 6 clips de titanio tamaño mediano/grande tipo LT300 - Marca ABLE (clipadora en comodato)",
           "cant": 200,
           "precio_able": 6420,
-          "marca": "ABLE (Ind. Argentina)",
+          "marca": "ABLE",
           "resultado": "adj",
           "motivo": "menor_precio",
           "precio_siguiente": null,
@@ -64522,14 +64522,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-08",
+      "adj_monto_able": 2438490,
+      "adj_resumen": "ABLE adjudicada en rengs.5,7,8,9,10,11,13 (suturas nylon y PGA marcas Surgimax y ABLE con precios mejorados). Total: $2.438.490,00. OC 362/2026. Reng.6 adjudicado a Cardiopack (rechazada ABLE por precio excesivo).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-08",
+      "oc_alertas": "OC Nro. 362/2026 fecha 08/09/2026. Rengs.5,7,8,9 por preferencia productor argentino (precios mejorados). Reng.10 (PGA N°1 ABLE, 500u x $1.321,65). Rengs.11,13 menor precio. Total: $2.438.490,00. Reng.6 Cardiopack (ABLE rechazada precio excesivo). Disposicion DISPO-2026-698-GDEBA-HZGAPVCMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -65641,11 +65641,112 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "Sí",
       "obs": "ABLE solo cotiza R5 a R13 (no cotiza R1-4, suturas de lino). R6: el pliego exige aguja de 40mm (código TT40, ver oferta Cardiopack). La oferta de ABLE (base y ALT1) es de 30mm — no coincide con la especificación. Revisar con ABLE antes de presentar. Cardiopack Argentina S.A. (marca Surgikal, origen India) e Cirugía Argentina (marca Tagum, origen Perú) son oferentes de origen importado — aplica preferencia nacional donde corresponda por estar dentro del rango 2-10%.",
-      "creado": "2026-08-18T18:21:30.781Z"
+      "creado": "2026-08-18T18:21:30.781Z",
+      "renglones_adj": [
+        {
+          "reng": "5",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 60mm recta punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina) - cod. NYM2206075J",
+          "cant": 380,
+          "precio_able": 543,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja recta - Marca Surgimax (Ind. argentina)",
+          "cant": 615,
+          "precio_able": 598,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Cardiopack Argentina S.A. (PAS — ajusta a lo solicitado). ABLE rechazada por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 24mm 3/8 circ. punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 865,
+          "precio_able": 543,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura nylon monofilamento N°5/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 260,
+          "precio_able": 543,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura PGA N°0 c/aguja 35mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 215,
+          "precio_able": 1178,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura PGA N°1 c/aguja 50mm 1/2 circ. punta redonda hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 500,
+          "precio_able": 1321.65,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 330,
+          "precio_able": 1197,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "preferencia_nac",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura PGA N°2/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 390,
+          "precio_able": 1197,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "13",
+          "desc": "Sutura PGA N°5/0 c/aguja 15mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 265,
+          "precio_able": 1178,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-24",
@@ -66044,38 +66145,447 @@
       "creado": "2026-08-19T17:57:25.025Z"
     },
     {
-      "preadj_fecha": "",
+      "id": 230,
+      "entidad": "Htal Jose Penna",
+      "nro": "PA 215",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-26",
+      "monto": 1343160,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noé",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "",
+      "obs": "Expte. EX-2026-22600243-GDEBA-HIGDJPMSALGP. ABLE cotizó R3, R4, R5, R10, R12 y R25 (confirmado con su propia oferta) — el resto del cuadro no se incluye. R3, R4 y R5: Cardiopack cotiza con marca Surgikal de origen India (así consta en el cuadro) — diferencias de 3,4% a 6,1% con ABLE, dentro de rango de preferencia nacional. Según acta de preadjudicación (08/09/2026): se adjudicó a ABLE solo R10 y R12. R3, R4 y R5 fueron a Cardiopack. R25 fue rechazado por precio excesivo (pese a ser único oferente).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Cardiopack Argentina S.A.",
+          "Droguería Azcuénaga S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 192,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0, aguja 25mm 1/2 circ. punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1732,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1136.19,
+                "marca": "Surgikal (India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 3355,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 240,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0, aguja 20mm 1/2 circ. punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1732,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1136.19,
+                "marca": "Surgikal (India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 240,
+            "desc": "ALT — ABLE, marca propia",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 180,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0, aguja 24mm 3/8 circ. punta rev. cort., hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2032,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 586.85,
+                "marca": "Surgikal (India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 1128,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 180,
+            "desc": "ALT — ABLE, aguja recta 60mm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 72,
+            "desc": "Sutura de Polipropileno N° 2/0, aguja 25mm 1/2 circ. punta redonda, hebra 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2330,
+                "marca": "Surgikal",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2750.33,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 6940,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 108,
+            "desc": "Sutura de Ácido Poliglicólico N° 5/0, aguja 15mm 1/2 circ. punta redonda, hebra 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1732,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1210,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 2989,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 36,
+            "desc": "Sutura de Ácido Poliglicólico N° 8/0, doble aguja 6,5mm 3/8 circ. punta espatulada, hebra 45cm — RECHAZADO por precio excesivo (único oferente)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 13200,
+                "marca": "ABLE — rechazado por precio excesivo (acta de preadjudicación)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-22600243-GDEBA-HIGDJPMSALGP. ABLE cotizó R3, R4, R5, R10, R12 y R25 (confirmado con su propia oferta) — el resto del cuadro no se incluye. R3, R4 y R5: Cardiopack cotiza con marca Surgikal de origen India (así consta en el cuadro) — diferencias de 3,4% a 6,1% con ABLE, dentro de rango de preferencia nacional. Según acta de preadjudicación (08/09/2026): se adjudicó a ABLE solo R10 y R12. R3, R4 y R5 fueron a Cardiopack. R25 fue rechazado por precio excesivo (pese a ser único oferente)."
+      },
+      "preadj_fecha": "2026-09-08",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 230,
-      "entidad": "Htal Jose Penna",
-      "nro": "PA 215",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-26",
-      "monto": 1772820,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-19T20:26:19.951Z"
+      "creado": "2026-08-19T20:26:19.951Z",
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Sutura de Ácido Poliglicólico N° 2/0, aguja 25mm 1/2 circ. punta redonda, hebra 70cm",
+          "cant": 192,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1136.19,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": "preferencia_nac",
+          "gestion_pre": "pendiente",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0, aguja 20mm 1/2 circ. punta redonda, hebra 70cm",
+          "cant": 240,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1136.19,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": "preferencia_nac",
+          "gestion_pre": "pendiente",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Nylon Monofilamento N° 3/0, aguja 24mm 3/8 circ. punta rev. cort., hebra 75cm",
+          "cant": 180,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 586.85,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": "preferencia_nac",
+          "gestion_pre": "pendiente",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura de Polipropileno N° 2/0, aguja 25mm 1/2 circ. punta redonda, hebra 75cm",
+          "cant": 72,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": "",
+          "motivo": "",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura de Ácido Poliglicólico N° 5/0, aguja 15mm 1/2 circ. punta redonda, hebra 70cm",
+          "cant": 108,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": "",
+          "motivo": "",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "25",
+          "desc": "Sutura de Ácido Poliglicólico N° 8/0, doble aguja 6,5mm 3/8 circ. punta espatulada, hebra 45cm",
+          "cant": 36,
+          "precio_able": 13200,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "",
+          "motivo": "rechazado_precio_excesivo",
+          "gestion_pre": "",
+          "gestion_pre_resultado": "Rechazado por la comisión por precio excesivo, pese a ser único oferente"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -66358,40 +66868,6 @@
       "pref": "No",
       "obs": "Reng. 1, 2, 3, 4, 9, 10, 11, 12, 13, 16: ABLE gana directo por amplio margen frente al único competidor (Poggi). Reng. 1: el propio cuadro del hospital aclara que ABLE ofertó bolsa 140x50x330mm; el pliego pide 125x250x50-90mm.",
       "creado": "2026-08-20T16:59:49.897Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
-      "id": 232,
-      "entidad": "Htal Jose Penna",
-      "nro": "PA 216",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-08-26",
-      "monto": 41798874,
-      "mayor": "Sí",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-20T18:37:58.791Z"
     },
     {
       "preadj_fecha": "",
@@ -72024,19 +72500,23 @@
       "creado": "2026-09-02T17:56:36.500Z"
     },
     {
-      "id": 269,
-      "entidad": "Htal Virgen del Carmen",
-      "nro": "SAMO 29",
-      "tipo": "Procedimiento Abreviado - SAMO Fondos Propios",
-      "fecha": "2026-09-08",
-      "monto": 526350,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Expte. EX-2026-30107574-GDEBA-HZGAVCMSALGP, apertura 08/09/2026. R3, R4, R5, R6, R8 y R9 no se incluyen: ABLE no cotizó ahí. R1: el pliego pide indicar si se cotiza por par o unidad. Todos los demás oferentes cotizan por par — se usó la alternativa de ABLE por par ($143,00) para comparar; su oferta principal es por unidad ($80,30).",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -72168,22 +72648,19 @@
         ],
         "notas": "Expte. EX-2026-30107574-GDEBA-HZGAVCMSALGP, apertura 08/09/2026. R3, R4, R5, R6, R8 y R9 no se incluyen: ABLE no cotizó ahí. R1: el pliego pide indicar si se cotiza por par o unidad. Todos los demás oferentes cotizan por par — se usó la alternativa de ABLE por par ($143,00) para comparar; su oferta principal es por unidad ($80,30)."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 269,
+      "entidad": "Htal Virgen del Carmen",
+      "nro": "SAMO 29",
+      "tipo": "Procedimiento Abreviado - SAMO Fondos Propios",
+      "fecha": "2026-09-08",
+      "monto": 526350,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-30107574-GDEBA-HZGAVCMSALGP, apertura 08/09/2026. R3, R4, R5, R6, R8 y R9 no se incluyen: ABLE no cotizó ahí. R1: el pliego pide indicar si se cotiza por par o unidad. Todos los demás oferentes cotizan por par — se usó la alternativa de ABLE por par ($143,00) para comparar; su oferta principal es por unidad ($80,30).",
       "creado": "2026-09-02T18:42:16.170Z"
     },
     {
@@ -73197,19 +73674,23 @@
       "creado": "2026-09-04T16:09:27.334Z"
     },
     {
-      "id": 280,
-      "entidad": "HTAL Vicente Lopez y Planes",
-      "nro": "PA 155",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-08",
-      "monto": 8409980,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Expte. EX-2026-28534569-GDEBA-HIAVLPMSALGP, apertura 08/09/2026. R4 y R5 no se incluyen: ABLE no cotizó ahí. ALERTA R1: ABLE cotizó 140x50x330mm — pliego pide 140x250x40-75mm. Los demás sí coinciden. R2: ABLE cotizó 140x50x330mm, mismos valores que pide el pliego en otro orden — coincide. ALERTA R3: ABLE cotizó 110x30x190mm — pliego pide 90x125x25-50mm. Es el más barato pero no coincide la medida. Muestra: cláusula del pto. 2 sin lugar/horario completado — no tendría validez tal como está. Caducidad mínima exigida: 6 meses desde la entrega.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -73341,22 +73822,19 @@
         ],
         "notas": "Expte. EX-2026-28534569-GDEBA-HIAVLPMSALGP, apertura 08/09/2026. R4 y R5 no se incluyen: ABLE no cotizó ahí. ALERTA R1: ABLE cotizó 140x50x330mm — pliego pide 140x250x40-75mm. Los demás sí coinciden. R2: ABLE cotizó 140x50x330mm, mismos valores que pide el pliego en otro orden — coincide. ALERTA R3: ABLE cotizó 110x30x190mm — pliego pide 90x125x25-50mm. Es el más barato pero no coincide la medida. Muestra: cláusula del pto. 2 sin lugar/horario completado — no tendría validez tal como está. Caducidad mínima exigida: 6 meses desde la entrega."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 280,
+      "entidad": "HTAL Vicente Lopez y Planes",
+      "nro": "PA 155",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-08",
+      "monto": 8409980,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-28534569-GDEBA-HIAVLPMSALGP, apertura 08/09/2026. R4 y R5 no se incluyen: ABLE no cotizó ahí. ALERTA R1: ABLE cotizó 140x50x330mm — pliego pide 140x250x40-75mm. Los demás sí coinciden. R2: ABLE cotizó 140x50x330mm, mismos valores que pide el pliego en otro orden — coincide. ALERTA R3: ABLE cotizó 110x30x190mm — pliego pide 90x125x25-50mm. Es el más barato pero no coincide la medida. Muestra: cláusula del pto. 2 sin lugar/horario completado — no tendría validez tal como está. Caducidad mínima exigida: 6 meses desde la entrega.",
       "creado": "2026-09-04T17:34:34.630Z"
     },
     {
@@ -73496,6 +73974,24 @@
       "creado": "2026-09-07T20:05:55.296Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 285,
       "entidad": "Htal de la Vega",
       "nro": "PA 185",
@@ -73509,38 +74005,71 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
+      "creado": "2026-09-08T15:08:07.834Z"
+    },
+    {
+      "preadj_fecha": "2026-09-01",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "6",
+          "desc": "Tira reactiva p/determinacion de glucosa en sangre c/glucometros en comodato",
+          "cant": 1200,
+          "precio_able": 344.08,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 175,
+          "ganador_sig": "Medline ($175 x 1.200u = $210.000)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "9",
+          "desc": "Bolsa p/ileostomia neonatal con aro recortable 15 a 32mm transparente con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 30,
+          "precio_able": 3800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Dado de baja — hospital cuenta con stock",
+          "motivo": "desierto"
+        },
+        {
+          "reng": "22",
+          "desc": "Aro de acople p/bolsa de colostomia varias medidas (tipo Coloplast) - Marca ABLE (Ind. argentina)",
+          "cant": 60,
+          "precio_able": 3200,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Nestor (asesoramiento)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "23",
+          "desc": "Bolsa p/colostomia/ileostomia abierta de dos piezas para adultos - Marca ABLE (Ind. argentina)",
+          "cant": 180,
+          "precio_able": 2800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Nestor (asesoramiento)",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE no gana ningun renglon. Reng.9 (bolsa ileostomia neonatal ABLE, $3.800) DADO DE BAJA por contar con stock. Rengs.22 y 23 (aro acople colostomia y bolsa colostomia/ileostomia 2 piezas) ABLE verde en comparativa pero adjudicados a Nestor (asesoramiento). Reng.6 (tiras reactivas) ABLE pierde vs Medline. Azcuenaga gana rengs.1,3,4,5,7 (pañales). MG Pharmacorp reng.32. PREADJUDICACION PARCIAL. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22641033-GDEBA-HIGDJPMSALGP.",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-08T15:08:07.834Z"
-    },
-    {
-      "id": 286,
-      "entidad": "Htal Jose Penna",
-      "nro": "PA 223",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-04",
-      "monto": 810000,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "OC",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación.",
+      "oc_alertas": "ABLE no gana ningun renglon. Reng.9 dado de baja por stock. Rengs.22 y 23 adjudicados a Nestor. Reng.6 adjudicado a Medline. ABLE no recibe OC.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -73712,71 +74241,40 @@
         ],
         "notas": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación."
       },
-      "preadj_fecha": "2026-09-01",
-      "preadj_empate_ok": "No",
-      "preadj_pref_ok": "No",
-      "gestion_pre": "ABLE no gana ningun renglon. Reng.9 (bolsa ileostomia neonatal ABLE, $3.800) DADO DE BAJA por contar con stock. Rengs.22 y 23 (aro acople colostomia y bolsa colostomia/ileostomia 2 piezas) ABLE verde en comparativa pero adjudicados a Nestor (asesoramiento). Reng.6 (tiras reactivas) ABLE pierde vs Medline. Azcuenaga gana rengs.1,3,4,5,7 (pañales). MG Pharmacorp reng.32. PREADJUDICACION PARCIAL. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-22641033-GDEBA-HIGDJPMSALGP.",
+      "id": 286,
+      "entidad": "Htal Jose Penna",
+      "nro": "PA 223",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-04",
+      "monto": 810000,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-22641033-GDEBA-HIGDJPMSALGP, cuadro comparativo firmado 04/09/2026. Cuadro de 58 renglones — ABLE solo cotizó R9, R22 y R23, únicos incluidos acá. R23: ABLE también presentó una alternativa más barata ($1.870) como bolsa de un solo cuerpo; se usó su oferta principal ($2.800, dos piezas) para la comparación.",
+      "creado": "2026-09-08T15:11:31.980Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "No otorgada",
+      "oc": "Pendiente",
       "oc_fecha": "",
-      "oc_alertas": "ABLE no gana ningun renglon. Reng.9 dado de baja por stock. Rengs.22 y 23 adjudicados a Nestor. Reng.6 adjudicado a Medline. ABLE no recibe OC.",
-      "creado": "2026-09-08T15:11:31.980Z",
-      "renglones_preadj": [
-        {
-          "reng": "6",
-          "desc": "Tira reactiva p/determinacion de glucosa en sangre c/glucometros en comodato",
-          "cant": 1200,
-          "precio_able": 344.08,
-          "marca": "ABLE",
-          "resultado": "no_adj",
-          "precio_siguiente": 175,
-          "ganador_sig": "Medline ($175 x 1.200u = $210.000)",
-          "motivo": "superado"
-        },
-        {
-          "reng": "9",
-          "desc": "Bolsa p/ileostomia neonatal con aro recortable 15 a 32mm transparente con filtro - Marca ABLE (Ind. argentina)",
-          "cant": 30,
-          "precio_able": 3800,
-          "marca": "ABLE",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Dado de baja — hospital cuenta con stock",
-          "motivo": "desierto"
-        },
-        {
-          "reng": "22",
-          "desc": "Aro de acople p/bolsa de colostomia varias medidas (tipo Coloplast) - Marca ABLE (Ind. argentina)",
-          "cant": 60,
-          "precio_able": 3200,
-          "marca": "ABLE",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Nestor (asesoramiento)",
-          "motivo": "superado"
-        },
-        {
-          "reng": "23",
-          "desc": "Bolsa p/colostomia/ileostomia abierta de dos piezas para adultos - Marca ABLE (Ind. argentina)",
-          "cant": 180,
-          "precio_able": 2800,
-          "marca": "ABLE",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Nestor (asesoramiento)",
-          "motivo": "superado"
-        }
-      ]
-    },
-    {
+      "oc_alertas": "",
+      "tabla": null,
       "id": 287,
       "entidad": "",
       "nro": "",
@@ -73790,11 +74288,471 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "creado": "2026-09-08T15:17:57.578Z"
+    },
+    {
+      "id": 288,
+      "entidad": "Htal Jose Penna",
+      "nro": "PA 216",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-26",
+      "monto": 13946844,
+      "mayor": "Sí",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-23515646-GDEBA-HIGDJPMSALGP. Cuadro de 48 renglones — ABLE solo cotizó R1, R23 y R28. R28: ABLE presentó 4 variantes. Las de tela SP ($673,10 / $641,30 / $510,18) fueron marcadas 'NAS, se pide tela SMS' en el cuadro — no cumplen. Se usó la variante SMS+puño de algodón ($863,90), la única compatible con el pliego. R28: ambas ofertas de Droguería Pharma Center fueron marcadas 'NAS, no tiene puño de algodón' — no cumplen, no se incluyen como competencia válida. R1: ABLE también presentó una alternativa neonatal más cara ($4.028) — se usó su oferta principal pediátrica ($1.982,20).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Gustavo Daniel Nastasi",
+          "Nestor Luis Serrón y Cía SRL",
+          "Equipo Gemico S.A.",
+          "Droguería Pharma Center S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 120,
+            "desc": "Bolsa p/colostomía-ileostomía pediátrica c/protector dérmico, sistema 1 pieza recortable, con desagote",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1982.2,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": 7797,
+                "marca": "Convatec (Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": 11137,
+                "marca": "Coloplast/Hollister",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 120,
+            "desc": "ALTERNATIVA — Bolsa de ileostomía neonatal con desagote, aro recortable 15 a 32mm, contiene filtro",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4028,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 24000,
+            "desc": "Cofia descartable elastizada",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 31.27,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": 49,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": 59.82,
+                "marca": "Euromix",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 15000,
+            "desc": "Camisolín descartable, tela SMS 30grs, no estéril, no hemorrepelente, puño de algodón (única variante que cumple el pliego)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 863.9,
+                "marca": "ArgentCare (tela SMS, puño algodón)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": 1887,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": 1621,
+                "marca": "Cithier NAC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 15000,
+            "desc": "ALT — ABLE, tela SP 30grs, puño elástico (no cumple: se pide tela SMS)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 673.1,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 15000,
+            "desc": "ALT — ABLE, tela SP 25grs, puño elástico (no cumple: se pide tela SMS)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 641.3,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 15000,
+            "desc": "ALT — ABLE, tela SP 20grs, puño elástico (no cumple: se pide tela SMS)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 510.18,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 15000,
+            "desc": "ALT — Droguería Pharma Center, no cumple: no tiene puño de algodón (oferta 1)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 581,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 15000,
+            "desc": "ALT — Droguería Pharma Center, no cumple: no tiene puño de algodón (oferta 2)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Gustavo Daniel Nastasi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Nestor Luis Serrón y Cía SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 768,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-23515646-GDEBA-HIGDJPMSALGP. Cuadro de 48 renglones — ABLE solo cotizó R1, R23 y R28. R28: ABLE presentó 4 variantes. Las de tela SP ($673,10 / $641,30 / $510,18) fueron marcadas 'NAS, se pide tela SMS' en el cuadro — no cumplen. Se usó la variante SMS+puño de algodón ($863,90), la única compatible con el pliego. R28: ambas ofertas de Droguería Pharma Center fueron marcadas 'NAS, no tiene puño de algodón' — no cumplen, no se incluyen como competencia válida. R1: ABLE también presentó una alternativa neonatal más cara ($4.028) — se usó su oferta principal pediátrica ($1.982,20)."
+      },
+      "preadj_fecha": "2026-08-26",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE gana rengs.1,23,28. Total: $14.192.340,00. MAYOR. Reng.1 (bolsa colostomia pediátrica/ileostomia neonatal ABLE ALT, 120u x $4.028 = $483.360, PP). Reng.23 (cofia elastizada ArgentCare, 24.000u x $31,27 = $750.480, PP). Reng.28 (camisolin SMS 30Grs. ArgentCare, 15.000u x $863,90 = $12.958.500, PAS). Total LP: $15.518.040,50+. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-23515646-GDEBA-HIGDJPMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
@@ -73806,8 +74764,43 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-08T15:17:57.578Z"
+      "creado": "2026-09-09T19:11:54.165Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/colostomia pediatrica c/protector dermico 1 pieza recortable (ALT: bolsa ileostomia neonatal drenable 1 pieza aro recortable 15-32mm con filtro) - Marca ABLE (Ind. argentina)",
+          "cant": 120,
+          "precio_able": 4028,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "23",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare (Ind. argentina)",
+          "cant": 24000,
+          "precio_able": 31.27,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "28",
+          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado tiras ajuste cuello y cintura - Marca ArgentCare (Ind. argentina)",
+          "cant": 15000,
+          "precio_able": 863.9,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     }
   ],
-  "nextId": 288
+  "nextId": 289
 }
