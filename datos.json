@@ -73494,37 +73494,187 @@
       "creado": "2026-09-03T13:11:13.184Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 272,
       "entidad": "Htal Narciso Lopez",
-      "nro": "PA 43",
+      "nro": "SAMO 43",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-08",
       "monto": 1638570,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE UNICA OFERENTE en los 9 renglones. Total: $1.638.570,00. SAMO fondos propios. Rengs.1 y 6: bolsas papel grado medico. Rengs.2-5 y 7-9: bobinas pouch papel uso medico.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 10000,
+            "desc": "Bolsa de papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca Able - cod. BOX110X030X190",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 6,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.150.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29950,
+                "marca": "PO.150.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 2,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 4,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 250mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.250.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 50250,
+                "marca": "PO.250.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 10,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 3000,
+            "desc": "Bolsa de papel grado medico 140mm x 50mm x 330mm c/indicador quimico calor humedo - Marca Able - cod. BOX140X050X330",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 7,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 60mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.60.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 12000,
+                "marca": "PO.60.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 7,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.75.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "PO.75.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 4,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.200.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE UNICA OFERENTE en los 9 renglones. Total: $1.638.570,00. SAMO fondos propios. Rengs.1 y 6: bolsas papel grado medico. Rengs.2-5 y 7-9: bobinas pouch papel uso medico."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-03T18:23:07.436Z"
     },
     {
