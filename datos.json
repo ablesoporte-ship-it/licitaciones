@@ -68572,23 +68572,35 @@
       "creado": "2026-08-20T19:43:14.108Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-09",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/colostomia cerrada transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 180,
+          "precio_able": 1490.5,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.1 (bolsa colostomia cerrada transparente 1 pieza aro recortable 15-70mm con filtro, paciente Gioventu, 180u x $1.490,50 = $268.290). RSI Bahia Blanca. OC 100/2026. Expediente EX-2026-28476477-GDEBA-RSIMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-09",
+      "adj_monto_able": 268290,
+      "adj_resumen": "ABLE adjudicada en reng.1 (bolsa colostomia cerrada ABLE, 180u x $1.490,50 = $268.290). OC 100/2026 RSI Bahia Blanca.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-09",
+      "oc_alertas": "OC Nro. 100/2026 fecha 09/09/2026. Reng.1 (bolsa colostomia ABLE, 180u x $1.490,50 = $268.290,00). RSI Bahia Blanca — paciente Gioventu. Disposicion DISPO-2026-466-GDEBA-RSIMSALGP/2026.",
       "tabla": null,
       "id": 235,
       "entidad": "HTAL SANITARIA 1",
@@ -68599,11 +68611,24 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-08-21T12:38:53.207Z"
+      "creado": "2026-08-21T12:38:53.207Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/colostomia cerrada transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 180,
+          "precio_able": 1490.5,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-04",
@@ -75017,37 +75042,77 @@
       "creado": "2026-09-04T18:10:38.710Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 282,
-      "entidad": "Htal Rossi",
+      "entidad": "H.I.G.A. Prof. Dr. Rodolfo Rossi",
       "nro": "PA 364",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-10",
       "monto": 436425,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-29219825-GDEBA-HIGAPDRRMSALGP, apertura 10/09/2026. Renglón único. Especificación de ABLE (SMS 45gr, puño de algodón) coincide con el pliego — sin problema de especificación técnica. Muestra obligatoria: cláusula completa (Depósito de Farmacia, 7 a 13hs) — exigible a diferencia de otros pliegos donde quedó sin completar. Empate técnico ≤2% (Art. 13.3 pliego). Caducidad mínima exigida: 6 meses.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Aupres S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 300,
+            "desc": "Camisolín no estéril, hemorrepelente, tela SMS 45gr, desde cuello hasta debajo de rodillas, manga larga, puño de algodón elastizado",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1454.75,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1860.23,
+                "marca": "Dimex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 2840,
+                "marca": "Biosan",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-29219825-GDEBA-HIGAPDRRMSALGP, apertura 10/09/2026. Renglón único. Especificación de ABLE (SMS 45gr, puño de algodón) coincide con el pliego — sin problema de especificación técnica. Muestra obligatoria: cláusula completa (Depósito de Farmacia, 7 a 13hs) — exigible a diferencia de otros pliegos donde quedó sin completar. Empate técnico ≤2% (Art. 13.3 pliego). Caducidad mínima exigida: 6 meses."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-04T18:10:38.758Z"
     },
     {
