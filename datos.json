@@ -73521,14 +73521,14 @@
     {
       "id": 272,
       "entidad": "Htal Narciso Lopez",
-      "nro": "PA 43",
+      "nro": "PA 43/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-08",
       "monto": 1638570,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE UNICA OFERENTE en los 9 renglones. Total: $1.638.570,00. SAMO fondos propios. Rengs.1 y 6: bolsas papel grado medico. Rengs.2-5 y 7-9: bobinas pouch papel uso medico.",
@@ -73684,11 +73684,11 @@
         ],
         "notas": "ABLE UNICA OFERENTE en los 9 renglones. Total: $1.638.570,00. SAMO fondos propios. Rengs.1 y 6: bolsas papel grado medico. Rengs.2-5 y 7-9: bobinas pouch papel uso medico."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-08",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE UNICA OFERENTE en 9 renglones (bolsas y bobinas pouch papel grado medico). Total: $1.638.570,00. SAMO fondos propios. Expediente EX-2026-29136748-GDEBA-HZGADNLMSALGP. H.Z.G.A. Narciso Lopez.",
+      "gestion_pre_resultado": "Ganado",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
@@ -73700,7 +73700,108 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-03T18:23:07.436Z"
+      "creado": "2026-09-03T18:23:07.436Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca Able - cod. BOX110X030X190",
+          "cant": 10000,
+          "precio_able": 36.46,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.150.200",
+          "cant": 6,
+          "precio_able": 29950,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "3",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+          "cant": 2,
+          "precio_able": 59670,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 250mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.250.200",
+          "cant": 4,
+          "precio_able": 50250,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+          "cant": 10,
+          "precio_able": 19950,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Bolsa papel grado medico 140mm x 50mm x 330mm c/indicador quimico calor humedo - Marca Able - cod. BOX140X050X330",
+          "cant": 3000,
+          "precio_able": 75.46,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "7",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 60mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.60.200",
+          "cant": 7,
+          "precio_able": 12000,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "8",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.75.200",
+          "cant": 7,
+          "precio_able": 14990,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.200.200",
+          "cant": 4,
+          "precio_able": 39780,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
