@@ -42823,14 +42823,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-08",
+      "adj_monto_able": 5076955,
+      "adj_resumen": "ABLE adjudicada en rengs.7,8,9,11,12. Total: $5.076.955,20. Reng.7 (PP N°1 Surgimax, 120u x $1.550 = $186.000). Reng.8 (PP N°4/0 ABLE, 96u x $1.600 = $153.600). Reng.9 (PP N°4/0 doble aguja Surgimax, 432u x $2.366,10 = $1.022.155,20). Reng.11 (PGA N°0 Surgimax, 2.496u x $1.200 = $2.995.200, empate tecnico). Reng.12 (PGA Surgimax, 600u x $1.200 = $720.000). OC 430/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-08",
+      "oc_alertas": "OC Nro. 430/2026 fecha 08/09/2026. Rengs.7,8,9,11,12 (suturas polipropileno y PGA marcas Surgimax y ABLE). Total: $5.076.955,20. Reng.11 empate tecnico reconocido. Rengs.5 y 46 rechazados precio excesivo. H.D.Z.G. Mariano y Luciano de la Vega, Moreno. Disposicion DISPO-2026-2256-GDEBA-DPHMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -43864,11 +43864,90 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "No",
       "obs": "⚠️ IMPORTANTE — Cardiopack Argentina (marca Surgikal, origen INDIA) queda por debajo de ABLE (Surgimax, Industria Argentina) por márgenes mínimos en reng.11 (1,78%) y reng.19 (0,33%) — dentro del 2% de empate técnico. Corresponde reclamar EMPATE TÉCNICO A FAVOR DE LA INDUSTRIA NACIONAL en esos 2 renglones. HEBRA — Reng.12 y reng.13: el pliego exige hebra de 90cm en ambos (Anexo III: 'CALIBRE 0-90CM' y 'CALIBRE 1-90CM', confirmado en el .docx original, sin columnas separadas de Calibre/Longitud). La oferta base de ABLE (Surgimax) es de 70cm — No cumple (se mantiene en verde por precio, con la nota). La Alternativa 1 de ABLE (marca ABLE, 90cm) — Cumple. Martorani, Cardiopack y Max Continental (70-75cm) también No cumplen en reng.12/13, e Igaltex en reng.13 — quedan objetados. Único competidor compliant: Cirugía Argentina (90cm, $1.640,00). HEBRA — Reng.15: Cardiopack cotiza 45cm vs los 70cm exigidos por el pliego ('CALIBRES 3/0-70CM') — No cumple, queda objetado (ya no aplica empate técnico, ABLE gana directo). Reng.14: Cardiopack también cotiza 45cm, pero como su precio ya es más alto que el de ABLE (que sí cumple 70cm), no se marca objeción — no cambia el resultado. Reng.7 — ABLE $1.550,00 (Surgimax) vs Cirugía Argentina $2.348,00 (Tagum, Perú) vs Martorani $2.727,40 (Meril). ABLE gana por menor precio. Max Continental e Igaltex no cotizaron este renglón. Reng.8 — ABLE $1.600,00 (marca ABLE) vs Cirugía Argentina $2.735,00 vs Martorani $2.727,40 vs Cardiopack $2.511,96 (Surgikal, Ind. Argentina). ABLE gana por menor precio. Max Continental e Igaltex no cotizaron este renglón. Reng.9 — ABLE $2.390,00 (Surgimax, oferta base) vs Cirugía Argentina $2.735,00 vs Martorani $2.727,40. ABLE gana. Alternativa propia ABLE $3.000,00 no aplica (más cara, no necesaria). Cardiopack, Max Continental e Igaltex no cotizaron este renglón. Reng.10 — ABLE $2.415,00 (Surgimax) vs Cirugía Argentina $2.735,00 vs Martorani $2.727,40 vs Cardiopack $3.391,63 vs Max Continental $3.850,00. ABLE gana por menor precio. Reng.11 — ABLE $1.250,00 (Surgimax) vs Cardiopack $1.228,15 (Surgikal, INDIA) — diferencia 1,78%, EMPATE TÉCNICO a favor de industria nacional. Otros: Cirugía Argentina $1.575,00, Martorani $2.448,60, Igaltex $1.482,23. El pliego no especifica largo de hebra para este renglón (sin problema de cumplimiento por longitud). Max Continental no cotizó. Reng.12 — La oferta base de ABLE (Surgimax, $1.250,00, hebra 70cm) NO CUMPLE la hebra de 90cm pedida. Oferta VÁLIDA: Alternativa ABLE $1.335,00 (90cm) — gana por menor precio frente a Cirugía Argentina $1.640,00 (único competidor compliant). Martorani $2.448,60, Cardiopack $1.246,30 y Max Continental $1.588,58 quedan objetados por hebra corta (70-75cm). Reng.13 — La oferta base de ABLE (Surgimax, $1.230,00, hebra 70cm) NO CUMPLE la hebra de 90cm pedida. Oferta VÁLIDA: Alternativa ABLE $1.335,00 (90cm) — gana por menor precio frente a Cirugía Argentina $1.640,00 (único competidor compliant). Martorani $2.448,60, Igaltex $1.526,12, Cardiopack $1.246,30 y Max Continental $1.655,57 quedan objetados por hebra corta (70-75cm). Reng.14 — ABLE $1.205,00 (Surgimax, hebra 70cm, cumple) gana por menor precio. Cardiopack $1.246,30 además objetado por hebra de 45cm (no cumple 70cm). Cirugía Argentina $1.575,00, Martorani $2.448,60, Max Continental $1.517,33 (compliant, sin observación de hebra). Reng.15 — ABLE $1.205,00 (Surgimax, hebra 70cm, cumple) gana por menor precio. Cardiopack $1.191,85 objetado por hebra de 45cm (no cumple 70cm) — deja de aplicar empate técnico, ABLE gana directo. Cirugía Argentina $1.575,00, Martorani $2.448,60, Igaltex $1.391,24, Max Continental $1.517,94 (compliant). Reng.19 — ABLE $607,00 (Surgimax) vs Cardiopack $605,00 (Surgikal, INDIA) — diferencia 0,33%, EMPATE TÉCNICO a favor de industria nacional. Otros: Cirugía Argentina $1.055,00, Martorani $1.348,10, Igaltex $669,48. Max Continental no cotizó. Max Continental: se confirmó que la 'Página 2 de 2' de su presupuesto contiene solo el total general — no cotizó los renglones 7, 8, 9, 11 ni 19 (ausencia real, no dato faltante). Total oferta ABLE: $32.536.928,00 (verificado, suma exacta de todos los renglones y alternativas cotizadas — incluye ambas alternativas por renglón, aunque solo una sea la oferta válida final en cada caso).",
-      "creado": "2026-07-22T16:44:20.392Z"
+      "creado": "2026-07-22T16:44:20.392Z",
+      "renglones_adj": [
+        {
+          "reng": "5",
+          "desc": "Aguja p/puncion espinal punta lapiz N°25G con introductor - Marca MCM",
+          "cant": 400,
+          "precio_able": 1988.6,
+          "marca": "MCM",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura polipropileno azul monofilamento N°1 c/aguja 1/2 circ. punta redonda 40mm hebra 150cm - Marca Surgimax",
+          "cant": 120,
+          "precio_able": 1550,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura polipropileno azul monofilamento N°4/0 c/aguja 1/2 circ. HR25 - Marca ABLE (Ind. argentina)",
+          "cant": 96,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura polipropileno azul monofilamento N°4/0 doble aguja 1/2 circ. punta cilindrica 17mm hebra 75cm - Marca Surgimax",
+          "cant": 432,
+          "precio_able": 2366.1,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura poliglactina N°0 c/aguja HR40 - Marca Surgimax (Ind. argentina)",
+          "cant": 2496,
+          "precio_able": 1200,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "empate_tecnico",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura acido poliglicolico (PGA) c/aguja - Marca Surgimax (Ind. argentina)",
+          "cant": 600,
+          "precio_able": 1200,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "46",
+          "desc": "Tela adhesiva al oxido de zinc 2.5cm x 9mts rollo - Marca Euromix",
+          "cant": 700,
+          "precio_able": 873,
+          "marca": "Euromix",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-19",
@@ -74086,24 +74165,6 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 273,
       "entidad": "Htal. Ludovica",
       "nro": "PA 312",
@@ -74112,11 +74173,133 @@
       "monto": 1900000,
       "mayor": "No",
       "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "agente": "Noé",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-30890056-GDEBA-HIAEPSSMLMSALGP, apertura 11/09/2026. ABLE cotizó solo R21. Medic Tools presentó 2 alternativas más baratas, pero no son neonatales como pide el renglón: ALT1 ($5.180) es pediátrica y ALT2 ($3.590) es para adultos — quedaron como referencia, no como competencia válida. Comparando solo ofertas neonatales (como exige el renglón): ABLE gana con amplio margen.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Medic Tools SRL",
+          "Droguería Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "21",
+            "cant": 500,
+            "desc": "Bolsa de ileostomía neonatal con desagote, transparente, 1 pieza, aro recortable 15 a 32mm, contiene filtro",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3800,
+                "marca": "ABLE (Ind. Argentina)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools SRL",
+                "precio": 21900,
+                "marca": "Convatec (Little Ones Neonatal)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 7433.6,
+                "marca": "Hollister",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 500,
+            "desc": "ALT.1 — Medic Tools, bolsa pediátrica (no neonatal) marca Convatec cód. 20922",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools SRL",
+                "precio": 5180,
+                "marca": "Convatec (pediátrica)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 500,
+            "desc": "ALT.2 — Medic Tools, bolsa de ileostomía para adultos (no neonatal) marca Convatec Active Life",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medic Tools SRL",
+                "precio": 3590,
+                "marca": "Convatec (adultos)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-30890056-GDEBA-HIAEPSSMLMSALGP, apertura 11/09/2026. ABLE cotizó solo R21. Medic Tools presentó 2 alternativas más baratas, pero no son neonatales como pide el renglón: ALT1 ($5.180) es pediátrica y ALT2 ($3.590) es para adultos — quedaron como referencia, no como competencia válida. Comparando solo ofertas neonatales (como exige el renglón): ABLE gana con amplio margen."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-03T19:34:32.672Z"
     },
     {
