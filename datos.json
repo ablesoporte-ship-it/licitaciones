@@ -77372,12 +77372,46 @@
       "creado": "2026-09-11T18:36:38.162Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "tabla": null,
       "id": 296,
       "entidad": "Htal San Juan de Dios",
       "nro": "PA 50",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-17",
       "monto": 674388,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-09-11T19:04:16.847Z"
+    },
+    {
+      "id": 297,
+      "entidad": "Htal Posadas",
+      "nro": "PA 73",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-18",
+      "monto": 555258,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
@@ -77401,8 +77435,8 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-11T19:04:16.847Z"
+      "creado": "2026-09-11T19:28:43.776Z"
     }
   ],
-  "nextId": 297
+  "nextId": 298
 }
