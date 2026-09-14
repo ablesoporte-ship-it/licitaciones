@@ -77888,7 +77888,288 @@
       "oc_fecha": "",
       "oc_alertas": "",
       "creado": "2026-09-14T17:20:22.176Z"
+    },
+    {
+      "id": 299,
+      "entidad": "Hospital Zonal General de Agudos \"Petrona V. de Cordero\" (San Fernando)",
+      "nro": "PA 107/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-01",
+      "monto": 3508036,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "Si",
+      "pref": "No",
+      "obs": "Expte. EX-2026-26788424-GDEBA-HZGAPVCMSALGP, apertura 01/09/2026. ABLE cotizó R1, R2, R3, R4, R5, R7, R8, R9, R10 y R12. Electron Plast (R19-R21), Papelera EP (R14) y Bymed (R16) no compiten en ningún renglón de ABLE — son productos distintos. ALERTA R7 y R8: ABLE cotizó la misma bolsa (140x50x330mm) en ambos renglones. Igaltex ofrece medidas distintas para cada uno (R7: 140x40x250mm, R8: 90x50x250mm) — probablemente esas sean las medidas reales pedidas por el pliego. Solo R9 coincide (140x50x330mm en ambos). R12: Igaltex no cotizó — ABLE único oferente.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 2,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 75mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 14895,
+                "marca": "Sterilys",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 2,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 100mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 19854,
+                "marca": "Sterilys",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 1,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 150mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29950,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 25424,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 4,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 200mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 38666,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 1,
+            "desc": "Bobina pouch papel uso médico liso y lámina transparente 300mmx200m, c/indicador calor húmedo+ETO",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 58304,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 12500,
+            "desc": "Pliego probable 140x40x250mm — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE — no coincide con medida de Igaltex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 58.32,
+                "marca": "Sterilys (140x40x250mm)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 6000,
+            "desc": "Pliego probable 90x50x250mm — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE — no coincide con medida de Igaltex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 43.38,
+                "marca": "Sterilys (90x50x250mm)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 4250,
+            "desc": "Bolsa de papel grado médico 140x50x330mm, c/indicador químico calor húmedo (medida coincide entre ambos)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 77.29,
+                "marca": "Sterilys",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 40000,
+            "desc": "Bolsa de papel grado médico 110x30x190mm, c/indicador químico calor húmedo (medida coincide entre ambos)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": 38.01,
+                "marca": "Sterilys",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 100,
+            "desc": "Bolsa de papel grado médico 250x100x380mm, c/indicador químico calor húmedo — Igaltex no cotizó",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Expte. EX-2026-26788424-GDEBA-HZGAPVCMSALGP, apertura 01/09/2026. ABLE cotizó R1, R2, R3, R4, R5, R7, R8, R9, R10 y R12. Electron Plast (R19-R21), Papelera EP (R14) y Bymed (R16) no compiten en ningún renglón de ABLE — son productos distintos. ALERTA R7 y R8: ABLE cotizó la misma bolsa (140x50x330mm) en ambos renglones. Igaltex ofrece medidas distintas para cada uno (R7: 140x40x250mm, R8: 90x50x250mm) — probablemente esas sean las medidas reales pedidas por el pliego. Solo R9 coincide (140x50x330mm en ambos). R12: Igaltex no cotizó — ABLE único oferente."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-14T17:35:19.659Z"
     }
   ],
-  "nextId": 299
+  "nextId": 300
 }
