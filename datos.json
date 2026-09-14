@@ -54432,14 +54432,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "2026-08-11",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-09",
+      "adj_monto_able": 2772350,
+      "adj_resumen": "ABLE adjudicada en rengs.8 y 9 (bolsas papel grado medico). Reng.8 (110x30x190mm, 22.000u x $42,35 = $931.700). Reng.9 (140x50x330mm, 21.000u x $87,65 = $1.840.650). Total: $2.772.350,00. OC 807/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "No otorgada",
-      "oc_fecha": "2026-08-11",
-      "oc_alertas": "Reng. 7 no adjudicado (rechazo por espec. técnica). Reng. 8 y 9 adjudicados a ABLE.",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-09",
+      "oc_alertas": "OC Nro. 807/2026 fecha 09/09/2026. Reng.8 (bolsa 110x30x190mm ABLE, 22.000u x $42,35 = $931.700). Reng.9 (bolsa 140x50x330mm ABLE, 21.000u x $87,65 = $1.840.650). Total: $2.772.350,00. H.I.G.A. Dr. Jose Penna, Bahia Blanca. Disposicion DISPO-2026-2183-GDEBA-HIGDJPMSALGP/2026.",
       "tabla": {
         "oferentes": [
           "ABLE S.A."
@@ -54512,7 +54512,42 @@
       "empate": "No",
       "pref": "No",
       "obs": "Renglones 7, 8 y 9 (papel grado médico). Único oferente conocido: ABLE (sin datos de otros oferentes). Reng. 8 y 9 adjudicados a ABLE. Reng. 7 desestimado: ABLE cotizó medida 140x50x330mm y el pliego exige 140x40x250mm.",
-      "creado": "2026-07-31T21:42:54.899Z"
+      "creado": "2026-07-31T21:42:54.899Z",
+      "renglones_adj": [
+        {
+          "reng": "7",
+          "desc": "Bolsa papel grado medico - Marca ABLE",
+          "cant": 56000,
+          "precio_able": 90.39,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "8",
+          "desc": "Bolsa papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX110X030X190",
+          "cant": 22000,
+          "precio_able": 42.35,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Bolsa papel grado medico 140mm x 50mm x 330mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX140X050X330",
+          "cant": 21000,
+          "precio_able": 87.65,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-28",
