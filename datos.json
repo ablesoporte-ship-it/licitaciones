@@ -77079,12 +77079,24 @@
       "creado": "2026-09-09T19:58:10.531Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-09",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina) - cod. BIL.AT.1P.70",
+          "cant": 90,
+          "precio_able": 2057,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.1 (bolsa ileostomia drenable transparente 1 pieza aro recortable 15-70mm con filtro, Marca ABLE, 90u x $2.057 = $185.130, PUP). Total LP: $185.130,00. Vigencia 14/09/2026 al 31/12/2026. Expediente EX-2026-14588037-GDEBA-HZGAAAEMSALGP. H.I.G.A. Dr. Alberto Eurnekian, Ezeiza.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -77106,7 +77118,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
