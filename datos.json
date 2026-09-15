@@ -72833,12 +72833,46 @@
       "creado": "2026-08-27T14:04:10.504Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-27",
+      "preadj_empate_ok": "Sí",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 250mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.250.200",
+          "cant": 12,
+          "precio_able": 50250,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "2",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.100.200",
+          "cant": 30,
+          "precio_able": 19630,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "empate_tecnico"
+        },
+        {
+          "reng": "3",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 150mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.150.200",
+          "cant": 30,
+          "precio_able": 29950,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.2 (bobina pouch 100mm x 200mts ABLE, 30u x $19.630 = $588.900, PD desempate). Reng.1 (pouch 250mm Igaltex) y reng.3 (pouch 150mm) ABLE pierde. Total LP: $1.910.294,22. Expediente EX-2026-28535439-GDEBA-HIAVLPMSALGP. Vigencia 18/09/2026 al 31/12/2026.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -72965,7 +72999,7 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "Sí",
       "pref": "No",
       "obs": "Resultado general: de los 3 renglones cotizados por ABLE, gana Igaltex en el 1 y el 3, y hay empate técnico con Igaltex en el renglón 2. Reng. 1 — ABLE $50.250,00 vs Igaltex $48.069,11, diferencia de 4,54%. No corresponde preferencia nacional (ningún oferente declara producto importado). Reng. 2 — Empate técnico: ABLE $19.950,00 vs Igaltex $19.854,55, diferencia de solo 0,48%. Reng. 3 — ABLE $29.950,00 vs Igaltex $24.818,83, diferencia de 20,68%, fuera de rango de empate o preferencia. Reng. 4 — ABLE no cotiza (solo lo cotiza Kims); no se incluye en esta comparativa. Monto total cotizado por ABLE (renglones 1 a 3): $2.100.000,00.",
