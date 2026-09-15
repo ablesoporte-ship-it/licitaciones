@@ -73622,38 +73622,222 @@
       "creado": "2026-08-31T13:49:07.455Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
+      "id": 264,
+      "entidad": "Htal Jose Penna",
+      "nro": "PA 232",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-07",
+      "monto": 436119,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "ABLE",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.60 (pouch 100mm): ABLE $21.945 vs Gemico $38.690 (+76,4%). ABLE gana. Reng.61 (pouch 200mm): ABLE $43.758 vs Gemico $73.555 (+68,1%). ABLE gana. Rengs.62,63,64: ABLE unica oferente.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Equipo Gemico S.A. (Sterilys-Tropack)"
+        ],
+        "renglones": [
+          {
+            "reng": "60",
+            "cant": 1,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 100mm x 200mts con indicador quimico de calor humedo + ETO - Marca Able - cod. PO.100.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 21945,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A. (Sterilys-Tropack)",
+                "precio": 38690,
+                "marca": "Sterilys-Tropack - Equipo Gemico S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "61",
+            "cant": 1,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 200mm x 200mts con indicador quimico de calor humedo + ETO - Marca Able - cod. PO.200.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 43758,
+                "marca": "PO.200.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A. (Sterilys-Tropack)",
+                "precio": 73555,
+                "marca": "Sterilys-Tropack - Equipo Gemico S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "62",
+            "cant": 3,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 300mm x 200mts con indicador quimico de calor humedo + ETO - Marca Able - cod. PO.300.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 65637,
+                "marca": "PO.300.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A. (Sterilys-Tropack)",
+                "precio": 93669,
+                "marca": "Sterilys-Tropack - Equipo Gemico S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "63",
+            "cant": 10,
+            "desc": "Bobina de pouch papel uso medico liso y lamina transparente 60mm x 200mts con indicador quimico de calor humedo + ETO - Marca Able - cod. PO.60.200",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 13200,
+                "marca": "PO.60.200 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A. (Sterilys-Tropack)",
+                "precio": 56290,
+                "marca": "Sterilys-Tropack - Equipo Gemico S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "64",
+            "cant": 500,
+            "desc": "Bolsa de papel grado medico 140mm x 50mm x 330mm con indicador quimico de calor humedo - Marca Able - cod. BOX140X050X330",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 83.01,
+                "marca": "BOX140X050X330 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A. (Sterilys-Tropack)",
+                "precio": 620,
+                "marca": "Sterilys-Tropack - Equipo Gemico S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.60 (pouch 100mm): ABLE $21.945 vs Gemico $38.690 (+76,4%). ABLE gana. Reng.61 (pouch 200mm): ABLE $43.758 vs Gemico $73.555 (+68,1%). ABLE gana. Rengs.62,63,64: ABLE unica oferente."
+      },
+      "preadj_fecha": "2026-09-14",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE gana rengs.60,61,62 (bobinas pouch). Total: $262.614,00. Reng.60 (PO.100.200, 1u x $21.945 = $21.945, PP vs Soles SA $151.810). Reng.61 (PO.200.200, 1u x $43.758 = $43.758, PP vs Gemico $73.555). Reng.62 (PO.300.200, 3u x $65.637 = $196.911, PP). Rengs.63 y 64 ABLE desestimada (no ajusta a lo solicitado) — Gemico gana. Expediente EX-2026-26699442-GDEBA-HIGDJPMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 264,
-      "entidad": "Htal Jose Penna",
-      "nro": "PA 232",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-07",
-      "monto": 436117,
-      "mayor": "No",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-31T17:30:01.055Z"
+      "creado": "2026-08-31T17:30:01.055Z",
+      "renglones_preadj": [
+        {
+          "reng": "60",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+          "cant": 1,
+          "precio_able": 21945,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": 38690,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "61",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.200.200",
+          "cant": 1,
+          "precio_able": 43758,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": 73555,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "62",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+          "cant": 3,
+          "precio_able": 65637,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": 93669,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "63",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 60mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.60.200",
+          "cant": 10,
+          "precio_able": 13200,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 56290,
+          "ganador_sig": "Equipo Gemico S.A. (Sterilys-Tropack) — ABLE desestimada (no ajusta a lo solicitado)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "64",
+          "desc": "Bolsa papel grado medico 140mm x 50mm x 330mm c/indicador quimico calor humedo - Marca Able - cod. BOX140X050X330",
+          "cant": 500,
+          "precio_able": 83.01,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 620,
+          "ganador_sig": "Equipo Gemico S.A. (Sterilys-Tropack) — ABLE desestimada (no ajusta a lo solicitado)",
+          "motivo": "rechazado_calidad"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
