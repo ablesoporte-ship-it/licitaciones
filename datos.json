@@ -32236,12 +32236,57 @@
       "creado": "2026-07-13T18:49:40.529Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-12",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/colostomia cerrada transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina) - cod. BCO.CT.1P.70",
+          "cant": 120,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina) - cod. BIL.AT.1P.70",
+          "cant": 90,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "3",
+          "desc": "Bolsa p/colostomia pediátrica drenable transparente 1 pieza con aro recortable de 15 a 40mm con filtro - Marca ABLE (Ind. argentina)",
+          "cant": 90,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa p/ileostomia neonatal drenable transparente 1 pieza con aro recortable de 15 a 32mm con filtro - Marca ABLE (Ind. argentina) - cod. BIL.NN.1P.32",
+          "cant": 90,
+          "precio_able": 3800,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE UNICA OFERENTE en 4 renglones (bolsas ostomia). Total: $841.200,00. Reng.1 (bolsa colostomia adhesiva ABLE, 120u x $1.355 = $162.600, PUP). Reng.2 (bolsa ileostomia drenable ABLE, 90u x $1.870 = $168.300, PUP). Reng.3 (bolsa colostomia pediátrica ABLE, 90u x $1.870 = $168.300, PUP). Reng.4 (bolsa ileostomia neonatal ABLE, 90u x $3.800 = $342.000, PUP). Expediente EX-2025-30329696-GDEBA-HZDEFFEMSALGP. Vigencia 14/09/2026 al 31/12/2026.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -32337,7 +32382,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "① ABLE S.A. es única oferente en PA 74/2026 — gana los 4 renglones por ser la única propuesta presentada, cumpliendo lo solicitado. ② Reng.1 — Bolsa de colostomía cerrada, transparente, 1 pieza, aro recortable 15-70mm (contiene filtro), marca ABLE (Industria Argentina). Coincide con el pliego (Anexo III, reng.1: bolsa p/colostomía adhesiva, varias medidas). ③ Reng.2 — Bolsa de ileostomía con desagote (drenable), transparente, 1 pieza, aro recortable 15-70mm (contiene filtro). El pliego pide aro 25-64mm; el rango ofertado por ABLE (15-70mm) contiene e incluye el solicitado. ④ OBSERVACIÓN — Reng.3: el pliego (Anexo III) solicita 'bolsa p/colostomía con aro 38mm, mini-bolsa descartable', mientras que la oferta de ABLE en este renglón corresponde a una bolsa de ILEOSTOMÍA pediátrica (aro 15-40mm). Verificar con el hospital si se trata de una diferencia de nomenclatura entre colostomía/ileostomía o si corresponde revisar el ítem antes de dar el renglón por cumplido. ⑤ OBSERVACIÓN — Reng.4: el pliego solicita bolsa de COLOSTOMÍA neonatal con cierre velcro, hidrocoloide y sistema de acople autoadhesivo, recortable hasta 25mm; la oferta de ABLE corresponde a bolsa de ILEOSTOMÍA neonatal con desagote, aro recortable 15-32mm, sin mención de velcro ni hidrocoloide en la descripción. Mismo tipo de observación que el renglón 3 — confirmar antes de considerar el renglón sin objeciones. ⑥ Monto total cotizado por ABLE: $841.200,00 (único oferente, sin comparación de precios posible).",
