@@ -77480,37 +77480,1583 @@
       "creado": "2026-09-10T13:17:56.590Z"
     },
     {
+      "id": 293,
+      "entidad": "HTAL ALENDE",
+      "nro": "PA 267",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-15",
+      "monto": 41322020,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE: los precios de la competencia fueron leídos de fotos de presupuestos, no de un Excel de apertura oficial. Verificar contra el acta de apertura antes de usar para adjudicación. Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "JK Medical",
+          "Cirugía Argentina",
+          "Droguería Azcuénaga",
+          "Imágenes Tandil"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 2200,
+            "desc": "PGM024070A - Sutura de Ácido Poliglicólico N°2, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1330,
+                "marca": "PGM024070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": 2468.4,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2272,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3060,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 4599,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 2200,
+            "desc": "PGA024070A - Sutura de Ácido Poliglicólico N°2, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA024070A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 3300,
+            "desc": "PGM024070A - Sutura de Ácido Poliglicólico N°2, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1330,
+                "marca": "PGM024070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": 2468.4,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3060,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 5750,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 3300,
+            "desc": "PGA024070A - Sutura de Ácido Poliglicólico N°2, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA024070A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 3300,
+            "desc": "Ácido Poliglicólico Glicosorb Calibre 2, aguja HR40, hebra 70cm (oferta marcada ALT por el propio oferente) - Tagum (Perú)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2272,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 3300,
+            "desc": "PGM014070A - Sutura de Ácido Poliglicólico N°1, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1285,
+                "marca": "PGM014070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": 2468.4,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 2806,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 3479,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 3300,
+            "desc": "PGA014090A - Sutura de Ácido Poliglicólico N°1, aguja 40mm 1/2 círc., punta redonda, hebra 90cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA014090A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 3300,
+            "desc": "Ácido Poliglactin Plus c/antibacterial Calibre 1, aguja HR40, hebra 90cm (oferta marcada ALT por el propio oferente) - Tagum (Perú)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2642,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 3300,
+            "desc": "PGM003570A - Sutura de Ácido Poliglicólico N°0, aguja 35mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1285,
+                "marca": "PGM003570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": 2468.4,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2642,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3358,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 3829,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 3300,
+            "desc": "PGA003590A - Sutura de Ácido Poliglicólico N°0, aguja 35mm 1/2 círc., punta redonda, hebra 90cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA003590A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 3300,
+            "desc": "PGM202570A - Sutura de Ácido Poliglicólico N°2/0, aguja 25mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1193,
+                "marca": "PGM202570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": 2468.4,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2442,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3343,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 2959,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 3300,
+            "desc": "PGA202570A - Sutura de Ácido Poliglicólico N°2/0, aguja 25mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA202570A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 3300,
+            "desc": "PGM203570A - Sutura de Ácido Poliglicólico N°2/0, aguja 35mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1193,
+                "marca": "PGM203570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": 2468.4,
+                "marca": "Surgikal (India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 2868,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 3798,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 3300,
+            "desc": "PGA203570A - Sutura de Ácido Poliglicólico N°2/0, aguja 35mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA203570A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 3300,
+            "desc": "Ácido Poliglactin Plus c/antibacterial Calibre 2/0, aguja HR35, hebra 70cm (oferta marcada ALT por el propio oferente) - Tagum (Perú)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2442,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 3300,
+            "desc": "PGM302570A - Sutura de Ácido Poliglicólico N°3/0, aguja 25mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1193,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2442,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3343,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 2959,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 3300,
+            "desc": "PGA302570A - Sutura de Ácido Poliglicólico N°3/0, aguja 25mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA302570A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 3300,
+            "desc": "PGM303070F - Sutura de Ácido Poliglicólico N°3/0, aguja 30mm 3/8 círc., rev. cortante, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM303070F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 4687,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 3300,
+            "desc": "PGA303070F - Sutura de Ácido Poliglicólico N°3/0, aguja 30mm 3/8 círc., punta rev. cortante, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA303070F - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 3300,
+            "desc": "Ácido Poliglicólico Glicosorb Calibre 3/0, aguja DS30, hebra 70cm (oferta marcada ALT por el propio oferente) - Tagum (Perú)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2232,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 3300,
+            "desc": "PGM402570A - Sutura de Ácido Poliglicólico N°4/0, aguja 25mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1193,
+                "marca": "PGM402570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3343,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 3159,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 3300,
+            "desc": "PGA402570A - Sutura de Ácido Poliglicólico N°4/0, aguja 25mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA402570A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 3300,
+            "desc": "Ácido Poliglactin Plus c/antibacterial Calibre 4/0, aguja HR25, hebra 70cm (oferta marcada ALT por el propio oferente) - Tagum (Perú)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2442,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 3300,
+            "desc": "PGM402070A - Sutura de Ácido Poliglicólico N°4/0, aguja 20mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1193,
+                "marca": "PGM402070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2442,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 3343,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 2959,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 3300,
+            "desc": "PGA402070A - Sutura de Ácido Poliglicólico N°4/0, aguja 20mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA402070A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 750,
+            "desc": "PGM501570A - Sutura de Ácido Poliglicólico N°5/0, aguja 15mm 1/2 círc., punta redonda, hebra 70cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM501570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 2442,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 2978,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 3159,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 750,
+            "desc": "PGA501570A - Sutura de Ácido Poliglicólico N°5/0, aguja 15mm 1/2 círc., punta redonda, hebra 70cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGA501570A - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 10,
+            "desc": "NYM202645F - Sutura de Nylon Monofilamento N°2/0, aguja 26mm 3/8 círc., rev. cortante, hebra 45cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 607,
+                "marca": "NYM202645F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 4856,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 1000,
+            "desc": "NYM302475F - Sutura de Nylon Monofilamento N°3/0, aguja 24mm 3/8 círc., rev. cortante, hebra 75cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 597,
+                "marca": "NYM302475F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 1290,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 2025,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 2229,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 1000,
+            "desc": "NYA302475F - Sutura de Nylon Monofilamento N°3/0, aguja 24mm 3/8 círc., rev. cortante, hebra 75cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA302475F - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 600,
+            "desc": "NYM402545F - Sutura de Nylon Monofilamento N°4/0, aguja 25mm 3/8 círc., rev. cortante, hebra 45cm - Surgimax (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 597,
+                "marca": "NYM402545F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": 1330,
+                "marca": "Tagum (Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": 1912,
+                "marca": "Covidien",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": 1915,
+                "marca": "JNJ",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 600,
+            "desc": "NYA402575F - Sutura de Nylon Monofilamento N°4/0, aguja 25mm 3/8 círc., rev. cortante, hebra 75cm - ABLE (marca propia, Nac.)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA402575F - ABLE (marca propia, Nac.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "JK Medical",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Imágenes Tandil",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "tabla": null,
-      "id": 293,
-      "entidad": "HTAL ALENDE",
-      "nro": "PA 267",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-15",
-      "monto": 91977520,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-11T13:23:23.849Z"
     },
     {
