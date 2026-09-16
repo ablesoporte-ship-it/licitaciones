@@ -76491,24 +76491,6 @@
       "creado": "2026-09-07T20:05:55.296Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "tabla": null,
       "id": 285,
       "entidad": "Htal de la Vega",
       "nro": "PA 185",
@@ -76518,10 +76500,902 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "Si",
+      "pref": "No",
+      "obs": "Renglones 12 y 20: ABLE cotiza rollo de 60mm de ancho (código PO.60.200); el pliego pide 50mm. Verificar antes de adjudicar. ABLE gana directo en 11, 12, 20, 21 y 29. Empate técnico (≤2%) en 7, 10, 22 y 25, todos vs Laboratorios Igaltex. Pierde por más del 10% en 2, 3, 4, 5, 8, 9, 23, 24 y 26. No se detecta caso de preferencia nacional (los oferentes competidores son de industria argentina). Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex",
+          "Electron Plast",
+          "Droguería Poggi",
+          "KIMS S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 15,
+            "desc": "RESMA20 - Papel uso médico liso blanco, resma 80x120cm, 20kg, grado médico - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "RESMA20 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 140574,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 138400,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 469973,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 131000,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 4000,
+            "desc": "BOX250X100X380 - Bolsa papel grado médico 250x100x380mm c/indicador químico calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 128.93,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 886,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 220,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 90000,
+            "desc": "BOX110X030X190 - Bolsa papel grado médico 110x30x190mm c/indicador químico calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 38.01,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 180,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 32,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 2000,
+            "desc": "BOX140X050X330 - Bolsa papel grado médico 140x50x330mm c/indicador químico calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 222,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 47,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 4,
+            "desc": "PO.100.200 - Bobina de pouch papel/lámina transp. 100mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - marca Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 19854,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 104000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 3,
+            "desc": "PO.200.200 - Bobina de pouch papel/lámina transp. 200mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 38666,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 209666,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 62600,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 2,
+            "desc": "PO.300.200 - Bobina de pouch papel/lámina transp. 300mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 58304,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 309000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 93500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 2,
+            "desc": "PO.400.200 - Bobina de pouch papel/lámina transp. 400mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 79850,
+                "marca": "PO.400.200 - marca Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 79141,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 109510,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 414000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 126100,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 3,
+            "desc": "PO.75.200 - Bobina de pouch papel/lámina transp. 75mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "PO.75.200 - marca Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 20530,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 82000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 24500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 3,
+            "desc": "PO.60.200 - Bobina de pouch papel/lámina transp. 60mmx200mts c/ind. químico calor húmedo+ETO (pliego pide 50mm) - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 12000,
+                "marca": "PO.60.200 - marca Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 15070,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 79600,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 16400,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 5,
+            "desc": "PO.60.200 - Bobina de pouch papel/lámina transp. 60mmx200mts c/ind. químico calor húmedo+ETO (pliego pide 50mm) - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 12000,
+                "marca": "PO.60.200 - marca Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 15070,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 16400,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 5,
+            "desc": "PO.75.200 - Bobina de pouch papel/lámina transp. 75mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "PO.75.200 - marca Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 20530,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 82000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 24500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 6,
+            "desc": "PO.100.200 - Bobina de pouch papel/lámina transp. 100mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - marca Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 19854,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 27400,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 104000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 5,
+            "desc": "PO.200.200 - Bobina de pouch papel/lámina transp. 200mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 38666,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 54800,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 209666,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 62600,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "24",
+            "cant": 5,
+            "desc": "PO.300.200 - Bobina de pouch papel/lámina transp. 300mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 59670,
+                "marca": "PO.300.200 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 58304,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 82165,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 309000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 93500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 3,
+            "desc": "PO.400.200 - Bobina de pouch papel/lámina transp. 400mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 79850,
+                "marca": "PO.400.200 - marca Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 79141,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 109510,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 414000,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 126100,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "26",
+            "cant": 5,
+            "desc": "BOX140X050X330-2 - Bobina de pouch papel/lámina transp. 150mmx200mts c/ind. químico calor húmedo+ETO - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29950,
+                "marca": "BOX140X050X330-2 - marca Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": 25424,
+                "marca": "Laboratorios Igaltex",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 41060,
+                "marca": "Marca ANQING (Electron Plast)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": 159600,
+                "marca": "Yellow Pack (Droguería Poggi)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 47500,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29",
+            "cant": 6000,
+            "desc": "BOX140X050X330 - Bolsa papel grado médico 140x50x330mm c/indicador químico calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - marca Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 82,
+                "marca": "Marca KIMS (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Renglones 12 y 20: ABLE cotiza rollo de 60mm de ancho (código PO.60.200); el pliego pide 50mm.  ABLE gana directo en 11, 12, 20, 21 y 29. Empate técnico (≤2%) en 7, 10, 22 y 25, todos vs Laboratorios Igaltex. Pierde por más del 10% en 2, 3, 4, 5, 8, 9, 23, 24 y 26. No se detecta caso de preferencia nacional (los oferentes competidores son de industria argentina). Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-08T15:08:07.834Z"
     },
     {
@@ -77480,19 +78354,23 @@
       "creado": "2026-09-10T13:17:56.590Z"
     },
     {
-      "id": 293,
-      "entidad": "HTAL ALENDE",
-      "nro": "PA 267",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-15",
-      "monto": 41322020,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "IMPORTANTE: los precios de la competencia fueron leídos de fotos de presupuestos, no de un Excel de apertura oficial. Verificar contra el acta de apertura antes de usar para adjudicación. Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -79041,22 +79919,19 @@
         ],
         "notas": "Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 293,
+      "entidad": "HTAL ALENDE",
+      "nro": "PA 267",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-15",
+      "monto": 41322020,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE: los precios de la competencia fueron leídos de fotos de presupuestos, no de un Excel de apertura oficial. Verificar contra el acta de apertura antes de usar para adjudicación. Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
       "creado": "2026-09-11T13:23:23.849Z"
     },
     {
