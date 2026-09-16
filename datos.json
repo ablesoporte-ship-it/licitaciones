@@ -62448,12 +62448,68 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-31",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "51",
+          "desc": "Sutura PGA N°3/0 c/aguja 25mm 1/2 circ. punta redonda hebra 70cm - Marca Surgimax (Ind. argentina)",
+          "cant": 30,
+          "precio_able": 1252.6,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "52",
+          "desc": "Sutura PGA N°1 c/aguja 40mm 1/2 circ. punta redonda hebra 90cm - Marca Surgimax (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 1312.5,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "53",
+          "desc": "Sutura nylon monofilamento N°2/0 c/aguja 60mm recta punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 75,
+          "precio_able": 630.98,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "54",
+          "desc": "Sutura nylon negro monofilamento N°4/0 c/aguja 20mm 3/8 circ. punta rev. cort. hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 30,
+          "precio_able": 630.98,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "55",
+          "desc": "Sutura nylon monofilamento N°3/0 c/aguja 24mm 3/8 circ. punta rev. cort. hebra 75cm - Marca Surgimax (Ind. argentina)",
+          "cant": 100,
+          "precio_able": 630.98,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE (Mazza Mariana distribuidora) gana rengs.51,52,53,54,55 (suturas PGA y nylon Surgimax). Total: $298.178,90. Reng.51 (PGA N°3/0 Surgimax, 30u x $1.252,60). Reng.52 (PGA N°1 Surgimax, 100u x $1.312,50). Reng.53 (Nylon N°2/0 Surgimax, 75u x $630,98). Reng.54 (Nylon N°4/0 Surgimax, 30u x $630,98). Reng.55 (Nylon N°3/0 Surgimax, 100u x $630,98). Pharmacare, Aurinco, Martorani y otros ganan el resto. Total LP: $11.835.972,42. SAMO fondos propios. Expediente EX-2026-24849103-GDEBA-HZGLFMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -62645,7 +62701,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. IF-2026-31180179-GDEBA-HZGLFMSALGP, cuadro comparativo firmado 02/09/2026. R1-50 no se incluyen: ABLE no cotizó ahí (solo participa en R51 a R54). R52 y R53: Azcuénaga cotiza con cantidad distinta (72) a la del renglón (100/75) — no cambia el resultado.",
