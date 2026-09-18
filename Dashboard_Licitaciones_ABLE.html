@@ -297,6 +297,7 @@ body.modo-lectura .modal-body select:disabled{
       <option value="empate">Con empate técnico</option>
       <option value="pref">Con pref. nacional</option>
       <option value="adj_alerta">Con alertas de adjudicación</option>
+      <option value="adelanto">📦 Con adelanto de mercadería</option>
     </select>
     <select id="fGestion" onchange="render()">
       <option value="">Gestión agente (todos)</option>
@@ -562,6 +563,7 @@ function normalizeRows(rows){
     adj_recibida:false, adj_fecha:'', adj_monto_able:0,
     adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
     oc:'Pendiente', oc_fecha:'', oc_alertas:'',
+    adelanto:false, adelanto_monto:0, adelanto_total_preadj:0, adelanto_obs:'',
     tabla: null,
     ...r,
     monto: Math.round(Number(String(r.monto||0).replace(/[$ .]/g,'').replace(',','.'))||0)
@@ -895,6 +897,7 @@ function filtered(){
     if(alerta==='empate' && r.empate!=='Sí') return false;
     if(alerta==='pref' && r.pref!=='Sí') return false;
     if(alerta==='adj_alerta' && !r.adj_tiene_alerta) return false;
+    if(alerta==='adelanto' && !r.adelanto) return false;
     // "Gestión agente": antes exigía que el campo de texto dijera SOLO el
     // nombre del agente (ej. "Diego"), así que ignoraba cualquier licitación
     // con una nota real escrita ahí. Ahora usa la misma señal real que ya
@@ -972,7 +975,7 @@ function render(){
       <td class="r" style="font-size:12px"><strong>${fmtMoney(r.monto)}</strong>${r.mayor==='Sí'?'<br><span class="badge b-mayor" style="font-size:9px">MAYOR</span>':''}</td>
       <td class="c">${badgeZona(r.zona)}</td>
       <td class="c" style="font-size:12px">${r.agente||'—'}</td>
-      <td style="padding:6px 8px">${flowHTML(r)}${r.adj_tiene_alerta?'<div style="font-size:10px;color:#c0392b;margin-top:3px">⚠ alertas de adjudicación</div>':''}</td>
+      <td style="padding:6px 8px">${flowHTML(r)}${r.adj_tiene_alerta?'<div style="font-size:10px;color:#c0392b;margin-top:3px">⚠ alertas de adjudicación</div>':''}${r.adelanto?`<div style="font-size:10px;color:#c77700;margin-top:3px;font-weight:600">📦 Adelanto de mercadería${r.adelanto_monto?' — $'+Number(r.adelanto_monto).toLocaleString('es-AR'):''}</div>`:''}</td>
       <td class="c">${badgeEmpate(r.empate)}</td>
       <td class="c">${badgePref(r.pref)}</td>
       <td class="c" style="font-size:11.5px">${r.preadj_fecha ? '<span style="color:#2471a3;font-weight:bold">'+fmtDate(r.preadj_fecha)+'</span>' : '<span style="color:#ccc">—</span>'}</td>
@@ -1209,6 +1212,22 @@ function buildDetailForm(r){
       </div>
       <div class="fg full"><label>Notas y gestiones realizadas</label><textarea id="d_gpre" placeholder="Llamadas, visitas, notas enviadas, qué se buscaba lograr...">${esc(r.gestion_pre||'')}</textarea></div>
     </div>
+
+    <div class="form-grid" style="margin-top:14px;padding-top:14px;border-top:1px dashed #E0DED8">
+      <div class="fg" style="grid-column:1/-1">
+        <label>&#128230; ¿Se le hizo adelanto de mercadería al hospital? <span style="font-weight:400;color:#999">(antes de que llegue la OC)</span></label>
+        <select id="d_adelanto" onchange="toggleAdelantoFields()">
+          <option value="false"${!r.adelanto?' selected':''}>No</option>
+          <option value="true"${r.adelanto?' selected':''}>Sí</option>
+        </select>
+      </div>
+      <div id="adelanto-campos" style="display:${r.adelanto?'contents':'none'}">
+        <div class="fg"><label>Monto entregado en adelanto ($)</label><input type="number" id="d_adelanto_monto" value="${r.adelanto_monto||''}" oninput="calcularPctAdelanto()"></div>
+        <div class="fg"><label>Monto total preadjudicado ($) <span style="font-weight:400;color:#999">(para calcular el %)</span></label><input type="number" id="d_adelanto_total" value="${r.adelanto_total_preadj||totalPreadjEstimado(r)||''}" oninput="calcularPctAdelanto()"></div>
+        <div class="fg"><label>% del preadjudicado entregado</label><input type="text" id="d_adelanto_pct" readonly value="${pctAdelanto(r.adelanto_monto, r.adelanto_total_preadj||totalPreadjEstimado(r))}" style="background:#F9F9F7;font-weight:700;color:#c77700"></div>
+        <div class="fg full"><label>Observaciones <span style="font-weight:400;color:#999">(riesgo: si la OC no llega o el Ministerio revierte la preadj., se factura como compra menor)</span></label><textarea id="d_adelanto_obs" placeholder="Motivo de la urgencia, fecha de entrega del adelanto, seguimiento...">${esc(r.adelanto_obs||'')}</textarea></div>
+      </div>
+    </div>
   </div>
 
   <!-- ADJUDICACIÓN -->
@@ -1251,6 +1270,29 @@ function setAgenteD(){
 }
 function updateEtapaSelect(){}
 
+// Suma precio_able*cant de los renglones preadjudicados con resultado 'adj',
+// para no obligar a tipear el total preadjudicado a mano cuando ya está cargado.
+function totalPreadjEstimado(r){
+  if(!r.renglones_preadj || !r.renglones_preadj.length) return 0;
+  return r.renglones_preadj
+    .filter(x=>(x.resultado||'').toLowerCase()==='adj')
+    .reduce((s,x)=>s+(Number(x.precio_able)||0)*(Number(x.cant)||0), 0);
+}
+function pctAdelanto(monto, total){
+  const m=Number(monto)||0, t=Number(total)||0;
+  if(!t) return '—';
+  return ((m/t)*100).toFixed(1)+'%';
+}
+function toggleAdelantoFields(){
+  const activo = document.getElementById('d_adelanto').value==='true';
+  document.getElementById('adelanto-campos').style.display = activo ? 'contents' : 'none';
+}
+function calcularPctAdelanto(){
+  const m=Number(document.getElementById('d_adelanto_monto').value)||0;
+  const t=Number(document.getElementById('d_adelanto_total').value)||0;
+  document.getElementById('d_adelanto_pct').value = t ? ((m/t)*100).toFixed(1)+'%' : '—';
+}
+
 function saveDetail(){
   if(!detailId) return;
   const idx=data.findIndex(x=>x.id===detailId);
@@ -1275,6 +1317,10 @@ function saveDetail(){
     preadj_pref_ok:document.getElementById('d_preadj_pref').value,
     gestion_pre:document.getElementById('d_gpre').value,
     gestion_pre_resultado:document.getElementById('d_gpre_res').value,
+    adelanto:document.getElementById('d_adelanto').value==='true',
+    adelanto_monto:Number(document.getElementById('d_adelanto_monto').value)||0,
+    adelanto_total_preadj:Number(document.getElementById('d_adelanto_total').value)||0,
+    adelanto_obs:document.getElementById('d_adelanto_obs').value,
     adj_fecha:document.getElementById('d_adjfecha').value,
     adj_monto_able:Number(document.getElementById('d_adjmonto').value)||0,
     adj_resumen:document.getElementById('d_adjresumen').value,
