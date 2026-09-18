@@ -80890,12 +80890,35 @@
       "creado": "2026-09-11T13:23:23.849Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-17",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Sutura atraumatica polipropileno c/aguja punta redonda calibre 1-2 - Marca Surgimax (Ind. argentina)",
+          "cant": 144,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Max Continental rechazada (muestra 37mm vs pliego 35mm) — desierto",
+          "motivo": "desierto"
+        },
+        {
+          "reng": "6",
+          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado para atencion diaria pacientes bajo aislamiento de contacto - Marca ArgentCare (Ind. argentina)",
+          "cant": 25000,
+          "precio_able": 613,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana reng.6 (camisolin SMS 30G/m2 ArgentCare, 25.000u x $613 = $15.325.000, PAS — muestra aprobada y precio mejorado). MAYOR. Reng.4 (PP c/aguja punta redonda 35mm): Max Continental rechazada (muestra 37mm no adecuada, pliego pide 35mm) — desierto o a otro. Total LP: $29.627.146,32. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-30005521-GDEBA-HZGAHMMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -81496,7 +81519,7 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-30005521-GDEBA-HZGAHMMSALGP, apertura 11/09/2026. ABLE cotizó solo R4 y R6. Cada oferente se comparó usando su propia oferta base (renglón principal); las ALT de cada uno quedan como fila de referencia, tal como las presentó. R6 pide tela TNT SMS. La base de ABLE ($620) es tela SP — no cumple. Su variante SMS (ALT3, $815) sí cumple, pero por indicación no se usa como base de comparación. R6: Farmatec confirma SMS explícitamente en su oferta (Bluemed/Flexguard, $810). Pharma Center (ALT1, $810) también dice SMS. El resto (base de Pharma Center, Igaltex, Max Continental) no confirma tela en su descripción — no se sabe si cumplen; vale la pena verificarlo antes de adjudicar por precio.",
