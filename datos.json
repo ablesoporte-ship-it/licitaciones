@@ -25873,7 +25873,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 711360,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -26210,7 +26210,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 110,
-      "entidad": "HTAL POSADAS",
+      "entidad": "Htal Posadas",
       "nro": "PA 69",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-08",
@@ -82888,28 +82888,6 @@
       "creado": "2026-09-16T19:00:16.602Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 302,
       "entidad": "Htal de la Vega",
       "nro": "SUMAR 6",
@@ -82919,11 +82897,201 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-16T19:26:42.671Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Papelera E.P. SRL cotizó en esta apertura pero en renglones que ABLE no ofertó (5, 7, 9, 12, 15, 16); no forma parte de esta comparativa. Renglones 2, 10 y 11: no se registró otro oferente en la documentación disponible. Renglón 1: la descripción de Kinet (papel Kraft) difiere levemente de la de ABLE (papel grado médico blanco); verificar equivalencia de especificación antes de confirmar. ABLE gana los renglones 1 y 14 por menor precio. No se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Kinet (Ximax SRL)",
+          "Pharma Center SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 4,
+            "desc": "RESMA.20 - Resma de papel grado médico color blanco - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "RESMA.20 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet (Ximax SRL)",
+                "precio": 221006.5,
+                "marca": "Ximax (papel Kraft 80x120, 20kg)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 2500,
+            "desc": "BOX140X050X330 - Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet (Ximax SRL)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 11000,
+            "desc": "BOX110X030X190 - Bolsa de papel grado médico de 110mm x 30mm x 190mm con indicador químico de calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 36.46,
+                "marca": "BOX110X030X190 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet (Ximax SRL)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 1000,
+            "desc": "BOX250X100X380 - Bolsa de papel grado médico de 250mm x 100mm x 380mm con indicador químico de calor húmedo - marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet (Ximax SRL)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 2000,
+            "desc": "C.SMS.120.ALG.45.A - Camisolín no estéril, hemorrepelente, tela SMS 45grs., descartable, desde cuello hasta debajo de rodillas, manga larga, tiras de ajuste en cuello y cintura, puños de algodón ajustables - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "C.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet (Ximax SRL)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": 2375,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Papelera E.P. SRL cotizó en esta apertura pero en renglones que ABLE no ofertó (5, 7, 9, 12, 15, 16); no forma parte de esta comparativa. Renglones 2, 10 y 11: no se registró otro oferente en la documentación disponible. Renglón 1: la descripción de Kinet (papel Kraft) difiere levemente de la de ABLE (papel grado médico blanco); verificar equivalencia de especificación antes de confirmar. ABLE gana los renglones 1 y 14 por menor precio. No se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-16T19:26:42.671Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
