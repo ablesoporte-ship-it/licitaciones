@@ -82812,41 +82812,884 @@
       "creado": "2026-09-14T17:35:19.659Z"
     },
     {
+      "id": 300,
+      "entidad": "Mun. de La Matanza",
+      "nro": "PA 1186",
+      "tipo": "Concurso de Precios",
+      "fecha": "2026-09-18",
+      "monto": 18577128,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Concurso municipal (Municipio de La Matanza), no provincial; no aplican los criterios de empate técnico ni preferencia nacional propios de licitaciones de hospitales de PBA. Único competidor: Euro Swiss S.A. Ambas ofertas son de industria argentina, por lo que tampoco aplicaría preferencia nacional aunque correspondiera. ABLE gana los 25 renglones cotizados por menor precio, en algunos casos con margen amplio (hasta 3x más barato). Renglones 26 y 27 del cuadro municipal (sutura de lino y seda) no fueron cotizados por ABLE; no forman parte de esta comparativa. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 900,
+            "desc": "NYA206075J - Sutura de Nylon Monofilamento N°2/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 778,
+                "marca": "NYA206075J - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2380,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 900,
+            "desc": "NYM206075J - Sutura de Nylon Monofilamento N°2/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 695,
+                "marca": "NYM206075J - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 360,
+            "desc": "NYA202675F - Sutura de Nylon Monofilamento N°2/0, aguja 26mm, 3/8 círc., punta Rev. cort., hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 778,
+                "marca": "NYA202675F - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2380,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 360,
+            "desc": "NYM202675F - Sutura de Nylon Monofilamento N°2/0, aguja 26mm, 3/8 círc., punta Rev. cort., hebra 75cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 695,
+                "marca": "NYM202675F - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 216,
+            "desc": "NYA306075J - Sutura de Nylon Monofilamento N°3/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 778,
+                "marca": "NYA306075J - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2380,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 216,
+            "desc": "NYM306075J - Sutura de Nylon Monofilamento N°3/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 695,
+                "marca": "NYM306075J - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 360,
+            "desc": "PGA302570A - Sutura de Ácido Poliglicólico N°3/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA302570A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3928,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 360,
+            "desc": "PGM302570A - Sutura de Ácido Poliglicólico N°3/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 144,
+            "desc": "NYA402545F - Sutura de Nylon Monofilamento N°4/0, aguja 25mm, 3/8 círc., punta Rev. cort., hebra 45cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 778,
+                "marca": "NYA402545F - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2380,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 72,
+            "desc": "NYA502075F - Sutura de Nylon Monofilamento N°5/0, aguja 20mm, 3/8 círc., punta Rev. cort., hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 778,
+                "marca": "NYA502075F - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2380,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 48,
+            "desc": "PGA502570A - Sutura de Ácido Poliglicólico N°5/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA502570A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 72,
+            "desc": "PGA402070A - Sutura de Ácido Poliglicólico N°4/0, aguja 20mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA402070A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3928,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 216,
+            "desc": "PGA302070A - Sutura de Ácido Poliglicólico N°3/0, aguja 20mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA302070A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3928,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 216,
+            "desc": "PGM302070A - Sutura de Ácido Poliglicólico N°3/0, aguja 20mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGM302070A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 864,
+            "desc": "PGA202570A - Sutura de Ácido Poliglicólico N°2/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1365,
+                "marca": "PGA202570A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3928,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 864,
+            "desc": "PGM202570A - Sutura de Ácido Poliglicólico N°2/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGM202570A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 900,
+            "desc": "PGA002570A - Sutura de Ácido Poliglicólico N°0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA002570A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3928,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 900,
+            "desc": "PGM002570A - Sutura de Ácido Poliglicólico N°0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGM002570A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 3456,
+            "desc": "PGA014090A - Sutura de Ácido Poliglicólico N°1, aguja 40mm, 1/2 círc., punta redonda, hebra 90cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA014090A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3370,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 3456,
+            "desc": "PGM014070A - Sutura de Ácido Poliglicólico N°1, aguja 40mm, 1/2 círc., punta redonda, hebra 90cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGM014070A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 744,
+            "desc": "PGA014070A - Sutura de Ácido Poliglicólico N°1, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "PGA014070A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3370,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 744,
+            "desc": "PGM014070A - Sutura de Ácido Poliglicólico N°1, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGM014070A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 600,
+            "desc": "PGA024070A - Sutura de Ácido Poliglicólico N°2, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA024070A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3906,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 600,
+            "desc": "PGM024070A - Sutura de Ácido Poliglicólico N°2, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Nac., alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "PGM024070A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 36,
+            "desc": "PPA402575A - Sutura de Polipropileno N°4/0, aguja 25mm, 1/2 círc., punta redonda, hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "PPA402575A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 9762,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 36,
+            "desc": "PPA302575A - Sutura de Polipropileno N°3/0, aguja 25mm, 1/2 círc., punta redonda, hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "PPA302575A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 9954,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 36,
+            "desc": "PPA202690C - Sutura de Polipropileno N°2/0, doble aguja 26mm, 1/2 círc. (2 ag.), punta redonda, hebra 90cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA202690C - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 9954,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 240,
+            "desc": "PPA01 - Sutura de Polipropileno N°1, hebra 75cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "PPA01 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 21272,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 288,
+            "desc": "CLA023570A - Sutura de Catgut Lento N°2, aguja 35mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2992,
+                "marca": "CLA023570A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3456,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 180,
+            "desc": "CLA02150 - Sutura de Catgut Lento N°2 sin aguja, hebra 150cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3590.4,
+                "marca": "CLA02150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 4352,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 180,
+            "desc": "CLA01150 - Sutura de Catgut Lento N°1 sin aguja, hebra 150cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3102,
+                "marca": "CLA01150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3807,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 72,
+            "desc": "CLA00150 - Sutura de Catgut Lento N°0 sin aguja, hebra 150cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2904,
+                "marca": "CLA00150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3683,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 864,
+            "desc": "CSA014070A - Sutura de Catgut Simple N°1, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2585,
+                "marca": "CSA014070A - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3104,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "24",
+            "cant": 176,
+            "desc": "CSA01150 - Sutura de Catgut Simple N°1 sin aguja, hebra 150cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3102,
+                "marca": "CSA01150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3807,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 96,
+            "desc": "CSA00150 - Sutura de Catgut Simple N°0 sin aguja, hebra 150cm - marca Able (Nac.)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2904,
+                "marca": "CSA00150 - Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3683,
+                "marca": "Euro Swiss S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Concurso municipal (Municipio de La Matanza), no provincial; no aplican los criterios de empate técnico ni preferencia nacional propios de licitaciones de hospitales de PBA. Único competidor: Euro Swiss S.A. Ambas ofertas son de industria argentina, por lo que tampoco aplicaría preferencia nacional aunque correspondiera. ABLE gana los 25 renglones cotizados por menor precio, en algunos casos con margen amplio (hasta 3x más barato). Renglones 26 y 27 del cuadro municipal (sutura de lino y seda) no fueron cotizados por ABLE; no forman parte de esta comparativa. Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 300,
-      "entidad": "Mun. de la Matanza",
-      "nro": "PA 1186",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-18",
-      "monto": 29203848,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-15T12:08:33.539Z"
     },
     {
