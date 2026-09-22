@@ -65870,7 +65870,7 @@
         },
         {
           "reng": "24",
-          "desc": "Bolsa p/ileostomia drenable transparente 1 pieza con aro recortable de 15 a 70mm con filtro - Marca ABLE (Ind. argentina)",
+          "desc": "Bolsa p/ileostomia drenable recortable c/barrera protectora 22mm x 64mm - Marca ABLE (Ind. argentina)",
           "cant": 50,
           "precio_able": 1870,
           "marca": "ABLE",
@@ -65880,7 +65880,7 @@
           "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "ABLE gana reng.24 (bolsa ileostomia drenable 1 pieza aro recortable 15-70mm con filtro, Marca ABLE, 50u x $1.870 = $93.500, PP). Total LP adjudicado: $2.464.155,00 entre varios proveedores. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-24080913-GDEBA-HZGAMVMMSALGP.",
+      "gestion_pre": "ABLE gana reng.24 (bolsa ileostomia drenable 22mm x 64mm ABLE, 50u x $1.870 = $93.500, PP). Reng.23 (bolsa colostomia) ABLE pierde. Total LP: $2.464.155,00. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-24080913-GDEBA-HZGAMVMMSALGP.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -65895,7 +65895,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 93500,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -66249,12 +66249,79 @@
       "creado": "2026-08-18T14:23:51.782Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-31",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "13",
+          "desc": "Bajalengua caja x 100 unidades - Marca ABLE (Ind. argentina)",
+          "cant": 30,
+          "precio_able": 1010,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "20",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril c/cintas ajustables tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare (Ind. argentina)",
+          "cant": 900,
+          "precio_able": 130,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "23",
+          "desc": "Bolsa p/colostomia o ileostomia - Marca ABLE",
+          "cant": 500,
+          "precio_able": 2000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "35",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 1200,
+          "precio_able": 29.5,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 28,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "39",
+          "desc": "LigaClip LT300 - cartucho con 6 clips de titanio tipo mediano/grande LT300 - Marca ABLE (Ind. argentina)",
+          "cant": 36,
+          "precio_able": 5350,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "46",
+          "desc": "LigaClip LT400 - cartucho con 6 clips de titanio tipo grande LT400 - Marca ABLE (Ind. argentina)",
+          "cant": 3,
+          "precio_able": 26000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "ABLE gana rengs.13,20,39. Total: $339.900,00. Reng.13 (bajalengua x100u ABLE, 30 cajas x $1.010 = $30.300, PP). Reng.20 (botas cirugia ArgentCare, 900u x $130 = $117.000, PP). Reng.39 (LigaClip LT300 ABLE, 36 sobres x $5.350 = $192.600, PUP). Reng.23 verde pero adjudicado a otro. Reng.35 (cofia) ABLE pierde. Total LP grande. SAMO fondos propios. Vigencia 21/09/2026 al 30/09/2026. Expediente EX-2026-22761514-GDEBA-HZZVDMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -66563,14 +66630,14 @@
       },
       "id": 225,
       "entidad": "Hospital Zonal Zenón Videla Dorna",
-      "nro": "PA 12",
+      "nro": "SAMO 12",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-27",
       "monto": 1453300,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "R35: Aupres S.R.L. le gana a ABLE por 5,36% (dentro del rango de preferencia nacional), pero no se aplicó naranja por no tener confirmado el origen (importado o nacional) de Aupres. Fuente: Listado de Ofertas oficial (R.A.F.A.M.) ya elaborado por el hospital, verificado renglón por renglón contra el Excel de ABLE.",
