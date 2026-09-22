@@ -71548,7 +71548,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 10475650,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -72097,7 +72097,7 @@
       },
       "id": 244,
       "entidad": "Htal Fiorito",
-      "nro": "PA 144/2026",
+      "nro": "PA 144",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-13",
       "monto": 12615000,
@@ -83999,41 +83999,140 @@
       "creado": "2026-09-16T19:26:42.671Z"
     },
     {
+      "id": 303,
+      "entidad": "H.I.G.A. San Roque",
+      "nro": "PA 118",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-18",
+      "monto": 2505360,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotizó únicamente los renglones 36, 46 y 47 de este procedimiento. Renglón 46 ALT: ABLE ofrece también el cubrecalzado por par (no por unidad); no hay oferta equivalente de Farmatec en esa presentación, por lo que queda como fila informativa sin comparación directa. ABLE gana los 3 renglones cotizados por menor precio, con diferencias de entre 33% y 85% respecto de Droguería Farmatec. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Farmatec S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "36",
+            "cant": 20,
+            "desc": "BAJA.AD - Bajalenguas adultos por 100 unidades - marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1018,
+                "marca": "BAJA.AD - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1111,
+                "marca": "Clericot",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "46",
+            "cant": 30000,
+            "desc": "CUBRE.1E.40.23.A - Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 73,
+                "marca": "CUBRE.1E.40.23.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 359,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "46",
+            "cant": 30000,
+            "desc": "CUBRE.1E.23.PAR - Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras - marca ArgentCare (presentación por par)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "CUBRE.1E.23.PAR - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "47",
+            "cant": 10000,
+            "desc": "COFIA2E.12 - Cofia descartable elastizada - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "COFIA2E.12 - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 49,
+                "marca": "Bluemed/Novamed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE cotizó únicamente los renglones 36, 46 y 47 de este procedimiento. Renglón 46 ALT: ABLE ofrece también el cubrecalzado por par (no por unidad); no hay oferta equivalente de Farmatec en esa presentación, por lo que queda como fila informativa sin comparación directa. ABLE gana los 3 renglones cotizados por menor precio, con diferencias de entre 33% y 85% respecto de Droguería Farmatec. Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 303,
-      "entidad": "Htal San roque",
-      "nro": "PA 118",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-18",
-      "monto": 2605360,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-16T19:48:26.873Z"
     },
     {
