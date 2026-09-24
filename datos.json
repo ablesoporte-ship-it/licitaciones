@@ -85821,10 +85821,10 @@
     {
       "id": 317,
       "entidad": "Htal San Martín PA 431",
-      "nro": "",
-      "tipo": "",
+      "nro": "PA 431",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-28",
-      "monto": 0,
+      "monto": 518381,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
@@ -85848,7 +85848,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.225Z"
+      "creado": "2026-09-24T19:28:59.225Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "id": 318,
