@@ -85853,10 +85853,10 @@
     {
       "id": 318,
       "entidad": "Htal Pedro de Elizalde",
-      "nro": "",
-      "tipo": "",
+      "nro": "LP 417",
+      "tipo": "Pública",
       "fecha": "2026-09-30",
-      "monto": 0,
+      "monto": 4627440,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
@@ -85880,16 +85880,20 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.257Z"
+      "creado": "2026-09-24T19:28:59.257Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "id": 319,
-      "entidad": "Htal Región Sanitaria XII PA 231",
-      "nro": "",
-      "tipo": "",
+      "entidad": "Htal Región Sanitaria XII",
+      "nro": "PA 231",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-30",
-      "monto": 0,
-      "mayor": "No",
+      "monto": 21691200,
+      "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
       "etapa": "Pendiente",
@@ -85912,7 +85916,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.286Z"
+      "creado": "2026-09-24T19:28:59.286Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "id": 320,
