@@ -85788,11 +85788,11 @@
     },
     {
       "id": 316,
-      "entidad": "Htal Eva Perón PA 209",
-      "nro": "",
-      "tipo": "",
+      "entidad": "Htal Eva Perón",
+      "nro": "PA 209",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-30",
-      "monto": 0,
+      "monto": 1560000,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
@@ -85816,7 +85816,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.192Z"
+      "creado": "2026-09-24T19:28:59.192Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "id": 317,
