@@ -85916,12 +85916,12 @@
     },
     {
       "id": 320,
-      "entidad": "Htal Korn PA 258",
-      "nro": "",
-      "tipo": "",
+      "entidad": "Htal Korn",
+      "nro": "PA 258",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-01",
-      "monto": 0,
-      "mayor": "No",
+      "monto": 6400000,
+      "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
       "etapa": "Pendiente",
@@ -85944,7 +85944,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.318Z"
+      "creado": "2026-09-24T19:28:59.318Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "id": 321,
