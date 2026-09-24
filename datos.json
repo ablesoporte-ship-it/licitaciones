@@ -73012,20 +73012,20 @@
       ]
     },
     {
-      "preadj_fecha": "2026-08-28",
+      "preadj_fecha": "2026-09-07",
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "No",
       "renglones_preadj": [
         {
           "reng": "15",
-          "desc": "Camisolin descartable no esteril SMS 30G/m2 manga larga puño ajustado - Marca ArgentCare (Ind. argentina)",
+          "desc": "Camisolin descartable no esteril tela SMS 30G/m2 manga larga puño ajustado para atencion diaria pacientes bajo aislamiento de contacto - Marca ArgentCare (Ind. argentina)",
           "cant": 10000,
           "precio_able": 620,
           "marca": "ArgentCare",
-          "resultado": "no_adj",
-          "precio_siguiente": 750,
-          "ganador_sig": "Bymed S.R.L. (Bioprotec PAT — ajuste tecnico a muestra presentada)",
-          "motivo": "rechazado_calidad"
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
         },
         {
           "reng": "16",
@@ -73042,7 +73042,7 @@
           "reng": "17",
           "desc": "Cubrecalzado elastizado en SMS laminado tricapa descartable no esteril no deslizable resistente a la rasgadura - Marca ArgentCare (Ind. argentina)",
           "cant": 5000,
-          "precio_able": 68.81,
+          "precio_able": 68,
           "marca": "ArgentCare",
           "resultado": "adj",
           "precio_siguiente": null,
@@ -73051,17 +73051,17 @@
         },
         {
           "reng": "22",
-          "desc": "LigaClip LT400 cartucho 6 clips titanio tamaño grande - Marca ABLE (Ind. argentina)",
+          "desc": "Equipo de cirugia descartable hemorrepelente esteril 4 camisolines 2 campos grandes 2 campos medianos 2 campos chicos - Marca Ebano",
           "cant": 30,
           "precio_able": 26000,
           "marca": "ABLE",
           "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Otro oferente",
+          "precio_siguiente": 20980,
+          "ganador_sig": "Drogueria Pharma Center S.R.L. ($20.980 x 30u = $629.400)",
           "motivo": "superado"
         }
       ],
-      "gestion_pre": "ABLE gana rengs.16 y 17 (cofia y botas ArgentCare). Total: $485.150,00. Reng.15 (camisolin SMS 30Grs.): ABLE verde $620 pero adjudicado a Bymed/Bioprotec PAT $750 (ajuste tecnico a muestra presentada). Reng.22 (LT400) ABLE no gana. Drogueria Farmatec gana reng.10 (tela adhesiva). Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-24397589-GDEBA-HZGMBMSALGP. Total LP: $8.519.150,00.",
+      "gestion_pre": "ABLE gana rengs.15,16,17. Total: $6.681.100,00. Reng.15 (camisolin SMS 30G/m2 ArgentCare, 10.000u x $620 = $6.200.000, PPA). Reng.16 (cofia ArgentCare, 5.000u x $28,22 = $141.100, PPA). Reng.17 (cubrecalzado SMS tricapa ArgentCare, 5.000u x $68 = $340.000, PPA). Reng.15 camisolin SMS gana sobre SP (precio inferior). Reng.22 (equipo cirugia) Pharma Center $20.980 x 30u. Total LP: $14.416.281,00. PREADJUDICACION APROBADA. Expediente EX-2026-24397589-GDEBA-HZGMBMSALGP. Vigencia 23/09/2026 al 31/12/2026.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
