@@ -61659,14 +61659,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-23",
+      "adj_monto_able": 285000,
+      "adj_resumen": "ABLE adjudicada en reng.5 (cofia descartable elastizada ArgentCare, 10.000u x $28,50 = $285.000). Reng.4 (botas) rechazado (ABLE ofrece elastico, pliego pide cintas ajustables). OC 473/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-23",
+      "oc_alertas": "OC Nro. 473/2026 fecha 23/09/2026. Reng.5 (cofia ArgentCare, 10.000u x $28,50 = $285.000,00). H.I.G.A. Prof. Dr. Rodolfo Rossi, La Plata. Disposicion DISPO-2026-1556-GDEBA-HIGAPDRRMSALGP/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -61839,11 +61839,35 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Resultado general: de los 3 renglones cotizados por ABLE, se ganan los renglones 4 y 5 (por amplio margen). En el renglón 1 pierde por muy poco frente a Aupres. Reng. 1 — ABLE $29.900,00 vs Aupres $29.000,00, diferencia de 3,10%. No corresponde empate técnico (>2%) ni preferencia nacional (ningún oferente declara producto importado en este renglón). Reng. 2 y 3 (Sonda tipo K67 y Cánula de aspiración K65) — ABLE no cotiza; ganan Martorani y Euro Swiss respectivamente. No se incluyen en esta comparativa. Monto total cotizado por ABLE (renglones 1, 4 y 5): $3.622.500,00.",
-      "creado": "2026-08-05T18:39:23.768Z"
+      "creado": "2026-08-05T18:39:23.768Z",
+      "renglones_adj": [
+        {
+          "reng": "4",
+          "desc": "Cubrecalzado (bota p/cirugia) descartable no esteril c/cintas ajustables tela no tejida hemorrepelente no deslizable resistente a rasgaduras - Marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 158.6,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 158.6,
+          "ganador_sig": "PEMED S.A. (PAS — ofrece cintas ajustables, ABLE ofrece elastico)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "5",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare (Ind. argentina) - cod. COFIA.2E.12",
+          "cant": 10000,
+          "precio_able": 28.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
