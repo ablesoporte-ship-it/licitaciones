@@ -83117,41 +83117,384 @@
       "creado": "2026-09-11T19:28:43.776Z"
     },
     {
+      "id": 298,
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
+      "nro": "PA 201",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-18",
+      "monto": 14745000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana los renglones 1 y 3; pierde el renglón 2 frente a Pharma Center (diferencia ≈10,7%, sin empate ni preferencia nacional). Renglón 3: verificar las ofertas de Pharma Center (45gr) y Medi-Cross (muy por encima del resto); podrían no ser la misma especificación. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Farmatec S.A.",
+          "Aupres S.R.L.",
+          "Max Continental S.A.",
+          "Pharma Center S.R.L.",
+          "Droguería Medi-Cross S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 2000,
+            "desc": "CE.SMS.120.ALG.45.A - Camisolín estéril, hemorrepelente tela SMS 45grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1850,
+                "marca": "CE.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 8984.9,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 5347,
+                "marca": "Bioprotec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 50,
+            "desc": "EB.7031 - Equipo de cirugía de tela SMS descartable, estéril, con 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos - marca Ebano",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 22500,
+                "marca": "EB.7031 - Ebano",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 36754,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 31748,
+                "marca": "Aupres",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 23427.1,
+                "marca": "Protbarrie",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center S.R.L.",
+                "precio": 20320,
+                "marca": "DPC",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 16000,
+            "desc": "C.OSP.110.ELA30.A - Camisolín no estéril, no hemorrepelente de tela SP 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 620,
+                "marca": "C.OSP.110.ELA30.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 865.15,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 775,
+                "marca": "Aupres",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center S.R.L.",
+                "precio": 1237,
+                "marca": "DPC (45gr, verificar espec.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": 2212.67,
+                "marca": "Clothier (verificar, muy por encima del resto)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 16000,
+            "desc": "C.OSP.110.ELA25.A - Camisolín no estéril, no hemorrepelente de 25grs., descartable - marca ArgentCare (alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 598,
+                "marca": "C.OSP.110.ELA25.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 16000,
+            "desc": "C.OSP.110.ELA20.A - Camisolín no estéril, no hemorrepelente de 20grs., descartable - marca ArgentCare (alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "C.OSP.110.ELA20.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 16000,
+            "desc": "C.SMS.120.ALG.30.A - Camisolín no estéril, hemorrepelente tela SMS 30grs., descartable, puños de algodón - marca ArgentCare (alternativa ABLE)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Medi-Cross S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE gana los renglones 1 y 3; pierde el renglón 2 frente a Pharma Center (diferencia ≈10,7%, sin empate ni preferencia nacional). Renglón 3: verificar las ofertas de Pharma Center (45gr) y Medi-Cross (muy por encima del resto); podrían no ser la misma especificación. Ningún oferente presenta objeción (obj) detectada en la documentación revisada."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 298,
-      "entidad": "Htal Oñativia",
-      "nro": "PA 201",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-18",
-      "monto": 45053000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-14T17:20:22.176Z"
     },
     {
