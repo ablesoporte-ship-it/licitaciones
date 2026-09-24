@@ -61458,7 +61458,7 @@
         {
           "reng": "4",
           "desc": "Bobina pouch papel uso medico liso y lamina transparente 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.75.200",
-          "cant": 3,
+          "cant": 8,
           "precio_able": 14990,
           "marca": "ABLE",
           "resultado": "adj",
@@ -61469,8 +61469,8 @@
         {
           "reng": "5",
           "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.100.200",
-          "cant": 3,
-          "precio_able": 19630,
+          "cant": 8,
+          "precio_able": 19950,
           "marca": "ABLE",
           "resultado": "adj",
           "precio_siguiente": null,
@@ -61501,7 +61501,7 @@
         },
         {
           "reng": "14",
-          "desc": "Bolsa papel grado medico 90mm x 50mm x 150mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX090X050X150",
+          "desc": "Bolsa papel grado medico 90mm x 50mm x 150mm c/indicador quimico calor humedo - Marca ABLE",
           "cant": 90000,
           "precio_able": 30.76,
           "marca": "ABLE",
@@ -61522,19 +61522,19 @@
           "motivo": "superado"
         }
       ],
-      "gestion_pre": "ABLE gana rengs.4,5,10. Total: $599.390,00. Reng.4 (pouch 75mm x 200mts ABLE, 3u x $14.990 = $44.970). Reng.5 (pouch 100mm x 200mts ABLE, 3u x $19.630 = $58.890). Reng.10 (bolsa 250x100x380mm ABLE, 3.500u x $141,58 = $495.530). Reng.9 (bolsa 110x30x190mm) ABLE pierde vs Igaltex $35,29. Rengs.14 y 17 ABLE pierde. Papelera EP gana reng.3. Total LP: $9.588.507,36. PREADJUDICACION APROBADA. Expediente EX-2026-21236179-GDEBA-HIGAEMSALGP.",
+      "gestion_pre": "ABLE gana rengs.4,5,10. Total: $775.050,00. Reng.4 (pouch 75mm x 200mts ABLE, 8u x $14.990 = $119.920). Reng.5 (pouch 100mm x 200mts ABLE, 8u x $19.950 = $159.600). Reng.10 (bolsa 250x100x380mm ABLE, 3.500u x $141,58 = $495.530). Reng.9 (bolsa 110x30x190mm) ABLE pierde vs Igaltex $35,29. Rengs.14 y 17 ABLE pierde. Total LP: $9.588.507,36. PREADJUDICACION APROBADA. Expediente EX-2026-21236179-GDEBA-HIGAEMSALGP.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-23",
+      "adj_monto_able": 775050,
+      "adj_resumen": "ABLE adjudicada en rengs.4,5,10 (bobinas pouch y bolsa papel grado medico). Total: $775.050,00. OC 403/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-23",
+      "oc_alertas": "OC Nro. 403/2026 fecha 23/09/2026. Reng.4 (pouch 75mm ABLE, 8u x $14.990 = $119.920). Reng.5 (pouch 100mm ABLE, 8u x $19.950 = $159.600). Reng.10 (bolsa 250x100x380mm ABLE, 3.500u x $141,58 = $495.530). Total: $775.050,00. H.I.G.A. Evita, Lanus. Disposicion DISPO-2026-1216-GDEBA-HIGAEMSALGP/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -61552,11 +61552,79 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-08-05T12:26:40.909Z"
+      "creado": "2026-08-05T12:26:40.909Z",
+      "renglones_adj": [
+        {
+          "reng": "4",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.75.200",
+          "cant": 8,
+          "precio_able": 14990,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "5",
+          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca ABLE - cod. PO.100.200",
+          "cant": 8,
+          "precio_able": 19950,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "9",
+          "desc": "Bolsa papel grado medico 110mm x 30mm x 190mm c/indicador quimico calor humedo - Marca ABLE",
+          "cant": 38000,
+          "precio_able": 36.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 35.29,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "10",
+          "desc": "Bolsa papel grado medico 250mm x 100mm x 380mm c/indicador quimico calor humedo - Marca ABLE - cod. BOX250X100X380",
+          "cant": 3500,
+          "precio_able": 141.58,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "motivo": "menor_precio",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "14",
+          "desc": "Bolsa papel grado medico 90mm x 50mm x 150mm c/indicador quimico calor humedo - Marca ABLE",
+          "cant": 90000,
+          "precio_able": 30.76,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        },
+        {
+          "reng": "17",
+          "desc": "Bolsa papel grado medico 90mm x 50mm x 250mm c/indicador quimico calor humedo - Marca ABLE",
+          "cant": 12000,
+          "precio_able": 40.28,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Otro oferente",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-24",
