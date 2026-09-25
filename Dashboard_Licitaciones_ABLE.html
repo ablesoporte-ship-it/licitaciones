@@ -272,7 +272,7 @@ body.modo-lectura .modal-body select:disabled{
 
   <!-- TOOLBAR -->
   <div class="toolbar">
-    <input type="text" id="search" placeholder="&#128269; Buscar entidad o licitación..." oninput="render()" style="min-width:210px">
+    <input type="text" id="search" placeholder="&#128269; Buscar entidad, licitación o N° OC..." oninput="render()" style="min-width:230px">
     <select id="fZona" onchange="render()">
       <option value="">Todas las zonas</option>
       <option>Zona Norte</option><option>Zona Sur</option><option>Zona Oeste</option>
@@ -877,6 +877,14 @@ function tienePanelGestion(r){
   return r.empate==='Sí' || r.pref==='Sí';
 }
 
+// El número de OC no es un campo propio: vive como texto libre dentro de
+// oc_alertas (ej. "OC Nro. 425/2026..."). Se extrae con la misma regex que
+// ya usa el modal de OC, para poder buscarlo desde el buscador principal.
+function numeroOC(r){
+  const m=(r.oc_alertas||'').match(/OC\s*Nro\.?\s*([\d\/\-]+)/i);
+  return m ? m[1] : '';
+}
+
 function filtered(){
   const q=(document.getElementById('search').value||'').toLowerCase();
   const zona=document.getElementById('fZona').value;
@@ -888,7 +896,7 @@ function filtered(){
   const mes=document.getElementById('fMes').value;
   const agentes=['Diego','Noe','Gonzalo'];
   return data.filter(r=>{
-    if(q && !r.entidad.toLowerCase().includes(q) && !r.nro.toLowerCase().includes(q)) return false;
+    if(q && !r.entidad.toLowerCase().includes(q) && !r.nro.toLowerCase().includes(q) && !numeroOC(r).toLowerCase().includes(q)) return false;
     if(zona && r.zona!==zona) return false;
     if(etapa && r.etapa!==etapa) return false;
     if(mayor==='si' && r.mayor!=='Sí') return false;
