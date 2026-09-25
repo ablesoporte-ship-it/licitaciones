@@ -1641,7 +1641,7 @@ function buscarProducto(){
         <td style="padding:6px 8px;text-align:right;font-weight:bold">${fmt(f.precioAble)}</td>
         <td style="padding:6px 8px;text-align:right">${fmt(f.precioRival)}</td>
         <td style="padding:6px 8px;text-align:center">${badge}</td>
-        <td style="padding:6px 8px;text-align:center">${f.licId!=null?`<button class="btn btn-outline btn-icon" title="Ver comparativa completa" onclick="cerrarBuscadorProducto();openComp(${f.licId})">&#128202;</button>`:''}</td>
+        <td style="padding:6px 8px;text-align:center">${f.licId!=null?`<button class="btn btn-outline btn-icon" title="Ver comparativa completa" onclick="verCompDesdeBuscador(${f.licId})">&#128202;</button>`:''}</td>
       </tr>`;
     }).join('')}</tbody>
   </table>`;
@@ -1656,7 +1656,21 @@ function openComp(id){
   document.getElementById('compBody').innerHTML=buildCompHTML(t);
   document.getElementById('compOverlay').style.display='flex';
 }
-function closeComp(){ document.getElementById('compOverlay').style.display='none'; }
+// Si se abrió la comparativa desde el buscador de producto, al cerrarla hay
+// que volver ahí con la misma búsqueda puesta, en vez de perderla.
+let volverABuscadorProducto=false;
+function verCompDesdeBuscador(id){
+  volverABuscadorProducto=true;
+  document.getElementById('prodOverlay').style.display='none';
+  openComp(id);
+}
+function closeComp(){
+  document.getElementById('compOverlay').style.display='none';
+  if(volverABuscadorProducto){
+    volverABuscadorProducto=false;
+    document.getElementById('prodOverlay').style.display='flex';
+  }
+}
 
 function openReng(id){
   const r=data.find(x=>x.id===id);
