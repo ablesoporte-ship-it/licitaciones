@@ -88229,41 +88229,237 @@
       "creado": "2026-09-23T18:41:31.618Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 315,
-      "entidad": "Htal Eurnekian",
-      "nro": "PA 179",
+      "entidad": "H.I.G.A. Dr. Alberto Eurnekian",
+      "nro": "PA 179/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-25",
       "monto": 19200000,
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Se mantiene el orden original de presentación de las ofertas (renglón principal = primera variante cotizada por cada oferente); ABLE cotizó como opción principal la variante $640 (tela SP 30grs). IMPORTANTE - Cumplimiento de pliego: el Anexo III exige tela NO TEJIDA (TNT) SMS de 30 g/m². La variante principal de ABLE ($640, tela SP) y sus alternativas $605 (SP 25grs) y $481,30 (SP 20grs) NO cumplen ese requisito. La única variante de ABLE que sí cumple es la última alternativa cotizada, $815 (C.SMS.120.ALG.30.A, tela SMS 30grs). Comparando por precio nominal (sin filtrar por cumplimiento), ABLE ganaría el renglón con $640 frente a Pharma Center ($783) e Igaltex ($494,07 pero sin especificar material). Comparando SOLO entre las ofertas que cumplen el pliego (tela SMS 30g), ABLE ($815) pierde frente a Pharma Center ($783, diferencia ≈4,1%, sin empate ni preferencia nacional — marca DPC, sin declaración de importado). Laboratorios Igaltex S.R.L. cotiza $494,07 (base) y $641,94 (alt), marca “Global Protective”; su descripción no especifica el material de la tela (no consta TNT/SMS), por lo que no puede confirmarse el cumplimiento del pliego — se incluye a título informativo pero se marca para verificar antes de usarse como referencia. Ningún oferente presenta objeción (obj) técnica formal detectada en la documentación revisada.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Pharma Center S.R.L.",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "C.OSP.110.ELA.30.A - Camisolín no estéril, no hemorrepelente de tela SP 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare (NO cumple pliego: tela SP en vez de SMS — ver notas)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 640,
+                "marca": "C.OSP.110.ELA.30.A - ArgentCare (no compliant)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 783,
+                "marca": "DPC (Camisolín Largo 30G B, SMS, puño elástico)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 494.07,
+                "marca": "Global Protective PM 414-36 (verificar material, no consta TNT/SMS)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "C.OSP.110.ELA.25.A - Camisolín no estéril, no hemorrepelente de tela SP 25grs. - marca ArgentCare (NO cumple pliego: tela SP y gramaje distinto)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "C.OSP.110.ELA.25.A - ArgentCare (no compliant)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "C.OSP.110.ELA.20.A - Camisolín no estéril, no hemorrepelente de tela SP 20grs. - marca ArgentCare (NO cumple pliego: tela SP y gramaje distinto)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "C.OSP.110.ELA.20.A - ArgentCare (no compliant)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "C.SMS.120.ALG.30.A - Camisolín no estéril, hemorrepelente tela SMS 30grs., descartable, con puños de algodón - marca ArgentCare (CUMPLE pliego: TNT SMS 30g — única variante de ABLE compliant)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare (compliant)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "Pharma Center, variante superior “30G A”, SMS, puño elástico (alternativa del competidor)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 875,
+                "marca": "DPC (Camisolín Largo 30G A, SMS, puño elástico)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 30000,
+            "desc": "Igaltex, variante superior “Global Protective PM 414-36” (alternativa del competidor, material no especificado)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 641.94,
+                "marca": "Global Protective PM 414-36 alt (verificar material)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Se mantiene el orden original de presentación de las ofertas (renglón principal = primera variante cotizada por cada oferente); ABLE cotizó como opción principal la variante $640 (tela SP 30grs). IMPORTANTE - Cumplimiento de pliego: el Anexo III exige tela NO TEJIDA (TNT) SMS de 30 g/m². La variante principal de ABLE ($640, tela SP) y sus alternativas $605 (SP 25grs) y $481,30 (SP 20grs) NO cumplen ese requisito. La única variante de ABLE que sí cumple es la última alternativa cotizada, $815 (C.SMS.120.ALG.30.A, tela SMS 30grs). Comparando por precio nominal (sin filtrar por cumplimiento), ABLE ganaría el renglón con $640 frente a Pharma Center ($783) e Igaltex ($494,07 pero sin especificar material). Comparando SOLO entre las ofertas que cumplen el pliego (tela SMS 30g), ABLE ($815) pierde frente a Pharma Center ($783, diferencia ≈4,1%, sin empate ni preferencia nacional — marca DPC, sin declaración de importado). Laboratorios Igaltex S.R.L. cotiza $494,07 (base) y $641,94 (alt), marca “Global Protective”; su descripción no especifica el material de la tela (no consta TNT/SMS), por lo que no puede confirmarse el cumplimiento del pliego — se incluye a título informativo pero se marca para verificar antes de usarse como referencia. Ningún oferente presenta objeción (obj) técnica formal detectada en la documentación revisada."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-24T12:12:51.337Z"
     },
     {
