@@ -88231,7 +88231,7 @@
     {
       "id": 315,
       "entidad": "H.I.G.A. Dr. Alberto Eurnekian",
-      "nro": "PA 179/2026",
+      "nro": "PA 179",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-25",
       "monto": 19200000,
@@ -88460,7 +88460,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T12:12:51.337Z"
+      "creado": "2026-09-24T12:12:51.337Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
