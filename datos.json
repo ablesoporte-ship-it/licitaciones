@@ -12712,14 +12712,14 @@
       "oc_alertas": "OC 100/2026. Renglones 48, 56, 63 y 64. Total $1.579.837,50. R54 no incluido (adjudicado a BHAURAC).",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 1579837.5,
       "adelanto_obs": "",
       "tabla": null,
       "liquidado": true,
       "liquidado_fecha": "2026-08-13",
       "liquidado_obs": "",
       "id": 73,
-      "entidad": "HTAL CETRAGNOLO",
+      "entidad": "HTAL CETRANGOLO",
       "nro": "PA 34",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-04-28",
@@ -89507,7 +89507,377 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
+    },
+    {
+      "id": 325,
+      "entidad": "HTAL CETRANGOLO",
+      "nro": "SAMO 12",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-20",
+      "monto": 1429500,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IMPORTANTE: pliego exige tela SMS 30g/m² para R57. Oferta BASE de ABLE es tela SP (no cumple, no hemorrepelente). ALT 3 de ABLE ($1.630,00) sí es SMS 30g/m² hemorrepelente y cumple pliego. Verificar con ABLE cuál oferta corresponde presentar. Preadjudicación (04/09/2026) aprobó igual la oferta BASE (SP) sin objeción.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "LEIX Insumos Hospitalarios",
+          "Propato Hnos SAIC",
+          "Droguería Farmatec S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "29",
+            "cant": 1000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 315,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": 213,
+                "marca": "NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 261.36,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "30",
+            "cant": 1000,
+            "desc": "Cofia descartable elastizada",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": 41,
+                "marca": "NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": 43.59,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 39.29,
+                "marca": "BLUEMED/NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, no hemorrepelente de tela SP de 30grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 635,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": 1186,
+                "marca": "BLUEMED/FLEXGUARD",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 740,
+                "marca": "BLUEMED/FLEXGUARD",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57 ALT 1",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 25grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1210,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57 ALT 2",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 962.6,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "57 ALT 3",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30grs. (cumple espec. de tela SMS del pliego), descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1630,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "LEIX Insumos Hospitalarios",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos SAIC",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ]
+      },
+      "preadj_fecha": "2026-09-04",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Comisión aprobó los 3 renglones cotizados por ABLE (29, 30, 57). Reng.57: ABLE ofertó BASE en tela SP (no hemorrepelente) cuando el pliego exigía SMS hemorrepelente 30g/m² — igual fue aprobado por la comisión, sin objeción registrada. ABLE tenía disponible la ALT 3 ($1.630,00) que sí cumplía SMS, pero se presentó y aprobó la BASE.",
+      "gestion_pre_resultado": "Ganado",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-28T15:13:48.199Z",
+      "renglones_preadj": [
+        {
+          "reng": "29",
+          "desc": "Cubrecalzado (botas p/cirugía) descartable, no estéril, c/cintas ajustables — marca ArgentCare",
+          "cant": 500,
+          "precio_able": 130,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "30",
+          "desc": "Cofia descartable elastizada — marca ArgentCare",
+          "cant": 500,
+          "precio_able": 29.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "57",
+          "desc": "Camisolín descartable no estéril, tela SP 30g/m² — marca ArgentCare (pliego pedía TNT SMS hemorrepelente)",
+          "cant": 2000,
+          "precio_able": 635,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio_aprobado_pese_a_diferencia_de_tela"
+        }
+      ],
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 1349750,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 325
+  "nextId": 326
 }
