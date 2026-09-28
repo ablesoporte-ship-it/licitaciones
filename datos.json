@@ -83620,12 +83620,46 @@
       "creado": "2026-09-11T19:28:43.776Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-23",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Camisolin esteril, hemorrepelente tela SMS 45grs., descartable, desde cuello hasta debajo rodillas, manga larga, tiras ajuste cuello y cintura, puños algodon ajustables en muñeca - Marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 1850,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Equipo de cirugia tela SMS descartable, esteril, 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos - Marca Ebano",
+          "cant": 50,
+          "precio_able": 22500,
+          "marca": "Ebano",
+          "resultado": "no_adj",
+          "precio_siguiente": 20320,
+          "ganador_sig": "Pharma Center S.R.L. (DPC)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "3",
+          "desc": "Camisolin no esteril, no hemorrepelente tela SP 30grs., descartable, manga larga, puños elastico ajustables en muñeca - Marca ArgentCare",
+          "cant": 16000,
+          "precio_able": 620,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 775,
+          "ganador_sig": "Aupres S.R.L. (Bioprotec/Aupres, 35grs SMS)",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "ABLE gana solo reng.1 (camisolin esteril SMS 45grs ArgentCare, 2.000u x $1.850 = $3.700.000). Pierde reng.2 (equipo cirugia) vs Pharma Center $20.320 (ABLE $22.500). Pierde reng.3 (camisolin no esteril 30g) vs Aupres $775: oferta base de ABLE es tela SP (no SMS como exige el pliego), incumple espec pese a ser mas barata ($620); la alternativa ABLE en SMS 30g cumple pliego pero cuesta $815, sigue perdiendo vs Aupres. Expediente EX-2026-28625516-GDEBA-HZGADAOMSALGP.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -83999,7 +84033,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana los renglones 1 y 3; pierde el renglón 2 frente a Pharma Center (diferencia ≈10,7%, sin empate ni preferencia nacional). Renglón 3: verificar las ofertas de Pharma Center (45gr) y Medi-Cross (muy por encima del resto); podrían no ser la misma especificación. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
