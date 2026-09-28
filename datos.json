@@ -80549,41 +80549,237 @@
       "creado": "2026-09-09T19:58:10.516Z"
     },
     {
+      "id": 291,
+      "entidad": "Hospital de Gestión Descentralizado Región Sanitaria XII",
+      "nro": "PA 174/2026",
+      "tipo": "Procedimiento Abreviado - 2° llamado",
+      "fecha": "2026-09-16",
+      "monto": 446650,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.20 — ABLE $29,50 vs Suturas $80,00 vs Bioneural $62,00 (Euromix). ABLE gana limpio. Reng.36 (fila base) — ABLE cotiza friselina 20g a $503,00, Suturas cotiza friselina 30g a $1.165,00, Bioneural cotiza SMS 45g a $2.520,00: son tres gramajes/materiales distintos, el pliego (Anexo III) no exige uno en particular (solo dice 'tela friselina'). Comparando tal cual fueron presentadas, ABLE resulta la más barata. ALT1 (25g), ALT2 (30g friselina), ALT3 (SMS 30g) y ALT4 (SMS 45g) son variantes que solo cotizó ABLE — ningún competidor presentó opciones adicionales, sin comparación de color. Base de IVA no confirmada explícitamente en ninguno de los tres documentos (Excel ABLE, presupuesto Suturas, presupuesto Bioneural); se compararon tal cual figuran, asumiendo base comparable.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Suturas S.R.L.",
+          "Bioneural S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "20",
+            "cant": 1500,
+            "desc": "Cofia descartable elastizada — COFIA.2E.12 — Marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "COFIA.2E.12 - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 80,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": 62,
+                "marca": "Euromix",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 800,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, tiras de ajuste en cuello y cintura, puños de elástico — C.OSP.110.ELA.20.A — Marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 503,
+                "marca": "C.OSP.110.ELA.20.A - ArgentCare (friselina 20g)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 1165,
+                "marca": "Tela friselina 30grs",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": 2520,
+                "marca": "SMS 45grs, puño tejido - Kratec/lasante",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 800,
+            "desc": "(ALT1) Camisolín no estéril, no hemorrepelente de 25grs., descartable — C.OSP.110.ELA.25.A — Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "C.OSP.110.ELA.25.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 800,
+            "desc": "(ALT2) Camisolín no estéril, no hemorrepelente de 30grs., descartable — C.OSP.110.ELA.30.A — Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 660,
+                "marca": "C.OSP.110.ELA.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 800,
+            "desc": "(ALT3) Camisolín no estéril, hemorrepelente tela SMS de 30grs., descartable, puños de algodón — C.SMS.120.ALG.30.A — Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "36",
+            "cant": 800,
+            "desc": "(ALT4) Camisolín no estéril, hemorrepelente tela SMS de 45grs., descartable, puños de algodón — C.SMS.120.ALG.45.A — Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1322.5,
+                "marca": "C.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioneural S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.20 — ABLE $29,50 vs Suturas $80,00 vs Bioneural $62,00 (Euromix). ABLE gana limpio. Reng.36 (fila base) — ABLE cotiza friselina 20g a $503,00, Suturas cotiza friselina 30g a $1.165,00, Bioneural cotiza SMS 45g a $2.520,00: son tres gramajes/materiales distintos, el pliego (Anexo III) no exige uno en particular (solo dice 'tela friselina'). Comparando tal cual fueron presentadas, ABLE resulta la más barata. ALT1 (25g), ALT2 (30g friselina), ALT3 (SMS 30g) y ALT4 (SMS 45g) son variantes que solo cotizó ABLE — ningún competidor presentó opciones adicionales, sin comparación de color. Base de IVA no confirmada explícitamente en ninguno de los tres documentos (Excel ABLE, presupuesto Suturas, presupuesto Bioneural); se compararon tal cual figuran, asumiendo base comparable."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 291,
-      "entidad": "Htal Región Sanitaria XII X",
-      "nro": "PA 174",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-16",
-      "monto": 3158450,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-09T19:58:10.531Z"
     },
     {
