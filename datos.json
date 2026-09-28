@@ -76169,62 +76169,62 @@
       "renglones_preadj": [
         {
           "reng": "2",
-          "desc": "Bobina pouch papel uso medico liso y lamina transparente 200mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.200.200",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 200mm x 200mts, marca Able",
           "cant": 10,
           "precio_able": 39780,
           "marca": "Able",
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "unico_oferente"
         },
         {
           "reng": "3",
-          "desc": "Bobina pouch papel uso medico liso y lamina transparente 300mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.300.200",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 300mm x 200mts, marca Able",
           "cant": 10,
           "precio_able": 59670,
           "marca": "Able",
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "unico_oferente"
         },
         {
           "reng": "4",
-          "desc": "Bobina pouch papel uso medico liso y lamina transparente 100mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.100.200",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 100mm x 200mts, marca Able",
           "cant": 12,
           "precio_able": 19950,
           "marca": "Able",
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "unico_oferente"
         },
         {
           "reng": "5",
-          "desc": "Bobina pouch papel uso medico liso y lamina transparente 75mm x 200mts c/indicador quimico calor humedo + ETO - Marca Able - cod. PO.75.200",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 75mm x 200mts, marca Able",
           "cant": 10,
           "precio_able": 14990,
           "marca": "Able",
           "resultado": "adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "unico_oferente"
         }
       ],
-      "gestion_pre": "ABLE UNICA OFERENTE en 4 renglones (bobinas pouch papel uso medico). Total: $1.383.800,00. Reng.2 (PO.200.200, 10u x $39.780 = $397.800, PUP). Reng.3 (PO.300.200, 10u x $59.670 = $596.700, PUP). Reng.4 (PO.100.200, 12u x $19.950 = $239.400, PUP). Reng.5 (PO.75.200, 10u x $14.990 = $149.900, PUP). Estado: PREADJUDICACION APROBADA. Expediente EX-2026-28817345-GDEBA-HZGAVCMSALGP. Vigencia 21/09/2026 al 31/12/2026.",
+      "gestion_pre": "ABLE única oferente en los 4 renglones cotizados (2, 3, 4, 5). Total $1.383.800,00.",
       "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-28",
+      "adj_monto_able": 1383800,
+      "adj_resumen": "ABLE adjudicada en reng. 2, 3, 4 y 5 (única oferente). OC 39/2026.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-28",
+      "oc_alertas": "OC Nro. 39/2026 fecha 28/09/2026. Htal. Virgen del Carmen, Zárate.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -76310,11 +76310,57 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE UNICA OFERENTE en los 4 renglones. Total cotizado: $1.383.800,00. Procedimiento SAMO fondos propios. Reng.1 y otros renglones no cotizados por ABLE no se incluyen.",
-      "creado": "2026-09-01T14:24:45.108Z"
+      "creado": "2026-09-01T14:24:45.108Z",
+      "renglones_adj": [
+        {
+          "reng": "2",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 200mm x 200mts, marca Able",
+          "cant": 10,
+          "precio_able": 39780,
+          "marca": "Able",
+          "resultado": "adj",
+          "motivo": "unico_oferente",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "3",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 300mm x 200mts, marca Able",
+          "cant": 10,
+          "precio_able": 59670,
+          "marca": "Able",
+          "resultado": "adj",
+          "motivo": "unico_oferente",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "4",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 100mm x 200mts, marca Able",
+          "cant": 12,
+          "precio_able": 19950,
+          "marca": "Able",
+          "resultado": "adj",
+          "motivo": "unico_oferente",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        },
+        {
+          "reng": "5",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 75mm x 200mts, marca Able",
+          "cant": 10,
+          "precio_able": 14990,
+          "marca": "Able",
+          "resultado": "adj",
+          "motivo": "unico_oferente",
+          "precio_siguiente": null,
+          "ganador_sig": null
+        }
+      ]
     },
     {
       "preadj_fecha": "",
