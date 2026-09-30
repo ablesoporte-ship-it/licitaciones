@@ -88888,30 +88888,8 @@
       "creado": "2026-09-22T17:44:22.164Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 311,
-      "entidad": "Htal San Jose de Pergamino",
+      "entidad": "H.I.G.A. San José de Pergamino",
       "nro": "PA 170",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-29",
@@ -88919,10 +88897,157 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.29 — ABLE $1.870 gana vs Martorani $2.369,60. ATENCIÓN: pliego exige 22x64mm con barrera de protección; descripción de ABLE dice 15-70mm recortable c/filtro. Verificar antes de presentar. Reng.31 — ABLE $29,50 gana vs Euro Swiss $42. Martorani cotizó $41,40 pero solo 55u (pliego exige 5.500), oferta no válida por cantidad. Reng.46 — Electron Plast $145.000 (marca ANQING) más barato que ABLE $158.300. Dif. 9,17%, dentro del rango de pref. nacional (2-10%) SI el producto es importado. Verificar origen de ANQING antes de reclamar preferencia.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Martorani",
+          "Euro Swiss",
+          "Electron Plast"
+        ],
+        "renglones": [
+          {
+            "reng": "29",
+            "cant": 700,
+            "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "BIL.AT.1P.70 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martorani",
+                "precio": 2369.6,
+                "marca": "Pharmacare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "31",
+            "cant": 5500,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "COFIA.2E.12 - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martorani",
+                "precio": 41.4,
+                "marca": "Pemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 42,
+                "marca": "Euromix - cert. 1440-187",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "46",
+            "cant": 6,
+            "desc": "Resma de papel grado médico color blanco, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "RESMA.20 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Martorani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast",
+                "precio": 145000,
+                "marca": "Marca ANQING (origen a verificar)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.29 — ABLE $1.870 gana vs Martorani $2.369,60. ATENCIÓN: pliego exige 22x64mm con barrera de protección; descripción de ABLE dice 15-70mm recortable c/filtro. Verificar antes de presentar. Reng.31 — ABLE $29,50 gana vs Euro Swiss $42. Martorani cotizó $41,40 pero solo 55u (pliego exige 5.500), oferta no válida por cantidad. Reng.46 — Electron Plast $145.000 (marca ANQING) más barato que ABLE $158.300. Dif. 9,17%, dentro del rango de pref. nacional (2-10%) SI el producto es importado. Verificar origen de ANQING antes de reclamar preferencia."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-23T18:41:31.550Z"
     },
     {
