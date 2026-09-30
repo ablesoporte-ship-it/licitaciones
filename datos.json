@@ -73649,14 +73649,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-30",
+      "adj_monto_able": 6681100,
+      "adj_resumen": "ABLE adjudicada en renglones 15, 16 y 17 ($6.681.100). Reng.22 perdido ante Droguería Pharma Center.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-30",
+      "oc_alertas": "OC 298/2026. Consumo 29/09/2026 al 31/12/2026. Reng.17: ABLE entregó NO ESTÉRIL (según descripción específica de la OC), el pliego original exigía ESTÉRIL — riesgo de objeción ya señalado en preadjudicación, verificar antes de facturar.",
       "adelanto": true,
       "adelanto_monto": 485150,
       "adelanto_total_preadj": 485150,
@@ -74326,11 +74326,57 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng. 15: base ABLE (SP, puños elástico) no coincide con pliego (SMS, algodón) — ALT 3 sí cumple. Reng. 17: ABLE ofrece NO ESTÉRIL, pliego exige ESTÉRIL — posible objeción. Reng. 15, 16, 17: ABLE gana directo. Reng. 15 ALT Pharma Center (25gr, $534) más barata que ABLE, no cuenta por ser ALT. Reng. 22: ABLE pierde +21% vs Pharma Center.",
-      "creado": "2026-08-25T19:04:43.824Z"
+      "creado": "2026-08-25T19:04:43.824Z",
+      "renglones_adj": [
+        {
+          "reng": "15",
+          "desc": "Camisolin descartable no esteril tela SMS 30G/m2 manga larga puño ajustado - Marca ArgentCare (Ind. argentina)",
+          "cant": 10000,
+          "precio_able": 620,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "16",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare (Ind. argentina)",
+          "cant": 5000,
+          "precio_able": 28.22,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17",
+          "desc": "Cubrecalzado elastizado en SMS laminado tricapa descartable no esteril no deslizable resistente a la rasgadura - Marca ArgentCare (Ind. argentina)",
+          "cant": 5000,
+          "precio_able": 68,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "22",
+          "desc": "Equipo de cirugia descartable hemorrepelente esteril 4 camisolines 2 campos grandes 2 campos medianos 2 campos chicos - Marca Ebano",
+          "cant": 30,
+          "precio_able": 26000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 20980,
+          "ganador_sig": "Drogueria Pharma Center S.R.L. ($20.980 x 30u = $629.400)",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -74545,17 +74591,17 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-30",
+      "adj_monto_able": 420258,
+      "adj_resumen": "ABLE adjudicada en renglones 48, 49, 50, 51, 65, 66, 69 y 74. Total: $420.258,00.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-30",
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 421264,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -75097,11 +75143,101 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng. 48, 49, 50, 51, 65, 66, 74: ABLE gana directo. Reng. 69 (+ALT 1 a 4): único oferente ABLE. Pliego pide tela friselina; ABLE cotiza SP/SMS. Reng. 70: ABLE cotizó bolsa 140x50x330mm; pliego pide 90x250x40-50mm. Farmatec e Igaltex sí cotizaron la medida correcta.",
-      "creado": "2026-08-27T14:04:10.504Z"
+      "creado": "2026-08-27T14:04:10.504Z",
+      "renglones_adj": [
+        {
+          "reng": "48",
+          "desc": "Sutura ácido poliglicólico N°3/0 c/aguja 25mm 1/2 circ. punta cilíndrica 26mm hebra 70cm - Marca Surgimax",
+          "cant": 50,
+          "precio_able": 628,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "49",
+          "desc": "Sutura ácido poliglicólico incoloro trenzado c/aguja reverso cortante 3/8 circ. calibre 4/0, 20mm, hebra 70cm - Marca ABLE",
+          "cant": 96,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "50",
+          "desc": "Sutura nylon monofilamento 75cm c/aguja recta 60mm calibre 3/0 - Marca Surgimax",
+          "cant": 36,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "51",
+          "desc": "Sutura nylon monofilamento c/aguja 25mm 3/8 circ. calibre 4/0 - Marca Surgimax",
+          "cant": 36,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "65",
+          "desc": "Sutura atraumática de polipropileno c/aguja 1/2 circ. calibre 2/0 - Marca Surgimax",
+          "cant": 36,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "66",
+          "desc": "Sutura de polipropileno monofilamento c/aguja calibre 3/0 - Marca ABLE",
+          "cant": 20,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "69",
+          "desc": "Camisolines de cirugía tela friselina - Marca ArgentCare 20grs",
+          "cant": 200,
+          "precio_able": 497.97,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "74",
+          "desc": "Equipo p/administración de sangre estéril-descartable tipo V20 - Marca Weigao",
+          "cant": 50,
+          "precio_able": 628,
+          "marca": "Weigao",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-27",
@@ -75982,7 +76118,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 262614,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -76120,7 +76256,7 @@
       "fecha": "2026-09-07",
       "monto": 436119,
       "mayor": "No",
-      "zona": "Zona Sur",
+      "zona": "ABLE",
       "agente": "ABLE",
       "etapa": "Pre-adjudicación",
       "empate": "No",
@@ -76191,7 +76327,7 @@
       "fecha": "2026-09-09",
       "monto": 4225758,
       "mayor": "No",
-      "zona": "Zona Sur",
+      "zona": "ABLE",
       "agente": "ABLE",
       "etapa": "OC",
       "empate": "No",
@@ -76400,26 +76536,60 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-08",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 6501.15,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 198,
+          "precio_able": 5351.15,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "16",
+          "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 36,
+          "precio_able": 1206.15,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana los 3 renglones que cotizó, sin competencia registrada.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-09-29",
+      "adj_monto_able": 2273156.1,
+      "adj_resumen": "ABLE adjudicada en los 3 renglones que cotizó (3, 4 y 16). Total: $2.273.156,10.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-09-29",
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 2273156.1,
       "adelanto_obs": "",
       "tabla": null,
       "id": 267,
@@ -76431,11 +76601,46 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-09-02T12:59:31.575Z"
+      "creado": "2026-09-02T12:59:31.575Z",
+      "renglones_adj": [
+        {
+          "reng": "3",
+          "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 6501.15,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 198,
+          "precio_able": 5351.15,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "16",
+          "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 36,
+          "precio_able": 1206.15,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -88780,19 +88985,27 @@
       "creado": "2026-09-22T17:44:22.164Z"
     },
     {
-      "id": 311,
-      "entidad": "H.I.G.A. San José de Pergamino",
-      "nro": "PA 170",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-29",
-      "monto": 2421050,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.29 — ABLE $1.870 gana vs Martorani $2.369,60. ATENCIÓN: pliego exige 22x64mm con barrera de protección; descripción de ABLE dice 15-70mm recortable c/filtro. Verificar antes de presentar. Reng.31 — ABLE $29,50 gana vs Euro Swiss $42. Martorani cotizó $41,40 pero solo 55u (pliego exige 5.500), oferta no válida por cantidad. Reng.46 — Electron Plast $145.000 (marca ANQING) más barato que ABLE $158.300. Dif. 9,17%, dentro del rango de pref. nacional (2-10%) SI el producto es importado. Verificar origen de ANQING antes de reclamar preferencia.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -88924,38 +89137,43 @@
         ],
         "notas": "Reng.29 — ABLE $1.870 gana vs Martorani $2.369,60. ATENCIÓN: pliego exige 22x64mm con barrera de protección; descripción de ABLE dice 15-70mm recortable c/filtro. Verificar antes de presentar. Reng.31 — ABLE $29,50 gana vs Euro Swiss $42. Martorani cotizó $41,40 pero solo 55u (pliego exige 5.500), oferta no válida por cantidad. Reng.46 — Electron Plast $145.000 (marca ANQING) más barato que ABLE $158.300. Dif. 9,17%, dentro del rango de pref. nacional (2-10%) SI el producto es importado. Verificar origen de ANQING antes de reclamar preferencia."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-23T18:41:31.550Z"
-    },
-    {
-      "id": 312,
-      "entidad": "Htal. Naval Dr. Pedro Mallo",
-      "nro": "CM 38",
+      "id": 311,
+      "entidad": "H.I.G.A. San José de Pergamino",
+      "nro": "PA 170",
       "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-28",
-      "monto": 778373,
+      "fecha": "2026-09-29",
+      "monto": 2421050,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
-      "obs": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED.",
+      "obs": "Reng.29 — ABLE $1.870 gana vs Martorani $2.369,60. ATENCIÓN: pliego exige 22x64mm con barrera de protección; descripción de ABLE dice 15-70mm recortable c/filtro. Verificar antes de presentar. Reng.31 — ABLE $29,50 gana vs Euro Swiss $42. Martorani cotizó $41,40 pero solo 55u (pliego exige 5.500), oferta no válida por cantidad. Reng.46 — Electron Plast $145.000 (marca ANQING) más barato que ABLE $158.300. Dif. 9,17%, dentro del rango de pref. nacional (2-10%) SI el producto es importado. Verificar origen de ANQING antes de reclamar preferencia.",
+      "creado": "2026-09-23T18:41:31.550Z"
+    },
+    {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -89247,27 +89465,20 @@
         ],
         "notas": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-23T18:41:31.581Z",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
+      "id": 312,
+      "entidad": "Htal. Naval Dr. Pedro Mallo",
+      "nro": "CM 38",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-28",
+      "monto": 778373,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED.",
+      "creado": "2026-09-23T18:41:31.581Z"
     },
     {
       "preadj_fecha": "",
@@ -89740,19 +89951,27 @@
       "creado": "2026-09-24T12:12:51.337Z"
     },
     {
-      "id": 316,
-      "entidad": "Htal Eva Perón",
-      "nro": "PA 209",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-30",
-      "monto": 876000,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.9 — ABLE solo cotizó este renglón. Pliego pide indicar si se cotiza por par o unidad; ABLE aclaró ambas opciones (base=unidad $73, ALT1=par $130). Farmatec no lo especifica. ABLE gana en cualquier interpretación de unidad: $73–$130 vs $347 de Farmatec. Solo se incluye el renglón cotizado por ABLE (9).",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -89810,22 +90029,19 @@
         ],
         "notas": "Reng.9 — ABLE solo cotizó este renglón. Pliego pide indicar si se cotiza por par o unidad; ABLE aclaró ambas opciones (base=unidad $73, ALT1=par $130). Farmatec no lo especifica. ABLE gana en cualquier interpretación de unidad: $73–$130 vs $347 de Farmatec. Solo se incluye el renglón cotizado por ABLE (9)."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 316,
+      "entidad": "Htal Eva Perón",
+      "nro": "PA 209",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-30",
+      "monto": 876000,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.9 — ABLE solo cotizó este renglón. Pliego pide indicar si se cotiza por par o unidad; ABLE aclaró ambas opciones (base=unidad $73, ALT1=par $130). Farmatec no lo especifica. ABLE gana en cualquier interpretación de unidad: $73–$130 vs $347 de Farmatec. Solo se incluye el renglón cotizado por ABLE (9).",
       "creado": "2026-09-24T19:28:59.192Z"
     },
     {
@@ -89991,80 +90207,900 @@
       "creado": "2026-09-24T19:28:59.225Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 318,
-      "entidad": "Htal Pedro de Elizalde",
+      "entidad": "HTAL PEDRO DE ELIZALDE",
       "nro": "LP 417",
-      "tipo": "Pública",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-30",
-      "monto": 4627440,
+      "monto": 3979440,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-24T19:28:59.257Z"
-    },
-    {
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Covidien Argentina S.A.",
+          "Cardiopack Argentina S.A.",
+          "Sedesa S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Cirugia Argentina S.A.",
+          "Dispromed Comercial S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 216,
+            "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 17mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "PPM401775C - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 6934.51,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2617.23,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 6070.06,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 928.94,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 3110,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 2550,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 216,
+            "desc": "ALT.1 — Sutura de Polipropileno N° 4/0 con doble aguja de 17mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA401775C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 216,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 10mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "PPM601060G - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 7280.57,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 11305.76,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 928.94,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 216,
+            "desc": "ALT.1 — Sutura de Polipropileno N° 6/0 con doble aguja de 10mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "PPA601060G - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 360,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "PPM501390G - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 7280.57,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2804.78,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 8373.82,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 928.94,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 360,
+            "desc": "ALT.1 — Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA501390G - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 360,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm, Hemo Seal - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "PPM501390G - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 13972.4,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 928.94,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 360,
+            "desc": "ALT.1 — Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA501390G - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 360,
+            "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "PPM402590C - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 6335.56,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 6070.06,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 928.94,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 3110,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 2560,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 360,
+            "desc": "ALT.1 — Sutura de Polipropileno N° 4/0 con doble aguja de 25mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA402590C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-09-24T19:28:59.257Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
+      "adelanto_obs": ""
+    },
+    {
       "id": 319,
       "entidad": "Htal Región Sanitaria XII",
       "nro": "PA 231",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-30",
-      "monto": 21691200,
+      "monto": 21690600,
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
+      "etapa": "Comparativa",
+      "empate": "No",
       "pref": "",
-      "obs": "",
-      "creado": "2026-09-24T19:28:59.286Z"
+      "obs": "Reng.1 — ABLE $5.200 (2 piezas, conforme pliego), única oferta. Presentó ALT.1 de 1 pieza a $1.870, no compite (no cotizada por terceros). Reng.2 — ABLE $4.200, única oferta. Reng.3 — Preferencia nacional. ABLE $1.355 vs Euro Swiss $1.270 (Euromix, China, cert.1440-149). Dif. 6,7%, dentro de rango (2-10%). Reng.4 — ABLE $4.000 PIERDE vs Martorani $3.598,70 (Pharmacare). Dif. 11,1%, fuera de rango de pref. nacional.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss",
+          "Droguería Martorani"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 3780,
+            "desc": "Bolsa para colostomía/ileostomía abierta de dos piezas para adultos con aro de acople para bolsa de colostomía/ileostomía de dos piezas, recortable de 15 a 70mm - Marca ABLE (industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5200,
+                "marca": "BIL.AT.2P.70.A - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 3780,
+            "desc": "ALT.1 — Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "BIL.AT.1P.70 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 160,
+            "desc": "Bolsa de Ileostomía neonatal con desagote, transparente, de 1 pieza con aro recortable de 15 a 32mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4200,
+                "marca": "BIL.AT.1N.32 - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 120,
+            "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1355,
+                "marca": "BCO.CT.1P.70 - ABLE",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": 1270,
+                "marca": "Euromix (China) - cert. 1440-149",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": 1389.9,
+                "marca": "Pharmacare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 300,
+            "desc": "Bolsa urostomia drenable transparente, 1 pieza, con aro recortable de 15 a 70mm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "BUR.AT.1P.70 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": 3598.7,
+                "marca": "Pharmacare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1 — ABLE $5.200 (2 piezas, conforme pliego), única oferta. Presentó ALT.1 de 1 pieza a $1.870, no compite (no cotizada por terceros). Reng.2 — ABLE $4.200, única oferta. Reng.3 — Preferencia nacional. ABLE $1.355 vs Euro Swiss $1.270 (Euromix, China, cert.1440-149). Dif. 6,7%, dentro de rango (2-10%). Reng.4 — ABLE $4.000 PIERDE vs Martorani $3.598,70 (Pharmacare). Dif. 11,1%, fuera de rango de pref. nacional."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-24T19:28:59.286Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -90143,42 +91179,148 @@
       "creado": "2026-09-24T19:28:59.348Z"
     },
     {
+      "id": 322,
+      "entidad": "Htal de la Vega",
+      "nro": "PA 197",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-30",
+      "monto": 695520,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.55 — ABLE (Surgimax) $2.415 gana vs Max Continental $2.460,62, Martorani $2.727,30, Cardiopack $3.458,18 y Sedesa $6.882,33. ABLE también presentó ALT.1 (marca ABLE propia, 2 agujas) a $3.000, más cara que la base — queda como variante, no compite. ABLE cotizó únicamente el reng.55 de los 72 del pliego.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Max Continental",
+          "Droguería Martorani",
+          "Cardiopack Argentina",
+          "Sedesa S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "55",
+            "cant": 288,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 17mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "PPM501775C - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": 2460.62,
+                "marca": "Max Continental",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": 2727.3,
+                "marca": "Droguería Martorani",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina",
+                "precio": 3458.18,
+                "marca": "Surgikal (Ind. Argentina)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 6882.33,
+                "marca": "Sedesa S.A.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "55",
+            "cant": 288,
+            "desc": "ALT.1 — Sutura de Polipropileno N° 5/0 con doble aguja de 17mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "PPA501775C - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.55 — ABLE (Surgimax) $2.415 gana vs Max Continental $2.460,62, Martorani $2.727,30, Cardiopack $3.458,18 y Sedesa $6.882,33. ABLE también presentó ALT.1 (marca ABLE propia, 2 agujas) a $3.000, más cara que la base — queda como variante, no compite. ABLE cotizó únicamente el reng.55 de los 72 del pliego."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-09-28T12:21:39.490Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 322,
-      "entidad": "Htal de La Vega",
-      "nro": "PA 197",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-30",
-      "monto": 1559520,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-28T12:21:39.490Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -90817,6 +91959,28 @@
       "creado": "2026-09-29T16:24:33.072Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "tabla": null,
       "id": 331,
       "entidad": "H.I.E.A.C. San Juan de Dios",
       "nro": "PA 115",
@@ -90826,6 +91990,22 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-09-30T13:41:02.187Z"
+    },
+    {
+      "id": 333,
+      "entidad": "Htal Penna",
+      "nro": "PA 255",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-07",
+      "monto": 522720,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -90846,12 +92026,48 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-30T13:41:02.187Z",
+      "creado": "2026-09-30T19:02:19.394Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
+    },
+    {
+      "id": 334,
+      "entidad": "Htal Región Sanitaria I",
+      "nro": "PA 115",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-14",
+      "monto": 370260,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-30T20:09:36.893Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
     }
   ],
-  "nextId": 332
+  "nextId": 335
 }
