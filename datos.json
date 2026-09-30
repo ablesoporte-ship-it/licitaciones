@@ -88931,41 +88931,326 @@
       "creado": "2026-09-23T18:41:31.550Z"
     },
     {
+      "id": 312,
+      "entidad": "Hospital Naval Buenos Aires \"Cirujano Mayor Dr. Pedro Mallo\"",
+      "nro": "CM 38",
+      "tipo": "Contratación Directa",
+      "fecha": "2026-09-28",
+      "monto": 778373,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "INAPYR",
+          "SEDESA",
+          "ALTECH MED"
+        ],
+        "renglones": [
+          {
+            "reng": "23",
+            "cant": 500,
+            "desc": "Bajalenguas adultos por 100 unidades - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1119.8,
+                "marca": "BAJA.AD - ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": 1938,
+                "marca": "INAPYR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "51",
+            "cant": 36,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1375,
+                "marca": "PGM013570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3640.89,
+                "marca": "SEDESA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": 3750,
+                "marca": "ALTECH MED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "52",
+            "cant": 36,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1325.5,
+                "marca": "PGM302570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3640.89,
+                "marca": "SEDESA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": 3750,
+                "marca": "ALTECH MED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "53",
+            "cant": 36,
+            "desc": "Sutura de Ácido Poliglicólico N° 0 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1375,
+                "marca": "PGM003570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 3640.89,
+                "marca": "SEDESA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": 3750,
+                "marca": "ALTECH MED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "54",
+            "cant": 36,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 26mm, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 664.4,
+                "marca": "NYM202645F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 2942.72,
+                "marca": "SEDESA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": 2390,
+                "marca": "ALTECH MED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "55",
+            "cant": 36,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 20mm, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 664.4,
+                "marca": "NYM302075F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 2942.72,
+                "marca": "SEDESA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": 2390,
+                "marca": "ALTECH MED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "56",
+            "cant": 36,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 25mm, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 664.4,
+                "marca": "NYM402575F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "SEDESA",
+                "precio": 2942.72,
+                "marca": "SEDESA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "ALTECH MED",
+                "precio": 2390,
+                "marca": "ALTECH MED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 312,
-      "entidad": "Htal. Naval Dr. Pedro Mallo",
-      "nro": "CM 38",
-      "tipo": "Directa",
-      "fecha": "2026-09-28",
-      "monto": 778373,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-09-23T18:41:31.581Z"
     },
     {
