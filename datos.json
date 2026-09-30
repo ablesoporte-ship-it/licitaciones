@@ -88932,9 +88932,9 @@
     },
     {
       "id": 312,
-      "entidad": "Hospital Naval Buenos Aires \"Cirujano Mayor Dr. Pedro Mallo\"",
+      "entidad": "Htal. Naval Dr. Pedro Mallo",
       "nro": "CM 38",
-      "tipo": "Contratación Directa",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-28",
       "monto": 778373,
       "mayor": "No",
@@ -89251,7 +89251,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-23T18:41:31.581Z"
+      "creado": "2026-09-23T18:41:31.581Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
