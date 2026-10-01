@@ -83249,13 +83249,13 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-01",
+      "adj_monto_able": 15541000,
+      "adj_resumen": "ABLE adjudicada en los 2 renglones cotizados: R4 (sutura polipropileno, $216.000) y R6 (camisolín SMS 30g/m², $15.325.000). OC 413/2026 confirma ambos.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-01",
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
@@ -83846,11 +83846,29 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-30005521-GDEBA-HZGAHMMSALGP, apertura 11/09/2026. ABLE cotizó solo R4 y R6. Cada oferente se comparó usando su propia oferta base (renglón principal); las ALT de cada uno quedan como fila de referencia, tal como las presentó. R6 pide tela TNT SMS. La base de ABLE ($620) es tela SP — no cumple. Su variante SMS (ALT3, $815) sí cumple, pero por indicación no se usa como base de comparación. R6: Farmatec confirma SMS explícitamente en su oferta (Bluemed/Flexguard, $810). Pharma Center (ALT1, $810) también dice SMS. El resto (base de Pharma Center, Igaltex, Max Continental) no confirma tela en su descripción — no se sabe si cumplen; vale la pena verificarlo antes de adjudicar por precio.",
-      "creado": "2026-09-11T15:05:02.720Z"
+      "creado": "2026-09-11T15:05:02.720Z",
+      "renglones_adj": [
+        {
+          "reng": "4",
+          "cant": 144,
+          "desc": "Sutura atraumática polipropileno c/aguja punta redonda calibre 1-2 — marca Surgimax (Ind. argentina)",
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "adj"
+        },
+        {
+          "reng": "6",
+          "cant": 25000,
+          "desc": "Camisolín descartable SMS 30g/m² manga larga puño ajustado — marca ArgentCare (Ind. argentina)",
+          "precio_able": 613,
+          "marca": "ArgentCare",
+          "resultado": "adj"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
