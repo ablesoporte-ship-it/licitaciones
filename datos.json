@@ -91899,42 +91899,244 @@
       "creado": "2026-09-28T12:21:39.559Z"
     },
     {
+      "id": 324,
+      "entidad": "Htal Melendez",
+      "nro": "PA 188",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-01",
+      "monto": 5200000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.6 — único renglon cotizado por ABLE. Base: ABLE $650 (tela SP, puño elástico) gana por precio nominal vs Martorani $699,70 (22g/m², no cumple gramaje 30g/m²), Farmatec $865,15, Kinet $989,47 y Euro Swiss $1.240 (Kratec, cert.1440-155). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, 30g/m², puño AJUSTADO — la base de ABLE es tela SP con puño de ELÁSTICO, no coincide exactamente con lo pedido. ALT.1 ABLE (SP 25grs, $605) y ALT.2 ABLE (SP 20grs, $481,30) se apartan aún más del gramaje exigido. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE con tela SMS y gramaje correcto, pero es HEMORREPELENTE — el pliego no exige explícitamente 'no hemorrepelente' en este caso (ver nota aparte), a diferencia del PA 258/2026 del mismo tipo de insumo.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Droguería Farmatec S.A.",
+          "Kinet de Ximax SRL",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "6",
+            "cant": 8000,
+            "desc": "Camisolin no esteril, no hemorrepelente de tela SP de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 650,
+                "marca": "C.OSP.110.ELA.30.A - ArgentCare (SP, puño elástico)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 699.7,
+                "marca": "PEMED - 22g/m² (no cumple gramaje)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 865.15,
+                "marca": "FLEXGUARD/BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet de Ximax SRL",
+                "precio": 989.47,
+                "marca": "Insumos Quirúrgicos - PM2329-5",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1240,
+                "marca": "Kratec - cert.1440-155",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 8000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "C.OSP.110.ELA.25.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet de Ximax SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 8000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "C.OSP.110.ELA.20.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet de Ximax SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 8000,
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kinet de Ximax SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.6 — único renglon cotizado por ABLE. Base: ABLE $650 (tela SP, puño elástico) gana por precio nominal vs Martorani $699,70 (22g/m², no cumple gramaje 30g/m²), Farmatec $865,15, Kinet $989,47 y Euro Swiss $1.240 (Kratec, cert.1440-155). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, 30g/m², puño AJUSTADO — la base de ABLE es tela SP con puño de ELÁSTICO, no coincide exactamente con lo pedido. ALT.1 ABLE (SP 25grs, $605) y ALT.2 ABLE (SP 20grs, $481,30) se apartan aún más del gramaje exigido. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE con tela SMS y gramaje correcto, pero es HEMORREPELENTE — el pliego no exige explícitamente 'no hemorrepelente' en este caso (ver nota aparte), a diferencia del PA 258/2026 del mismo tipo de insumo."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-09-28T15:07:14.041Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 324,
-      "entidad": "Htal Melendez",
-      "nro": "PA 188",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-01",
-      "monto": 5199999,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-28T15:07:14.041Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-09-04",
