@@ -91470,27 +91470,19 @@
       "creado": "2026-09-24T19:28:59.286Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
+      "id": 320,
+      "entidad": "Htal Dr. Alejandro Korn",
+      "nro": "PA 258",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-01",
+      "monto": 6400000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.11 — único renglon cotizado por ABLE. Base: ABLE $640 (tela SP, puño elástico) gana por precio nominal vs Farmatec $865,15, Pharma Center $730 y Euro Swiss $1.240 (Kratec, cert.1440-45). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, puños de ALGODÓN elastizados — la base de ABLE es tela SP con puño de ELÁSTICO, no cumple el pliego tal como está cotizada. ALT.1 ABLE (SP 25grs, puño elástico, $605) y ALT.2 ABLE (SP 20grs, puño elástico, $481,30) se apartan aún más del gramaje exigido (30g/m²); sin competencia de terceros en esas variantes. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE que cumple material y puño del pliego, pero es HEMORREPELENTE y el pliego pide expresamente NO hemorrepelente — tampoco cumple en sentido estricto. Pharma Center cotizó una variante similar (SMS 30g, puño elástico) a $817, tampoco 100% conforme (puño elástico en vez de algodón).",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -91502,7 +91494,7 @@
           {
             "reng": "11",
             "cant": 10000,
-            "desc": "Camisolín descartable no estéril, no hemorrepelente, 30g/m², tela no tejida (TNT) SMS, manga larga, desde cuello hasta debajo de las rodillas, c/tiras de ajuste en cuello y cintura, puños de ALGODÓN elastizados, ajustables en muñeca - Marca ArgentCare (tela SP, puño elástico — no conforme)",
+            "desc": "Camisolin no esteril, no hemorrepelente de tela SP de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
             "es_alt": false,
             "celdas": [
               {
@@ -91542,7 +91534,7 @@
           {
             "reng": "11",
             "cant": 10000,
-            "desc": "ALT.1 — Camisolín no estéril, no hemorrepelente, 25grs, tela SP, puños de elástico - Marca ArgentCare",
+            "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
             "es_alt": true,
             "celdas": [
               {
@@ -91582,7 +91574,7 @@
           {
             "reng": "11",
             "cant": 10000,
-            "desc": "ALT.2 — Camisolín no estéril, no hemorrepelente, 20grs, tela SP, puños de elástico - Marca ArgentCare",
+            "desc": "Camisolin no esteril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
             "es_alt": true,
             "celdas": [
               {
@@ -91622,7 +91614,7 @@
           {
             "reng": "11",
             "cant": 10000,
-            "desc": "ALT.3 — Camisolín no estéril, HEMORREPELENTE, tela SMS 30grs, puños de algodón - Marca ArgentCare",
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
             "es_alt": true,
             "celdas": [
               {
@@ -91662,19 +91654,22 @@
         ],
         "notas": "Reng.11 — único renglon cotizado por ABLE. Base: ABLE $640 (tela SP, puño elástico) gana por precio nominal vs Farmatec $865,15, Pharma Center $730 y Euro Swiss $1.240 (Kratec, cert.1440-45). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, puños de ALGODÓN elastizados — la base de ABLE es tela SP con puño de ELÁSTICO, no cumple el pliego tal como está cotizada. ALT.1 ABLE (SP 25grs, puño elástico, $605) y ALT.2 ABLE (SP 20grs, puño elástico, $481,30) se apartan aún más del gramaje exigido (30g/m²); sin competencia de terceros en esas variantes. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE que cumple material y puño del pliego, pero es HEMORREPELENTE y el pliego pide expresamente NO hemorrepelente — tampoco cumple en sentido estricto. Pharma Center cotizó una variante similar (SMS 30g, puño elástico) a $817, tampoco 100% conforme (puño elástico en vez de algodón)."
       },
-      "id": 320,
-      "entidad": "Htal Dr. Alejandro Korn",
-      "nro": "PA 258",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-01",
-      "monto": 6400000,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.11 — único renglon cotizado por ABLE. Base: ABLE $640 (tela SP, puño elástico) gana por precio nominal vs Farmatec $865,15, Pharma Center $730 y Euro Swiss $1.240 (Kratec, cert.1440-45). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, puños de ALGODÓN elastizados — la base de ABLE es tela SP con puño de ELÁSTICO, no cumple el pliego tal como está cotizada. ALT.1 ABLE (SP 25grs, puño elástico, $605) y ALT.2 ABLE (SP 20grs, puño elástico, $481,30) se apartan aún más del gramaje exigido (30g/m²); sin competencia de terceros en esas variantes. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE que cumple material y puño del pliego, pero es HEMORREPELENTE y el pliego pide expresamente NO hemorrepelente — tampoco cumple en sentido estricto. Pharma Center cotizó una variante similar (SMS 30g, puño elástico) a $817, tampoco 100% conforme (puño elástico en vez de algodón).",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-24T19:28:59.318Z"
     },
     {
@@ -93173,7 +93168,43 @@
       "pref": "",
       "obs": "",
       "creado": "2026-10-01T15:50:00.838Z"
+    },
+    {
+      "id": 339,
+      "entidad": "Htal Carlotto",
+      "nro": "PA 34",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-06",
+      "monto": 1090932,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-01T16:15:02.982Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 339
+  "nextId": 340
 }
