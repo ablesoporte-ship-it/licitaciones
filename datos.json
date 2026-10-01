@@ -60862,23 +60862,388 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Cardiomedic S.A.",
+          "Dispromed Comercial S.R.L.",
+          "Cardiopack Argentina S.A.",
+          "Covidien Argentina S.A.",
+          "Cirugia Argentina S.A.",
+          "Sedesa S.A.",
+          "Droguería Martorani S.A.",
+          "Lavardén Insumos Médicos S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 360,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 20mm, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 667.7,
+                "marca": "NYM402045F - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 770.13,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 1903.33,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 1032,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 586.85,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 1570.58,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 1165,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2251.18,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1115.8,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 2690,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 360,
+            "desc": "ALT.1 — Sutura de Nylon Monofilamento N° 4/0 con aguja de 20mm, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 863.5,
+                "marca": "NYA402075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 72,
+            "desc": "Sutura de Nylon Monofilamento N° 5/0 con aguja de 15mm, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 667.7,
+                "marca": "NYM501545F - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 770.13,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 1971.09,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 1762,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 605,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 1903.33,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 1590,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3758.14,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1495.5,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 2690,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 72,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1650,
+                "marca": "PPM013575A - Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 745.66,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 2358.29,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 1907.57,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1374.56,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 5443.79,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugia Argentina S.A.",
+                "precio": 2365,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 5631.65,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1987.7,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 6890,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE pierde los 3 renglones que cotizó (3, 4 y 6). Reng.3 — gana Cardiopack $586,85 vs ABLE $667,70, dif. 13,8%, fuera de rango de pref. nacional. Reng.4 — gana Cardiopack $605,00 vs ABLE $667,70, dif. 10,4%, apenas fuera del rango de pref. nacional (2-10%). Reng.6 — gana Propato Hnos. $745,66 vs ABLE $1.650,00, dif. 121%. ABLE presento ALT.1 en reng.3 (hebra 75cm, marca ABLE) a $863,50, sin competencia de terceros en esa variante."
+      },
       "id": 197,
-      "entidad": "Htal Zubizarreta",
+      "entidad": "Hospital Gral. de Agudos Abel Zubizarreta",
       "nro": "CM 441",
-      "tipo": "Procedimiento Abreviado",
+      "tipo": "Contratación Menor",
       "fecha": "2026-08-06",
-      "monto": 718106,
+      "monto": 407246,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE pierde los 3 renglones que cotizó (3, 4 y 6). Reng.3 — gana Cardiopack $586,85 vs ABLE $667,70, dif. 13,8%, fuera de rango de pref. nacional. Reng.4 — gana Cardiopack $605,00 vs ABLE $667,70, dif. 10,4%, apenas fuera del rango de pref. nacional (2-10%). Reng.6 — gana Propato Hnos. $745,66 vs ABLE $1.650,00, dif. 121%. ABLE presento ALT.1 en reng.3 (hebra 75cm, marca ABLE) a $863,50, sin competencia de terceros en esa variante.",
       "creado": "2026-08-03T17:18:40.827Z"
     },
     {
@@ -90207,19 +90572,27 @@
       "creado": "2026-09-24T19:28:59.225Z"
     },
     {
-      "id": 318,
-      "entidad": "HTAL PEDRO DE ELIZALDE",
-      "nro": "LP 417",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-30",
-      "monto": 3979440,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías).",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -90874,42 +91247,43 @@
         ],
         "notas": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías)."
       },
+      "id": 318,
+      "entidad": "HTAL PEDRO DE ELIZALDE",
+      "nro": "LP 417",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-30",
+      "monto": 3979440,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías).",
+      "creado": "2026-09-24T19:28:59.257Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.257Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
-    },
-    {
-      "id": 319,
-      "entidad": "Htal Región Sanitaria XII",
-      "nro": "PA 231",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-30",
-      "monto": 21690600,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "",
-      "obs": "Reng.1 — ABLE $5.200 (2 piezas, conforme pliego), única oferta. Presentó ALT.1 de 1 pieza a $1.870, no compite (no cotizada por terceros). Reng.2 — ABLE $4.200, única oferta. Reng.3 — Preferencia nacional. ABLE $1.355 vs Euro Swiss $1.270 (Euromix, China, cert.1440-149). Dif. 6,7%, dentro de rango (2-10%). Reng.4 — ABLE $4.000 PIERDE vs Martorani $3.598,70 (Pharmacare). Dif. 11,1%, fuera de rango de pref. nacional.",
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -91080,27 +91454,20 @@
         ],
         "notas": "Reng.1 — ABLE $5.200 (2 piezas, conforme pliego), única oferta. Presentó ALT.1 de 1 pieza a $1.870, no compite (no cotizada por terceros). Reng.2 — ABLE $4.200, única oferta. Reng.3 — Preferencia nacional. ABLE $1.355 vs Euro Swiss $1.270 (Euromix, China, cert.1440-149). Dif. 6,7%, dentro de rango (2-10%). Reng.4 — ABLE $4.000 PIERDE vs Martorani $3.598,70 (Pharmacare). Dif. 11,1%, fuera de rango de pref. nacional."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-24T19:28:59.286Z",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
+      "id": 319,
+      "entidad": "Htal Región Sanitaria XII",
+      "nro": "PA 231",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-30",
+      "monto": 21690600,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "Reng.1 — ABLE $5.200 (2 piezas, conforme pliego), única oferta. Presentó ALT.1 de 1 pieza a $1.870, no compite (no cotizada por terceros). Reng.2 — ABLE $4.200, única oferta. Reng.3 — Preferencia nacional. ABLE $1.355 vs Euro Swiss $1.270 (Euromix, China, cert.1440-149). Dif. 6,7%, dentro de rango (2-10%). Reng.4 — ABLE $4.000 PIERDE vs Martorani $3.598,70 (Pharmacare). Dif. 11,1%, fuera de rango de pref. nacional.",
+      "creado": "2026-09-24T19:28:59.286Z"
     },
     {
       "preadj_fecha": "",
@@ -91124,9 +91491,179 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Farmatec S.A.",
+          "Pharma Center SRL",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "11",
+            "cant": 10000,
+            "desc": "Camisolín descartable no estéril, no hemorrepelente, 30g/m², tela no tejida (TNT) SMS, manga larga, desde cuello hasta debajo de las rodillas, c/tiras de ajuste en cuello y cintura, puños de ALGODÓN elastizados, ajustables en muñeca - Marca ArgentCare (tela SP, puño elástico — no conforme)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 640,
+                "marca": "C.OSP.110.ELA.30.A - ArgentCare (SP, puño elástico)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 865.15,
+                "marca": "BLUEMED/FLEXGUARD",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": 730,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1240,
+                "marca": "Kratec - cert.1440-45",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 10000,
+            "desc": "ALT.1 — Camisolín no estéril, no hemorrepelente, 25grs, tela SP, puños de elástico - Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 605,
+                "marca": "C.OSP.110.ELA.25.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 10000,
+            "desc": "ALT.2 — Camisolín no estéril, no hemorrepelente, 20grs, tela SP, puños de elástico - Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 481.3,
+                "marca": "C.OSP.110.ELA.20.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 10000,
+            "desc": "ALT.3 — Camisolín no estéril, HEMORREPELENTE, tela SMS 30grs, puños de algodón - Marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Center SRL",
+                "precio": 817,
+                "marca": "DPC - SMS 30g, puño elástico (variante similar)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.11 — único renglon cotizado por ABLE. Base: ABLE $640 (tela SP, puño elástico) gana por precio nominal vs Farmatec $865,15, Pharma Center $730 y Euro Swiss $1.240 (Kratec, cert.1440-45). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, puños de ALGODÓN elastizados — la base de ABLE es tela SP con puño de ELÁSTICO, no cumple el pliego tal como está cotizada. ALT.1 ABLE (SP 25grs, puño elástico, $605) y ALT.2 ABLE (SP 20grs, puño elástico, $481,30) se apartan aún más del gramaje exigido (30g/m²); sin competencia de terceros en esas variantes. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE que cumple material y puño del pliego, pero es HEMORREPELENTE y el pliego pide expresamente NO hemorrepelente — tampoco cumple en sentido estricto. Pharma Center cotizó una variante similar (SMS 30g, puño elástico) a $817, tampoco 100% conforme (puño elástico en vez de algodón)."
+      },
       "id": 320,
-      "entidad": "Htal Korn",
+      "entidad": "Htal Dr. Alejandro Korn",
       "nro": "PA 258",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-01",
@@ -91134,10 +91671,10 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.11 — único renglon cotizado por ABLE. Base: ABLE $640 (tela SP, puño elástico) gana por precio nominal vs Farmatec $865,15, Pharma Center $730 y Euro Swiss $1.240 (Kratec, cert.1440-45). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, puños de ALGODÓN elastizados — la base de ABLE es tela SP con puño de ELÁSTICO, no cumple el pliego tal como está cotizada. ALT.1 ABLE (SP 25grs, puño elástico, $605) y ALT.2 ABLE (SP 20grs, puño elástico, $481,30) se apartan aún más del gramaje exigido (30g/m²); sin competencia de terceros en esas variantes. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE que cumple material y puño del pliego, pero es HEMORREPELENTE y el pliego pide expresamente NO hemorrepelente — tampoco cumple en sentido estricto. Pharma Center cotizó una variante similar (SMS 30g, puño elástico) a $817, tampoco 100% conforme (puño elástico en vez de algodón).",
       "creado": "2026-09-24T19:28:59.318Z"
     },
     {
@@ -91179,19 +91716,27 @@
       "creado": "2026-09-24T19:28:59.348Z"
     },
     {
-      "id": 322,
-      "entidad": "Htal de la Vega",
-      "nro": "PA 197",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-30",
-      "monto": 695520,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.55 — ABLE (Surgimax) $2.415 gana vs Max Continental $2.460,62, Martorani $2.727,30, Cardiopack $3.458,18 y Sedesa $6.882,33. ABLE también presentó ALT.1 (marca ABLE propia, 2 agujas) a $3.000, más cara que la base — queda como variante, no compite. ABLE cotizó únicamente el reng.55 de los 72 del pliego.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -91300,27 +91845,20 @@
         ],
         "notas": "Reng.55 — ABLE (Surgimax) $2.415 gana vs Max Continental $2.460,62, Martorani $2.727,30, Cardiopack $3.458,18 y Sedesa $6.882,33. ABLE también presentó ALT.1 (marca ABLE propia, 2 agujas) a $3.000, más cara que la base — queda como variante, no compite. ABLE cotizó únicamente el reng.55 de los 72 del pliego."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-28T12:21:39.490Z",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
+      "id": 322,
+      "entidad": "Htal de la Vega",
+      "nro": "PA 197",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-30",
+      "monto": 695520,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.55 — ABLE (Surgimax) $2.415 gana vs Max Continental $2.460,62, Martorani $2.727,30, Cardiopack $3.458,18 y Sedesa $6.882,33. ABLE también presentó ALT.1 (marca ABLE propia, 2 agujas) a $3.000, más cara que la base — queda como variante, no compite. ABLE cotizó únicamente el reng.55 de los 72 del pliego.",
+      "creado": "2026-09-28T12:21:39.490Z"
     },
     {
       "preadj_fecha": "",
@@ -91980,23 +92518,255 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "tabla": null,
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Kims S.R.L.",
+          "Laboratorios Igaltex S.R.L.",
+          "Raul Jorge Leon Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 14,
+            "desc": "Papel uso médico liso blanco, resma 80x120cm x 20kg - Marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "RESMA20 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 131000,
+                "marca": "Kims",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 131928.88,
+                "marca": "Global Protective",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 391000,
+                "marca": "Kims (reventa)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 2000,
+            "desc": "Bolsa de papel grado médico termosellable 250x100x380mm con indicador químico de calor húmedo - Marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 143.01,
+                "marca": "BOX250X100X380 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 225,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 128.93,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 777,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 6,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO - Marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 19950,
+                "marca": "PO.100.200 - Able",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 31500,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 19854,
+                "marca": "Sterilys",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 87000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 2,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO - Marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 39780,
+                "marca": "PO.200.200 - Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 62700,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 38666,
+                "marca": "Sterilys",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 179666,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 4,
+            "desc": "Reng.13 pliego: rollo pouch papel uso médico + lámina transparente 250x60x100m c/fuelle. ABLE cotizó por error otro producto (bolsa 140x50x330mm) — ver nota.",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "BOX140X050X330 - Able (ITEM INCORRECTO, no es el pouch del pliego)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 72150,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 199000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE cotizó solo 5 de los 15 renglones del pliego (1, 2, 11, 12 y 13). Reng.1 — gana Kims $131.000 vs ABLE $158.300, dif. 20,8%. Reng.2 — gana Igaltex $128,93 vs ABLE $143,01, dif. 10,9%, apenas fuera de rango de pref. nacional. Reng.11 — EMPATE TÉCNICO: ABLE $19.950 vs Igaltex $19.854, dif. 0,48% (≤ 2%). Ver tabla aparte. Reng.12 — gana Igaltex $38.666 vs ABLE $39.780, dif. 2,88%, fuera de empate técnico, origen de Igaltex no confirmado. Reng.13 — ALERTA: la descripción cotizada por ABLE ('bolsa de papel 140x50x330mm', $75,46) NO corresponde al reng.13 del pliego (rollo pouch 250x60x100m, como cotizaron Kims $72.150 y Poggi $199.000). Posible error de carga en la oferta de ABLE — revisar antes de preadjudicación, la oferta podría ser rechazada por no ajustarse al pliego."
+      },
       "id": 331,
       "entidad": "H.I.E.A.C. San Juan de Dios",
       "nro": "PA 115",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-01",
-      "monto": 2701784,
+      "monto": 2701782,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
+      "etapa": "Comparativa",
       "empate": "",
-      "pref": "",
-      "obs": "",
+      "pref": "No",
+      "obs": "ABLE cotizó solo 5 de los 15 renglones del pliego (1, 2, 11, 12 y 13). Reng.1 — gana Kims $131.000 vs ABLE $158.300, dif. 20,8%. Reng.2 — gana Igaltex $128,93 vs ABLE $143,01, dif. 10,9%, apenas fuera de rango de pref. nacional. Reng.11 — EMPATE TÉCNICO: ABLE $19.950 vs Igaltex $19.854, dif. 0,48% (≤ 2%). Ver tabla aparte. Reng.12 — gana Igaltex $38.666 vs ABLE $39.780, dif. 2,88%, fuera de empate técnico, origen de Igaltex no confirmado. Reng.13 — ALERTA: la descripción cotizada por ABLE ('bolsa de papel 140x50x330mm', $75,46) NO corresponde al reng.13 del pliego (rollo pouch 250x60x100m, como cotizaron Kims $72.150 y Poggi $199.000). Posible error de carga en la oferta de ABLE — revisar antes de preadjudicación, la oferta podría ser rechazada por no ajustarse al pliego.",
       "creado": "2026-09-30T13:41:02.187Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "tabla": null,
       "id": 333,
       "entidad": "Htal Penna",
       "nro": "PA 255",
@@ -92010,29 +92780,31 @@
       "empate": "",
       "pref": "",
       "obs": "",
+      "creado": "2026-09-30T19:02:19.394Z"
+    },
+    {
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
+      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-09-30T19:02:19.394Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
-    },
-    {
+      "adelanto_obs": "",
+      "tabla": null,
       "id": 334,
       "entidad": "Htal Región Sanitaria I",
       "nro": "PA 115",
@@ -92046,27 +92818,7 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-09-30T20:09:36.893Z",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
+      "creado": "2026-09-30T20:09:36.893Z"
     }
   ],
   "nextId": 335
