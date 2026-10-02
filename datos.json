@@ -92972,7 +92972,7 @@
     },
     {
       "id": 330,
-      "entidad": "H.I.G.A. Dr. Luis A. Güemes de Haedo",
+      "entidad": "Htal Güemes",
       "nro": "PA 141",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-02",
@@ -92983,13 +92983,14 @@
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
-      "obs": "ABLE cotizó solo R9 y R10, ganando ambos por amplio margen. Reng.9 — gana ABLE $158.300,00 (Able) vs Laboratorios Igaltex $181.335,00 (Alstrom, +14,6%), Kims $185.500,00 (Kims, +17,2%) y Poggi $968.000,00 (Reliance, +511%). Reng.10 — gana ABLE $14.990,00 (Able) vs Kims $24.500,00 (Kims, +63,4%). Poggi e Igaltex no cotizaron este renglón. Sin empate técnico ni preferencia nacional en ninguno de los 2 renglones.",
+      "obs": "Reng.9 — ABLE pierde: gana Somed Médica $28.439,80 vs ABLE $158.300,00 (+456,7%). Reng.10 — gana ABLE $14.990,00 vs Kims $24.500,00 (+63,4%) y Somed $49.077,60 (+227,5%). Sin empate técnico ni preferencia nacional.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
           "Raul Jorge Leon Poggi",
           "Laboratorios Igaltex S.R.L.",
-          "Kims S.R.L."
+          "Kims S.R.L.",
+          "Somed Médica"
         ],
         "renglones": [
           {
@@ -93002,7 +93003,7 @@
                 "oferente": "ABLE S.A.",
                 "precio": 158300,
                 "marca": "Able",
-                "bg_precio": "verde",
+                "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
@@ -93029,6 +93030,14 @@
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
+              },
+              {
+                "oferente": "Somed Médica",
+                "precio": 28439.8,
+                "marca": "Kims",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
               }
             ]
           },
@@ -93049,7 +93058,7 @@
               {
                 "oferente": "Raul Jorge Leon Poggi",
                 "precio": null,
-                "marca": "",
+                "marca": null,
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -93057,7 +93066,7 @@
               {
                 "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": null,
-                "marca": "",
+                "marca": null,
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -93069,11 +93078,19 @@
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
+              },
+              {
+                "oferente": "Somed Médica",
+                "precio": 49077.6,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
               }
             ]
           }
         ],
-        "notas": "ABLE cotizó solo R9 y R10, ganando ambos por amplio margen. Reng.9 — gana ABLE $158.300,00 (Able) vs Laboratorios Igaltex $181.335,00 (Alstrom, +14,6%), Kims $185.500,00 (Kims, +17,2%) y Poggi $968.000,00 (Reliance, +511%). Reng.10 — gana ABLE $14.990,00 (Able) vs Kims $24.500,00 (Kims, +63,4%). Poggi e Igaltex no cotizaron este renglón. Sin empate técnico ni preferencia nacional en ninguno de los 2 renglones."
+        "notas": "Reng.9 — ABLE PIERDE: gana Somed Médica $28.439,80 vs ABLE $158.300,00 (+456,7%). Amplia diferencia Somed vs Kims S.R.L. ($185.500,00, dif. 552,3%), ambas ofreciendo marca Kims: verificar si corresponde a un error de carga o unidad de medida distinta. Reng.10 — gana ABLE $14.990,00 vs Kims $24.500,00 (+63,4%) y Somed $49.077,60 (+227,5%). Sin empate técnico ni preferencia nacional en ningún renglón."
       },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
@@ -93909,5 +93926,5 @@
       ]
     }
   ],
-  "nextId": 344
+  "nextId": 345
 }
