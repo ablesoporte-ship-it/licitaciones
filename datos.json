@@ -92971,30 +92971,8 @@
       "creado": "2026-09-29T16:24:33.039Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 330,
-      "entidad": "Htal Guemes",
+      "entidad": "H.I.G.A. Dr. Luis A. Güemes de Haedo",
       "nro": "PA 141",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-02",
@@ -93002,10 +92980,117 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotizó solo R9 y R10, ganando ambos por amplio margen. Reng.9 — gana ABLE $158.300,00 (Able) vs Laboratorios Igaltex $181.335,00 (Alstrom, +14,6%), Kims $185.500,00 (Kims, +17,2%) y Poggi $968.000,00 (Reliance, +511%). Reng.10 — gana ABLE $14.990,00 (Able) vs Kims $24.500,00 (Kims, +63,4%). Poggi e Igaltex no cotizaron este renglón. Sin empate técnico ni preferencia nacional en ninguno de los 2 renglones.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Raul Jorge Leon Poggi",
+          "Laboratorios Igaltex S.R.L.",
+          "Kims S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "9",
+            "cant": 5,
+            "desc": "Resma de papel grado médico color blanco, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 158300,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 968000,
+                "marca": "Reliance",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 181335,
+                "marca": "Alstrom",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 185500,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 6,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 75mm x200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14990,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 24500,
+                "marca": "Kims",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE cotizó solo R9 y R10, ganando ambos por amplio margen. Reng.9 — gana ABLE $158.300,00 (Able) vs Laboratorios Igaltex $181.335,00 (Alstrom, +14,6%), Kims $185.500,00 (Kims, +17,2%) y Poggi $968.000,00 (Reliance, +511%). Reng.10 — gana ABLE $14.990,00 (Able) vs Kims $24.500,00 (Kims, +63,4%). Poggi e Igaltex no cotizaron este renglón. Sin empate técnico ni preferencia nacional en ninguno de los 2 renglones."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-29T16:24:33.072Z"
     },
     {
@@ -93635,7 +93720,194 @@
       "pref": "",
       "obs": "",
       "creado": "2026-10-01T19:28:00.278Z"
+    },
+    {
+      "id": 343,
+      "entidad": "H.I.G.A. Prof. Dr. Rodolfo Rossi",
+      "nro": "PA 132",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-08-24",
+      "monto": 61500000,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Expte. EX-2026-3801986-GDEBA-HIGAPDRRMSALGP. ABLE cotizó solo R3 (camisolín, 100.000u) — base tela SP $615 (ganador nominal por precio vs Aupres $1.180) + 4 alternativas (ALT1-3 mix SP/SMS, ALT4 100% SMS $815 que SÍ cumple el pliego). Pliego exige tela SMS 30gr/m²; la oferta BASE de ABLE es tela SP, no conforme.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Aupres SRL"
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 100000,
+            "desc": "Camisolín no estéril, no hemorrepelente de tela SP, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 615,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": 1180,
+                "marca": "BIOPROTEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 100000,
+            "desc": "ALT.1 — Mix: 80.000u no hemorrepelente tela SP puño elástico + 20.000u hemorrepelente tela SMS 30grs puño algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 660,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 100000,
+            "desc": "ALT.2 — Mix: 70.000u no hemorrepelente tela SP puño elástico + 30.000u hemorrepelente tela SMS 30grs puño algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 685,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 100000,
+            "desc": "ALT.3 — Mix: 60.000u no hemorrepelente tela SP puño elástico + 40.000u hemorrepelente tela SMS 30grs puño algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 705,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 100000,
+            "desc": "ALT.4 — Camisolín no estéril, hemorrepelente tela SMS 30grs (cumple espec. SMS del pliego), c/puños de algodón",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres SRL",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Pliego exige tela SMS 30gr/m² para R3. La oferta BASE de ABLE es tela SP (no conforme). La ALT4 ($815,00) es 100% SMS 30gr y cumple la especificación completa — seguía siendo más barata que Aupres SRL ($1.180,00). Aupres SRL declara el camisolín como 'no hemorrepelente' pero con gramaje 30grs."
+      },
+      "preadj_fecha": "2026-09-18",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE fue RECHAZADA como 'FRACASADO' en R3 (único renglón cotizado) pese a ser la oferta más barata nominal ($615 vs Aupres $1.180) — motivo: la oferta BASE es tela SP y el pliego exige tela SMS 30gr/m², incumplimiento técnico. Aupres SRL también fue rechazada en el mismo renglón (precio excesivo). El acta resuelve: 'RENGLON N° 3 No se preadjudica a ninguno de los proponentes, dado que se resolvió por cuerda separada, debido a la necesidad y urgencia que debió resolverse.' ABLE tenía disponible la ALT.4 (100% SMS, $815, conforme al pliego) pero no fue la oferta considerada en este dictamen.",
+      "gestion_pre_resultado": "Perdido",
+      "adj_recibida": false,
+      "adj_fecha": "2026-09-18",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no fue adjudicada en R3 (único renglón cotizado) — oferta BASE rechazada por tela SP no conforme (pliego exige SMS 30gr/m²). El renglón no se adjudicó a ningún oferente: se resolvió por cuerda separada por necesidad y urgencia.",
+      "adj_alertas": "R3 declarado sin adjudicar a nadie en el acta — verificar si corresponde reclamo o nueva gestión con la ALT.4 (100% SMS, conforme al pliego, $815).",
+      "adj_tiene_alerta": true,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "Sin OC: R3 no se adjudicó a ningún oferente, resuelto por cuerda separada por necesidad y urgencia.",
+      "creado": "2026-10-02T15:16:16.290Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Camisolín no estéril, no hemorrepelente de tela SP, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+          "cant": 100000,
+          "precio_able": 615,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "motivo": "rechazado_tecnico_tela_no_conforme"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "3",
+          "cant": 100000,
+          "desc": "Camisolín no estéril, no hemorrepelente de tela SP, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca",
+          "precio_able": 615,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "motivo": "rechazado_tecnico_tela_no_conforme"
+        }
+      ]
     }
   ],
-  "nextId": 343
+  "nextId": 344
 }
