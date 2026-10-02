@@ -76239,44 +76239,6 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "tabla": null,
-      "id": 260,
-      "entidad": "Municipio de Morón",
-      "nro": "PA 144",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-03",
-      "monto": 25243860,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-28T19:51:00.757Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -94073,7 +94035,2051 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
+    },
+    {
+      "id": 349,
+      "entidad": "Hospital de Moron (Municipalidad de Moron)",
+      "nro": "PA 144/2026",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-03",
+      "monto": 14842360,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Renglones 3, 9 y 10: gana Bhaurac S.A. (marca UNISUR, origen India). ABLE gana directo el resto (1,2,4,5,6,7,8,11,12,13,14,15). Sin empate técnico. Preferencia nacional: no corresponde en esta licitación (Concurso de Precios municipal).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Pharma Express S.A.",
+          "Bhaurac S.A.",
+          "Ciudad Hospitalaria SRL",
+          "Euro Swiss S.A.",
+          "Cirugía Argentina S.A.",
+          "Geronimo Dos Soles S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 500,
+            "desc": "Poliglactina 910/Ac.Poliglicólico Cal.0, aguja 1/2 circ. 36mm, hebra 90cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1480,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1968,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 2613,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3481,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2770,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 13175,
+                "marca": "Sutura imp. Cal.0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 500,
+            "desc": "Sutura de Ácido Poliglicólico N° 0 con aguja de 35mm, 1/2 Circ., punta Redonda, hebra de 70cm — Marca Surgimax (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1399,
+                "marca": "SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 4500,
+            "desc": "Poliglactina 910/Ac.Poliglicólico Cal.1, aguja 1/2 circ. 40mm, hebra 90cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1480,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1968,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 2613,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3423,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2480,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 13175,
+                "marca": "Sutura imp. Cal.1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 4500,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 40mm, 1/2 Circ., punta Redonda, hebra de 90cm — Marca Surgimax (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1399,
+                "marca": "SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 800,
+            "desc": "Poliglactina 910/Ac.Poliglicólico Cal.2/0, aguja 1/2 circ. 26mm, hebra 70cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1399,
+                "marca": "SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1968,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 1368,
+                "marca": "UNISUR",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 2381,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3990,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2480,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 12285,
+                "marca": "Sutura imp. Cal.2/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 800,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Circ., punta Redonda, hebra de 70cm — Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1480,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 600,
+            "desc": "Poliglactina 910/Ac.Poliglicólico Cal.3/0, aguja 1/2 circ. 20mm, hebra 70cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1399,
+                "marca": "SURGIMAX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1968,
+                "marca": "SURGIKAL — importe declarado no cierra con cant.×precio, verificar",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 2381,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3990,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2480,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 12285,
+                "marca": "Sutura imp. Cal.3/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 600,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 20mm, 1/2 Circ., punta Redonda, hebra de 70cm — Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1480,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 72,
+            "desc": "Poliglactina 910/Ac.Poliglicólico Cal.4/0, aguja 1/2 circ. 17-20mm, hebra 70-75cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1480,
+                "marca": "SURGIMAX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1968,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 1736.35,
+                "marca": "UNISUR — verificar origen nacional/importado",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 2381,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3990,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2480,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 12515,
+                "marca": "Sutura imp. Cal.4/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 108,
+            "desc": "Polipropileno monofilamento Cal.0, aguja 1/2 circ. 40mm, hebra 75cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "SURGIMAX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 2493,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 3316,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 8484,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3610,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 7205,
+                "marca": "Polipropileno Cal.0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 400,
+            "desc": "Polipropileno monofilamento Cal.1, aguja 1/2 circ. 26mm, hebra 75cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1800,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 3316,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 400,
+            "desc": "Sobres Polipropileno Monofilamento - Calibre 1 - Descripción c/aguja 1/2 circ. redonda de 26mm, hebra de 75cm, estéril - punta redonda",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3610,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 150,
+            "desc": "Polipropileno monofilamento Cal.2/0, doble aguja 1/2 circ. 26mm, hebra 90cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 3412,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 4461,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 10110,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 18280,
+                "marca": "Sutura imp. Cal.2/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 150,
+            "desc": "Sobres Polipropileno Monofilamento - Calibre 2/0 - Descripción c/doble aguja 1/2 circ. de 26mm, hebra de 90cm, estéril - punta redonda",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 4220,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 96,
+            "desc": "Polipropileno monofilamento Cal.3/0, doble aguja 1/2 circ. 22cm, hebra 75-90cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2600,
+                "marca": "SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 2353.45,
+                "marca": "UNISUR",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 9703,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 4220,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 18350,
+                "marca": "Sutura imp. Cal.3/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 48,
+            "desc": "Polipropileno monofilamento Cal.4/0, aguja doble círculo 22mm, hebra 75-90cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2600,
+                "marca": "SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 2480.5,
+                "marca": "UNISUR",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 5300,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 9703,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 4220,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 18535,
+                "marca": "Sutura imp. Cal.4/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 24,
+            "desc": "Polipropileno monofilamento Cal.5/0, aguja 3/8 15mm, hebra 90cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2600,
+                "marca": "SURGIMAX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 5400,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 10836,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 17460,
+                "marca": "Sutura imp. Cal.5/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 24,
+            "desc": "Polipropileno monofilamento Cal.5/0, aguja 3/8 15mm, hebra 90cm PUNTA REDONDA",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 7955,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 24,
+            "desc": "Polipropileno monofilamento Cal.5/0, aguja 3/8 15mm, hebra 90cm PUNTA REDONDA",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 4220,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 1500,
+            "desc": "Nylon monofilamento Cal.2/0, aguja recta 60mm lanceolada, hebra 75cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 680,
+                "marca": "SURGIMAX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1312,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 901.45,
+                "marca": "UNISUR — verificar origen nacional/importado",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 1268,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2417,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1525,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 6765,
+                "marca": "Nylon Cal.2/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 1500,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 200,
+            "desc": "Nylon monofilamento Cal.3/0, aguja recta 60mm lanceolada, hebra 75cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 680,
+                "marca": "SURGIMAX",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 1312,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 780,
+                "marca": "UNISUR — verificar origen nacional/importado",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 1268,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2417,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1525,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 6840,
+                "marca": "Nylon Cal.3/0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 48,
+            "desc": "Sutura Catgut Simple N°0 c/aguja (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2500,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 4116,
+                "marca": "ABLE (marca, según Ciudad Hospitalaria)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3084,
+                "marca": "ABLE (marca, según Euro Swiss)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3180,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 14590,
+                "marca": "Catgut Cal.0",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 800,
+            "desc": "Sutura Catgut Simple N°1, aguja medio círculo 35mm, hebra 70cm (C/U)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2950,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria SRL",
+                "precio": 3990,
+                "marca": "Marca ilegible — verificar contra original",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3153,
+                "marca": "ABLE (marca, según Euro Swiss)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3840,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Geronimo Dos Soles S.A.",
+                "precio": 14240,
+                "marca": "Catgut N°1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "1) Municipalidad de Morón, Hospital de Morón — Expte. 1.474/2026, PdC N° 1203, Llamado N°1, apertura 03/09/2026. 2) Renglones 3, 9 y 10: gana Bhaurac S.A. (UNISUR) — origen India. 3) Varios oferentes de Ciudad Hospitalaria SRL figuran con marca anotada como 'ABLE (marca, según Ciudad Hospitalaria)' tal como consta en el acta — verificar si es un error de carga del hospital o si realmente declararon igual marca que ABLE. 4) Renglón 11 (ALT) aparece dos veces en el Excel con precios distintos de Cirugía Argentina S.A. ($7.955,00 y $4.220,00) — verificar cuál es el valor correcto antes de cargar. 5) Renglón 4, Pharma Express S.A.: nota en el Excel indica 'importe declarado no cierra con cant.×precio, verificar'."
+      },
+      "preadj_fecha": "2026-09-22",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Sin acta formal de preadjudicación — reconstruida a partir de la comparativa y la OC 1698/2026 (Solicitud de Gasto 2724, 28/08/2026). Adjudicados: Reng.1, 2 (parcial), 3 y 4 (variante ALT industria argentina) y 15. Resto de renglones ganados por ABLE en la comparativa (5,6,7,8,11,12,13,14): no adjudicados.",
+      "gestion_pre_resultado": "Ganado parcial",
+      "adj_recibida": false,
+      "adj_fecha": "2026-09-22",
+      "adj_monto_able": 8132000,
+      "adj_resumen": "ABLE adjudicada en Reng.1 (300/500 u.), Reng.2 (3.000/4.500 u.), Reng.3 (ALT ind. argentina, 300 u.), Reng.4 (ALT ind. argentina, 300 u.) y Reng.15 (800 u., total). Renglones 5,6,7,8,11,12,13,14 ganados en comparativa pero no adjudicados.",
+      "adj_alertas": "Reng.3 y Reng.4 adjudicados por variante ALT industria argentina ($1.480,00), no por la oferta base más barata de ABLE. Reng.3 además había perdido en comparativa frente a Bhaurac S.A. $1.368,00 (import. India).",
+      "adj_tiene_alerta": true,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-02",
+      "oc_alertas": "OC 1698/2026 - Reng.1: 300 u. $1.480,00 ($444.000,00). Reng.2: 3.000 u. $1.480,00 ($4.440.000,00). Reng.3: 300 u. (ALT ind. argentina) $1.480,00 ($444.000,00). Reng.4: 300 u. (ALT ind. argentina) $1.480,00 ($444.000,00). Reng.15: 800 u. $2.950,00 ($2.360.000,00). Total OC: $8.132.000,00.",
+      "creado": "2026-10-02T19:41:41.052Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.0, aguja 1/2 circ. 36mm, hebra 90cm (C/U)",
+          "cant": 500,
+          "precio_able": 1480,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 1968,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "OC 1698/2026 - entrega parcial 300 u. (pliego 500 u.)",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.1, aguja 1/2 circ. 40mm, hebra 90cm (C/U)",
+          "cant": 4500,
+          "precio_able": 1480,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 1968,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "OC 1698/2026 - entrega parcial 3.000 u. (pliego 4.500 u.)",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "3",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.2/0, aguja 1/2 circ. 26mm, hebra 70cm (C/U)",
+          "cant": 800,
+          "precio_able": 1480,
+          "marca": "ABLE (ALT industria argentina, 25mm)",
+          "resultado": "adj",
+          "precio_siguiente": 1368,
+          "ganador_sig": "Bhaurac S.A. (UNISUR)",
+          "motivo": "OC 1698/2026 - adjudicado por variante ALT industria argentina $1.480,00 (300 u.), no por la oferta base $1.399,00 que había perdido frente a Bhaurac $1.368,00",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "4",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.3/0, aguja 1/2 circ. 20mm, hebra 70cm (C/U)",
+          "cant": 600,
+          "precio_able": 1480,
+          "marca": "ABLE (ALT industria argentina, 20mm)",
+          "resultado": "adj",
+          "precio_siguiente": 1968,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "OC 1698/2026 - adjudicado por variante ALT industria argentina $1.480,00 (300 u.), pese a que la oferta base $1.399,00 había ganado directo",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "5",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.4/0, aguja 1/2 circ. 17-20mm, hebra 70-75cm (C/U)",
+          "cant": 72,
+          "precio_able": 1480,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 1736.35,
+          "ganador_sig": "Bhaurac S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "6",
+          "desc": "Polipropileno monofilamento Cal.0, aguja 1/2 circ. 40mm, hebra 75cm (C/U)",
+          "cant": 108,
+          "precio_able": 1800,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 2493,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "7",
+          "desc": "Polipropileno monofilamento Cal.1, aguja 1/2 circ. 26mm, hebra 75cm (C/U)",
+          "cant": 400,
+          "precio_able": 1800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3316,
+          "ganador_sig": "Ciudad Hospitalaria SRL",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "8",
+          "desc": "Polipropileno monofilamento Cal.2/0, doble aguja 1/2 circ. 26mm, hebra 90cm (C/U)",
+          "cant": 150,
+          "precio_able": 2600,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3412,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "9",
+          "desc": "Polipropileno monofilamento Cal.3/0, doble aguja 1/2 circ. 22cm, hebra 75-90cm (C/U)",
+          "cant": 96,
+          "precio_able": 2600,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 2353.45,
+          "ganador_sig": "Bhaurac S.A. (UNISUR)",
+          "motivo": "Perdió comparativa (gana Bhaurac) y no incluido en OC 1698/2026",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "10",
+          "desc": "Polipropileno monofilamento Cal.4/0, aguja doble círculo 22mm, hebra 75-90cm (C/U)",
+          "cant": 48,
+          "precio_able": 2600,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 2480.5,
+          "ganador_sig": "Bhaurac S.A. (UNISUR)",
+          "motivo": "Perdió comparativa (gana Bhaurac) y no incluido en OC 1698/2026",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "11",
+          "desc": "Polipropileno monofilamento Cal.5/0, aguja 3/8 15mm, hebra 90cm (C/U)",
+          "cant": 24,
+          "precio_able": 2600,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 5400,
+          "ganador_sig": "Ciudad Hospitalaria SRL",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "12",
+          "desc": "Nylon monofilamento Cal.2/0, aguja recta 60mm lanceolada, hebra 75cm (C/U)",
+          "cant": 1500,
+          "precio_able": 680,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 901.45,
+          "ganador_sig": "Bhaurac S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "13",
+          "desc": "Nylon monofilamento Cal.3/0, aguja recta 60mm lanceolada, hebra 75cm (C/U)",
+          "cant": 200,
+          "precio_able": 680,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 780,
+          "ganador_sig": "Bhaurac S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura Catgut Simple N°0 c/aguja (C/U)",
+          "cant": 48,
+          "precio_able": 2500,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3084,
+          "ganador_sig": "Euro Swiss S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "15",
+          "desc": "Sutura Catgut Simple N°1, aguja medio círculo 35mm, hebra 70cm (C/U)",
+          "cant": 800,
+          "precio_able": 2950,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 3153,
+          "ganador_sig": "Euro Swiss S.A.",
+          "motivo": "OC 1698/2026 - entrega total 800 u.",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.0, aguja 1/2 circ. 36mm, hebra 90cm (C/U)",
+          "cant": 500,
+          "precio_able": 1480,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 1968,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "OC 1698/2026 - entrega parcial 300 u. (pliego 500 u.)",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.1, aguja 1/2 circ. 40mm, hebra 90cm (C/U)",
+          "cant": 4500,
+          "precio_able": 1480,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 1968,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "OC 1698/2026 - entrega parcial 3.000 u. (pliego 4.500 u.)",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "3",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.2/0, aguja 1/2 circ. 26mm, hebra 70cm (C/U)",
+          "cant": 800,
+          "precio_able": 1480,
+          "marca": "ABLE (ALT industria argentina, 25mm)",
+          "resultado": "adj",
+          "precio_siguiente": 1368,
+          "ganador_sig": "Bhaurac S.A. (UNISUR)",
+          "motivo": "OC 1698/2026 - adjudicado por variante ALT industria argentina $1.480,00 (300 u.), no por la oferta base $1.399,00 que había perdido frente a Bhaurac $1.368,00",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "4",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.3/0, aguja 1/2 circ. 20mm, hebra 70cm (C/U)",
+          "cant": 600,
+          "precio_able": 1480,
+          "marca": "ABLE (ALT industria argentina, 20mm)",
+          "resultado": "adj",
+          "precio_siguiente": 1968,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "OC 1698/2026 - adjudicado por variante ALT industria argentina $1.480,00 (300 u.), pese a que la oferta base $1.399,00 había ganado directo",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "5",
+          "desc": "Poliglactina 910/Ac.Poliglicólico Cal.4/0, aguja 1/2 circ. 17-20mm, hebra 70-75cm (C/U)",
+          "cant": 72,
+          "precio_able": 1480,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 1736.35,
+          "ganador_sig": "Bhaurac S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "6",
+          "desc": "Polipropileno monofilamento Cal.0, aguja 1/2 circ. 40mm, hebra 75cm (C/U)",
+          "cant": 108,
+          "precio_able": 1800,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 2493,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "7",
+          "desc": "Polipropileno monofilamento Cal.1, aguja 1/2 circ. 26mm, hebra 75cm (C/U)",
+          "cant": 400,
+          "precio_able": 1800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3316,
+          "ganador_sig": "Ciudad Hospitalaria SRL",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "8",
+          "desc": "Polipropileno monofilamento Cal.2/0, doble aguja 1/2 circ. 26mm, hebra 90cm (C/U)",
+          "cant": 150,
+          "precio_able": 2600,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3412,
+          "ganador_sig": "Pharma Express S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "9",
+          "desc": "Polipropileno monofilamento Cal.3/0, doble aguja 1/2 circ. 22cm, hebra 75-90cm (C/U)",
+          "cant": 96,
+          "precio_able": 2600,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 2353.45,
+          "ganador_sig": "Bhaurac S.A. (UNISUR)",
+          "motivo": "Perdió comparativa (gana Bhaurac) y no incluido en OC 1698/2026",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "10",
+          "desc": "Polipropileno monofilamento Cal.4/0, aguja doble círculo 22mm, hebra 75-90cm (C/U)",
+          "cant": 48,
+          "precio_able": 2600,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 2480.5,
+          "ganador_sig": "Bhaurac S.A. (UNISUR)",
+          "motivo": "Perdió comparativa (gana Bhaurac) y no incluido en OC 1698/2026",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "11",
+          "desc": "Polipropileno monofilamento Cal.5/0, aguja 3/8 15mm, hebra 90cm (C/U)",
+          "cant": 24,
+          "precio_able": 2600,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 5400,
+          "ganador_sig": "Ciudad Hospitalaria SRL",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "12",
+          "desc": "Nylon monofilamento Cal.2/0, aguja recta 60mm lanceolada, hebra 75cm (C/U)",
+          "cant": 1500,
+          "precio_able": 680,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 901.45,
+          "ganador_sig": "Bhaurac S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "13",
+          "desc": "Nylon monofilamento Cal.3/0, aguja recta 60mm lanceolada, hebra 75cm (C/U)",
+          "cant": 200,
+          "precio_able": 680,
+          "marca": "SURGIMAX",
+          "resultado": "no_adj",
+          "precio_siguiente": 780,
+          "ganador_sig": "Bhaurac S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura Catgut Simple N°0 c/aguja (C/U)",
+          "cant": 48,
+          "precio_able": 2500,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3084,
+          "ganador_sig": "Euro Swiss S.A.",
+          "motivo": "Ganó comparativa pero no incluido en OC 1698/2026 - no adjudicado",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        },
+        {
+          "reng": "15",
+          "desc": "Sutura Catgut Simple N°1, aguja medio círculo 35mm, hebra 70cm (C/U)",
+          "cant": 800,
+          "precio_able": 2950,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 3153,
+          "ganador_sig": "Euro Swiss S.A.",
+          "motivo": "OC 1698/2026 - entrega total 800 u.",
+          "gestion_pre": "",
+          "gestion_pre_resultado": ""
+        }
+      ]
     }
   ],
-  "nextId": 349
+  "nextId": 350
 }
