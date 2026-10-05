@@ -28984,7 +28984,7 @@
       "liquidado_obs": "",
       "id": 124,
       "entidad": "H.Z.E Dr. Juan Ubaldo Carrea (Vicente López)",
-      "nro": "PA 14/20",
+      "nro": "PA 14",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-16",
       "monto": 403724,
@@ -90386,7 +90386,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 19200000,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -90592,7 +90592,7 @@
       },
       "id": 315,
       "entidad": "Htal Eurnekian",
-      "nro": "PA 179/2026",
+      "nro": "PA 179",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-25",
       "monto": 19200000,
@@ -94594,7 +94594,7 @@
         }
       ],
       "gestion_pre": "Sin acta formal de preadjudicación — reconstruida a partir de la comparativa y la OC 1698/2026 (Solicitud de Gasto 2724, 28/08/2026). Adjudicados: Reng.1, 2 (parcial), 3 y 4 (variante ALT industria argentina) y 15. Resto de renglones ganados por ABLE en la comparativa (5,6,7,8,11,12,13,14): no adjudicados.",
-      "gestion_pre_resultado": "Ganado parcial",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -94608,7 +94608,7 @@
       "oc_alertas": "OC 1698/2026 - Reng.1: 300 u. $1.480,00 ($444.000,00). Reng.2: 3.000 u. $1.480,00 ($4.440.000,00). Reng.3: 300 u. (ALT ind. argentina) $1.480,00 ($444.000,00). Reng.4: 300 u. (ALT ind. argentina) $1.480,00 ($444.000,00). Reng.15: 800 u. $2.950,00 ($2.360.000,00). Total OC: $8.132.000,00.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 11832000,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -96226,7 +96226,7 @@
       },
       "id": 349,
       "entidad": "Hospital de Moron (Municipalidad de Moron)",
-      "nro": "PA 144/2026",
+      "nro": "PA 144",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-03",
       "monto": 14842360,
@@ -96509,7 +96509,43 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
+    },
+    {
+      "id": 352,
+      "entidad": "Htal San Juan de Dios",
+      "nro": "PA 55",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-09",
+      "monto": 286000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-05T15:19:51.409Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 352
+  "nextId": 353
 }
