@@ -880,9 +880,11 @@ function tienePanelGestion(r){
 // El número de OC no es un campo propio: vive como texto libre dentro de
 // oc_alertas (ej. "OC Nro. 425/2026..."). Se extrae con la misma regex que
 // ya usa el modal de OC, para poder buscarlo desde el buscador principal.
+// Acepta "OC Nro. 425/2026", "OC N° 425", "OC Nº 425", "O.C. 425",
+// "Orden de Compra 425" y también "OC 28 - ..." (sin "Nro").
 function numeroOC(r){
-  const m=(r.oc_alertas||'').match(/OC\s*Nro\.?\s*([\d\/\-]+)/i);
-  return m ? m[1] : '';
+  const m=(r.oc_alertas||'').match(/(?:\bO\.?\s?C\.?|orden\s+de\s+compra)\s*(?:Nro\.?|N[°º]\.?|n[úu]mero)?\s*:?\s*(\d[\d\/\-\.]*)/i);
+  return m ? m[1].replace(/[.\-\/]+$/,'') : '';
 }
 
 function filtered(){
@@ -1013,8 +1015,7 @@ function openOC(id){
 
   // Extraer número de OC y disposición de oc_alertas
   const alertas=r.oc_alertas||'';
-  const ocNumMatch=alertas.match(/OC\s*Nro\.?\s*([\d\/\-]+)/i);
-  const ocNum=ocNumMatch?ocNumMatch[1]:'—';
+  const ocNum=numeroOC(r)||'—';
   const dispoMatch=alertas.match(/Disposici[oó]n[:\s]*([\w\-\/\.]+)/i);
   const dispo=dispoMatch?dispoMatch[1]:'—';
 
