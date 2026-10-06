@@ -68981,17 +68981,17 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-05",
+      "adj_monto_able": 514800,
+      "adj_resumen": "ABLE adjudicada en renglón 7 (LigaClip hemostático titanio LT400, 80u x $6.435,00 = $514.800,00). Renglón 6 (espátula de Ayre) no adjudicado, perdido vs Droguería Farmatec S.A. (Clericot, $42).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-05",
+      "oc_alertas": "OC: N° 312/2026, Hospital Zonal General de Agudos Manuel Belgrano, expediente EX-2026-24570971-GDEBA-HZGMBMSALGP, renglón 7 (cartucho LigaClip titanio LT400 marca ABLE), 80 unidades a $6.435,00 = $514.800,00, entrega inmediata (10 días corridos) en depósito de farmacia.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 514800,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -69110,11 +69110,35 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "",
-      "creado": "2026-08-18T18:52:06.362Z"
+      "creado": "2026-08-18T18:52:06.362Z",
+      "renglones_adj": [
+        {
+          "reng": "6",
+          "desc": "Espatula de Ayre descartable - Marca Clericot (Farmatec)",
+          "cant": 1500,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 42,
+          "ganador_sig": "Drogueria Farmatec S.A. (Clericot, $42 x 1500u = $63.000)",
+          "motivo": "superado"
+        },
+        {
+          "reng": "7",
+          "desc": "LigaClip hemostatico titanio tipo LT400 - cartucho con 6 clips de titanio tamaño grande LT400 - Marca ABLE (Ind. argentina)",
+          "cant": 80,
+          "precio_able": 6435,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-24",
@@ -73372,17 +73396,17 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-02",
+      "adj_monto_able": 388800,
+      "adj_resumen": "ABLE adjudicada en renglón 9 (Sutura Polipropileno Azul Monofilamento c/Aguja 1/2 Círculo Calibre 7/0, 60u x $6.480,00 = $388.800,00), único renglón cotizado.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-02",
+      "oc_alertas": "OC: N° 166/2026, Hospital Interzonal General de Agudos L. C. de Gandulfo (Lomas de Zamora), expediente EX-2026-26208708-GDEBA-HIGALCGMSALGP, renglón 9 (sutura polipropileno marca ABLE), 60 unidades a $6.480,00 = $388.800,00. Entrega según necesidades del establecimiento hasta el 31/12/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 388800,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -73444,11 +73468,24 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng. 9 — único renglón cotizado por ABLE. Gana con amplio margen: $6.578,00 vs $9.230,40 (Martorani) y $15.047,00 (Cirugía JF). ⚠ Martorani tiene una 2ª oferta (J&J Prolene, $10.210,46) con 48 u. en vez de 60 — verificar. No cambia el resultado. Total ABLE: $394.680,00.",
-      "creado": "2026-08-24T19:15:35.086Z"
+      "creado": "2026-08-24T19:15:35.086Z",
+      "renglones_adj": [
+        {
+          "reng": "9",
+          "desc": "Sutura polipropileno azul monofilamento c/aguja 1/2 círculo, calibre 7/0 — marca ABLE",
+          "cant": 60,
+          "precio_able": 6480,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unico_oferente"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-21",
@@ -80466,20 +80503,20 @@
       "creado": "2026-09-08T15:11:31.980Z"
     },
     {
-      "preadj_fecha": "2026-08-26",
+      "preadj_fecha": "2026-09-08",
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "No",
       "renglones_preadj": [
         {
           "reng": "1",
-          "desc": "Bolsa p/colostomia pediatrica c/protector dermico 1 pieza recortable (ALT: bolsa ileostomia neonatal drenable 1 pieza aro recortable 15-32mm con filtro) - Marca ABLE (Ind. argentina)",
+          "desc": "Bolsa p/colostomia pediátrica c/protector dérmico, sistema 1 pieza recortable, con desagote - Marca ABLE (Ind. Argentina)",
           "cant": 120,
-          "precio_able": 4028,
+          "precio_able": 3900,
           "marca": "ABLE",
-          "resultado": "adj",
+          "resultado": "no_adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "precio_excesivo"
         },
         {
           "reng": "23",
@@ -80494,18 +80531,18 @@
         },
         {
           "reng": "28",
-          "desc": "Camisolin descartable SMS 30G/m2 manga larga puño ajustado tiras ajuste cuello y cintura - Marca ArgentCare (Ind. argentina)",
+          "desc": "Camisolín descartable SMS 30G/m2 manga larga puño ajustado - Marca ArgentCare (Ind. argentina)",
           "cant": 15000,
-          "precio_able": 863.9,
+          "precio_able": 845,
           "marca": "ArgentCare",
-          "resultado": "adj",
+          "resultado": "no_adj",
           "precio_siguiente": null,
           "ganador_sig": null,
-          "motivo": "menor_precio"
+          "motivo": "precio_excesivo"
         }
       ],
-      "gestion_pre": "ABLE gana rengs.1,23,28. Total: $14.192.340,00. MAYOR. Reng.1 (bolsa colostomia pediátrica/ileostomia neonatal ABLE ALT, 120u x $4.028 = $483.360, PP). Reng.23 (cofia elastizada ArgentCare, 24.000u x $31,27 = $750.480, PP). Reng.28 (camisolin SMS 30Grs. ArgentCare, 15.000u x $863,90 = $12.958.500, PAS). Total LP: $15.518.040,50+. Estado: CON PREADJUDICACION PENDIENTE EN EL HOSPITAL. Expediente EX-2026-23515646-GDEBA-HIGDJPMSALGP.",
-      "gestion_pre_resultado": "Ganado",
+      "gestion_pre": "CORRECCIÓN: el dictamen de preadjudicación (acta del 08/09/2026) rechaza los renglones 1 y 28 de ABLE por precio excesivo respecto a los valores de referencia de OPC. Solo se preadjudica el renglón 23.",
+      "gestion_pre_resultado": "Parcial",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -81406,12 +81443,167 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-01",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura Ácido Poliglicólico N°2, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 2200,
+          "precio_able": 1805.76,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura Poliglactina calibre 2, aguja 40mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1805.76,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura Poliglactina c/triclosán calibre 2, aguja 40mm 1/2 círc., hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura Poliglactina calibre 0, aguja 36mm 1/2 círc., hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura Poliglactina calibre 2/0, aguja 26mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura Poliglactina calibre 2/0, aguja 36mm 1/2 círc., hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura Poliglactina calibre 3/0, aguja 26mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura Poliglactina calibre 3/0 incoloro, aguja 31mm 3/8 círc. reverso cortante, hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura Poliglactina calibre 4/0, aguja 26mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura Poliglactina calibre 4/0, aguja 22mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura Poliglactina calibre 5/0, aguja 15mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 750,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura Nylon Monofilamento calibre 2/0, aguja 26mm 3/8 círc. reverso cortante, hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 10,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura Nylon Monofilamento calibre 3/0, aguja 24mm 3/8 círc. reverso cortante, hebra 75cm - Marca ABLE (Ind. argentina)",
+          "cant": 1000,
+          "precio_able": 777.15,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "15",
+          "desc": "Sutura Nylon Negro Monofilamento calibre 4/0, aguja 25mm 3/8 círc. reverso cortante, hebra 75cm - Marca ABLE (Ind. argentina)",
+          "cant": 600,
+          "precio_able": 777.15,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        }
+      ],
+      "gestion_pre": "Dictamen de preadjudicación (acta 01/10/2026). ABLE gana 10 de 14 renglones cotizados. Rengs. 1, 2, 14 y 15 rechazados por precio excesivo respecto a valores de referencia OPC.",
+      "gestion_pre_resultado": "Parcial",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -82984,7 +83176,7 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "IMPORTANTE: los precios de la competencia fueron leídos de fotos de presupuestos, no de un Excel de apertura oficial. Verificar contra el acta de apertura antes de usar para adjudicación. Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
@@ -96688,7 +96880,43 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
+    },
+    {
+      "id": 357,
+      "entidad": "Htal Bocalandro",
+      "nro": "PA 179",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-08",
+      "monto": 407744,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-06T18:53:03.852Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 357
+  "nextId": 358
 }
