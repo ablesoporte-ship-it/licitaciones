@@ -77610,17 +77610,17 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-06",
+      "adj_monto_able": 1900000,
+      "adj_resumen": "ABLE adjudicada en renglón 21 (Bolsa de ileostomía neonatal con desagote, aro recortable 15-32mm, 500u x $3.800,00 = $1.900.000,00), único renglón cotizado.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-06",
+      "oc_alertas": "OC: N° 812/2026, Hospital Interzonal de Agudos Especializado en Pediatría \"Sor María Ludovica\" (La Plata), expediente EX-2026-30890056-GDEBA-HIAEPSSMLMSALGP, renglón 21 (bolsa de ileostomía neonatal marca ABLE, cód. comercial BIL.AT.1N.32), 500 unidades a $3.800,00 = $1.900.000,00. Plazo de pago: 60 días corridos de presentada la factura.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 1900000,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -77737,11 +77737,24 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-30890056-GDEBA-HIAEPSSMLMSALGP, apertura 11/09/2026. ABLE cotizó solo R21. Medic Tools presentó 2 alternativas más baratas, pero no son neonatales como pide el renglón: ALT1 ($5.180) es pediátrica y ALT2 ($3.590) es para adultos — quedaron como referencia, no como competencia válida. Comparando solo ofertas neonatales (como exige el renglón): ABLE gana con amplio margen.",
-      "creado": "2026-09-03T19:34:32.672Z"
+      "creado": "2026-09-03T19:34:32.672Z",
+      "renglones_adj": [
+        {
+          "reng": "21",
+          "desc": "Bolsa de ileostomía neonatal con desagote, transparente, 1 pieza, aro recortable 15 a 32mm, contiene filtro",
+          "cant": 500,
+          "precio_able": 3800,
+          "marca": "ABLE (Ind. Argentina)",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unica_oferta_conforme"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-03",
