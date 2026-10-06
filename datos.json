@@ -93633,30 +93633,8 @@
       "adelanto_obs": ""
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 339,
-      "entidad": "Htal Carlotto",
+      "entidad": "Htal Estela B. de Carlotto",
       "nro": "PA 34",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-06",
@@ -93664,11 +93642,331 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-01T16:15:02.982Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.9 — gana ABLE $10,18 vs Igaltex $13,03 (+28,0%). Martorani $1.001,70 luce anómalo, verificar. Reng.18 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), Martorani $41,70, Euro Swiss $42,00 y Poggi $239,00. Reng.19 — unidad: ABLE único oferente ($73,00). Par (ALT): gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $300,00 (+130,8%). Reng.24 — ABLE único oferente ($20.125,00). Sin competencia. Reng.29 — ABLE pierde: gana Martorani $40,10 vs ABLE $57,97 (+44,6%). Sin empate técnico ni preferencia nacional en ningún renglón.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Raul Jorge Leon Poggi",
+          "Laboratorios Igaltex S.R.L.",
+          "Droguería Martorani S.A.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "9",
+            "cant": 1000,
+            "desc": "Bajalenguas pediátricos por unidad, marca ABLE (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 10.18,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 13.03,
+                "marca": "MEDONE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1001.7,
+                "marca": "Aurinco (verificar - precio anómalo)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 5000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": 239,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 31.71,
+                "marca": "Globalprotective",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 41.7,
+                "marca": "Pemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 42,
+                "marca": "Euromix",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 6000,
+            "desc": "Cubrecalzado con elástico, descartable, no estéril, tela no tejida, no deslizable, resistente a las rasgaduras, marca ArgentCare (cotizado por unidad)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 73,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 6000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, tela no tejida, no deslizables, resistentes a las rasgaduras, marca ArgentCare (cotizado por par)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 153.7,
+                "marca": "Pemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 300,
+                "marca": "Kratec",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "24",
+            "cant": 20,
+            "desc": "Equipo para parto de alto riesgo (1 cubre mesa, 1 campo quirúrgico, 1 compresa 90x90cm, 2 camisolines, 2 pierneras), marca Ebano",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 20125,
+                "marca": "Ebano",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29",
+            "cant": 1600,
+            "desc": "Espátula de Ayre descartable por unidad, marca Able (Industria Argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.97,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Jorge Leon Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 40.46,
+                "marca": "MEDONE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 40.1,
+                "marca": "Aurinco",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 65,
+                "marca": "Goodwood",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.9 — gana ABLE $10,18 vs Igaltex $13,03 (+28,0%). Martorani $1.001,70 luce anómalo, verificar. Reng.18 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), Martorani $41,70, Euro Swiss $42,00 y Poggi $239,00. Reng.19 — unidad: ABLE único oferente ($73,00). Par (ALT): gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $300,00 (+130,8%). Reng.24 — ABLE único oferente ($20.125,00). Sin competencia. Reng.29 — ABLE pierde: gana Martorani $40,10 vs ABLE $57,97 (+44,6%). Sin empate técnico ni preferencia nacional en ningún renglón."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-01T16:15:02.982Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
