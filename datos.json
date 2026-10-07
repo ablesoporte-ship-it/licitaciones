@@ -94557,28 +94557,6 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 345,
       "entidad": "Htal Ana Goitia",
       "nro": "PA 54",
@@ -94588,10 +94566,182 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios sin desglose de IVA en ningún oferente; se tomaron tal cual figuran. Pliego (Anexo III) permite cotizar reng.17 por par o unidad — sin incumplimiento. Reng.17: Farmatec cotizó como «UNID» $377,60, muy por encima del resto — verificar. Reng.16 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), resto más caro. Reng.17 unidad — gana ABLE $73,00 (único comparable: Farmatec, ver nota anterior). Reng.17 ALT par — gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $302,00 (+132,3%). Sin empate técnico ni preferencia nacional. Monto cotizado ABLE (sin ALT): $439.500,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Droguería Martorani S.A.",
+          "Droguería Farmatec S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "16",
+            "cant": 5000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 39,
+                "marca": "Euromix",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 31.71,
+                "marca": "Global Protective",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 41.2,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 36.18,
+                "marca": "NOVAMED/BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 4000,
+            "desc": "Cubrecalzado (botas p/cirugía) descartable, no estéril, tela no tejida, hemorrepelente, no deslizable, resistente a rasgadura — cotizado por UNIDAD, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 73,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 377.6,
+                "marca": "BLUEMED (verificar - cotizado como UNID, precio muy por encima del resto)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 4000,
+            "desc": "Par de cubrecalzados (botas p/cirugía) descartables, no estériles, tela no tejida, hemorrepelentes, no deslizables, resistentes a rasgadura — cotizado por PAR, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 302,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 153.7,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios sin desglose de IVA en ningún oferente; se tomaron tal cual figuran. Pliego (Anexo III) permite cotizar reng.17 por par o unidad — sin incumplimiento. Reng.17: Farmatec cotizó como «UNID» $377,60, muy por encima del resto — verificar. Reng.16 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), resto más caro. Reng.17 unidad — gana ABLE $73,00 (único comparable: Farmatec, ver nota anterior). Reng.17 ALT par — gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $302,00 (+132,3%). Sin empate técnico ni preferencia nacional. Monto cotizado ABLE (sin ALT): $439.500,00."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-10-02T19:15:30.157Z"
     },
     {
@@ -97017,7 +97167,43 @@
       "pref": "",
       "obs": "",
       "creado": "2026-10-06T18:53:03.852Z"
+    },
+    {
+      "id": 358,
+      "entidad": "Htal. Bocalandro",
+      "nro": "PA 199",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-13",
+      "monto": 13799998,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-07T17:17:50.701Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 358
+  "nextId": 359
 }
