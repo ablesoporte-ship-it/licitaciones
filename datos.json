@@ -90299,7 +90299,7 @@
         }
       ],
       "gestion_pre": "Preadjudicación APROBADA (acta 30/09/2026, Htal. Paroissien). ABLE gana Reng.9 (108 u. x $604,00 = $65.232,00). Reng.4 rechazado por precio excesivo (acta lista $25.740,00 vs $26.000,00 ofertado). Reng.11 pasa a Euro Swiss ($4.650,00, clip LT-300 'Able-Suturas Argentina'); ABLE $5.350,00 queda +15,05%.",
-      "gestion_pre_resultado": "Ganado parcial",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -90313,7 +90313,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 65232,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -90473,7 +90473,7 @@
       },
       "id": 313,
       "entidad": "H.I.G.A. Dr. Diego Paroissien",
-      "nro": "PA 220/2026",
+      "nro": "PA 220",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-28",
       "monto": 1230432,
