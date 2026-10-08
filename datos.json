@@ -84653,28 +84653,6 @@
       "creado": "2026-09-11T19:04:16.847Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 297,
       "entidad": "Htal Posadas",
       "nro": "PA 73/2026",
@@ -84684,11 +84662,213 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-11T19:28:43.776Z"
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana los 5 renglones cotizados por menor precio (+64% a +117% la competencia). Sin empate técnico ni preferencia nacional.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 120,
+            "desc": "NYM306075J - Sutura de Nylon Monofilamento N°3/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 667.7,
+                "marca": "NYM306075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1320,
+                "marca": "Tagumo (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 60,
+            "desc": "PGM004070A - Sutura de Ácido Poligliócolico N°0, aguja 40mm, 1/2 círc., punta redonda, hebra 90cm - marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1375,
+                "marca": "PGM004070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2410,
+                "marca": "Tagumo (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 192,
+            "desc": "PGM024070A - Sutura de Ácido Poligliócolico N°2, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1424.5,
+                "marca": "PGM024070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2520,
+                "marca": "Tagumo (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 24,
+            "desc": "PPM013575A - Sutura de Polipropileno N°1, aguja 35mm, 1/2 círc., punta redonda, hebra 75cm - marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1650,
+                "marca": "PPM013575A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2710,
+                "marca": "Tagumo (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 60,
+            "desc": "PGM402070A - Sutura atáumatica estéril de Ácido Poligliócolico N°4/0 impregnada c/triclosán, aguja de acero 20mm, 1/2 círc., punta redonda, hebra 70cm - marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1325.5,
+                "marca": "PGM402070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2880,
+                "marca": "Tagumo (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "① Solo dos oferentes: ABLE y Cirugía Argentina (Tagumo, Perú).<br>② ABLE gana los 5 renglones; Cirugía Argentina queda entre +64,2% y +117,3% por encima.<br>③ Sin empate técnico ni preferencia nacional. Sin objeciones.<br>④ Monto cotizado ABLE: $555.258,00."
+      },
+      "preadj_fecha": "2026-09-23",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Preadjudicación APROBADA (acta 23/09/2026, Htal. Posadas). ABLE adjudicada en Rengs.1, 3, 4 y 5: $472.758,00. Reng.2 se adjudica a Cirugía Argentina ($144.600,00) pese a que ABLE ofertó $1.375,00 (menor); el acta no menciona a ABLE en ese renglón. Verificar. Importes unitarios de la tabla del acta ($589, $1.205, $1.500, $1.312,25; total $416.775,00) no coinciden con la oferta ABLE ni con el total adjudicado.",
+      "gestion_pre_resultado": "Ganado parcial",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-11T19:28:43.776Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Nylon Monofilamento N°3/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - Marca Surgimax - cod. NYM306075J",
+          "cant": 120,
+          "precio_able": 667.7,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1320,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Ácido Poligliócolico N°0, aguja 40mm, 1/2 círc., punta redonda, hebra 90cm - Marca Surgimax - cod. PGM004070A",
+          "cant": 60,
+          "precio_able": 1375,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2410,
+          "ganador_sig": "Cirugía Argentina S.A. (Tagumo, Perú) - adjudicado $144.600,00",
+          "motivo": "acta adjudica a otro oferente pese a menor precio de ABLE - verificar"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura de Ácido Poligliócolico N°2, aguja 40mm, 1/2 círc., punta redonda, hebra 70cm - Marca Surgimax - cod. PGM024070A",
+          "cant": 192,
+          "precio_able": 1424.5,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 2520,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Polipropileno N°1, aguja 35mm, 1/2 círc., punta redonda, hebra 75cm - Marca Surgimax - cod. PPM013575A",
+          "cant": 24,
+          "precio_able": 1650,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 2710,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura atáumatica estéril de Ácido Poligliócolico N°4/0 impregnada c/triclosán, aguja de acero 20mm, 1/2 círc., punta redonda, hebra 70cm - Marca Surgimax - cod. PGM402070A",
+          "cant": 60,
+          "precio_able": 1325.5,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 2880,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-23",
