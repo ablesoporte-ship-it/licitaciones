@@ -94510,28 +94510,6 @@
       "creado": "2026-10-01T18:50:26.241Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 342,
       "entidad": "Htal Bocalandro",
       "nro": "PA 200",
@@ -94541,11 +94519,82 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-01T19:28:00.278Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.6 — gana Max Continental $1.249,40; ABLE $1.490,50 (+19,3%), sin preferencia nacional. Max cotizó bolsa opaca sin filtro; ABLE transparente con filtro. Euro Swiss cotizó cant. 500 (pliego 300). Precios tomados de fotos escaneadas. Monto cotizado ABLE: $447.150,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Farmatec S.A.",
+          "Euro Swiss S.A.",
+          "Max Continental S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "6",
+            "cant": 300,
+            "desc": "Bolsa p/colostomía adhesiva, varias medidas - ABLE: cerrada, transparente, 1 pieza, aro recortable 15 a 70mm (con filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1490.5,
+                "marca": "BCO.CT.1P.70 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1533.6,
+                "marca": "EURO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1400,
+                "marca": "Euromix (Euro Swiss SA)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1249.4,
+                "marca": "INTRATUB - cerr. opaca s/filtro",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.6 — gana Max Continental $1.249,40; ABLE $1.490,50 (+19,3%), sin preferencia nacional. Max cotizó bolsa opaca sin filtro; ABLE transparente con filtro. Euro Swiss cotizó cant. 500 (pliego 300). Precios tomados de fotos escaneadas. Monto cotizado ABLE: $447.150,00."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-01T19:28:00.278Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-09-18",
@@ -94966,41 +95015,95 @@
       "creado": "2026-10-02T19:15:30.190Z"
     },
     {
+      "id": 347,
+      "entidad": "Htal Bocalandro",
+      "nro": "PA 182",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-08",
+      "monto": 1605000,
+      "mayor": "No",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.8 — gana Euro Swiss $4.650,00; ABLE $5.350,00 (+15,1%), sin preferencia nacional. Aupres $1.650,00 (Unimed, \"Medida ML\") parece precio por clip, no por cart. x6; verificar. Precios tomados de fotos escaneadas. Monto cotizado ABLE: $1.605.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Euro Swiss S.A.",
+          "Sedesa S.A.",
+          "Aupres S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "8",
+            "cant": 300,
+            "desc": "Cart. con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "LT.300 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 8270,
+                "marca": "Kangji (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 4650,
+                "marca": "Suturas Argentinas - Clip titanio LT-300",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 17302.61,
+                "marca": "J&J - LT300",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.A.",
+                "precio": 1650,
+                "marca": "UNIMED - Clips LT 300 (ML)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.8 — gana Euro Swiss $4.650,00; ABLE $5.350,00 (+15,1%), sin preferencia nacional. Aupres $1.650,00 (Unimed, \"Medida ML\") parece precio por clip, no por cart. x6; verificar. Precios tomados de fotos escaneadas. Monto cotizado ABLE: $1.605.000,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 347,
-      "entidad": "Htal Bocalandro",
-      "nro": "PA 182",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-08",
-      "monto": 1604998,
-      "mayor": "No",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-10-02T19:15:30.215Z"
     },
     {
