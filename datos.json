@@ -90260,45 +90260,11 @@
       "creado": "2026-09-23T18:41:31.581Z"
     },
     {
-      "preadj_fecha": "2026-09-30",
-      "preadj_empate_ok": "No",
-      "preadj_pref_ok": "No",
-      "renglones_preadj": [
-        {
-          "reng": "4",
-          "desc": "Equipo de cirugía de tela SMS descartable, estéril, hemorrepelente, 4 camisolines, 2 campos grandes, 2 medianos y 2 chicos - Marca Ebano",
-          "cant": 30,
-          "precio_able": 25740,
-          "marca": "Ebano",
-          "resultado": "no_adj",
-          "precio_siguiente": null,
-          "ganador_sig": "Rechazado por precio excesivo (renglón sin adjudicar)",
-          "motivo": "precio_excesivo"
-        },
-        {
-          "reng": "9",
-          "desc": "Sutura de Nylon Monofilamento N° 4/0, aguja 60mm, recta, punta Rev. cort., hebra 75cm - Marca Surgimax",
-          "cant": 108,
-          "precio_able": 604,
-          "marca": "Surgimax",
-          "resultado": "adj",
-          "precio_siguiente": null,
-          "ganador_sig": null,
-          "motivo": "aprobado - menor_precio"
-        },
-        {
-          "reng": "11",
-          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE",
-          "cant": 72,
-          "precio_able": 5350,
-          "marca": "ABLE",
-          "resultado": "no_adj",
-          "precio_siguiente": 4650,
-          "ganador_sig": "Euro Swiss S.A.",
-          "motivo": "superado"
-        }
-      ],
-      "gestion_pre": "Preadjudicación APROBADA (acta 30/09/2026, Htal. Paroissien). ABLE gana Reng.9 (108 u. x $604,00 = $65.232,00). Reng.4 rechazado por precio excesivo (acta lista $25.740,00 vs $26.000,00 ofertado). Reng.11 pasa a Euro Swiss ($4.650,00, clip LT-300 'Able-Suturas Argentina'); ABLE $5.350,00 queda +15,05%.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -90313,7 +90279,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 65232,
+      "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -90480,7 +90446,7 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.4 — ABLE $26.000 (Ebano) gana vs Farmatec $35.392,90 y Aupres $42.000. Reng.9 — ABLE $604 (Surgimax) gana vs Martorani $1.348,10. Reng.11 — ABLE $5.350 pierde vs Euro Swiss $4.650. Euro Swiss revende el mismo producto ABLE (declara fabricante 'Suturas Argentinas'). Dif. 15,05%, sin empate ni pref. nacional. Base IVA no confirmada explícitamente en los presupuestos; comparados tal cual figuran. Total cotizado ABLE: $1.230.432,00, coincide con la carta oferta. Solo se incluyen los renglones cotizados por ABLE (4, 9, 11).",
@@ -98711,7 +98677,43 @@
       "pref": "No",
       "obs": "Reng.1 — gana ABLE $51.255,00 vs Igaltex $52.001,00 (+1,5%). Reng.2 — gana ABLE $20.349,00 vs Igaltex $21.283,00 (+4,6%). Sin empate técnico ni preferencia nacional.",
       "creado": "2026-10-08T14:49:11.015Z"
+    },
+    {
+      "id": 363,
+      "entidad": "Htal. General 602 Campo de Mayo",
+      "nro": "LP 84",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-16",
+      "monto": 11850000,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-08T18:16:52.777Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 363
+  "nextId": 364
 }
