@@ -84655,7 +84655,7 @@
     {
       "id": 297,
       "entidad": "Htal Posadas",
-      "nro": "PA 73/2026",
+      "nro": "PA 73",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-18",
       "monto": 555258,
@@ -84799,7 +84799,7 @@
       "preadj_empate_ok": "No",
       "preadj_pref_ok": "No",
       "gestion_pre": "Preadjudicación APROBADA (acta 23/09/2026, Htal. Posadas). ABLE adjudicada en Rengs.1, 3, 4 y 5: $472.758,00. Reng.2 se adjudica a Cirugía Argentina ($144.600,00) pese a que ABLE ofertó $1.375,00 (menor); el acta no menciona a ABLE en ese renglón. Verificar. Importes unitarios de la tabla del acta ($589, $1.205, $1.500, $1.312,25; total $416.775,00) no coinciden con la oferta ABLE ni con el total adjudicado.",
-      "gestion_pre_resultado": "Ganado parcial",
+      "gestion_pre_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
@@ -84868,7 +84868,11 @@
           "ganador_sig": null,
           "motivo": "menor_precio"
         }
-      ]
+      ],
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 472758,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-09-23",
