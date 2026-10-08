@@ -91515,14 +91515,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
+      "adj_fecha": "2026-10-08",
+      "adj_monto_able": 7716600,
+      "adj_resumen": "ABLE adjudicada en renglones 1 y 2 ($7.716.600,00). Rengs. 3 y 4 no adjudicados.",
+      "adj_alertas": "Reng. 3: no se respetó la preferencia nacional — Euro Swiss (importado) $1.270,00 vs ABLE $1.355,00 (+6,69%, dentro del 2-10%). Reng. 4: superado por Martorani $3.598,70.",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-08",
+      "oc_alertas": "OC Nro. 366/2026, fecha 08/10/2026. PA 231/2026, EX-2026-26145627--GDEBA-RSXIIMSALGP. Destino: Hospital de Gestión Descentralizado Región Sanitaria XII (Colonia 1551, Villa Luzuriaga). Reng. 1: Bolsa p/ileostomía 70mm, 3.780 u. x $1.870,00 = $7.068.600,00. Reng. 2: Bolsa de colostomía neonatal, 160 u. x $4.050,00 = $648.000,00. Total OC: $7.716.600,00. Entrega hasta el 31/12/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 7716600,
@@ -91706,11 +91706,57 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "Sí",
       "obs": "Reng.1 — ABLE $5.200 (2 piezas, conforme pliego), única oferta. Presentó ALT.1 de 1 pieza a $1.870, no compite (no cotizada por terceros). Reng.2 — ABLE $4.200, única oferta. Reng.3 — Preferencia nacional. ABLE $1.355 vs Euro Swiss $1.270 (Euromix, China, cert.1440-149). Dif. 6,7%, dentro de rango (2-10%). Reng.4 — ABLE $4.000 PIERDE vs Martorani $3.598,70 (Pharmacare). Dif. 11,1%, fuera de rango de pref. nacional.",
-      "creado": "2026-09-24T19:28:59.286Z"
+      "creado": "2026-09-24T19:28:59.286Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa p/ileostomía con desagote, transparente, 1 pieza con aro de acople 70mm - Marca ABLE (Ind. Argentina)",
+          "cant": 3780,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unica_oferta"
+        },
+        {
+          "reng": "2",
+          "desc": "Bolsa de colostomía neonatal, cierre velcro, drenable, transparente, recortable hasta 25mm, adhesivo hidrocoloide acanalado - Marca ABLE (Ind. Argentina)",
+          "cant": 160,
+          "precio_able": 4050,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "unica_oferta"
+        },
+        {
+          "reng": "3",
+          "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable - Marca ABLE (Ind. Argentina)",
+          "cant": 120,
+          "precio_able": 1355,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 1270,
+          "ganador_sig": "Euro Swiss S.A. — importado (bolsa p/colostomía diámetro regulable, tipo recortable)",
+          "motivo": "pref_nacional_no_respetada"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa urostomía drenable transparente, 1 pieza, con aro recortable - Marca ABLE (Ind. Argentina)",
+          "cant": 300,
+          "precio_able": 4000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3598.7,
+          "ganador_sig": "Droguería Martorani S.A. (bolsa p/urostomía c/aro de Karaya)",
+          "motivo": "superado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -94256,41 +94302,173 @@
       "creado": "2026-10-01T16:15:02.982Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 340,
-      "entidad": "Htal Eva Perón",
-      "nro": "PA 217",
+      "entidad": "Htal Eva Peron",
+      "nro": "PA 217/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-08",
       "monto": 1864720,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.17 — gana ABLE $604,00 vs Sedesa $1.757,59 (+191,0%). Reng.46 — gana Synergya $1.286,00 (por clip) vs ABLE $5.350,00 (cartucho x6). Por clip ABLE equivale a $891,67. Reng.46 ALT — Synergya cart. x6 $7.715,00 vs ABLE $5.350,00 (ABLE 30,7% más barata). Verificar unidad con el hospital.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Sedesa S.A.",
+          "Synergya S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "17",
+            "cant": 430,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "NYM206075J - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1757.59,
+                "marca": "Johnson & Johnson - 628H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 430,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA206075J - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "46",
+            "cant": 300,
+            "desc": "Cart. con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "LT.300 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 17302.61,
+                "marca": "J&J - LT300",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya S.R.L.",
+                "precio": 1286,
+                "marca": "UNIMED (por clip)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "46",
+            "cant": 300,
+            "desc": "Clip de titanio (1x6U) Tipo LT300 Large - alternativa cotizada por Synergya",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya S.R.L.",
+                "precio": 7715,
+                "marca": "UNIMED (1x6U)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.17 — gana ABLE $604,00 vs Sedesa $1.757,59 (+191,0%). Reng.46 — gana Synergya $1.286,00 (por clip) vs ABLE $5.350,00 (cartucho x6). Por clip ABLE equivale a $891,67. Reng.46 ALT — Synergya cart. x6 $7.715,00 vs ABLE $5.350,00 (ABLE 30,7% más barata). Verificar unidad con el hospital."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-10-01T16:36:07.862Z"
     },
     {
@@ -94557,19 +94735,27 @@
       ]
     },
     {
-      "id": 345,
-      "entidad": "Htal Ana Goitia",
-      "nro": "PA 54",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-07",
-      "monto": 439500,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Precios sin desglose de IVA en ningún oferente; se tomaron tal cual figuran. Pliego (Anexo III) permite cotizar reng.17 por par o unidad — sin incumplimiento. Reng.17: Farmatec cotizó como «UNID» $377,60, muy por encima del resto — verificar. Reng.16 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), resto más caro. Reng.17 unidad — gana ABLE $73,00 (único comparable: Farmatec, ver nota anterior). Reng.17 ALT par — gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $302,00 (+132,3%). Sin empate técnico ni preferencia nacional. Monto cotizado ABLE (sin ALT): $439.500,00.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -94726,22 +94912,19 @@
         ],
         "notas": "Precios sin desglose de IVA en ningún oferente; se tomaron tal cual figuran. Pliego (Anexo III) permite cotizar reng.17 por par o unidad — sin incumplimiento. Reng.17: Farmatec cotizó como «UNID» $377,60, muy por encima del resto — verificar. Reng.16 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), resto más caro. Reng.17 unidad — gana ABLE $73,00 (único comparable: Farmatec, ver nota anterior). Reng.17 ALT par — gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $302,00 (+132,3%). Sin empate técnico ni preferencia nacional. Monto cotizado ABLE (sin ALT): $439.500,00."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 345,
+      "entidad": "Htal Ana Goitia",
+      "nro": "PA 54",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-07",
+      "monto": 439500,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios sin desglose de IVA en ningún oferente; se tomaron tal cual figuran. Pliego (Anexo III) permite cotizar reng.17 por par o unidad — sin incumplimiento. Reng.17: Farmatec cotizó como «UNID» $377,60, muy por encima del resto — verificar. Reng.16 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), resto más caro. Reng.17 unidad — gana ABLE $73,00 (único comparable: Farmatec, ver nota anterior). Reng.17 ALT par — gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $302,00 (+132,3%). Sin empate técnico ni preferencia nacional. Monto cotizado ABLE (sin ALT): $439.500,00.",
       "creado": "2026-10-02T19:15:30.157Z"
     },
     {
@@ -97040,7 +97223,7 @@
       "adelanto_obs": "",
       "tabla": null,
       "id": 353,
-      "entidad": "Htal Eva Perón",
+      "entidad": "Htal Eva Peron",
       "nro": "PA 220",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-09",
@@ -97055,42 +97238,731 @@
       "creado": "2026-10-05T15:28:53.593Z"
     },
     {
+      "id": 355,
+      "entidad": "Htal. Virgen del Carmen",
+      "nro": "PA 32",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-08",
+      "monto": 8066800,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.3 — gana Cirugía Argentina $2.635,00 (Tagum, Perú) vs ABLE $3.264,00 (+23,9%). Rengs.9 a 12 — ABLE $604,00 vs Propato $614,27 (ABLE 1,7% más barata). Rengs.4, 7 y 8 — el pliego pide poliglactina; ABLE cotizó ácido poliglicólico. Reng.3 — el pliego pide catgut cromado; ABLE cotizó catgut lento. Sin empate técnico ni preferencia nacional.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Cirugía Argentina S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 800,
+            "desc": "Sutura de Catgut Lento Nº2 sin aguja, hebra de 150cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3264,
+                "marca": "CLA02150 - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2635,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1231,
+                "marca": "PGM013570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2442.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1508.7,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1515,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA013570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 700,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1295,
+                "marca": "PGM023570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1508.7,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1820,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 700,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "PGA023570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 900,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM302070A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1382.96,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 900,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA302070A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1515,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 400,
+            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM402570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1382.96,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1330,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 400,
+            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA402570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 1000,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "NYM202645F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 614.27,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 985,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 1000,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA202675F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 700,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "NYM302475F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 614.27,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 985,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 700,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA302475F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 600,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "NYM202045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 614.27,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 600,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA202075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 985,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 600,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "NYM302045F - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 614.27,
+                "marca": "Clyster",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 985,
+                "marca": "Tagum (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 600,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "NYA302075F - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.3 — gana Cirugía Argentina $2.635,00 (Tagum, Perú) vs ABLE $3.264,00 (+23,9%). Rengs.9 a 12 — ABLE $604,00 vs Propato $614,27 (ABLE 1,7% más barata). Rengs.4, 7 y 8 — el pliego pide poliglactina; ABLE cotizó ácido poliglicólico. Reng.3 — el pliego pide catgut cromado; ABLE cotizó catgut lento. Sin empate técnico ni preferencia nacional."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-10-06T13:20:04.464Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 355,
-      "entidad": "Htal. Virgen del Carmen",
-      "nro": "PA 32",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-08",
-      "monto": 10690000,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-06T13:20:04.464Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -97169,6 +98041,28 @@
       "creado": "2026-10-06T18:53:03.852Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "tabla": null,
       "id": 358,
       "entidad": "Htal. Bocalandro",
       "nro": "PA 199",
@@ -97178,6 +98072,22 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "creado": "2026-10-07T17:17:50.701Z"
+    },
+    {
+      "id": 359,
+      "entidad": "Htal Penna",
+      "nro": "PA 260",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-14",
+      "monto": 4225536,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
       "etapa": "Pendiente",
       "empate": "",
       "pref": "",
@@ -97198,12 +98108,84 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-10-07T17:17:50.701Z",
+      "creado": "2026-10-08T12:15:35.480Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
+    },
+    {
+      "id": 360,
+      "entidad": "Htal Oñativia",
+      "nro": "PA 217",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-13",
+      "monto": 536225,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-08T12:15:35.524Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
+    },
+    {
+      "id": 361,
+      "entidad": "Htal Jose Penna",
+      "nro": "CM 425",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-14",
+      "monto": 2003000,
+      "mayor": "No",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-08T12:23:14.264Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
     }
   ],
-  "nextId": 359
+  "nextId": 362
 }
