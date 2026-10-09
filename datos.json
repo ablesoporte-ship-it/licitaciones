@@ -87046,12 +87046,90 @@
       "creado": "2026-09-16T19:48:26.873Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-30",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Sutura de Ácido Poliglicólico N° 2/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm - Marca Surgimax - cod. PGM202570A",
+          "cant": 72,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1249,
+          "ganador_sig": "Max Continental S.A. (MaxSutures)",
+          "motivo": "calidad - el hospital cita problemas con Surgimax (hilo que se desprende de la aguja o se desintegra)"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura de Ácido Poliglicólico N° 2, aguja 35mm, 1/2 círc., punta redonda, hebra 70cm - Marca Surgimax - cod. PGM023570A",
+          "cant": 225,
+          "precio_able": 1295,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no adjudicado - acta preadjudica por calidad pero rechaza la Alt.1 de ABLE por precio excesivo"
+        },
+        {
+          "reng": "3 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 2, aguja 35mm, 1/2 círc., punta redonda, hebra 70cm - Marca ABLE - cod. PGA023570A",
+          "cant": 225,
+          "precio_able": 1805.76,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Rechazado por precio excesivo",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Polipropileno N° 1, aguja 35mm, 1/2 círc., punta redonda, hebra 75cm - Marca Surgimax - cod. PPM013575A",
+          "cant": 24,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1490,
+          "ganador_sig": "Max Continental S.A. (MaxSutures)",
+          "motivo": "calidad - el hospital cita problemas con Surgimax (hilo que se desprende de la aguja o se desintegra)"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Polipropileno N° 6/0, doble aguja 12mm, 3/8 círc., punta redonda, hebra 75cm - Marca Surgimax - cod. PPM601275G",
+          "cant": 36,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 4600,
+          "ganador_sig": "Max Continental S.A. (MaxSutures)",
+          "motivo": "calidad - el hospital cita problemas con Surgimax (hilo que se desprende de la aguja o se desintegra)"
+        },
+        {
+          "reng": "5 ALT 1",
+          "desc": "Sutura de Polipropileno N° 6/0, doble aguja 10mm, 3/8 círc., punta redonda, hebra 60cm - Marca Surgimax - cod. PPM601060G",
+          "cant": 36,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no adjudicado - Reng.5 va a Max Continental por calidad"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Polipropileno N° 2/0, aguja 35mm, 1/2 círc., punta redonda, hebra 75cm - Marca ABLE - cod. PPA203575A",
+          "cant": 24,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Renglón fracasado (sin adjudicar)",
+          "motivo": "fracasado"
+        }
+      ],
+      "gestion_pre": "Preadjudicación APROBADA (acta 30/09/2026, Htal. San José de Pergamino). ABLE no gana ningún renglón. Rengs.2, 4 y 5 van a Max Continental por calidad: el hospital declara problemas con la marca Surgimax (hilo que se desprende de la aguja o se desintegra), aunque ABLE era más barata en rengs.2 y 5. Reng.3 Alt.1 rechazado por precio excesivo ($1.805,76 en el acta vs $1.824,00 ofertado). Reng.6 fracasado.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -87077,7 +87155,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -97466,7 +97544,7 @@
     {
       "id": 350,
       "entidad": "Htal Korn",
-      "nro": "PA 261/2026",
+      "nro": "PA 261",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-09",
       "monto": 780000,
@@ -97544,7 +97622,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-10-05T14:03:42.668Z"
+      "creado": "2026-10-05T14:03:42.668Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
