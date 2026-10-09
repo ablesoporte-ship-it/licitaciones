@@ -14617,7 +14617,7 @@
       "oc_alertas": "OC Nro. 335/2026. Disposicion DISPO-2026-633-GDEBA-HZGAHMMSALGP. Rengs.1 y 2 sin diferencias. Total: $1.830.000,00.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 1830000,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -14697,7 +14697,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 87,
-      "entidad": "H.Z.G.A. Heroes de Malvinas",
+      "entidad": "Htal Malvinas",
       "nro": "PA 100",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
@@ -14847,7 +14847,7 @@
         }
       ],
       "gestion_pre": "ABLE no gana ningun renglon. Reng.1 (cofia descartable elastizada): Healthy Lab mejoro precio a $606,97 en desempate y gana. ABLE $790 pierde. ABLE no recibe OC.",
-      "gestion_pre_resultado": "Perdido",
+      "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -15386,7 +15386,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 90,
-      "entidad": "H.Z.G.A. Heroes de Malvinas",
+      "entidad": "Htal Malvinas",
       "nro": "PA 99",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
@@ -34912,7 +34912,7 @@
         ]
       },
       "id": 144,
-      "entidad": "H.Z.G.A. Heroes de Malvinas",
+      "entidad": "Htal Malvinas",
       "nro": "PA 111",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-24",
