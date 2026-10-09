@@ -97464,41 +97464,86 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 350,
       "entidad": "Htal Korn",
-      "nro": "PA 261",
+      "nro": "PA 261/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-09",
       "monto": 780000,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.4 — gana ABLE $130,00 (ArgentCare) vs Martorani $137,40 (+5,7%), Euro Swiss $233,36 y Farmatec $378,00. Precios tal cual figuran en el cuadro comparativo oficial. Sin pliego en esta carga. Monto cotizado ABLE: $780.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Farmatec S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "4",
+            "cant": 6000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "CUBRE.1E.23.PAR - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 137.4,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 233.36,
+                "marca": "KRATEC (fabricante)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 378,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.4 — gana ABLE $130,00 (ArgentCare) vs Martorani $137,40 (+5,7%), Euro Swiss $233,36 y Farmatec $378,00. Precios tal cual figuran en el cuadro comparativo oficial. Sin pliego en esta carga. Monto cotizado ABLE: $780.000,00."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-10-05T14:03:42.668Z"
     },
     {
