@@ -94246,28 +94246,6 @@
       "creado": "2026-10-01T15:35:26.153Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 337,
       "entidad": "Htal Magdalena V. de Martínez",
       "nro": "PA 262",
@@ -94277,11 +94255,708 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-01T15:37:35.233Z"
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotiza Reng.2 (+3 ALT), Reng.3, Reng.4 (+1 ALT) y Reng.5. No cotizó Reng.1, 6, 7 ni 8. Pierde Reng.2 base nominal frente a Igaltex $494,07 (material/gramaje no especificado, a verificar) y frente a Martorani $749,80 (que NO cumple pliego: 22g vs 30g exigido, largo 100cm vs 110cm). En la variante SMS 30g realmente compatible con pliego, pierde frente a Pharma Center $675,00 (ABLE $815,00). Gana limpio Reng.3 ($130,00) pero sin confirmar que su material sea SMS ≥35g como exige el pliego. Pierde Reng.4 nominal frente a Martorani $1.388,80 (NO cumple: no estéril, 40g vs 45g exigido) - el precio compliant mas bajo es Pharma Center $1.590,00 (puño Morley, verificar equivalencia con puño algodón del pliego); ABLE $2.300,00 pierde contra ambos. Gana Reng.5 limpio ($1.870,00) frente a Martorani $2.150,30, Farmatec $2.598,00 y Euro Swiss $2.180,00. Sin empate técnico ni preferencia nacional detectados. No se identificó discriminación de IVA en los presupuestos - se toman los precios tal como figuran como valor final comparable.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Healthy Lab",
+          "Aupres S.R.L.",
+          "Droguería Pharma Center S.R.L.",
+          "Droguería Farmatec S.A.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 15000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 650,
+                "marca": "C.OSP.110.ELA30.A - ArgentCare (tela SP)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 749.8,
+                "marca": "PEMED - SE COTIZA CON SMS 22GR X 100CM DE LARGO (no cumple gramaje 30g ni largo 110cm)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 494.07,
+                "marca": "GLOBAL PROTECTIVE PM 414-36 (material/gramaje no especificado - verificar)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": 664,
+                "marca": "TNT SMS, puño ajustado transparente, largo ≥110cm, origen nacional",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 715,
+                "marca": "Bioprotec 30gr",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 757,
+                "marca": "DPC, puño elástico, largo 110cm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 928.07,
+                "marca": "BLUEMED/IGALTEX (material no especificado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1240,
+                "marca": "Kratec 30gr, cert.2339-1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 15000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare (SMS, puño algodón)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 675,
+                "marca": "DPC - 30g SMS, puño elástico",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 15000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 25Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "C.OSP.110.ELA25.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 15000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 503,
+                "marca": "C.OSP.110.ELA20.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 655,
+                "marca": "Bioprotec 20gr (reng 2a)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 6000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "CUBRE.1E.23.PAR - ArgentCare (material no especifica SMS/35g - verificar)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 233.9,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": 236.52,
+                "marca": "SMS ≥35gr, origen nacional",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 200,
+                "marca": "(material no especificado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 304,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 377.52,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 448,
+                "marca": "Kratec 30gr, cert.2339-1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 450,
+            "desc": "Camisolín estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2300,
+                "marca": "CE.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1388.8,
+                "marca": "PEMED - SMS 40gr, puño, NO ESTERIL (incumple: no estéril y gramaje 40g vs 45g exigido)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": 1830.5,
+                "marca": "SMS 45gr, cm:150, origen nacional",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 3515,
+                "marca": "Estéril, hemorrepelente, puños algodón, 45gr",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 1590,
+                "marca": "DPC, puño Morley (cierre distinto al puño algodón del pliego - verificar)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 3304,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 5760,
+                "marca": "Euro Swiss SA, cert.1440-149",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 450,
+            "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2650,
+                "marca": "CEE.SMS.120.ALG.45.A - ArgentCare (doble envoltorio)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 450,
+            "desc": "Bolsa de colostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE - BIL.AT.1P.70",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2150.3,
+                "marca": "PHARMACARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 2598,
+                "marca": "EURO (colostomía, conforme pliego)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 2180,
+                "marca": "Euromix",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "1) ABLE cotiza solo Reng. 2, 3, 4 y 5 (no cotizó 1, 6, 7, 8). 2) ALERTA pliego Reng.2: oferta base de ABLE es tela SP, no TNT SMS como exige el pliego; su variante compliant (SMS 30g, ALT3) cuesta $815,00 y pierde frente a Pharma Center $675,00 (también SMS 30g). Martorani ($749,80) no cumple gramaje (22g) ni largo (100cm vs 110cm exigido). Igaltex ($494,07) no especifica material - verificar antes de tomar como referencia de precio. 3) ALERTA Reng.3: ninguna de las ofertas (incluida ABLE) especifica con certeza tela SMS ≥35g como exige el pliego, salvo Healthy Lab. 4) ALERTA Reng.4: Martorani ($1.388,80, el nominal más barato) NO cumple pliego - no estéril y 40g en vez de 45g. El precio compliant mas bajo es Pharma Center $1.590,00. 5) Reng.5: confirmado que bolsa de colostomía con desagote equivale a la bolsa de ileostomía ofertada - sin objeción de especificación. 6) Monto cotizado por ABLE (solo renglones base, sin ALT): $12.406.500,00. El total de la carta de ABLE incluyendo todas las alternativas es $42.252.750,00."
+      },
+      "preadj_fecha": "2026-10-08",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Preadjudicación (acta 08/10/2026, Htal. Magdalena V. de Martínez; estado: preadjudicación pendiente en el hospital). ABLE gana Reng.3 (6.000 pares x $130,00 = $780.000,00) y Reng.5 (450 u. x $1.870,00 = $841.500,00). Total ABLE: $1.621.500,00. Reng.2 se adjudica a Igaltex ($641,94) y Reng.4 a Pharma Center ($1.590,00, ajustado al pliego).",
+      "gestion_pre_resultado": "Ganado parcial",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-01T15:37:35.233Z",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Camisolín no estéril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 650,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 641.94,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Global) - adjudicado $641,94",
+          "motivo": "superado - se adjudica a Igaltex (camisolín 30 g/m²)"
+        },
+        {
+          "reng": "2 ALT 1",
+          "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 815,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 641.94,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Global) - adjudicado $641,94",
+          "motivo": "superado - se adjudica a Igaltex (camisolín 30 g/m²)"
+        },
+        {
+          "reng": "2 ALT 2",
+          "desc": "Camisolín no estéril, no hemorrepelente de 25Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 592.25,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 641.94,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Global) - adjudicado $641,94",
+          "motivo": "superado - se adjudica a Igaltex (camisolín 30 g/m²)"
+        },
+        {
+          "reng": "2 ALT 3",
+          "desc": "Camisolín no estéril, no hemorrepelente de 20Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 503,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 641.94,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Global) - adjudicado $641,94",
+          "motivo": "superado - se adjudica a Igaltex (camisolín 30 g/m²)"
+        },
+        {
+          "reng": "3",
+          "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare",
+          "cant": 6000,
+          "precio_able": 130,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Camisolín estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 450,
+          "precio_able": 2300,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 1590,
+          "ganador_sig": "Droguería Pharma Center S.R.L. (DPC) - adjudicado $1.590,00",
+          "motivo": "superado - Pharma Center se ajusta al pliego"
+        },
+        {
+          "reng": "4 ALT 1",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 450,
+          "precio_able": 2650,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": 1590,
+          "ganador_sig": "Droguería Pharma Center S.R.L. (DPC) - adjudicado $1.590,00",
+          "motivo": "superado - Pharma Center se ajusta al pliego"
+        },
+        {
+          "reng": "5",
+          "desc": "Bolsa de colostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 450,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
