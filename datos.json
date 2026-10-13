@@ -99380,41 +99380,92 @@
       "creado": "2026-10-06T14:26:46.427Z"
     },
     {
+      "id": 358,
+      "entidad": "Htal Bocalandro",
+      "nro": "PA 199",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-13",
+      "monto": 13800000,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.4 — gana ABLE $2.300,00; Healthy Lab (Live In BA) $2.834,74 (+23,3%). Pliego pide doble envoltura y testigo de proceso: la base de ABLE no indica doble envoltorio (la ALT 1 sí). Muestra obligatoria reng.4 (Depósito Central, 9 a 13 hs). Vigencia mínima 24 meses. Monto cotizado ABLE (sin ALT): $13.800.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Live In BA S.A. (Healthy Lab)"
+        ],
+        "renglones": [
+          {
+            "reng": "4",
+            "cant": 6000,
+            "desc": "Camisolin esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2300,
+                "marca": "CE.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 2834.74,
+                "marca": "HEALTHY LAB - PM 2710-6",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 6000,
+            "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2650,
+                "marca": "CEE.SMS.120.ALG.45.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.4 — gana ABLE $2.300,00; Healthy Lab (Live In BA) $2.834,74 (+23,3%). Pliego pide doble envoltura y testigo de proceso: la base de ABLE no indica doble envoltorio (la ALT 1 sí). Muestra obligatoria reng.4 (Depósito Central, 9 a 13 hs). Vigencia mínima 24 meses. Monto cotizado ABLE (sin ALT): $13.800.000,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 358,
-      "entidad": "Htal. Bocalandro",
-      "nro": "PA 199",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-13",
-      "monto": 13799998,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-10-07T17:17:50.701Z"
     },
     {
