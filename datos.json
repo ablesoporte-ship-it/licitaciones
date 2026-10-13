@@ -99824,10 +99824,221 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.1 — menor precio Igaltex $478,24 (Global); ABLE $670,00 (+40,1%), sin preferencia nacional. Martorani cotiza 24 g/m² (obj): el pliego exige 30 g/m² SMS. Igaltex no indica gramaje ni material; verificar. Pliego pide TNT SMS 30 g/m²: la base de ABLE no indica SMS (la ALT 3 sí). Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $10.720.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Martorani S.A.",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 16000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 670,
+                "marca": "C.OSP.110.ELA30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 788.5,
+                "marca": "KRATEC 30gr SP",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 752.2,
+                "marca": "PEMED (obj) 24 g/m² ≠ pliego 30 g/m²",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 478.24,
+                "marca": "GLOBAL PROTECTIVE (gramaje no indicado)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 16000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "C.OSP.110.ELA25.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 16000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 503,
+                "marca": "C.OSP.110.ELA20.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 16000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "C.SMS.120.ALG.30.A - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1",
+            "cant": 16000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 621.36,
+                "marca": "GLOBAL PROTECTIVE (ALT Igaltex)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1 — menor precio Igaltex $478,24 (Global); ABLE $670,00 (+40,1%), sin preferencia nacional. Martorani cotiza 24 g/m² (obj): el pliego exige 30 g/m² SMS. Igaltex no indica gramaje ni material; verificar. Pliego pide TNT SMS 30 g/m²: la base de ABLE no indica SMS (la ALT 3 sí). Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $10.720.000,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
@@ -99844,11 +100055,7 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-10-13T12:40:10.317Z",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
+      "creado": "2026-10-13T12:40:10.317Z"
     }
   ],
   "nextId": 368
