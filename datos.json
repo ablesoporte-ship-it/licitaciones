@@ -5806,7 +5806,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 46,
-      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
       "nro": "PA 126",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-05-29",
@@ -15860,7 +15860,7 @@
       "oc_alertas": "OC Nro. 305/2026. Disposición: RESO-2026-269-GDEBA-SSASYATMSALGP. Total: $2.143.178,06. Sin adjudicación previa cargada en el dashboard; se toma la OC como única referencia.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 2144378,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -16028,7 +16028,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 94,
-      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
       "nro": "PA 146",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-26",
@@ -44885,7 +44885,7 @@
       "oc_alertas": "OC Nro. 387/2026 fecha 26/08/2026. Rengs.7,8,11,15,16,18. Total: $2.950.156,00. Entrega parcial: 50% dentro 10 dias, 50% dentro 60-70 dias. Disposicion DISPO-2026-483-GDEBA-HZGADAOMSALGP/2026. IRREGULARIDADES: preferencia nacional no reconocida en rengs.6,9,10,12,13,14 (Cardiopack/Cirugia Argentina importados adjudicados vs ABLE nacional).",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 2950156,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -45911,7 +45911,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 155,
-      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
       "nro": "PA 161",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-24",
@@ -46166,7 +46166,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 156,
-      "entidad": "H.Z.G.A. DR. ARTURO OÑATIVIA",
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
       "nro": "PA 157",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-07-24",
@@ -99675,42 +99675,148 @@
       "creado": "2026-10-08T12:15:35.480Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 360,
-      "entidad": "Htal Oñativia",
-      "nro": "PA 217",
+      "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
+      "nro": "PA 217/2026",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-13",
       "monto": 536225,
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-08T12:15:35.524Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.9 — gana ABLE $1.205,00; sigue Propato $1.445,89 (+20,0%). Pliego pide aguja de 26 mm; ABLE y Cirugía Argentina (Tagum, Perú) ofrecen 25 mm. Martorani copia la descripción del pliego: producto real no verificable. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $536.225,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Droguería Martorani S.A.",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "9",
+            "cant": 445,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "PGM202570A - Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1630,
+                "marca": "TAGUM (Origen: Perú) - PM 1231-1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1445.89,
+                "marca": "Clyster - PM 647-431",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "Meril",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1778.19,
+                "marca": "Medone - PM 414-148",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 445,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "PGA202570A - ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.9 — gana ABLE $1.205,00; sigue Propato $1.445,89 (+20,0%). Pliego pide aguja de 26 mm; ABLE y Cirugía Argentina (Tagum, Perú) ofrecen 25 mm. Martorani copia la descripción del pliego: producto real no verificable. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $536.225,00."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-08T12:15:35.524Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
