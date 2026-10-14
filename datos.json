@@ -98610,42 +98610,246 @@
       "creado": "2026-10-05T14:03:42.668Z"
     },
     {
+      "id": 351,
+      "entidad": "Htal Iriarte",
+      "nro": "PA 37",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-14",
+      "monto": 1311200,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.50 y 61 — gana ABLE ($29,50 y $73,00); sigue Healthy Lab ($36,15 y $135,84). Pliego pide cubrecalzado c/cintas ajustables y hemorrepelente: ABLE ofrece con elástico (base y ALT 1). Pliego exige muestras (Servicio de Suministros, lunes a viernes). Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $1.311.200,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Droguería Farmatec S.A.",
+          "Euro Swiss S.A.",
+          "Live In BA S.A. (Healthy Lab)",
+          "Aupres S.R.L.",
+          "Droguería Pharma Center S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "50",
+            "cant": 15000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "COFIA2E.12 - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 41.7,
+                "marca": "Diya / ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 36.18,
+                "marca": "Novamed / Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 44.56,
+                "marca": "Euromix (cofia plisada 15 gr) - PM 1440-187",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 36.15,
+                "marca": "Healthy Lab - PM 2710-3",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "61",
+            "cant": 11900,
+            "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 73,
+                "marca": "CUBRE.1E.40.23.A - ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 137.4,
+                "marca": "Pemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 377.52,
+                "marca": "Bluemed",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 345.45,
+                "marca": "Kratec - PM 2339-1",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 135.84,
+                "marca": "Healthy Lab - PM 2710-3",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 192,
+                "marca": "Con tiras",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 304,
+                "marca": "DPC - bota caña baja con tiras",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "61",
+            "cant": 11900,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "CUBRE.1E.23.PAR - ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.50 y 61 — gana ABLE ($29,50 y $73,00); sigue Healthy Lab ($36,15 y $135,84). Pliego pide cubrecalzado c/cintas ajustables y hemorrepelente: ABLE ofrece con elástico (base y ALT 1). Pliego exige muestras (Servicio de Suministros, lunes a viernes). Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $1.311.200,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-10-05T14:06:29.488Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 351,
-      "entidad": "Htal Iriarte",
-      "nro": "PA 37",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-14",
-      "monto": 2858199,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-05T14:06:29.488Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -99677,7 +99881,7 @@
     {
       "id": 360,
       "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
-      "nro": "PA 217/2026",
+      "nro": "PA 217",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-13",
       "monto": 536225,
