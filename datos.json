@@ -76042,14 +76042,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-09-18",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no fue adjudicada en ninguno de los 4 renglones cotizados (1, 2, 13 y 14). Reng.1 y 13 a KIMS S.R.L. (medida no conforme de ABLE), Reng.2 a Laboratorios Igaltex SRL (Sterilys) y Reng.14 a KIMS S.R.L. (ABLE rechazada técnicamente: film quebradizo).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "Sin OC: ABLE no fue adjudicada en ninguno de los renglones cotizados (1, 2, 13 y 14).",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -76201,11 +76201,57 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-27725684-GDEBA-HIAEPSSMLMSALGP, apertura 07/09/2026. R3-12 (salvo los que ABLE cotizó) no se incluyen: ABLE no participó ahí. ALERTA: R1 y R13 — ABLE cotizó la misma bolsa (140x50x330mm) para ambos, pero el pliego pide medidas distintas: R1 = 140-145x320x40mm, R13 = 90x250x40-50mm (bolsa p/jeringa). KIMS sí coincide con el pliego en ambos. Riesgo de rechazo técnico en ABLE, no solo tema de precio. R1 y R13 piden además cotizar alternativa en bolsa termosoldable — no consta que ABLE la haya presentado. Muestra obligatoria (pto. 2 Anexo III, cláusula completa con lugar/horario) en casi todos los renglones — Depósito de Farmacia, 8 a 12hs. Caducidad mínima exigida: 24 meses desde la entrega (pto. 5 Anexo III). R2: diferencia con Igaltex de 2,05% — apenas fuera de empate técnico (≤2%), origen de Igaltex/Sterilys sin confirmar.",
-      "creado": "2026-08-31T13:49:07.455Z"
+      "creado": "2026-08-31T13:49:07.455Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Pliego pide bolsa 140-145x320x40mm — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+          "cant": 23000,
+          "precio_able": 75.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 68,
+          "ganador_sig": "KIMS S.R.L.",
+          "motivo": "medida_no_conforme"
+        },
+        {
+          "reng": "2",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 250mmx200m, c/indicador calor húmedo+ETO",
+          "cant": 4,
+          "precio_able": 50250,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 49241,
+          "ganador_sig": "Laboratorios Igaltex SRL (Sterilys)",
+          "motivo": "mejor_precio_competidor"
+        },
+        {
+          "reng": "13",
+          "desc": "Pliego pide bolsa p/jeringa 90x250x40-50mm — ABLE cotizó 140x50x330mm (medida distinta, verificar)",
+          "cant": 6000,
+          "precio_able": 75.46,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 38,
+          "ganador_sig": "KIMS S.R.L. (Yellow Pack)",
+          "motivo": "medida_no_conforme"
+        },
+        {
+          "reng": "14",
+          "desc": "Bobina pouch papel uso médico liso y lámina transparente 75mmx200m, c/indicador calor húmedo+ETO",
+          "cant": 4,
+          "precio_able": 14990,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 23961,
+          "ganador_sig": "KIMS S.R.L. (Yellow Pack)",
+          "motivo": "rechazado_tecnico_film_quebradizo"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-14",
