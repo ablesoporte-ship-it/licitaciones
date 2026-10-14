@@ -51587,7 +51587,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 174,
-      "entidad": "HTAL EVA PERÓN",
+      "entidad": "HTAL Eva Peron",
       "nro": "PA 176",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-08-03",
@@ -91012,7 +91012,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 1560000,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -91072,7 +91072,7 @@
         "notas": "Reng.9 — ABLE solo cotizó este renglón. Pliego pide indicar si se cotiza por par o unidad; ABLE aclaró ambas opciones (base=unidad $73, ALT1=par $130). Farmatec no lo especifica. ABLE gana en cualquier interpretación de unidad: $73–$130 vs $347 de Farmatec. Solo se incluye el renglón cotizado por ABLE (9)."
       },
       "id": 316,
-      "entidad": "Htal Eva Perón",
+      "entidad": "HTAL Eva Peron",
       "nro": "PA 209",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-30",
@@ -95633,7 +95633,7 @@
         "notas": "Reng.17 — gana ABLE $604,00 vs Sedesa $1.757,59 (+191,0%). Reng.46 — gana Synergya $1.286,00 (por clip) vs ABLE $5.350,00 (cartucho x6). Por clip ABLE equivale a $891,67. Reng.46 ALT — Synergya cart. x6 $7.715,00 vs ABLE $5.350,00 (ABLE 30,7% más barata). Verificar unidad con el hospital."
       },
       "id": 340,
-      "entidad": "Htal Eva Peron",
+      "entidad": "HTAL Eva Peron",
       "nro": "PA 217",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-08",
@@ -98599,7 +98599,7 @@
         "notas": "Reng.2 — gana ABLE $20.700,00; Pharma Center $24.311,00 (+17,4%) y Bioprotec $27.812,00 (+34,4%). Pliego: 4 campos grandes, 8 toallas y cubrecama reforzado; ABLE cotizó 2 campos grandes, 4 toallas y cubre mesa de polietileno. Verificar. Precios tomados de fotos escaneadas. Monto cotizado ABLE: $16.560.000,00."
       },
       "id": 353,
-      "entidad": "Htal Eva Perón",
+      "entidad": "HTAL Eva Peron",
       "nro": "PA 220",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-09",
