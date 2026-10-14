@@ -554,8 +554,40 @@ let hasUnpublished = false;
 const ETAPAS = ['Pendiente','Comparativa','Pre-adjudicación','Adjudicación','OC'];
 const ETAPA_SHORT = ['Pend.','Comp.','Pre-adj.','Adj.','OC'];
 
+// ─── TILDES ────────────────────────────────────────────────────────────────
+// Quita las tildes (á é í ó ú ü) pero CONSERVA la ñ: es una letra, no un acento,
+// y sacarla cambia el nombre ("Piñeyro" -> "Pineyro").
+function sinTildes(s){
+  return String(s==null?'':s).normalize('NFC')
+    .replace(/ñ/g,'\u0001').replace(/Ñ/g,'\u0002')
+    .normalize('NFD').replace(/[̀-ͯ]/g,'')
+    .replace(/\u0001/g,'ñ').replace(/\u0002/g,'Ñ');
+}
+// Para BUSCAR: ignora tildes, ñ y mayúsculas ("onativia" encuentra "Oñativia").
+function normBusq(s){
+  return String(s==null?'':s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+}
+// Campos estructurados que se guardan sin tilde (los textos libres —notas,
+// observaciones— se dejan como están para no perder legibilidad).
+const CAMPOS_SIN_TILDE=['entidad','agente','tipo'];
+let tildesCorregidas=0;
+function limpiarTildesFila(r){
+  CAMPOS_SIN_TILDE.forEach(k=>{
+    if(typeof r[k]==='string'){
+      const n=sinTildes(r[k]);
+      if(n!==r[k]){ r[k]=n; tildesCorregidas++; }
+    }
+  });
+  return r;
+}
+// Para los inputs del formulario: limpia mientras se escribe sin saltar el cursor.
+function limpiarTildesInput(el){
+  const pos=el.selectionStart, n=sinTildes(el.value);
+  if(n!==el.value){ el.value=n; try{ el.setSelectionRange(pos,pos); }catch(e){} }
+}
+
 function normalizeRows(rows){
-  return rows.map(r=>({
+  return rows.map(r=>limpiarTildesFila({
     preadj_fecha:'', preadj_empate_ok:'', preadj_pref_ok:'',
     renglones_preadj: null,
     gestion_pre:'', gestion_pre_resultado:'',
@@ -598,6 +630,12 @@ async function load(){
       // If localStorage has unpublished changes, show the badge
       if(p._unpublished) markUnsaved();
       document.getElementById('lastSave').textContent = 'Datos locales (navegador) — '+new Date().toLocaleTimeString('es-AR');
+      // Datos viejos con tildes: se limpian y quedan marcados para publicar.
+      if(tildesCorregidas){
+        const n=tildesCorregidas;
+        save();
+        setTimeout(()=>toast('Se quitaron tildes en '+n+' campos. Publicá datos.json para que se vea en la web.','warn'),400);
+      }
     } else {
       data=[defaultRow()]; nextId=2; save();
       dataSource = 'local';
@@ -606,6 +644,9 @@ async function load(){
 }
 
 function save(){
+  // Todo alta, edición o importación (Excel, Claude, correo) pasa por acá,
+  // así que es el lugar para que no se cuelen tildes en los nombres.
+  data.forEach(limpiarTildesFila);
   hasUnpublished = true;
   localStorage.setItem(KEY, JSON.stringify({rows:data, nextId, _unpublished:true}));
   document.getElementById('lastSave').textContent = 'Modificado: '+new Date().toLocaleTimeString('es-AR')+' (pendiente publicar)';
@@ -888,7 +929,7 @@ function numeroOC(r){
 }
 
 function filtered(){
-  const q=(document.getElementById('search').value||'').toLowerCase();
+  const q=normBusq(document.getElementById('search').value||'');
   const zona=document.getElementById('fZona').value;
   const etapa=document.getElementById('fEtapa').value;
   const mayor=document.getElementById('fMayor').value;
@@ -898,7 +939,7 @@ function filtered(){
   const mes=document.getElementById('fMes').value;
   const agentes=['Diego','Noe','Gonzalo'];
   return data.filter(r=>{
-    if(q && !r.entidad.toLowerCase().includes(q) && !r.nro.toLowerCase().includes(q) && !numeroOC(r).toLowerCase().includes(q)) return false;
+    if(q && !normBusq(r.entidad).includes(q) && !normBusq(r.nro).includes(q) && !normBusq(numeroOC(r)).includes(q)) return false;
     if(zona && r.zona!==zona) return false;
     if(etapa && r.etapa!==etapa) return false;
     if(mayor==='si' && r.mayor!=='Sí') return false;
@@ -916,7 +957,7 @@ function filtered(){
     // contra el agente ASIGNADO a la licitación (r.agente), no contra el
     // contenido del campo de texto.
     if(gestion==='any' && !tienePanelGestion(r)) return false;
-    if(gestion && gestion!=='any' && !(tienePanelGestion(r) && (r.agente||'').toLowerCase()===gestion.toLowerCase())) return false;
+    if(gestion && gestion!=='any' && !(tienePanelGestion(r) && normBusq(r.agente)===normBusq(gestion))) return false;
     if(mes && !(r.fecha||'').startsWith(mes)) return false;
     return true;
   });
@@ -1183,10 +1224,10 @@ function buildDetailForm(r){
   <div class="section">
     <div class="section-title">📋 Comparativa</div>
     <div class="form-grid">
-      <div class="fg full"><label>Entidad *</label><input type="text" id="d_entidad" value="${esc(r.entidad)}"></div>
+      <div class="fg full"><label>Entidad *</label><input type="text" id="d_entidad" value="${esc(r.entidad)}" oninput="limpiarTildesInput(this)"></div>
       <div class="fg"><label>N° Licitación *</label><input type="text" id="d_nro" value="${esc(r.nro)}"></div>
       <div class="fg"><label>Tipo</label>
-        <select id="d_tipo">${['Procedimiento Abreviado','Pública','Privada','Directa','Urgente','Contratación Menor'].map(t=>`<option${r.tipo===t?' selected':''}>${t}</option>`).join('')}</select>
+        <select id="d_tipo">${['Procedimiento Abreviado','Publica','Privada','Directa','Urgente','Contratacion Menor'].map(t=>`<option${r.tipo===t?' selected':''}>${t}</option>`).join('')}</select>
       </div>
       <div class="fg"><label>Fecha de Apertura</label><input type="date" id="d_fecha" value="${r.fecha||''}"></div>
       <div class="fg"><label>Monto ABLE Cotizado ($)</label><input type="number" id="d_monto" value="${r.monto||''}" oninput="calcMayorD()"></div>
@@ -1194,7 +1235,7 @@ function buildDetailForm(r){
       <div class="fg"><label>Zona</label>
         <select id="d_zona" onchange="setAgenteD()">${['','Zona Norte','Zona Sur','Zona Oeste','CABA','ABLE','BAC','Lilian'].map(z=>`<option value="${z}"${r.zona===z?' selected':''}>${z||'Seleccionar...'}</option>`).join('')}</select>
       </div>
-      <div class="fg"><label>Agente</label><input type="text" id="d_agente" value="${r.agente||''}"></div>
+      <div class="fg"><label>Agente</label><input type="text" id="d_agente" value="${r.agente||''}" oninput="limpiarTildesInput(this)"></div>
       <div class="fg"><label>Empate Técnico (≤ 2%)</label>
         <select id="d_empate">${['','Sí','No'].map(v=>`<option${r.empate===v?' selected':''}>${v}</option>`).join('')}</select>
       </div>
@@ -1595,12 +1636,12 @@ function buscarProducto(){
     return;
   }
   // Cada palabra tiene que aparecer en la descripción (no hace falta el orden exacto).
-  const palabras=qRaw.toLowerCase().split(/\s+/).filter(Boolean);
+  const palabras=normBusq(qRaw).split(/\s+/).filter(Boolean);
   const orden=document.getElementById('prodOrden').value;
   const soloPerdidos=document.getElementById('prodSoloPerdidos').checked;
 
   let filas=indiceProductos().filter(f=>{
-    const d=f.desc.toLowerCase();
+    const d=normBusq(f.desc);
     return palabras.every(p=>d.includes(p));
   });
   if(soloPerdidos) filas=filas.filter(f=>f.ganamos===false);
