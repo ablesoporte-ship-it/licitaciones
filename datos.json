@@ -102600,41 +102600,241 @@
       "creado": "2026-10-13T17:54:04.449Z"
     },
     {
+      "id": 371,
+      "entidad": "Htal Iriarte",
+      "nro": "LP 2",
+      "tipo": "Licitacion Privada",
+      "fecha": "2026-10-16",
+      "monto": 11500940,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.9 — ABLE $57,97 vs Martorani $40,20 (+44%); también más baratos Farmatec $41,00 e Igaltex $40,27. Reng.40 — Healthy Lab $1.325,62 (ABLE +90,9%). El pliego pide kit estéril: ABLE base (Ebano) es estéril; la ALT 1 (ArgentCare, $1.380,00, +4,1% vs Healthy Lab) es NO estéril, se aparta del pliego. Aupres $8.500,00. Faltan en el PDF la continuación de Euro Swiss (corta en R26) y la 2ª hoja de Martorani (hojas 2 y 3 idénticas, cortan en R26); Farmatec e Igaltex no cotizan R40. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $11.500.940,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Farmatec S.A.",
+          "Droguería Martorani S.A.",
+          "Aupres S.R.L.",
+          "Live In BA S.A. (Healthy Lab)",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "9",
+            "cant": 2000,
+            "desc": "Espátula de Ayre descartable por unidad",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 57.97,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 58.63,
+                "marca": "GOODWOOD",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 41,
+                "marca": "LISFAR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 40.2,
+                "marca": "AURINCO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 40.27,
+                "marca": "MEDONE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "40",
+            "cant": 4500,
+            "desc": "Ropa descartable kit camisolín + cofia + barbijo + bota estéril",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2530,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 8500,
+                "marca": "AUPRES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 1325.62,
+                "marca": "HEALTHY LAB (Nacional)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "40 ALT 1",
+            "cant": 4500,
+            "desc": "Kit camisolín, cofia, barbijo y par de cubrecalzados no estéril",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1380,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.9 — ABLE $57,97 vs Martorani $40,20 (+44%); también más baratos Farmatec $41,00 e Igaltex $40,27. Reng.40 — Healthy Lab $1.325,62 (ABLE +90,9%). El pliego pide kit estéril: ABLE base (Ebano) es estéril; la ALT 1 (ArgentCare, $1.380,00, +4,1% vs Healthy Lab) es NO estéril, se aparta del pliego. Aupres $8.500,00. Faltan en el PDF la continuación de Euro Swiss (corta en R26) y la 2ª hoja de Martorani (hojas 2 y 3 idénticas, cortan en R26); Farmatec e Igaltex no cotizan R40. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $11.500.940,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 371,
-      "entidad": "Htal Iriarte",
-      "nro": "LP 2",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-16",
-      "monto": 11500940,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-10-13T20:07:14.796Z"
     },
     {
