@@ -76949,12 +76949,46 @@
       "creado": "2026-09-02T17:56:36.500Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-09-08",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Cubrecalzado (bota p/cirugía) descartable, no estéril, c/cintas ajustables - cotizado por par - Marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 143,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no adjudicado - se preadjudica la Alt.1 (por unidad, $80,30)"
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Cubrecalzado con elástico, descartable, no estéril, tela no tejida, no deslizable, resistente a rasgaduras - cotizado por unidad - Marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 80.3,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - menor precio (PP); Martorani $160,70 por par (≈$80,35 por unidad)"
+        },
+        {
+          "reng": "2",
+          "desc": "Cofia descartable elastizada - Marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 32.45,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 41.9,
+          "ganador_sig": "Droguería Martorani S.A.",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Preadjudicación APROBADA (acta, Htal Virgen del Carmen de Zárate, SAMO 29/2026). ABLE gana Reng.1 Alt.1 (cubrecalzado ArgentCare por unidad) 3.000 u. x $80,30 = $240.900,00 y Reng.2 (cofia ArgentCare) 3.000 u. x $32,45 = $97.350,00 (PP). Total $338.250,00.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -77110,7 +77144,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-30107574-GDEBA-HZGAVCMSALGP, apertura 08/09/2026. R3, R4, R5, R6, R8 y R9 no se incluyen: ABLE no cotizó ahí. R1: el pliego pide indicar si se cotiza por par o unidad. Todos los demás oferentes cotizan por par — se usó la alternativa de ABLE por par ($143,00) para comparar; su oferta principal es por unidad ($80,30).",
