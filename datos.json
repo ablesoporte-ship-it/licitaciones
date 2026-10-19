@@ -102600,19 +102600,27 @@
       "creado": "2026-10-13T17:54:04.449Z"
     },
     {
-      "id": 371,
-      "entidad": "Htal Iriarte",
-      "nro": "LP 2",
-      "tipo": "Licitacion Privada",
-      "fecha": "2026-10-16",
-      "monto": 11500940,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.9 — ABLE $57,97 vs Martorani $40,20 (+44%); también más baratos Farmatec $41,00 e Igaltex $40,27. Reng.40 — Healthy Lab $1.325,62 (ABLE +90,9%). El pliego pide kit estéril: ABLE base (Ebano) es estéril; la ALT 1 (ArgentCare, $1.380,00, +4,1% vs Healthy Lab) es NO estéril, se aparta del pliego. Aupres $8.500,00. Faltan en el PDF la continuación de Euro Swiss (corta en R26) y la 2ª hoja de Martorani (hojas 2 y 3 idénticas, cortan en R26); Farmatec e Igaltex no cotizan R40. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $11.500.940,00.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -102819,22 +102827,19 @@
         ],
         "notas": "Reng.9 — ABLE $57,97 vs Martorani $40,20 (+44%); también más baratos Farmatec $41,00 e Igaltex $40,27. Reng.40 — Healthy Lab $1.325,62 (ABLE +90,9%). El pliego pide kit estéril: ABLE base (Ebano) es estéril; la ALT 1 (ArgentCare, $1.380,00, +4,1% vs Healthy Lab) es NO estéril, se aparta del pliego. Aupres $8.500,00. Faltan en el PDF la continuación de Euro Swiss (corta en R26) y la 2ª hoja de Martorani (hojas 2 y 3 idénticas, cortan en R26); Farmatec e Igaltex no cotizan R40. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $11.500.940,00."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "id": 371,
+      "entidad": "Htal Iriarte",
+      "nro": "LP 2",
+      "tipo": "Licitacion Privada",
+      "fecha": "2026-10-16",
+      "monto": 11500940,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.9 — ABLE $57,97 vs Martorani $40,20 (+44%); también más baratos Farmatec $41,00 e Igaltex $40,27. Reng.40 — Healthy Lab $1.325,62 (ABLE +90,9%). El pliego pide kit estéril: ABLE base (Ebano) es estéril; la ALT 1 (ArgentCare, $1.380,00, +4,1% vs Healthy Lab) es NO estéril, se aparta del pliego. Aupres $8.500,00. Faltan en el PDF la continuación de Euro Swiss (corta en R26) y la 2ª hoja de Martorani (hojas 2 y 3 idénticas, cortan en R26); Farmatec e Igaltex no cotizan R40. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $11.500.940,00.",
       "creado": "2026-10-13T20:07:14.796Z"
     },
     {
@@ -103066,41 +103071,205 @@
       "creado": "2026-10-16T11:55:00.737Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 378,
       "entidad": "Htal Ntra Sra de Lujan",
-      "nro": "PA 133",
+      "nro": "PA 133/20",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-19",
       "monto": 10200915,
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Gana ABLE en los renglones 2, 3 y 4. En el 4 sigue Pharma Center $1.282,00 (ABLE −1,6%). ALT 1 (reng.3 y 4): las de ABLE (30 g) se apartan del pliego (reng.3 pide mín. 40 g/m²; reng.4 pide SMS 45 gr); la ALT de Pharma Center en el reng.4 (40 g, $1.114,00) tampoco cumple los 45 gr. Reng.4 ALT 1: ABLE $870,00 vs $1.114,00. Reng.2: Euro Swiss ofrece cofia plisada 15 gr; el pliego pide cofia elastizada con elástico (no lo aclara en su oferta). Max Continental cotiza solo los renglones 7, 8 y 12 (ABLE no cotiza), por eso no figura en la tabla. Pharma Center ofrece en el reng.3 un camisolín de 50 g. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $10.200.915,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Pharma Center S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 10000,
+            "desc": "Cofia descartable elastizada",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 41.35,
+                "marca": "EUROMIX (plisada 15 gr)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 350,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1261.9,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 2096,
+                "marca": "DPC (50 g, equipo de cirugía)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 1",
+            "cant": 350,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 870,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 7500,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1261.9,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1882.02,
+                "marca": "KRATEC (SMS 45 gr, 1,20 mt)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 1282,
+                "marca": "DPC (45 g)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 1",
+            "cant": 7500,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 870,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 1114,
+                "marca": "DPC (alt. 40 g)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Gana ABLE en los renglones 2, 3 y 4. En el 4 sigue Pharma Center $1.282,00 (ABLE −1,6%). ALT 1 (reng.3 y 4): las de ABLE (30 g) se apartan del pliego (reng.3 pide mín. 40 g/m²; reng.4 pide SMS 45 gr); la ALT de Pharma Center en el reng.4 (40 g, $1.114,00) tampoco cumple los 45 gr. Reng.4 ALT 1: ABLE $870,00 vs $1.114,00. Reng.2: Euro Swiss ofrece cofia plisada 15 gr; el pliego pide cofia elastizada con elástico (no lo aclara en su oferta). Max Continental cotiza solo los renglones 7, 8 y 12 (ABLE no cotiza), por eso no figura en la tabla. Pharma Center ofrece en el reng.3 un camisolín de 50 g. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $10.200.915,00."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-10-16T11:55:00.773Z"
     },
     {
@@ -103142,6 +103311,28 @@
       "creado": "2026-10-16T12:28:46.376Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "tabla": null,
       "id": 380,
       "entidad": "Htal Ana Goitia",
       "nro": "PA 52",
@@ -103155,27 +103346,7 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-10-16T19:24:09.068Z",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": ""
+      "creado": "2026-10-16T19:24:09.068Z"
     }
   ],
   "nextId": 381
