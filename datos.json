@@ -84203,12 +84203,134 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-09",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Sutura de Ácido Poliglicólico N°7/0, doble aguja 6,5mm, 3/8 círc. (2 ag.), punta espatulada, hebra 45cm - ABLE desestimada por calidad en la evaluación de muestra (aguja y hebra insatisfactorias)",
+          "cant": 144,
+          "precio_able": 13200,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sin ganador (ABLE y Medic Tools rechazadas por calidad; Sedesa rechazada por precio excesivo)",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Polipropileno N°4/0, doble aguja 17mm, 1/2 círc., punta redonda, hebra 75cm",
+          "cant": 116,
+          "precio_able": 2370,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 2433.31,
+          "ganador_sig": "Cardiopack Argentina",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Polipropileno N°1, aguja 35mm, 1/2 círc., punta redonda, hebra 75cm",
+          "cant": 80,
+          "precio_able": 1500,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1559.69,
+          "ganador_sig": "Cardiopack Argentina",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Polipropileno N°2/0, doble aguja 26mm, 1/2 círc., punta redonda, hebra 90cm - no preadjudicada: el acta no menciona la oferta de ABLE (Cardiopack, $2.002,82, rechazada por precio excesivo)",
+          "cant": 60,
+          "precio_able": 2390,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sin ganador (Cardiopack rechazado por precio excesivo)",
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura de Polipropileno N°5/0, doble aguja 17mm, 1/2 círc., punta redonda, hebra 75cm",
+          "cant": 36,
+          "precio_able": 2415,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 2507.12,
+          "ganador_sig": "Cardiopack Argentina",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura de Nylon Monofilamento N°2/0, aguja 26mm, 3/8 círc., punta rev. cort., hebra 45cm",
+          "cant": 936,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 594.11,
+          "ganador_sig": "Cardiopack Argentina (Surgikal, origen India; ABLE +2,17%, dentro del rango de preferencia nacional, no aplicada en el acta)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura de Nylon Monofilamento N°3/0, aguja 60mm, recta, punta rev. cort., hebra 75cm",
+          "cant": 936,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 594.11,
+          "ganador_sig": "Cardiopack Argentina (Surgikal, origen India; ABLE +2,17%, dentro del rango de preferencia nacional, no aplicada en el acta)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura de Nylon Monofilamento N°4/0, aguja 60mm, 3/8 círc., punta rev. cort., hebra 75cm",
+          "cant": 65,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 594.11,
+          "ganador_sig": "Cardiopack Argentina (Surgikal, origen India; ABLE +2,17%, dentro del rango de preferencia nacional, no aplicada en el acta)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "16",
+          "desc": "Sutura de Nylon Monofilamento N°2/0, aguja 60mm, recta, punta rev. cort., hebra 75cm",
+          "cant": 48,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 613.47,
+          "ganador_sig": "Cardiopack Argentina",
+          "motivo": "mayor_origen_nacional"
+        },
+        {
+          "reng": "17",
+          "desc": "Sutura de Ácido Poliglicólico N°5/0, aguja 25mm, 1/2 círc., punta redonda, hebra 70cm",
+          "cant": 40,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1207.58,
+          "ganador_sig": "Cardiopack Argentina",
+          "motivo": "mayor_origen_nacional"
+        },
+        {
+          "reng": "18",
+          "desc": "Sutura de Polipropileno N°6/0, doble aguja 12mm, 3/8 círc. (2 ag.), punta redonda, hebra 75cm",
+          "cant": 36,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 6989.9,
+          "ganador_sig": "Droguería Martorani",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Preadjudicación APROBADA (acta 09/10/2026, HIGA Rossi). ABLE gana reng. 4, 5, 7, 16, 17 y 18 = $703.196,00. Pierde 3 (rechazada por calidad de la muestra), 6 (no preadjudicada), y 11, 12 y 14 (Cardiopack, Surgikal origen India, $594,11 vs ABLE $607,00: +2,17%, dentro del rango de preferencia nacional que el acta no aplicó). Reng. 4: el acta adjudica a $2.370,00 (la oferta cargada era $2.390,00).",
+      "gestion_pre_resultado": "Ganado parcial",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -84869,7 +84991,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "Si",
       "obs": "Renglones 11, 12 y 14: Cardiopack Argentina gana con producto Surgikal de origen India (importado); diferencia ≈2,17%, dentro del rango de preferencia nacional (2-10%). Renglón 6: ABLE pierde por 16,95% vs Cardiopack (Surgikal, industria argentina); no aplica preferencia nacional. ABLE gana directo en 3, 4, 5, 7, 16, 17 y 18. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
@@ -103073,7 +103195,7 @@
     {
       "id": 378,
       "entidad": "Htal Ntra Sra de Lujan",
-      "nro": "PA 133/20",
+      "nro": "PA 133",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-19",
       "monto": 10200915,
@@ -103270,7 +103392,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-10-16T11:55:00.773Z"
+      "creado": "2026-10-16T11:55:00.773Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
