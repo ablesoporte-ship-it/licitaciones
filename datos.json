@@ -104523,42 +104523,242 @@
       "creado": "2026-10-16T12:28:46.376Z"
     },
     {
+      "id": 380,
+      "entidad": "Htal Ana Goitia",
+      "nro": "PA 52",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-20",
+      "monto": 1841752,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "Reng. 4: gana Cirugía Argentina $2.083,00 (TAGUM, Perú); ABLE +5,6% — preferencia nacional. Reng. 17, 25, 26 y 27: gana ABLE. Reng. 17: la oferta base de ABLE es con aguja de 40 mm; el pliego pide catgut simple cal. 0 sin aguja, que es la ALT 1 de ABLE ($2.640,00, también la más baja). Los competidores cotizan sin aguja (150 cm). Euroswiss cotiza Suturas Argentinas (ABLE) en reng. 4 y 17. Falta la hoja de su presupuesto posterior al reng. 21 (reng. 25, 26 y 27 sin datos). Pliego vs ABLE: reng. 4 pide catgut cromado (ABLE cotiza 'lento'); reng. 25 pide aguja de 26 mm (ABLE 25 mm); reng. 27 pide poliglactina (ABLE ácido poliglicólico, igual que Cirugía Argentina). Precios de Cirugía Argentina con IVA; Euroswiss sin detalle de IVA, tomado tal cual. Monto cotizado ABLE (sin ALT): $1.841.752,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Euroswiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "4",
+            "cant": 400,
+            "desc": "Sutura de Catgut Lento N° 2/0 con aguja de 25mm, 1/2 circ., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2083,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 2819.47,
+                "marca": "ABLE (Suturas Argentinas)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 300,
+            "desc": "Sutura de Catgut Simple N° 0 con aguja de 40mm, 1/2 circ., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 4133,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": 3860,
+                "marca": "ABLE (Suturas Argentinas)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17 ALT 1",
+            "cant": 300,
+            "desc": "Sutura de Catgut Simple N°0 sin aguja, hebra de 150cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2640,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 120,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Circ., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1903,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "26",
+            "cant": 48,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1143,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 96,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 50mm, 1/2 Circ., punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2233,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euroswiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 4: gana Cirugía Argentina $2.083,00 (TAGUM, Perú); ABLE +5,6% — preferencia nacional. Reng. 17, 25, 26 y 27: gana ABLE. Reng. 17: la oferta base de ABLE es con aguja de 40 mm; el pliego pide catgut simple cal. 0 sin aguja, que es la ALT 1 de ABLE ($2.640,00, también la más baja). Los competidores cotizan sin aguja (150 cm). Euroswiss cotiza Suturas Argentinas (ABLE) en reng. 4 y 17. Falta la hoja de su presupuesto posterior al reng. 21 (reng. 25, 26 y 27 sin datos). Pliego vs ABLE: reng. 4 pide catgut cromado (ABLE cotiza 'lento'); reng. 25 pide aguja de 26 mm (ABLE 25 mm); reng. 27 pide poliglactina (ABLE ácido poliglicólico, igual que Cirugía Argentina). Precios de Cirugía Argentina con IVA; Euroswiss sin detalle de IVA, tomado tal cual. Monto cotizado ABLE (sin ALT): $1.841.752,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-10-16T19:24:09.068Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 380,
-      "entidad": "Htal Ana Goitia",
-      "nro": "PA 52",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-20",
-      "monto": 1841747,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-16T19:24:09.068Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
