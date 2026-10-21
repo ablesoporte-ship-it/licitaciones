@@ -77268,26 +77268,49 @@
       "creado": "2026-09-03T13:11:13.079Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-20",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "16",
+          "desc": "Bolsa de papel grado médico de 250mm x 100mm x 380mm con indicador químico de calor húmedo, marca Able",
+          "cant": 2000,
+          "precio_able": 141.58,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 220,
+          "ganador_sig": "KIMS S.R.L. (Yellow Pack)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "19",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 13,
+          "precio_able": 39382.2,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 51000,
+          "ganador_sig": "Electron Plast S.A. (ANQING)",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "ABLE gana Reng.16 (bolsa 250x100x380 mm) 2.000 u. x $141,58 = $283.160,00 y Reng.19 (bobina pouch 200 mm x 200 m) 13 u. x $39.382,20 = $511.968,60 por menor precio. Total $795.128,60. Precios unitarios de la OC (1% por debajo de la oferta: $143,01 y $39.780,00). Fecha tomada de la OC; no se recibió el acta de preadjudicación.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
+      "adj_fecha": "2026-10-20",
+      "adj_monto_able": 795128.6,
+      "adj_resumen": "ABLE adjudicada (Disposición DISPO-2026-1762-GDEBA-HPDIGAMSALGP/2026): Reng.16 bolsa 250x100x380 mm 2.000 u. x $141,58 = $283.160,00 y Reng.19 bobina pouch 200 mm x 200 m 13 u. x $39.382,20 = $511.968,60. Total $795.128,60. OC N° 672/2026.",
+      "adj_alertas": "Precios de la OC 1% menores a los cotizados ($143,01 y $39.780,00).",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-20",
+      "oc_alertas": "OC Nro. 672/2026, fecha 20/10/2026 (Hospital Provincial Descentralizado Interzonal General de Agudos Simplemente Evita, González Catán; Procedimiento Abreviado 318/2026; Rentas Generales; Solicitud 787487; Servicio Solicitante: Esterilización). Reng.16: 2.000 u. x $141,58 = $283.160,00; Reng.19: 13 u. x $39.382,20 = $511.968,60. Total $795.128,60 (IVA $0,00). Precios unitarios 1% por debajo de la oferta ($143,01 y $39.780,00). Entrega según necesidades del establecimiento, desde la entrega de la OC hasta el 31/12/2026, en Esterilización. La hoja de firmas se titula 'OC 671 ABLE PA 318-26' (la OC es la 672/2026).",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 795128.6,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -77389,11 +77412,35 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-29155522-GDEBA-HPDIGAMSALGP. ABLE cotizó solo R16 y R19, gana ambos con amplio margen. R16: código y medida de ABLE (250x100x380mm) coinciden con KIMS (250x380x100mm), mismos valores en otro orden.",
-      "creado": "2026-09-03T13:11:13.184Z"
+      "creado": "2026-09-03T13:11:13.184Z",
+      "renglones_adj": [
+        {
+          "reng": "16",
+          "desc": "Bolsa de papel grado médico de 250mm x 100mm x 380mm con indicador químico de calor húmedo, marca Able",
+          "cant": 2000,
+          "precio_able": 141.58,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 220,
+          "ganador_sig": "KIMS S.R.L. (Yellow Pack)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "19",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 200mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 13,
+          "precio_able": 39382.2,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 51000,
+          "ganador_sig": "Electron Plast S.A. (ANQING)",
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-08",
