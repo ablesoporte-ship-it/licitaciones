@@ -94900,28 +94900,6 @@
       "creado": "2026-09-30T13:41:02.187Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 333,
       "entidad": "Htal Jose Penna",
       "nro": "PA 255",
@@ -94931,11 +94909,95 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-30T19:02:19.394Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng. 36: gana Cirugía Argentina $13.110,00; ABLE +10,8% (sin preferencia nacional). MG Pharmacorp $28.000,00. Precios de los competidores provistos por el usuario, sin marca, origen ni base de IVA. Sin pliego ni cuadro legible para cruzar. Monto cotizado ABLE: $522.720,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "MG Pharmacorp S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "36",
+            "cant": 36,
+            "desc": "Sutura de Ácido Poliglicólico N° 8/0 con doble aguja de 6,5mm, 3/8 Círc. (2 Ag.), punta Espatulada, hebra de 45cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 14520,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 13110,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 28000,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng. 36: gana Cirugía Argentina $13.110,00; ABLE +10,8% (sin preferencia nacional). MG Pharmacorp $28.000,00. Precios de los competidores provistos por el usuario, sin marca, origen ni base de IVA. Sin pliego ni cuadro legible para cruzar. Monto cotizado ABLE: $522.720,00."
+      },
+      "preadj_fecha": "2026-10-20",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Preadjudicación (acta 20/10/2026, HIGA Dr. José Penna, Bahía Blanca; PA 255/2026; estado: preadjudicación pendiente en el hospital). Reng.36 (sutura ácido poliglicólico 8/0 doble aguja 6,5 mm) desestimado por precio excesivo, como los reng. 7, 8, 10, 11, 16, 17, 18, 26, 28, 30, 34, 40, 41, 49, 50, 56 y 60. ABLE no resulta preadjudicada: no se adjudicó el renglón a ningún oferente.",
+      "gestion_pre_resultado": "Perdido",
+      "adj_recibida": false,
+      "adj_fecha": "2026-10-20",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no fue adjudicada: el reng.36 (único cotizado) fue desestimado por precio excesivo y no se adjudicó a ningún oferente.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "Sin OC: el reng.36 cotizado por ABLE fue desestimado por precio excesivo y no se adjudicó.",
+      "creado": "2026-09-30T19:02:19.394Z",
+      "renglones_preadj": [
+        {
+          "reng": "36",
+          "desc": "Sutura de Ácido Poliglicólico N° 8/0 con doble aguja de 6,5mm, 3/8 Círc. (2 Ag.), punta Espatulada, hebra de 45cm - Marca ABLE (Industria argentina)",
+          "cant": 36,
+          "precio_able": 14520,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Desestimado por precio excesivo (renglón no adjudicado)",
+          "motivo": "precio_excesivo"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "36",
+          "desc": "Sutura de Ácido Poliglicólico N° 8/0 con doble aguja de 6,5mm, 3/8 Círc. (2 Ag.), punta Espatulada, hebra de 45cm - Marca ABLE (Industria argentina)",
+          "cant": 36,
+          "precio_able": 14520,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Desestimado por precio excesivo (renglón no adjudicado)",
+          "motivo": "precio_excesivo"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
