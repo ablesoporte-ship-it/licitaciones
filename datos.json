@@ -93081,12 +93081,57 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-07",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "11",
+          "desc": "Camisolin no esteril, no hemorrepelente de tela SP de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+          "cant": 10000,
+          "precio_able": 640,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 730,
+          "ganador_sig": "Droguería Pharma Center S.R.L.",
+          "motivo": "menor_precio - oferta dentro del justiprecio; las de menor valor no se preadjudican por calidad de las muestras"
+        },
+        {
+          "reng": "11 ALT 1",
+          "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+          "cant": 10000,
+          "precio_able": 605,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no preadjudicada - se preadjudica la oferta base"
+        },
+        {
+          "reng": "11 ALT 2",
+          "desc": "Camisolin no esteril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+          "cant": 10000,
+          "precio_able": 481.3,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no preadjudicada - se preadjudica la oferta base"
+        },
+        {
+          "reng": "11 ALT 3",
+          "desc": "Camisolin no esteril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 10000,
+          "precio_able": 815,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no preadjudicada - se preadjudica la oferta base"
+        }
+      ],
+      "gestion_pre": "Preadjudicación APROBADA (acta 07/10/2026, HIEAC Dr. Alejandro Korn, Melchor Romero; PA 258/2026). ABLE gana Reng.11 (camisolín ArgentCare, oferta base) 10.000 u. x $640,00 = $6.400.000,00 (PP). Criterio del acta: la oferta entra en el justiprecio; no se preadjudican las de menor valor porque las muestras presentadas son de mucha menor calidad. Las ALT 1, 2 y 3 no fueron preadjudicadas.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -93282,7 +93327,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.11 — único renglon cotizado por ABLE. Base: ABLE $640 (tela SP, puño elástico) gana por precio nominal vs Farmatec $865,15, Pharma Center $730 y Euro Swiss $1.240 (Kratec, cert.1440-45). ALERTA DE CUMPLIMIENTO: el pliego exige TNT SMS, no hemorrepelente, puños de ALGODÓN elastizados — la base de ABLE es tela SP con puño de ELÁSTICO, no cumple el pliego tal como está cotizada. ALT.1 ABLE (SP 25grs, puño elástico, $605) y ALT.2 ABLE (SP 20grs, puño elástico, $481,30) se apartan aún más del gramaje exigido (30g/m²); sin competencia de terceros en esas variantes. ALT.3 ABLE (SMS 30grs, puño de algodón, $815) es la única opción de ABLE que cumple material y puño del pliego, pero es HEMORREPELENTE y el pliego pide expresamente NO hemorrepelente — tampoco cumple en sentido estricto. Pharma Center cotizó una variante similar (SMS 30g, puño elástico) a $817, tampoco 100% conforme (puño elástico en vez de algodón).",
@@ -99586,7 +99631,7 @@
         "notas": "Reng.4 — gana ABLE $130,00 (ArgentCare) vs Martorani $137,40 (+5,7%), Euro Swiss $233,36 y Farmatec $378,00. Precios tal cual figuran en el cuadro comparativo oficial. Sin pliego en esta carga. Monto cotizado ABLE: $780.000,00."
       },
       "id": 350,
-      "entidad": "Htal Korn",
+      "entidad": "Htal Dr. Alejandro Korn",
       "nro": "PA 261",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-09",
