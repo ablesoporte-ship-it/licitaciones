@@ -93885,23 +93885,57 @@
       "creado": "2026-09-28T12:21:39.490Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-13",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "2",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+          "cant": 6000,
+          "precio_able": 75.46,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 49.1,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 2,
+          "precio_able": 29950,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 25424,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 1,
+          "precio_able": 59670,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 58304,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Preadjudicación APROBADA (acta 13/10/2026, HIGA L. C. de Gandulfo, Lomas de Zamora; PA 371/2026 SAMO-Fondos Propios). ABLE no figura en el acta. Reng. 2, 5 y 6 (cotizados por ABLE) preadjudicados a Igaltex ($49,10, $25.424,00 y $58.304,00). Preadjudicados además: Igaltex reng. 12, 13, 14 y Kims reng. 4 y 7. Total general $2.027.679,00. Total ABLE $0.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-10-13",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no fue adjudicada: los reng. 2, 5 y 6 (únicos cotizados) fueron preadjudicados a Laboratorios Igaltex S.R.L.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
+      "oc_alertas": "Sin OC: los reng. 2, 5 y 6 cotizados por ABLE se adjudicaron a Laboratorios Igaltex S.R.L.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -93916,11 +93950,46 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-09-28T12:21:39.559Z"
+      "creado": "2026-09-28T12:21:39.559Z",
+      "renglones_adj": [
+        {
+          "reng": "2",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+          "cant": 6000,
+          "precio_able": 75.46,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 49.1,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 150mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 2,
+          "precio_able": 29950,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 25424,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 1,
+          "precio_able": 59670,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 58304,
+          "ganador_sig": "Laboratorios Igaltex S.R.L. (Sterilys)",
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-01",
@@ -94757,12 +94826,35 @@
       "creado": "2026-09-29T16:24:33.039Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-19",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "9",
+          "desc": "Resma de papel grado médico color blanco, marca Able",
+          "cant": 5,
+          "precio_able": 158300,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 28439.8,
+          "ganador_sig": "Somed Médica S.R.L. (Kims)",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "10",
+          "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 75mm x200mts con indicador químico de calor húmedo + ETO, marca Able",
+          "cant": 6,
+          "precio_able": 14990,
+          "marca": "Able",
+          "resultado": "adj",
+          "precio_siguiente": 24500,
+          "ganador_sig": "Kims S.R.L.",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Preadjudicación (acta 19/10/2026, HIGA Dr. Luis A. Güemes, Haedo; PA 141/2026; estado: preadjudicación pendiente en el hospital). ABLE gana Reng.10 (bobina pouch 75mm x 200m, marca ABLE) 6 u. x $14.990,00 = $89.940,00. Reng.9 (resma papel médico) se preadjudica a Somed Médica S.R.L. a $28.439,80 x 5 = $142.199,00 (ABLE $158.300,00). Total preadjudicado a ABLE $89.940,00.",
+      "gestion_pre_resultado": "Ganado parcial",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -94895,7 +94987,7 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.9 — ABLE pierde: gana Somed Médica $28.439,80 vs ABLE $158.300,00 (+456,7%). Reng.10 — gana ABLE $14.990,00 vs Kims $24.500,00 (+63,4%) y Somed $49.077,60 (+227,5%). Sin empate técnico ni preferencia nacional.",
