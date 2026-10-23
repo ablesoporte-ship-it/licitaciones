@@ -95504,42 +95504,585 @@
       "creado": "2026-09-28T19:24:19.975Z"
     },
     {
+      "id": 328,
+      "entidad": "Htal Belgrano",
+      "nro": "LP 38",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-16",
+      "monto": 1344308,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana los 6 renglones por amplio margen (el competidor más cercano: reng.17 Cardiopack +176,7%, reng.19 y 20 Cardiopack +49,1% y +39,0%, reng.27 Dinamed +45,8%). Sin empate técnico ni preferencia nacional ni objeciones. Cuadro comparativo oficial con 14 oferentes y 41 renglones; solo se incluyen los 6 renglones donde ABLE cotiza. Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Monto cotizado ABLE $1.344.308,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Equipo Gemico S.A.",
+          "Grupo Dukbart S.A.",
+          "INAPYR S.R.L.",
+          "Milagros Anahí Cabrera",
+          "MTS Medical S.A.",
+          "MG Pharmacorp S.R.L.",
+          "Dinamed Bahía S.R.L.",
+          "Droguería Azcuénaga S.R.L.",
+          "Cardiopack Argentina S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "17",
+            "cant": 192,
+            "desc": "Sutura de Nylon Monofilamento N° 5/0 con aguja de 20mm, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 604,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Dukbart S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Milagros Anahí Cabrera",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MTS Medical S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 3100,
+                "marca": "ETHILON (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dinamed Bahía S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 2676,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1671.46,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 144,
+            "desc": "Sutura de Polipropileno N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Dukbart S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Milagros Anahí Cabrera",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MTS Medical S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 7500,
+                "marca": "PROLENE (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dinamed Bahía S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": 8486,
+                "marca": "COVIDIEN",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 216,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Dukbart S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Milagros Anahí Cabrera",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MTS Medical S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 4930,
+                "marca": "VICRYL PLUS (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dinamed Bahía S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1863.4,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 216,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja de 50mm, 1/2 Círc., punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1340,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Dukbart S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Milagros Anahí Cabrera",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MTS Medical S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 6200,
+                "marca": "VICRYL (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dinamed Bahía S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1863.4,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 180,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 30mm, 3/8 Círc., reverso cortante, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Dukbart S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Milagros Anahí Cabrera",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MTS Medical S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 6780,
+                "marca": "VICRYL (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dinamed Bahía S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 8000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gemico S.A.",
+                "precio": 45.01,
+                "marca": "EUROMIX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Grupo Dukbart S.A.",
+                "precio": 81.87,
+                "marca": "EUROMIX/DRESSMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "INAPYR S.R.L.",
+                "precio": 63,
+                "marca": "Euromix",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Milagros Anahí Cabrera",
+                "precio": 72,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MTS Medical S.A.",
+                "precio": 55.92,
+                "marca": "Euromix (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 45.38,
+                "marca": "INDUSET",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dinamed Bahía S.R.L.",
+                "precio": 43,
+                "marca": "DIMEX (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Azcuénaga S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE gana los 6 renglones por amplio margen (el competidor más cercano: reng.17 Cardiopack +176,7%, reng.19 y 20 Cardiopack +49,1% y +39,0%, reng.27 Dinamed +45,8%). Sin empate técnico ni preferencia nacional ni objeciones. Cuadro comparativo oficial con 14 oferentes y 41 renglones; solo se incluyen los 6 renglones donde ABLE cotiza. Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Monto cotizado ABLE $1.344.308,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-09-29T12:39:58.579Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 328,
-      "entidad": "Htal Belgrano",
-      "nro": "LP 38",
-      "tipo": "Privada",
-      "fecha": "2026-10-16",
-      "monto": 1344308,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-29T12:39:58.579Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -102362,42 +102905,343 @@
       "creado": "2026-10-08T14:49:11.015Z"
     },
     {
+      "id": 363,
+      "entidad": "Htal. Militar General 602 Campo de Mayo",
+      "nro": "LP 84",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-16",
+      "monto": 11850000,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.6: ABLE gana ($2.300 vs Pharma Center $2.723, +18,4%). Reng.7: gana Live in BA con $1.250 (camisolín 30 gr puño elástico) contra $1.450 de ABLE (+16,0%): sin empate técnico ni preferencia nacional. El resto de los oferentes del reng.7 cotiza entre $2.106,25 y $4.500. Cuadro comparativo oficial (9 oferentes); solo se incluyen los renglones donde ABLE cotiza (6 y 7 y su ALT). Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Live in BA ofrece 30 gr y ABLE 45 gr (no se pudo cruzar contra el pliego). Monto base ABLE $11.850.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Raúl Quintela S.R.L.",
+          "Pharma Express S.A.",
+          "Droguería Pharma Center S.R.L.",
+          "Ximax S.R.L.",
+          "Medipack S.A.",
+          "Bio Protec S.R.L.",
+          "Live in BA S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "6",
+            "cant": 2000,
+            "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2300,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": 7990,
+                "marca": "DEXBOND",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 4213,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 2723,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": 3240.38,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6 ALT 1",
+            "cant": 2000,
+            "desc": "Camisolin esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2150,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": 3420,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 5000,
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1450,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": 5400,
+                "marca": "DEXBOND",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 3034.17,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 2243,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": 2106.25,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 3428.33,
+                "marca": "COVERLINE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec S.R.L.",
+                "precio": 4500,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA S.A.",
+                "precio": 1250,
+                "marca": "30 gr, puño elástico",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7 ALT 1",
+            "cant": 5000,
+            "desc": "ALT competidor (ABLE sin ALT): Camisolín con puño elástico (Quintela, 2ª alternativa del renglón 7)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": 2160,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bio Protec S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live in BA S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.6: ABLE gana ($2.300 vs Pharma Center $2.723, +18,4%). Reng.7: gana Live in BA con $1.250 (camisolín 30 gr puño elástico) contra $1.450 de ABLE (+16,0%): sin empate técnico ni preferencia nacional. El resto de los oferentes del reng.7 cotiza entre $2.106,25 y $4.500. Cuadro comparativo oficial (9 oferentes); solo se incluyen los renglones donde ABLE cotiza (6 y 7 y su ALT). Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Live in BA ofrece 30 gr y ABLE 45 gr (no se pudo cruzar contra el pliego). Monto base ABLE $11.850.000,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-10-08T18:16:52.777Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 363,
-      "entidad": "Htal. Militar General 602 Campo de Mayo",
-      "nro": "LP 84",
-      "tipo": "Publica",
-      "fecha": "2026-10-16",
-      "monto": 11850000,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-08T18:16:52.777Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-10-16",
@@ -109728,41 +110572,113 @@
       "creado": "2026-10-22T11:20:23.363Z"
     },
     {
+      "id": 388,
+      "entidad": "Htal. Bonorino Udaondo",
+      "nro": "CM 439",
+      "tipo": "Contratacion Directa",
+      "fecha": "2026-10-23",
+      "monto": 370260,
+      "mayor": "No",
+      "zona": "CABA",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.1: ABLE gana con $2.057; el siguiente es Hollister (Macor) con $13.549,64 (+558,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (7 oferentes, ARS). Sin pliego: no se cruzó contra especificaciones (el cuadro pide boca de 39-41 mm; ABLE ofrece aro recortable 15-70 mm). Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $370.260,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Macor Insumos Hospitalarios S.R.L.",
+          "Droguería Disval S.R.L.",
+          "Dispromed Comercial S.R.L.",
+          "FOC S.R.L.",
+          "Silvana Graciela Charaf",
+          "Barrier Insumos S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 180,
+            "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2057,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Macor Insumos Hospitalarios S.R.L.",
+                "precio": 13549.64,
+                "marca": "HOLLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Disval S.R.L.",
+                "precio": 24333.59,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 28800,
+                "marca": "OXMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FOC S.R.L.",
+                "precio": 22648.8,
+                "marca": "CONVATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Silvana Graciela Charaf",
+                "precio": 37550,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Barrier Insumos S.R.L.",
+                "precio": 17500,
+                "marca": "CONVATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1: ABLE gana con $2.057; el siguiente es Hollister (Macor) con $13.549,64 (+558,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (7 oferentes, ARS). Sin pliego: no se cruzó contra especificaciones (el cuadro pide boca de 39-41 mm; ABLE ofrece aro recortable 15-70 mm). Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $370.260,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 388,
-      "entidad": "Htal Udaondo",
-      "nro": "CM 439",
-      "tipo": "Contratacion Menor",
-      "fecha": "2026-10-23",
-      "monto": 370256,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-10-22T11:20:23.398Z"
     },
     {
