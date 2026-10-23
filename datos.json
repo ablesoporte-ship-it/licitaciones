@@ -14405,7 +14405,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 84,
-      "entidad": "HTAL PEDRO DE ELIZALDE",
+      "entidad": "Htal. Pedro de Elizalde",
       "nro": "LP 417",
       "tipo": "Publica",
       "fecha": "2026-06-18",
@@ -93522,7 +93522,7 @@
         "notas": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías)."
       },
       "id": 318,
-      "entidad": "HTAL PEDRO DE ELIZALDE",
+      "entidad": "Htal. Pedro de Elizalde",
       "nro": "LP 417",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-30",
@@ -105089,42 +105089,91 @@
       "creado": "2026-10-13T13:56:43.237Z"
     },
     {
+      "id": 370,
+      "entidad": "Htal. Pedro de Elizalde",
+      "nro": "LP 417",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-19",
+      "monto": 1300000,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.3: ABLE gana con $26.000; el siguiente es Igaltex con $51.400,80 (+97,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (6 oferentes); solo se incluye el renglón 3, único donde ABLE cotiza. Sin pliego adjunto: no se cruzó contra especificaciones. Atención: el cuadro describe el renglón 3 como camisolines en tela trilaminada con lámina respirable y kit de campos bilaminados (viscosa+polietileno), mientras que ABLE ofrece kit SMS (4 camisolines, 2 campos grandes, 2 medianos, 2 chicos): verificar compliance. Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $1.300.000,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Dress Med S.R.L.",
+          "Laboratorios Igaltex S.R.L.",
+          "Coverline S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 50,
+            "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 26000,
+                "marca": "EBANO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dress Med S.R.L.",
+                "precio": 53775,
+                "marca": "DRESSMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 51400.8,
+                "marca": "GLOBAL PROTECTIVE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Coverline S.A.",
+                "precio": 66900,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.3: ABLE gana con $26.000; el siguiente es Igaltex con $51.400,80 (+97,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (6 oferentes); solo se incluye el renglón 3, único donde ABLE cotiza. Sin pliego adjunto: no se cruzó contra especificaciones. Atención: el cuadro describe el renglón 3 como camisolines en tela trilaminada con lámina respirable y kit de campos bilaminados (viscosa+polietileno), mientras que ABLE ofrece kit SMS (4 camisolines, 2 campos grandes, 2 medianos, 2 chicos): verificar compliance. Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $1.300.000,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-10-13T17:54:04.449Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 370,
-      "entidad": "HTAL PEDRO DE ELIZALDE",
-      "nro": "LP 417",
-      "tipo": "Publica",
-      "fecha": "2026-10-19",
-      "monto": 1300000,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-13T17:54:04.449Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
