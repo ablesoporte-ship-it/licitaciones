@@ -87322,9 +87322,174 @@
       "creado": "2026-09-15T12:08:33.539Z"
     },
     {
+      "id": 301,
+      "entidad": "Htal Iriarte",
+      "nro": "PA 31",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-09-22",
+      "monto": 827664,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.4 — ABLE pierde: gana Kims $46,00 vs ABLE $83,01 (+80,5%). Reng.1, 2 y 3 — gana ABLE. Sin empate técnico ni preferencia nacional.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Poggi (Raúl Jorge León Poggi)",
+          "KIMS S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 4,
+            "desc": "PO.100.200 - Bobina de pouch de papel de uso médico liso y lámina transparente de 100mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 21945,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi (Raúl Jorge León Poggi)",
+                "precio": 108944,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 31300,
+                "marca": "Yellow Pack (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 2,
+            "desc": "PO.300.200 - Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 65637,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi (Raúl Jorge León Poggi)",
+                "precio": 320000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 93400,
+                "marca": "Yellow Pack (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 2,
+            "desc": "PO.250.200 - Bobina de pouch de papel de uso médico liso y lámina transparente de 250mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 55275,
+                "marca": "Able",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi (Raúl Jorge León Poggi)",
+                "precio": 272000,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 79100,
+                "marca": "Yellow Pack (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 6000,
+            "desc": "BOX140X050X330 - Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 83.01,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Poggi (Raúl Jorge León Poggi)",
+                "precio": 166,
+                "marca": "Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 46,
+                "marca": "Yellow Pack (Ind. Arg.)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.1, 2 y 3 — ABLE gana por menor precio (Kims +42,6%, +42,3% y +43,1%; Poggi +387% a +396%). Reng.4 — gana Kims $46,00 vs ABLE $83,01 (+80,5%); sin empate técnico ni preferencia nacional (Kims es industria argentina). Sin objeciones. Precios de ABLE con IVA incluido; competidores según presupuestos. Sin pliego para cruzar."
+      },
       "preadj_fecha": "2026-09-23",
       "preadj_empate_ok": "N/A",
       "preadj_pref_ok": "N/A",
+      "gestion_pre": "Preadjudicación APROBADA (acta 23/09/2026, HZGA Dr. Isidoro Iriarte, Quilmes; PA-UPA 17 Quilmes 31/2026). ABLE gana por mejor precio Reng.1 (bobina pouch 100mm x 200m) 4 u. x $21.725,55 = $86.902,20 y Reng.2 (bobina pouch 300mm x 200m) 2 u. x $65.637,00 = $131.274,00. Total preadjudicado a ABLE $218.176,20. Reng.3 (bobina pouch 250mm x 200m, 2 u. x $54.722,25 = $109.444,50) rechazado por precio excesivo. Reng.4 (bolsa 140x50x330mm, 6.000 u., ABLE $83,01) no figura en el acta como oferta de ABLE; el acta lista a Kims $46,00 en ese renglón, rechazado por precio excesivo.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-09-16T19:00:16.602Z",
       "renglones_preadj": [
         {
           "reng": "1",
@@ -87358,40 +87523,23 @@
           "precio_siguiente": null,
           "ganador_sig": "Rechazado por precio excesivo",
           "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "4",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo - Marca Able",
+          "cant": 6000,
+          "precio_able": 83.01,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 46,
+          "ganador_sig": "Kims S.R.L. (rechazado por precio excesivo en el acta)",
+          "motivo": "menor_precio"
         }
       ],
-      "gestion_pre": "Preadjudicación APROBADA (acta 23/09/2026, HZGA Dr. Isidoro Iriarte, Quilmes; PA-UPA 17 Quilmes 31/2026). ABLE gana por mejor precio Reng.1 (bobina pouch 100mm x 200m) 4 u. x $21.725,55 = $86.902,20 y Reng.2 (bobina pouch 300mm x 200m) 2 u. x $65.637,00 = $131.274,00. Total preadjudicado a ABLE $218.176,20. Reng.3 (bobina pouch 250mm x 200m, 2 u. x $54.722,25 = $109.444,50) rechazado por precio excesivo.",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 218176.2,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 301,
-      "entidad": "Htal Iriarte",
-      "nro": "PA 31",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-22",
-      "monto": 827640,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pre-adjudicación",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-16T19:00:16.602Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
