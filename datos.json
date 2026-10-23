@@ -79642,14 +79642,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-22",
+      "adj_monto_able": 432060,
+      "adj_resumen": "Adjudicada a ABLE por Disposición DISPO-2026-1706-GDEBA-HIGAPDRRMSALGP: Reng.1 (camisolín SMS 45 g hemorrepelente ArgentCare) 300 u. x $1.440,20 = $432.060,00. Igual a la preadjudicación.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-22",
+      "oc_alertas": "OC Nro. 150/2026, fecha 22/10/2026, HIGA Prof. Dr. Rodolfo Rossi. Reng.1 camisolín SMS 45 g ArgentCare, 300 u. x $1.440,20 = $432.060,00 (IVA incluido). Coincide con la preadjudicación y la oferta. Entrega en Depósito de Farmacia de 7 a 13 hs; pago a 10 días corridos de la factura; ampliaciones hasta 100%.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -79705,11 +79705,24 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Expte. EX-2026-29219825-GDEBA-HIGAPDRRMSALGP, apertura 10/09/2026. Renglón único. Especificación de ABLE (SMS 45gr, puño de algodón) coincide con el pliego — sin problema de especificación técnica. Muestra obligatoria: cláusula completa (Depósito de Farmacia, 7 a 13hs) — exigible a diferencia de otros pliegos donde quedó sin completar. Empate técnico ≤2% (Art. 13.3 pliego). Caducidad mínima exigida: 6 meses.",
-      "creado": "2026-09-04T18:10:38.758Z"
+      "creado": "2026-09-04T18:10:38.758Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Camisolín no estéril, hemorrepelente, tela SMS 45 g, descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca - Marca ArgentCare",
+          "cant": 300,
+          "precio_able": 1440.2,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 1860.23,
+          "ganador_sig": "Propato Hnos. S.A.I.C.",
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
