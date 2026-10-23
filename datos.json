@@ -78267,14 +78267,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-23",
+      "adj_monto_able": 1414794,
+      "adj_resumen": "Adjudicada a ABLE: 12 renglones (47 a 52, 62, 63, 64, 79, 92 y 93) por $1.414.794,00, igual a la preadjudicación. Reng.82 (set de recarga clipadora) no adjudicado por precio excesivo.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-23",
+      "oc_alertas": "OC Nro. 89/2026, fecha 23/10/2026, HZGA de Lobos, Rentas Generales. Total $1.414.794,00 (12 renglones: 47 a 52 a $607,00; 62 $1.250,00; 63 $1.335,00; 64 y 79 $1.205,00; 92 $73,00; 93 $29,50). Coincide con la preadjudicación. Reng.62 y 92 ofertas ALTERNATIVA y reng.63 con aguja 50mm, según la OC. Entrega inmediata dentro de 10 días corridos, en farmacia de 7 a 13 hs.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -78289,11 +78289,156 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-09-04T14:29:06.400Z"
+      "creado": "2026-09-04T14:29:06.400Z",
+      "renglones_adj": [
+        {
+          "reng": "47",
+          "desc": "Sutura monofilamento c/aguja cal. 2/0, aguja recta",
+          "cant": 180,
+          "precio_able": 607,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "48",
+          "desc": "Sutura nylon monofilamento círculo 3/8 24 mm cal. 4/0, aguja recta",
+          "cant": 96,
+          "precio_able": 607,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "49",
+          "desc": "Sutura de nylon monofilamento cal. 5/0, aguja curva",
+          "cant": 36,
+          "precio_able": 607,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PUP)"
+        },
+        {
+          "reng": "50",
+          "desc": "Sutura monofilamento c/aguja cal. 2/0, aguja curva",
+          "cant": 288,
+          "precio_able": 607,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "51",
+          "desc": "Sutura mononylon cal. 3/0 c/aguja recta",
+          "cant": 180,
+          "precio_able": 607,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "52",
+          "desc": "Sutura nylon monofilamento círculo 3/8 24 mm cal. 4/0, aguja curva",
+          "cant": 72,
+          "precio_able": 607,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "62",
+          "desc": "Sutura ác. poliglicólico c/aguja 1/2 círculo punta cilíndrica 40 mm cal. 1 - 90 cm",
+          "cant": 288,
+          "precio_able": 1250,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - oferta ALTERNATIVA, mejor precio (PP)"
+        },
+        {
+          "reng": "63",
+          "desc": "Sutura ác. poliglicólico c/aguja 1/2 círculo punta cilíndrica cal. 1 - 90 cm, aguja 50 mm",
+          "cant": 144,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "64",
+          "desc": "Sutura ác. poliglicólico incoloro trenzado c/aguja reverso cortante 3/8 círculo cal. 3/0",
+          "cant": 48,
+          "precio_able": 1205,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "79",
+          "desc": "Sutura ác. poliglicólico c/aguja 1/2 círculo punta redonda 26 mm cal. 2/0 - 70 cm",
+          "cant": 60,
+          "precio_able": 1205,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "92",
+          "desc": "Cubrecalzado (botas p/cirugía) descartable no estéril c/cintas ajustables, tela no tejida hemorrepelente",
+          "cant": 2100,
+          "precio_able": 73,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - oferta ALTERNATIVA, mejor precio (PP)"
+        },
+        {
+          "reng": "93",
+          "desc": "Cofia dama",
+          "cant": 2100,
+          "precio_able": 29.5,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "aprobado - mejor precio (PP)"
+        },
+        {
+          "reng": "82",
+          "desc": "Set de recarga p/clipadora c/clips de titanio, LT 300 x 6 blíster",
+          "cant": 60,
+          "precio_able": 5296.5,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Rechazado - PRECIO EXCESIVO"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -82158,14 +82303,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-10-22",
+      "adj_monto_able": 39373570,
+      "adj_resumen": "Adjudicada a ABLE por DISPO-2026-2752-DPHMSALGP: reng. 3 a 11 a $1.450,00 (8 x 3.300 u. + reng.11 750 u.) y reng.12 10 u. x $607,00. Total $39.373.570,00. Reng. 1, 2, 14 y 15 no adjudicados (precio excesivo), igual que en la preadjudicación.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-10-22",
+      "oc_alertas": "OC Nro. 599/2026, fecha 22/10/2026, HIGA Dr. Oscar Alende (Mar del Plata), Rentas Generales. Reng.3 a 10: 3.300 u. x $1.450,00 = $4.785.000,00 c/u; reng.11: 750 u. x $1.450,00 = $1.087.500,00; reng.12: 10 u. x $607,00 = $6.070,00. Total $39.373.570,00. Coincide con la preadjudicación. Entrega en Depósito de Almacenes hasta el 31/12/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -83727,11 +83872,167 @@
       "mayor": "Sí",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "IMPORTANTE: los precios de la competencia fueron leídos de fotos de presupuestos, no de un Excel de apertura oficial. Verificar contra el acta de apertura antes de usar para adjudicación. Reng. 4 — el precio leído de Droguería Azcuénaga ($3.358,00) es de lectura dudosa; confirmar contra el original. Cirugía Argentina marcó como ALT (fuera de especificación exacta del pliego) su oferta en los renglones 2, 3, 6, 8 y 9. Con esta lectura, ABLE gana todos los renglones cotizados por menor precio; no se detecta empate técnico ni preferencia nacional. Ningún oferente presenta objeción (obj) detectada en la documentación revisada.",
-      "creado": "2026-09-11T13:23:23.849Z"
+      "creado": "2026-09-11T13:23:23.849Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura Ácido Poliglicólico N°2, aguja 40mm 1/2 círc., punta redonda, hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 2200,
+          "precio_able": 1805.76,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura Poliglactina calibre 2, aguja 40mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1805.76,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura Poliglactina c/triclosán calibre 2, aguja 40mm 1/2 círc., hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura Poliglactina calibre 0, aguja 36mm 1/2 círc., hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura Poliglactina calibre 2/0, aguja 26mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura Poliglactina calibre 2/0, aguja 36mm 1/2 círc., hebra 90cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "7",
+          "desc": "Sutura Poliglactina calibre 3/0, aguja 26mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "8",
+          "desc": "Sutura Poliglactina calibre 3/0 incoloro, aguja 31mm 3/8 círc. reverso cortante, hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9",
+          "desc": "Sutura Poliglactina calibre 4/0, aguja 26mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "10",
+          "desc": "Sutura Poliglactina calibre 4/0, aguja 22mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 3300,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11",
+          "desc": "Sutura Poliglactina calibre 5/0, aguja 15mm 1/2 círc., hebra 70cm - Marca ABLE (Ind. argentina)",
+          "cant": 750,
+          "precio_able": 1450,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "12",
+          "desc": "Sutura Nylon Monofilamento calibre 2/0, aguja 26mm 3/8 círc. reverso cortante, hebra 45cm - Marca Surgimax (Ind. argentina)",
+          "cant": 10,
+          "precio_able": 607,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "14",
+          "desc": "Sutura Nylon Monofilamento calibre 3/0, aguja 24mm 3/8 círc. reverso cortante, hebra 75cm - Marca ABLE (Ind. argentina)",
+          "cant": 1000,
+          "precio_able": 777.15,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "15",
+          "desc": "Sutura Nylon Negro Monofilamento calibre 4/0, aguja 25mm 3/8 círc. reverso cortante, hebra 75cm - Marca ABLE (Ind. argentina)",
+          "cant": 600,
+          "precio_able": 777.15,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-18",
@@ -91692,42 +91993,277 @@
       ]
     },
     {
+      "id": 314,
+      "entidad": "Htal. Naval Dr. Pedro Mallo",
+      "nro": "LP 38",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-01",
+      "monto": 1819950,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana los 4 renglones por amplio margen: reng.1 Quintela +7,3% y Euro Swiss +9,2% sobre ABLE (ambos cotizan producto ABLE); reng.2 Max Continental +47,4%; reng.3 Max +18,2%; reng.4 único competidor Ceos Médica ($16.023,00). Cuadro comparativo oficial con 15 oferentes y 56 renglones; solo se incluyen los 4 renglones donde ABLE cotiza. Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Sin objeciones declaradas. Monto cotizado ABLE $1.819.950,00.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Raúl Quintela S.R.L.",
+          "Euro Swiss S.A.",
+          "Ceos Médica S.A.",
+          "Sedesa S.A.",
+          "Max Continental S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 15000,
+            "desc": "Bajalenguas adultos por unidad - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 10.18,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": 10.92,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 11.12,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceos Médica S.A.",
+                "precio": 41.4,
+                "marca": "CLERICOTH",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 450,
+            "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1355,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceos Médica S.A.",
+                "precio": 8120.9,
+                "marca": "HOLLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 5387.98,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1997.49,
+                "marca": "INTRATUB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 450,
+            "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceos Médica S.A.",
+                "precio": 11738.2,
+                "marca": "HOLLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 6364.23,
+                "marca": "COLOPLAST",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2210.98,
+                "marca": "INTRATUB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 60,
+            "desc": "Bolsa urostomia drenable transparente, 1 pieza, con aro recortable de 15 a 70mm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Quintela S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceos Médica S.A.",
+                "precio": 16023,
+                "marca": "HOLLISTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE gana los 4 renglones por amplio margen: reng.1 Quintela +7,3% y Euro Swiss +9,2% sobre ABLE (ambos cotizan producto ABLE); reng.2 Max Continental +47,4%; reng.3 Max +18,2%; reng.4 único competidor Ceos Médica ($16.023,00). Cuadro comparativo oficial con 15 oferentes y 56 renglones; solo se incluyen los 4 renglones donde ABLE cotiza. Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Sin objeciones declaradas. Monto cotizado ABLE $1.819.950,00."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-09-23T18:41:31.618Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 314,
-      "entidad": "Htal. Naval Dr. Pedro Mallo",
-      "nro": "LP 38",
-      "tipo": "Publica",
-      "fecha": "2026-10-01",
-      "monto": 1819950,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-09-23T18:41:31.618Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-09-30",
