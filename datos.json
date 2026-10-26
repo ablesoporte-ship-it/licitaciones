@@ -112121,12 +112121,12 @@
     },
     {
       "id": 394,
-      "entidad": "Htal de la Vega PA 2",
-      "nro": "",
-      "tipo": "",
+      "entidad": "Htal de la Vega",
+      "nro": "PA 2",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-02",
-      "monto": 0,
-      "mayor": "No",
+      "monto": 8953398,
+      "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
       "etapa": "Pendiente",
@@ -112149,7 +112149,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-10-26T16:36:34.520Z"
+      "creado": "2026-10-26T16:36:34.520Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
   "nextId": 395
