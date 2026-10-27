@@ -98433,12 +98433,46 @@
       "creado": "2026-10-01T16:15:02.982Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-08",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "17",
+          "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 430,
+          "precio_able": 604,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1757.59,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17 ALT 1",
+          "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 430,
+          "precio_able": 785,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "46",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 300,
+          "precio_able": 891.66,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 1286,
+          "ganador_sig": "Synergya S.R.L. (por clip)",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación 217/2026 APROBADA (HIGA Eva Perón, 08/10/2026). ABLE preadjudicada en Reng.17 (430 u. x $604,00 = $259.720,00) y Reng.46 (300 u. x $891,66 = $267.498,00; el acta toma el precio por clip, equivalente al cartucho x6 de $5.350,00 cotizado por ABLE = $891,67 por clip). Total ABLE $527.218,00. La ALT 1 del reng.17 ($785,00) no fue preadjudicada. Total general del acta $18.701.783,20.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -98452,7 +98486,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 527218,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -98601,7 +98635,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.17 — gana ABLE $604,00 vs Sedesa $1.757,59 (+191,0%). Reng.46 — gana Synergya $1.286,00 (por clip) vs ABLE $5.350,00 (cartucho x6). Por clip ABLE equivale a $891,67. Reng.46 ALT — Synergya cart. x6 $7.715,00 vs ABLE $5.350,00 (ABLE 30,7% más barata). Verificar unidad con el hospital.",
