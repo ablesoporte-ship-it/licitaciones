@@ -107259,42 +107259,453 @@
       "creado": "2026-10-16T19:24:09.068Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
+      "id": 381,
+      "entidad": "Htal Penna",
+      "nro": "PA 266",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-10-22",
+      "monto": 10274400,
+      "mayor": "Sí",
+      "zona": "ABLE",
+      "agente": "ABLE",
+      "etapa": "Pre-adjudicación",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Reng.17: ABLE gana ($1.870 vs Max Continental $2.850, +52,4%). Reng.23: gana Pharma Center $397 (DPC) contra $670 de ABLE (+68,8%); ninguna ALT de ABLE ($592,25, $503, $815) alcanza a Pharma Center (la mejor, ALT 2, +26,7%). Cuadro firmado del hospital: solo ABLE figura con muestra 'Sí'; el resto figura 'No' (verificar si implica rechazo). Sin pliego: no se cruzó contra especificaciones; base de IVA no indicada. Monto base ABLE $10.274.400 (sin ALT).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Max Continental S.A.",
+          "Néstor Luis Serrón y Cía. S.R.L.",
+          "Droguería Pharma Center S.R.L.",
+          "MG Pharmacorp S.R.L.",
+          "Equipo Gémico S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "17",
+            "cant": 120,
+            "desc": "Bolsa de Ileostomía pediátrica con desagote, transparente, de 1 pieza con aro recortable de 15 a 40mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2850,
+                "marca": "INTRATUB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Néstor Luis Serrón y Cía. S.R.L.",
+                "precio": 14896,
+                "marca": "SENSURA MIO KIDS (COLOPLAST)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gémico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17 ALT 1",
+            "cant": 120,
+            "desc": "Bolsa de Ileostomía neonatal con desagote, transparente, de 1 pieza con aro recortable de 15 a 32mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3800,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Néstor Luis Serrón y Cía. S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gémico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 15000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 670,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Néstor Luis Serrón y Cía. S.R.L.",
+                "precio": 1987,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 397,
+                "marca": "DPC",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": 2500,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gémico S.A.",
+                "precio": 2999,
+                "marca": "CLOTHIER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23 ALT 1",
+            "cant": 15000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Néstor Luis Serrón y Cía. S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gémico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23 ALT 2",
+            "cant": 15000,
+            "desc": "Camisolin no esteril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 503,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Néstor Luis Serrón y Cía. S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gémico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23 ALT 3",
+            "cant": 15000,
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Néstor Luis Serrón y Cía. S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "MG Pharmacorp S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Equipo Gémico S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Reng.17: ABLE gana ($1.870 vs Max Continental $2.850, +52,4%). Reng.23: gana Pharma Center $397 (DPC) contra $670 de ABLE (+68,8%); ninguna ALT de ABLE ($592,25, $503, $815) alcanza a Pharma Center (la mejor, ALT 2, +26,7%). Cuadro firmado del hospital: solo ABLE figura con muestra 'Sí'; el resto figura 'No' (verificar si implica rechazo). Sin pliego: no se cruzó contra especificaciones; base de IVA no indicada. Monto base ABLE $10.274.400 (sin ALT)."
+      },
+      "preadj_fecha": "2026-10-26",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Acta de preadjudicación parcial 266/2026 (HIGA Dr. José Penna, 26/10/2026), estado: preadjudicación pendiente en el hospital. ABLE preadjudicada en Reng.17 (120 x $1.870 = $224.400) y Reng.23 (15.000 x $670 = $10.050.000); total $10.274.400. Reng.23 ALT 1 y ALT 2 desestimadas por no ajustarse (el acta dice que se pide 35 g y se cotizó 25 g y 20 g, aunque la descripción del acta pide 30 g/m²); ALT 3 y Reng.17 ALT 1 no mencionadas. En el reng.23 la oferta de Pharma Center ($397) no figura en el acta pese a ser menor que ABLE. Total general del acta $65.090.782,04.",
+      "gestion_pre_resultado": "Ganado",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 381,
-      "entidad": "Htal Penna",
-      "nro": "PA 266",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-22",
-      "monto": 10274500,
-      "mayor": "Sí",
-      "zona": "ABLE",
-      "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-19T18:36:27.598Z"
+      "creado": "2026-10-19T18:36:27.598Z",
+      "renglones_preadj": [
+        {
+          "reng": "17",
+          "desc": "Bolsa de Ileostomía pediátrica con desagote, transparente, de 1 pieza con aro recortable de 15 a 40mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 120,
+          "precio_able": 1870,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 2850,
+          "ganador_sig": "Max Continental S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17 ALT 1",
+          "desc": "Bolsa de Ileostomía neonatal con desagote, transparente, de 1 pieza con aro recortable de 15 a 32mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 120,
+          "precio_able": 3800,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "23",
+          "desc": "Camisolin no estéril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 670,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 397,
+          "ganador_sig": "Droguería Pharma Center (oferta menor, no mencionada en el acta)",
+          "motivo": "otro: el acta no explica por qué no se preadjudica la oferta de menor precio"
+        },
+        {
+          "reng": "23 ALT 1",
+          "desc": "Camisolin no estéril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 592.25,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "desestimada: no se ajusta a lo solicitado (25 g)"
+        },
+        {
+          "reng": "23 ALT 2",
+          "desc": "Camisolin no estéril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 503,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "desestimada: no se ajusta a lo solicitado (20 g)"
+        },
+        {
+          "reng": "23 ALT 3",
+          "desc": "Camisolin no estéril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 15000,
+          "precio_able": 815,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
