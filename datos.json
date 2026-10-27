@@ -101662,12 +101662,35 @@
       "creado": "2026-10-05T14:06:29.488Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-14",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "11",
+          "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras - Marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 79.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11 ALT 1",
+          "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras - Marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 143,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación 55/2026 APROBADA (HIEAC San Juan de Dios, 14/10/2026). ABLE preadjudicada en Reng.11 (2.000 u. x $79,50 = $159.000,00); el acta toma $79,50 y la oferta de ABLE decía $80,30 ($160.600,00). La ALT 1 (por par, $143,00) no fue preadjudicada. Total general del acta $13.415.978,20.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -101681,7 +101704,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 159000,
       "adelanto_obs": "",
       "tabla": null,
       "id": 352,
@@ -101693,7 +101716,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
+      "etapa": "Pre-adjudicación",
       "empate": "",
       "pref": "",
       "obs": "",
@@ -102744,7 +102767,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 536225,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -102856,7 +102879,7 @@
       },
       "id": 360,
       "entidad": "H.Z.G.A. Dr. Arturo Oñativia",
-      "nro": "PA 217/20",
+      "nro": "PA 217",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-13",
       "monto": 536225,
