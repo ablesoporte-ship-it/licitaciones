@@ -5830,7 +5830,7 @@
       "mayor": "Sí",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.15: ABLE pierde, gana Farmatec $865 (ABLE $2.400, +177,5%). ALT 1 sin competidores.",
@@ -5925,23 +5925,71 @@
         ],
         "notas": "Reng.15: gana Farmatec $865 (Igaltex/Bluemed) vs ABLE $2.400 (+177,5%); Pharma Center $1.590 y Euro Swiss $5.585. ALT 1 (doble envoltorio) ABLE $2.700, sin competidores. Sin empate técnico ni preferencia nacional. Sin pliego: no se cruzó; IVA sin desglose en el cuadro. Monto base ABLE $7.200.000 (sin ALT)."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-13",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Acta PA 70/2026 aprobada (Cestino, 13/10/2026; DISPO-2026-464). R15 de ABLE rechazado por PRECIO EXCESIVO; el acta lo registra a $2.376 (ofertado $2.400). Aclara que ABLE se ajusta a lo solicitado (estéril), las otras firmas cotizan no estéril. Nada preadjudicado a ABLE.",
+      "gestion_pre_resultado": "Perdido",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-10-13",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no fue adjudicada: el R15 (camisolín estéril, $2.376 según acta) fue rechazado por precio excesivo; R15 ALT 1 no considerada. Fecha = fecha del acta (no se recibió la adjudicación).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "gestion_post": "",
       "gestion_post_resultado": "",
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-06-01T21:26:13.792Z"
+      "oc_alertas": "Sin OC: el R15 cotizado por ABLE fue rechazado por precio excesivo; nada adjudicado a ABLE.",
+      "creado": "2026-06-01T21:26:13.792Z",
+      "renglones_preadj": [
+        {
+          "reng": "15",
+          "desc": "Camisolín estéril, hemorrepelente tela SMS 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 2376,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sin adjudicar - ABLE rechazada por precio excesivo (otras firmas cotizan camisolín no estéril)",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "15 ALT 1",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 2700,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no considerada en el acta"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "15",
+          "desc": "Camisolín estéril, hemorrepelente tela SMS 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 2376,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": "Sin adjudicar - ABLE rechazada por precio excesivo (otras firmas cotizan camisolín no estéril)",
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "15 ALT 1",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+          "cant": 3000,
+          "precio_able": 2700,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no considerada en el acta"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-11",
@@ -102346,41 +102394,531 @@
       "creado": "2026-10-09T19:03:40.199Z"
     },
     {
+      "id": 365,
+      "entidad": "Htal Iriarte",
+      "nro": "LP 1",
+      "tipo": "Licitacion Privada",
+      "fecha": "2026-10-16",
+      "monto": 2998270,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "Sí",
+      "pref": "No",
+      "obs": "R26 y R27 empate técnico con Martorani (+1,7%). R33 y R41 ganados. R48 gana Aupres.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Farmatec S.A.",
+          "Max Continental S.A.",
+          "Droguería Martorani S.A.",
+          "Aupres S.R.L.",
+          "Droguería Pharma Center S.R.L.",
+          "Live In BA S.A. (Healthy Lab)",
+          "Laboratorios Igaltex S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "26",
+            "cant": 500,
+            "desc": "Bajalenguas adultos por 100 unidades",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1018,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1165.06,
+                "marca": "Suturas Argentinas (ABLE) PAQx100u",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1110,
+                "marca": "CLERICOT/SEDEME/NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1001,
+                "marca": "AURINCO",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1334,
+                "marca": "MEDONE ($13,34 x unidad)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 1500,
+            "desc": "Bajalenguas pediátricos por unidad",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 10.18,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1210,
+                "marca": "Suturas Argentinas (ABLE) PAQx100u",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 11.19,
+                "marca": "CLERICOT/SEDEME/NOVAMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 10.01,
+                "marca": "AURINCO",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 12.97,
+                "marca": "MEDONE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "33",
+            "cant": 500,
+            "desc": "Bolsa de ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70 mm (contiene filtro)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 2498.8,
+                "marca": "EURO (colostomía c/desagote)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1895.13,
+                "marca": "INTRATUB (ileostomía abierta opaca c/filtro)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2238.8,
+                "marca": "PHARMACARE (colostomía adhesiva c/desagote)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "41",
+            "cant": 700,
+            "desc": "Bolsa de ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70 mm (contiene filtro)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1870,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2238.8,
+                "marca": "ASPIRATOR/AURINCO (con placa de hidrocoloide)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "48",
+            "cant": 100,
+            "desc": "Camisolín estéril hemorrepelente, tela SMS 45 g, descartable, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2300,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 2200,
+                "marca": "AUPRES",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 3779,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 3105.62,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "48 ALT 1",
+            "cant": 100,
+            "desc": "Camisolín estéril en doble envoltorio, hemorrepelente, tela SMS 45 g, descartable, c/tiras de ajuste en cuello y cintura, puños de algodón ajustables",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2650,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "R26 y R27: empate técnico con Martorani/Aurinco (+1,7%). R33 y R41: gana ABLE $1.870 (siguen Max Continental $1.895,13 y Martorani $2.238,80). R48: gana Aupres $2.200 (ABLE +4,5%, origen no declarado); ALT 1 ABLE $2.650 en doble envoltorio. Euro Swiss R27 y Igaltex R26 cotizaron por pack/caja. Sin cruce de pliego completo; IVA sin desglose. Monto base ABLE $2.998.270 (sin ALT)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "id": 365,
-      "entidad": "Htal Iriarte",
-      "nro": "LP 1",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-10-16",
-      "monto": 3025000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-10-09T19:03:40.225Z"
     },
     {
