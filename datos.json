@@ -81678,7 +81678,7 @@
       },
       "id": 291,
       "entidad": "Htal Region Sanitaria XII",
-      "nro": "PA 174/20",
+      "nro": "PA 174",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-09-16",
       "monto": 446650,
@@ -102968,42 +102968,108 @@
       "creado": "2026-10-07T17:17:50.701Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 359,
       "entidad": "Htal Jose Penna",
-      "nro": "PA 260",
+      "nro": "PA 260/20",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-14",
-      "monto": 4225536,
+      "monto": 4225760,
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-08T12:15:35.480Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "R39: gana Electron Plast $59 (ABLE +27,9%, sin color); Bercor Medical $223,20. Precios de competidores tomados de la preadjudicación (Electron Plast) y de lo informado por la usuaria (Bercor); no hay cuadro comparativo ni pliego adjunto. ABLE ofertó bolsa de 140x50x330mm; el renglón pide 140x250x40-75mm termosoldable con fuelle. Total oferta ABLE $4.225.536 (56.000 x $75,46 = $4.225.760).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Electron Plast S.A.",
+          "Bercor Medical"
+        ],
+        "renglones": [
+          {
+            "reng": "39",
+            "cant": 56000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Electron Plast S.A.",
+                "precio": 59,
+                "marca": "ANQING",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bercor Medical",
+                "precio": 223.2,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "R39: gana Electron Plast $59 (ABLE +27,9%, sin color); Bercor Medical $223,20. Precios de competidores tomados de la preadjudicación (Electron Plast) y de lo informado por la usuaria (Bercor); no hay cuadro comparativo ni pliego adjunto. ABLE ofertó bolsa de 140x50x330mm; el renglón pide 140x250x40-75mm termosoldable con fuelle. Total oferta ABLE $4.225.536 (56.000 x $75,46 = $4.225.760)."
+      },
+      "preadj_fecha": "2026-10-29",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Acta preadjudicación PA 260/2026 (29/10/2026): R39 preadjudicado a Electron Plast S.A. $59,00 (56.000 u., $3.304.000). ABLE ($75,46) superada, +27,9%.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "2026-10-29",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no adjudicada. R39 preadjudicado a Electron Plast S.A. ($59,00 x 56.000 u. = $3.304.000). Fecha tomada de la preadjudicación.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-08T12:15:35.480Z",
+      "renglones_preadj": [
+        {
+          "reng": "39",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+          "cant": 56000,
+          "precio_able": 75.46,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 59,
+          "ganador_sig": "Electron Plast S.A.",
+          "motivo": "superado"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "39",
+          "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+          "cant": 56000,
+          "precio_able": 75.46,
+          "marca": "Able",
+          "resultado": "no_adj",
+          "precio_siguiente": 59,
+          "ganador_sig": "Electron Plast S.A.",
+          "motivo": "superado"
+        }
+      ],
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-10-15",
@@ -108711,7 +108777,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 10274400,
       "adelanto_obs": "",
       "tabla": {
         "oferentes": [
@@ -109063,7 +109129,7 @@
         "notas": "Reng.17: ABLE gana ($1.870 vs Max Continental $2.850, +52,4%). Reng.23: gana Pharma Center $397 (DPC) contra $670 de ABLE (+68,8%); ninguna ALT de ABLE ($592,25, $503, $815) alcanza a Pharma Center (la mejor, ALT 2, +26,7%). Cuadro firmado del hospital: solo ABLE figura con muestra 'Sí'; el resto figura 'No' (verificar si implica rechazo). Sin pliego: no se cruzó contra especificaciones; base de IVA no indicada. Monto base ABLE $10.274.400 (sin ALT)."
       },
       "id": 381,
-      "entidad": "Htal Penna",
+      "entidad": "Htal Jose Penna",
       "nro": "PA 266",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-22",
