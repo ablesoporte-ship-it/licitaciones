@@ -13034,45 +13034,497 @@
       "creado": "2026-06-12T13:52:16.153Z"
     },
     {
+      "id": 79,
+      "entidad": "Htal Pirovano",
+      "nro": "CM 427",
+      "tipo": "Contratacion Menor",
+      "fecha": "2026-06-12",
+      "monto": 3129600,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "R4: pref. nacional vs Cardiomedic (Atramat, México) $12.922,80 (ABLE +2,15%). R1 y R2: ABLE gana; Cardiopack ($1.179,75 y $1.196,69) cotiza menos pero con desvíos de pliego (obj, a verificar); si fuera válido, R1 quedaría en pref. nacional (+5,9%, Surgikal India) y R2 en empate técnico (+0,7%). Sin pliego adjunto: cruce contra el cuadro. ABLE R4 ofertó hebra 30cm y punta espatulada; el pliego pide hebra 12-14cm y punta redonda (Cardiomedic cumple). Monto base ABLE $3.129.600 (sin ALT; total planilla $5.468.520 incluye ALT R1 y R2).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Bhaurac S.A.",
+          "Sedesa S.A.",
+          "Droguería Martorani S.A.",
+          "Cardiomedic S.A.",
+          "Cirugía Argentina S.A.",
+          "Dispromed Comercial S.R.L.",
+          "Cardiopack Argentina S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Covidien Argentina S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 1512,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 1494.35,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3602.43,
+                "marca": "J&J VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2129.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 2528.9,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1692,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 1750,
+                "marca": "SUTUMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1179.75,
+                "marca": "SURGIKAL (Origen: India) (obj) punta reforzada y hebra 75cm ≠ pliego punta redonda, 69-71cm",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1504.48,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 2209.46,
+                "marca": "DEXON (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 1512,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 240,
+            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 1760.55,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3749.18,
+                "marca": "J&J VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2129.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 2413.95,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1692,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 1804.35,
+                "marca": "SUTUMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1196.69,
+                "marca": "SURGIKAL (obj) hebra 90cm ≠ pliego 69-71cm",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1439.06,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 2568.83,
+                "marca": "DEXON (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 240,
+            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 72,
+            "desc": "Sutura de Nylon Monofilamento N° 8/0 con doble aguja de 6,5mm, 3/8 círc. (doble), punta Espatulada, hebra de 30cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 13200,
+                "marca": "ABLE",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 38886.43,
+                "marca": "J&J ETHILON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 12922.8,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 16245,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 36203.2,
+                "marca": "MONOSOF-DERMALON (Origen: EE.UU/Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "R4: pref. nacional vs Cardiomedic (Atramat, México) $12.922,80 (ABLE +2,15%). R1 y R2: ABLE gana; Cardiopack ($1.179,75 y $1.196,69) cotiza menos pero con desvíos de pliego (obj, a verificar); si fuera válido, R1 quedaría en pref. nacional (+5,9%, Surgikal India) y R2 en empate técnico (+0,7%). Sin pliego adjunto: cruce contra el cuadro. ABLE R4 ofertó hebra 30cm y punta espatulada; el pliego pide hebra 12-14cm y punta redonda (Cardiomedic cumple). Monto base ABLE $3.129.600 (sin ALT; total planilla $5.468.520 incluye ALT R1 y R2)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-06-12T14:49:07.245Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 79,
-      "entidad": "Htal Pirovano",
-      "nro": "CM 427",
-      "tipo": "Contratacion Menor",
-      "fecha": "2026-06-12",
-      "monto": 5468520,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-06-12T14:49:07.245Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -15162,45 +15614,296 @@
       ]
     },
     {
+      "id": 95,
+      "entidad": "Hospital Durand",
+      "nro": "CM 416/20",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-06-22",
+      "monto": 552900,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE gana R3 (base $1.335) y R4 ($1.205). Cardiopack ($1.235,41 en R3 y $1.164,02 en R4) cotiza menos pero con desvíos de pliego (R3 punta reforzada y hebra 75cm; R4 hebra 90cm vs 69-71cm): obj, a verificar. Si fuera válido, R3 quedaría en pref. nacional (+8,1%, Surgikal India) y en R4 gana Cardiopack (nacional, ABLE +3,5%). Sin pliego adjunto: cruce contra el cuadro. R3 ALT 1 (Surgimax $1.250) en su fila. Monto base ABLE $552.900 (sin ALT; total planilla $1.002.900 incluye R3 ALT 1 $450.000).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Sedesa S.A.",
+          "Cirugía Argentina S.A.",
+          "Cardiopack Argentina S.A.",
+          "Covidien Argentina S.A.",
+          "Cardiomedic S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Bhaurac S.A.",
+          "Droguería Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 360,
+            "desc": "Sutura de Ácido Poliglicólico N° 0 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3651.04,
+                "marca": "J&J VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1660,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1235.41,
+                "marca": "SURGIKAL (Origen: India) (obj) punta reforzada y hebra 75cm ≠ pliego punta redonda, 69-71cm",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 2209.46,
+                "marca": "DEXON (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 2410.32,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1499.38,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 1785.96,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2129.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 1",
+            "cant": 360,
+            "desc": "Sutura de Ácido Poliglicólico N° 0 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 60,
+            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4284.78,
+                "marca": "J&J VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1660,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1164.02,
+                "marca": "SURGIKAL (obj) hebra 90cm ≠ pliego 69-71cm",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 2568.83,
+                "marca": "DEXON (Origen: Brasil)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 2337.72,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1434.18,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 1785.96,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2129.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE gana R3 (base $1.335) y R4 ($1.205). Cardiopack ($1.235,41 en R3 y $1.164,02 en R4) cotiza menos pero con desvíos de pliego (R3 punta reforzada y hebra 75cm; R4 hebra 90cm vs 69-71cm): obj, a verificar. Si fuera válido, R3 quedaría en pref. nacional (+8,1%, Surgikal India) y en R4 gana Cardiopack (nacional, ABLE +3,5%). Sin pliego adjunto: cruce contra el cuadro. R3 ALT 1 (Surgimax $1.250) en su fila. Monto base ABLE $552.900 (sin ALT; total planilla $1.002.900 incluye R3 ALT 1 $450.000)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-06-22T13:11:59.333Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 95,
-      "entidad": "HTAL DURAND",
-      "nro": "CM 416",
-      "tipo": "Contratacion Menor",
-      "fecha": "2026-06-26",
-      "monto": 3996360,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-06-22T13:11:59.333Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
@@ -53666,45 +54369,493 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
       "id": 183,
       "entidad": "Hospital Durand",
       "nro": "CM 416",
       "tipo": "Contratacion Menor",
       "fecha": "2026-08-07",
-      "monto": 4771000,
+      "monto": 2616000,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-31T21:42:54.871Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE pierde R1, R2 y R3 (Drogmed/Propato). Monto base sin ALT.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiomedic S.A.",
+          "Cirugía Argentina S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Paseo Liniers S.A.",
+          "Covidien Argentina S.A.",
+          "Lavardén Insumos Médicos S.R.L.",
+          "Cardiopack Argentina S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Sedesa S.A.",
+          "Drogmed S.R.L.",
+          "Bhaurac S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 240,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 7704.07,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 5575,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1039.35,
+                "marca": "MEDONE (obj) 1/2 círc. taper ≠ pliego 3/8 círc. punta redonda",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Paseo Liniers S.A.",
+                "precio": 17506.67,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 7280.57,
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 6195,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2722.5,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 957.37,
+                "marca": "CLYSTER",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 11278.12,
+                "marca": "J&J PROLENE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogmed S.R.L.",
+                "precio": 902.1,
+                "marca": "",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 240,
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 240,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 7383.42,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 5975,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 1519.84,
+                "marca": "MEDONE (obj) 1/2 círc. taper ≠ pliego 3/8 círc. punta redonda",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Paseo Liniers S.A.",
+                "precio": 13262.36,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 7280.57,
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 6195,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 957.37,
+                "marca": "CLYSTER (alternativa)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 11278.12,
+                "marca": "J&J PROLENE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogmed S.R.L.",
+                "precio": 902.1,
+                "marca": "(obj) arco 11mm ≠ pliego 12-14mm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 3960,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 240,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 180,
+            "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 7510,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 3359.81,
+                "marca": "MEDONE (obj) 1/2 círc. taper ≠ pliego 3/8 círc. punta redonda",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Paseo Liniers S.A.",
+                "precio": 17506.67,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 7919.45,
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 6195,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 4019.62,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 957.37,
+                "marca": "CLYSTER (alternativa)",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 15226.94,
+                "marca": "J&J PROLENE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Drogmed S.R.L.",
+                "precio": 902.1,
+                "marca": "(obj) arco 11mm ≠ pliego 9-10mm",
+                "bg_precio": "",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 9256,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE pierde R1, R2 y R3 (diferencias >10%, sin empate ni pref. nacional). R1: gana Drogmed $902,10; R2 y R3: gana Propato $957,37 (ofrece 'alternativa' sin detalle de especificación). Igaltex (aguja 1/2 círc. taper) y Drogmed en R2 y R3 (arco 11mm) cotizan menos que ABLE pero con desvíos de pliego (obj, a verificar). Sin pliego adjunto: cruce contra el cuadro. Monto base ABLE $2.616.000 (sin ALT; total planilla $4.771.200 incluye ALT R1 y R2)."
+      },
+      "preadj_fecha": "2026-10-29",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE no preadjudicada. R1, R2 y R3 preadjudicados a Sedesa S.A. (R1 y R2 $11.278,12; R3 $15.226,94). Motivo no informado. Fecha de preadjudicación no informada: se usó la fecha de hoy.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "2026-10-29",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no adjudicada. Renglones 1, 2 y 3 adjudicados a Sedesa S.A. Fecha tomada de la preadjudicación.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-07-31T21:42:54.871Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+          "cant": 240,
+          "precio_able": 2415,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 11278.12,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 240,
+          "precio_able": 3000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 240,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 11278.12,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "2 ALT 1",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 240,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 15226.94,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+          "cant": 240,
+          "precio_able": 2415,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 11278.12,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 240,
+          "precio_able": 3000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 240,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 11278.12,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "2 ALT 1",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 240,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 15226.94,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-07",
@@ -117357,7 +118508,43 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": ""
+    },
+    {
+      "id": 400,
+      "entidad": "Htal. Velez Sarsfield",
+      "nro": "CM 440-3744",
+      "tipo": "Contratacion Menor",
+      "fecha": "2026-11-03",
+      "monto": 8067346,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-29T18:24:11.597Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     }
   ],
-  "nextId": 400
+  "nextId": 401
 }
