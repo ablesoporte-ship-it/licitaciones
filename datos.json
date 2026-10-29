@@ -115277,10 +115277,10 @@
     {
       "id": 397,
       "entidad": "Htal del Bicentenario de Ituizango PAMI",
-      "nro": "",
-      "tipo": "",
+      "nro": "PA121",
+      "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-30",
-      "monto": 0,
+      "monto": 1790100,
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
@@ -115304,7 +115304,11 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-10-29T14:17:41.168Z"
+      "creado": "2026-10-29T14:17:41.168Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "id": 398,
