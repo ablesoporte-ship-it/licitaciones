@@ -107547,21 +107547,77 @@
       "creado": "2026-10-08T12:15:35.524Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-30",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 144,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2568.83,
+          "ganador_sig": "Covidien Argentina S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 180,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2757.37,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 180,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1808,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 540,
+          "precio_able": 1250,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2757.37,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "6 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 540,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 0,
+          "ganador_sig": "",
+          "motivo": "rechazado_calidad"
+        }
+      ],
+      "gestion_pre": "Preadjudicación CM 425-3479: R1 a Covidien ($2.568,83); R2, R4 y R5 a Cirugía Argentina; R3 y R6 a Sedesa ($2.757,37). ABLE sin renglones adjudicados.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-10-30",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no adjudicada. R1 a Covidien; R2, R4 y R5 a Cirugía Argentina; R3 y R6 a Sedesa. Fecha tomada de la preadjudicación.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "adelanto": false,
@@ -108024,11 +108080,68 @@
       "mayor": "No",
       "zona": "ABLE",
       "agente": "ABLE",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana R1, R3, R4 y R6 (sin empate ni pref. nacional). Precios del cuadro BAC tal cual. Sin pliego adjunto: cruce contra la descripción del cuadro. Cardiopack (Surgikal 6326) R1 y R3: hebra 45cm vs 69-71cm pedidos (obj, a verificar). R3 pide triclosán y R6 clorhexidina: la oferta ABLE no lo especifica. Monto base ABLE $1.282.320 (sin ALT; total planilla $2.003.220 incluye R6 ALT 1 $720.900).",
-      "creado": "2026-10-08T12:23:14.264Z"
+      "creado": "2026-10-08T12:23:14.264Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 144,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2568.83,
+          "ganador_sig": "Covidien Argentina S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "3",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 180,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2757.37,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 180,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1808,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 540,
+          "precio_able": 1250,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2757.37,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "6 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 540,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "",
