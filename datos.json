@@ -78201,42 +78201,131 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 250,
-      "entidad": "Htal. Rivadavia",
-      "nro": "CM 431",
+      "entidad": "Htal. Bernardino Rivadavia",
+      "nro": "CM 431-2818",
       "tipo": "Contratacion Menor",
       "fecha": "2026-08-28",
       "monto": 712800,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-08-26T18:05:44.157Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios con IVA incluido (según cuadro). Cruce contra el pliego del cuadro: sin desvíos relevantes en la oferta de ABLE. ABLE pierde el único renglón con Propato (Clyster $810,44; ABLE +193,2%). Bhaurac ($2.785) también cotiza más que ABLE. Monto base ABLE $712.800.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Bhaurac S.A.",
+          "Cirugía Argentina S.A.",
+          "Sedesa S.A.",
+          "Covidien Argentina S.A.",
+          "Propato Hnos. S.A.I.C."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 300,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 65mm, 1/2 Círc., punta Redonda, hebra de 150cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2376,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 2785,
+                "marca": "UNISUR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 8110,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 8129.65,
+                "marca": "ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 13842.4,
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 810.44,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios con IVA incluido (según cuadro). Cruce contra el pliego del cuadro: sin desvíos relevantes en la oferta de ABLE. ABLE pierde el único renglón con Propato (Clyster $810,44; ABLE +193,2%). Bhaurac ($2.785) también cotiza más que ABLE. Monto base ABLE $712.800."
+      },
+      "preadj_fecha": "2026-09-18",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Disposición DISFC-2026-232-GCABA-DGAHBR (18/09/2026): R1 a Propato Hnos. ($243.132 = 300 x $810,44). Mejora de precio de ABLE 1,00%.",
+      "gestion_pre_resultado": "Perdido",
+      "adj_recibida": false,
+      "adj_fecha": "2026-09-18",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no adjudicada. Renglón 1 a Propato Hnos. S.A.I.C. por $243.132. Fecha de la disposición.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-08-26T18:05:44.157Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 65mm, 1/2 Círc., punta Redonda, hebra de 150cm - Marca ABLE (Industria argentina)",
+          "cant": 300,
+          "precio_able": 2376,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 810.44,
+          "ganador_sig": "Propato Hnos. S.A.I.C.",
+          "motivo": "superado"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 65mm, 1/2 Círc., punta Redonda, hebra de 150cm - Marca ABLE (Industria argentina)",
+          "cant": 300,
+          "precio_able": 2376,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 810.44,
+          "ganador_sig": "Propato Hnos. S.A.I.C.",
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "",
