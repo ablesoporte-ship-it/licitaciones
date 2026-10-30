@@ -5087,63 +5087,47 @@
       "creado": "2026-05-29T19:19:12.262Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
+      "id": 43,
+      "entidad": "Htal. Juan A. Fernandez",
+      "nro": "CM 418-1693",
+      "tipo": "Contratacion Menor",
+      "fecha": "2026-05-28",
+      "monto": 4108032,
+      "mayor": "No",
+      "zona": "CABA",
+      "agente": "Diego",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios del cuadro tal cual (la base de IVA no está discriminada). Sin pliego adjunto: cruce contra la descripción del cuadro. ABLE gana solo R2. R1, R4, R5 y R6 los gana otro oferente por más de 10% (sin empate ni pref. nacional). Propato cotizó alternativa en R4 y R6 (filas ALT). R3 y R7 no los cotizó ABLE. Monto base ABLE $4.108.032.",
       "tabla": {
         "oferentes": [
-          "ABLE S.A. 🇦🇷",
-          "CIR. ARGENTINA",
-          "CARDIOMEDIC",
-          "CARDIOPACK",
-          "SEDESA",
-          "COVIDIEN",
-          "IGALTEX",
-          "PROPATO HNOS."
+          "ABLE S.A.",
+          "Cardiomedic S.A.",
+          "Cardiopack Argentina S.A.",
+          "Covidien Argentina S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Cirugía Argentina S.A.",
+          "Sedesa S.A.",
+          "Propato Hnos. S.A.I.C."
         ],
         "renglones": [
           {
             "reng": "1",
             "cant": 216,
-            "desc": "Sutura polipropileno monofil. 7/0 — 2 ag. 3/8 circ. redonda 9-10mm, hebra 60cm",
+            "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 5980,
-                "marca": "ABLE (Ind. Argentina)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "CIR. ARGENTINA",
-                "precio": 7190,
-                "marca": "TAGUM® (Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiomedic S.A.",
                 "precio": 8503.88,
                 "marca": "ATRAMAT (Origen: México)",
                 "bg_precio": "",
@@ -5151,39 +5135,47 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": 3443.66,
-                "marca": "SURGIKAL (Ind. Argentina)",
+                "marca": "SURGIKAL",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
-              },
-              {
-                "oferente": "SEDESA",
-                "precio": 14643.4,
-                "marca": "PROLENE — J&J (Origen: EE.UU.)",
-                "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COVIDIEN",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": 7200.71,
-                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": 5294.1,
-                "marca": "MEDONE (Origen: —)",
+                "marca": "MEDONE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 7190,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 14643.4,
+                "marca": "PROLENE-JJ ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5195,27 +5187,19 @@
           {
             "reng": "2",
             "cant": 144,
-            "desc": "Sutura polipropileno monofil. 8/0 — 2 ag. 3/8 circ. 6-7mm, hebra 60cm ①",
+            "desc": "Sutura de Polipropileno N° 8/0 con doble aguja de 6,5mm, 3/8 Círc. (2 Ag.), punta Espatulada, hebra de 60cm - Marca ABLE (Industria argentina)",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 6578,
-                "marca": "ABLE (Ind. Argentina)",
+                "marca": "ABLE",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
-              },
-              {
-                "oferente": "CIR. ARGENTINA",
-                "precio": 15340,
-                "marca": "TAGUM® (Origen: Perú)",
-                "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiomedic S.A.",
                 "precio": 9915.95,
                 "marca": "ATRAMAT (Origen: México)",
                 "bg_precio": "",
@@ -5223,7 +5207,7 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5231,23 +5215,15 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
-                "precio": 32975.22,
-                "marca": "PROLENE — J&J (Origen: EE.UU.)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COVIDIEN",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": 23478.84,
-                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5255,7 +5231,23 @@
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 15340,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 32975.22,
+                "marca": "PROLENE-JJ ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5267,27 +5259,19 @@
           {
             "reng": "4",
             "cant": 192,
-            "desc": "Sutura polipropileno monofil. 4/0 — 2 ag. 1/2 circ. redonda 21-23mm, hebra 75cm",
+            "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 25mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 3000,
-                "marca": "ABLE (Ind. Argentina)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "CIR. ARGENTINA",
-                "precio": 3125,
-                "marca": "TAGUM® (Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiomedic S.A.",
                 "precio": 5568.42,
                 "marca": "ATRAMAT (Origen: México)",
                 "bg_precio": "",
@@ -5295,39 +5279,47 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": 1557.27,
-                "marca": "SURGIKAL (Ind. Argentina)",
+                "marca": "SURGIKAL",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
-                "obj": false
-              },
-              {
-                "oferente": "SEDESA",
-                "precio": 7862.9,
-                "marca": "PROLENE — J&J (Origen: EE.UU.)",
-                "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "COVIDIEN",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": 5656.75,
-                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": 1705.95,
-                "marca": "MEDONE (Origen: —)",
+                "marca": "MEDONE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3125,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 7862.9,
+                "marca": "PROLENE-JJ ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5337,13 +5329,13 @@
             ]
           },
           {
-            "reng": "4",
+            "reng": "4 ALT",
             "cant": 192,
-            "desc": "Sutura polipropileno 4/0 — alternativa",
+            "desc": "ALT competidor (ABLE sin ALT): Sutura de polipropileno 4/0 c/aguja PLP09082003A3",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5351,7 +5343,7 @@
                 "obj": false
               },
               {
-                "oferente": "CIR. ARGENTINA",
+                "oferente": "Cardiomedic S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5359,7 +5351,7 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5367,7 +5359,7 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5375,7 +5367,7 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5383,7 +5375,7 @@
                 "obj": false
               },
               {
-                "oferente": "COVIDIEN",
+                "oferente": "Cirugía Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5391,7 +5383,7 @@
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Sedesa S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5399,9 +5391,9 @@
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": 1044.79,
-                "marca": "CLYSTER (Origen: —)",
+                "marca": "CLYSTER",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -5411,27 +5403,19 @@
           {
             "reng": "5",
             "cant": 144,
-            "desc": "Sutura polipropileno monofil. 6/0 — 2 ag. 3/8 circ. redonda 12-14mm, hebra 75cm",
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 5980,
-                "marca": "ABLE (Ind. Argentina)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "CIR. ARGENTINA",
-                "precio": 6520,
-                "marca": "TAGUM® (Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiomedic S.A.",
                 "precio": 6711.87,
                 "marca": "ATRAMAT (Origen: México)",
                 "bg_precio": "",
@@ -5439,39 +5423,47 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": 2855.6,
-                "marca": "SURGIKAL (Ind. Argentina)",
+                "marca": "SURGIKAL",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
-                "precio": 10846.54,
-                "marca": "PROLENE — J&J (Origen: EE.UU.)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COVIDIEN",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": 6615.07,
-                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": 2494.62,
-                "marca": "MEDONE (Origen: —)",
+                "marca": "MEDONE",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 6520,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 10846.54,
+                "marca": "PROLENE-JJ ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5483,27 +5475,19 @@
           {
             "reng": "6",
             "cant": 144,
-            "desc": "Sutura polipropileno monofil. 5/0 — 2 ag. 3/8 circ. redonda 12-14mm, hebra 60-65cm",
+            "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
             "es_alt": false,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": 3000,
-                "marca": "ABLE (Ind. Argentina)",
+                "marca": "ABLE",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "CIR. ARGENTINA",
-                "precio": 5020,
-                "marca": "TAGUM® (Origen: Perú)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiomedic S.A.",
                 "precio": 7002.27,
                 "marca": "ATRAMAT (Origen: México)",
                 "bg_precio": "",
@@ -5511,39 +5495,47 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": 2612.39,
-                "marca": "SURGIKAL (Ind. Argentina)",
+                "marca": "SURGIKAL",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
-                "precio": 10846.54,
-                "marca": "PROLENE — J&J (Origen: EE.UU.)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "COVIDIEN",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": 6601.76,
-                "marca": "SURGIPRO (Origen: EE.UU./Rep.Dom.)",
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": 1705.95,
-                "marca": "MEDONE (Origen: —)",
+                "marca": "MEDONE",
                 "bg_precio": "verde",
-                "bg_marca": "verde",
+                "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 5020,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 10846.54,
+                "marca": "PROLENE-JJ ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5553,13 +5545,13 @@
             ]
           },
           {
-            "reng": "6",
+            "reng": "6 ALT",
             "cant": 144,
-            "desc": "Sutura polipropileno 5/0 — alternativa",
+            "desc": "ALT competidor (ABLE sin ALT): Sutura de polipropileno 5/0 c/aguja PLP09071807A3",
             "es_alt": true,
             "celdas": [
               {
-                "oferente": "ABLE S.A. 🇦🇷",
+                "oferente": "ABLE S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5567,7 +5559,7 @@
                 "obj": false
               },
               {
-                "oferente": "CIR. ARGENTINA",
+                "oferente": "Cardiomedic S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5575,7 +5567,7 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOMEDIC",
+                "oferente": "Cardiopack Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5583,7 +5575,7 @@
                 "obj": false
               },
               {
-                "oferente": "CARDIOPACK",
+                "oferente": "Covidien Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5591,7 +5583,7 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Laboratorios Igaltex S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5599,7 +5591,7 @@
                 "obj": false
               },
               {
-                "oferente": "COVIDIEN",
+                "oferente": "Cirugía Argentina S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5607,7 +5599,7 @@
                 "obj": false
               },
               {
-                "oferente": "IGALTEX",
+                "oferente": "Sedesa S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -5615,9 +5607,9 @@
                 "obj": false
               },
               {
-                "oferente": "PROPATO HNOS.",
+                "oferente": "Propato Hnos. S.A.I.C.",
                 "precio": 1044.79,
-                "marca": "CLYSTER (Origen: —)",
+                "marca": "CLYSTER",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -5625,25 +5617,139 @@
             ]
           }
         ],
-        "notas": "① Reng.2: ABLE punta espatulada, pliego pide redonda — verificar. ② Rengs. 3 y 7 excluidos (ABLE no cotiza). ③ Alternativas Propato rengs. 4 y 6 sin color (precio único)."
+        "notas": "Precios del cuadro tal cual (la base de IVA no está discriminada). Sin pliego adjunto: cruce contra la descripción del cuadro. ABLE gana solo R2. R1, R4, R5 y R6 los gana otro oferente por más de 10% (sin empate ni pref. nacional). Propato cotizó alternativa en R4 y R6 (filas ALT). R3 y R7 no los cotizó ABLE. Monto base ABLE $4.108.032."
       },
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 43,
-      "entidad": "HTAL. JUAN A. FERNANDEZ",
-      "nro": "CM 418-1693",
-      "tipo": "Contratacion Menor",
-      "fecha": "2026-05-28",
-      "monto": 4108032,
-      "mayor": "No",
-      "zona": "CABA",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "ABLE gana reng.2 (PP 8/0). Pierde rengs. 1, 4, 5 y 6 por diferencias >10%. Verificar punta espatulada reng.2 vs pliego punta redonda.",
-      "creado": "2026-05-29T19:59:43.631Z"
+      "preadj_fecha": "2026-06-23",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Preadjudicación CME 418-1693: R1 a R6 a Sedesa S.A. por asesoramiento técnico. ABLE sin renglones adjudicados.",
+      "gestion_pre_resultado": "Perdido",
+      "adj_recibida": false,
+      "adj_fecha": "2026-06-23",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no adjudicada. R1, R2, R4, R5 y R6 a Sedesa S.A. por asesoramiento técnico. Fecha tomada de la preadjudicación.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-05-29T19:59:43.631Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
+          "cant": 216,
+          "precio_able": 5980,
+          "marca": "PPA700960G - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 14643.4,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "asesoramiento técnico"
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 8/0 con doble aguja de 6,5mm, 3/8 Círc. (2 Ag.), punta Espatulada, hebra de 60cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 6578,
+          "marca": "PPA800660H - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 32975.22,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "asesoramiento técnico"
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 25mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 192,
+          "precio_able": 3000,
+          "marca": "PPA402590C - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 7862.9,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "asesoramiento técnico"
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 5980,
+          "marca": "PPA601275G - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 10846.54,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "asesoramiento técnico"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 3000,
+          "marca": "PPA501390G - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 10846.54,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "asesoramiento técnico"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
+          "cant": 216,
+          "precio_able": 5980,
+          "marca": "PPA700960G - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 14643.4,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 8/0 con doble aguja de 6,5mm, 3/8 Círc. (2 Ag.), punta Espatulada, hebra de 60cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 6578,
+          "marca": "PPA800660H - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 32975.22,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "4",
+          "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 25mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 192,
+          "precio_able": 3000,
+          "marca": "PPA402590C - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 7862.9,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 5980,
+          "marca": "PPA601275G - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 10846.54,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 3000,
+          "marca": "PPA501390G - ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 10846.54,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-06-01",
