@@ -34568,45 +34568,196 @@
       ]
     },
     {
+      "id": 134,
+      "entidad": "Htal Militar Centra Argerich 601",
+      "nro": "LP 84",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-07-21",
+      "monto": 3328720,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios del cuadro tal cual (la base de IVA no está discriminada). Sin pliego adjunto: cruce contra la descripción del cuadro, sin desvíos relevantes. ABLE gana R3, R4 y R6 (sin empate ni pref. nacional). Lavardén (R3 $6.990, R4 $5.990) y Raul Quintela (R3) cotizan marca ABLE. Monto base ABLE $3.328.720. El resto de los renglones no los cotizó ABLE.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Unolex S.A.",
+          "Ernesto Van Rosuum y Cía S.R.L.",
+          "Raul Quintela S.R.L.",
+          "Lavardén Insumos Médicos S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 200,
+            "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6500,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Unolex S.A.",
+                "precio": 19000,
+                "marca": "WELFARE MEDICAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ernesto Van Rosuum y Cía S.R.L.",
+                "precio": 21500,
+                "marca": "WELFARE MEDICAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Quintela S.R.L.",
+                "precio": 15500,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 6990,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 300,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Unolex S.A.",
+                "precio": 19000,
+                "marca": "WELFARE MEDICAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ernesto Van Rosuum y Cía S.R.L.",
+                "precio": 21500,
+                "marca": "WELFARE MEDICAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Quintela S.R.L.",
+                "precio": 12760,
+                "marca": "CLIPMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 5990,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 72,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano Tipo LT200 Marca - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5885,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Unolex S.A.",
+                "precio": 19000,
+                "marca": "WELFARE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ernesto Van Rosuum y Cía S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raul Quintela S.R.L.",
+                "precio": 12760,
+                "marca": "CLIPMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios del cuadro tal cual (la base de IVA no está discriminada). Sin pliego adjunto: cruce contra la descripción del cuadro, sin desvíos relevantes. ABLE gana R3, R4 y R6 (sin empate ni pref. nacional). Lavardén (R3 $6.990, R4 $5.990) y Raul Quintela (R3) cotizan marca ABLE. Monto base ABLE $3.328.720. El resto de los renglones no los cotizó ABLE."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-07-16T12:23:36.729Z",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 134,
-      "entidad": "Htal Cosme Argerich",
-      "nro": "LP 84",
-      "tipo": "Publica",
-      "fecha": "2026-07-21",
-      "monto": 3328720,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-07-16T12:23:36.729Z"
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-07-31",
@@ -35223,21 +35374,33 @@
       "creado": "2026-07-17T12:00:33.675Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-13",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 640,
+          "precio_able": 5995,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 16449.18,
+          "ganador_sig": "Marmedical S.A.",
+          "motivo": "no_presento_muestras"
+        }
+      ],
+      "gestion_pre": "Preadjudicación CME 412-2422-CME26: R1 a Marmedical S.A. ($16.449,18). ABLE no presentó muestras.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-08-13",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no adjudicada. Renglón 1 adjudicado a Marmedical S.A. ABLE no presentó muestras. Fecha tomada de la preadjudicación.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "adelanto": false,
@@ -35315,18 +35478,31 @@
       },
       "id": 139,
       "entidad": "Htal Cosme Argerich",
-      "nro": "CM 412",
+      "nro": "CM 412-2422",
       "tipo": "Contratacion Menor",
       "fecha": "2026-07-23",
       "monto": 3836800,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana R1 (único renglón cotizado) con $5.995; siguiente Tecnoimagen $8.206 (+36,9%). Sin empate ni pref. nacional. Sin pliego adjunto: cruce contra la descripción del cuadro, sin desvíos. Cirugía Argentina, Tecnoimagen, FOC y Sedesa ofrecen clipadoras en comodato/bonificadas por la adjudicación total del renglón; la oferta de ABLE no lo incluye.",
-      "creado": "2026-07-17T12:53:34.378Z"
+      "creado": "2026-07-17T12:53:34.378Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 640,
+          "precio_able": 5995,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 16449.18,
+          "ganador_sig": "Marmedical S.A.",
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -78441,21 +78617,77 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-09-10",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+          "cant": 336,
+          "precio_able": 2415,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 8550.73,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 336,
+          "precio_able": 3000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 480,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 8550.73,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "2 ALT 1",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 480,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Ácido Poliglicólico N° 5/0 con aguja de 20mm, 3/8 Círc., punta Rev. Cort., hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3341.97,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Preadjudicación CME 412-2951-CME26: R1, R2 y R5 a Sedesa S.A. por menor precio. ABLE sin renglones adjudicados.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-09-10",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no adjudicada. Renglones 1, 2 y 5 adjudicados a Sedesa S.A. Fecha tomada de la preadjudicación.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "adelanto": false,
@@ -78880,18 +79112,75 @@
       },
       "id": 252,
       "entidad": "Htal Cosme Argerich",
-      "nro": "CM 412",
+      "nro": "CM 412-2951",
       "tipo": "Contratacion Menor",
       "fecha": "2026-09-01",
       "monto": 2923680,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana R2 y R5. R1: gana Propato $914,19 (ABLE +164%). Igaltex (R1 y R2, aguja 1/2 círc. taper) y Cardiopack (R5, aguja 15mm, hebra 75cm) cotizan menos que ABLE pero con desvíos de pliego (obj, a verificar); si Cardiopack fuera válido, R5 quedaría en pref. nacional (+8,9%). Sin pliego adjunto: cruce contra descripciones del cuadro. Monto base ABLE $2.923.680 (sin ALT; total planilla $6.802.080 incluye ALT R1 y R2).",
-      "creado": "2026-08-26T20:16:46.542Z"
+      "creado": "2026-08-26T20:16:46.542Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.) punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+          "cant": 336,
+          "precio_able": 2415,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 8550.73,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Polipropileno N° 5/0 con doble aguja de 13mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+          "cant": 336,
+          "precio_able": 3000,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 480,
+          "precio_able": 4000,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 8550.73,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "2 ALT 1",
+          "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 480,
+          "precio_able": 5980,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "5",
+          "desc": "Sutura de Ácido Poliglicólico N° 5/0 con aguja de 20mm, 3/8 Círc., punta Rev. Cort., hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 144,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 3341.97,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-09-14",
@@ -102213,21 +102502,44 @@
       "creado": "2026-09-29T12:39:58.579Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-10-21",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 1620,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2718.53,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "rechazado_calidad"
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 1620,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        }
+      ],
+      "gestion_pre": "Disposición DISFC-2026-482-GCABA-DGAHGACA (21/10/2026): R1 a Sedesa S.A. ($4.404.018,60); R2 a Unic Company SRL ($1.168.530). ABLE sin renglones adjudicados.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-10-21",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no adjudicada. R1 a Sedesa S.A. ($4.404.018,60); R2 a Unic Company SRL ($1.168.530). Total contratación $5.572.548,60. Fecha de la disposición.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "adelanto": false,
@@ -102412,18 +102724,42 @@
       },
       "id": 329,
       "entidad": "Htal Cosme Argerich",
-      "nro": "CM 442",
+      "nro": "CM 412-3395",
       "tipo": "Contratacion Menor",
       "fecha": "2026-10-01",
       "monto": 1952100,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE gana R1 (único renglón cotizado) con $1.205; siguiente Cardiopack $1.304,38 (+8,2%, obj por hebra 45cm vs 69-71cm) y luego Bhaurac $1.482 (+23,0%). Sin empate ni pref. nacional. Sin pliego adjunto: cruce contra la descripción del cuadro. Monto base ABLE $1.952.100 (sin ALT; total planilla $4.114.800 incluye R1 ALT 1 $2.162.700). R2 (cal sodada) no cotizado por ABLE.",
-      "creado": "2026-09-29T16:24:33.039Z"
+      "creado": "2026-09-29T16:24:33.039Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 1620,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2718.53,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 1620,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-19",
