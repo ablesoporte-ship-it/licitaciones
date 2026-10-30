@@ -36798,44 +36798,316 @@
       "creado": "2026-07-20T16:54:12.060Z"
     },
     {
+      "id": 146,
+      "entidad": "CAI Cecilia Grierson",
+      "nro": "CM 455-2403",
+      "tipo": "Contratacion Menor",
+      "fecha": "2026-07-24",
+      "monto": 527520,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios con IVA incluido (según cuadro). Cruce contra el pliego del cuadro: sin desvíos relevantes en las ofertas de ABLE. ABLE pierde R1 y R2 con Propato (Clyster $765,41; ABLE +102,5% en R1 y +182,2% en R2). En R1 Cardiopack nacional (Surgikal $1.447,16) también cotiza menos que ABLE. Monto base ABLE $527.520 (sin ALT; total planilla $911.520 incluye R1 ALT 1 $384.000). R3 a R7 sin cotización de ABLE.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Droguería Martorani S.A.",
+          "Cardiomedic S.A.",
+          "Cardiopack Argentina S.A.",
+          "20 de Junio S.R.L.",
+          "Dispromed Comercial S.R.L.",
+          "Cirugía Argentina S.A.",
+          "Sedesa S.A.",
+          "Covidien Argentina S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 240,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1550,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 765.41,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2383.4,
+                "marca": "s/marca",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": 2367.97,
+                "marca": "ATRAMAT (Origen: México)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1447.16,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "20 de Junio S.R.L.",
+                "precio": 11065,
+                "marca": "BBRAUN OPTILENE (Origen: España)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": 1950,
+                "marca": "SUTUMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2365,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 5521.23,
+                "marca": "ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 240,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "20 de Junio S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 72,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 65mm, 1/2 Círc., punta Redonda, hebra de 150cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2160,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 765.41,
+                "marca": "CLYSTER",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiomedic S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "20 de Junio S.R.L.",
+                "precio": 9879,
+                "marca": "BBRAUN OPTILENE (Origen: España)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dispromed Comercial S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 7960,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 10512.48,
+                "marca": "ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Covidien Argentina S.A.",
+                "precio": 13842.4,
+                "marca": "SURGIPRO (Origen: EE.UU/Rep. Dominicana)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios con IVA incluido (según cuadro). Cruce contra el pliego del cuadro: sin desvíos relevantes en las ofertas de ABLE. ABLE pierde R1 y R2 con Propato (Clyster $765,41; ABLE +102,5% en R1 y +182,2% en R2). En R1 Cardiopack nacional (Surgikal $1.447,16) también cotiza menos que ABLE. Monto base ABLE $527.520 (sin ALT; total planilla $911.520 incluye R1 ALT 1 $384.000). R3 a R7 sin cotización de ABLE."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
-      "id": 146,
-      "entidad": "Htal Cecilia Grierson",
-      "nro": "CM 455",
-      "tipo": "Contratacion Menor",
-      "fecha": "2026-07-24",
-      "monto": 911520,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-07-20T16:56:24.546Z"
     },
     {
@@ -120775,7 +121047,7 @@
       "adelanto_obs": "",
       "tabla": null,
       "id": 395,
-      "entidad": "Htal Grierson de Guernica",
+      "entidad": "Htal Cecilia Grierson",
       "nro": "PA 116",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-02",
