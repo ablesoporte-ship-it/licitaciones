@@ -52462,8 +52462,8 @@
       "liquidado_obs": "",
       "id": 170,
       "entidad": "Htal. Naval Dr. Pedro Mallo",
-      "nro": "LP 38",
-      "tipo": "Procedimiento Abreviado",
+      "nro": "LP 38/38-0864",
+      "tipo": "Publica",
       "fecha": "2026-07-29",
       "monto": 25429395,
       "mayor": "Sí",
@@ -97719,33 +97719,25 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
+      "id": 312,
+      "entidad": "Htal. Naval Dr. Pedro Mallo",
+      "nro": "CD 38/38-0165",
+      "tipo": "Contratacion Directa",
+      "fecha": "2026-09-28",
+      "monto": 778373,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios del cuadro tal cual (la base de IVA no está discriminada). Sin pliego adjunto: cruce contra la descripción del cuadro. R51 a R53 piden Vicryl (poliglactina) y ABLE ofrece ácido poliglicólico; R55 y R56 hebra 75cm vs hebra 45cm de los demás (a verificar). ABLE gana los 7 renglones cotizados (sin empate ni pref. nacional). Monto base ABLE $778.373,20. Los demás renglones no los cotizó ABLE.",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
-          "INAPYR",
-          "SEDESA",
-          "ALTECH MED"
+          "Inapyr S.R.L.",
+          "Sedesa S.A.",
+          "Altech Med S.R.L."
         ],
         "renglones": [
           {
@@ -97757,21 +97749,21 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 1119.8,
-                "marca": "BAJA.AD - ABLE",
+                "marca": "ABLE",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": 1938,
-                "marca": "INAPYR",
+                "marca": "EUROMIX",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97779,7 +97771,7 @@
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97797,13 +97789,13 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 1375,
-                "marca": "PGM013570A - Surgimax",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97811,17 +97803,17 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": 3640.89,
-                "marca": "SEDESA",
+                "marca": "ETHICON",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": 3750,
-                "marca": "ALTECH MED",
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -97837,13 +97829,13 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 1325.5,
-                "marca": "PGM302570A - Surgimax",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97851,17 +97843,17 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": 3640.89,
-                "marca": "SEDESA",
+                "marca": "ETHICON",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": 3750,
-                "marca": "ALTECH MED",
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -97877,13 +97869,13 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 1375,
-                "marca": "PGM003570A - Surgimax",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97891,17 +97883,17 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": 3640.89,
-                "marca": "SEDESA",
+                "marca": "ETHICON",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": 3750,
-                "marca": "ALTECH MED",
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -97917,13 +97909,13 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 664.4,
-                "marca": "NYM202645F - Surgimax",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97931,17 +97923,17 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": 2942.72,
-                "marca": "SEDESA",
+                "marca": "ETHICON",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": 2390,
-                "marca": "ALTECH MED",
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -97957,13 +97949,13 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 664.4,
-                "marca": "NYM302075F - Surgimax",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -97971,17 +97963,17 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": 2942.72,
-                "marca": "SEDESA",
+                "marca": "ETHICON",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": 2390,
-                "marca": "ALTECH MED",
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -97997,13 +97989,13 @@
               {
                 "oferente": "ABLE S.A.",
                 "precio": 664.4,
-                "marca": "NYM402575F - Surgimax",
+                "marca": "Surgimax",
                 "bg_precio": "verde",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "INAPYR",
+                "oferente": "Inapyr S.R.L.",
                 "precio": null,
                 "marca": "",
                 "bg_precio": "",
@@ -98011,17 +98003,17 @@
                 "obj": false
               },
               {
-                "oferente": "SEDESA",
+                "oferente": "Sedesa S.A.",
                 "precio": 2942.72,
-                "marca": "SEDESA",
+                "marca": "ETHICON",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
               },
               {
-                "oferente": "ALTECH MED",
+                "oferente": "Altech Med S.R.L.",
                 "precio": 2390,
-                "marca": "ALTECH MED",
+                "marca": "TAGUM (Origen: Perú)",
                 "bg_precio": "",
                 "bg_marca": "",
                 "obj": false
@@ -98029,21 +98021,24 @@
             ]
           }
         ],
-        "notas": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED."
+        "notas": "Precios del cuadro tal cual (la base de IVA no está discriminada). Sin pliego adjunto: cruce contra la descripción del cuadro. R51 a R53 piden Vicryl (poliglactina) y ABLE ofrece ácido poliglicólico; R55 y R56 hebra 75cm vs hebra 45cm de los demás (a verificar). ABLE gana los 7 renglones cotizados (sin empate ni pref. nacional). Monto base ABLE $778.373,20. Los demás renglones no los cotizó ABLE."
       },
-      "id": 312,
-      "entidad": "Htal. Naval Dr. Pedro Mallo",
-      "nro": "CM 38",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-09-28",
-      "monto": 778373,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.23 — ABLE $1.119,80 gana vs INAPYR $1.938. Rengs.51 a 56 (suturas Surgimax) — ABLE gana los 6, amplio margen vs SEDESA y ALTECH MED.",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-09-23T18:41:31.581Z"
     },
     {
@@ -98569,7 +98564,7 @@
       },
       "id": 314,
       "entidad": "Htal. Naval Dr. Pedro Mallo",
-      "nro": "LP 38",
+      "nro": "LP 38/38-0345",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-10-01",
       "monto": 1819950,
