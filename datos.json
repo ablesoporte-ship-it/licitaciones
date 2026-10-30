@@ -36807,7 +36807,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Precios con IVA incluido (según cuadro). Cruce contra el pliego del cuadro: sin desvíos relevantes en las ofertas de ABLE. ABLE pierde R1 y R2 con Propato (Clyster $765,41; ABLE +102,5% en R1 y +182,2% en R2). En R1 Cardiopack nacional (Surgikal $1.447,16) también cotiza menos que ABLE. Monto base ABLE $527.520 (sin ALT; total planilla $911.520 incluye R1 ALT 1 $384.000). R3 a R7 sin cotización de ABLE.",
@@ -37092,15 +37092,15 @@
         ],
         "notas": "Precios con IVA incluido (según cuadro). Cruce contra el pliego del cuadro: sin desvíos relevantes en las ofertas de ABLE. ABLE pierde R1 y R2 con Propato (Clyster $765,41; ABLE +102,5% en R1 y +182,2% en R2). En R1 Cardiopack nacional (Surgikal $1.447,16) también cotiza menos que ABLE. Monto base ABLE $527.520 (sin ALT; total planilla $911.520 incluye R1 ALT 1 $384.000). R3 a R7 sin cotización de ABLE."
       },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-08-24",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "Disposición DISFC-2026-93-GCABA-HGACG (24/08/2026): R2 a ABLE ($155.520). R1 a Cardiopack ($347.318,40); ABLE desestimada en R1 por motivos económicos. Propato desestimada técnicamente en R1 y R2. R7 fracasado.",
+      "gestion_pre_resultado": "Ganado parcial",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-08-24",
+      "adj_monto_able": 155520,
+      "adj_resumen": "Adjudicado a ABLE el renglón 2 por $155.520. R1 (y R1 ALT 1) no adjudicados: R1 a Cardiopack ($347.318,40). Total contratación $1.722.839. Preadjudicación y adjudicación en el mismo acto.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
       "gestion_post": "",
@@ -37108,7 +37108,77 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-07-20T16:56:24.546Z"
+      "creado": "2026-07-20T16:56:24.546Z",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 240,
+          "precio_able": 1550,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1447.16,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": "superado"
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 240,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 65mm, 1/2 Círc., punta Redonda, hebra de 150cm - Marca ABLE (Industria argentina)",
+          "cant": 72,
+          "precio_able": 2160,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 7960,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": "menor_precio"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 240,
+          "precio_able": 1550,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 1447.16,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": ""
+        },
+        {
+          "reng": "1 ALT 1",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 240,
+          "precio_able": 1600,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": ""
+        },
+        {
+          "reng": "2",
+          "desc": "Sutura de Polipropileno N° 1 con aguja de 65mm, 1/2 Círc., punta Redonda, hebra de 150cm - Marca ABLE (Industria argentina)",
+          "cant": 72,
+          "precio_able": 2160,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 7960,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": ""
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-08-11",
