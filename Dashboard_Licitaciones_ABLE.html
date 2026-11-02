@@ -1607,6 +1607,7 @@ function indiceProductos(){
       }
       out.push({
         licId:r.id, nro:r.nro, entidad:r.entidad, fecha:r.fecha, zona:r.zona, agente:r.agente,
+        etapa:r.etapa, ocEstado:r.oc, ocNum:numeroOC(r),
         reng:row.reng, desc:row.desc||'', cant:row.cant,
         precioAble: cAble ? cAble.precio : null, marcaAble: cAble ? cAble.marca : null,
         mejorRival, precioRival, ganamos,
@@ -1669,10 +1670,24 @@ function buscarProducto(){
       <th style="padding:6px 8px;text-align:right">ABLE</th>
       <th style="padding:6px 8px;text-align:right">Mejor rival</th>
       <th style="padding:6px 8px;text-align:center">Resultado</th>
+      <th style="padding:6px 8px;text-align:center">OC / Etapa</th>
       <th style="padding:6px 8px;text-align:center"></th>
     </tr></thead>
     <tbody>${filas.map(f=>{
       const fmt=n=>n!=null?'$'+Number(n).toLocaleString('es-AR',{maximumFractionDigits:2}):'—';
+      // Si la licitación ya tiene OC, se muestra el número; si no, la etapa en que está.
+      let celdaOC;
+      const ocConfirmada=['Recibida','Correcta','Con diferencias','Alerta'].includes(f.ocEstado);
+      if(f.ocNum){
+        celdaOC=`<strong style="color:#1a6b36">OC ${esc(f.ocNum)}</strong>`+
+          (f.ocEstado&&f.ocEstado!=='Pendiente'?`<div style="font-size:10px;color:#888">${esc(f.ocEstado)}</div>`:'');
+      } else if(f.ocEstado==='No otorgada'||f.ocEstado==='Fracasado'){
+        celdaOC=`<span class="badge" style="background:#fde8d8;color:#c0392b">${esc(f.ocEstado)}</span>`;
+      } else if(ocConfirmada){
+        celdaOC=`<strong style="color:#1a6b36">OC</strong><div style="font-size:10px;color:#888">sin n° cargado · ${esc(f.ocEstado)}</div>`;
+      } else {
+        celdaOC=`<span class="badge" style="background:#eef2f7;color:#1a3a5c">${esc(f.etapa||'—')}</span>`;
+      }
       let badge='<span style="color:#ccc">—</span>';
       if(f.ganamos===true) badge='<span class="badge" style="background:#d4efdf;color:#1a6b36">Ganamos</span>';
       else if(f.ganamos===false) badge=`<span class="badge" style="background:#fde8d8;color:#8a4b00">${esc(f.mejorRival||'')}</span>`;
@@ -1683,6 +1698,7 @@ function buscarProducto(){
         <td style="padding:6px 8px;text-align:right;font-weight:bold">${fmt(f.precioAble)}</td>
         <td style="padding:6px 8px;text-align:right">${fmt(f.precioRival)}</td>
         <td style="padding:6px 8px;text-align:center">${badge}</td>
+        <td style="padding:6px 8px;text-align:center;white-space:nowrap">${celdaOC}</td>
         <td style="padding:6px 8px;text-align:center">${f.licId!=null?`<button class="btn btn-outline btn-icon" title="Ver comparativa completa" onclick="verCompDesdeBuscador(${f.licId})">&#128202;</button>`:''}</td>
       </tr>`;
     }).join('')}</tbody>
