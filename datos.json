@@ -113304,14 +113304,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-11-02",
+      "adj_monto_able": 159000,
+      "adj_resumen": "ABLE adjudicada R11 (cubrecalzado ArgentCare, 2.000 u. x $79,50 = $159.000,00). Disposición DISPO-2026-1109-GDEBA-HIEACSJDMSALGP. Fecha tomada de la OC (fecha de disposición no informada). R11 ALT 1 (par) no adjudicada.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-11-02",
+      "oc_alertas": "OC Nro. 111/2026, fecha 02/11/2026. EX-2026-33357926-GDEBA-HIEACSJDMSALGP (PA 55/2026). Destino: Hospital Interzonal Especializado de Agudos y Crónicos San Juan de Dios (La Plata), Depósito General, lunes a viernes de 8 a 12 hs. R11 cubrecalzado ArgentCare, 2.000 u. x $79,50 = $159.000,00. Total $159.000,00. Entrega inmediata dentro de 10 días corridos de recibida la OC. Plazo de pago 10 días hábiles. Ampliaciones 0%.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 159000,
@@ -113326,11 +113326,35 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "",
       "pref": "",
       "obs": "",
-      "creado": "2026-10-05T15:19:51.409Z"
+      "creado": "2026-10-05T15:19:51.409Z",
+      "renglones_adj": [
+        {
+          "reng": "11",
+          "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras - Marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 79.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "11 ALT 1",
+          "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras - Marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 143,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-09",
@@ -137435,66 +137459,129 @@
       "creado": "2026-10-26T16:36:34.484Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
       "id": 394,
-      "entidad": "Htal de la Vega",
+      "entidad": "Hospital Mariano y Luciano de la Vega",
       "nro": "PA 2",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-02",
-      "monto": 8149048,
-      "mayor": "Sí",
+      "monto": 3400048,
+      "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-26T16:36:34.520Z"
-    },
-    {
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "ABLE cotiza con IVA incluido. Igaltex es exento de IVA (precio final). En los presupuestos de Poggi y Kims el IVA no está discriminado (responsables inscriptos): se toman tal cual, a confirmar. Cruce contra Anexo III: R10 bobina pouch 300mm x 200m; R18 camisolín (texto del renglón ilegible en el archivo del pliego, no verificado). El pliego exige muestras en ambos renglones. R10: ABLE +10,05% sobre Igaltex, sin empate ni preferencia. R18: único oferente ABLE. Se quitó el R3 de la oferta de ABLE. Monto base ABLE $3.400.048.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Raúl Jorge León Poggi",
+          "Kims S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "10",
+            "cant": 4,
+            "desc": "Bobina de pouch de papel de uso médico liso y lamina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 65637,
+                "marca": "Able",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 59640.63,
+                "marca": "STERILYS",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 319666,
+                "marca": "YELLOW PACK",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": 72300,
+                "marca": "YELLOW PACK (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 2500,
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1255,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Kims S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "ABLE cotiza con IVA incluido. Igaltex es exento de IVA (precio final). En los presupuestos de Poggi y Kims el IVA no está discriminado (responsables inscriptos): se toman tal cual, a confirmar. Cruce contra Anexo III: R10 bobina pouch 300mm x 200m; R18 camisolín (texto del renglón ilegible en el archivo del pliego, no verificado). El pliego exige muestras en ambos renglones. R10: ABLE +10,05% sobre Igaltex, sin empate ni preferencia. R18: único oferente ABLE. Se quitó el R3 de la oferta de ABLE. Monto base ABLE $3.400.048."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
+      "creado": "2026-10-26T16:36:34.520Z"
+    },
+    {
       "id": 395,
       "entidad": "Htal Cecilia Grierson",
       "nro": "PA 116",
@@ -137504,11 +137591,283 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-10-27T13:44:00.325Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios con IVA incluido tal cual cada oferta; ABLE con IVA incluido. Cruce contra Anexo III: R5 exige 30 g/m² SMS manga larga puño ajustado; R42 equipo hemorrepelente estéril (4 camisolines, 2 campos grandes, medianos y chicos). Martorani R5 (obj): cotiza 22 g/m², el pliego exige 30 g/m². Observaciones sin respaldo explícito en el pliego (no marcadas obj, riesgo de impugnación): Pharma Center R5 camisolín 'corto económico' sin gramaje declarado y R42 'general 50g' sin indicar hemorrepelente; Max Continental R5 sin gramaje declarado. Alternativas: ABLE ALT 1 (25g), ALT 2 (20g) y ALT 3 (SMS hemorrepelente 30g) en R5; ningún competidor cotizó alternativa propia salvo lo indicado. Monto base ABLE $4.173.344 (ALT excluidas).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Max Continental S.A.",
+          "Euro Swiss S.A.",
+          "Droguería Pharma Center S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "5",
+            "cant": 4800,
+            "desc": "Camisolin no esteril, no hemorrepelente de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 652.78,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 769.9,
+                "marca": "PEMED (obj) 22g ≠ pliego 30g",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 735.61,
+                "marca": "MEDICON (obs. sin gramaje)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1360,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 547,
+                "marca": "DPC (obs. 'corto', sin gramaje)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5 ALT 1",
+            "cant": 4800,
+            "desc": "Camisolin no esteril, no hemorrepelente de 25Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 592.25,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5 ALT 2",
+            "cant": 4800,
+            "desc": "Camisolin no esteril, no hemorrepelente de 20Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 503,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5 ALT 3",
+            "cant": 4800,
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 30Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 815,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "42",
+            "cant": 40,
+            "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 26000,
+                "marca": "Ebano",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 25922,
+                "marca": "PROTBARRIE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 21538,
+                "marca": "DPC (obs. 'general 50g', sin hemorrepelente)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios con IVA incluido tal cual cada oferta; ABLE con IVA incluido. Cruce contra Anexo III: R5 exige 30 g/m² SMS manga larga puño ajustado; R42 equipo hemorrepelente estéril (4 camisolines, 2 campos grandes, medianos y chicos). Martorani R5 (obj): cotiza 22 g/m², el pliego exige 30 g/m². Observaciones sin respaldo explícito en el pliego (no marcadas obj, riesgo de impugnación): Pharma Center R5 camisolín 'corto económico' sin gramaje declarado y R42 'general 50g' sin indicar hemorrepelente; Max Continental R5 sin gramaje declarado. Alternativas: ABLE ALT 1 (25g), ALT 2 (20g) y ALT 3 (SMS hemorrepelente 30g) en R5; ningún competidor cotizó alternativa propia salvo lo indicado. Monto base ABLE $4.173.344 (ALT excluidas)."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-10-27T13:44:00.325Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "",
