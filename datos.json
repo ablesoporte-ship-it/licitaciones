@@ -25692,31 +25692,6 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
       "id": 104,
       "entidad": "HTAL Santojanni",
       "nro": "LP 434-0922",
@@ -25726,11 +25701,90 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-06-25T19:16:25.849Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios de ABLE (Excel) y de FOC (cuadro comparativo del BAC) tal cual figuran; no se informa discriminación de IVA. Cruce contra el pliego (descripción del cuadro): la boca de la bolsa debe tener diámetro interno de 64 a 66 mm, con filtro de gases y aro autoadhesivo de karaya o hidrocoloide. ABLE ofrece aro recortable de 15 a 70 mm con filtro. FOC cotiza una ALTERNATIVA: bolsa drenable con aro y placa de 57 mm, marca Convatec, aclarando que no cotiza la medida solicitada porque no se comercializa: se marca (obj). R1: FOC $25.570, 12,4 veces el precio de ABLE ($2.057). Resultado según Disposición DISFC-2026-253-GCABA-DGAHGADS (12/08/2026): ABLE desestimada por no ajustarse a lo solicitado y R1 adjudicado a FOC por $4.602.600. Monto base ABLE $370.260.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "FOC S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 180,
+            "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2057,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "FOC S.R.L.",
+                "precio": 25570,
+                "marca": "CONVATEC (obj) aro 57mm ≠ pliego 64-66mm",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          }
+        ],
+        "notas": "Precios de ABLE (Excel) y de FOC (cuadro comparativo del BAC) tal cual figuran; no se informa discriminación de IVA. Cruce contra el pliego (descripción del cuadro): la boca de la bolsa debe tener diámetro interno de 64 a 66 mm, con filtro de gases y aro autoadhesivo de karaya o hidrocoloide. ABLE ofrece aro recortable de 15 a 70 mm con filtro. FOC cotiza una ALTERNATIVA: bolsa drenable con aro y placa de 57 mm, marca Convatec, aclarando que no cotiza la medida solicitada porque no se comercializa: se marca (obj). R1: FOC $25.570, 12,4 veces el precio de ABLE ($2.057). Resultado según Disposición DISFC-2026-253-GCABA-DGAHGADS (12/08/2026): ABLE desestimada por no ajustarse a lo solicitado y R1 adjudicado a FOC por $4.602.600. Monto base ABLE $370.260."
+      },
+      "preadj_fecha": "2026-08-12",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE (Suturas Argentinas SRL) desestimada por no ajustarse a lo solicitado. R1 preadjudicado a FOC S.R.L. a $25.570 (alternativa Convatec aro 57mm). Fecha de la disposición: no se tiene el dictamen.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "2026-08-12",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE desestimada. R1 adjudicado a FOC S.R.L. por $4.602.600 ($25.570 x 180). Disposición DISFC-2026-253-GCABA-DGAHGADS.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-25T19:16:25.849Z",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 2057,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 25570,
+          "ganador_sig": "FOC S.R.L.",
+          "motivo": "Desestimada por no ajustarse a lo solicitado"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 2057,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 25570,
+          "ganador_sig": "FOC S.R.L.",
+          "motivo": "Desestimada por no ajustarse a lo solicitado"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-07-22",
