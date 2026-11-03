@@ -15136,45 +15136,999 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "tabla": null,
-      "liquidado": false,
-      "liquidado_fecha": "",
-      "liquidado_obs": "",
       "id": 85,
       "entidad": "Htal Carrillo",
-      "nro": "LP 509",
-      "tipo": "Procedimiento Abreviado",
+      "nro": "LP 509/3-0009",
+      "tipo": "Publica",
       "fecha": "2026-06-18",
-      "monto": 1650315,
+      "monto": 1650318,
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-06-16T17:20:24.719Z"
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios de ABLE y de los demás oferentes según el cuadro comparativo del COMPR.AR; se toman tal cual figuran. Cruce contra el pliego: solo se dispone de la descripción SIPRO de cada renglón del cuadro, no del pliego técnico completo. R27: el cuadro pide bolsa con aro de karaya de 2,5 cm y ABLE ofrece aro recortable de 15 a 70mm. R102: el cuadro pide camisolín con refuerzo y ABLE no lo menciona. R107: el cuadro pide cubre-bota tricapa y ABLE ofrece tela no tejida. R133 y R134: el cuadro pide caja x 36 y ABLE cotiza por cartucho. No se marca (obj) a ninguna oferta. R133 y R134: Lavardén cotiza por caja x 18 ($152.218 y $273.581) y Sedesa por unidad ($30.798,25); los precios no son directamente comparables con el de ABLE por cartucho. R85: Castelar $10.107 es por caja x 100. Resultado según Resolución RESOL-2026-166-APN-ANES#MS (18/09/2026): ABLE desestimada totalmente por no cumplimentar la documentación complementaria solicitada dentro de los plazos. Renglones adjudicados: R25 a Ximax, R64 y R65 a Sedesa; R27, R85, R102, R107, R108, R133 y R134 fracasados. Monto base ABLE $1.650.317,80 (R85 a $63,77 según el cuadro; en tu Excel $63,767).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Ximax S.R.L.",
+          "Lavardén Insumos Médicos S.R.L.",
+          "Antigua San Roque S.R.L.",
+          "Sedesa S.A.",
+          "Herramientas y Bulonería TKTEC S.A.S.",
+          "RC Radiología Castelar S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "25",
+            "cant": 70,
+            "desc": "Bajalenguas adultos por 100 unidades - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1133,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1195,
+                "marca": "EUROMIX (Origen: Importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": 1397.08,
+                "marca": "EUROMIX (Origen: Importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 1742,
+                "marca": "Able/Clericot",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": 3600,
+                "marca": "EUROMIX (Origen: Importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 60,
+            "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1490.5,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "64",
+            "cant": 16,
+            "desc": "Sutura de Polipropileno N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1705,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 6969,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 8123.69,
+                "marca": "PROLENE (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "65",
+            "cant": 144,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 667.7,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 2700,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 2075.09,
+                "marca": "ETHILON (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "85",
+            "cant": 700,
+            "desc": "Espátula de Ayre descartable por unidad - marca Able (industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 63.77,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 71,
+                "marca": "Clericot",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": 500,
+                "marca": "Clericot",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": 10107,
+                "marca": "EUROMIX (Origen: Importado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "102",
+            "cant": 700,
+            "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1454.75,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "107",
+            "cant": 700,
+            "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgadura, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 69.85,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "108",
+            "cant": 700,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 27.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "133",
+            "cant": 24,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5885,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 152218,
+                "marca": "Clips de titanio LT300 (caja x 18)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 30798.25,
+                "marca": "LIGACLIPS (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "134",
+            "cant": 12,
+            "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 7150,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ximax S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Lavardén Insumos Médicos S.R.L.",
+                "precio": 273581,
+                "marca": "Able (caja x 18)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Antigua San Roque S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 30798.25,
+                "marca": "LIGACLIPS (Ethicon)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Herramientas y Bulonería TKTEC S.A.S.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": null,
+                "marca": "",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios de ABLE y de los demás oferentes según el cuadro comparativo del COMPR.AR; se toman tal cual figuran. Cruce contra el pliego: solo se dispone de la descripción SIPRO de cada renglón del cuadro, no del pliego técnico completo. R27: el cuadro pide bolsa con aro de karaya de 2,5 cm y ABLE ofrece aro recortable de 15 a 70mm. R102: el cuadro pide camisolín con refuerzo y ABLE no lo menciona. R107: el cuadro pide cubre-bota tricapa y ABLE ofrece tela no tejida. R133 y R134: el cuadro pide caja x 36 y ABLE cotiza por cartucho. No se marca (obj) a ninguna oferta. R133 y R134: Lavardén cotiza por caja x 18 ($152.218 y $273.581) y Sedesa por unidad ($30.798,25); los precios no son directamente comparables con el de ABLE por cartucho. R85: Castelar $10.107 es por caja x 100. Resultado según Resolución RESOL-2026-166-APN-ANES#MS (18/09/2026): ABLE desestimada totalmente por no cumplimentar la documentación complementaria solicitada dentro de los plazos. Renglones adjudicados: R25 a Ximax, R64 y R65 a Sedesa; R27, R85, R102, R107, R108, R133 y R134 fracasados. Monto base ABLE $1.650.317,80 (R85 a $63,77 según el cuadro; en tu Excel $63,767)."
+      },
+      "preadj_fecha": "2026-09-18",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "gestion_pre": "ABLE desestimada totalmente por no cumplimentar la documentación complementaria. Dictamen recomienda Disval R1-2, Liberty R3, Seiseme, Ximax, Castelar y Sedesa R64-65. Fecha de la resolución (18/09/2026): no se tiene el acta del dictamen.",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "2026-09-18",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE desestimada (documentación complementaria). Total adjudicado $85.795.728,31. Resolución RESOL-2026-166-APN-ANES#MS.",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-06-16T17:20:24.719Z",
+      "renglones_preadj": [
+        {
+          "reng": "25",
+          "desc": "Bajalenguas adultos por 100 unidades - Marca ABLE (Industria argentina)",
+          "cant": 70,
+          "precio_able": 1133,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 1397.08,
+          "ganador_sig": "Ximax S.R.L.",
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria"
+        },
+        {
+          "reng": "27",
+          "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 60,
+          "precio_able": 1490.5,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "64",
+          "desc": "Sutura de Polipropileno N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 16,
+          "precio_able": 1705,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 8123.69,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria"
+        },
+        {
+          "reng": "65",
+          "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 144,
+          "precio_able": 667.7,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2075.09,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria"
+        },
+        {
+          "reng": "85",
+          "desc": "Espátula de Ayre descartable por unidad - marca Able (industria argentina)",
+          "cant": 700,
+          "precio_able": 63.77,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "102",
+          "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 700,
+          "precio_able": 1454.75,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "107",
+          "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgadura, marca ArgentCare",
+          "cant": 700,
+          "precio_able": 69.85,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "108",
+          "desc": "Cofia descartable elastizada, marca ArgentCare",
+          "cant": 700,
+          "precio_able": 27.5,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "133",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 24,
+          "precio_able": 5885,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "134",
+          "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+          "cant": 12,
+          "precio_able": 7150,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "25",
+          "desc": "Bajalenguas adultos por 100 unidades - Marca ABLE (Industria argentina)",
+          "cant": 70,
+          "precio_able": 1133,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 1397.08,
+          "ganador_sig": "Ximax S.R.L.",
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria"
+        },
+        {
+          "reng": "27",
+          "desc": "Bolsa de colostomía cerrada, transparente, 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 60,
+          "precio_able": 1490.5,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "64",
+          "desc": "Sutura de Polipropileno N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 16,
+          "precio_able": 1705,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 8123.69,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria"
+        },
+        {
+          "reng": "65",
+          "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 144,
+          "precio_able": 667.7,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 2075.09,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria"
+        },
+        {
+          "reng": "85",
+          "desc": "Espátula de Ayre descartable por unidad - marca Able (industria argentina)",
+          "cant": 700,
+          "precio_able": 63.77,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "102",
+          "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 700,
+          "precio_able": 1454.75,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "107",
+          "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgadura, marca ArgentCare",
+          "cant": 700,
+          "precio_able": 69.85,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "108",
+          "desc": "Cofia descartable elastizada, marca ArgentCare",
+          "cant": 700,
+          "precio_able": 27.5,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "133",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 24,
+          "precio_able": 5885,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        },
+        {
+          "reng": "134",
+          "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+          "cant": 12,
+          "precio_able": 7150,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "Desestimada: no cumplimentó la documentación complementaria (renglón fracasado)"
+        }
+      ],
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": ""
     },
     {
       "preadj_fecha": "2026-06-26",
