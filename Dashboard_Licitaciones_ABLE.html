@@ -596,6 +596,7 @@ function normalizeRows(rows){
     adj_resumen:'', adj_alertas:'', adj_tiene_alerta:false,
     oc:'Pendiente', oc_fecha:'', oc_alertas:'',
     adelanto:false, adelanto_monto:0, adelanto_total_preadj:0, adelanto_obs:'',
+    gestion_manual:false, gestion_manual_nota:'',
     tabla: null,
     ...r,
     monto: Math.round(Number(String(r.monto||0).replace(/[$ .]/g,'').replace(',','.'))||0)
@@ -896,6 +897,9 @@ function defaultRow(){
 
 // ─── RENDER ────────────────────────────────────────────────────────────────
 function tienePanelGestion(r){
+  // Gestión confirmada a mano por la supervisión (ej. lograron que aceptaran tela SP
+  // cuando el pliego pedía SMS): no se ve en los colores de la comparativa.
+  if(r.gestion_manual) return true;
   // gestion = ABLE ganó (adj) un renglón que en la comparativa NO era el más barato (bg_precio !== verde)
   if(r.etapa==='Comparativa' || r.etapa==='Pendiente') return false;
   const tabla = r.tabla ? (typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla) : null;
@@ -1026,7 +1030,7 @@ function render(){
       <td class="r" style="font-size:12px"><strong>${fmtMoney(r.monto)}</strong>${r.mayor==='Sí'?'<br><span class="badge b-mayor" style="font-size:9px">MAYOR</span>':''}</td>
       <td class="c">${badgeZona(r.zona)}</td>
       <td class="c" style="font-size:12px">${r.agente||'—'}</td>
-      <td style="padding:6px 8px">${flowHTML(r)}${r.adj_tiene_alerta?'<div style="font-size:10px;color:#c0392b;margin-top:3px">⚠ alertas de adjudicación</div>':''}${r.adelanto?`<div style="font-size:10px;color:#c77700;margin-top:3px;font-weight:600">📦 Adelanto de mercadería${r.adelanto_monto?' — $'+Number(r.adelanto_monto).toLocaleString('es-AR'):''}</div>`:''}</td>
+      <td style="padding:6px 8px">${flowHTML(r)}${r.adj_tiene_alerta?'<div style="font-size:10px;color:#c0392b;margin-top:3px">⚠ alertas de adjudicación</div>':''}${r.gestion_manual?`<div style="font-size:10px;color:#1e7b4f;margin-top:3px;font-weight:600" title="${esc(r.gestion_manual_nota||'')}">🏅 Gestión del agente confirmada</div>`:''}${r.adelanto?`<div style="font-size:10px;color:#c77700;margin-top:3px;font-weight:600">📦 Adelanto de mercadería${r.adelanto_monto?' — $'+Number(r.adelanto_monto).toLocaleString('es-AR'):''}</div>`:''}</td>
       <td class="c">${badgeEmpate(r.empate)}</td>
       <td class="c">${badgePref(r.pref)}</td>
       <td class="c" style="font-size:11.5px">${r.preadj_fecha ? '<span style="color:#2471a3;font-weight:bold">'+fmtDate(r.preadj_fecha)+'</span>' : '<span style="color:#ccc">—</span>'}</td>
@@ -1265,6 +1269,19 @@ function buildDetailForm(r){
 
     <div class="form-grid" style="margin-top:14px;padding-top:14px;border-top:1px dashed #E0DED8">
       <div class="fg" style="grid-column:1/-1">
+        <label>&#127941; ¿Gestión del agente confirmada? <span style="font-weight:400;color:#999">(para gestiones que no se ven en la comparativa, ej. lograron que aceptaran un producto que iban a desestimar)</span></label>
+        <select id="d_gman" onchange="toggleGestionManual()">
+          <option value="false"${!r.gestion_manual?' selected':''}>No</option>
+          <option value="true"${r.gestion_manual?' selected':''}>Sí — hubo gestión del agente</option>
+        </select>
+      </div>
+      <div id="gman-campos" style="display:${r.gestion_manual?'contents':'none'}">
+        <div class="fg full"><label>¿Qué se logró con la gestión?</label><textarea id="d_gman_nota" placeholder="Ej.: iban a desestimar los camisolines por ser tela SP (el pliego pedía SMS) y se logró que los aceptaran.">${esc(r.gestion_manual_nota||'')}</textarea></div>
+      </div>
+    </div>
+
+    <div class="form-grid" style="margin-top:14px;padding-top:14px;border-top:1px dashed #E0DED8">
+      <div class="fg" style="grid-column:1/-1">
         <label>&#128230; ¿Se le hizo adelanto de mercadería al hospital? <span style="font-weight:400;color:#999">(antes de que llegue la OC)</span></label>
         <select id="d_adelanto" onchange="toggleAdelantoFields()">
           <option value="false"${!r.adelanto?' selected':''}>No</option>
@@ -1333,6 +1350,10 @@ function pctAdelanto(monto, total){
   if(!t) return '—';
   return ((m/t)*100).toFixed(1)+'%';
 }
+function toggleGestionManual(){
+  const activo = document.getElementById('d_gman').value==='true';
+  document.getElementById('gman-campos').style.display = activo ? 'contents' : 'none';
+}
 function toggleAdelantoFields(){
   const activo = document.getElementById('d_adelanto').value==='true';
   document.getElementById('adelanto-campos').style.display = activo ? 'contents' : 'none';
@@ -1367,6 +1388,8 @@ function saveDetail(){
     preadj_pref_ok:document.getElementById('d_preadj_pref').value,
     gestion_pre:document.getElementById('d_gpre').value,
     gestion_pre_resultado:document.getElementById('d_gpre_res').value,
+    gestion_manual:document.getElementById('d_gman').value==='true',
+    gestion_manual_nota:document.getElementById('d_gman_nota').value,
     adelanto:document.getElementById('d_adelanto').value==='true',
     adelanto_monto:Number(document.getElementById('d_adelanto_monto').value)||0,
     adelanto_total_preadj:Number(document.getElementById('d_adelanto_total').value)||0,
@@ -2039,6 +2062,13 @@ function buildRengPreadjHTML(renglones, r){
   <div class="reng-etapa-note">📋 Etapa: <strong>${r.etapa}</strong> — resultado definitivo según acta de preadjudicación</div>
   ${buildAlertasHTML(r.renglones_preadj||renglones, typeof r.tabla==='string'?JSON.parse(r.tabla):r.tabla, r.renglones_adj||null)}
   ${r.renglones_adj && r.renglones_preadj ? buildAlertasAdjHTML(r.renglones_preadj, r.renglones_adj) : ''}
+  ${r.gestion_manual ? `<div style="margin-bottom:16px">
+    <div style="font-size:13px;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px">🏅 Gestión del agente</div>
+    <div style="background:#eafaf1;border-left:4px solid #27ae60;border-radius:8px;padding:10px 14px">
+      <div style="font-size:11px;font-weight:700;color:#27ae60;text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">Gestión confirmada${r.agente?' — '+esc(r.agente):''}</div>
+      <div style="font-size:12.5px;color:#1a1a2e">${esc(r.gestion_manual_nota||'Sin detalle cargado.')}</div>
+    </div>
+  </div>` : ''}
   ${(()=>{
     if(!r.gestion_pre) return '';
     // Solo mostrar si algun renglon adjudicado (adj) no era verde en la comparativa
