@@ -80566,8 +80566,8 @@
       "adelanto_monto": 485150,
       "adelanto_total_preadj": 485150,
       "adelanto_obs": "Piden adelanto de esta mercadería, las cofias y cubre calzados... si no saliera comentan que sacarían por compra menor",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
+      "gestion_manual": true,
+      "gestion_manual_nota": "Iban a desestimar los camisolines por ser tela SP (el pliego pedía SMS",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -98324,8 +98324,8 @@
       "adelanto_monto": 0,
       "adelanto_total_preadj": 13508000,
       "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
+      "gestion_manual": true,
+      "gestion_manual_nota": "Iban a desestimar los camisolines por ser tela SP (el pliego pedía SMS) Renglón 3",
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
