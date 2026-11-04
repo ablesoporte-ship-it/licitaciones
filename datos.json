@@ -113824,14 +113824,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "adj_fecha": "2026-11-02",
+      "adj_monto_able": 527218,
+      "adj_resumen": "ABLE adjudicada en R17 (430 u. x $604 = $259.720) y R46 (300 u. x $891,66 = $267.498). Total ABLE $527.218. Disposición DISPO-2026-1588-GDEBA-HIEPMSALGP; fecha tomada de la OC.",
+      "adj_alertas": "R46: precio por clip ($891,66 = cartucho x6 de $5.350). Verificar unidad con el hospital.",
+      "adj_tiene_alerta": true,
+      "oc": "Correcta",
+      "oc_fecha": "2026-11-02",
+      "oc_alertas": "OC Nro. 603/2026, fecha 02/11/2026. EX-2026-28770782-GDEBA-HIEPMSALGP (PA 217/2026). Destino: Hospital Interzonal General de Agudos Eva Perón (San Martín), Av. R. Balbín 3200, Depósito Central. R17 sutura nylon monofilamento 2/0 aguja 60mm recta Surgimax (Guardia), 430 u. x $604,00 = $259.720,00. R46 cartucho con clips de titanio LT300 marca Able (Cirugía General), 300 u. x $891,66 = $267.498,00. Total $527.218,00. Entrega inmediata dentro de 10 días corridos. Plazo de pago 60 días hábiles. Ampliaciones 100%.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 527218,
@@ -113985,11 +113985,46 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.17 — gana ABLE $604,00 vs Sedesa $1.757,59 (+191,0%). Reng.46 — gana Synergya $1.286,00 (por clip) vs ABLE $5.350,00 (cartucho x6). Por clip ABLE equivale a $891,67. Reng.46 ALT — Synergya cart. x6 $7.715,00 vs ABLE $5.350,00 (ABLE 30,7% más barata). Verificar unidad con el hospital.",
-      "creado": "2026-10-01T16:36:07.862Z"
+      "creado": "2026-10-01T16:36:07.862Z",
+      "renglones_adj": [
+        {
+          "reng": "17",
+          "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+          "cant": 430,
+          "precio_able": 604,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1757.59,
+          "ganador_sig": "Sedesa S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17 ALT 1",
+          "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+          "cant": 430,
+          "precio_able": 785,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "46",
+          "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+          "cant": 300,
+          "precio_able": 891.66,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 1286,
+          "ganador_sig": "Synergya S.R.L. (por clip)",
+          "motivo": "menor_precio"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -142568,43 +142603,140 @@
       "creado": "2026-10-29T18:24:11.597Z"
     },
     {
+      "id": 401,
+      "entidad": "Hospital Interzonal General de Agudos Presidente Peron",
+      "nro": "PA 145",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-03",
+      "monto": 5200000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IVA: ABLE cotiza con IVA incluido. Pharma Express, Propato y Max Continental declaran precio con IVA; Leix, Castelar, Healthy Lab, Aupres y Pharma Center no aclaran, y Beta Medical firma \"Total neto\". No se suma ni resta IVA a ningún precio. Si Beta o alguno de los otros fuera neto, su precio final sería mayor. Cruce contra el Anexo III: R1 pide equipo de cirugía descartable hemorrepelente estéril de 4 camisolines, 2 campos grandes, 2 medianos y 2 chicos, tela SMS 45 g o superior; sin muestras. Leix cotiza un kit de 3 camisolines, 6 toallas de papel, 4 campos de 0,75 x 0,75, 2 campos de 1,60 x 2 y 1 campo impermeable: no cumple la composición del pliego y se marca (obj). Castelar suma cobertor de mesa y 12 toallas y no indica el gramaje. Propato cotiza un equipo de 15 elementos (el pliego tiene 10) y Max Continental un pack quirúrgico standard sin detalle. Pharma Express no escribe hemorrepelente ni composición; ABLE tampoco escribe hemorrepelente ni gramaje, por eso no se marca (obj) a ninguno por ese punto. R1: el menor precio es Aupres $19.000 (hemorrepelente, 45 gr, doble envase). ABLE ($26.000) queda 8° de 10 ofertas y +36,8% sobre Aupres; también la superan Pharma Center ($21.241), Castelar ($22.500), Healthy Lab ($23.989,11), Propato ($25.616,93), Max Continental ($25.800) y Beta ($25.927). Más del 10%: sin empate técnico ni preferencia nacional. Monto base ABLE $5.200.000 (en el stub figura $5.199.994).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Leix Insumos Hospitalarios",
+          "Pharma Express S.A.",
+          "RC Radiología Castelar S.R.L.",
+          "Beta Medical",
+          "Healthy Lab",
+          "Aupres S.R.L.",
+          "Propato Hnos. S.A.I.C.",
+          "Max Continental S.A.",
+          "Droguería Pharma Center S.R.L."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 200,
+            "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 26000,
+                "marca": "Ebano",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Leix Insumos Hospitalarios",
+                "precio": 31999,
+                "marca": "IGALTEX SMS 45 (obj) 3 camisolines ≠ pliego (4)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 29167.92,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "RC Radiología Castelar S.R.L.",
+                "precio": 22500,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Beta Medical",
+                "precio": 25927,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab",
+                "precio": 23989.11,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 19000,
+                "marca": "BIOSAN",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 25616.93,
+                "marca": "—",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 25800,
+                "marca": "PROTBARRIE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 21241,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "IVA: ABLE cotiza con IVA incluido. Pharma Express, Propato y Max Continental declaran precio con IVA; Leix, Castelar, Healthy Lab, Aupres y Pharma Center no aclaran, y Beta Medical firma \"Total neto\". No se suma ni resta IVA a ningún precio. Si Beta o alguno de los otros fuera neto, su precio final sería mayor. Cruce contra el Anexo III: R1 pide equipo de cirugía descartable hemorrepelente estéril de 4 camisolines, 2 campos grandes, 2 medianos y 2 chicos, tela SMS 45 g o superior; sin muestras. Leix cotiza un kit de 3 camisolines, 6 toallas de papel, 4 campos de 0,75 x 0,75, 2 campos de 1,60 x 2 y 1 campo impermeable: no cumple la composición del pliego y se marca (obj). Castelar suma cobertor de mesa y 12 toallas y no indica el gramaje. Propato cotiza un equipo de 15 elementos (el pliego tiene 10) y Max Continental un pack quirúrgico standard sin detalle. Pharma Express no escribe hemorrepelente ni composición; ABLE tampoco escribe hemorrepelente ni gramaje, por eso no se marca (obj) a ninguno por ese punto. R1: el menor precio es Aupres $19.000 (hemorrepelente, 45 gr, doble envase). ABLE ($26.000) queda 8° de 10 ofertas y +36,8% sobre Aupres; también la superan Pharma Center ($21.241), Castelar ($22.500), Healthy Lab ($23.989,11), Propato ($25.616,93), Max Continental ($25.800) y Beta ($25.927). Más del 10%: sin empate técnico ni preferencia nacional. Monto base ABLE $5.200.000 (en el stub figura $5.199.994)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "tabla": null,
-      "id": 401,
-      "entidad": "Htal Peron",
-      "nro": "PA 145",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-03",
-      "monto": 5199994,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
       "creado": "2026-10-29T19:07:03.845Z"
     },
     {
