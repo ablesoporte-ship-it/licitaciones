@@ -6491,7 +6491,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "216/2026",
+          "nro": "342/2026",
+          "fecha": "2026-08-05",
+          "monto": 443900,
+          "obs": "AMPLIACIÓN OC Nro. 342/2026 de OC 216/2026 (solicitud original 770248, solicitud ampliación 789645), fecha 05/08/2026. EX-2026-9480193-GDEBA-HZGADRGMSALGP (PA 91/2026), Disposición DISPO-2026-661-GDEBA-HZGADRGMSALGP/2026. Destino: Hospital Zonal General de Agudos Dr. Ricardo Gutiérrez, Área de depósito general (Servicio solicitante: Anestesiología). Equipo de cirugía de tela SMS descartable, estéril, hemorrepelente: 4 camisolines, 2 campos grandes, 2 medianos y 2 chicos, marca Ebano, 20 u. x $22.195,00 = $443.900,00. Total ampliación $443.900,00. Entrega según necesidades hasta el 31/12/2026.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A."
@@ -9999,11 +10008,20 @@
       "oc_alertas": "OC Nro. 403/2026. Disposición: DISPO-2026-1168-GDEBA-HIPPMSALGP. Total: $5.009.250,00. Sin adjudicación previa cargada en el dashboard; se toma la OC como única referencia. Reng.14 no incluido en la OC — anulado por duplicado (idéntico a reng.13).",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 5009250,
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "403/2026",
+          "nro": "425/2026",
+          "fecha": "2026-08-05",
+          "monto": 2016750,
+          "obs": "AMPLIACIÓN OC Nro. 425/2026 de OC 403/2026 (solicitud original 779924, solicitud ampliación 789941), fecha 05/08/2026 (la que figura en el documento). EX-2026-18019099-GDEBA-HIPPMSALGP (PA 148/2026), Disposición DISPO-2026-1240-GDEBA-HIPPMSALGP/2026. Destino: HIGA Presidente Perón (Sarandí), Depósito General, Anatole France 773 (Servicio solicitante: Quirófano). R8 sutura de ácido poliglicólico N°0 aguja 50 mm 1/2 círc. punta redonda hebra 90 cm, marca ABLE, 900 u. x $1.335,00 = $1.201.500,00. R9 sutura PGA N°1 aguja 50 mm hebra 90 cm, marca ABLE, 250 u. x $1.335,00 = $333.750,00. R10 sutura PGA N°1 aguja 35 mm hebra 70 cm, marca Surgimax, 250 u. x $1.218,00 = $304.500,00. R13 sutura de nylon monofilamento N°3/0 aguja recta 60 mm, hebra 75 cm, marca Surgimax, 300 u. x $590,00 = $177.000,00. Total ampliación $2.016.750,00 (mismas cantidades y precios que la OC original). Entrega inmediata dentro de 10 días corridos.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A. 🇦🇷",
