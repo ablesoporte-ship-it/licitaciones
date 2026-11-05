@@ -118760,14 +118760,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-11-05",
+      "adj_monto_able": 536225,
+      "adj_resumen": "ABLE adjudicada en R9 (445 u. x $1.205,00 = $536.225,00). Disposición DISPO-2026-687-GDEBA-HZGADAOMSALGP; fecha tomada de la OC (sin acta de adjudicación). La ALT 1 no se adjudicó.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-11-05",
+      "oc_alertas": "OC Nro. 68/2026, fecha 05/11/2026. EX-2026-35291898-GDEBA-HZGADAOMSALGP (PA 217/2026). Destino: Hospital Zonal General de Agudos Dr. Arturo Oñativia (Rafael Calzada), Depósito. R9 sutura de ácido poliglicólico 2/0 aguja 25mm 1/2 círculo punta redonda hebra 70cm Surgimax, 445 u. x $1.205,00 = $536.225,00. Total $536.225,00. Entrega inmediata dentro de 10 días corridos. Plazo de pago 7 días hábiles (SAMO-Fondos Propios). Ampliaciones 100%.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 536225,
@@ -118892,11 +118892,35 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.9 — gana ABLE $1.205,00; sigue Propato $1.445,89 (+20,0%). Pliego pide aguja de 26 mm; ABLE y Cirugía Argentina (Tagum, Perú) ofrecen 25 mm. Martorani copia la descripción del pliego: producto real no verificable. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $536.225,00.",
-      "creado": "2026-10-08T12:15:35.524Z"
+      "creado": "2026-10-08T12:15:35.524Z",
+      "renglones_adj": [
+        {
+          "reng": "9",
+          "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 445,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1445.89,
+          "ganador_sig": "Propato Hnos. S.A.I.C.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "9 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 445,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-30",
