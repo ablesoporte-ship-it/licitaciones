@@ -1036,7 +1036,7 @@ function render(){
       <td class="c">${badgePref(r.pref)}</td>
       <td class="c" style="font-size:11.5px">${r.preadj_fecha ? '<span style="color:#2471a3;font-weight:bold">'+fmtDate(r.preadj_fecha)+'</span>' : '<span style="color:#ccc">—</span>'}</td>
       <td class="c" style="font-size:11.5px">${r.adj_fecha ? '<span style="color:#1e8449;font-weight:bold">'+fmtDate(r.adj_fecha)+'</span>' : '<span style="color:#ccc">—</span>'}</td>
-      <td class="c">${badgeOC(r.oc)}${(r.ampliaciones&&r.ampliaciones.length)?`<div style="font-size:10px;color:#2c5f9e;font-weight:700" title="${esc(r.ampliaciones.map(a=>'OC '+a.nro+(a.oc_origen?' (amplía OC '+a.oc_origen+')':'')+(a.monto?' · $'+Number(a.monto).toLocaleString('es-AR'):'')).join(' | '))}">➕ ${r.ampliaciones.length} ampl.</div>`:''}</td>
+      <td class="c">${badgeOC(r.oc)}${(r.ampliaciones&&r.ampliaciones.length)?`<div style="font-size:10px;color:#2c5f9e;font-weight:700" title="${esc(r.ampliaciones.map(a=>'OC '+a.nro+(a.oc_origen?' (amplía OC '+a.oc_origen+')':'')+(a.gestionada?' 🏅':'')+(a.monto?' · $'+Number(a.monto).toLocaleString('es-AR'):'')).join(' | '))}">➕ ${r.ampliaciones.length} ampl.</div>`:''}</td>
       <td class="c" style="white-space:nowrap">
         ${r.tabla?`<button class="btn btn-outline btn-icon" onclick="openComp(${r.id})" title="Ver comparativa" style="margin-right:3px">&#128202;</button>`:''}
         ${r.renglones_preadj&&r.renglones_preadj.length?`<button class="btn btn-outline btn-icon" onclick="openReng(${r.id})" title="Ver renglones ABLE" style="margin-right:3px">&#128203;</button>`:''}
@@ -1333,12 +1333,13 @@ function buildDetailForm(r){
 
 function amplFilaHTML(a){
   a=a||{};
-  return `<div class="ampl-fila" style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 2fr auto;gap:6px;margin-top:6px;align-items:center">
+  return `<div class="ampl-fila" style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 2fr auto auto;gap:6px;margin-top:6px;align-items:center">
     <input type="text" class="ampl-origen" placeholder="Amplía la OC N°" title="N° de la OC original que se amplía" value="${esc(a.oc_origen||'')}">
     <input type="text" class="ampl-nro" placeholder="N° OC ampliación" value="${esc(a.nro||'')}">
     <input type="date" class="ampl-fecha" value="${a.fecha||''}">
     <input type="number" class="ampl-monto" placeholder="Monto $" value="${a.monto||''}">
     <input type="text" class="ampl-obs" placeholder="Observación (renglones, etc.)" value="${esc(a.obs||'')}">
+    <label style="font-size:11px;white-space:nowrap;cursor:pointer" title="Marcar solo si la ampliación fue por gestión del agente (cuenta para el bono)"><input type="checkbox" class="ampl-gest"${a.gestionada?' checked':''}> 🏅 Gestión agente</label>
     <button type="button" class="btn btn-danger" title="Quitar" onclick="this.closest('.ampl-fila').remove()">✕</button>
   </div>`;
 }
@@ -1352,7 +1353,8 @@ function leerAmpliaciones(){
     nro:f.querySelector('.ampl-nro').value.trim(),
     fecha:f.querySelector('.ampl-fecha').value,
     monto:Number(f.querySelector('.ampl-monto').value)||0,
-    obs:f.querySelector('.ampl-obs').value.trim()
+    obs:f.querySelector('.ampl-obs').value.trim(),
+    gestionada:f.querySelector('.ampl-gest').checked
   })).filter(a=>a.nro||a.monto||a.obs);
 }
 
@@ -1559,7 +1561,7 @@ function importSingle(p){
       const lista=[...(data[idx].ampliaciones||[])];
       const nroA=String(p.oc_nro||p.ampl_nro||'').trim();
       if(nroA && lista.some(a=>String(a.nro).trim()===nroA)){ toast('La ampliación OC '+nroA+' ya estaba cargada en '+p.nro,'warn'); return; }
-      lista.push({oc_origen:String(p.oc_origen||p.ampl_origen||'').trim(), nro:nroA, fecha:p.oc_fecha||'', monto:Number(p.monto)||0, obs:p.oc_alertas||''});
+      lista.push({oc_origen:String(p.oc_origen||p.ampl_origen||'').trim(), nro:nroA, fecha:p.oc_fecha||'', monto:Number(p.monto)||0, obs:p.oc_alertas||'', gestionada:!!(p.gestionada||p.gestion_agente)});
       data[idx]={...data[idx], ampliaciones:lista};
       toast('Ampliación agregada a '+p.nro+(nroA?' (OC '+nroA+')':''),'ok');
     } else {
