@@ -4270,7 +4270,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "606/2026",
+          "nro": "827/2026",
+          "fecha": "2026-10-14",
+          "monto": 1388475,
+          "obs": "AMPLIACIÓN OC Nro. 827/2026 de OC 606/2026 (solicitud original 777119), fecha 14/10/2026. EX-2026-17276696-GDEBA-HIAEPSSMLMSALGP (PA 214/2026), Disposición DISPO-2026-1548-GDEBA-HIAEPSSMLMSALGP/2026. Destino: Hospital Interzonal de Agudos Especializado en Pediatría Sor María Ludovica (La Plata), Servicio de Depósito Central, entrega estibada de lunes a viernes de 8 a 12 hs. R14 bolsa de ileostomía con desagote, transparente, 1 pieza, aro recortable 15 a 70 mm con filtro, marca ABLE (Industria Argentina), 750 u. x $1.851,30 = $1.388.475,00 (50% de la OC original). Total ampliación $1.388.475,00. Entrega según necesidades hasta el 31/12/2026.",
+          "gestionada": false
+        }
+      ],
       "tabla": null,
       "liquidado": false,
       "liquidado_fecha": "",
@@ -33115,7 +33124,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "28/2026",
+          "nro": "32/2026",
+          "fecha": "2026-10-13",
+          "monto": 318800,
+          "obs": "AMPLIACIÓN OC Nro. 32/2026 de OC 28/2026 (solicitud original 780162), fecha 13/10/2026. EX-2026-19459298-GDEBA-HZEOODJUCMSALGP (PA 14/2026), Disposición DISPO-2026-144-GDEBA-HZEOODJUCMSALGP/2026. Destino: Hospital Zonal Especializado en Odontología y Ortodoncia Infantil Dr. Juan Ubaldo Carrea (Vicente López), Depósito, Juan de Garay 2478, Olivos. R59 bolsa de papel grado médico 140 x 50 x 330 mm con indicador químico de calor húmedo, marca ABLE, 4.000 u. x $79,70 = $318.800,00 (misma cantidad que la OC original). Total ampliación $318.800,00. Entrega inmediata, dentro de 10 días corridos.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -34020,11 +34038,20 @@
       "oc_alertas": "OC Nro. 249/2026 fecha 14/08/2026. 20 renglones de suturas PGA, nylon y polipropileno marcas Surgimax y ABLE. Total: $9.177.400,00. Entrega hasta 31/10/2026. Disposicion DISPO-2026-934-GDEBA-HZGASFMSALGP/2026. Nota: ampliable/reducible hasta 100%.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 9177400,
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "249/2026",
+          "nro": "311/2026",
+          "fecha": "2026-10-22",
+          "monto": 1122950,
+          "obs": "AMPLIACIÓN OC Nro. 311/2026 de OC 249/2026 (solicitud original 774281), fecha 22/10/2026. EX-2026-12011725-GDEBA-HZGASFMSALGP (PA 150/2026), Disposición DISPO-2026-1244-GDEBA-HZGASFMSALGP/2026. Destino: HIGA San Felipe de San Nicolás, Farmacia. Marca Surgimax (Industria argentina), 50% de cada renglón: R15 nylon 3/0 aguja recta GS60, 450 u. x $607,00 = $273.150,00; R16 mononylon 3/0 aguja curva cortante 24 mm, 750 u. x $607,00 = $455.250,00; R17 nylon 4/0 aguja curva DS 20, 450 u. x $607,00 = $273.150,00; R18 nylon 2/0 aguja triangular recta, 200 u. x $607,00 = $121.400,00. Total ampliación $1.122.950,00. Entrega según necesidades hasta el 31/12/2026.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -35569,8 +35596,8 @@
       "zona": "Zona Norte",
       "agente": "Diego",
       "etapa": "OC",
-      "empate": "Si",
-      "pref": "Si",
+      "empate": "",
+      "pref": "",
       "obs": "ABLE cotiza 19 de los 24 renglones del pliego (1 a 13 y 15 a 20). No cotiza los renglones 14 (seda negra trenzada), 21 (esponja hemostática), 22 (cera para huesos), 23 (resina de colofina) ni 24 (sutura de polidioxanona). Resultado global: ABLE gana 16 renglones (1, 4, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20), empata técnicamente en 2 (renglones 2 y 3, diferencia de 0,59% contra Cardiopack Argentina - marca Surgikal, origen India) y pierde por preferencia nacional en 1 (renglón 5, diferencia de 2,08% contra Cardiopack - Surgikal, India). Renglón 6 — el pliego exige hebra de 90cm; la oferta base de ABLE indica hebra de 70cm. ABLE gana igual por precio, pero queda pendiente confirmar si el producto real entregado cumple los 90cm. Droguería Martorani cotizó los 24 renglones del pliego a precio uniforme por familia de producto (Meril), siempre muy por encima de ABLE — no compite en ningún renglón. Max Continental presenta varias discrepancias de cantidad respecto al pliego (396 en vez de 400 en renglones 8 y 18; 196 en vez de 200 y aguja de 27mm con doble aguja en el renglón 19; 48 en vez de 50 en el renglón 20) y de aguja (30mm ofrecido vs. 35mm pedido en el renglón 10). No compite en los renglones 3, 4, 7, 11, 12 y 13 (no los cotizó). Cardiopack Argentina (marca Surgikal) presentó su cotización con la leyenda \"Suturas - Desiertos Rechazados\", lo que sugiere que corresponde a renglones que habían quedado sin oferentes válidos o rechazados en una instancia previa del mismo expediente. No cotiza los renglones 1 y 4. Los renglones 11, 19 y 20 de Cardiopack son de industria argentina (no ext); el resto de sus renglones son de origen India (ext:true). Euroswiss cotizó únicamente el renglón 21 (esponja hemostática), que ABLE no cotiza — queda fuera de esta comparativa.",
       "creado": "2026-07-10T14:06:55.616Z",
       "renglones_adj": [
@@ -61766,11 +61793,20 @@
       "oc_alertas": "OC Nro. 47/2026 fecha 15/09/2026. Reng.9 (bolsa ileostomia neonatal ABLE cod. BIL.NN.1P.32, 35u x $2.950 = $103.250,00). H.I.E.A.C. San Juan de Dios, La Plata. Disposicion DISPO-2026-909-HIEACSJDMSALGP/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 103250,
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "47/2026",
+          "nro": "74/2026",
+          "fecha": "2026-10-08",
+          "monto": 103250,
+          "obs": "AMPLIACIÓN OC Nro. 74/2026 de OC 47/2026 (solicitud original 785574), fecha 08/10/2026. EX-2026-22557626-GDEBA-HIEACSJDMSALGP (SAMO-Fondos Propios PA 30/2026), Disposición DISPO-2026-1032-GDEBA-HIEACSJDMSALGP/2026. Destino: Hospital Interzonal Especializado de Agudos y Crónicos San Juan de Dios (La Plata), Depósito General, lunes a viernes de 8 a 13 hs. R8 cofia descartable elastizada, marca ArgentCare, 3.500 u. x $29,50 = $103.250,00. Total ampliación $103.250,00. Entregas parciales: 50% dentro de 10 a 20 días corridos y 50% dentro de 30 a 40 días corridos de recibida la OC.",
+          "gestionada": false
+        }
+      ],
       "tabla": null,
       "liquidado": false,
       "liquidado_fecha": "",
@@ -80746,7 +80782,16 @@
       "adelanto_obs": "Piden adelanto de esta mercadería, las cofias y cubre calzados... si no saliera comentan que sacarían por compra menor",
       "gestion_manual": true,
       "gestion_manual_nota": "Iban a desestimar los camisolines por ser tela SP (el pliego pedía SMS",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "298/2026",
+          "nro": "325/2026",
+          "fecha": "2026-10-14",
+          "monto": 3581100,
+          "obs": "AMPLIACIÓN OC Nro. 325/2026 de OC 298/2026 (solicitud original 780202), fecha 14/10/2026. EX-2026-24397589-GDEBA-HZGMBMSALGP (PA 119/2026), Disposición DISPO-2026-863-GDEBA-HZGMBMSALGP/2026. Destino: Hospital Zonal General de Agudos Manuel Belgrano (San Martín), Depósito de Farmacia, lunes a viernes de 8 a 11 hs. R15 camisolín no estéril, no hemorrepelente, tela SP 30 g ArgentCare, 5.000 u. x $620,00 = $3.100.000,00; R16 cofia descartable elastizada ArgentCare (según muestra), 5.000 u. x $28,22 = $141.100,00; R17 cubrecalzado con elástico no estéril ArgentCare (según muestra), 5.000 u. x $68,00 = $340.000,00. Total ampliación $3.581.100,00. Entrega inmediata, dentro de 10 días corridos. Consumo 13/10/2026 al 31/12/2026. Pago a 30 días. Vencimiento no menor a 18 meses. Facturas: lunes, miércoles y jueves de 8 a 12 hs, of.contablebelgrano@ms.gba.gov.ar.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -144220,7 +144265,7 @@
     },
     {
       "id": 410,
-      "entidad": "Htal V. del Carmen del Zarate",
+      "entidad": "Htal Virgen del Carmen",
       "nro": "PA 17",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-10",
@@ -144256,7 +144301,46 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 411,
+      "entidad": "Htal Virgen del Carmen",
+      "nro": "PA 19",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-13",
+      "monto": 787644,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-05T17:55:26.261Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 411
+  "nextId": 412
 }
