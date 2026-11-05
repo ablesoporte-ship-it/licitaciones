@@ -7535,7 +7535,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "263/2026",
+          "nro": "461/2026",
+          "fecha": "2026-11-05",
+          "monto": 1632000,
+          "obs": "AMPLIACIÓN OC Nro. 461/2026 de OC 263/2026 (solicitud original 775650, solicitud ampliación 793311), fecha sin dato en el documento (se carga 05/11/2026). EX-2026-13459528-GDEBA-HZGLMMSALGP (PA 111/2026), Disposición DISPO-2026-2431-GDEBA-DPHMSALGP/2026. Destino: Hospital Zonal General de Agudos Dr. Lucio V. Meléndez (Almirante Brown), Depósito de Descartables, lunes a viernes de 8 a 12 hs. R4 sutura de catgut lento N°2 con aguja de 35 mm, 1/2 círc., punta redonda, hebra de 70 cm, marca ABLE, 600 u. x $2.720,00 = $1.632.000,00 (misma cantidad y precio que la OC original). Total ampliación $1.632.000,00. Entrega según necesidades hasta el 31/12/2026.",
+          "gestionada": false
+        }
+      ],
       "tabla": null,
       "liquidado": false,
       "liquidado_fecha": "",
@@ -18630,7 +18639,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 92,
-      "entidad": "HTAL Narciso Lopez",
+      "entidad": "Htal Narciso Lopez",
       "nro": "PA 32",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-23",
@@ -26060,7 +26069,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "621/2026",
+          "nro": "697/2026",
+          "fecha": "2026-09-11",
+          "monto": 2076550,
+          "obs": "AMPLIACIÓN OC Nro. 697/2026 de OC 621/2026 (solicitud original 782674), fecha 11/09/2026. EX-2026-19910377-GDEBA-HIGAGSMMSALGP (PA 328/2026), Disposición DISPO-2026-1682-GDEBA-HIGAGSMMSALGP/2026. Destino: HIGA General San Martín (La Plata), Depósito Central, lunes a viernes. R5 par de cubrecalzados con elástico, descartables, no estériles, ArgentCare, 15.000 u. x $121,77 = $1.826.550,00. R6 cofia descartable elastizada ArgentCare, 10.000 u. x $25,00 = $250.000,00. Total ampliación $2.076.550,00. Entrega inmediata dentro de 10 días corridos. Período septiembre-diciembre 2026. Pago a 30 días.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -58558,7 +58576,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "479/2026",
+          "nro": "522/2026",
+          "fecha": "2026-11-05",
+          "monto": 681170,
+          "obs": "AMPLIACIÓN OC Nro. 522/2026 de OC 479/2026 (solicitud original 782548, solicitud ampliación 794983), fecha sin dato en el documento (se carga 05/11/2026). EX-2026-19829880-GDEBA-HIPPMSALGP (Licitación Privada 33/2026), Disposición DISPO-2026-1557-GDEBA-HIPPMSALGP/2026. Destino: HIGA Presidente Perón (Sarandí), Servicio de Depósito General, Anatole France 773. R19 cubrecalzado con elástico, descartable, no estéril, ArgentCare, 7.000 u. x $68,81 = $481.670,00. R20 cofia descartable elastizada ArgentCare, 7.000 u. x $28,50 = $199.500,00. Total ampliación $681.170,00 (misma cantidad y precio que la OC original). Entrega inmediata dentro de 10 días corridos.",
+          "gestionada": true
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
