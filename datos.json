@@ -7796,11 +7796,20 @@
       "oc_alertas": "OC Nro. 265/2026 fecha 09/06/2026. 10 renglones de suturas (ABLE y Surgimax). Total: $16.740.040,00. H.I.G.A. Evita Lanus. Licitacion MAYOR.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 16740040,
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "265/2026",
+          "nro": "430/2026",
+          "fecha": "2026-11-05",
+          "monto": 4291000,
+          "obs": "AMPLIACIÓN OC Nro. 430/2026 de OC 265/2026, fecha 05/11/2026. EX-2025-42120605-GDEBA-HIGAEMSALGP (Licitación Privada 91/2026), Solicitud 805307 (original 748954), Disposición DISPO-2026-1384-GDEBA-HIGAEMSALGP/2026. Destino: HIGA Evita (Lanús), Quirófano del establecimiento; entrega según necesidades hasta el 31/12/2026. R3 polipropileno N° 1 aguja 40 mm, marca ABLE: 200 u. x $1.500,00 = $300.000,00. R9 catgut N° 2 aguja 35 mm, marca ABLE: 700 u. x $2.720,00 = $1.904.000,00. R10 nylon monofilamento 2/0 aguja 20 mm, Surgimax: 500 u. x $559,00 = $279.500,00. R13 ácido poliglicólico N° 1 aguja 25 mm, Surgimax: 1.500 u. x $1.205,00 = $1.807.500,00. Total ampliación $4.291.000,00.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
