@@ -146826,33 +146826,8 @@
       "creado": "2026-11-04T13:44:05.926Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 408,
-      "entidad": "Htal V. Magdalena de Martinez",
+      "entidad": "Htal Magdalena V. de Martinez",
       "nro": "PA 30",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-10",
@@ -146860,11 +146835,115 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-05T12:58:24.150Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "IVA incluido en el precio cotizado (art. 8 del pliego general). Sin pliego particular: cruce solo contra las descripciones de las ofertas. Las ALT no suman al monto base. Precios de Live In BA leídos del PDF escaneado de las ofertas; importes verificados contra sus totales ($1.779.786 y $1.843.650). Live In BA no indica el material (SMS); solo 'uso/riesgo de salpicaduras 45 GRS'. A verificar contra el pliego. R20: ABLE +12,8% vs Live In BA (origen nacional), sin empate ni preferencia. Monto base ABLE $2.007.000.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Live In BA S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "20",
+            "cant": 900,
+            "desc": "Camisolin estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2230,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": 1977.54,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20 ALT 1",
+            "cant": 900,
+            "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2500,
+                "marca": "ArgentCare doble envoltorio",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20 ALT 2",
+            "cant": 900,
+            "desc": "Camisolin estéril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": 2048.5,
+                "marca": "HEALTHY LAB (alt.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "IVA incluido en el precio cotizado (art. 8 del pliego general). Sin pliego particular: cruce solo contra las descripciones de las ofertas. Las ALT no suman al monto base. Precios de Live In BA leídos del PDF escaneado de las ofertas; importes verificados contra sus totales ($1.779.786 y $1.843.650). Live In BA no indica el material (SMS); solo 'uso/riesgo de salpicaduras 45 GRS'. A verificar contra el pliego. R20: ABLE +12,8% vs Live In BA (origen nacional), sin empate ni preferencia. Monto base ABLE $2.007.000."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-05T12:58:24.150Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
@@ -146990,6 +147069,31 @@
       "creado": "2026-11-05T17:55:26.261Z"
     },
     {
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "renglones_preadj": null,
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "ampliaciones": [],
+      "tabla": null,
       "id": 412,
       "entidad": "HTAL Vicente Lopez y Planes",
       "nro": "PA 8",
@@ -147003,30 +147107,7 @@
       "empate": "",
       "pref": "",
       "obs": "",
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-11-10T13:44:46.864Z",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "ampliaciones": []
+      "creado": "2026-11-10T13:44:46.864Z"
     }
   ],
   "nextId": 413
