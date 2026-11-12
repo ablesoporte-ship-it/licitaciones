@@ -143459,7 +143459,7 @@
         "notas": "ABLE cotiza con IVA incluido. Igaltex es exento de IVA (precio final). En los presupuestos de Poggi y Kims el IVA no está discriminado (responsables inscriptos): se toman tal cual, a confirmar. Cruce contra Anexo III: R10 bobina pouch 300mm x 200m; R18 camisolín (texto del renglón ilegible en el archivo del pliego, no verificado). El pliego exige muestras en ambos renglones. R10: ABLE +10,05% sobre Igaltex, sin empate ni preferencia. R18: único oferente ABLE. Se quitó el R3 de la oferta de ABLE. Monto base ABLE $3.400.048."
       },
       "id": 394,
-      "entidad": "Hospital Mariano y Luciano de la Vega",
+      "entidad": "Htal de la Vega",
       "nro": "PA 2",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-02",
@@ -147032,47 +147032,6 @@
       "gestion_manual": false,
       "gestion_manual_nota": "",
       "ampliaciones": [],
-      "tabla": null,
-      "id": 407,
-      "entidad": "Htal Dubarry",
-      "nro": "PA 03",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-12",
-      "monto": 14194310,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-04T13:44:05.926Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -148172,7 +148131,1777 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 416,
+      "entidad": "Htal Dubarry",
+      "nro": "PA 3",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-12",
+      "monto": 14194310,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Precios con IVA incluido (ABLE tal cual; Cirugía y Cardiopack columna con IVA). Max Continental no discrimina IVA, se toma tal cual. Cruce contra Anexo III: objeciones solo donde ABLE cumple (R8, R17, R20). ABLE vs Anexo III: R1-R2 catgut lento (pliego cromado), R6-R7 ác. poliglicólico (pliego poliglactina), R9 aguja 25 mm (26), R16 hebra 75 cm (45), R18 aguja 25/35 mm hebra 75 cm (30 mm, 90 cm), R22 aguja 12 mm (13), R26 hebra 75 cm (150). Empate técnico: R6, R12, R13, R15, R16 y R23. Preferencia nacional: R7, R11 y R14. Monto base ABLE $14.194.310 (sin ALT).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Cardiopack Argentina S.A.",
+          "Max Continental S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 290,
+            "desc": "Sutura de Catgut Lento N° 2 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3120,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3320,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 200,
+            "desc": "Sutura de Catgut Lento Nº1 sin aguja, hebra de 150cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3250,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2940,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 390,
+            "desc": "Sutura de Catgut Simple N° 0 con aguja de 40mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2785,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 480,
+            "desc": "Sutura de Catgut Simple N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2500,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2940,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 580,
+            "desc": "Sutura de Catgut Simple N° 2/0 con aguja de 25mm, 1/2 círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2390,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 480,
+            "desc": "Sutura de Ácido Poliglicólico N° 0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1238,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1960,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1216.05,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1474.33,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6 ALT 1",
+            "cant": 480,
+            "desc": "Sutura de Ácido Poliglicólico N° 0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 580,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1238,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1960,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1216.05,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1195,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7 ALT 1",
+            "cant": 580,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 580,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1295,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2290,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1216.05,
+                "marca": "SURGIKAL (obj) aguja 37 mm ≠ pliego 35 mm (Origen: India)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1414,
+                "marca": "MAXSUTURES (obj) aguja 40 mm ≠ pliego 35 mm (Origen: China)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "8 ALT 1",
+            "cant": 580,
+            "desc": "Sutura de Ácido Poliglicólico N° 2 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 290,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1960,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1253.56,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1408.2,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9 ALT 1",
+            "cant": 290,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 390,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1182,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1960,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1216.05,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1050,
+                "marca": "MAXSUTURES (Origen: China) - obs. vto 31/05/2027",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10 ALT 1",
+            "cant": 390,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1282,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 551.55,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1282,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 579,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 6/0 con aguja de 16mm, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1815,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 579,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 6/0 con aguja de 16mm, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 832.1,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 580,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1282,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 551.55,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14 ALT 1",
+            "cant": 580,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 580,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1282,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 579,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15 ALT 1",
+            "cant": 580,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 390,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1345,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 579,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16 ALT 1",
+            "cant": 390,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 0 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2280,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1510,
+                "marca": "MAXSUTURES (obj) aguja 40 mm ≠ pliego 3,5 cm (Origen: China)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "17 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 0 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2280,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2150,
+                "marca": "MAXSUTURES (Origen: China) - obs. doble aguja 27 mm hebra 75 cm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18 ALT 1",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 2/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18 ALT 2",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 2/0 con aguja de 35mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 3/0 con doble aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 90cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2920,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2055,
+                "marca": "MAXSUTURES (Origen: China) - obs. doble aguja 22 mm",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19 ALT 1",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 3/0 con doble aguja de 25mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 90cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 17mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2390,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2920,
+                "marca": "TAGUM (obj) aguja 15 mm ≠ pliego 17 mm (Origen: Perú)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2375.23,
+                "marca": "SURGIKAL (obj) aguja 15 mm ≠ pliego 17 mm",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2150,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20 ALT 1",
+            "cant": 390,
+            "desc": "Sutura de Polipropileno N° 4/0 con doble aguja de 17mm, 1/2 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 7/0 con doble aguja de 09mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 60cm - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 8310,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 5679.74,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 4000,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 6440,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 3149,
+                "marca": "MAXSUTURES (Origen: China) - obs. doble aguja 15 mm hebra 45 cm",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "22 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 6/0 con doble aguja de 12mm, 3/8 Círc. (2 Ag.), punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 590,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1282,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 579,
+                "marca": "MAXSUTURES (Origen: China)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "26",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca Surgimax (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2280,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1557.27,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1510,
+                "marca": "MAXSUTURES (Origen: China) - obs. aguja 40 mm",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "26 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Polipropileno N° 1 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 75cm - Marca ABLE (Industria argentina)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios con IVA incluido (ABLE tal cual; Cirugía y Cardiopack columna con IVA). Max Continental no discrimina IVA, se toma tal cual. ABLE vs Anexo III:  R18 aguja 25/35 mm hebra 75 cm (30 mm, 90 cm), R22 aguja 12 mm (13), R26 hebra 75 cm (150). Empate técnico: R6, R12, R13, R15, R16 y R23. Preferencia nacional: R7, R11 y R14. Monto base ABLE $14.194.310 (sin ALT)."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-12T16:32:00.595Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 416
+  "nextId": 417
 }
