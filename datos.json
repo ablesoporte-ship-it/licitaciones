@@ -115000,12 +115000,46 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-08",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "16",
+          "desc": "Cofia descartable elastizada, marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 29.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 31.71,
+          "ganador_sig": "Laboratorios Igaltex S.R.L.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17",
+          "desc": "Cubrecalzado con elástico, descartable, no estéril, tela no tejida, no deslizable, resistente a las rasgaduras, marca ArgentCare (cotizado por unidad)",
+          "cant": 4000,
+          "precio_able": 73,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17 ALT 1",
+          "desc": "Par de cubrecalzados con elástico, descartables, no estériles, tela no tejida, no deslizables, resistentes a las rasgaduras, marca ArgentCare (cotizado por par)",
+          "cant": 4000,
+          "precio_able": 130,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 54/2026 (Htal Ana Goitia), 08/10/2026. ABLE preadjudicada en R16 y R17 por $439.500,00 (total del acta $3.021.120,80). R17 ALT 1 (por par, $130) no preadjudicada.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -115189,7 +115223,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Precios sin desglose de IVA en ningún oferente; se tomaron tal cual figuran. Pliego (Anexo III) permite cotizar reng.17 por par o unidad — sin incumplimiento. Reng.17: Farmatec cotizó como «UNID» $377,60, muy por encima del resto — verificar. Reng.16 — gana ABLE $29,50 vs Igaltex $31,71 (+7,5%), resto más caro. Reng.17 unidad — gana ABLE $73,00 (único comparable: Farmatec, ver nota anterior). Reng.17 ALT par — gana ABLE $130,00 vs Martorani $153,70 (+18,2%) y Euro Swiss $302,00 (+132,3%). Sin empate técnico ni preferencia nacional. Monto cotizado ABLE (sin ALT): $439.500,00.",
@@ -119112,21 +119146,44 @@
       ]
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-26",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Camisolín estéril, hemorrepelente, tela SMS 45 grs., con tiras de ajuste en cuello y cintura, puños de algodón ajustables, marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 2277,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "4 ALT 1",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente, tela SMS, marca ArgentCare",
+          "cant": 6000,
+          "precio_able": 2650,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 199/2026 (Htal Bocalandro), 26/10/2026. Oferta de ABLE rechazada en R4 por precio excesivo ($2.277 x 5.000 según acta). Nada preadjudicado a ABLE. Preadjudicados: Max Continental R1-R2 y Pañales Liberty R3 y R5.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-10-26",
       "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_resumen": "ABLE no adjudicada: oferta del R4 rechazada por precio excesivo. Renglón sin adjudicar a ABLE. Adjudicado a otras firmas: R1-R2 Max Continental, R3 y R5 Pañales Liberty.",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "adelanto": false,
@@ -119202,11 +119259,35 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.4 — gana ABLE $2.300,00; Healthy Lab (Live In BA) $2.834,74 (+23,3%). Pliego pide doble envoltura y testigo de proceso: la base de ABLE no indica doble envoltorio (la ALT 1 sí). Muestra obligatoria reng.4 (Depósito Central, 9 a 13 hs). Vigencia mínima 24 meses. Monto cotizado ABLE (sin ALT): $13.800.000,00.",
-      "creado": "2026-10-07T17:17:50.701Z"
+      "creado": "2026-10-07T17:17:50.701Z",
+      "renglones_adj": [
+        {
+          "reng": "4",
+          "desc": "Camisolín estéril, hemorrepelente, tela SMS 45 grs., con tiras de ajuste en cuello y cintura, puños de algodón ajustables, marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 2277,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "precio_excesivo"
+        },
+        {
+          "reng": "4 ALT 1",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente, tela SMS, marca ArgentCare",
+          "cant": 6000,
+          "precio_able": 2650,
+          "marca": "ArgentCare",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-29",
@@ -148064,10 +148145,10 @@
     {
       "id": 414,
       "entidad": "Mun de Vicente Lopez",
-      "nro": "",
-      "tipo": "",
+      "nro": "LP 68",
+      "tipo": "Privada",
       "fecha": "2026-12-02",
-      "monto": 0,
+      "monto": 2979364,
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
@@ -148091,7 +148172,14 @@
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
-      "creado": "2026-11-12T15:14:37.695Z"
+      "creado": "2026-11-12T15:14:37.695Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     },
     {
       "id": 415,
