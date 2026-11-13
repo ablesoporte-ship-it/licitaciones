@@ -41286,7 +41286,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "442/2026",
+          "nro": "499/2026",
+          "fecha": "2026-11-12",
+          "monto": 5867424,
+          "obs": "AMPLIACIÓN OC Nro. 499/2026 de OC 442/2026, fecha 12/11/2026. EX-2026-21014767--GDEBA-HZGAAAEMSALGP (Licitación Privada 17/2026), Solicitud 805894 (original 782770), Disposición DISPO-2026-356-GDEBA-HIGAAAEMSALGP/2026. Destino: HIGA Dr. Alberto Eurnekian (Ezeiza), Farmacia; entrega según necesidades hasta el 31/12/2026. R2 nylon monofilamento 2/0 Surgimax: 2.016 u. x $589,00 = $1.187.424,00. R4 ácido poliglicólico 4/0 Surgimax: 72 u. x $1.205,00 = $86.760,00. R5 cofia ArgentCare: 12.000 u. x $28,50 = $342.000,00. R6 bolsa de ileostomía ABLE: 220 u. x $1.870,00 = $411.400,00. R65 clips titanio LT400 ABLE: 100 u. x $6.500,00 = $650.000,00. R82 ácido poliglicólico 1 aguja 50 mm hebra 90 cm ABLE: 2.304 u. x $1.335,00 = $3.075.840,00. R106 bolsa de ileostomía neonatal ABLE: 30 u. x $3.800,00 = $114.000,00. Total ampliación $5.867.424,00.",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -42243,7 +42252,7 @@
       "liquidado_obs": "",
       "id": 149,
       "entidad": "Htal Eurnekian",
-      "nro": "LP 17",
+      "nro": "LP 17/",
       "tipo": "Publica",
       "fecha": "2026-07-27",
       "monto": 7155808,
@@ -135411,12 +135420,35 @@
       "creado": "2026-10-15T14:35:08.924Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-27",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "5",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 20mm, 1/2 Circ., punta Redonda, hebra de 70cm - Marca Surgimax (Industria argentina)",
+          "cant": 350,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1300.57,
+          "ganador_sig": "Max Continental S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "5 ALT 1",
+          "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja de 20mm, 1/2 Circ., punta Redonda, hebra de 70cm - Marca ABLE (Industria argentina)",
+          "cant": 350,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 120/2026 (Htal Cordero), 27/10/2026. ABLE preadjudicada en R5 por $421.750,00 (350 u. x $1.205). Total del acta $3.915.295,11.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -135518,7 +135550,7 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.5 — gana ABLE $1.205,00; sigue Max Continental $1.300,57 (ABLE −7,3%) y Martorani $2.448,80. El pliego pide poliglactina 910 (tipo J316H) con aguja de 20 mm; ABLE cotiza ácido poliglicólico 3/0 de 20 mm. Max cotiza aguja de 17 mm y vencimiento 31/05/2027 (el pliego exige vigencia mínima de 12 meses desde la entrega). Pliego: muestras en Servicio de Farmacia (L a V 8 a 13 hs). Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $421.750,00; el total de $889.000,00 de la carta incluye la ALT 1 ($467.250,00).",
@@ -141075,21 +141107,33 @@
       "creado": "2026-10-22T11:20:23.363Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-11-13",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 2057,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 24333.59,
+          "ganador_sig": "Droguería Disval S.R.L.",
+          "motivo": "descartada de acuerdo al informe técnico"
+        }
+      ],
+      "gestion_pre": "CD 439-1253-CDI26 (Htal Bonorino Udaondo, CABA). Oferta de ABLE descartada de acuerdo al informe técnico. Adjudicada a Droguería Disval S.R.L.: R1 180 u. x $24.333,59 = $4.380.046,20.",
+      "gestion_pre_resultado": "Perdido",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
+      "adj_fecha": "2026-11-13",
       "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
+      "adj_resumen": "ABLE no adjudicada: oferta descartada de acuerdo al informe técnico. R1 adjudicado a Droguería Disval S.R.L., 180 u. x $24.333,59 = $4.380.046,20 (Disposición Aprobatoria Contratación Directa 439-1253-CDI26, EX-2026-46700683-GCABA-HBU).",
+      "adj_alertas": "Oferta de ABLE descartada de acuerdo al informe técnico; la disposición no detalla el motivo.",
+      "adj_tiene_alerta": true,
+      "oc": "No otorgada",
       "oc_fecha": "",
       "oc_alertas": "",
       "adelanto": false,
@@ -141186,11 +141230,24 @@
       "mayor": "No",
       "zona": "CABA",
       "agente": "Diego",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.1: ABLE gana con $2.057; el siguiente es Hollister (Macor) con $13.549,64 (+558,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (7 oferentes, ARS). Sin pliego: no se cruzó contra especificaciones (el cuadro pide boca de 39-41 mm; ABLE ofrece aro recortable 15-70 mm). Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $370.260,00.",
-      "creado": "2026-10-22T11:20:23.398Z"
+      "creado": "2026-10-22T11:20:23.398Z",
+      "renglones_adj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa de Ileostomía con desagote, transparente, de 1 pieza con aro recortable de 15 a 70mm (contiene filtro) - Marca ABLE (Industria argentina)",
+          "cant": 180,
+          "precio_able": 2057,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 24333.59,
+          "ganador_sig": "Droguería Disval S.R.L.",
+          "motivo": "descartada de acuerdo al informe técnico"
+        }
+      ]
     },
     {
       "preadj_fecha": "",
@@ -150503,7 +150560,46 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 422,
+      "entidad": "HTAL WILDE",
+      "nro": "PA 2",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-18",
+      "monto": 8966750,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-13T18:07:41.457Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 421
+  "nextId": 423
 }
