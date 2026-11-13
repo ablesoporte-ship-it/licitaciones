@@ -148340,31 +148340,6 @@
       "creado": "2026-11-05T15:14:00.265Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 411,
       "entidad": "Htal Virgen del Carmen",
       "nro": "PA 19",
@@ -148374,11 +148349,67 @@
       "mayor": "No",
       "zona": "Zona Norte",
       "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-05T17:55:26.261Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "R4: ABLE gana ($65.637 vs Poggi $319.726). Poggi copia el texto del pliego y no discrimina IVA. Monto base $787.644.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Raúl Jorge León Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "4",
+            "cant": 12,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 65637,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 319726,
+                "marca": "YELLOW PACK",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta; Poggi no discrimina IVA. Cruce contra Anexo III: ABLE cumple (300 mm x 200 m, calor húmedo + ETO). Poggi copia el texto del pliego en la descripción; el producto real no es verificable. Monto base ABLE $787.644."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-05T17:55:26.261Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
