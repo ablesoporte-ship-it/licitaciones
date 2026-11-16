@@ -94624,7 +94624,16 @@
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
-      "ampliaciones": [],
+      "ampliaciones": [
+        {
+          "oc_origen": "394/2026",
+          "nro": "411/2026",
+          "fecha": "2026-11-16",
+          "monto": 442626,
+          "obs": "AMPLIACIÓN OC Nro. 411/2026 de OC 394/2026, fecha 16/11/2026. EX-2026-24783165--GDEBA-RSXIIMSALGP (Procedimiento Abreviado 174/2026), Solicitud 806109 (original 788620), Disposición DISPO-2026-1541-GDEBA-RSXIIMSALGP/2026. Destino: Hospital de Gestión Descentralizado Región Sanitaria XII; entrega en Centro Odontológico Municipal Dr. Jaime Echeverría, Almafuerte 2902, San Justo (La Matanza), inmediata dentro de 10 días corridos. R20 cofia descartable elastizada ArgentCare: 1.500 u. x $29,50 = $44.250,00. R36 camisolín de cirugía no estéril, no hemorrepelente 20 gr, ArgentCare: 800 u. x $497,97 = $398.376,00. Total ampliación $442.626,00 (mismas cantidades e importes que la OC 394/2026).",
+          "gestionada": false
+        }
+      ],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -136016,12 +136025,79 @@
       "creado": "2026-10-16T11:55:00.773Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-10-29",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "Sí",
+      "renglones_preadj": [
+        {
+          "reng": "4",
+          "desc": "Sutura de Catgut Lento N° 2/0 con aguja de 25 mm, 1/2 circ., punta redonda, hebra 70 cm, marca ABLE",
+          "cant": 400,
+          "precio_able": 2200,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 2083,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": "preferencia_nac"
+        },
+        {
+          "reng": "17",
+          "desc": "Sutura de Catgut Simple N° 0 con aguja de 40 mm, 1/2 circ., punta redonda, hebra 70 cm, marca ABLE",
+          "cant": 300,
+          "precio_able": 2200,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 3860,
+          "ganador_sig": "Euro Swiss S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "17 ALT 1",
+          "desc": "Sutura de Catgut Simple N° 0 sin aguja, hebra 150 cm, marca ABLE",
+          "cant": 300,
+          "precio_able": 2640,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "25",
+          "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja de 25 mm, 1/2 circ., punta redonda, hebra 70 cm, marca Surgimax",
+          "cant": 120,
+          "precio_able": 1205,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1903,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "26",
+          "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60 mm, recta, punta rev. cortante, hebra 75 cm, marca Surgimax",
+          "cant": 48,
+          "precio_able": 604,
+          "marca": "Surgimax",
+          "resultado": "adj",
+          "precio_siguiente": 1143,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "27",
+          "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 50 mm, 1/2 circ., punta redonda, hebra 90 cm, marca ABLE",
+          "cant": 96,
+          "precio_able": 1335,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": 2233,
+          "ganador_sig": "Cirugía Argentina S.A.",
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA 52/2026 (Htal Subzonal Materno Infantil Ana Goitia), 29/10/2026. ABLE preadjudicada en R4, R17, R25, R26 y R27 por $1.841.752,00 (total del acta a ABLE). R4: ABLE preadjudicada por preferencia nacional (+5,6% sobre Cirugía Argentina $2.083, TAGUM origen Perú, según el acta). R17: se preadjudica la oferta base (con aguja 40 mm), no la ALT 1 sin aguja. Total general preadjudicado en el acta $3.666.445,44.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -136035,7 +136111,7 @@
       "oc_alertas": "",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 1841752,
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
@@ -136251,7 +136327,7 @@
       "mayor": "No",
       "zona": "Zona Sur",
       "agente": "Noe",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "",
       "obs": "Reng. 4: gana Cirugía Argentina $2.083,00 (TAGUM, Perú); ABLE +5,6% — preferencia nacional. Reng. 17, 25, 26 y 27: gana ABLE. Reng. 17: la oferta base de ABLE es con aguja de 40 mm; el pliego pide catgut simple cal. 0 sin aguja, que es la ALT 1 de ABLE ($2.640,00, también la más baja). Los competidores cotizan sin aguja (150 cm). Euroswiss cotiza Suturas Argentinas (ABLE) en reng. 4 y 17. Falta la hoja de su presupuesto posterior al reng. 21 (reng. 25, 26 y 27 sin datos). Pliego vs ABLE: reng. 4 pide catgut cromado (ABLE cotiza 'lento'); reng. 25 pide aguja de 26 mm (ABLE 25 mm); reng. 27 pide poliglactina (ABLE ácido poliglicólico, igual que Cirugía Argentina). Precios de Cirugía Argentina con IVA; Euroswiss sin detalle de IVA, tomado tal cual. Monto cotizado ABLE (sin ALT): $1.841.752,00.",
