@@ -150944,45 +150944,214 @@
       "creado": "2026-11-13T14:35:34.147Z"
     },
     {
+      "id": 420,
+      "entidad": "HTAL WILDE",
+      "nro": "PA 1",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-17",
+      "monto": 3320702,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en el cuadro comparativo del hospital; no se discrimina IVA. No se incluyó el pliego: no se pudo cruzar contra Anexo III. R20 y R21 tienen la misma descripción de ABLE (bolsa 140x50x330 mm), pero el cuadro del hospital pide en R20 bolsa 90x250x50 mm, que es lo que cotizan Igaltex y KIMS. Verificar el producto cotizado por ABLE en R20. R21: ABLE +9,0% sobre KIMS (Ind. Arg.); los ganadores son nacionales, no aplica preferencia nacional. R23 y R24: empate técnico con Igaltex (ABLE +1,5%). Poggi copia el texto del pliego en la descripción; el producto real no es verificable. Monto base ABLE $3.320.702.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "KIMS S.R.L.",
+          "Raúl Jorge León Poggi"
+        ],
+        "renglones": [
+          {
+            "reng": "20",
+            "cant": 700,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 38.95,
+                "marca": "STERILYS (Igaltex)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 42.76,
+                "marca": "Yellow Pack (KIMS)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 3000,
+            "desc": "Bolsa de papel grado médico de 140mm x 50mm x 330mm con indicador químico de calor húmedo, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 75.46,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 70.41,
+                "marca": "STERILYS (Igaltex)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 69.24,
+                "marca": "Yellow Pack (KIMS)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 360,
+                "marca": "Droguería Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "23",
+            "cant": 30,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 60830,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 59941.44,
+                "marca": "STERILYS (Igaltex)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 78178,
+                "marca": "Yellow Pack (KIMS)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 320000,
+                "marca": "Droguería Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "24",
+            "cant": 20,
+            "desc": "Bobina de pouch de papel de uso médico liso y lámina transparente de 300mm x 200mts con indicador químico de calor húmedo + ETO, marca Able",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 60830,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 59941.44,
+                "marca": "STERILYS (Igaltex)",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "KIMS S.R.L.",
+                "precio": 78178,
+                "marca": "Yellow Pack (KIMS)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Raúl Jorge León Poggi",
+                "precio": 320000,
+                "marca": "Droguería Poggi",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en el cuadro comparativo del hospital; no se discrimina IVA. No se incluyó el pliego: no se pudo cruzar contra Anexo III. R20 y R21 tienen la misma descripción de ABLE (bolsa 140x50x330 mm), pero el cuadro del hospital pide en R20 bolsa 90x250x50 mm, que es lo que cotizan Igaltex y KIMS. Verificar el producto cotizado por ABLE en R20. R21: ABLE +9,0% sobre KIMS (Ind. Arg.); los ganadores son nacionales, no aplica preferencia nacional. R23 y R24: empate técnico con Igaltex (ABLE +1,5%). Poggi copia el texto del pliego en la descripción; el producto real no es verificable. Monto base ABLE $3.320.702."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-11-13T15:18:39.568Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
-      "id": 420,
-      "entidad": "HTAL WILDE",
-      "nro": "PA 1",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-17",
-      "monto": 19744802,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-13T15:18:39.568Z"
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
