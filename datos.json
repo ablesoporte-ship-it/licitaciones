@@ -149277,45 +149277,699 @@
       "creado": "2026-11-12T15:14:37.695Z"
     },
     {
+      "id": 415,
+      "entidad": "HTAL Vicente Lopez y Planes",
+      "nro": "PA 6",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-17",
+      "monto": 27385400,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en cada oferta escaneada; Igaltex, Bioprotec y Live In BA indican IVA exento, Propato C/IVA y el resto no discrimina. Se cruzó contra el Anexo III del pliego. R20: gana Martorani ($996,70); ABLE +2,1%, fuera del 2% de empate técnico. Euro Swiss ofrece el producto ABLE (Suturas Argentinas) a $1.155,88. R28: gana Igaltex ($623,19); ABLE +4,3% y el ganador es nacional, sin preferencia. Igaltex no indica gramaje. R28: Martorani (obj) cotiza SMS 22 g y el pliego exige 30 g/m². R28: la oferta base de ABLE no indica tela SMS (el pliego pide TNT SMS); ALT 2 y ALT 3 sí. R29: Pharma Center (obj) cotiza 30 g y Martorani (obj) 35 g; el pliego exige mínimo 40 g/m². R29: gana Bioprotec ($1.180, nacional); ABLE +8,5%, sin preferencia nacional. R29 ALT 1 de ABLE es SMS 30 g, por debajo del mínimo de 40 g del pliego; no se compara con las alternativas de 40 g de Pharma Center y Bioprotec, que van en la fila 29 ALT 2. Las alternativas de distintos oferentes no son equivalentes (tela y gramaje distintos); se ubican según el número de alternativa de cada oferta. Monto base ABLE $27.485.400 (sin alternativas; el total de $98.165.400 de su nota incluye todas).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Laboratorios Igaltex S.R.L.",
+          "Live In BA S.A. (Healthy Lab)",
+          "Droguería Martorani S.A.",
+          "Droguería Pharma Center S.R.L.",
+          "Bioprotec S.R.L.",
+          "Droguería Farmatec S.A.",
+          "Euro Swiss S.A.",
+          "Propato Hnos. S.A.I.C."
+        ],
+        "renglones": [
+          {
+            "reng": "20",
+            "cant": 300,
+            "desc": "Bajalenguas adultos por 100 unidades, marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1018,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 996.7,
+                "marca": "AURINCO (Martorani)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1070,
+                "marca": "CLERICOT (Farmatec)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1155.88,
+                "marca": "ABLE (Suturas Argentinas)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1445.87,
+                "marca": "Propato (Ind. Arg.)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 30000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30 g, descartable, manga larga con tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 650,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 623.19,
+                "marca": "GLOBAL PROTECTIVE (Igaltex)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 702,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 752.6,
+                "marca": "PEMED (obj) SMS 22 g ≠ 30 g pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 792,
+                "marca": "DPC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": 808.47,
+                "marca": "BIOSAN (Bioprotec)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 865.15,
+                "marca": "BLUEMED (Farmatec)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1382.86,
+                "marca": "KRATEC (Euro Swiss)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 2036.77,
+                "marca": "DIMEX (Propato)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28 ALT 1",
+            "cant": 30000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20 g, descartable, manga larga con tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 535,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 1030,
+                "marca": "HEALTHY LAB (PE uso moderado)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28 ALT 2",
+            "cant": 30000,
+            "desc": "Camisolín no estéril, hemorrepelente, tela SMS de 30 g, descartable, manga larga con tiras de ajuste en cuello y cintura, puños de elástico ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": 616,
+                "marca": "BIOSAN (SB 30 g)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28 ALT 3",
+            "cant": 30000,
+            "desc": "Camisolín no estéril, hemorrepelente, tela SMS de 30 g, descartable, manga larga con tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 855,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29",
+            "cant": 6000,
+            "desc": "Camisolín no estéril, hemorrepelente, tela SMS de 45 g, descartable, manga larga con tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1280,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 2023.55,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1319.9,
+                "marca": "PEMED (obj) SMS 35 g ≠ 40 g pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 884,
+                "marca": "DPC (obj) 30 g ≠ 40 g pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": 1180,
+                "marca": "BIOSAN (Bioprotec)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1887.6,
+                "marca": "BLUEMED (Farmatec)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 2119.92,
+                "marca": "DIMEX (Propato)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29 ALT 1",
+            "cant": 6000,
+            "desc": "Camisolín no estéril, hemorrepelente, tela SMS de 30 g, descartable, manga larga con tiras de ajuste en cuello y cintura, puños de algodón ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 855,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "29 ALT 2",
+            "cant": 6000,
+            "desc": "Alternativa de otros oferentes: camisolín hemorrepelente, tela SMS de 40 g (ABLE no cotizó esta variante)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Pharma Center S.R.L.",
+                "precio": 991,
+                "marca": "DPC (SMS 40 g)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bioprotec S.R.L.",
+                "precio": 1113,
+                "marca": "BIOSAN (SMS 40 g)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta escaneada; Igaltex, Bioprotec y Live In BA indican IVA exento, Propato C/IVA y el resto no discrimina. Se cruzó contra el Anexo III del pliego. R20: gana Martorani ($996,70); ABLE +2,1%, fuera del 2% de empate técnico. Euro Swiss ofrece el producto ABLE (Suturas Argentinas) a $1.155,88. R28: gana Igaltex ($623,19); ABLE +4,3% y el ganador es nacional, sin preferencia. Igaltex no indica gramaje. R28: Martorani (obj) cotiza SMS 22 g y el pliego exige 30 g/m². R28: la oferta base de ABLE no indica tela SMS (el pliego pide TNT SMS); ALT 2 y ALT 3 sí. R29: Pharma Center (obj) cotiza 30 g y Martorani (obj) 35 g; el pliego exige mínimo 40 g/m². R29: gana Bioprotec ($1.180, nacional); ABLE +8,5%, sin preferencia nacional. R29 ALT 1 de ABLE es SMS 30 g, por debajo del mínimo de 40 g del pliego; no se compara con las alternativas de 40 g de Pharma Center y Bioprotec, que van en la fila 29 ALT 2. Las alternativas de distintos oferentes no son equivalentes (tela y gramaje distintos); se ubican según el número de alternativa de cada oferta. Monto base ABLE $27.485.400 (sin alternativas; el total de $98.165.400 de su nota incluye todas)."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-11-12T15:17:08.237Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
-      "id": 415,
-      "entidad": "HTAL Vicente Lopez y Planes",
-      "nro": "PA 6",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-17",
-      "monto": 27485000,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-12T15:17:08.237Z"
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
@@ -151913,7 +152567,46 @@
       "pref": "",
       "obs": "",
       "creado": "2026-11-17T17:46:16.127Z"
+    },
+    {
+      "id": 434,
+      "entidad": "Mun de San Miguel",
+      "nro": "PA 118",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-25",
+      "monto": 65186500,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-18T18:21:41.088Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 434
+  "nextId": 435
 }
