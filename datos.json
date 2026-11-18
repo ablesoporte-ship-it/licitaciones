@@ -149154,31 +149154,6 @@
       "creado": "2026-11-05T17:55:26.261Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 412,
       "entidad": "HTAL Vicente Lopez y Planes",
       "nro": "PA 8",
@@ -149188,11 +149163,159 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-10T13:44:46.864Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en cada oferta escaneada; solo Cirugía Argentina indica precios con IVA, el resto no discrimina. No se incluyó el pliego: no se pudo cruzar contra Anexo III. R16: gana ABLE ($5.350) contra Suturas S.R.L. ($5.800). R17: Euro Swiss ($5.500) ofrece el producto ABLE (Suturas Argentinas) y queda por debajo de ABLE ($6.500, +18,2%). Suturas S.R.L. cotiza \"precio por clip\", mientras ABLE cotiza por cartucho de 6 clips; se tomó el precio tal cual figura y conviene verificar la unidad del renglón. Cirugía Argentina declara origen China (Kangji) en R16 y R17. Monto base ABLE $1.452.500.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Euro Swiss S.A.",
+          "Cirugía Argentina S.A.",
+          "Sedesa S.A.",
+          "Suturas S.R.L.",
+          "American Fiure S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "16",
+            "cant": 150,
+            "desc": "Cartucho con 6 clips de titanio, tamaño mediano/grande, tipo LT300, marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 8710,
+                "marca": "KANGJI (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 5800,
+                "marca": "S/ marca (precio por clip)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "American Fiure S.A.",
+                "precio": 15500,
+                "marca": "WECK / HORIZON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 100,
+            "desc": "Cartucho con 6 clips de titanio, tamaño grande, tipo LT400, marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6500,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 5500,
+                "marca": "ABLE (Suturas Argentinas)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 8710,
+                "marca": "KANGJI (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 17302.62,
+                "marca": "J&J LIGACLIP LT400",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Suturas S.R.L.",
+                "precio": 6000,
+                "marca": "S/ marca (precio por clip)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "American Fiure S.A.",
+                "precio": 15500,
+                "marca": "WECK / HORIZON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta escaneada; solo Cirugía Argentina indica precios con IVA, el resto no discrimina. No se incluyó el pliego: no se pudo cruzar contra Anexo III. R16: gana ABLE ($5.350) contra Suturas S.R.L. ($5.800). R17: Euro Swiss ($5.500) ofrece el producto ABLE (Suturas Argentinas) y queda por debajo de ABLE ($6.500, +18,2%). Suturas S.R.L. cotiza \"precio por clip\", mientras ABLE cotiza por cartucho de 6 clips; se tomó el precio tal cual figura y conviene verificar la unidad del renglón. Cirugía Argentina declara origen China (Kangji) en R16 y R17. Monto base ABLE $1.452.500."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-10T13:44:46.864Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
