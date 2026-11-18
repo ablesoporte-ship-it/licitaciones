@@ -154059,45 +154059,392 @@
       "creado": "2026-11-13T15:18:39.568Z"
     },
     {
+      "id": 422,
+      "entidad": "HTAL WILDE",
+      "nro": "PA 2",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-18",
+      "monto": 9265500,
+      "mayor": "Sí",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en cada oferta; Cirugía Argentina indica C/IVA y el resto no discrimina IVA (el pliego pide IVA incluido). Se cruzó contra el Anexo III del pliego. R14: ABLE $5.350; Synergya $6.375 (+19,2%), Cirugía Argentina $7.280, Aupres $9.276 y Sedesa $17.302,62. R19: ABLE $6.500; Cirugía Argentina (Kangji, China) $7.280 (+12,0%) y Sedesa $17.302,62. R44: ABLE $1.280; Aupres $1.944 (+51,9%). El pliego pide refuerzo en pechera y ni ABLE ni Aupres lo indican. R47: ABLE $29,50; Martorani $39,90 (+35,3%). Martorani repite la descripción del pliego sin detallar producto. R48: el pliego pide cintas ajustables y hemorrepelente; ABLE cotiza con elástico y no indica hemorrepelente. R48: Martorani cotiza por PAR ($143,30) y se compara con la ALT 1 de ABLE (par, $130; Martorani +10,2%). Monto base ABLE $8.966.750 (sin ALT); el total de $9.616.750 de su Excel incluye la ALT 1 de R48.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Sedesa S.A.",
+          "Synergya",
+          "Aupres S.R.L.",
+          "Droguería Martorani S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "14",
+            "cant": 600,
+            "desc": "Cartucho con 6 clips de titanio - Tamaño mediano/grande Tipo LT300 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5350,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 7280,
+                "marca": "KANGJI (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 17302.62,
+                "marca": "J&J LIGACLIP",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya",
+                "precio": 6375,
+                "marca": "UNIMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 9276,
+                "marca": "UNIMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 100,
+            "desc": "Cartucho con 6 clips de titanio – Tamaño grande Tipo LT400 - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 6500,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 7280,
+                "marca": "KANGJI (Origen: China)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 17302.62,
+                "marca": "J&J LIGACLIP",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "44",
+            "cant": 3600,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 45 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de algodón ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1280,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": 1944,
+                "marca": "BIOPROTEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "47",
+            "cant": 5000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 39.9,
+                "marca": "DIYA",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "48",
+            "cant": 5000,
+            "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 70.25,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "48 ALT 1",
+            "cant": 5000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Synergya",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Aupres S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 143.3,
+                "marca": "DIYA (por par)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta; Cirugía Argentina indica C/IVA y el resto no discrimina IVA (el pliego pide IVA incluido). Se cruzó contra el Anexo III del pliego. R14: ABLE $5.350; Synergya $6.375 (+19,2%), Cirugía Argentina $7.280, Aupres $9.276 y Sedesa $17.302,62. R19: ABLE $6.500; Cirugía Argentina (Kangji, China) $7.280 (+12,0%) y Sedesa $17.302,62. R44: ABLE $1.280; Aupres $1.944 (+51,9%). El pliego pide refuerzo en pechera y ni ABLE ni Aupres lo indican. R47: ABLE $29,50; Martorani $39,90 (+35,3%). Martorani repite la descripción del pliego sin detallar producto. R48: el pliego pide cintas ajustables y hemorrepelente; ABLE cotiza con elástico y no indica hemorrepelente. R48: Martorani cotiza por PAR ($143,30) y se compara con la ALT 1 de ABLE (par, $130; Martorani +10,2%). Monto base ABLE $8.966.750 (sin ALT); el total de $9.616.750 de su Excel incluye la ALT 1 de R48."
+      },
       "preadj_fecha": "",
       "preadj_empate_ok": "",
       "preadj_pref_ok": "",
-      "renglones_preadj": null,
       "gestion_pre": "",
       "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
       "adj_recibida": false,
       "adj_fecha": "",
       "adj_monto_able": 0,
       "adj_resumen": "",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
       "oc": "Pendiente",
       "oc_fecha": "",
       "oc_alertas": "",
+      "creado": "2026-11-13T18:07:41.457Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
-      "id": 422,
-      "entidad": "HTAL WILDE",
-      "nro": "PA 2",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-18",
-      "monto": 8966750,
-      "mayor": "Sí",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-13T18:07:41.457Z"
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
