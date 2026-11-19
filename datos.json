@@ -135220,11 +135220,56 @@
       "creado": "2026-10-14T17:39:12.328Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
+      "preadj_fecha": "2026-10-20",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "5",
+          "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
+          "cant": 96,
+          "precio_able": 604,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 592.9,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": "superado"
+        },
+        {
+          "reng": "6",
+          "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
+          "cant": 48,
+          "precio_able": 604,
+          "marca": "Surgimax",
+          "resultado": "no_adj",
+          "precio_siguiente": 592.9,
+          "ganador_sig": "Cardiopack Argentina S.A.",
+          "motivo": "superado"
+        },
+        {
+          "reng": "33",
+          "desc": "Espátula de Ayre descartable por unidad",
+          "cant": 300,
+          "precio_able": 57.97,
+          "marca": "ABLE",
+          "resultado": "no_adj",
+          "precio_siguiente": 36.5,
+          "ganador_sig": "Droguería Farmatec S.A.",
+          "motivo": "superado"
+        },
+        {
+          "reng": "43",
+          "desc": "Tiras reactivas para la medición de glucosa en sangre en equipos bonificados",
+          "cant": 10000,
+          "precio_able": 312.8,
+          "marca": "On Call Plus",
+          "resultado": "no_adj",
+          "precio_siguiente": 174.8,
+          "ganador_sig": "Droguería Martorani S.A.",
+          "motivo": "superado"
+        }
+      ],
+      "gestion_pre": "Acta de preadjudicación PA SUMAR 9/2026 (Htal de la Vega, apertura 19/10/2026, acta 20/10/2026). ABLE no fue preadjudicada en ninguno de sus renglones (R5, R6, R33 y R43). R5 y R6 se preadjudican a Cardiopack (Surgikal) a $592,90 contra $604,00 de ABLE (+1,9%, empate técnico); el acta no menciona el desempate por origen nacional. R33 a Farmatec ($36,50) y R43 a Martorani ($174,80). Total del acta $20.224.989,66.",
       "gestion_pre_resultado": "",
       "gestion_post": "",
       "gestion_post_resultado": "",
@@ -135424,8 +135469,8 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "Si",
+      "etapa": "Pre-adjudicación",
+      "empate": "",
       "pref": "No",
       "obs": "Reng.5 y 6 — empate técnico con Cardiopack (SURGIKAL, origen India): ABLE $604,00 vs $592,90 (+1,9%). Reng.33 — gana Farmatec $36,50 (ABLE +58,8%). Reng.43 — gana Martorani/Microlife $174,80 (ABLE +78,9%); el pliego pide 20 aparatos en comodato y ABLE los ofrece bonificados. Pliego exige muestras de todos los renglones (UPA N°12, 09 a 13 hs). Precios de fotos escaneadas. Monto cotizado ABLE: $3.232.367,00.",
       "creado": "2026-10-14T17:55:01.961Z"
@@ -155049,33 +155094,8 @@
       "creado": "2026-11-17T17:46:16.040Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 433,
-      "entidad": "Htal. Carrillo",
+      "entidad": "Htal Carrillo",
       "nro": "PA 32",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-19",
@@ -155083,11 +155103,245 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-17T17:46:16.127Z"
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en cada oferta; Propato indica precios C/IVA y el resto no discrimina IVA. Se cruzó contra el Anexo III del pliego. El acta de apertura registra 5 sobres; Flosan cotiza solo el R1 (barbijo) y no figura en esta comparativa. R2: el pliego pide camisolín hemorrepelente con puños de algodón elastizados y no fija gramaje. La base y la ALT 3 de ABLE llevan puños de elástico; la ALT 1 y la ALT 2, de algodón. La ALT 3 además es no hemorrepelente. R2: Martorani ($752,20) cotiza SMS 22 g con puño elástico, distinto del algodón del pliego, igual que la base de ABLE. ABLE queda +5,7% y Martorani no declara origen, por eso no se aplica preferencia nacional. R2: Live In BA ($793,25, origen nacional, puños de algodón) queda 0,2% por debajo de la base de ABLE ($795). R2: Live In BA cotiza además una alternativa de $552, en fila aparte; no indica en qué se diferencia de su base. R2: Propato cotiza camisolín 30 SMS con puño de algodón a $1.832,76. El pliego pide muestras en la oficina del Servicio de Farmacia (lunes a viernes, 8 a 12 hs). Monto base ABLE $7.155.000 (solo la base); el total de $32.400.000 de su oferta suma las cuatro opciones.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Propato Hnos. S.A.I.C.",
+          "Droguería Martorani S.A.",
+          "Live In BA S.A. (Healthy Lab)"
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 9000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1832.76,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 752.2,
+                "marca": "PEMED",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 793.25,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 9000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 855,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 2",
+            "cant": 9000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 45 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1280,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 3",
+            "cant": 9000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 670,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT LIVE",
+            "cant": 9000,
+            "desc": "Alternativa de otro oferente (Live In BA): camisolín no estéril, hemorrepelente, puños de algodón elastizados; no indica en qué se diferencia de su base (ABLE no cotizó esta variante)",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A. (Healthy Lab)",
+                "precio": 552,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta; Propato indica precios C/IVA y el resto no discrimina IVA. Se cruzó contra el Anexo III del pliego. El acta de apertura registra 5 sobres; Flosan cotiza solo el R1 (barbijo) y no figura en esta comparativa. R2: el pliego pide camisolín hemorrepelente con puños de algodón elastizados y no fija gramaje. La base y la ALT 3 de ABLE llevan puños de elástico; la ALT 1 y la ALT 2, de algodón. La ALT 3 además es no hemorrepelente. R2: Martorani ($752,20) cotiza SMS 22 g con puño elástico, distinto del algodón del pliego, igual que la base de ABLE. ABLE queda +5,7% y Martorani no declara origen, por eso no se aplica preferencia nacional. R2: Live In BA ($793,25, origen nacional, puños de algodón) queda 0,2% por debajo de la base de ABLE ($795). R2: Live In BA cotiza además una alternativa de $552, en fila aparte; no indica en qué se diferencia de su base. R2: Propato cotiza camisolín 30 SMS con puño de algodón a $1.832,76. El pliego pide muestras en la oficina del Servicio de Farmacia (lunes a viernes, 8 a 12 hs). Monto base ABLE $7.155.000 (solo la base); el total de $32.400.000 de su oferta suma las cuatro opciones."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-17T17:46:16.127Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     },
     {
       "preadj_fecha": "",
