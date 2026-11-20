@@ -155492,8 +155492,8 @@
       "fecha": "2026-11-19",
       "monto": 7155000,
       "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
+      "zona": "Zona Sur",
+      "agente": "Noe",
       "etapa": "Comparativa",
       "empate": "No",
       "pref": "No",
@@ -155815,47 +155815,6 @@
       "pref": "",
       "obs": "",
       "creado": "2026-11-19T14:16:53.583Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
-      "id": 439,
-      "entidad": "Htal de la Vega",
-      "nro": "LP 6",
-      "tipo": "Privada",
-      "fecha": "2026-11-20",
-      "monto": 17870304,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-19T17:33:42.596Z"
     },
     {
       "preadj_fecha": "",
@@ -159669,7 +159628,1402 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 452,
+      "entidad": "Htal de la Vega",
+      "nro": "LP 6",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-20",
+      "monto": 17604504,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "",
+      "pref": "",
+      "obs": "Base de precios con IVA incluido. Cardiopack y Max Continental cotizan con IVA (de Cardiopack se tomó la columna \"con IVA\", no la neta). Euro Swiss no discrimina IVA y ABLE tampoco. Se cruzó contra el Anexo III del pliego. Solo se incluyen los renglones donde ABLE cotiza. Exsa, Bymed, Dealer Médica, Macor, Sulan y Alfredo Omar Potenza no cotizan ninguno de esos renglones. Euro Swiss solo cotiza el R8 (catgut marca ABLE, fabricante Suturas Argentinas). Las ALT de ABLE van solas. El segundo renglón 18 del Excel de ABLE (ABLE, hebra 90 cm, $1.335) se cargó como \"18 ALT 1\". R18 y R19: el pliego pide hebra de 90 cm y la base de ABLE (Surgimax) es de 70 cm; la que cumple es la ALT 1 ($1.335). Cardiopack (hebra 75 cm, Origen India) cotiza $1.166,44 y $1.147,08, y ABLE queda +6,1% y +6,2%: preferencia nacional si Cardiopack ofrece producto importado. Con la ALT 1 de ABLE la diferencia pasa del 10% y no aplica. Cardiopack y Max también cotizan 75 cm, por eso no se marcaron (obj). R20: Cardiopack (obj) cotiza hebra de 45 cm contra los 70 cm del pliego ($1.166,44, -1,2% bajo ABLE): victoria condicional, se resuelve por impugnación. Max cotiza $1.310. R75: Cardiopack $1.318,90 (Industria Argentina) y ABLE $1.335 quedan +1,2%: empate técnico. El pliego pide hilo incoloro y Cardiopack cotiza violeta; el color de ABLE no figura en su oferta, por eso no se marcó (obj). R12: Cardiopack cotiza alternativa con aguja de 36 mm ($1.376,98, nacional) contra los 40 mm del pliego; ABLE base ($1.500) queda +8,9% y la ALT 1 ($1.600) +16,2%. No se marcó (obj) porque la base de ABLE tiene hebra de 75 cm y el pliego dice 150 cm. Sin preferencia nacional por ser ambos nacionales. R13: Max Continental $1.980 contra ABLE $2.275 (+14,9%). R14: el pliego pide aguja de 13 mm 3/8 círculo, hebra 75 cm; ABLE cotiza 25/26 mm 1/2 círculo hebra 90 cm. R14: Martorani cotiza lo que pide el pliego ($5.908,60); ABLE gana por precio pero su producto no coincide con el pliego. R15 y R16: Cardiopack (obj) cotiza 2 agujas de 15 mm (el R15 pide 1 aguja HR25; el R16, 17 mm y hebra 75 cm), pero igual es más caro que ABLE. R73: ABLE cotiza doble aguja y el pliego pide una aguja. R73: Martorani cotiza una aguja ($2.608,80) y ABLE ($2.415) doble aguja. Solo ABLE cotiza R11 y R8 (más Euro Swiss en R8). Martorani (Meril, origen no declarado) cotiza todos los renglones de suturas de ABLE menos R8 y R11, siempre más caro que ABLE: R12 $2.608,80, R14 $5.908,60, R19 $2.448,80, R25 $1.348,10, R74 $6.534,40, etc. Su planilla dice \"neto-neto\" sin aclarar IVA. En R19 cotiza hebra de 70 cm contra los 90 cm del pliego, y en R76 cotiza calibre 5/0. Muestras: el pliego marca \"Sí\" pero no completa lugar ni horario, por lo que la cláusula no tiene validez. Entrega a pedido hasta el 30/06/2027 en Farmacia. Monto base ABLE $17.710.104 (renglones base); el total de $35.924.064 de su Excel suma también las ALT.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Max Continental S.A.",
+          "Droguería Martorani S.A.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "8",
+            "cant": 1008,
+            "desc": "Catgut simple N° 0, aguja 40 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 3289.38,
+                "marca": "ABLE (fab. Suturas Argentinas)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 48,
+            "desc": "Catgut simple N° 3/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 504,
+            "desc": "Polipropileno N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1500,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1376.98,
+                "marca": "SURGIKAL (alternativa: aguja 36 mm)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12 ALT 1",
+            "cant": 504,
+            "desc": "Polipropileno N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 240,
+            "desc": "Polipropileno N° 2/0, doble aguja 26 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2275,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1980,
+                "marca": "MAXSUTURES (aguja 27 mm)",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13 ALT 1",
+            "cant": 240,
+            "desc": "Polipropileno N° 2/0, doble aguja 26 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 600,
+            "desc": "Polipropileno N° 2/0, 3/0 o 4/0, doble aguja 25/26 mm 1/2 círculo, punta redonda, hebra 90 cm (pliego: 13 mm 3/8 círculo, hebra 75 cm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2275,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 5908.6,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14 ALT 1",
+            "cant": 600,
+            "desc": "Polipropileno N° 2/0, 3/0 o 4/0, doble aguja 25/26 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 240,
+            "desc": "Polipropileno N° 4/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2370.39,
+                "marca": "SURGIKAL (obj) 2 agujas 15 mm ≠ 1 aguja HR25 pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16",
+            "cant": 672,
+            "desc": "Polipropileno N° 4/0, doble aguja 17 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2192,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2332.88,
+                "marca": "SURGIKAL (obj) 15 mm, hebra 90 cm ≠ 17 mm, 75 cm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2357.81,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "16 ALT 1",
+            "cant": 672,
+            "desc": "Polipropileno N° 4/0, doble aguja 17 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 300,
+            "desc": "Polipropileno N° 5/0, doble aguja 17 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2350,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 2382.47,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17 ALT 1",
+            "cant": 300,
+            "desc": "Polipropileno N° 5/0, doble aguja 17 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3000,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18",
+            "cant": 120,
+            "desc": "Ácido poliglicólico N° 0, aguja 35 mm 1/2 círculo, punta redonda, hebra 70 cm (pliego: hebra 90 cm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1238,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1166.44,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1474.33,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "18 ALT 1",
+            "cant": 120,
+            "desc": "Ácido poliglicólico N° 0, aguja 35 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19",
+            "cant": 3480,
+            "desc": "Ácido poliglicólico N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 70 cm (pliego: hebra 90 cm)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1218,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1147.08,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1691,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "19 ALT 1",
+            "cant": 3480,
+            "desc": "Ácido poliglicólico N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 960,
+            "desc": "Ácido poliglicólico N° 2/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1180,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1166.44,
+                "marca": "SURGIKAL (obj) hebra 45 cm ≠ 70 cm pliego (Origen: India)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1310,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20 ALT 1",
+            "cant": 960,
+            "desc": "Ácido poliglicólico N° 2/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 1272,
+            "desc": "Ácido poliglicólico N° 3/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1180,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1408.77,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21 ALT 1",
+            "cant": 1272,
+            "desc": "Ácido poliglicólico N° 3/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25",
+            "cant": 3504,
+            "desc": "Nylon monofilamento N° 2/0, aguja recta 60 mm, punta reversa cortante, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 560,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 592.9,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 571.78,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "25 ALT 1",
+            "cant": 3504,
+            "desc": "Nylon monofilamento N° 2/0, aguja recta 60 mm, punta reversa cortante, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "73",
+            "cant": 48,
+            "desc": "Polipropileno N° 5/0, doble aguja 17 mm 1/2 círculo, hebra 75 cm (pliego: una aguja)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2415,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "74",
+            "cant": 240,
+            "desc": "Polipropileno N° 6/0, doble aguja 12 mm 3/8 círculo, punta redonda, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 3210,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 3587,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 6534.4,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "74 ALT 1",
+            "cant": 240,
+            "desc": "Polipropileno N° 6/0, doble aguja 12 mm 3/8 círculo, punta redonda, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 5980,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "75",
+            "cant": 120,
+            "desc": "Ácido poliglicólico N° 4/0, aguja 20 mm 3/8 círculo, punta reversa cortante, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1318.9,
+                "marca": "SURGIKAL",
+                "bg_precio": "amarillo",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "76",
+            "cant": 96,
+            "desc": "Ácido poliglicólico N° 5, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Base de precios con IVA incluido. Cardiopack y Max Continental cotizan con IVA (de Cardiopack se tomó la columna \"con IVA\", no la neta). Euro Swiss no discrimina IVA y ABLE tampoco. Se cruzó contra el Anexo III del pliego. Solo se incluyen los renglones donde ABLE cotiza. Exsa, Bymed, Dealer Médica, Macor, Sulan y Alfredo Omar Potenza no cotizan ninguno de esos renglones. Euro Swiss solo cotiza el R8 (catgut marca ABLE, fabricante Suturas Argentinas). Las ALT de ABLE van solas. El segundo renglón 18 del Excel de ABLE (ABLE, hebra 90 cm, $1.335) se cargó como \"18 ALT 1\". R18 y R19: el pliego pide hebra de 90 cm y la base de ABLE (Surgimax) es de 70 cm; la que cumple es la ALT 1 ($1.335). Cardiopack (hebra 75 cm, Origen India) cotiza $1.166,44 y $1.147,08, y ABLE queda +6,1% y +6,2%: preferencia nacional si Cardiopack ofrece producto importado. Con la ALT 1 de ABLE la diferencia pasa del 10% y no aplica. Cardiopack y Max también cotizan 75 cm, por eso no se marcaron (obj). R20: Cardiopack (obj) cotiza hebra de 45 cm contra los 70 cm del pliego ($1.166,44, -1,2% bajo ABLE): victoria condicional, se resuelve por impugnación. Max cotiza $1.310. R75: Cardiopack $1.318,90 (Industria Argentina) y ABLE $1.335 quedan +1,2%: empate técnico. El pliego pide hilo incoloro y Cardiopack cotiza violeta; el color de ABLE no figura en su oferta, por eso no se marcó (obj). R12: Cardiopack cotiza alternativa con aguja de 36 mm ($1.376,98, nacional) contra los 40 mm del pliego; ABLE base ($1.500) queda +8,9% y la ALT 1 ($1.600) +16,2%. No se marcó (obj) porque la base de ABLE tiene hebra de 75 cm y el pliego dice 150 cm. Sin preferencia nacional por ser ambos nacionales. R13: Max Continental $1.980 contra ABLE $2.275 (+14,9%). R14: el pliego pide aguja de 13 mm 3/8 círculo, hebra 75 cm; ABLE cotiza 25/26 mm 1/2 círculo hebra 90 cm. R14: Martorani cotiza lo que pide el pliego ($5.908,60); ABLE gana por precio pero su producto no coincide con el pliego. R15 y R16: Cardiopack (obj) cotiza 2 agujas de 15 mm (el R15 pide 1 aguja HR25; el R16, 17 mm y hebra 75 cm), pero igual es más caro que ABLE. R73: ABLE cotiza doble aguja y el pliego pide una aguja. R73: Martorani cotiza una aguja ($2.608,80) y ABLE ($2.415) doble aguja. Solo ABLE cotiza R11 y R8 (más Euro Swiss en R8). Martorani (Meril, origen no declarado) cotiza todos los renglones de suturas de ABLE menos R8 y R11, siempre más caro que ABLE: R12 $2.608,80, R14 $5.908,60, R19 $2.448,80, R25 $1.348,10, R74 $6.534,40, etc. Su planilla dice \"neto-neto\" sin aclarar IVA. En R19 cotiza hebra de 70 cm contra los 90 cm del pliego, y en R76 cotiza calibre 5/0. Muestras: el pliego marca \"Sí\" pero no completa lugar ni horario, por lo que la cláusula no tiene validez. Entrega a pedido hasta el 30/06/2027 en Farmacia. Monto base ABLE $17.710.104 (renglones base); el total de $35.924.064 de su Excel suma también las ALT."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-20T17:14:47.619Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 452
+  "nextId": 453
 }
