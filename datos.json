@@ -155486,7 +155486,7 @@
         "notas": "Precios tal cual figuran en cada oferta; Propato indica precios C/IVA y el resto no discrimina IVA. Se cruzó contra el Anexo III del pliego. El acta de apertura registra 5 sobres; Flosan cotiza solo el R1 (barbijo) y no figura en esta comparativa. R2: el pliego pide camisolín hemorrepelente con puños de algodón elastizados y no fija gramaje. La base y la ALT 3 de ABLE llevan puños de elástico; la ALT 1 y la ALT 2, de algodón. La ALT 3 además es no hemorrepelente. R2: Martorani ($752,20) cotiza SMS 22 g con puño elástico, distinto del algodón del pliego, igual que la base de ABLE. ABLE queda +5,7% y Martorani no declara origen, por eso no se aplica preferencia nacional. R2: Live In BA ($793,25, origen nacional, puños de algodón) queda 0,2% por debajo de la base de ABLE ($795). R2: Live In BA cotiza además una alternativa de $552, en fila aparte; no indica en qué se diferencia de su base. R2: Propato cotiza camisolín 30 SMS con puño de algodón a $1.832,76. El pliego pide muestras en la oficina del Servicio de Farmacia (lunes a viernes, 8 a 12 hs). Monto base ABLE $7.155.000 (solo la base); el total de $32.400.000 de su oferta suma las cuatro opciones."
       },
       "id": 433,
-      "entidad": "Htal Carrillo",
+      "entidad": "Htal Carrillo de San Vicente",
       "nro": "PA 32",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-11-19",
@@ -155815,47 +155815,6 @@
       "pref": "",
       "obs": "",
       "creado": "2026-11-19T14:16:53.583Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
-      "id": 438,
-      "entidad": "Htal. Carrillo de San Vicente",
-      "nro": "SAMO 17",
-      "tipo": "SAMO",
-      "fecha": "2026-11-20",
-      "monto": 4231000,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-19T17:16:09.633Z"
     },
     {
       "preadj_fecha": "",
@@ -159500,7 +159459,217 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 451,
+      "entidad": "Htal Carrillo de San Vicente",
+      "nro": "SAMO 17",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-20",
+      "monto": 4231000,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en cada oferta; Propato indica precios C/IVA y el resto no discrimina IVA (el pliego pide precio neto con impuestos incluidos). Se cruzó contra el Anexo III del pliego. Solo se incluyen R2 y R4, los renglones donde ABLE cotiza. R1 y R3 no se comparan. Bhaurac cotiza solo R4. R4: el pliego pide gramaje 30 g/m², tela TNT SMS y puño ajustado. La base de ABLE ($650) es de 30 g, no hemorrepelente, y no declara SMS; la ALT 2 ($795, SMS 30 g) es la que cumple. La ALT 1 es de 20 g y no cumple el gramaje. R4: Martorani (obj) cotiza SMS de 22 g ($752,20) contra los 30 g que pide el pliego. Queda por debajo de la ALT 2 de ABLE ($795) y por encima de la base ($650). R4: Bhaurac cotiza $983 y Propato $1.544,53 (ambos Dimex, 30 g). Ninguno declara origen. R2: el renglón es caja de 100 bajalenguas. Martorani cotiza $995,90 (Aurinco), +1,9% sobre ABLE. Propato (obj) cotiza $10,96 con total de $32.880 por 3.000 cajas, que es precio por unidad: si el hospital lo toma como precio del renglón, Propato queda más barato. Conviene revisarlo en el acta. Ningún oferente declara origen del producto: no se aplica preferencia nacional ni empate por origen (art. 9.4). Ninguno de los renglones queda dentro del 2% a favor de otro oferente. Pliego: renglones sin muestra; mantenimiento de oferta 30 días; entrega a pedido en Farmacia (8 a 14 hs); pago a 10 días hábiles; vigencia mínima de 6 meses; el art. 1 dice sin opción de prórroga ni ampliación. Presupuesto estimado $5.007.380. Monto base ABLE $4.231.000 (R2 + R4 base); el total de $6.891.000 de su Excel suma también las dos ALT.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Martorani S.A.",
+          "Bhaurac S.A.",
+          "Propato Hnos. S.A.I.C."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 3000,
+            "desc": "Paquete de 100 bajalenguas adultos, marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 977,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 995.9,
+                "marca": "AURINCO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 10.96,
+                "marca": "CLERICOT (obj) precio por unidad; el renglón es caja x100",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 650,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 752.2,
+                "marca": "POLYMED (obj) SMS 22 g ≠ 30 g pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": 983,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 1544.53,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 1",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 535,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 2",
+            "cant": 2000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Bhaurac S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta; Propato indica precios C/IVA y el resto no discrimina IVA (el pliego pide precio neto con impuestos incluidos). Se cruzó contra el Anexo III del pliego. Solo se incluyen R2 y R4, los renglones donde ABLE cotiza. R1 y R3 no se comparan. Bhaurac cotiza solo R4. R4: el pliego pide gramaje 30 g/m², tela TNT SMS y puño ajustado. La base de ABLE ($650) es de 30 g, no hemorrepelente, y no declara SMS; la ALT 2 ($795, SMS 30 g) es la que cumple. La ALT 1 es de 20 g y no cumple el gramaje. R4: Martorani (obj) cotiza SMS de 22 g ($752,20) contra los 30 g que pide el pliego. Queda por debajo de la ALT 2 de ABLE ($795) y por encima de la base ($650). R4: Bhaurac cotiza $983 y Propato $1.544,53 (ambos Dimex, 30 g). Ninguno declara origen. R2: el renglón es caja de 100 bajalenguas. Martorani cotiza $995,90 (Aurinco), +1,9% sobre ABLE. Propato (obj) cotiza $10,96 con total de $32.880 por 3.000 cajas, que es precio por unidad: si el hospital lo toma como precio del renglón, Propato queda más barato. Conviene revisarlo en el acta. Ningún oferente declara origen del producto: no se aplica preferencia nacional ni empate por origen (art. 9.4). Ninguno de los renglones queda dentro del 2% a favor de otro oferente. Pliego: renglones sin muestra; mantenimiento de oferta 30 días; entrega a pedido en Farmacia (8 a 14 hs); pago a 10 días hábiles; vigencia mínima de 6 meses; el art. 1 dice sin opción de prórroga ni ampliación. Presupuesto estimado $5.007.380. Monto base ABLE $4.231.000 (R2 + R4 base); el total de $6.891.000 de su Excel suma también las dos ALT."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-20T16:29:02.512Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 451
+  "nextId": 452
 }
