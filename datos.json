@@ -6795,7 +6795,7 @@
       "oc_alertas": "OC Nro. 11/2026 fecha 30/07/2026. Rengs.50 (catgut ABLE, 576u x $2.400), 52 (PP Surgimax, 144u x $1.600), 53 (nylon Surgimax, 288u x $607), 75 (botas ArgentCare, 6.000u x $63,50). Total: $2.168.616,00. SAMO fondos propios. H.M.N. Nuestra Señora del Pilar. Disposicion DISPO-2026-281-GDEBA-HMNPMSALGP/2026.",
       "adelanto": false,
       "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
+      "adelanto_total_preadj": 2168616,
       "adelanto_obs": "",
       "gestion_manual": false,
       "gestion_manual_nota": "",
@@ -7066,7 +7066,7 @@
       "liquidado_fecha": "",
       "liquidado_obs": "",
       "id": 54,
-      "entidad": "HTALl NTRA SRA DEL PILAR",
+      "entidad": "Htal Ntra Sra de Pilar",
       "nro": "PA 60",
       "tipo": "Procedimiento Abreviado",
       "fecha": "2026-06-05",
@@ -155965,47 +155965,6 @@
       "gestion_manual_nota": "",
       "ampliaciones": [],
       "tabla": null,
-      "id": 440,
-      "entidad": "Htal Ntra Sra de Pilar",
-      "nro": "PA 17",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-20",
-      "monto": 21156038,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-19T18:58:46.678Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 441,
       "entidad": "Pami UGL X Lanus",
       "nro": "CA 2624",
@@ -158682,7 +158641,697 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 449,
+      "entidad": "Htal Ntra Sra de Pilar",
+      "nro": "PA 17",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-20",
+      "monto": 21156020,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en cada oferta. Cirugía Argentina indica precio con IVA; Martorani (\"neto-neto\"), Varadero y ABLE no discriminan IVA (el pliego pide precio neto con impuestos incluidos). Se cruzó contra el Anexo III del pliego. Solo se incluyen los renglones donde ABLE cotiza (R1 a R4 y R8 a R12). R5, R6, R7, R13 y R14 no se comparan. Martorani cotiza R5 a R14 y no cotiza R1 a R4. Las ALT de ABLE (R1, R8, R9, R10 y R11/R12) se muestran solas, sin precios de otros oferentes. Los renglones base son los que ABLE cotiza con marca Surgimax y aguja del pliego. R1: el pliego pide aguja de 50 mm; Varadero (obj) cotiza 40 mm ($3.213,39). La ALT 1 de ABLE ($2.350) es de 40 mm. R4: el pliego dice 2/0 aguja redonda pero la descripción menciona N° 1. ABLE cotiza N° 1 ($2.350); Cirugía (2/0, $2.558) y Varadero (2/0, $2.773,50) cotizan 2/0. Si el hospital exige 2/0, la oferta de ABLE queda en riesgo. R2: el pliego pide aguja de 36 mm, ABLE y Cirugía cotizan 35 mm. Cirugía Argentina declara origen Perú (Tagum): aplicaría preferencia nacional solo si ganara un renglón. Martorani (Meril) y Varadero no declaran origen. ABLE tiene el menor precio en todos los renglones comparados: sin empate ni preferencia nacional. Varadero cotiza producto marca ABLE / SURGIMAX (remito del 19/11/2026 con Surgimax). Sus precios son mayores a los de ABLE salvo en la ALT 1 del R8 ($785 ABLE vs $774 Varadero), que no se compara por ser ALT. Acta: Varadero y ABLE presentaron certificado de muestra; Cirugía y Martorani no lo registran. El pliego marca muestra \"No\" pero el texto pide muestras hasta el 19/11/2026 09:00 en Compras. Monto base ABLE $21.156.020 (R1, R2, R3, R4, R8, R9, R10, R11 y R12 base); el total del acta de $36.822.932 suma también las ALT.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cirugía Argentina S.A.",
+          "Droguería Martorani S.A.",
+          "Droguería Varadero S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 500,
+            "desc": "Catgut cromado N° 1, aguja 1/2 círculo 50 mm, punta redonda, hebra 90 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2585,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3368,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 3213.39,
+                "marca": "ABLE / SURGIMAX (obj) aguja 40 mm ≠ 50 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 500,
+            "desc": "Catgut cromado N° 1, aguja 1/2 círculo 40 mm, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2350,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 1784,
+            "desc": "Catgut cromado N° 2, aguja 1/2 círculo 35 mm, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2720,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3368,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 3483,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 912,
+            "desc": "Catgut simple N° 0, aguja 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2200,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2708,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 2838,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 1784,
+            "desc": "Catgut simple N° 1 (pliego: 2/0 aguja redonda), aguja 35 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2350,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2558,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 2773.5,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 1368,
+            "desc": "Nylon monofilamento 2/0, aguja 3/8 círculo, punta reversa cortante, hebra 45 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 562,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1088,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 774,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8 ALT 1",
+            "cant": 1368,
+            "desc": "Nylon monofilamento 2/0, aguja 3/8 círculo, punta reversa cortante, hebra 45 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 2768,
+            "desc": "Sutura de ácido poliglicólico N° 1, aguja 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1218,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1718,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 3096,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9 ALT 1",
+            "cant": 2768,
+            "desc": "Sutura de ácido poliglicólico N° 1, aguja 35 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 2768,
+            "desc": "Sutura de ácido poliglicólico N° 2, aguja 50 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1340,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2398,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 1670.55,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10 ALT 1",
+            "cant": 2768,
+            "desc": "Sutura de ácido poliglicólico N° 2, aguja 40 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1295,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10 ALT 2",
+            "cant": 2768,
+            "desc": "Sutura de ácido poliglicólico N° 2, aguja 50 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 240,
+            "desc": "Sutura de ácido poliglicólico N° 2/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1180,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1648,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 1446,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 1",
+            "cant": 240,
+            "desc": "Sutura de ácido poliglicólico N° 2/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 576,
+            "desc": "Sutura de ácido poliglicólico N° 3/0, aguja 20 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1180,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1648,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": 1554.45,
+                "marca": "ABLE / SURGIMAX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12 ALT 1",
+            "cant": 576,
+            "desc": "Sutura de ácido poliglicólico N° 3/0, aguja 20 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Varadero S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en cada oferta. Cirugía Argentina indica precio con IVA; Martorani (\"neto-neto\"), Varadero y ABLE no discriminan IVA (el pliego pide precio neto con impuestos incluidos). Se cruzó contra el Anexo III del pliego. Solo se incluyen los renglones donde ABLE cotiza (R1 a R4 y R8 a R12). R5, R6, R7, R13 y R14 no se comparan. Martorani cotiza R5 a R14 y no cotiza R1 a R4. Las ALT de ABLE (R1, R8, R9, R10 y R11/R12) se muestran solas, sin precios de otros oferentes. Los renglones base son los que ABLE cotiza con marca Surgimax y aguja del pliego. R1: el pliego pide aguja de 50 mm; Varadero (obj) cotiza 40 mm ($3.213,39). La ALT 1 de ABLE ($2.350) es de 40 mm. R4: el pliego dice 2/0 aguja redonda pero la descripción menciona N° 1. ABLE cotiza N° 1 ($2.350); Cirugía (2/0, $2.558) y Varadero (2/0, $2.773,50) cotizan 2/0. Si el hospital exige 2/0, la oferta de ABLE queda en riesgo. R2: el pliego pide aguja de 36 mm, ABLE y Cirugía cotizan 35 mm. Cirugía Argentina declara origen Perú (Tagum): aplicaría preferencia nacional solo si ganara un renglón. Martorani (Meril) y Varadero no declaran origen. ABLE tiene el menor precio en todos los renglones comparados: sin empate ni preferencia nacional. Varadero cotiza producto marca ABLE / SURGIMAX (remito del 19/11/2026 con Surgimax). Sus precios son mayores a los de ABLE salvo en la ALT 1 del R8 ($785 ABLE vs $774 Varadero), que no se compara por ser ALT. Acta: Varadero y ABLE presentaron certificado de muestra; Cirugía y Martorani no lo registran. El pliego marca muestra \"No\" pero el texto pide muestras hasta el 19/11/2026 09:00 en Compras. Monto base ABLE $21.156.020 (R1, R2, R3, R4, R8, R9, R10, R11 y R12 base); el total del acta de $36.822.932 suma también las ALT."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-20T16:01:17.355Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 449
+  "nextId": 450
 }
