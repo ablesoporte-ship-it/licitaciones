@@ -308,18 +308,6 @@ body.modo-lectura .modal-body select:disabled{
     </select>
     <select id="fMes" onchange="render()">
       <option value="">Mes apertura (todos)</option>
-      <option value="2026-01">Enero 2026</option>
-      <option value="2026-02">Febrero 2026</option>
-      <option value="2026-03">Marzo 2026</option>
-      <option value="2026-04">Abril 2026</option>
-      <option value="2026-05">Mayo 2026</option>
-      <option value="2026-06">Junio 2026</option>
-      <option value="2026-07">Julio 2026</option>
-      <option value="2026-08">Agosto 2026</option>
-      <option value="2026-09">Septiembre 2026</option>
-      <option value="2026-10">Octubre 2026</option>
-      <option value="2026-11">Noviembre 2026</option>
-      <option value="2026-12">Diciembre 2026</option>
     </select>
     <div class="toolbar-bottom"><span class="count-lbl" id="countLbl"></span></div>
   </div>
@@ -1003,7 +991,22 @@ function badgePref(v){
 }
 function fmtMoney(n){ const v=Number(n)||0; return '$'+v.toLocaleString('es-AR',{maximumFractionDigits:0}); }
 function fmtDate(d){ if(!d)return'—'; const[y,m,dd]=d.split('-'); return`${dd}/${m}/${y}`; }
+// Opciones del filtro de mes: todos los meses con datos, más los del año actual y el siguiente.
+function armarFiltroMes(){
+  const sel=document.getElementById('fMes'); if(!sel) return;
+  const MES=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+  const claves=new Set();
+  const hoy=new Date(), y0=hoy.getFullYear();
+  [y0, y0+1].forEach(y=>{ for(let m=1;m<=12;m++) claves.add(y+'-'+String(m).padStart(2,'0')); });
+  data.forEach(r=>{ const k=(r.fecha||'').slice(0,7); if(/^\d{4}-\d{2}$/.test(k)) claves.add(k); });
+  const actual=sel.value;
+  sel.innerHTML='<option value="">Mes apertura (todos)</option>'+
+    [...claves].sort().reverse().map(k=>{ const [y,m]=k.split('-'); return '<option value="'+k+'">'+MES[+m-1]+' '+y+'</option>'; }).join('');
+  sel.value=actual;
+}
+
 function render(){
+  armarFiltroMes();
   const rows=filtered().sort((a,b)=>{
     const da=(a.fecha||'9999-99-99');
     const db=(b.fecha||'9999-99-99');
@@ -1495,7 +1498,7 @@ function doImport(){
     importParsed.forEach(item=>{
       try{
         const accion=item.accion||'';
-        const idx=data.findIndex(r=>r.nro===item.nro);
+        const idx=buscarFilaImport(item,false);
         if(accion==='fix_gestion'){
           if(idx<0){err.push(item.nro+': no encontrado');return;}
           data[idx]={...data[idx],
@@ -1517,9 +1520,35 @@ function doImport(){
   importSingle(importParsed);
 }
 
+// El número de licitación NO es único: cada hospital numera por su cuenta y la numeración
+// arranca de nuevo cada año (PA 14/2026 y PA 14/2027). Se busca por número + entidad + año.
+function buscarFilaImport(p, esNueva){
+  const nroTxt=String(p.nro||'').trim();
+  let base=nroTxt, anioHint='';
+  const m=nroTxt.match(/^(.*?)\s*\/\s*(\d{4}|\d{2})$/);
+  if(m){ base=m[1].trim(); anioHint=m[2].length===2?'20'+m[2]:m[2]; }
+  if(!anioHint && /^\d{4}/.test(p.fecha||'')) anioHint=String(p.fecha).slice(0,4);
+  const anioDe=r=>/^\d{4}/.test(r.fecha||'')?String(r.fecha).slice(0,4):'';
+  let c=[]; data.forEach((r,i)=>{ if(String(r.nro).trim()===base || r.nro===nroTxt) c.push(i); });
+  if(!c.length) return -1;
+  if(p.entidad){
+    const e=normBusq(p.entidad), porEnt=c.filter(i=>normBusq(data[i].entidad)===e);
+    if(porEnt.length) c=porEnt;
+    else if(esNueva) return -1;           // mismo número pero otro hospital: es una licitación nueva
+  }
+  if(anioHint){
+    const porAnio=c.filter(i=>anioDe(data[i])===anioHint);
+    if(porAnio.length) c=porAnio;
+    else if(esNueva) return -1;           // mismo número y hospital pero de otro año: nueva
+  }
+  // Si todavía hay varias, la más reciente
+  c.sort((a,b)=>String(data[b].fecha||'').localeCompare(String(data[a].fecha||'')));
+  return c[0];
+}
+
 function importSingle(p){
   const accion=p.accion||'';
-  let idx=data.findIndex(r=>r.nro===p.nro);
+  let idx=buscarFilaImport(p, accion==='nueva_comparativa');
 
   if(accion==='nueva_comparativa'){
     const monto=Number(p.monto)||0;
