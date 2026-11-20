@@ -151342,47 +151342,6 @@
       "gestion_manual_nota": "",
       "ampliaciones": [],
       "tabla": null,
-      "id": 413,
-      "entidad": "Htal Malvinas",
-      "nro": "PA 155",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-18",
-      "monto": 32500000,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-12T15:14:37.661Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 414,
       "entidad": "Mun. Vicente Lopez",
       "nro": "LP 68",
@@ -159331,7 +159290,217 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 450,
+      "entidad": "Htal Malvinas",
+      "nro": "PA 155",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-18",
+      "monto": 32500000,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en el cuadro comparativo de ofertas del hospital (solicitud 792962) y en el Excel de ABLE; el cuadro no discrimina IVA. No se recibió el pliego: no se pudo cruzar contra el Anexo III (no se verificó tela SMS ni gramaje). Solo se incluye el R4, el único renglón donde ABLE cotiza. R1, R2 y R3 (guantes de látex) los cotizan Euro Swiss y Propato y no se comparan. El cuadro del hospital muestra solo la oferta original de cada proveedor. Las ALT 1, 2 y 3 de ABLE ($535, $795 y $855) figuran en su Excel y se muestran solas; si los otros oferentes presentaron alternativas, no aparecen en el cuadro. Live In BA aclara que su precio es \"oferta base\". R4: ABLE $650 es el menor precio. Live In BA (Healthy Lab, nacional) $696,56 (+7,2% sobre ABLE), Euro Swiss (Kratec) $1.244 y Propato (Dimex, SMS 30 g con puños de algodón) $2.036,77. Ninguno declara origen salvo Live In BA (nacional): sin empate ni preferencia nacional. R4 base de ABLE: 30 g no hemorrepelente, sin declarar tela. Si el pliego exige SMS 30 g (como en otras compras del mismo hospital), la que cumple es la ALT 2 ($795), que no gana contra Live In BA ($696,56). Conviene confirmarlo con el pliego. Muestra: ABLE, Live In BA y Propato presentaron muestra; Euro Swiss no (cuadro del hospital). Monto base ABLE $32.500.000 (50.000 u x $650); el total de su Excel de $141.750.000 suma las cuatro opciones.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Live In BA S.A.",
+          "Euro Swiss S.A.",
+          "Propato Hnos. S.A.I.C."
+        ],
+        "renglones": [
+          {
+            "reng": "4",
+            "cant": 50000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 650,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": 696.56,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1244,
+                "marca": "KRATEC",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": 2036.77,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 1",
+            "cant": 50000,
+            "desc": "Camisolín no estéril, no hemorrepelente de 20 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 535,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 2",
+            "cant": 50000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de elástico, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 795,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 3",
+            "cant": 50000,
+            "desc": "Camisolín no estéril, hemorrepelente tela SMS de 30 g, descartable, desde cuello hasta debajo de las rodillas, manga larga con tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 855,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Live In BA S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Propato Hnos. S.A.I.C.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en el cuadro comparativo de ofertas del hospital (solicitud 792962) y en el Excel de ABLE; el cuadro no discrimina IVA. No se recibió el pliego: no se pudo cruzar contra el Anexo III (no se verificó tela SMS ni gramaje). Solo se incluye el R4, el único renglón donde ABLE cotiza. R1, R2 y R3 (guantes de látex) los cotizan Euro Swiss y Propato y no se comparan. El cuadro del hospital muestra solo la oferta original de cada proveedor. Las ALT 1, 2 y 3 de ABLE ($535, $795 y $855) figuran en su Excel y se muestran solas; si los otros oferentes presentaron alternativas, no aparecen en el cuadro. Live In BA aclara que su precio es \"oferta base\". R4: ABLE $650 es el menor precio. Live In BA (Healthy Lab, nacional) $696,56 (+7,2% sobre ABLE), Euro Swiss (Kratec) $1.244 y Propato (Dimex, SMS 30 g con puños de algodón) $2.036,77. Ninguno declara origen salvo Live In BA (nacional): sin empate ni preferencia nacional. R4 base de ABLE: 30 g no hemorrepelente, sin declarar tela. Si el pliego exige SMS 30 g (como en otras compras del mismo hospital), la que cumple es la ALT 2 ($795), que no gana contra Live In BA ($696,56). Conviene confirmarlo con el pliego. Muestra: ABLE, Live In BA y Propato presentaron muestra; Euro Swiss no (cuadro del hospital). Monto base ABLE $32.500.000 (50.000 u x $650); el total de su Excel de $141.750.000 suma las cuatro opciones."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-20T16:20:49.410Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 450
+  "nextId": 451
 }
