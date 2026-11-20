@@ -109216,7 +109216,7 @@
         "notas": "ABLE pierde los 5 renglones que cotizó (5, 7, 8, 9 y 10) frente a Propato Hnos., único oferente a $928,94 en todos, muy por debajo del resto (dif. >100%), sin empate ni pref. nacional. ABLE presentó en cada renglón una ALT.1 propia (marca ABLE en vez de Surgimax), sin competencia de terceros en esa variante. Sedesa, Cirugia Argentina y Dispromed no cotizaron todos los renglones (ver celdas vacías)."
       },
       "id": 318,
-      "entidad": "Htal. Pedro de Elizalde",
+      "entidad": "Htal Pedro de Elizalde",
       "nro": "LP 417-1500",
       "tipo": "Publica",
       "fecha": "2026-09-30",
@@ -123880,97 +123880,6 @@
       "pref": "No",
       "obs": "Gana ABLE en reng. 1-8 y 10; el reng. 9 lo gana Igaltex ($1.138,24 vs $1.300,00; ABLE +14,2%). Reng. 8 y 10: Max Continental queda a $1,08 y $3,00 de ABLE. Pliego: reng. 7 pide hebra 90 cm (ABLE 70 cm); reng. 6 y 9 piden aguja 26 mm (ABLE 25 mm); reng. 4 y 5 piden catgut cromado 1,5 m (ABLE catgut lento, hebra 70 cm). Martorani rotulado \"neto-neto\" y Euro Swiss sin aclarar IVA: se cargaron tal cual (muy por encima de ABLE). Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $6.623.040,00.",
       "creado": "2026-10-13T13:56:43.237Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": {
-        "oferentes": [
-          "ABLE S.A.",
-          "Dress Med S.R.L.",
-          "Laboratorios Igaltex S.R.L.",
-          "Coverline S.A."
-        ],
-        "renglones": [
-          {
-            "reng": "3",
-            "cant": 50,
-            "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 26000,
-                "marca": "EBANO",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Dress Med S.R.L.",
-                "precio": 53775,
-                "marca": "DRESSMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Laboratorios Igaltex S.R.L.",
-                "precio": 51400.8,
-                "marca": "GLOBAL PROTECTIVE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Coverline S.A.",
-                "precio": 66900,
-                "marca": "BLUEMED",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          }
-        ],
-        "notas": "Reng.3: ABLE gana con $26.000; el siguiente es Igaltex con $51.400,80 (+97,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (6 oferentes); solo se incluye el renglón 3, único donde ABLE cotiza. Sin pliego adjunto: no se cruzó contra especificaciones. Atención: el cuadro describe el renglón 3 como camisolines en tela trilaminada con lámina respirable y kit de campos bilaminados (viscosa+polietileno), mientras que ABLE ofrece kit SMS (4 camisolines, 2 campos grandes, 2 medianos, 2 chicos): verificar compliance. Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $1.300.000,00."
-      },
-      "id": 370,
-      "entidad": "Htal. Pedro de Elizalde",
-      "nro": "LP 417-1591",
-      "tipo": "Publica",
-      "fecha": "2026-10-19",
-      "monto": 1300000,
-      "mayor": "No",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Comparativa",
-      "empate": "No",
-      "pref": "No",
-      "obs": "Reng.3: ABLE gana con $26.000; el siguiente es Igaltex con $51.400,80 (+97,7%). Sin empate técnico ni preferencia nacional. Cuadro comparativo oficial (6 oferentes); solo se incluye el renglón 3, único donde ABLE cotiza. Sin pliego adjunto: no se cruzó contra especificaciones. Atención: el cuadro describe el renglón 3 como camisolines en tela trilaminada con lámina respirable y kit de campos bilaminados (viscosa+polietileno), mientras que ABLE ofrece kit SMS (4 camisolines, 2 campos grandes, 2 medianos, 2 chicos): verificar compliance. Base de IVA no indicada en el cuadro: precios tal cual figuran. Monto ABLE $1.300.000,00.",
-      "creado": "2026-10-13T17:54:04.449Z"
     },
     {
       "preadj_fecha": "",
@@ -158366,7 +158275,123 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 445,
+      "entidad": "Htal Pedro de Elizalde",
+      "nro": "LP 417-1591",
+      "tipo": "Publica",
+      "fecha": "2026-10-19",
+      "monto": 1300000,
+      "mayor": "No",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "OC",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual figuran en el cuadro comparativo; el cuadro no discrimina IVA. No se adjuntó pliego: se cruzó contra la descripción del renglón del cuadro. CABA: no aplican empate técnico ni preferencia nacional. Solo se incluye el renglón 3, único donde ABLE cotiza. Propato y Live In BA no cotizaron el renglón 3. ABLE se aparta de la descripción del renglón 3: ofrece kit en tela SMS con 4 camisolines, 2 campos grandes, 2 medianos y 2 chicos (marca Ebano). El renglón pide camisolines en tela trilaminada de polipropileno con lámina respirable, 2 campos podálicos, 1 cefálico, 1 sábana, 4 campos chicos, 1 cubre mesa y 1 envolvedor bilaminados (viscosa+polietileno). Por eso no se marcó (obj) a ningún oferente. Dress Med y Coverline copian la descripción completa del renglón; Igaltex describe solo \"kit ropa estéril cirugía de un solo uso doble pouch\" (Global Protective), sin detalle de composición. Igaltex ($51.400,80) queda 97,7% por encima de ABLE ($26.000). Monto ABLE $1.300.000 (50 u. x $26.000).",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Dress Med S.R.L.",
+          "Laboratorios Igaltex S.R.L.",
+          "Coverline S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "3",
+            "cant": 50,
+            "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 26000,
+                "marca": "EBANO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Dress Med S.R.L.",
+                "precio": 53775,
+                "marca": "DRESSMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Laboratorios Igaltex S.R.L.",
+                "precio": 51400.8,
+                "marca": "GLOBAL PROTECTIVE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Coverline S.A.",
+                "precio": 66900,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual figuran en el cuadro comparativo; el cuadro no discrimina IVA. No se adjuntó pliego: se cruzó contra la descripción del renglón del cuadro. CABA: no aplican empate técnico ni preferencia nacional. Solo se incluye el renglón 3, único donde ABLE cotiza. Propato y Live In BA no cotizaron el renglón 3. ABLE se aparta de la descripción del renglón 3: ofrece kit en tela SMS con 4 camisolines, 2 campos grandes, 2 medianos y 2 chicos (marca Ebano). El renglón pide camisolines en tela trilaminada de polipropileno con lámina respirable, 2 campos podálicos, 1 cefálico, 1 sábana, 4 campos chicos, 1 cubre mesa y 1 envolvedor bilaminados (viscosa+polietileno). Por eso no se marcó (obj) a ningún oferente. Dress Med y Coverline copian la descripción completa del renglón; Igaltex describe solo \"kit ropa estéril cirugía de un solo uso doble pouch\" (Global Protective), sin detalle de composición. Igaltex ($51.400,80) queda 97,7% por encima de ABLE ($26.000). Monto ABLE $1.300.000 (50 u. x $26.000)."
+      },
+      "preadj_fecha": "2026-11-04",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "gestion_pre": "Dictamen de evaluación publicado el 04/11/2026 (BAC y Boletín Oficial CABA) según la Disposición DISFC-2026-251-GCABA-DGAHGNPE. Se preadjudicó todo (R1 a R4) a Laboratorios Igaltex S.R.L. ABLE cotizó solo R3 ($26.000, el menor precio del cuadro) y no fue preadjudicada; el motivo no figura en la disposición. Posible desvío: ABLE ofrecía kit SMS y el renglón pedía camisolines en tela trilaminada con campos bilaminados. No hubo impugnaciones.",
+      "gestion_pre_resultado": "Perdido",
+      "adj_recibida": false,
+      "adj_fecha": "2026-11-13",
+      "adj_monto_able": 0,
+      "adj_resumen": "ABLE no adjudicada. R1 a R4 adjudicados a Laboratorios Igaltex S.R.L. por $125.938.584,40 (R3: 50 u. x $51.400,80).",
+      "adj_alertas": "Disposición DISFC-2026-251-GCABA-DGAHGNPE del 13/11/2026. ABLE no fue adjudicada en R3 aunque tenía el menor precio ($26.000); el motivo no figura en la disposición.",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "No otorgada",
+      "oc_fecha": "",
+      "oc_alertas": "OC no otorgada a ABLE: la LP 417-1591 se adjudicó a Laboratorios Igaltex S.R.L. (R1 a R4) por Disposición DISFC-2026-251-GCABA-DGAHGNPE del 13/11/2026.",
+      "creado": "2026-11-20T13:27:40.599Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": [],
+      "renglones_preadj": [
+        {
+          "reng": "3",
+          "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
+          "cant": 50,
+          "precio_able": 26000,
+          "marca": "EBANO",
+          "resultado": "no_adj",
+          "precio_siguiente": 51400.8,
+          "ganador_sig": "Laboratorios Igaltex S.R.L.",
+          "motivo": "no_preadjudicado"
+        }
+      ],
+      "renglones_adj": [
+        {
+          "reng": "3",
+          "desc": "Equipo de cirugía de tela SMS descartable, estéril que contiene 4 camisolines, 2 campos grandes, 2 campos medianos, 2 campos chicos, marca Ebano",
+          "cant": 50,
+          "precio_able": 26000,
+          "marca": "EBANO",
+          "resultado": "no_adj",
+          "precio_siguiente": 51400.8,
+          "ganador_sig": "Laboratorios Igaltex S.R.L.",
+          "motivo": "no_preadjudicado"
+        }
+      ]
     }
   ],
-  "nextId": 445
+  "nextId": 446
 }
