@@ -161521,47 +161521,6 @@
       "gestion_manual_nota": "",
       "ampliaciones": [],
       "tabla": null,
-      "id": 455,
-      "entidad": "Htal V. Lopez y Planes",
-      "nro": "PA 19",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-24",
-      "monto": 9907800,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-20T19:37:58.186Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 456,
       "entidad": "Htal Iriarte",
       "nro": "PA 114",
@@ -161734,7 +161693,1105 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 461,
+      "entidad": "H.I.G.A. Presidente Peron",
+      "nro": "LP 2",
+      "tipo": "Privada",
+      "fecha": "2026-12-02",
+      "monto": 972500,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Pendiente",
+      "empate": "",
+      "pref": "",
+      "obs": "",
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-24T14:30:54.749Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
+    },
+    {
+      "id": 462,
+      "entidad": "HTAL Vicente Lopez y Planes",
+      "nro": "PA 19",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-23",
+      "monto": 9907800,
+      "mayor": "Sí",
+      "zona": "Zona Oeste",
+      "agente": "Gonzalo",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "",
+      "obs": "Base de precios con IVA incluido. Cardiopack cotiza con IVA (se tomó la columna \"con IVA\"), Cirugía Argentina cotiza \"con IVA\" y Martorani \"neto-neto\" (el pliego pide precio neto con impuestos incluidos, art. 9.3). Sedesa y ABLE no discriminan IVA; se usó el precio tal cual. Se cruzó contra el Anexo III del pliego. Solo se incluyen los renglones donde ABLE cotiza (R1, R5 a R14). ABLE no cotizó R2, R3 ni R4. Las ALT de ABLE van solas. Cirugía Argentina cotiza R5 y R9 como \"Alt\" y Cardiopack cotiza R14 como alternativa; se cargaron en la fila base. Desvíos de ABLE vs pliego: R5 hebra 45 cm (pide 75 cm); R8 hebra 70 cm (pide 90 cm, la ALT 1 de 90 cm cumple); R9 aguja 40 mm y hebra 70 cm (pide 45 mm y 90 cm; la ALT 2 tiene hebra 90 cm pero aguja 50 mm). R1, R6, R7 y R10 a R14 cumplen. Se marcó (obj) solo donde el desvío del competidor está explícito en el pliego y ABLE cumple esa especificación: aguja en R5 (25 mm vs 20), R7 (13 mm vs 15), R11 (22 mm vs 20), R12 y R13 (17 mm vs 15) y R14 (35/36 mm vs 40); hebra y aguja de Cardiopack en R10, R11, R12 y R13. En R8, R9 y R5 (hebra) no se marcó porque ABLE también se aparta del pliego. R8: Cardiopack (Origen: India) $1.177,33 y ABLE $1.250 (+6,2%): preferencia nacional. Cardiopack cotiza punta reforzada y hebra 75 cm contra punta redonda y 90 cm del pliego; con la ALT 1 de ABLE (90 cm, $1.335) la diferencia es +13,4% y no aplica. R11 y R12: Cardiopack (obj) queda por debajo de ABLE ($1.187,01 vs $1.280 y $1.216,05 vs $1.280): victoria condicional, se resuelve por impugnación. R10: Cardiopack (obj) $1.196,69 queda +0,7% sobre ABLE; ABLE gana. Sedesa cotiza menos unidades que las pedidas (R5 1.488, R7 384, R8 1.476, R9 2.484, R10 972, R12 396, R13 72 y R14 180); se comparó por precio unitario. Muestras: el pliego pide muestras de todos los renglones en el Servicio de Farmacia, de lunes a viernes de 9 a 12, con fecha límite 23/11/2026 a las 10:00; la cláusula tiene lugar y horario completos, por lo que es válida. Verificar que ABLE las haya entregado. Monto base ABLE $11.907.800 (renglones base, sin ALT); el stub dice $9.907.800. El total de $28.115.300 de su Excel suma también las ALT.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Droguería Martorani S.A.",
+          "Sedesa S.A.",
+          "Cirugía Argentina S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 600,
+            "desc": "Catgut simple N° 1, aguja 35 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2450,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2775,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 1500,
+            "desc": "Nylon monofilamento N° 2/0, aguja 20 mm 3/8 círculo, punta reversa cortante, hebra 45 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 560,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 589.27,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1824.49,
+                "marca": "J&J ETHILON (obj) aguja 25 mm ≠ 20 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1121,
+                "marca": "TAGUM (obj) aguja 25 mm ≠ 20 mm pliego (Origen: Perú)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "5 ALT 1",
+            "cant": 1500,
+            "desc": "Nylon monofilamento N° 2/0, aguja 20 mm 3/8 círculo, punta reversa cortante, hebra 45 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 1800,
+            "desc": "Nylon monofilamento N° 3/0, aguja 60 mm recta, punta reversa cortante, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 560,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1749.47,
+                "marca": "J&J ETHILON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1121,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6 ALT 1",
+            "cant": 1800,
+            "desc": "Nylon monofilamento N° 3/0, aguja 60 mm recta, punta reversa cortante, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 400,
+            "desc": "Nylon monofilamento N° 4/0, aguja 15 mm 3/8 círculo, punta reversa cortante, hebra 45 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 560,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 607.42,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3045.81,
+                "marca": "J&J ETHILON (obj) aguja 13 mm ≠ 15 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1251,
+                "marca": "TAGUM (obj) aguja 13 mm ≠ 15 mm pliego (Origen: Perú)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              }
+            ]
+          },
+          {
+            "reng": "7 ALT 1",
+            "cant": 400,
+            "desc": "Nylon monofilamento N° 4/0, aguja 15 mm 3/8 círculo, punta reversa cortante, hebra 45 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 1500,
+            "desc": "Ácido poliglicólico N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1250,
+                "marca": "Surgimax",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1177.33,
+                "marca": "SURGIKAL (Origen: India)",
+                "bg_precio": "naranja",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3536.45,
+                "marca": "J&J VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1992,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8 ALT 1",
+            "cant": 1500,
+            "desc": "Ácido poliglicólico N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 2500,
+            "desc": "Ácido poliglicólico N° 2, aguja 40 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1295,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4502.7,
+                "marca": "J&J VICRYL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2322,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9 ALT 1",
+            "cant": 2500,
+            "desc": "Ácido poliglicólico N° 2, aguja 40 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1824,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9 ALT 2",
+            "cant": 2500,
+            "desc": "Ácido poliglicólico N° 2, aguja 50 mm 1/2 círculo, punta redonda, hebra 90 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1340,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 1000,
+            "desc": "Ácido poliglicólico N° 2/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1188,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1196.69,
+                "marca": "SURGIKAL (obj) aguja 26 mm, hebra 45 cm ≠ 25 mm, 70 cm pliego (Origen: India)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3009.81,
+                "marca": "J&J VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1786,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10 ALT 1",
+            "cant": 1000,
+            "desc": "Ácido poliglicólico N° 2/0, aguja 25 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 900,
+            "desc": "Ácido poliglicólico N° 3/0, aguja 20 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1280,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1187.01,
+                "marca": "SURGIKAL (obj) hebra 75 cm ≠ 70 cm pliego (Origen: India)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3009.81,
+                "marca": "J&J VICRYL PLUS (obj) aguja 22 mm ≠ 20 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1786,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 1",
+            "cant": 900,
+            "desc": "Ácido poliglicólico N° 3/0, aguja 20 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 400,
+            "desc": "Ácido poliglicólico N° 4/0, aguja 15 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1280,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1216.05,
+                "marca": "SURGIKAL (obj) aguja 17 mm, hebra 75 cm ≠ 15 mm, 70 cm pliego (Origen: India)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3009.81,
+                "marca": "J&J VICRYL PLUS (obj) aguja 17 mm ≠ 15 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1786,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12 ALT 1",
+            "cant": 400,
+            "desc": "Ácido poliglicólico N° 4/0, aguja 15 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "13",
+            "cant": 100,
+            "desc": "Ácido poliglicólico N° 5/0, aguja 15 mm 1/2 círculo, punta redonda, hebra 70 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1253.56,
+                "marca": "SURGIKAL (obj) aguja 17 mm, hebra 75 cm ≠ 15 mm, 70 cm pliego (Origen: India)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3009.81,
+                "marca": "J&J VICRYL PLUS (obj) aguja 17 mm ≠ 15 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1786,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14",
+            "cant": 200,
+            "desc": "Polipropileno N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1404,
+                "marca": "Surgimax",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1690.37,
+                "marca": "SURGIKAL (obj) aguja 36 mm ≠ 40 mm pliego (alternativa)",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.7,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4564.22,
+                "marca": "J&J PROLENE (obj) aguja 35 mm ≠ 40 mm pliego",
+                "bg_precio": "obj",
+                "bg_marca": "",
+                "obj": true
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2471,
+                "marca": "TAGUM (Origen: Perú)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "14 ALT 1",
+            "cant": 200,
+            "desc": "Polipropileno N° 1, aguja 40 mm 1/2 círculo, punta redonda, hebra 75 cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Base de precios con IVA incluido. Cardiopack cotiza con IVA (se tomó la columna \"con IVA\"), Cirugía Argentina cotiza \"con IVA\" y Martorani \"neto-neto\" (el pliego pide precio neto con impuestos incluidos, art. 9.3). Sedesa y ABLE no discriminan IVA; se usó el precio tal cual. Se cruzó contra el Anexo III del pliego. Solo se incluyen los renglones donde ABLE cotiza (R1, R5 a R14). ABLE no cotizó R2, R3 ni R4. Las ALT de ABLE van solas. Cirugía Argentina cotiza R5 y R9 como \"Alt\" y Cardiopack cotiza R14 como alternativa; se cargaron en la fila base. Desvíos de ABLE vs pliego: R5 hebra 45 cm (pide 75 cm); R8 hebra 70 cm (pide 90 cm, la ALT 1 de 90 cm cumple); R9 aguja 40 mm y hebra 70 cm (pide 45 mm y 90 cm; la ALT 2 tiene hebra 90 cm pero aguja 50 mm). R1, R6, R7 y R10 a R14 cumplen. Se marcó (obj) solo donde el desvío del competidor está explícito en el pliego y ABLE cumple esa especificación: aguja en R5 (25 mm vs 20), R7 (13 mm vs 15), R11 (22 mm vs 20), R12 y R13 (17 mm vs 15) y R14 (35/36 mm vs 40); hebra y aguja de Cardiopack en R10, R11, R12 y R13. En R8, R9 y R5 (hebra) no se marcó porque ABLE también se aparta del pliego. R8: Cardiopack (Origen: India) $1.177,33 y ABLE $1.250 (+6,2%): preferencia nacional. Cardiopack cotiza punta reforzada y hebra 75 cm contra punta redonda y 90 cm del pliego; con la ALT 1 de ABLE (90 cm, $1.335) la diferencia es +13,4% y no aplica. R11 y R12: Cardiopack (obj) queda por debajo de ABLE ($1.187,01 vs $1.280 y $1.216,05 vs $1.280): victoria condicional, se resuelve por impugnación. R10: Cardiopack (obj) $1.196,69 queda +0,7% sobre ABLE; ABLE gana. Sedesa cotiza menos unidades que las pedidas (R5 1.488, R7 384, R8 1.476, R9 2.484, R10 972, R12 396, R13 72 y R14 180); se comparó por precio unitario. Muestras: el pliego pide muestras de todos los renglones en el Servicio de Farmacia, de lunes a viernes de 9 a 12, con fecha límite 23/11/2026 a las 10:00; la cláusula tiene lugar y horario completos, por lo que es válida. Verificar que ABLE las haya entregado. Monto base ABLE $11.907.800 (renglones base, sin ALT); el stub dice $9.907.800. El total de $28.115.300 de su Excel suma también las ALT."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-24T15:24:35.242Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 461
+  "nextId": 463
 }
