@@ -136167,14 +136167,14 @@
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-11-20",
+      "adj_monto_able": 736665,
+      "adj_resumen": "Adjudicados a ABLE los renglones 2 (cofia descartable elastizada, 10.000 u. x $29,50 = $295.000) y 3 (camisolín hemorrepelente SMS 45 g, 350 u. x $1.261,90 = $441.665), total $736.665, según Disposición DISPO-2026-1181-GDEBA-HZGNSLLMSALGP. El renglón 4 no se adjudicó a ABLE (provisto por nivel central). Fecha tomada de la OC 249/2026 (20/11/2026).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-11-20",
+      "oc_alertas": "OC 249/2026 del 20/11/2026 (Disposición DISPO-2026-1181-GDEBA-HZGNSLLMSALGP): R2 10.000 u. x $29,50 = $295.000 y R3 350 u. x $1.261,90 = $441.665; total $736.665. Entrega en la Farmacia Central del Hospital Zonal Ntra. Sra. de Luján (San Martín 1750), días y horario a convenir con el Servicio, según necesidades y hasta el 31/12/2026. Pago dentro de los 60 días hábiles de presentada la factura. Ampliaciones hasta 100%, sin prórroga. Remito original y 2 copias; en la factura especificar número y marca de los elementos entregados.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 736665,
@@ -136361,11 +136361,35 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pre-adjudicación",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Gana ABLE en los renglones 2, 3 y 4. En el 4 sigue Pharma Center $1.282,00 (ABLE −1,6%). ALT 1 (reng.3 y 4): las de ABLE (30 g) se apartan del pliego (reng.3 pide mín. 40 g/m²; reng.4 pide SMS 45 gr); la ALT de Pharma Center en el reng.4 (40 g, $1.114,00) tampoco cumple los 45 gr. Reng.4 ALT 1: ABLE $870,00 vs $1.114,00. Reng.2: Euro Swiss ofrece cofia plisada 15 gr; el pliego pide cofia elastizada con elástico (no lo aclara en su oferta). Max Continental cotiza solo los renglones 7, 8 y 12 (ABLE no cotiza), por eso no figura en la tabla. Pharma Center ofrece en el reng.3 un camisolín de 50 g. Precios de fotos escaneadas. Monto cotizado ABLE (sin ALT): $10.200.915,00.",
-      "creado": "2026-10-16T11:55:00.773Z"
+      "creado": "2026-10-16T11:55:00.773Z",
+      "renglones_adj": [
+        {
+          "reng": "2",
+          "desc": "Cofia descartable elastizada, marca ArgentCare",
+          "cant": 10000,
+          "precio_able": 29.5,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 41.35,
+          "ganador_sig": "Euro Swiss S.A.",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "3",
+          "desc": "Camisolín no estéril, hemorrepelente tela SMS de 45 grs., descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 350,
+          "precio_able": 1261.9,
+          "marca": "ArgentCare",
+          "resultado": "adj",
+          "precio_siguiente": 2096,
+          "ganador_sig": "Droguería Pharma Center S.R.L.",
+          "motivo": "asesoramiento técnico"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-29",
