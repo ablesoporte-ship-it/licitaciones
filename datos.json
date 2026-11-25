@@ -161374,12 +161374,24 @@
       "creado": "2026-11-20T18:21:15.615Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-11-20",
+      "preadj_empate_ok": "No",
+      "preadj_pref_ok": "No",
+      "renglones_preadj": [
+        {
+          "reng": "1",
+          "desc": "Bolsa urostomía drenable transparente, 1 pieza, con aro recortable de 15 a 70 mm",
+          "cant": 540,
+          "precio_able": 3600,
+          "marca": "ABLE",
+          "resultado": "adj",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "motivo": "menor_precio"
+        }
+      ],
+      "gestion_pre": "Dictamen de preadjudicación aprobada del 20/11/2026 (Comisión Asesora de Preadjudicaciones, Hospital de Gestión Descentralizado Región Sanitaria XII). ABLE preadjudicada en el R1 por única oferta y ajustarse a la solicitud médica: 540 u. x $3.600 = $1.944.000. Período de consumo desde el 25/11/2026 hasta el 31/12/2026.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
@@ -161431,7 +161443,7 @@
       "mayor": "No",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "Pre-adjudicación",
       "empate": "No",
       "pref": "No",
       "obs": "ABLE es el único oferente (renglón 1). Con un solo precio no se asigna ningún color ni aplica empate técnico ni preferencia nacional. Precio unitario $3.600 tal cual figura en el Excel de ABLE (540 u. x $3.600 = $1.944.000, coincide con el stub). El Excel no discrimina IVA. No se adjuntó pliego: no se pudo cruzar contra las especificaciones. Se tomó la descripción del Excel de ABLE.",
