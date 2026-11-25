@@ -155537,47 +155537,6 @@
       "gestion_manual": false,
       "gestion_manual_nota": "",
       "ampliaciones": [],
-      "tabla": null,
-      "id": 434,
-      "entidad": "Mun de San Miguel",
-      "nro": "PA 118",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-25",
-      "monto": 65186500,
-      "mayor": "Sí",
-      "zona": "Zona Norte",
-      "agente": "Diego",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-18T18:21:41.088Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
       "tabla": {
         "oferentes": [
           "ABLE S.A.",
@@ -164561,7 +164520,395 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 474,
+      "entidad": "Mun de San Miguel",
+      "nro": "LP 118",
+      "tipo": "Procedimiento Abreviado",
+      "fecha": "2026-11-25",
+      "monto": 65187400,
+      "mayor": "Sí",
+      "zona": "Zona Norte",
+      "agente": "Diego",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual, sin discriminar IVA (Ceosmédica aclara IVA incluido). Se cruzó contra el Pedido de Cotización N° 4489. ABLE gana R2, R3, R4 y R6 por menor precio. No cotizó R1 ni R5. Licitación municipal: sin empate técnico ni preferencia nacional. R3 ALT 1 de ABLE: SMS de 30 grs; el pedido pide 35 grs y costura soldada. Ceosmédica no detalla la costura soldada en R2 y R3 (obs.). Monto base ABLE $65.187.400 sin ALT (el stub dice $65.186.500); el total de $128.029.900 de su oferta suma la ALT 1.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Pharma Express S.A.",
+          "Ciudad Hospitalaria S.R.L.",
+          "Healthy Lab (Live In BA S.A.)",
+          "Medipack S.A.",
+          "Ceosmédica S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "2",
+            "cant": 1200,
+            "desc": "Camisolín de cirugía - camisolín quirúrgico en tela no tejida SMS de 45 grs. con refuerzo en SMS 35 grs. con costuras soldadas por ultrasonido. Hemorrepelente. Tipo Igaltex",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1320,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 2808.14,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria S.R.L.",
+                "precio": 3033.5,
+                "marca": "GROW",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live In BA S.A.)",
+                "precio": 1722.35,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 5249.54,
+                "marca": "GROW Y CO. SRL (tipo Igaltex)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceosmédica S.A.",
+                "precio": 3708,
+                "marca": "CLOTHIER (obs. puño ribb, no detalla costura soldada)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 1200,
+            "desc": "Camisolín de cirugía - camisolín quirúrgico en tela no tejida SMS de 45 grs. con refuerzo en SMS 35 grs. con costuras soldadas por ultrasonido. Hemorrepelente. Tipo Igaltex",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live In BA S.A.)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 7260,
+                "marca": "BLUEMED (tipo Igaltex), Alt.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceosmédica S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3",
+            "cant": 73500,
+            "desc": "Camisolín de cirugía - en tela no tejida SMS 35 grs. con costuras soldadas por ultrasonido tipo Igaltex",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 830,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 2174.98,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria S.R.L.",
+                "precio": 1663,
+                "marca": "GROW",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live In BA S.A.)",
+                "precio": 996.64,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 2326.92,
+                "marca": "GROW Y CO. SRL (tipo Igaltex)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceosmédica S.A.",
+                "precio": 2620,
+                "marca": "CLOTHIER (obs. no detalla costura soldada)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "3 ALT 1",
+            "cant": 73500,
+            "desc": "Camisolín no estéril hemorrepelente tela SMS de 30 grs, descartable, desde cuello hasta debajo de las rodillas, manga larga c/tiras de ajustes en cuello y cintura, con puño de algodón - ajustables en muñeca",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 855,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live In BA S.A.)",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 2401.38,
+                "marca": "BLUEMED (tipo Igaltex), Alt.",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceosmédica S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 60000,
+            "desc": "Cofia de tela no tejida, spunbond de 30/40 gr x m2",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 31.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 39.46,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria S.R.L.",
+                "precio": 34,
+                "marca": "DIMEX",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live In BA S.A.)",
+                "precio": 36.94,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 48.4,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceosmédica S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 28,
+            "desc": "Equipo de ropa descartable para cirugías de alto riesgo (4 camisolines quirúrgicos en tela trilaminada, campos, compresas y envoltorio cubre mesa, doble envase de pouch, estéril)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 25300,
+                "marca": "EBANO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Pharma Express S.A.",
+                "precio": 42401.86,
+                "marca": "EBANO",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ciudad Hospitalaria S.R.L.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Healthy Lab (Live In BA S.A.)",
+                "precio": 38546.62,
+                "marca": "HEALTHY LAB",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Medipack S.A.",
+                "precio": 63292.31,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Ceosmédica S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual, sin discriminar IVA (Ceosmédica aclara IVA incluido). Se cruzó contra el Pedido de Cotización N° 4489. ABLE gana R2, R3, R4 y R6 por menor precio. No cotizó R1 ni R5. Licitación municipal: sin empate técnico ni preferencia nacional. R3 ALT 1 de ABLE: SMS de 30 grs; el pedido pide 35 grs y costura soldada. Ceosmédica no detalla la costura soldada en R2 y R3 (obs.). Monto base ABLE $65.187.400 sin ALT (el stub dice $65.186.500); el total de $128.029.900 de su oferta suma la ALT 1."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-25T16:27:14.296Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 474
+  "nextId": 475
 }
