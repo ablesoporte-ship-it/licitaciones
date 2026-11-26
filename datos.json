@@ -154028,31 +154028,6 @@
       "creado": "2026-11-13T14:35:33.785Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 419,
       "entidad": "Htal Malvinas",
       "nro": "PA 154",
@@ -154062,10 +154037,1439 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
+      "etapa": "Comparativa",
+      "empate": "Sí",
+      "pref": "No",
+      "obs": "ABLE gana por precio R1, R5, R6, R7 y R9. Empate técnico con Max Continental en R2, R15 y R21 (+1,6%). R15: Cardiopack (obj, aguja curva ≠ recta del pliego) más barato que ABLE. Cardiopack más barato que ABLE en R4, R8, R10, R11, R12, R17 y R20 (origen no declarado). Cruce con pliego realizado. Monto base $11.077.920.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Cardiopack Argentina S.A.",
+          "Max Continental S.A.",
+          "Cirugía Argentina S.A.",
+          "Droguería Martorani S.A.",
+          "Sedesa S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "1",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 50mm, 1/2 Círc., punta Redonda, hebra de 90cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1691.93,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1722,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 4050.2,
+                "marca": "J&J ETHICON VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "1 ALT 1",
+            "cant": 1000,
+            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 70cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1238,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2",
+            "cant": 900,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 579,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 607.42,
+                "marca": "SURGIKAL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1091,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1848.81,
+                "marca": "J&J ETHILON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "2 ALT 1",
+            "cant": 900,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4",
+            "cant": 900,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 562,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 518,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1091,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1848.81,
+                "marca": "J&J 14504T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "4 ALT 1",
+            "cant": 900,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "5",
+            "cant": 500,
+            "desc": "Sutura de Catgut Lento N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2832,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "6",
+            "cant": 600,
+            "desc": "Sutura de Catgut Simple N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2832,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "7",
+            "cant": 1200,
+            "desc": "Sutura de Catgut Lento N° 2 con aguja, 1/2 círc., punta Redonda, hebra de 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 2970,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 3192,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8",
+            "cant": 500,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1180,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1005,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1408.77,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1652,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3033.88,
+                "marca": "J&J ETHICON VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "8 ALT 1",
+            "cant": 500,
+            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "9",
+            "cant": 48,
+            "desc": "Sutura de Polipropileno N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1600,
+                "marca": "ABLE",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 2512,
+                "marca": "SURGIKAL 2 agujas ≠ 1 aguja pliego",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2607.6,
+                "marca": "TAGUM 2 agujas ≠ 1 aguja pliego",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2608.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 6625.75,
+                "marca": "J&J 9557T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "10",
+            "cant": 144,
+            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1205,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1099,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1408.2,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2607.6,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3009.8,
+                "marca": "J&J ETHICON VICRYL PLUS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11",
+            "cant": 500,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1180,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 1052,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 1408.2,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 2307.6,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 2448.8,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 3033.88,
+                "marca": "J&J VCP339H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "11 ALT 1",
+            "cant": 500,
+            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1335,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12",
+            "cant": 300,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 579,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 534,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES (cotiza 12 unidades)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1091,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1897.46,
+                "marca": "J&J 14502T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "12 ALT 1",
+            "cant": 300,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15",
+            "cant": 300,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 579,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 518,
+                "marca": "SURGIKAL aguja curva ≠ recta pliego",
+                "bg_precio": "rosado",
+                "bg_marca": "rosado",
+                "obj": true
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1291,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1889.42,
+                "marca": "J&J 626H",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "15 ALT 1",
+            "cant": 300,
+            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17",
+            "cant": 400,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 562,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 534,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1091,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1860.97,
+                "marca": "J&J 14502T",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "17 ALT 1",
+            "cant": 400,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 579,
+                "marca": "Surgimax",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": 550,
+                "marca": "SURGIKAL",
+                "bg_precio": "verde",
+                "bg_marca": "verde",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1091,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1889.42,
+                "marca": "J&J ETHILON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "20 ALT 1",
+            "cant": 200,
+            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21",
+            "cant": 300,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 579,
+                "marca": "Surgimax",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": 569.97,
+                "marca": "MAXSUTURES",
+                "bg_precio": "amarillo",
+                "bg_marca": "amarillo",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": 1091,
+                "marca": "TAGUM",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 1348.1,
+                "marca": "MERIL",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": 1889.42,
+                "marca": "J&J ETHICON",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "21 ALT 1",
+            "cant": 300,
+            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 785,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cardiopack Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Max Continental S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Cirugía Argentina S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Sedesa S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual del cuadro comparativo del hospital (precio unitario); el Excel de ABLE coincide. Cruce con el Anexo III realizado. R15: el pliego pide aguja RECTA y Cardiopack cotiza curva 3/8 (obj); su precio queda por debajo de ABLE ($518 vs $579). Sin él, el renglón es empate técnico ABLE/Max (+1,6%). El pliego pide hebra de 45 cm y ABLE cotiza 75 cm. R9: el pliego pide 1 aguja; Cardiopack y Cirugía cotizan 2 agujas (obj), ambos más caros que ABLE. R2 y R21: empate técnico con Max (+1,6%). Max tiene Muestra \"No\" en todos los renglones; el pliego pide muestra en R2 y R15 (no en R21), pero el lugar y horario de entrega de muestras no están completados en el Anexo III. R5 y R6: el pliego pide hebra de 1,5 m; ABLE y Cirugía cotizan 70 cm. R5 pide catgut cromado y ABLE cotiza \"Lento\": verificar. Cardiopack queda por debajo de ABLE en R4, R8, R10, R11, R12, R17 y R20; el cuadro no indica origen, por lo que no aplica preferencia nacional (en R4, R10 y R12 la diferencia es de 8,4% a 9,7%). Monto base ABLE $11.077.920 (coincide con el stub). El total de $16.241.420 del Excel suma también las ALT."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
       "creado": "2026-11-13T14:35:34.147Z"
     },
     {
@@ -165553,1451 +166957,6 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
-    },
-    {
-      "id": 490,
-      "entidad": "H.Z.G.A. Heroes de Malvinas",
-      "nro": "PA 154",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-18",
-      "monto": 11077920,
-      "mayor": "Sí",
-      "zona": "Zona Oeste",
-      "agente": "Gonzalo",
-      "etapa": "Comparativa",
-      "empate": "Si",
-      "pref": "No",
-      "obs": "Precios tal cual del cuadro comparativo del hospital (precio unitario); el Excel de ABLE coincide. Cruce con el Anexo III realizado. R15: el pliego pide aguja RECTA y Cardiopack cotiza curva 3/8 (obj); su precio queda por debajo de ABLE ($518 vs $579). Sin él, el renglón es empate técnico ABLE/Max (+1,6%). El pliego pide hebra de 45 cm y ABLE cotiza 75 cm. R9: el pliego pide 1 aguja; Cardiopack y Cirugía cotizan 2 agujas (obj), ambos más caros que ABLE. R2 y R21: empate técnico con Max (+1,6%). Max tiene Muestra \"No\" en todos los renglones; el pliego pide muestra en R2 y R15 (no en R21), pero el lugar y horario de entrega de muestras no están completados en el Anexo III. R5 y R6: el pliego pide hebra de 1,5 m; ABLE y Cirugía cotizan 70 cm. R5 pide catgut cromado y ABLE cotiza \"Lento\": verificar. Cardiopack queda por debajo de ABLE en R4, R8, R10, R11, R12, R17 y R20; el cuadro no indica origen, por lo que no aplica preferencia nacional (en R4, R10 y R12 la diferencia es de 8,4% a 9,7%). Monto base ABLE $11.077.920 (coincide con el stub). El total de $16.241.420 del Excel suma también las ALT.",
-      "tabla": {
-        "oferentes": [
-          "ABLE S.A.",
-          "Cardiopack Argentina S.A.",
-          "Max Continental S.A.",
-          "Cirugía Argentina S.A.",
-          "Droguería Martorani S.A.",
-          "Sedesa S.A."
-        ],
-        "renglones": [
-          {
-            "reng": "1",
-            "cant": 1000,
-            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 50mm, 1/2 Círc., punta Redonda, hebra de 90cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1335,
-                "marca": "ABLE",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 1691.93,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1722,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 2448.8,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 4050.2,
-                "marca": "J&J ETHICON VICRYL PLUS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "1 ALT 1",
-            "cant": 1000,
-            "desc": "Sutura de Ácido Poliglicólico N° 1 con aguja de 40mm, 1/2 Círc., punta Redonda, hebra de 70cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1238,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "2",
-            "cant": 900,
-            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 579,
-                "marca": "Surgimax",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 607.42,
-                "marca": "SURGIKAL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1091,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1348.1,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1848.81,
-                "marca": "J&J ETHILON",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "2 ALT 1",
-            "cant": 900,
-            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "4",
-            "cant": 900,
-            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 562,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 518,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1091,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1348.1,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1848.81,
-                "marca": "J&J 14504T",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "4 ALT 1",
-            "cant": 900,
-            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "5",
-            "cant": 500,
-            "desc": "Sutura de Catgut Lento N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 2600,
-                "marca": "ABLE",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 2832,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "6",
-            "cant": 600,
-            "desc": "Sutura de Catgut Simple N° 1 con aguja de 35mm, 1/2 círc., punta Redonda, hebra de 70cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 2600,
-                "marca": "ABLE",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 2832,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "7",
-            "cant": 1200,
-            "desc": "Sutura de Catgut Lento N° 2 con aguja, 1/2 círc., punta Redonda, hebra de 70cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 2970,
-                "marca": "ABLE",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 3192,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "8",
-            "cant": 500,
-            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1180,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 1005,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 1408.77,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1652,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 2448.8,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 3033.88,
-                "marca": "J&J ETHICON VICRYL PLUS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "8 ALT 1",
-            "cant": 500,
-            "desc": "Sutura de Ácido Poliglicólico N° 3/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1335,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "9",
-            "cant": 48,
-            "desc": "Sutura de Polipropileno N° 4/0 con aguja de 25mm, 1/2 Círc., punta Redonda, hebra de 75cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1600,
-                "marca": "ABLE",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 2512,
-                "marca": "SURGIKAL (obj) 2 agujas ≠ 1 aguja pliego",
-                "bg_precio": "obj",
-                "bg_marca": "",
-                "obj": true
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 2607.6,
-                "marca": "TAGUM (obj) 2 agujas ≠ 1 aguja pliego",
-                "bg_precio": "obj",
-                "bg_marca": "",
-                "obj": true
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 2608.8,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 6625.75,
-                "marca": "J&J 9557T",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "10",
-            "cant": 144,
-            "desc": "Sutura de Ácido Poliglicólico N° 4/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1205,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 1099,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 1408.2,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 2607.6,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 2448.8,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 3009.8,
-                "marca": "J&J ETHICON VICRYL PLUS",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "11",
-            "cant": 500,
-            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1180,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 1052,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 1408.2,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 2307.6,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 2448.8,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 3033.88,
-                "marca": "J&J VCP339H",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "11 ALT 1",
-            "cant": 500,
-            "desc": "Sutura de Ácido Poliglicólico N° 2/0 con aguja, 1/2 Círc., punta Redonda, hebra de 70cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 1335,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "12",
-            "cant": 300,
-            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 579,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 534,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES (cotiza 12 unidades)",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1091,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1348.1,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1897.46,
-                "marca": "J&J 14502T",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "12 ALT 1",
-            "cant": 300,
-            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "15",
-            "cant": 300,
-            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 579,
-                "marca": "Surgimax",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 518,
-                "marca": "SURGIKAL (obj) aguja curva ≠ recta pliego",
-                "bg_precio": "obj",
-                "bg_marca": "",
-                "obj": true
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1291,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1889.42,
-                "marca": "J&J 626H",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "15 ALT 1",
-            "cant": 300,
-            "desc": "Sutura de Nylon Monofilamento N° 4/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "17",
-            "cant": 400,
-            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 562,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 534,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1091,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1348.1,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1860.97,
-                "marca": "J&J 14502T",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "17 ALT 1",
-            "cant": 400,
-            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja, 3/8 círc., punta Rev. cort., hebra de 45cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "20",
-            "cant": 200,
-            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 579,
-                "marca": "Surgimax",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": 550,
-                "marca": "SURGIKAL",
-                "bg_precio": "verde",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1091,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1348.1,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1889.42,
-                "marca": "J&J ETHILON",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "20 ALT 1",
-            "cant": 200,
-            "desc": "Sutura de Nylon Monofilamento N° 2/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "21",
-            "cant": 300,
-            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, recta, punta Rev. cort., hebra de 75cm",
-            "es_alt": false,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 579,
-                "marca": "Surgimax",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": 569.97,
-                "marca": "MAXSUTURES",
-                "bg_precio": "amarillo",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": 1091,
-                "marca": "TAGUM",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": 1348.1,
-                "marca": "MERIL",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": 1889.42,
-                "marca": "J&J ETHICON",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          },
-          {
-            "reng": "21 ALT 1",
-            "cant": 300,
-            "desc": "Sutura de Nylon Monofilamento N° 3/0 con aguja de 60mm, Recta, punta Rev. cort., hebra de 75cm",
-            "es_alt": true,
-            "celdas": [
-              {
-                "oferente": "ABLE S.A.",
-                "precio": 785,
-                "marca": "ABLE",
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cardiopack Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Max Continental S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Cirugía Argentina S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Droguería Martorani S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              },
-              {
-                "oferente": "Sedesa S.A.",
-                "precio": null,
-                "marca": null,
-                "bg_precio": "",
-                "bg_marca": "",
-                "obj": false
-              }
-            ]
-          }
-        ],
-        "notas": "Precios tal cual del cuadro comparativo del hospital (precio unitario); el Excel de ABLE coincide. Cruce con el Anexo III realizado. R15: el pliego pide aguja RECTA y Cardiopack cotiza curva 3/8 (obj); su precio queda por debajo de ABLE ($518 vs $579). Sin él, el renglón es empate técnico ABLE/Max (+1,6%). El pliego pide hebra de 45 cm y ABLE cotiza 75 cm. R9: el pliego pide 1 aguja; Cardiopack y Cirugía cotizan 2 agujas (obj), ambos más caros que ABLE. R2 y R21: empate técnico con Max (+1,6%). Max tiene Muestra \"No\" en todos los renglones; el pliego pide muestra en R2 y R15 (no en R21), pero el lugar y horario de entrega de muestras no están completados en el Anexo III. R5 y R6: el pliego pide hebra de 1,5 m; ABLE y Cirugía cotizan 70 cm. R5 pide catgut cromado y ABLE cotiza \"Lento\": verificar. Cardiopack queda por debajo de ABLE en R4, R8, R10, R11, R12, R17 y R20; el cuadro no indica origen, por lo que no aplica preferencia nacional (en R4, R10 y R12 la diferencia es de 8,4% a 9,7%). Monto base ABLE $11.077.920 (coincide con el stub). El total de $16.241.420 del Excel suma también las ALT."
-      },
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "creado": "2026-11-26T12:35:36.544Z"
     }
   ],
   "nextId": 491
