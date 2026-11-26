@@ -156678,47 +156678,6 @@
       "gestion_manual_nota": "",
       "ampliaciones": [],
       "tabla": null,
-      "id": 429,
-      "entidad": "Htal Narciso Lopez",
-      "nro": "PA 92",
-      "tipo": "Procedimiento Abreviado",
-      "fecha": "2026-11-24",
-      "monto": 738200,
-      "mayor": "No",
-      "zona": "Zona Sur",
-      "agente": "Noe",
-      "etapa": "Pendiente",
-      "empate": "",
-      "pref": "",
-      "obs": "",
-      "creado": "2026-11-17T12:54:44.033Z"
-    },
-    {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
-      "gestion_post": "",
-      "gestion_post_resultado": "",
-      "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
-      "adj_alertas": "",
-      "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
-      "adelanto": false,
-      "adelanto_monto": 0,
-      "adelanto_total_preadj": 0,
-      "adelanto_obs": "",
-      "gestion_manual": false,
-      "gestion_manual_nota": "",
-      "ampliaciones": [],
-      "tabla": null,
       "id": 432,
       "entidad": "H.Z.G.A. Horacio Cestino",
       "nro": "PA 83",
@@ -166957,7 +166916,217 @@
       "adelanto_total_preadj": 0,
       "adelanto_obs": "",
       "ampliaciones": []
+    },
+    {
+      "id": 491,
+      "entidad": "Htal Narciso Lopez",
+      "nro": "LP 92",
+      "tipo": "Privada",
+      "fecha": "2026-11-24",
+      "monto": 738200,
+      "mayor": "No",
+      "zona": "Zona Sur",
+      "agente": "Noe",
+      "etapa": "Comparativa",
+      "empate": "No",
+      "pref": "No",
+      "obs": "Precios tal cual de los presupuestos presentados; no se informa discriminación de IVA. Cruce con el Anexo III realizado. R26: el pliego pide cubrecalzado con cintas ajustables y ABLE cotiza con elástico (igual que Euro Swiss). Martorani cotiza por unidad ($68,90, +6,0% sobre ABLE $73) y no declara origen. Farmatec y Euro Swiss cotizan por par: van en la fila ALT 1, donde ABLE ($130) es el precio más bajo. R27: Martorani (Aurinco) $995,90 queda +2,2% por debajo de ABLE; sin origen declarado no aplica preferencia nacional. Euro Swiss revende producto de Suturas Argentinas a $1.320,80. R28: el pliego pide cofia elastizada y Euro Swiss cotiza plisada. Martorani copia la descripción del pliego. Monto base ABLE $738.200 (coincide con el stub). El total de $1.518.200 del Excel suma también la ALT.",
+      "tabla": {
+        "oferentes": [
+          "ABLE S.A.",
+          "Droguería Farmatec S.A.",
+          "Droguería Martorani S.A.",
+          "Euro Swiss S.A."
+        ],
+        "renglones": [
+          {
+            "reng": "26",
+            "cant": 6000,
+            "desc": "Cubrecalzado con elástico, descartable, no estéril, con tela no tejida, no deslizable y resistente a las rasgaduras, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 73,
+                "marca": "ArgentCare",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 68.9,
+                "marca": "PEMED",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "26 ALT 1",
+            "cant": 6000,
+            "desc": "Par de cubrecalzados con elástico, descartables, no estériles, con tela no tejida, no deslizables y resistentes a las rasgaduras, marca ArgentCare",
+            "es_alt": true,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 130,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 406,
+                "marca": "BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": null,
+                "marca": null,
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 311.14,
+                "marca": "KRATEC (por par)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "27",
+            "cant": 150,
+            "desc": "Bajalenguas adultos por 100 unidades - Marca ABLE (Industria argentina)",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 1018,
+                "marca": "ABLE",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 1152,
+                "marca": "CLERICOT/LISFAR",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 995.9,
+                "marca": "AURINCO",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 1320.8,
+                "marca": "SUTURAS ARGENTINAS",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          },
+          {
+            "reng": "28",
+            "cant": 5000,
+            "desc": "Cofia descartable elastizada, marca ArgentCare",
+            "es_alt": false,
+            "celdas": [
+              {
+                "oferente": "ABLE S.A.",
+                "precio": 29.5,
+                "marca": "ArgentCare",
+                "bg_precio": "verde",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Farmatec S.A.",
+                "precio": 37.6,
+                "marca": "NOVAMED/BLUEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Droguería Martorani S.A.",
+                "precio": 39.9,
+                "marca": "PEMED",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              },
+              {
+                "oferente": "Euro Swiss S.A.",
+                "precio": 49.42,
+                "marca": "EURO SWISS (obs. plisada 15 gr)",
+                "bg_precio": "",
+                "bg_marca": "",
+                "obj": false
+              }
+            ]
+          }
+        ],
+        "notas": "Precios tal cual de los presupuestos presentados; no se informa discriminación de IVA. Cruce con el Anexo III realizado. R26: el pliego pide cubrecalzado con cintas ajustables y ABLE cotiza con elástico (igual que Euro Swiss). Martorani cotiza por unidad ($68,90, +6,0% sobre ABLE $73) y no declara origen. Farmatec y Euro Swiss cotizan por par: van en la fila ALT 1, donde ABLE ($130) es el precio más bajo. R27: Martorani (Aurinco) $995,90 queda +2,2% por debajo de ABLE; sin origen declarado no aplica preferencia nacional. Euro Swiss revende producto de Suturas Argentinas a $1.320,80. R28: el pliego pide cofia elastizada y Euro Swiss cotiza plisada. Martorani copia la descripción del pliego. Monto base ABLE $738.200 (coincide con el stub). El total de $1.518.200 del Excel suma también la ALT."
+      },
+      "preadj_fecha": "",
+      "preadj_empate_ok": "",
+      "preadj_pref_ok": "",
+      "gestion_pre": "",
+      "gestion_pre_resultado": "",
+      "adj_recibida": false,
+      "adj_fecha": "",
+      "adj_monto_able": 0,
+      "adj_resumen": "",
+      "adj_alertas": "",
+      "adj_tiene_alerta": false,
+      "gestion_post": "",
+      "gestion_post_resultado": "",
+      "oc": "Pendiente",
+      "oc_fecha": "",
+      "oc_alertas": "",
+      "creado": "2026-11-26T13:46:27.200Z",
+      "gestion_manual": false,
+      "gestion_manual_nota": "",
+      "adelanto": false,
+      "adelanto_monto": 0,
+      "adelanto_total_preadj": 0,
+      "adelanto_obs": "",
+      "ampliaciones": []
     }
   ],
-  "nextId": 491
+  "nextId": 492
 }
