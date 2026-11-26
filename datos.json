@@ -120947,23 +120947,57 @@
       "creado": "2026-10-08T14:49:11.015Z"
     },
     {
-      "preadj_fecha": "",
-      "preadj_empate_ok": "",
-      "preadj_pref_ok": "",
-      "renglones_preadj": null,
-      "gestion_pre": "",
-      "gestion_pre_resultado": "",
+      "preadj_fecha": "2026-11-25",
+      "preadj_empate_ok": "N/A",
+      "preadj_pref_ok": "N/A",
+      "renglones_preadj": [
+        {
+          "reng": "6",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 2300,
+          "marca": "ArgentCare",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6 ALT 1",
+          "desc": "Camisolin esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 2150,
+          "marca": "ArgentCare",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "resultado": "no_adj",
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "7",
+          "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 1450,
+          "marca": "ArgentCare",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "resultado": "adj",
+          "motivo": "Live in BA ($1.250, 30 gr) no adjudicado; ABLE adjudicada por el hospital"
+        }
+      ],
+      "gestion_pre": "Sin acta de preadjudicación; se arma desde la OC abierta 84/8-2976-OCA26 (25/11/2026). ABLE adjudicada en R6 y R7. Total $11.850.000,00.",
+      "gestion_pre_resultado": "Ganado",
       "gestion_post": "",
       "gestion_post_resultado": "",
       "adj_recibida": false,
-      "adj_fecha": "",
-      "adj_monto_able": 0,
-      "adj_resumen": "",
+      "adj_fecha": "2026-11-25",
+      "adj_monto_able": 11850000,
+      "adj_resumen": "ABLE adjudicada en R6 (2.000 u. x $2.300 = $4.600.000) y R7 (5.000 u. x $1.450 = $7.250.000). Total ABLE $11.850.000. La ALT 1 del R6 no se adjudicó. Fecha tomada de la OC (sin acta de adjudicación).",
       "adj_alertas": "",
       "adj_tiene_alerta": false,
-      "oc": "Pendiente",
-      "oc_fecha": "",
-      "oc_alertas": "",
+      "oc": "Correcta",
+      "oc_fecha": "2026-11-25",
+      "oc_alertas": "OC Nro. 84/8-2976-OCA26 (Orden de Compra Abierta), fecha 25/11/2026. EX-2026-90981104- -APN-HMCM#EA, Licitación Privada 84/8-1440-LPR26. Destino: Hospital General 602 Campo de Mayo (U.E. 84/08, SAF 374 Estado Mayor General del Ejército), Presidente Ricchieri S/N. Vigencia 25/11/2026 al 25/03/2027 (120 días corridos). R6 camisolín estéril (cód. 2.9.5-4198.18), 2.000 u. x $2.300,00 = $4.600.000,00. R7 camisolín con puño elástico (cód. 2.2.2-915.3), 5.000 u. x $1.450,00 = $7.250.000,00. Total $11.850.000,00. Autorizó Carlos Fernando Garbarino, Jefe de Departamento.",
       "adelanto": false,
       "adelanto_monto": 0,
       "adelanto_total_preadj": 0,
@@ -121283,11 +121317,46 @@
       "mayor": "Sí",
       "zona": "Zona Oeste",
       "agente": "Gonzalo",
-      "etapa": "Comparativa",
+      "etapa": "OC",
       "empate": "No",
       "pref": "No",
       "obs": "Reng.6: ABLE gana ($2.300 vs Pharma Center $2.723, +18,4%). Reng.7: gana Live in BA con $1.250 (camisolín 30 gr puño elástico) contra $1.450 de ABLE (+16,0%): sin empate técnico ni preferencia nacional. El resto de los oferentes del reng.7 cotiza entre $2.106,25 y $4.500. Cuadro comparativo oficial (9 oferentes); solo se incluyen los renglones donde ABLE cotiza (6 y 7 y su ALT). Sin pliego ni base de IVA confirmada en el cuadro: precios tomados tal cual figuran. Live in BA ofrece 30 gr y ABLE 45 gr (no se pudo cruzar contra el pliego). Monto base ABLE $11.850.000,00.",
-      "creado": "2026-10-08T18:16:52.777Z"
+      "creado": "2026-10-08T18:16:52.777Z",
+      "renglones_adj": [
+        {
+          "reng": "6",
+          "desc": "Camisolín estéril en doble envoltorio, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 2300,
+          "marca": "ArgentCare",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "resultado": "adj",
+          "motivo": "menor_precio"
+        },
+        {
+          "reng": "6 ALT 1",
+          "desc": "Camisolin esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 2000,
+          "precio_able": 2150,
+          "marca": "ArgentCare",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "resultado": "no_adj",
+          "motivo": "no_preadjudicado"
+        },
+        {
+          "reng": "7",
+          "desc": "Camisolin no esteril, hemorrepelente tela SMS de 45Grs., descartable, desde cuello hasta debajo de las rodillas, manga larga- c/tiras de ajuste en cuello y cintura, con puños de algodón, ajustables en muñeca - marca ArgentCare",
+          "cant": 5000,
+          "precio_able": 1450,
+          "marca": "ArgentCare",
+          "precio_siguiente": null,
+          "ganador_sig": null,
+          "resultado": "adj",
+          "motivo": "Live in BA ($1.250, 30 gr) no adjudicado; ABLE adjudicada por el hospital"
+        }
+      ]
     },
     {
       "preadj_fecha": "2026-10-16",
